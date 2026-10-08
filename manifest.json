@@ -1,7 +1,7 @@
 {
   "name": "Apuração Presidente 2026",
   "short_name": "Apuração",
-  "description": "Apuração ao vivo de Presidente 2026 (2º turno) direto do TSE e pesquisas eleitorais.",
+  "description": "Apuração ao vivo de Presidente 2026 (2º turno) direto do TSE e pesquisas eleitorais. Criado por Fábio Lins e Silva.",
   "lang": "pt-BR",
   "id": "./",
   "start_url": "./?origem=app",
@@ -11,12 +11,41 @@
   "background_color": "#ffffff",
   "theme_color": "#1f4fa8",
   "icons": [
-    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
-    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
-    {"src": "icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
-    {"src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "shortcuts": [
-    {"name": "Pesquisas", "url": "./?origem=app#pesquisas", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+    {
+      "name": "Pesquisas",
+      "url": "./?origem=app#pesquisas",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }

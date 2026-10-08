@@ -147,3 +147,7 @@ hr{border:0;border-top:1.5px solid var(--linha);margin:12px 0}
 .pq-vazia .pq-sum{cursor:default}
 .aviso2t{margin-top:8px;background:#eaf1fc;color:var(--azul);border-radius:8px;padding:6px 10px;font-size:13px;font-weight:800;text-align:center}
 .pq-prev{font-size:11.5px;color:#6b7488;font-weight:600;margin-top:2px}
+.autoria{max-width:560px;margin:4px auto 6px;padding:6px 10px calc(env(safe-area-inset-bottom) + 14px);text-align:center;color:var(--lula);
+         font-weight:800;font-size:clamp(14px,3.9vw,16px);line-height:1.4}
+.autoria a{color:var(--lula);text-decoration:underline;text-underline-offset:2px;font-weight:900}
+.autoria .sep{margin:0 2px}
