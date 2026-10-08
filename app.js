@@ -87,6 +87,8 @@ function calcular(d) {
     brancos: num(v.vb), pbrancos: num(v.pvb), nulos: num(v.tvn), pnulos: num(v.ptvn),
     abst: num(e.a), pabst: num(e.pa), comp: num(e.c), pcomp: num(e.pc), eleitores: num(e.te),
     turno: d.t, hora: hora || "—",
+    ele: String(d.ele || ELE || ""), ncand: new Set(cands.map(c => c.n)).size,
+    st: num(s.st), ts: num(s.ts), te: num(e.te),
   };
 }
 
@@ -121,6 +123,51 @@ function mostrar(r) {
          st = `${lid} na frente por ${fint(Math.abs(f.votos - l.votos))} votos`; }
   $("status").textContent = st;
   $("hora").textContent = r.hora;
+  mostrarEleito(r);
+}
+
+/* PRESIDENTE ELEITO: definido quando a diferença entre os dois é MAIOR que todos os votos que ainda podem entrar
+   (regra conservadora: todo eleitor das seções ainda não totalizadas vai votar e vota no 2º colocado).
+   Ainda podem entrar = eleitorado total (e.te) − comparecimento já apurado (e.c) − abstenção já apurada (e.a);
+   com 100% das seções totalizadas (s.st = s.ts) não entra mais nada. O selo "Eleito" do próprio TSE também decide. */
+function definicao(r) {
+  const f = r.linhas.flavio, l = r.linhas.lula;
+  const aplica = r.turno === "2" && r.ncand === 2;
+  const restam = r.ts > 0 && r.st >= r.ts ? 0 : Math.max(0, r.te - r.comp - r.abst);
+  const dif = Math.abs(f.votos - l.votos);
+  const lider = f.votos > l.votos ? "flavio" : l.votos > f.votos ? "lula" : null;
+  let venc = null, porTSE = false;
+  if (aplica && (f.eleito || l.eleito)) { venc = f.eleito ? "flavio" : "lula"; porTSE = true; }
+  else if (aplica && lider && dif > restam) venc = lider;
+  return {aplica, restam, dif, lider, venc, porTSE};
+}
+const NOME_ELEITO = {flavio: "FLÁVIO BOLSONARO", lula: "LULA"};
+function mostrarEleito(r) {
+  const box = $("eleito"), d = definicao(r);
+  box.className = "eleito";
+  if (!d.aplica) {
+    box.innerHTML = `<div class="el-t">PRESIDENTE ELEITO: <span class="el-ag">aguardando definição matemática</span></div>
+      <div class="el-s">(teste) ${r.turno === "1" ? "1º turno" : "eleição sem 2 candidatos"}: o cálculo só vale no 2º turno</div>`;
+    return;
+  }
+  const chave = "eleito_" + r.ele;
+  let mem = null; try { mem = JSON.parse(localStorage.getItem(chave) || "null"); } catch (e) {}
+  if (d.venc) {
+    if (!mem || mem.v !== d.venc) { mem = {v: d.venc, pu: r.pu, tse: d.porTSE}; localStorage.setItem(chave, JSON.stringify(mem)); }
+  } else if (mem && mem.v !== d.lider) mem = null;      // dados corrigidos pelo TSE: não mostra vencedor antigo
+  const venc = d.venc || (mem && mem.v);
+  if (venc) {
+    box.className = "eleito ok " + venc;
+    box.innerHTML = `<div class="el-t">PRESIDENTE ELEITO:</div><div class="el-nome">${NOME_ELEITO[venc]}</div>
+      <div class="el-s">${mem.tse ? "confirmado pelo TSE" : "definido matematicamente"} com <b>${fpctBig(mem.pu)}</b> das urnas apuradas</div>`;
+    return;
+  }
+  box.innerHTML = `<div class="el-t">PRESIDENTE ELEITO: <span class="el-ag">aguardando definição matemática</span></div>
+    <div class="el-s">Diferença: <b>${fint(d.dif)}</b> votos · Ainda podem entrar: <b>${fint(d.restam)}</b> votos</div>`;
+}
+function eleitoEspera() {
+  const box = $("eleito"); box.className = "eleito compacto";
+  box.innerHTML = `<div class="el-t">PRESIDENTE ELEITO: <span class="el-ag">aguardando definição matemática</span></div>`;
 }
 
 const fpctBig = x => x >= 100 ? "100%" : x >= 99.995 ? "99,99%" : fpct(Math.max(0, x));
@@ -144,7 +191,7 @@ let timerContagem = null;
 function modoEspera(sim) {
   $("espera").hidden = !sim; $("resultado").hidden = sim;
   $("linhaHora").hidden = sim;
-  if (sim) zerarCandidatos();
+  if (sim) { zerarCandidatos(); eleitoEspera(); }
   clearInterval(timerContagem);
   if (sim) { contagem(); timerContagem = setInterval(contagem, 1000); }
 }

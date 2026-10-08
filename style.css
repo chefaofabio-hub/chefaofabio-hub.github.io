@@ -203,3 +203,22 @@ nav.nav a{position:relative}
 .alerta-msg{margin-top:6px;background:#fff6e0;color:#6b4d00;border-radius:10px;padding:8px 10px;font-size:13.5px;font-weight:700;text-align:center;line-height:1.35}
 .inst-btn.alerta-btn{background:#c8102e;width:auto}
 .aviso-graf{margin-top:8px;background:#fdecee;border:1.5px solid #f3b3bd;color:#c8102e;border-radius:10px;padding:8px 10px;font-size:clamp(14px,4vw,16px);font-weight:900;text-transform:uppercase;text-align:center;line-height:1.3}
+
+/* presidente eleito (definição matemática) */
+.eleito{margin-top:12px;border:2px dashed #b9c3d6;background:#f6f8fc;border-radius:12px;padding:9px 10px;text-align:center;color:#3c4659}
+.el-t{font-weight:900;font-size:clamp(14px,4vw,16px);letter-spacing:.2px}
+.el-ag{font-weight:700;color:#5f697d}
+.el-s{margin-top:3px;font-size:13px;font-weight:600;color:#5f697d}
+.el-s b{color:#141c2d}
+.eleito.compacto{padding:6px 10px;margin-top:10px}
+.eleito.ok{border:0;color:#fff;padding:12px 10px 11px;box-shadow:0 6px 18px rgba(0,0,0,.18);animation:elpop .6s ease-out}
+.eleito.ok.flavio{background:linear-gradient(135deg,#1f4fa8,#163a7e)}
+.eleito.ok.lula{background:linear-gradient(135deg,#c8102e,#9b0c23)}
+.eleito.ok .el-t{font-size:14px;letter-spacing:1px;opacity:.95}
+.eleito.ok .el-nome{font-weight:900;font-size:clamp(26px,8vw,34px);line-height:1.1;margin:2px 0 3px;letter-spacing:.3px}
+.eleito.ok .el-s{color:#fff;opacity:.95;font-size:13.5px}
+.eleito.ok .el-s b{color:#fff}
+@keyframes elpop{0%{transform:scale(.9);opacity:0}60%{transform:scale(1.03);opacity:1}100%{transform:scale(1)}}
+.eleito.compacto{padding:5px 8px;margin-top:8px;border-width:1.5px}
+.eleito.compacto .el-t{font-size:13px;line-height:1.3}
+.eleito.compacto + .espera{padding-top:6px}
