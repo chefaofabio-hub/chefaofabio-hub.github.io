@@ -26,7 +26,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=15">
+<link rel="stylesheet" href="style.css?v=16">
 </head>
 <body>
 <nav class="nav" id="nav">
@@ -38,18 +38,19 @@
   <h1>APURAÇÃO PRESIDENTE</h1>
   <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
   <div class="subt">Domingo, 25/10/2026 · Brasil</div>
-  <div class="urnas" id="linhaUrnas">Urnas apuradas: <b id="pu">—</b>&nbsp; · &nbsp;Faltam: <b id="pf">—</b></div>
-  <hr>
+  <div class="urnasbox" id="linhaUrnas">
+    <div class="ub-l1"><b id="pu">0,00%</b><span>DAS URNAS<br>APURADAS</span></div>
+    <div class="ub-prog"><i id="puBar"></i></div>
+    <div class="ub-l2" id="ubL2">Faltam <b id="pf">100%</b> das urnas</div>
+  </div>
+  <div class="cab"><span>% DOS VOTOS VÁLIDOS · TSE</span><span class="leg"><i></i>50%</span></div>
+  <div id="lista"></div>
   <div id="espera" class="espera" hidden>
-    <div class="esp-ic"><img src="icons/icon-192.png" alt=""></div>
-    <div class="esp-t">A apuração começa em<br><b>25/10 às 17h</b></div>
+    <div class="esp-t">A apuração começa em <b class="nw">25/10 às 17h</b></div>
     <div class="esp-s">horário de Brasília · fechamento das urnas</div>
     <div class="contagem" id="contagem"></div>
-    <div class="esp-n">Deixe o app aberto ou volte no domingo: os números aparecem aqui sozinhos, direto do TSE.</div>
   </div>
   <div id="resultado">
-    <div class="cab"><span>% DOS VOTOS VÁLIDOS · TSE</span><span class="leg"><i></i>50%</span></div>
-    <div id="lista"></div>
     <hr>
     <div class="extras" id="extras"></div>
     <div class="status" id="status">Carregando dados do TSE…</div>
@@ -88,6 +89,6 @@
   <span>Instale o app na tela inicial</span><button id="btnInstalar">Instalar</button>
 </div>
 
-<script src="app.js?v=15"></script>
+<script src="app.js?v=16"></script>
 </body>
 </html>

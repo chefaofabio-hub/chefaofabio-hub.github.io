@@ -152,3 +152,23 @@ hr{border:0;border-top:1.5px solid var(--linha);margin:12px 0}
 .autoria .sep{margin:0 2px}
 .autoria + .rod{margin-top:6px}
 @media (max-width:440px){.autoria .sep{display:none}.autoria a{display:inline-block;margin-top:1px}.autoria .nome{display:block}}
+/* % de urnas apuradas em destaque */
+.urnasbox{margin-top:12px;background:#eaf1fc;border:2px solid var(--azul);border-radius:14px;padding:10px 14px 10px}
+.ub-l1{display:flex;align-items:center;gap:10px}
+.ub-l1 b{font-size:clamp(38px,11.5vw,52px);font-weight:900;color:var(--azul);line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.5px}
+.ub-l1 span{font-size:clamp(14px,4vw,18px);font-weight:900;color:var(--azul);line-height:1.1;letter-spacing:.3px}
+.ub-prog{height:14px;background:#fff;border-radius:7px;overflow:hidden;margin-top:8px;border:1px solid #c9d6ee}
+.ub-prog i{display:block;height:100%;width:0;background:#16803d;border-radius:7px;transition:width .6s ease}
+.ub-l2{margin-top:5px;font-size:13px;font-weight:600;color:var(--cinza)}
+.ub-l2 b{color:var(--txt);font-weight:800}
+.urnasbox + .cab{margin-top:14px}
+.espera{padding:12px 4px 2px}
+.esp-t{font-size:clamp(17px,4.9vw,22px);margin-top:0}
+.esp-t b{font-size:1.15em}
+.esp-s{font-size:12px}
+.contagem{margin:10px 0 4px}
+.contagem div{padding:6px 6px}
+.cand[data-chave=flavio] .nome,.cand[data-chave=flavio] .pct{color:var(--flavio)}
+.cand[data-chave=lula] .nome,.cand[data-chave=lula] .pct{color:var(--lula)}
+.cand[data-chave=flavio] .trilho{background:#dde7f8;box-shadow:inset 0 0 0 1.5px #b9cbee}
+.cand[data-chave=lula] .trilho{background:#fbe4e8;box-shadow:inset 0 0 0 1.5px #f1bcc5}

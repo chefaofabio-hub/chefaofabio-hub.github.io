@@ -94,8 +94,7 @@ let assinatura = "";
 function mostrar(r) {
   const ass = JSON.stringify([r.linhas, r.pu]);
   const mudou = assinatura && ass !== assinatura; assinatura = ass;
-  $("pu").textContent = fpctUrna(r.pu);
-  $("pf").textContent = fpctUrna(Math.max(0, 100 - r.pu));
+  mostrarUrnas(r.pu);
   const maxp = Math.max(0, ...Object.values(r.linhas).map(l => l.pct));
   const escala = maxp <= 57 ? 60 : (maxp <= 77 ? 80 : 100);
   for (const [k, l] of Object.entries(r.linhas)) {
@@ -124,10 +123,28 @@ function mostrar(r) {
   $("hora").textContent = r.hora;
 }
 
+const fpctBig = x => x >= 100 ? "100%" : x >= 99.995 ? "99,99%" : fpct(Math.max(0, x));
+function mostrarUrnas(pu) {
+  $("pu").textContent = fpctBig(pu);
+  $("puBar").style.width = Math.min(100, Math.max(0, pu)) + "%";
+  $("pf").textContent = fpctBig(Math.max(0, 100 - pu));
+  $("ubL2").hidden = pu >= 100;
+}
+function zerarCandidatos() {          // antes da apuração: candidatos com 0 votos e 0,00%
+  for (const e of Object.values(els)) {
+    e.querySelector(".v").textContent = "0";
+    e.querySelector(".pct").textContent = fpct(0);
+    e.querySelector(".barra").style.width = "0";
+    e.querySelector(".m50").style.left = (50 / 60 * 100) + "%";
+    e.querySelector(".selo").hidden = true;
+  }
+  mostrarUrnas(0);
+}
 let timerContagem = null;
 function modoEspera(sim) {
   $("espera").hidden = !sim; $("resultado").hidden = sim;
-  $("linhaUrnas").hidden = sim; $("linhaHora").hidden = sim;
+  $("linhaHora").hidden = sim;
+  if (sim) zerarCandidatos();
   clearInterval(timerContagem);
   if (sim) { contagem(); timerContagem = setInterval(contagem, 1000); }
 }
