@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apuração Presidente 2026 · 2º turno</title>
+<meta name="description" content="Apuração ao vivo de Presidente 2026 (2º turno), direto do TSE, e pesquisas eleitorais Flávio x Lula.">
+<meta property="og:title" content="Apuração Presidente 2026 · 2º turno">
+<meta property="og:description" content="Flávio Bolsonaro x Lula: apuração ao vivo direto do TSE e todas as pesquisas. Toque para abrir e instalar no celular.">
+<meta property="og:image" content="https://chefaofabio-hub.github.io/og.png?v=1">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:url" content="https://chefaofabio-hub.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1f4fa8">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Apuração">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=12">
+</head>
+<body>
+<nav class="nav" id="nav">
+  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<small>eleitorais</small></a>
+</nav>
+
+<!-- ABA APURAÇÃO -->
+<main class="quadro aba" id="aba-apuracao">
+  <h1>APURAÇÃO PRESIDENTE</h1>
+  <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
+  <div class="subt">Domingo, 25/10/2026 · Brasil</div>
+  <div class="urnas" id="linhaUrnas">Urnas apuradas: <b id="pu">—</b>&nbsp; · &nbsp;Faltam: <b id="pf">—</b></div>
+  <hr>
+  <div id="espera" class="espera" hidden>
+    <div class="esp-ic"><img src="icons/icon-192.png" alt=""></div>
+    <div class="esp-t">A apuração começa em<br><b>25/10 às 17h</b></div>
+    <div class="esp-s">horário de Brasília · fechamento das urnas</div>
+    <div class="contagem" id="contagem"></div>
+    <div class="esp-n">Deixe o app aberto ou volte no domingo: os números aparecem aqui sozinhos, direto do TSE.</div>
+  </div>
+  <div id="resultado">
+    <div class="cab"><span>% DOS VOTOS VÁLIDOS · TSE</span><span class="leg"><i></i>50%</span></div>
+    <div id="lista"></div>
+    <hr>
+    <div class="extras" id="extras"></div>
+    <div class="status" id="status">Carregando dados do TSE…</div>
+  </div>
+  <div class="rod"><b>Fonte oficial: Tribunal Superior Eleitoral (TSE)</b> <span class="nw" id="linhaHora">· totalizado às <span id="hora">—</span></span></div>
+  <div class="vivo" id="vivo"><span class="pt"></span><span id="vivotxt">conectando…</span></div>
+  <div class="aviso-teste" hidden></div>
+</main>
+
+<!-- ABA REGIÕES -->
+<main class="quadro aba" id="aba-regioes" hidden>
+  <h1>VOTAÇÃO POR REGIÃO</h1>
+  <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
+  <div class="subt">Domingo, 25/10/2026 · % dos votos válidos em cada região</div>
+  <hr>
+  <div id="regioes" class="regioes"></div>
+  <div class="rod"><b>Fonte oficial: Tribunal Superior Eleitoral (TSE)</b> <span class="nw">· soma dos resultados de cada estado</span></div>
+  <div class="vivo"><span class="pt"></span><span id="ufHora">conectando…</span></div>
+  <div class="aviso-teste" hidden></div>
+</main>
+
+<!-- ABA PESQUISAS -->
+<main class="quadro aba" id="aba-pesquisas" hidden>
+  <h1>PESQUISAS ELEITORAIS</h1>
+  <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
+  <div class="aviso2t">Somente pesquisas feitas após o 1º turno (entrevistas a partir de 05/10)</div>
+  <div class="nota">Uma linha por instituto, com a pesquisa mais recente de cada um. Toque na linha para ver detalhes, registro no TSE e a fonte.</div>
+  <div id="cartoes"></div>
+  <div class="rod" id="pesqRod">—</div>
+</main>
+
+<div class="instalar" id="instalar" hidden>
+  <span>Instale o app na tela inicial</span><button id="btnInstalar">Instalar</button>
+</div>
+
+<script src="app.js?v=12"></script>
+</body>
+</html>

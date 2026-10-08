@@ -1,0 +1,52 @@
+{
+  "atualizado_em": "2026-10-08",
+  "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app.",
+  "inicio_2turno": "2026-10-05",
+  "institutos": [
+    {
+      "nome": "Datafolha",
+      "prevista": "divulgação prevista hoje, 08/10 · BR-02949/2026"
+    },
+    {
+      "nome": "Quaest"
+    },
+    {
+      "nome": "AtlasIntel",
+      "prevista": "divulgação prevista 09/10 · BR-03663/2026"
+    },
+    {
+      "nome": "PoderData"
+    },
+    {
+      "nome": "Veritá"
+    },
+    {
+      "nome": "Gerp"
+    },
+    {
+      "nome": "Real Time Big Data"
+    },
+    {
+      "nome": "Paraná Pesquisas"
+    }
+  ],
+  "pesquisas": [
+    {
+      "instituto": "PoderData",
+      "contratante": "Recursos próprios (parceria de divulgação Aya)",
+      "divulgacao": "2026-10-08",
+      "campo_inicio": "2026-10-05",
+      "campo": "05 a 07/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-08134/2026",
+      "entrevistas": 3000,
+      "base": "validos",
+      "flavio": 53,
+      "lula": 47,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1,8",
+      "obs": "Números divulgados em votos válidos.",
+      "fonte": "https://www.cartacapital.com.br/politica/pesquisa-poder-aya-mostra-flavio-6-pontos-a-frente-de-lula/"
+    }
+  ]
+}
