@@ -12,3 +12,10 @@ Teste: `?ele=6257` (mostra o 1º turno direto do TSE, com aviso de MODO TESTE).
 
 ## Atualizar pesquisas
 Edite `pesquisas.json` (instruções no campo `como_editar`) e publique com `bash /workspace/app_presidente/publicar.sh "mensagem"`.
+
+## Alertas de nova pesquisa (Web Push, sem custo)
+- No app: aba Pesquisas → "🔔 Ativar alertas de nova pesquisa" (no app instalado aparece também no topo).
+- Coletor de inscrições: `bash /workspace/app_presidente/servir_push.sh` (servidor Python + túnel cloudflared; publica o endereço em `push_endpoint.json`). Rodar de novo se o túnel cair.
+- Envio automático: `publicar.sh` detecta pesquisa nova em `pesquisas.json` e avisa todos os inscritos depois que o site atualiza. `publicar.sh --sem-alerta "msg"` publica sem avisar.
+- Envio manual: `bash /workspace/app_presidente/notificar.sh "Título" "Texto"`.
+- Chaves VAPID e inscrições ficam só no box em `/workspace/app_presidente/push/` (nunca no repositório).

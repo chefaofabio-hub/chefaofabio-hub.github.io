@@ -31,15 +31,19 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=17">
+<link rel="stylesheet" href="style.css?v=18">
 </head>
 <body>
 <nav class="nav" id="nav">
-  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<small>eleitorais</small></a>
+  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a>
 </nav>
 <div class="inst" id="inst" hidden>
   <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
   <button class="inst-x" id="instX" aria-label="Agora não">×</button>
+</div>
+<div class="inst" id="alertaTopo" hidden>
+  <button class="inst-btn alerta-btn" id="btnAlertaTopo">🔔 Ativar alertas de nova pesquisa <small>aviso no celular quando sair pesquisa nova</small></button>
+  <button class="inst-x" id="alertaTopoX" aria-label="Agora não">×</button>
 </div>
 
 <!-- ABA APURAÇÃO -->
@@ -88,6 +92,10 @@
   <h1>PESQUISAS ELEITORAIS</h1>
   <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
   <div class="aviso2t">Somente pesquisas feitas após o 1º turno (entrevistas a partir de 05/10)</div>
+  <div class="alerta" id="alertaBox" hidden>
+    <button class="alerta-btn" id="btnAlerta">🔔 Ativar alertas de nova pesquisa <small>aviso no celular quando sair pesquisa nova</small></button>
+    <div class="alerta-msg" id="alertaMsg" hidden></div>
+  </div>
   <div class="nota">Uma linha por instituto, com a pesquisa mais recente de cada um. Toque na linha para ver detalhes, registro no TSE e a fonte.</div>
   <div id="cartoes"></div>
   <div class="autoria"><span class="nome">CRIADO POR FÁBIO LINS E SILVA</span> <span class="sep">·</span> <a href="tel:+5521971902990" class="nw">(21) 97190-2990</a></div>
@@ -102,6 +110,6 @@
   </div>
 </div>
 
-<script src="app.js?v=17"></script>
+<script src="app.js?v=18"></script>
 </body>
 </html>

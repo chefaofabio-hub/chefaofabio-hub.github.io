@@ -30,7 +30,7 @@ function abrirAba() {
   const aba = abaAtual();
   for (const a of document.querySelectorAll("#nav a")) a.classList.toggle("atual", a.dataset.aba === aba);
   for (const x of ABAS) $("aba-" + x).hidden = x !== aba;
-  if (aba === "pesquisas") carregarPesquisas();
+  if (aba === "pesquisas") { carregarPesquisas(); limparAviso(); }
   if (aba === "regioes") { desenharRegioes(); if (Date.now() - ufUltima > 20000) atualizarEstados(); }
 }
 window.addEventListener("hashchange", abrirAba);
@@ -267,6 +267,7 @@ async function carregarPesquisas() {
                      .filter(i => i && i.nome && !porInst.has(chave(i.nome)));   // institutos sem pesquisa ainda
     $("cartoes").innerHTML = grupos.length || espera.length ? grupos.map(linhaInstituto).join("") + espera.map(linhaEspera).join("") :
       `<div class="vazio">Nenhuma pesquisa cadastrada ainda.</div>`;
+    marcarUltima(ps);
     $("pesqRod").innerHTML = `<b>${grupos.length + espera.length} institutos · ${ps.length} pesquisa${ps.length === 1 ? "" : "s"} do 2º turno</b> · lista atualizada em ${esc(dataBR(dados.atualizado_em || ""))}`;
   } catch (e) {
     if (!$("cartoes").innerHTML) $("cartoes").innerHTML = `<div class="vazio">Não consegui carregar as pesquisas agora. Tente de novo em instantes.</div>`;
@@ -408,13 +409,115 @@ $("btnInst").addEventListener("click", async () => {
       `No celular, abra ${LINK} e toque em <b>📲 Instalar app</b>.`]) + botaoCopiar);
   }
 });
+
+/* ---------------- alertas de nova pesquisa (Web Push + bolinha no ícone) ---------------- */
+const VAPID = "BFe70NXlcfbErji3jzju-T2_kF667r3gsqnkxK9_fkv5byx07Yuoc9nv5gqezaCWtlzuzcNpNu8iAnETxLW1E0E";   // chave PÚBLICA (a privada fica só no servidor do Fábio)
+const PUSH_OK = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window && location.protocol === "https:";
+const idPesq = p => `${p.instituto.trim().toLowerCase()}|${p.divulgacao}|${(p.registro || "").trim()}`;
+let ultimaPesq = null;
+function marcarUltima(ps) {             // ps: pesquisas válidas do 2º turno, mais recente primeiro
+  ultimaPesq = ps.length ? idPesq(ps[0]) : null;
+  if (abaAtual() === "pesquisas" && !document.hidden) limparAviso(); else mostrarPonto();
+}
+function mostrarPonto() { $("pontoPesq").hidden = !ultimaPesq || localStorage.getItem("pesqVista") === ultimaPesq; }
+function limparAviso() {
+  if (ultimaPesq) localStorage.setItem("pesqVista", ultimaPesq);
+  mostrarPonto();
+  try { navigator.clearAppBadge?.(); } catch (e) {}
+  navigator.serviceWorker?.ready.then(r => r.getNotifications?.({tag: "nova-pesquisa"})).then(ns => (ns || []).forEach(n => n.close())).catch(() => {});
+}
+async function checarNovas() {          // leve: só para a bolinha "!" na aba Pesquisas
+  if (abaAtual() === "pesquisas") return carregarPesquisas();
+  try {
+    const d = await (await fetch("pesquisas.json?t=" + Date.now(), {cache: "no-store"})).json();
+    const corte = d.inicio_2turno || "2026-10-05";
+    marcarUltima((d.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null && p.campo_inicio && p.campo_inicio >= corte)
+      .sort((a, b) => b.divulgacao.localeCompare(a.divulgacao)));
+  } catch (e) {}
+}
+const b64u8 = b => { const s = atob((b + "=".repeat((4 - b.length % 4) % 4)).replace(/-/g, "+").replace(/_/g, "/")); return Uint8Array.from(s, c => c.charCodeAt(0)); };
+async function enviarInscricao(sub, rota = "subscribe") {
+  const ep = await (await fetch("push_endpoint.json?t=" + Date.now(), {cache: "no-store"})).json();
+  const r = await fetch(ep.url.replace(/\/$/, "") + "/" + rota, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(sub)});
+  if (!r.ok) throw new Error("coletor " + r.status);
+  if (rota === "subscribe") localStorage.setItem("alertaEnviado", Date.now() + " " + sub.endpoint);
+}
+function msgAlerta(t) { const m = $("alertaMsg"); m.innerHTML = t || ""; m.hidden = !t; }
+function estadoAlerta() {
+  const box = $("alertaBox"), btn = $("btnAlerta");
+  const ativo = localStorage.getItem("alertaAtivo") === "1" && PUSH_OK && Notification.permission === "granted";
+  box.hidden = false;
+  if (ativo) {
+    btn.hidden = true;
+    let ok = $("alertaOk");
+    if (!ok) { ok = document.createElement("div"); ok.id = "alertaOk"; ok.className = "alerta-ok"; box.prepend(ok); }
+    ok.hidden = false;
+    ok.innerHTML = `✅ Alertas ativados: você será avisado quando sair pesquisa nova <button id="alertaDesl">desativar</button>`;
+    $("alertaDesl").onclick = desativarAlertas;
+  } else { btn.hidden = false; if ($("alertaOk")) $("alertaOk").hidden = true; }
+  const fechado = +localStorage.getItem("alertaFechado") || 0;
+  $("alertaTopo").hidden = !(PUSH_OK && instalado() && !ativo && Notification.permission !== "denied" && Date.now() - fechado > UM_DIA);
+}
+async function ativarAlertas() {
+  msgAlerta("");
+  if (!PUSH_OK) {
+    if (IOS && !instalado()) {
+      msgAlerta("No iPhone, <b>instale o app primeiro</b> para ativar alertas: toque em <b>📲 Instalar app</b>, abra pelo ícone da urna e toque aqui de novo.");
+      setTimeout(() => $("btnInst").click(), 900);
+    } else if (IOS) msgAlerta("Seu iPhone precisa do iOS 16.4 ou mais novo para receber alertas.");
+    else msgAlerta("Este navegador não aceita alertas. Abra o app no <b>Chrome</b> (Android) ou no <b>Safari</b> (iPhone).");
+    return;
+  }
+  if (Notification.permission === "denied") { msgAlerta("Os alertas estão <b>bloqueados</b> para este app. Libere em Ajustes/Configurações do celular → Notificações."); return; }
+  const btns = [$("btnAlerta"), $("btnAlertaTopo")]; btns.forEach(b => b.disabled = true);
+  try {
+    const perm = await Notification.requestPermission();
+    if (perm !== "granted") { msgAlerta("Sem permissão, não dá para avisar. Se mudar de ideia, toque de novo e escolha <b>Permitir</b>."); return; }
+    const reg = await navigator.serviceWorker.ready;
+    const sub = await reg.pushManager.getSubscription() || await reg.pushManager.subscribe({userVisibleOnly: true, applicationServerKey: b64u8(VAPID)});
+    localStorage.setItem("alertaAtivo", "1"); localStorage.removeItem("alertaEnviado");
+    try { await enviarInscricao(sub.toJSON()); } catch (e) { /* tenta de novo na próxima vez que abrir o app */ }
+    estadoAlerta();
+  } catch (e) {
+    msgAlerta("Não consegui ativar agora. Tente de novo em instantes.");
+  } finally { btns.forEach(b => b.disabled = false); }
+}
+async function desativarAlertas() {
+  localStorage.removeItem("alertaAtivo"); localStorage.removeItem("alertaEnviado");
+  try { const reg = await navigator.serviceWorker.ready; const sub = await reg.pushManager.getSubscription();
+        if (sub) { const j = sub.toJSON(); await sub.unsubscribe(); enviarInscricao(j, "unsubscribe").catch(() => {}); } } catch (e) {}
+  estadoAlerta();
+}
+async function conferirInscricao() {    // reenvia se o envio falhou, se a inscrição mudou ou a cada 3 dias
+  if (!PUSH_OK || localStorage.getItem("alertaAtivo") !== "1" || Notification.permission !== "granted") return;
+  try {
+    const reg = await navigator.serviceWorker.ready;
+    let sub = await reg.pushManager.getSubscription();
+    if (!sub) sub = await reg.pushManager.subscribe({userVisibleOnly: true, applicationServerKey: b64u8(VAPID)});
+    const [quando, ep] = (localStorage.getItem("alertaEnviado") || "0 ").split(" ");
+    if (ep !== sub.endpoint || Date.now() - +quando > 3 * UM_DIA) await enviarInscricao(sub.toJSON());
+  } catch (e) {}
+}
+$("btnAlerta").addEventListener("click", ativarAlertas);
+$("btnAlertaTopo").addEventListener("click", () => { ativarAlertas().then(() => { if ($("alertaMsg").textContent) location.hash = "#pesquisas"; }); });
+$("alertaTopoX").addEventListener("click", () => { localStorage.setItem("alertaFechado", String(Date.now())); $("alertaTopo").hidden = true; });
+navigator.serviceWorker?.addEventListener("message", e => {
+  const d = e.data || {};
+  if (d.tipo === "push") { window.__pushes = (window.__pushes || []).concat(d); checarNovas(); }
+  if (d.tipo === "abrir") { location.hash = "#pesquisas"; }
+});
+matchMedia("(display-mode: standalone)").addEventListener?.("change", estadoAlerta);
+
 mostrarBotaoInst();
 if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
 
 /* ---------------- início ---------------- */
 if (TESTE || ELE_FORCADA) for (const av of document.querySelectorAll(".aviso-teste")) { av.hidden = false; av.textContent = `MODO TESTE: mostrando ${TESTE || "eleição " + ELE_FORCADA} (não é o 2º turno)`; }
 abrirAba();
+estadoAlerta();
+checarNovas();
+conferirInscricao();
 atualizar();
 setInterval(atualizar, INTERVALO_MS);
-setInterval(() => { if (location.hash === "#pesquisas") carregarPesquisas(); }, 5 * 60000);
-document.addEventListener("visibilitychange", () => { if (!document.hidden) { atualizar(); atualizarEstados(); if (location.hash === "#pesquisas") carregarPesquisas(); } });
+setInterval(checarNovas, 5 * 60000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) { atualizar(); atualizarEstados(); checarNovas(); conferirInscricao(); } });
