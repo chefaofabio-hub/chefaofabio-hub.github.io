@@ -126,7 +126,7 @@ function mostrar(r) {
   mostrarEleito(r);
 }
 
-/* PRESIDENTE ELEITO: definido quando a diferença entre os dois é MAIOR que todos os votos que ainda podem entrar
+/* CANDIDATO ELEITO: definido quando a diferença entre os dois é MAIOR que todos os votos que ainda podem entrar
    (regra conservadora: todo eleitor das seções ainda não totalizadas vai votar e vota no 2º colocado).
    Ainda podem entrar = eleitorado total (e.te) − comparecimento já apurado (e.c) − abstenção já apurada (e.a);
    com 100% das seções totalizadas (s.st = s.ts) não entra mais nada. O selo "Eleito" do próprio TSE também decide. */
@@ -141,12 +141,14 @@ function definicao(r) {
   else if (aplica && lider && dif > restam) venc = lider;
   return {aplica, restam, dif, lider, venc, porTSE};
 }
+const BANDEIRA = `<svg class="el-flag" viewBox="0 0 28 20" width="28" height="20" aria-hidden="true"><rect width="28" height="20" rx="3.5" fill="#009c3b"/><path d="M14 2.6 25.2 10 14 17.4 2.8 10Z" fill="#ffdf00"/><circle cx="14" cy="10" r="5" fill="#002776"/><path d="M9.2 9.1Q14 7.3 18.9 10.7" fill="none" stroke="#fff" stroke-width="1.15"/></svg>`;
+const cabEleito = (resto = "") => `<div class="el-t">${BANDEIRA}<span class="el-lab">CANDIDATO ELEITO:</span>${resto ? " " + resto : ""}</div>`;
 const NOME_ELEITO = {flavio: "FLÁVIO BOLSONARO", lula: "LULA"};
 function mostrarEleito(r) {
   const box = $("eleito"), d = definicao(r);
   box.className = "eleito";
   if (!d.aplica) {
-    box.innerHTML = `<div class="el-t">PRESIDENTE ELEITO: <span class="el-ag">aguardando definição matemática</span></div>
+    box.innerHTML = `${cabEleito('<span class="el-ag">aguardando definição matemática</span>')}
       <div class="el-s">(teste) ${r.turno === "1" ? "1º turno" : "eleição sem 2 candidatos"}: o cálculo só vale no 2º turno</div>`;
     return;
   }
@@ -158,16 +160,16 @@ function mostrarEleito(r) {
   const venc = d.venc || (mem && mem.v);
   if (venc) {
     box.className = "eleito ok " + venc;
-    box.innerHTML = `<div class="el-t">PRESIDENTE ELEITO:</div><div class="el-nome">${NOME_ELEITO[venc]}</div>
+    box.innerHTML = `${cabEleito()}<div class="el-nome">${NOME_ELEITO[venc]}</div>
       <div class="el-s">${mem.tse ? "confirmado pelo TSE" : "definido matematicamente"} com <b>${fpctBig(mem.pu)}</b> das urnas apuradas</div>`;
     return;
   }
-  box.innerHTML = `<div class="el-t">PRESIDENTE ELEITO: <span class="el-ag">aguardando definição matemática</span></div>
+  box.innerHTML = `${cabEleito('<span class="el-ag">aguardando definição matemática</span>')}
     <div class="el-s">Diferença: <b>${fint(d.dif)}</b> votos · Ainda podem entrar: <b>${fint(d.restam)}</b> votos</div>`;
 }
 function eleitoEspera() {
   const box = $("eleito"); box.className = "eleito compacto";
-  box.innerHTML = `<div class="el-t">PRESIDENTE ELEITO: <span class="el-ag">aguardando definição matemática</span></div>`;
+  box.innerHTML = `${cabEleito('<span class="el-ag">aguardando definição matemática</span>')}`;
 }
 
 const fpctBig = x => x >= 100 ? "100%" : x >= 99.995 ? "99,99%" : fpct(Math.max(0, x));
