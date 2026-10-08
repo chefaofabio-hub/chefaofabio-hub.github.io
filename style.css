@@ -151,3 +151,4 @@ hr{border:0;border-top:1.5px solid var(--linha);margin:12px 0}
 .autoria a{color:var(--lula);text-decoration:underline;text-underline-offset:2px}
 .autoria .sep{margin:0 2px}
 .autoria + .rod{margin-top:6px}
+@media (max-width:440px){.autoria .sep{display:none}.autoria a{display:inline-block;margin-top:1px}.autoria .nome{display:block}}
