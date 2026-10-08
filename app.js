@@ -341,21 +341,74 @@ function linhaInstituto(lista) {
 
 
 /* ---------------- instalação / PWA ---------------- */
+const UA = navigator.userAgent;
+const IOS = /iphone|ipad|ipod/i.test(UA) || (/Macintosh/.test(UA) && navigator.maxTouchPoints > 1);
+const ANDROID = /android/i.test(UA);
+const IOS_OUTRO = IOS && /CriOS|FxiOS|EdgiOS|OPiOS|GSA\/|FBAN|FBAV|Instagram|WhatsApp|Line\//i.test(UA);   // iOS fora do Safari
+const ANDROID_APP = ANDROID && /; wv\)|WhatsApp|FBAN|FBAV|Instagram|Line\//i.test(UA);                     // navegador interno de app
+const instalado = () => matchMedia("(display-mode: standalone)").matches || matchMedia("(display-mode: fullscreen)").matches || navigator.standalone === true;
+const UM_DIA = 864e5;
 let promptInstalar = null;
-window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); promptInstalar = e; $("instalar").hidden = false; });
-$("btnInstalar").addEventListener("click", async () => {
-  if (promptInstalar) { promptInstalar.prompt(); await promptInstalar.userChoice; promptInstalar = null; }
-  $("instalar").hidden = true;
-});
-(function dicaIOS() {
-  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent), standalone = navigator.standalone || matchMedia("(display-mode: standalone)").matches;
-  if (ios && !standalone && !localStorage.getItem("dicaIOS")) {
-    $("instalar").firstElementChild.textContent = "Para instalar: Compartilhar ⬆︎ → Adicionar à Tela de Início";
-    $("btnInstalar").textContent = "OK";
-    $("instalar").hidden = false;
-    $("btnInstalar").addEventListener("click", () => localStorage.setItem("dicaIOS", "1"));
+function mostrarBotaoInst() {
+  const fechado = +localStorage.getItem("instFechado") || 0;
+  $("inst").hidden = instalado() || localStorage.getItem("instalado") === "1" || Date.now() - fechado < UM_DIA;
+}
+window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); promptInstalar = e; mostrarBotaoInst(); });
+window.addEventListener("appinstalled", () => { localStorage.setItem("instalado", "1"); $("inst").hidden = true; fecharSheet(); });
+matchMedia("(display-mode: standalone)").addEventListener?.("change", mostrarBotaoInst);
+$("instX").addEventListener("click", () => { localStorage.setItem("instFechado", String(Date.now())); $("inst").hidden = true; });
+
+const LINK = "https://chefaofabio-hub.github.io/";
+const passos = arr => `<ol class="passos">${arr.map(t => `<li>${t}</li>`).join("")}</ol>`;
+const botaoCopiar = `<button class="sheet-copiar" id="btnCopiar">Copiar link do app</button><div class="sheet-link">${LINK}</div>`;
+const ICO_COMPART = `<svg class="ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5" fill="none" stroke="#1f6fe5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 10H6.5A1.5 1.5 0 0 0 5 11.5v8A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 17.5 10H16" fill="none" stroke="#1f6fe5" stroke-width="2" stroke-linecap="round"/></svg>`;
+function abrirSheet(titulo, html) {
+  $("sheetT").textContent = titulo; $("sheetC").innerHTML = html; $("sheet").hidden = false;
+  const c = $("btnCopiar");
+  if (c) c.addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(LINK); c.textContent = "Link copiado ✓"; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(document.querySelector(".sheet-link")); getSelection().removeAllRanges(); getSelection().addRange(r); c.textContent = "Selecione e copie o link abaixo"; }
+  });
+}
+function fecharSheet() { $("sheet").hidden = true; }
+$("sheetX").addEventListener("click", fecharSheet);
+$("sheet").addEventListener("click", e => { if (e.target === $("sheet")) fecharSheet(); });
+
+$("btnInst").addEventListener("click", async () => {
+  if (promptInstalar) {                                     // Android / Chrome / Edge / Samsung: janela nativa
+    promptInstalar.prompt();
+    const r = await promptInstalar.userChoice.catch(() => null); promptInstalar = null;
+    if (r && r.outcome === "accepted") { localStorage.setItem("instalado", "1"); $("inst").hidden = true; }
+    return;
   }
-})();
+  if (IOS && IOS_OUTRO) {
+    abrirSheet("Abra no Safari primeiro", `<p>No iPhone, o app só pode ser instalado pelo <b>Safari</b>.</p>` + passos([
+      `Toque em <b>⋯</b> ou no ícone da <b>bússola</b> e escolha <b>“Abrir no Safari”</b> (ou copie o link abaixo e cole no Safari).`,
+      `No Safari, toque em <b>📲 Instalar app</b> de novo e siga os passos.`]) + botaoCopiar);
+  } else if (IOS) {
+    abrirSheet("Instalar no iPhone", passos([
+      `Toque no botão <b>Compartilhar</b> ${ICO_COMPART} (quadrado com seta para cima), na barra do Safari.`,
+      `Role e toque em <b>“Adicionar à Tela de Início”</b>.`,
+      `Toque em <b>“Adicionar”</b>. Pronto: o ícone da urna aparece na tela do celular.`]) +
+      `<p class="sheet-dica">Abriu pelo WhatsApp? Toque primeiro em <b>⋯</b> / <b>bússola</b> → <b>“Abrir no Safari”</b>.</p>` + botaoCopiar);
+  } else if (ANDROID_APP) {
+    abrirSheet("Abra no Chrome primeiro", passos([
+      `Toque no menu <b>⋮</b> (três pontinhos, no canto de cima).`,
+      `Escolha <b>“Abrir no Chrome”</b> (ou “Abrir no navegador”).`,
+      `No Chrome, toque em <b>📲 Instalar app</b>.`]) + botaoCopiar);
+  } else if (ANDROID) {
+    abrirSheet("Instalar no Android", passos([
+      `Toque no menu <b>⋮</b> do navegador (canto de cima).`,
+      `Escolha <b>“Instalar app”</b> ou <b>“Adicionar à tela inicial”</b>.`,
+      `Confirme em <b>“Instalar”</b>. O ícone da urna aparece na tela do celular.`]) +
+      `<p class="sheet-dica">Abriu pelo WhatsApp? Use antes <b>⋮ → “Abrir no Chrome”</b>.</p>`);
+  } else {
+    abrirSheet("Instalar no computador", passos([
+      `No Chrome ou Edge, clique no ícone de <b>instalar</b> na barra de endereço (monitor com seta), ou no menu <b>⋮</b> → <b>“Instalar Apuração Presidente 2026”</b>.`,
+      `No celular, abra ${LINK} e toque em <b>📲 Instalar app</b>.`]) + botaoCopiar);
+  }
+});
+mostrarBotaoInst();
 if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
 
 /* ---------------- início ---------------- */

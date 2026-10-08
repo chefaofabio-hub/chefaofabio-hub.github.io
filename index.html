@@ -7,13 +7,18 @@
 <meta name="author" content="Fábio Lins e Silva">
 <meta name="description" content="Apuração ao vivo de Presidente 2026 (2º turno), direto do TSE, e pesquisas eleitorais Flávio x Lula.">
 <meta property="og:title" content="Apuração Presidente 2026 · 2º turno">
-<meta property="og:description" content="Flávio Bolsonaro x Lula: apuração ao vivo direto do TSE e todas as pesquisas. Toque para abrir e instalar no celular.">
+<meta property="og:description" content="Flávio x Lula: apuração ao vivo direto do TSE, votação por região e pesquisas. Toque para abrir e instalar.">
 <meta property="og:image" content="https://chefaofabio-hub.github.io/og.png?v=1">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:url" content="https://chefaofabio-hub.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Ícone de urna eletrônica · Apuração Presidente 2026 · 2º turno">
+<meta property="og:site_name" content="Apuração Presidente 2026">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Apuração Presidente 2026 · 2º turno">
+<meta name="twitter:image" content="https://chefaofabio-hub.github.io/og.png?v=1">
 <meta name="theme-color" content="#1f4fa8">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
@@ -26,12 +31,16 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=16">
+<link rel="stylesheet" href="style.css?v=17">
 </head>
 <body>
 <nav class="nav" id="nav">
   <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<small>eleitorais</small></a>
 </nav>
+<div class="inst" id="inst" hidden>
+  <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
+  <button class="inst-x" id="instX" aria-label="Agora não">×</button>
+</div>
 
 <!-- ABA APURAÇÃO -->
 <main class="quadro aba" id="aba-apuracao">
@@ -85,10 +94,14 @@
   <div class="rod" id="pesqRod">—</div>
 </main>
 
-<div class="instalar" id="instalar" hidden>
-  <span>Instale o app na tela inicial</span><button id="btnInstalar">Instalar</button>
+<div class="sheet-fundo" id="sheet" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetT">
+    <button class="sheet-x" id="sheetX" aria-label="Fechar">×</button>
+    <h3 id="sheetT">Instalar o app</h3>
+    <div id="sheetC"></div>
+  </div>
 </div>
 
-<script src="app.js?v=16"></script>
+<script src="app.js?v=17"></script>
 </body>
 </html>
