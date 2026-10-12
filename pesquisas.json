@@ -77,7 +77,7 @@
     {
       "instituto": "Ipespe",
       "contratante": "Abrapel",
-      "divulgacao": null,
+      "divulgacao": "2026-10-10",
       "campo_inicio": "2026-10-06",
       "campo": "06 a 08/10/2026 (depois do 1º turno), por telefone",
       "registro": "BR-00933/2026",
@@ -88,15 +88,15 @@
       "brancos_nulos": null,
       "indecisos": null,
       "margem": "2,6",
-      "obs": "Números divulgados em votos válidos.",
-      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-14-dias-do-2o-turno/"
+      "obs": "Votos válidos. Votos totais: Flávio 49%, Lula 44%, brancos/nulos 5%, não sabe 3%.",
+      "fonte": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-tem-527-dos-votos-validos-no-2o-turno-contra-473-de-lula-diz-ipespe.shtml"
     },
     {
       "instituto": "Vox Brasil",
-      "contratante": null,
-      "divulgacao": null,
+      "contratante": "Recursos próprios",
+      "divulgacao": "2026-10-09",
       "campo_inicio": "2026-10-05",
-      "campo": "05 a 07/10/2026 (depois do 1º turno)",
+      "campo": "05 a 07/10/2026 (depois do 1º turno), presencial",
       "registro": "BR-09623/2026",
       "entrevistas": 2100,
       "base": "validos",
@@ -105,8 +105,8 @@
       "brancos_nulos": null,
       "indecisos": null,
       "margem": "2,15",
-      "obs": "Votos válidos.",
-      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-14-dias-do-2o-turno/"
+      "obs": "Votos válidos. Votos totais: Lula 44,2%, Flávio 42,7%, indecisos 9,7%, brancos/nulos 3,4%.",
+      "fonte": "https://odia.ig.com.br/brasil/2026/10/7310750-pesquisa-vox-brasil-lula-tem-442-e-flavio-427-no-segundo-turno.html"
     },
     {
       "instituto": "DataTrends",
