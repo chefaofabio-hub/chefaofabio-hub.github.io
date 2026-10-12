@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Resultado das Eleições Presidenciais 2026 · 1º turno</title>
+<meta name="author" content="Fábio Lins e Silva">
+<meta name="description" content="Resultado oficial do 1º turno de Presidente 2026 (04/10), direto do TSE: Flávio x Lula, por região e por estado.">
+<meta property="og:title" content="Resultado das Eleições Presidenciais · 1º turno 2026">
+<meta property="og:description" content="Resultado oficial do TSE: Flávio x Lula, por região e por estado. Toque para abrir e instalar.">
+<meta property="og:image" content="https://chefaofabio-hub.github.io/primeiro-turno/og.png?v=1">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:url" content="https://chefaofabio-hub.github.io/primeiro-turno/">
+<meta property="og:type" content="website"><meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Resultado 1º turno 2026">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://chefaofabio-hub.github.io/primeiro-turno/og.png?v=1">
+<meta name="theme-color" content="#1f4fa8">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png?v=1">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png?v=1">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="1º Turno">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+<link rel="stylesheet" href="extra.css?v=1">
+</head>
+<body>
+<nav class="nav nav3" id="nav">
+  <a href="#resultado" data-aba="resultado" class="atual">Resultado<small>Brasil</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a>
+</nav>
+<div class="inst" id="inst" hidden>
+  <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
+  <button class="inst-x" id="instX" aria-label="Agora não">×</button>
+</div>
+
+<main class="quadro aba" id="aba-resultado">
+  <h1 class="h1p">RESULTADO PRESIDENTE</h1>
+  <div class="turno2"><span>1º TURNO</span> Flávio Bolsonaro x Lula</div>
+  <div class="subt">Domingo, 04/10/2026 · Brasil · resultado oficial</div>
+  <div class="urnasbox">
+    <div class="ub-l1"><b id="pu">—</b><span>DAS URNAS<br>APURADAS</span></div>
+    <div class="ub-prog"><i id="puBar"></i></div>
+  </div>
+  <div class="segt" id="segt"></div>
+  <div class="cab"><span>VOTOS · % DOS VÁLIDOS · TSE</span></div>
+  <div id="lista"><div class="vazio">Carregando dados do TSE…</div></div>
+  <hr>
+  <div class="extras" id="extras"></div>
+  <div class="autoria"><span class="nome">CRIADO POR FÁBIO LINS E SILVA</span> <span class="sep">·</span> <a href="tel:+5521971902990" class="nw">(21) 97190-2990</a></div>
+  <div class="rod"><b>Fonte oficial: Tribunal Superior Eleitoral (TSE)</b> <span class="nw" id="linhaHora"></span></div>
+</main>
+
+<main class="quadro aba" id="aba-regioes" hidden>
+  <h1 class="h1p">VOTAÇÃO POR REGIÃO</h1>
+  <div class="turno2"><span>1º TURNO</span> Flávio Bolsonaro x Lula</div>
+  <div class="subt">% dos votos válidos em cada região </div>
+  <hr>
+  <div id="regioes" class="regioes"><div class="vazio">Carregando…</div></div>
+  <div class="autoria"><span class="nome">CRIADO POR FÁBIO LINS E SILVA</span> <span class="sep">·</span> <a href="tel:+5521971902990" class="nw">(21) 97190-2990</a></div>
+  <div class="rod"><b>Fonte oficial: Tribunal Superior Eleitoral (TSE)</b> <span class="nw">· soma dos resultados de cada estado</span></div>
+</main>
+
+
+<div class="sheet-fundo" id="sheet" hidden>
+  <div class="sheet" role="dialog" aria-modal="true">
+    <button class="sheet-x" id="sheetX" aria-label="Fechar">×</button>
+    <h3>Instalar o app</h3>
+    <div id="sheetC"></div>
+  </div>
+</div>
+<script src="app.js?v=1"></script>
+</body>
+</html>
