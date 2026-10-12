@@ -1,45 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a5fc0"/><stop offset="1" stop-color="#173d8a"/></linearGradient>
-    <linearGradient id="corpo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ece6d6"/><stop offset="1" stop-color="#cfc6b0"/></linearGradient>
-    <linearGradient id="tela" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9f3e2"/><stop offset="1" stop-color="#bcd3ae"/></linearGradient>
-  </defs>
-  <rect width="512" height="512" fill="url(#bg)"/>
-  <g transform="translate(76.8 76.8) scale(0.7)">
-  <!-- sombra -->
-  <rect x="62" y="150" width="396" height="232" rx="26" fill="#0d2457" opacity=".35" transform="translate(0 12)"/>
-  <!-- corpo da urna -->
-  <rect x="62" y="140" width="396" height="232" rx="26" fill="url(#corpo)" stroke="#8f876f" stroke-width="4"/>
-  <!-- tampa/aba superior -->
-  <path d="M100 140 L132 112 H380 L412 140 Z" fill="#d9d1bc" stroke="#8f876f" stroke-width="4" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3470d6"/><stop offset="1" stop-color="#143683"/></linearGradient>
+<radialGradient id="luz" cx=".3" cy=".2" r=".8"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<linearGradient id="frente" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f2e4"/><stop offset="1" stop-color="#c9bfa6"/></linearGradient>
+<linearGradient id="topo" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#fffaf0"/><stop offset="1" stop-color="#ddd4bf"/></linearGradient>
+<linearGradient id="lado" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b3aa91"/><stop offset="1" stop-color="#8a826b"/></linearGradient>
+<linearGradient id="tela" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef7e8"/><stop offset="1" stop-color="#b6cfa6"/></linearGradient>
+<linearGradient id="tec" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d4148"/><stop offset="1" stop-color="#1f2125"/></linearGradient>
+<linearGradient id="tecla" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4f57"/><stop offset=".5" stop-color="#1c1e22"/><stop offset="1" stop-color="#0e0f12"/></linearGradient>
+<linearGradient id="branco" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#cfd3d8"/></linearGradient>
+<linearGradient id="laranja" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffa45a"/><stop offset="1" stop-color="#e0640e"/></linearGradient>
+<linearGradient id="verde" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fd27a"/><stop offset="1" stop-color="#138a3c"/></linearGradient>
+<filter id="blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs><rect width="512" height="512" fill="url(#bg)"/><rect width="512" height="512" fill="url(#luz)"/><g transform="translate(76.8 68) scale(0.7)">  <ellipse cx="262" cy="418" rx="215" ry="26" fill="#071a42" opacity=".45" filter="url(#blur)"/>
+  <!-- topo -->
+  <path d="M50 172 L110 116 H462 L402 172 Z" fill="url(#topo)" stroke="#7d7560" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M60 168 L114 120 H452" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="3"/>
+  <!-- lateral -->
+  <path d="M402 172 L462 116 V346 L402 402 Z" fill="url(#lado)" stroke="#6e6752" stroke-width="3" stroke-linejoin="round"/>
+  <!-- frente -->
+  <rect x="50" y="172" width="352" height="230" rx="14" fill="url(#frente)" stroke="#7d7560" stroke-width="3"/>
+  <rect x="56" y="176" width="340" height="18" rx="8" fill="#fff" opacity=".35"/>
   <!-- tela -->
-  <rect x="86" y="164" width="210" height="160" rx="10" fill="#3b3f46"/>
-  <rect x="96" y="174" width="190" height="140" rx="5" fill="url(#tela)"/>
-  <text x="191" y="210" font-family="Inter,Arial,sans-serif" font-weight="900" font-size="24" fill="#24402a" text-anchor="middle">PRESIDENTE</text>
-  <rect x="122" y="228" width="34" height="44" rx="4" fill="#fff" stroke="#24402a" stroke-width="3"/>
-  <rect x="164" y="228" width="34" height="44" rx="4" fill="#fff" stroke="#24402a" stroke-width="3"/>
-  <rect x="216" y="236" width="52" height="7" rx="3" fill="#7c9a74"/>
-  <rect x="216" y="252" width="40" height="7" rx="3" fill="#7c9a74"/>
-  <rect x="112" y="288" width="150" height="7" rx="3" fill="#7c9a74"/>
+  <rect x="68" y="192" width="200" height="164" rx="10" fill="#2b2e34"/>
+  <rect x="78" y="202" width="180" height="144" rx="5" fill="url(#tela)"/>
+  <path d="M78 202 H258 L190 346 H78 Z" fill="#fff" opacity=".18"/>
+  <text x="168" y="236" font-family="Inter,Arial,sans-serif" font-weight="900" font-size="25" fill="#1e3a24" text-anchor="middle">PRESIDENTE</text>
+  <rect x="98" y="254" width="36" height="46" rx="4" fill="#fff" stroke="#1e3a24" stroke-width="3.5"/>
+  <rect x="142" y="254" width="36" height="46" rx="4" fill="#fff" stroke="#1e3a24" stroke-width="3.5"/>
+  <rect x="192" y="262" width="50" height="8" rx="3" fill="#6f8f67"/>
+  <rect x="192" y="280" width="36" height="8" rx="3" fill="#6f8f67"/>
+  <rect x="96" y="318" width="146" height="8" rx="3" fill="#6f8f67"/>
   <!-- teclado -->
-  <rect x="310" y="164" width="128" height="190" rx="10" fill="#2f3238"/>
-  <g fill="#15171b" stroke="#55595f" stroke-width="1.5">
-    <rect x="320" y="174" width="30" height="26" rx="5"/><rect x="359" y="174" width="30" height="26" rx="5"/><rect x="398" y="174" width="30" height="26" rx="5"/>
-    <rect x="320" y="207" width="30" height="26" rx="5"/><rect x="359" y="207" width="30" height="26" rx="5"/><rect x="398" y="207" width="30" height="26" rx="5"/>
-    <rect x="320" y="240" width="30" height="26" rx="5"/><rect x="359" y="240" width="30" height="26" rx="5"/><rect x="398" y="240" width="30" height="26" rx="5"/>
-    <rect x="359" y="273" width="30" height="26" rx="5"/>
-  </g>
-  <g font-family="Inter,Arial,sans-serif" font-weight="800" font-size="17" fill="#fff" text-anchor="middle">
-    <text x="335" y="193">1</text><text x="374" y="193">2</text><text x="413" y="193">3</text>
-    <text x="335" y="226">4</text><text x="374" y="226">5</text><text x="413" y="226">6</text>
-    <text x="335" y="259">7</text><text x="374" y="259">8</text><text x="413" y="259">9</text>
-    <text x="374" y="292">0</text>
-  </g>
-  <!-- BRANCO / CORRIGE / CONFIRMA -->
-  <rect x="318" y="309" width="34" height="34" rx="5" fill="#ffffff" stroke="#9aa0a6" stroke-width="1.5"/>
-  <rect x="357" y="309" width="34" height="34" rx="5" fill="#f47b20"/>
-  <rect x="396" y="305" width="36" height="40" rx="5" fill="#1fa34a"/>
-  <!-- etiqueta frontal -->
-  <rect x="150" y="340" width="116" height="16" rx="4" fill="#bfb59b"/>
+  <rect x="280" y="192" width="108" height="194" rx="10" fill="url(#tec)"/>
+  <g id="k">
+<rect x="288" y="203" width="28" height="24" rx="5" fill="#000"/><rect x="288" y="200" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="302" y="218" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">1</text>
+<rect x="320" y="203" width="28" height="24" rx="5" fill="#000"/><rect x="320" y="200" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="334" y="218" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">2</text>
+<rect x="352" y="203" width="28" height="24" rx="5" fill="#000"/><rect x="352" y="200" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="366" y="218" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">3</text>
+<rect x="288" y="233" width="28" height="24" rx="5" fill="#000"/><rect x="288" y="230" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="302" y="248" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">4</text>
+<rect x="320" y="233" width="28" height="24" rx="5" fill="#000"/><rect x="320" y="230" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="334" y="248" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">5</text>
+<rect x="352" y="233" width="28" height="24" rx="5" fill="#000"/><rect x="352" y="230" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="366" y="248" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">6</text>
+<rect x="288" y="263" width="28" height="24" rx="5" fill="#000"/><rect x="288" y="260" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="302" y="278" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">7</text>
+<rect x="320" y="263" width="28" height="24" rx="5" fill="#000"/><rect x="320" y="260" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="334" y="278" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">8</text>
+<rect x="352" y="263" width="28" height="24" rx="5" fill="#000"/><rect x="352" y="260" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="366" y="278" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">9</text>
+<rect x="320" y="293" width="28" height="24" rx="5" fill="#000"/><rect x="320" y="290" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="334" y="308" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">0</text>
+<rect x="286" y="338" width="30" height="32" rx="6" fill="#000" opacity=".6"/><rect x="286" y="334" width="30" height="32" rx="6" fill="url(#branco)"/><rect x="290" y="337" width="22" height="12" rx="4" fill="#fff" opacity=".45"/>
+<rect x="320" y="338" width="30" height="32" rx="6" fill="#000" opacity=".6"/><rect x="320" y="334" width="30" height="32" rx="6" fill="url(#laranja)"/><rect x="324" y="337" width="22" height="12" rx="4" fill="#fff" opacity=".45"/>
+<rect x="354" y="332" width="30" height="38" rx="6" fill="#000" opacity=".6"/><rect x="354" y="328" width="30" height="38" rx="6" fill="url(#verde)"/><rect x="358" y="331" width="22" height="14" rx="4" fill="#fff" opacity=".45"/>
 </g>
-</svg>
+  <rect x="140" y="370" width="110" height="16" rx="4" fill="#b3a98e"/>
+</g></svg>
