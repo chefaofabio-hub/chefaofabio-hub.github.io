@@ -24,13 +24,14 @@ const hojeBR = () => new Date().toLocaleDateString("pt-BR", {timeZone: TZ});
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------------- abas ---------------- */
-const ABAS = ["apuracao", "regioes", "pesquisas"];
+const ABAS = ["apuracao", "regioes", "pesquisas", "analise"];
 const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "apuracao"; };
 function abrirAba() {
   const aba = abaAtual();
   for (const a of document.querySelectorAll("#nav a")) a.classList.toggle("atual", a.dataset.aba === aba);
   for (const x of ABAS) $("aba-" + x).hidden = x !== aba;
   if (aba === "pesquisas") { carregarPesquisas(); limparAviso(); }
+  if (aba === "analise") carregarAnalise();
   if (aba === "regioes") { desenharRegioes(); if (Date.now() - ufUltima > 20000) atualizarEstados(); }
 }
 window.addEventListener("hashchange", abrirAba);
@@ -389,6 +390,73 @@ function linhaInstituto(lista) {
     <div class="pq-det">${graficoInstituto(lista)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
 }
 
+
+/* ---------------- análise: média de todas as pesquisas ---------------- */
+const valF = p => 100 * p.flavio / (p.flavio + p.lula);      // converte para votos válidos (só os dois)
+const chaveInst = n => String(n).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim().toLowerCase();
+function mediaAte(ps) {    // média simples da pesquisa MAIS RECENTE de cada instituto
+  const ult = new Map();
+  for (const p of ps) { const k = chaveInst(p.instituto); const o = ult.get(k); if (!o || p.divulgacao >= o.divulgacao) ult.set(k, p); }
+  const l = [...ult.values()]; const f = l.reduce((s, p) => s + valF(p), 0) / l.length;
+  return {f, l: 100 - f, n: l.length};
+}
+function graficoMedia(serie) {
+  const W = 320, H = 190, L = 30, R = 22, T = 22, B = 30, n = serie.length;
+  const vals = serie.flatMap(s => [s.f, s.l]);
+  let y0 = Math.floor(Math.min(...vals) - 2), y1 = Math.ceil(Math.max(...vals) + 2);
+  if (y1 - y0 < 8) { const m = (y0 + y1) / 2; y0 = Math.floor(m - 4); y1 = Math.ceil(m + 4); }
+  const X = i => n === 1 ? (L + W - R) / 2 : L + 18 + (W - L - R - 36) * i / (n - 1);
+  const Y = v => T + (H - T - B) * (1 - (v - y0) / (y1 - y0));
+  const passo = (y1 - y0) > 16 ? 5 : 2;
+  let s = `<svg viewBox="0 0 ${W} ${H}" class="pq-svg" role="img" aria-label="Evolução da média das pesquisas" font-family="Inter,system-ui,sans-serif">`;
+  for (let y = Math.ceil(y0 / passo) * passo; y <= y1; y += passo)
+    s += `<line x1="${L}" x2="${W - 6}" y1="${Y(y)}" y2="${Y(y)}" stroke="#e6eaf2"/><text x="${L - 5}" y="${Y(y) + 3.5}" font-size="10" text-anchor="end" fill="#5f697d" font-weight="600">${y}%</text>`;
+  if (y0 < 50 && y1 > 50) s += `<line x1="${L}" x2="${W - 6}" y1="${Y(50)}" y2="${Y(50)}" stroke="#9aa3b5" stroke-dasharray="4 3"/>`;
+  serie.forEach((p, i) => s += `<text x="${X(i)}" y="${H - 10}" font-size="11" text-anchor="middle" fill="#141c2d" font-weight="700">${dataBR(p.d).slice(0, 5)}</text>`);
+  const linha = (k, cor) => n > 1 ? `<polyline points="${serie.map((p, i) => X(i) + "," + Y(p[k])).join(" ")}" fill="none" stroke="${cor}" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>` : "";
+  s += linha("f", "#1f4fa8") + linha("l", "#c8102e");
+  serie.forEach((p, i) => {
+    const fCima = p.f >= p.l;
+    for (const [k, cor, cima] of [["f", "#1f4fa8", fCima], ["l", "#c8102e", !fCima]]) {
+      const x = X(i), y = Y(p[k]);
+      const anc = n > 1 && i === 0 ? "start" : n > 1 && i === n - 1 ? "end" : "middle";
+      const dx = anc === "start" ? -4 : anc === "end" ? 4 : 0;
+      s += `<circle cx="${x}" cy="${y}" r="4.2" fill="#fff" stroke="${cor}" stroke-width="2.8"/>`;
+      s += `<text x="${x + dx}" y="${cima ? y - 9 : y + 17}" font-size="12" font-weight="900" text-anchor="${anc}" fill="${cor}">${pp(p[k])}%</text>`;
+    }
+  });
+  return s + `</svg>`;
+}
+let anCarregando = false;
+async function carregarAnalise() {
+  if (anCarregando) return; anCarregando = true;
+  try {
+    const dados = await (await fetch("pesquisas.json?t=" + Date.now(), {cache: "no-store"})).json();
+    const corte = dados.inicio_2turno || "2026-10-05";
+    const ps = (dados.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null
+                                               && p.campo_inicio && p.campo_inicio >= corte && p.flavio + p.lula > 0)
+                 .sort((a, b) => a.divulgacao.localeCompare(b.divulgacao));
+    if (!ps.length) { $("analise").innerHTML = `<div class="vazio">Nenhuma pesquisa do 2º turno ainda.</div>`; return; }
+    const m = mediaAte(ps), d = m.f - m.l;
+    const datas = [...new Set(ps.map(p => p.divulgacao))];
+    const serie = datas.map(dt => ({d: dt, ...mediaAte(ps.filter(p => p.divulgacao <= dt))}));
+    const lid = Math.abs(d) < 0.05 ? `<div class="an-lid emp">Empate na média</div>` :
+      `<div class="an-lid ${d > 0 ? "az" : "vm"}">${d > 0 ? "Flávio" : "Lula"} lidera por ${pp(Math.abs(d))} ponto${Math.abs(pp(Math.abs(d)).replace(",", ".")) === 1 ? "" : "s"}</div>`;
+    const barra = (nome, v, cls, cor) => `<div class="an-b"><div class="an-nm ${cls}">${nome}</div><div class="an-t"><i style="width:${v}%;background:${cor}"></i><em></em></div><div class="an-v ${cls}">${pp(v)}%</div></div>`;
+    const tab = ps.slice().reverse().map(p => `<tr><td>${esc(p.instituto)}</td><td>${dataBR(p.divulgacao).slice(0, 5)}</td><td class="az">${pp(valF(p))}%</td><td class="vm">${pp(100 - valF(p))}%</td></tr>`).join("");
+    $("analise").innerHTML = `
+      <div class="an-card"><div class="an-tit">Média de todas as pesquisas</div>
+        <div class="an-sub">${ps.length} pesquisa${ps.length === 1 ? "" : "s"} de ${m.n} instituto${m.n === 1 ? "" : "s"} · última de cada instituto</div>
+        ${barra("Flávio Bolsonaro", m.f, "az", "var(--flavio)")}${barra("Lula", m.l, "vm", "var(--lula)")}${lid}</div>
+      <div class="pq-graf"><div class="pq-gcab"><span>Evolução da média</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>${graficoMedia(serie)}
+        <div class="pq-gnota">${serie.length === 1 ? "A linha aparece quando sair pesquisa em outra data." : "Cada ponto é a média nas datas de divulgação."}</div></div>
+      <div class="an-tt">Pesquisas incluídas (votos válidos)</div>
+      <table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="az">Flávio</th><th class="vm">Lula</th></tr></thead><tbody>${tab}</tbody></table>`;
+    $("anRod").innerHTML = `<b>Média simples da pesquisa mais recente de cada instituto</b> · pesquisas em votos totais convertidas para votos válidos · atualizado em ${esc(dataBR(dados.atualizado_em || ""))}`;
+  } catch (e) {
+    if (!$("analise").innerHTML.includes("an-card")) $("analise").innerHTML = `<div class="vazio">Não consegui carregar as pesquisas agora.</div>`;
+  } finally { anCarregando = false; }
+}
 
 /* ---------------- instalação / PWA ---------------- */
 const UA = navigator.userAgent;

@@ -31,11 +31,11 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=21">
+<link rel="stylesheet" href="style.css?v=24">
 </head>
 <body>
 <nav class="nav" id="nav">
-  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a>
+  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise<small>das pesquisas</small></a>
 </nav>
 <div class="inst" id="inst" hidden>
   <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
@@ -103,6 +103,16 @@
   <div class="rod" id="pesqRod">—</div>
 </main>
 
+<!-- ABA ANÁLISE -->
+<main class="quadro aba" id="aba-analise" hidden>
+  <h1>ANÁLISE DAS PESQUISAS</h1>
+  <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
+  <div class="aviso2t">Soma de todas as pesquisas nacionais feitas após o 1º turno · % dos votos válidos</div>
+  <div id="analise"><div class="vazio">Carregando…</div></div>
+  <div class="autoria"><span class="nome">CRIADO POR FÁBIO LINS E SILVA</span> <span class="sep">·</span> <a href="tel:+5521971902990" class="nw">(21) 97190-2990</a></div>
+  <div class="rod" id="anRod">—</div>
+</main>
+
 <div class="sheet-fundo" id="sheet" hidden>
   <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetT">
     <button class="sheet-x" id="sheetX" aria-label="Fechar">×</button>
@@ -111,6 +121,6 @@
   </div>
 </div>
 
-<script src="app.js?v=21"></script>
+<script src="app.js?v=24"></script>
 </body>
 </html>
