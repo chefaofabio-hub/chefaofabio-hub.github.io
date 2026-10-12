@@ -234,3 +234,12 @@ nav.nav a{position:relative}
 .eleito.ok .el-t{display:inline-block;background:#fff;border-radius:999px;padding:4px 14px 4px 8px;opacity:1;letter-spacing:0;box-shadow:0 1px 4px rgba(0,0,0,.18)}
 .eleito.ok .el-lab{font-size:clamp(16px,4.6vw,19px)}
 .eleito.ok .el-nome{margin-top:6px}
+
+/* votos em destaque */
+.linha1{gap:8px}
+.cand .votos{font-weight:900;font-size:clamp(20px,6.2vw,28px);min-width:0}
+.cand.grande .votos{font-size:clamp(21px,6.6vw,30px)}
+.cand[data-chave=flavio] .votos{color:var(--flavio)}.cand[data-chave=lula] .votos{color:var(--lula)}
+.cand .votos small{font-size:13px}
+.cand .pct,.cand.grande .pct{width:78px;font-size:15px;font-weight:800;line-height:1.1}
+.cand .pct small{display:block;font-size:10px;font-weight:600;color:var(--cinza)}

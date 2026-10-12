@@ -63,7 +63,7 @@ for (const l of LINHAS) {
   d.innerHTML = `<div class="linha1"><span class="nome">${l.nome}<span class="selo" hidden>ELEITO</span></span>
     <span class="votos"><span class="v">0</span> <small>votos</small></span></div>
     <div class="linha2"><div class="trilho"><div class="barra" style="background:${l.cor};width:0"></div><div class="m50"></div></div>
-    <span class="pct">0,00%</span></div>`;
+    <span class="pct">0,00%<small>dos válidos</small></span></div>`;
   lista.appendChild(d);
 }
 const els = Object.fromEntries([...lista.children].map(e => [e.dataset.chave, e]));
@@ -102,7 +102,7 @@ function mostrar(r) {
   for (const [k, l] of Object.entries(r.linhas)) {
     const e = els[k];
     e.querySelector(".v").textContent = fint(l.votos);
-    e.querySelector(".pct").textContent = fpct(l.pct);
+    e.querySelector(".pct").innerHTML = fpct(l.pct) + "<small>dos válidos</small>";
     const w = Math.min(100, l.pct) / escala * 100;
     e.querySelector(".barra").style.width = (w >= 0.4 ? Math.max(w, 2) : 0) + "%";
     e.querySelector(".m50").style.left = (50 / escala * 100) + "%";
@@ -182,7 +182,7 @@ function mostrarUrnas(pu) {
 function zerarCandidatos() {          // antes da apuração: candidatos com 0 votos e 0,00%
   for (const e of Object.values(els)) {
     e.querySelector(".v").textContent = "0";
-    e.querySelector(".pct").textContent = fpct(0);
+    e.querySelector(".pct").innerHTML = fpct(0) + "<small>dos válidos</small>";
     e.querySelector(".barra").style.width = "0";
     e.querySelector(".m50").style.left = (50 / 60 * 100) + "%";
     e.querySelector(".selo").hidden = true;
