@@ -626,7 +626,7 @@ navigator.serviceWorker?.addEventListener("message", e => {
 matchMedia("(display-mode: standalone)").addEventListener?.("change", estadoAlerta);
 
 mostrarBotaoInst();
-if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
+if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js", {updateViaCache: "none"}).catch(() => {});
 
 /* ---------------- início ---------------- */
 if (TESTE || ELE_FORCADA) for (const av of document.querySelectorAll(".aviso-teste")) { av.hidden = false; av.textContent = `MODO TESTE: mostrando ${TESTE || "eleição " + ELE_FORCADA} (não é o 2º turno)`; }
@@ -638,3 +638,10 @@ atualizar();
 setInterval(atualizar, INTERVALO_MS);
 setInterval(checarNovas, 5 * 60000);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) { atualizar(); atualizarEstados(); checarNovas(); conferirInscricao(); } });
+// recarrega sozinho quando um service worker novo assume (pega versão nova do app)
+if ("serviceWorker" in navigator) {
+  const tinhaSW = !!navigator.serviceWorker.controller; let recarregou = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => { if (tinhaSW && !recarregou) { recarregou = true; location.reload(); } });
+  const checa = () => navigator.serviceWorker.getRegistration().then(r => r && r.update()).catch(() => {});
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checa(); });
+}
