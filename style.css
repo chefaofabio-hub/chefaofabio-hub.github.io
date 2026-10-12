@@ -243,3 +243,7 @@ nav.nav a{position:relative}
 .cand .votos small{font-size:13px}
 .cand .pct,.cand.grande .pct{width:78px;font-size:15px;font-weight:800;line-height:1.1}
 .cand .pct small{display:block;font-size:10px;font-weight:600;color:var(--cinza)}
+.linha1{flex-wrap:wrap;row-gap:0}
+.cand .votos{margin-left:auto;font-size:clamp(20px,6vw,26px)}
+.cand.grande .votos{font-size:clamp(20px,6vw,26px)}
+.cand .nome{min-width:0}
