@@ -1,129 +1,129 @@
 {
- "atualizado_em": "2026-10-11",
- "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh.",
- "inicio_2turno": "2026-10-05",
- "institutos": [
-  {
-   "nome": "Datafolha"
-  },
-  {
-   "nome": "Quaest",
-   "prevista": "Divulgação prevista para 14/10 (campo 10 a 13/10, registro BR-08729/2026)"
-  },
-  {
-   "nome": "AtlasIntel",
-   "prevista": "última rodada (03 a 08/10) começou antes do 1º turno; aguardando nova rodada"
-  },
-  {
-   "nome": "PoderData"
-  },
-  {
-   "nome": "Veritá"
-  },
-  {
-   "nome": "Gerp"
-  },
-  {
-   "nome": "Real Time Big Data"
-  },
-  {
-   "nome": "Paraná Pesquisas"
-  },
-  {
-   "nome": "Ipespe"
-  },
-  {
-   "nome": "Vox Brasil"
-  },
-  {
-   "nome": "DataTrends"
-  }
- ],
- "pesquisas": [
-  {
-   "instituto": "PoderData",
-   "contratante": "Recursos próprios (parceria de divulgação Aya)",
-   "divulgacao": "2026-10-08",
-   "campo_inicio": "2026-10-05",
-   "campo": "05 a 07/10/2026 (depois do 1º turno), por telefone",
-   "registro": "BR-08134/2026",
-   "entrevistas": 3000,
-   "base": "validos",
-   "flavio": 53,
-   "lula": 47,
-   "brancos_nulos": null,
-   "indecisos": null,
-   "margem": "1,8",
-   "obs": "Números divulgados em votos válidos.",
-   "fonte": "https://www.cartacapital.com.br/politica/pesquisa-poder-aya-mostra-flavio-6-pontos-a-frente-de-lula/"
-  },
-  {
-   "instituto": "Datafolha",
-   "contratante": "Globo e Folha de S.Paulo",
-   "divulgacao": "2026-10-08",
-   "campo_inicio": "2026-10-06",
-   "campo": "06 e 07/10/2026 (depois do 1º turno), presencial",
-   "registro": "BR-0949/2026",
-   "entrevistas": 2520,
-   "base": "totais",
-   "flavio": 49,
-   "lula": 45,
-   "brancos_nulos": 5,
-   "indecisos": 1,
-   "margem": "2",
-   "obs": "Votos válidos: Flávio 52%, Lula 48%.",
-   "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml"
-  },
-  {
-   "instituto": "Ipespe",
-   "contratante": "Abrapel",
-   "divulgacao": null,
-   "campo_inicio": "2026-10-06",
-   "campo": "06 a 08/10/2026 (depois do 1º turno), por telefone",
-   "registro": "BR-00933/2026",
-   "entrevistas": 1500,
-   "base": "validos",
-   "flavio": 52.7,
-   "lula": 47.3,
-   "brancos_nulos": null,
-   "indecisos": null,
-   "margem": "2,6",
-   "obs": "Números divulgados em votos válidos.",
-   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-14-dias-do-2o-turno/"
-  },
-  {
-   "instituto": "Vox Brasil",
-   "contratante": null,
-   "divulgacao": null,
-   "campo_inicio": "2026-10-05",
-   "campo": "05 a 07/10/2026 (depois do 1º turno)",
-   "registro": "BR-09623/2026",
-   "entrevistas": 2100,
-   "base": "validos",
-   "flavio": 49.14,
-   "lula": 50.86,
-   "brancos_nulos": null,
-   "indecisos": null,
-   "margem": "2,15",
-   "obs": "Votos válidos.",
-   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-14-dias-do-2o-turno/"
-  },
-  {
-   "instituto": "DataTrends",
-   "contratante": null,
-   "divulgacao": "2026-10-11",
-   "campo_inicio": "2026-10-07",
-   "campo": "07 a 09/10/2026 (depois do 1º turno)",
-   "registro": "BR-03576/2026",
-   "entrevistas": 2000,
-   "base": "validos",
-   "flavio": 53.1,
-   "lula": 46.9,
-   "brancos_nulos": null,
-   "indecisos": null,
-   "margem": "2,19",
-   "obs": "Votos válidos. Votos totais: Flávio 50%, Lula 44%, brancos/nulos 5%, não sabe 1%.",
-   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/"
-  }
- ]
+  "atualizado_em": "2026-10-12",
+  "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh.",
+  "inicio_2turno": "2026-10-05",
+  "institutos": [
+    {
+      "nome": "Datafolha"
+    },
+    {
+      "nome": "Quaest",
+      "prevista": "Divulgação prevista para 14/10 (campo 10 a 13/10, registro BR-08729/2026)"
+    },
+    {
+      "nome": "AtlasIntel",
+      "prevista": "Nova rodada com campo de 9 a 14/10 e divulgação prevista para 15/10 (registro BR-01093/2026, segundo a Veja)"
+    },
+    {
+      "nome": "PoderData"
+    },
+    {
+      "nome": "Veritá"
+    },
+    {
+      "nome": "Gerp"
+    },
+    {
+      "nome": "Real Time Big Data"
+    },
+    {
+      "nome": "Paraná Pesquisas"
+    },
+    {
+      "nome": "Ipespe"
+    },
+    {
+      "nome": "Vox Brasil"
+    },
+    {
+      "nome": "DataTrends"
+    }
+  ],
+  "pesquisas": [
+    {
+      "instituto": "PoderData",
+      "contratante": "Recursos próprios (parceria de divulgação Aya)",
+      "divulgacao": "2026-10-08",
+      "campo_inicio": "2026-10-05",
+      "campo": "05 a 07/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-08134/2026",
+      "entrevistas": 3000,
+      "base": "validos",
+      "flavio": 53,
+      "lula": 47,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1,8",
+      "obs": "Números divulgados em votos válidos.",
+      "fonte": "https://www.cartacapital.com.br/politica/pesquisa-poder-aya-mostra-flavio-6-pontos-a-frente-de-lula/"
+    },
+    {
+      "instituto": "Datafolha",
+      "contratante": "Globo e Folha de S.Paulo",
+      "divulgacao": "2026-10-08",
+      "campo_inicio": "2026-10-06",
+      "campo": "06 e 07/10/2026 (depois do 1º turno), presencial",
+      "registro": "BR-02949/2026",
+      "entrevistas": 2520,
+      "base": "totais",
+      "flavio": 49,
+      "lula": 45,
+      "brancos_nulos": 5,
+      "indecisos": 1,
+      "margem": "2",
+      "obs": "Votos válidos: Flávio 52%, Lula 48%.",
+      "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml"
+    },
+    {
+      "instituto": "Ipespe",
+      "contratante": "Abrapel",
+      "divulgacao": null,
+      "campo_inicio": "2026-10-06",
+      "campo": "06 a 08/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-00933/2026",
+      "entrevistas": 1500,
+      "base": "validos",
+      "flavio": 52.7,
+      "lula": 47.3,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,6",
+      "obs": "Números divulgados em votos válidos.",
+      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-14-dias-do-2o-turno/"
+    },
+    {
+      "instituto": "Vox Brasil",
+      "contratante": null,
+      "divulgacao": null,
+      "campo_inicio": "2026-10-05",
+      "campo": "05 a 07/10/2026 (depois do 1º turno)",
+      "registro": "BR-09623/2026",
+      "entrevistas": 2100,
+      "base": "validos",
+      "flavio": 49.14,
+      "lula": 50.86,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,15",
+      "obs": "Votos válidos.",
+      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-14-dias-do-2o-turno/"
+    },
+    {
+      "instituto": "DataTrends",
+      "contratante": null,
+      "divulgacao": "2026-10-11",
+      "campo_inicio": "2026-10-07",
+      "campo": "07 a 09/10/2026 (depois do 1º turno)",
+      "registro": "BR-03576/2026",
+      "entrevistas": 2000,
+      "base": "validos",
+      "flavio": 53.1,
+      "lula": 46.9,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,19",
+      "obs": "Votos válidos. Votos totais: Flávio 50%, Lula 44%, brancos/nulos 5%, não sabe 1%.",
+      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/"
+    }
+  ]
 }
