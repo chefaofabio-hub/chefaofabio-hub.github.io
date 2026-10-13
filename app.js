@@ -597,7 +597,13 @@ const PUSH_OK = "serviceWorker" in navigator && "PushManager" in window && "Noti
 const idPesq = p => `${p.instituto.trim().toLowerCase()}|${p.divulgacao}|${(p.registro || "").trim()}`;
 let ultimaPesq = null;
 function marcarUltima(ps) {             // ps: pesquisas válidas do 2º turno, mais recente primeiro
-  ultimaPesq = ps.length ? idPesq(ps[0]) : null;
+  ultimaPesq = ps.length ? ps.map(idPesq).sort().join("|") : null;   // assinatura do conjunto: só muda com pesquisa nova
+  const vista = localStorage.getItem("pesqVista");
+  if (ultimaPesq && (!vista || !vista.includes("|") && ps.some(p => idPesq(p) === vista))) localStorage.setItem("pesqVista", ultimaPesq); // 1ª visita ou formato antigo: não acende
+  else if (ultimaPesq && vista && vista.includes("|")) {             // acende só se entrou pesquisa que não estava na lista vista
+    const vistas = new Set(vista.split("|"));
+    if (ps.every(p => vistas.has(idPesq(p)))) localStorage.setItem("pesqVista", ultimaPesq);
+  }
   if (abaAtual() === "pesquisas" && !document.hidden) limparAviso(); else mostrarPonto();
 }
 function mostrarPonto() { $("pontoPesq").hidden = !ultimaPesq || localStorage.getItem("pesqVista") === ultimaPesq; }
