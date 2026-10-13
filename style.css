@@ -245,8 +245,9 @@ nav.nav a{position:relative}
 .cand .pct,.cand.grande .pct{width:78px;font-size:15px;font-weight:800;line-height:1.1}
 .cand .pct small{display:block;font-size:10px;font-weight:600;color:var(--cinza)}
 .linha1{flex-wrap:wrap;row-gap:0}
-.cand .votos{margin-left:auto;font-size:clamp(20px,6vw,26px)}
-.cand.grande .votos{font-size:clamp(20px,6vw,26px)}
+.cand .votos{margin-left:auto;font-size:clamp(16px,4.6vw,21px);white-space:nowrap}
+.cand.grande .votos{font-size:clamp(16px,4.6vw,21px)}
+.linha1{flex-wrap:nowrap}
 .cand .nome{min-width:0}
 
 .an-card{border:2px solid var(--azul);border-radius:14px;padding:14px 12px 12px;margin:12px 0;background:#f7f9fd}
