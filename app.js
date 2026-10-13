@@ -310,7 +310,8 @@ async function carregarPesquisas() {
     const corte = dados.inicio_2turno || "2026-10-05";      // só pesquisas com campo DEPOIS do 1º turno
     const ps = (dados.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null
                                                && p.campo_inicio && p.campo_inicio >= corte)
-                 .sort((a, b) => b.divulgacao.localeCompare(a.divulgacao));
+                 .map((p, i) => (p._i = i, p))
+                 .sort((a, b) => b.divulgacao.localeCompare(a.divulgacao) || (b.hora_divulgacao || "").localeCompare(a.hora_divulgacao || "") || b._i - a._i);
     const chave = n => String(n).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim().toLowerCase();
     const porInst = new Map();
     for (const p of ps) { const k = chave(p.instituto); if (!porInst.has(k)) porInst.set(k, []); porInst.get(k).push(p); }
