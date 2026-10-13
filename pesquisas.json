@@ -124,12 +124,29 @@
       "margem": "2,19",
       "obs": "Votos válidos. Votos totais: Flávio 50%, Lula 44%, brancos/nulos 5%, não sabe 1%.",
       "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/"
+    },
+    {
+      "instituto": "PoderData",
+      "contratante": "Recursos próprios (parceria de divulgação Aya)",
+      "divulgacao": "2026-10-13",
+      "campo_inicio": "2026-10-10",
+      "campo": "10 a 12/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-01209/2026",
+      "entrevistas": 3000,
+      "base": "validos",
+      "flavio": 51,
+      "lula": 49,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1,8",
+      "obs": "Números divulgados em votos válidos. Empate técnico (margem 1,8 p.p.).",
+      "fonte": "https://www.poder360.com.br/poder-governo/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya/"
     }
   ],
   "rejeicao": {
-    "flavio": 46,
-    "lula": 49,
-    "fonte": "Ipespe/Abrapel · campo 6–8/10 · BR-00933/2026",
+    "flavio": 44,
+    "lula": 46,
+    "fonte": "PoderData/Aya · campo 10–12/10 · BR-01209/2026",
     "obs": "não votaria de jeito nenhum"
   },
   "aprovacao_governo": {
@@ -199,6 +216,15 @@
         "desaprova": 50,
         "registro": "BR-08134/2026",
         "fonte": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-51-desaprovam-governo-lula-42-aprovam/"
+      },
+      {
+        "data": "2026-10-13",
+        "instituto": "PoderData",
+        "campo": "10 a 12/10 (2º turno)",
+        "aprova": 44,
+        "desaprova": 50,
+        "registro": "BR-01209/2026",
+        "fonte": "https://www.poder360.com.br/poder-governo/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya/"
       }
     ]
   }
