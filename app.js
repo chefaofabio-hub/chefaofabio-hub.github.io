@@ -428,6 +428,56 @@ function graficoMedia(serie) {
   });
   return s + `</svg>`;
 }
+
+/* ---------------- análise: aprovação x desaprovação do governo ---------------- */
+function mediaAprovAte(pts){ // média simples da última leitura de cada instituto até a data
+  const ult=new Map();
+  for(const p of pts){const k=chaveInst(p.instituto);const o=ult.get(k);if(!o||p.data>=o.data)ult.set(k,p);}
+  const l=[...ult.values()];
+  const a=l.reduce((s,p)=>s+p.aprova,0)/l.length;
+  const r=l.reduce((s,p)=>s+p.desaprova,0)/l.length;
+  return {a, r, n:l.length};
+}
+function graficoAprov(serie){
+  const W=320,H=190,L=30,R=22,T=22,B=30,n=serie.length;
+  const vals=serie.flatMap(s=>[s.a,s.r]);
+  let y0=Math.floor(Math.min(...vals)-2),y1=Math.ceil(Math.max(...vals)+2);
+  if(y1-y0<8){const m=(y0+y1)/2;y0=Math.floor(m-4);y1=Math.ceil(m+4);}
+  const X=i=>n===1?(L+W-R)/2:L+18+(W-L-R-36)*i/(n-1);
+  const Y=v=>T+(H-T-B)*(1-(v-y0)/(y1-y0));
+  const passo=(y1-y0)>16?5:2;
+  let s=`<svg viewBox="0 0 ${W} ${H}" class="pq-svg" role="img" aria-label="Aprovação e desaprovação do governo Lula" font-family="Inter,system-ui,sans-serif">`;
+  for(let y=Math.ceil(y0/passo)*passo;y<=y1;y+=passo)
+    s+=`<line x1="${L}" x2="${W-6}" y1="${Y(y)}" y2="${Y(y)}" stroke="#e6eaf2"/><text x="${L-5}" y="${Y(y)+3.5}" font-size="10" text-anchor="end" fill="#5f697d" font-weight="600">${y}%</text>`;
+  if(y0<50&&y1>50)s+=`<line x1="${L}" x2="${W-6}" y1="${Y(50)}" y2="${Y(50)}" stroke="#9aa3b5" stroke-dasharray="4 3"/>`;
+  serie.forEach((p,i)=>s+=`<text x="${X(i)}" y="${H-10}" font-size="11" text-anchor="middle" fill="#141c2d" font-weight="700">${dataBR(p.d).slice(0,5)}</text>`);
+  const linha=(k,cor)=>n>1?`<polyline points="${serie.map((p,i)=>X(i)+","+Y(p[k])).join(" ")}" fill="none" stroke="${cor}" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>`:"";
+  s+=linha("r","#c8102e")+linha("a","#1e9e5a");
+  serie.forEach((p,i)=>{
+    const aCima=p.a>=p.r;
+    for(const [k,cor,cima] of [["a","#1e9e5a",aCima],["r","#c8102e",!aCima]]){
+      const x=X(i),y=Y(p[k]);
+      const anc=n>1&&i===0?"start":n>1&&i===n-1?"end":"middle";
+      const dx=anc==="start"?-4:anc==="end"?4:0;
+      s+=`<circle cx="${x}" cy="${y}" r="4.2" fill="#fff" stroke="${cor}" stroke-width="2.8"/>`;
+      s+=`<text x="${x+dx}" y="${cima?y-9:y+17}" font-size="12" font-weight="900" text-anchor="${anc}" fill="${cor}">${pp(p[k])}%</text>`;
+    }
+  });
+  return s+`</svg>`;
+}
+function blocoAprov(dados){
+  const ag=dados.aprovacao_governo;
+  if(!ag||!ag.pontos||!ag.pontos.length)return "";
+  const pts=ag.pontos.slice().sort((a,b)=>a.data.localeCompare(b.data));
+  const datas=[...new Set(pts.map(p=>p.data))];
+  const serie=datas.map(dt=>({d:dt,...mediaAprovAte(pts.filter(p=>p.data<=dt))}));
+  const insts=[...new Set(pts.map(p=>p.instituto))].join(" e ");
+  return `
+    <div class="an-tt">Aprovação do governo Lula</div>
+    <div class="pq-graf"><div class="pq-gcab"><span>Aprovação x desaprovação</span><span class="leg2"><b style="color:#1e9e5a">●</b> Aprova <b class="vm">●</b> Desaprova</span></div>${graficoAprov(serie)}
+      <div class="pq-gnota">Média de ${insts} · "você aprova ou desaprova o governo do presidente Lula?" (% sobre o total). Cada ponto é a média das últimas leituras de cada instituto.</div></div>`;
+}
+
 let anCarregando = false;
 async function carregarAnalise() {
   if (anCarregando) return; anCarregando = true;
@@ -460,6 +510,7 @@ async function carregarAnalise() {
         ${barra("Flávio Bolsonaro", m.f, "az", "var(--flavio)")}${barra("Lula", m.l, "vm", "var(--lula)")}${lid}</div>
       <div class="pq-graf"><div class="pq-gcab"><span>Evolução da média</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>${graficoMedia(serie)}
         <div class="pq-gnota">${serie.length === 1 ? "A linha aparece quando sair pesquisa em outra data." : "Cada ponto é a média nas datas de divulgação."}</div></div>
+      ${blocoAprov(dados)}
       <div class="an-tt">Pesquisas incluídas (votos válidos)</div>
       <table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="az">Flávio</th><th class="vm">Lula</th></tr></thead><tbody>${tab}</tbody></table>
       ${rejHtml}`;

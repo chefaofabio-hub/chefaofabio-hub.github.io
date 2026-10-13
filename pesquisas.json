@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-12",
+  "atualizado_em": "2026-10-13",
   "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh.",
   "inicio_2turno": "2026-10-05",
   "institutos": [
@@ -131,5 +131,75 @@
     "lula": 49,
     "fonte": "Ipespe/Abrapel · campo 6–8/10 · BR-00933/2026",
     "obs": "não votaria de jeito nenhum"
+  },
+  "aprovacao_governo": {
+    "metrica": "Aprovação x desaprovação do governo Lula (sobre o total de entrevistados)",
+    "fonte": "Datafolha e PoderData/Aya",
+    "obs": "Pergunta: 'de maneira geral, você aprova ou desaprova o governo do presidente Lula?'",
+    "pontos": [
+      {
+        "data": "2026-09-17",
+        "instituto": "Datafolha",
+        "campo": "15 e 16/09",
+        "aprova": 48,
+        "desaprova": 50,
+        "registro": "BR-04029/2026",
+        "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/17/datafolha-50percent-desaprovam-e-48percent-aprovam-governo-lula.ghtml"
+      },
+      {
+        "data": "2026-09-17",
+        "instituto": "PoderData",
+        "campo": "13 a 16/09",
+        "aprova": 41,
+        "desaprova": 52,
+        "registro": "BR-00360/2026",
+        "fonte": "https://static.poder360.com.br/uploads/2026/09/poderdata-presidente-17set.pdf"
+      },
+      {
+        "data": "2026-09-24",
+        "instituto": "Datafolha",
+        "campo": "22 e 23/09",
+        "aprova": 47,
+        "desaprova": 50,
+        "registro": "BR-00304/2026",
+        "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/24/datafolha-percent-desaprovam-e-percent-aprovam-governo-lula.ghtml"
+      },
+      {
+        "data": "2026-09-24",
+        "instituto": "PoderData",
+        "campo": "20 a 23/09",
+        "aprova": 42,
+        "desaprova": 51,
+        "registro": "BR-01739/2026",
+        "fonte": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-51-desaprovam-governo-lula-42-aprovam/"
+      },
+      {
+        "data": "2026-10-01",
+        "instituto": "Datafolha",
+        "campo": "30/09 e 01/10",
+        "aprova": 48,
+        "desaprova": 49,
+        "registro": "BR-02949/2026",
+        "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/01/datafolha-presidente-1-outubro.ghtml"
+      },
+      {
+        "data": "2026-10-08",
+        "instituto": "Datafolha",
+        "campo": "06 e 07/10 (2º turno)",
+        "aprova": 48,
+        "desaprova": 49,
+        "registro": "BR-02949/2026",
+        "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-avaliacao-governo-8-outubro.ghtml"
+      },
+      {
+        "data": "2026-10-08",
+        "instituto": "PoderData",
+        "campo": "05 a 07/10 (2º turno)",
+        "aprova": 44,
+        "desaprova": 50,
+        "registro": "BR-08134/2026",
+        "fonte": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-51-desaprovam-governo-lula-42-aprovam/"
+      }
+    ]
   }
 }
