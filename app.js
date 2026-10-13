@@ -500,15 +500,20 @@ async function carregarAnalise() {
     const rej = dados.rejeicao || {};
     const rItens = (rej.itens || (rej.flavio != null ? [rej] : [])).filter(x => x.flavio != null && x.lula != null);
     const rF = rItens.reduce((s, x) => s + x.flavio, 0) / (rItens.length || 1), rL = rItens.reduce((s, x) => s + x.lula, 0) / (rItens.length || 1);
+    const rjW = v => Math.min(100, v / 60 * 100).toFixed(1);
+    const rjTubo = (v, c) => `<div class="rj-trilho"><i class="rj-tubo ${c}" style="width:${rjW(v)}%"></i></div>`;
     const rejHtml = rItens.length ? `
-      <div class="an-card an-rej"><div class="an-tit">Rejeição${rItens.length > 1 ? ` · média de ${rItens.length} institutos` : ""}</div>
+      <div class="an-card rj3"><div class="an-tit">Rejeição${rItens.length > 1 ? ` · média de ${rItens.length} institutos` : ""}</div>
         <div class="an-sub">${esc(rej.obs || "não votaria de jeito nenhum")}</div>
-        <div class="an-rej-grid">
-          <div class="an-rej-item az"><div class="an-rej-nm">Flávio B.</div><div class="an-rej-pct">${pp(rF)}%</div></div>
-          <div class="an-rej-item vm"><div class="an-rej-nm">Lula</div><div class="an-rej-pct">${pp(rL)}%</div></div>
+        <div class="rj-meds">
+          <div class="rj-med az"><div class="rj-nm">Flávio B.</div><div class="rj-pct">${pp(rF)}%</div>${rjTubo(rF, "az")}</div>
+          <div class="rj-med vm"><div class="rj-nm">Lula</div><div class="rj-pct">${pp(rL)}%</div>${rjTubo(rL, "vm")}</div>
         </div>
-        ${rItens.length > 1 ? `<table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="az">Flávio</th><th class="vm">Lula</th></tr></thead><tbody>${rItens.map(x => `<tr><td>${esc(x.instituto || "")}</td><td>${esc(x.data || "")}</td><td class="az">${pp(x.flavio)}%</td><td class="vm">${pp(x.lula)}%</td></tr>`).join("")}</tbody></table>` : ""}
-        <div class="an-sub an-rej-fonte">Fontes: ${esc(rItens.map(x => x.fonte || "").filter(Boolean).join(" | "))}${rej.fora ? " · Fora: " + esc(rej.fora) : ""}</div></div>` : "";
+        ${rItens.length > 1 ? `<div class="rj-lista">${rItens.map(x => `<div class="rj-placa">
+          <div class="rj-inst"><b>${esc(x.instituto || "")}</b><small>${esc(x.data || "")}</small></div>
+          <div class="rj-lin"><span class="az">${pp(x.flavio)}%</span>${rjTubo(x.flavio, "az")}</div>
+          <div class="rj-lin"><span class="vm">${pp(x.lula)}%</span>${rjTubo(x.lula, "vm")}</div></div>`).join("")}</div>` : ""}
+        <div class="rj-fonte">Fontes: ${esc(rItens.map(x => x.fonte || "").filter(Boolean).join(" | "))}${rej.fora ? " · Fora: " + esc(rej.fora) : ""}</div></div>` : "";
     const dec = dados.decididos || {};
     const decHtml = dec.total != null ? `
       <div class="an-card an-dec an-rej"><div class="an-tit">Eleitores decididos</div>
