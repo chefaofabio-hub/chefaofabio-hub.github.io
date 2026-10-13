@@ -24,7 +24,7 @@ const hojeBR = () => new Date().toLocaleDateString("pt-BR", {timeZone: TZ});
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------------- abas ---------------- */
-const ABAS = ["apuracao", "regioes", "pesquisas", "analise", "agendas"];
+const ABAS = ["apuracao", "regioes", "pesquisas", "analise", "agendas", "canal"];
 const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "apuracao"; };
 function abrirAba() {
   const aba = abaAtual();
