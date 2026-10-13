@@ -316,11 +316,14 @@ async function carregarPesquisas() {
     const porInst = new Map();
     for (const p of ps) { const k = chave(p.instituto); if (!porInst.has(k)) porInst.set(k, []); porInst.get(k).push(p); }
     const grupos = [...porInst.values()];     // já em ordem da pesquisa mais recente
+    testeNovo = dados.testeNovo || null; aplicarTeste(ps);
+    novasCards = cardsNovos(ps);
     const espera = (dados.institutos || []).map(i => typeof i === "string" ? {nome: i} : i)
                      .filter(i => i && i.nome && !porInst.has(chave(i.nome)));   // institutos sem pesquisa ainda
     $("cartoes").innerHTML = grupos.length || espera.length ? grupos.map(linhaInstituto).join("") + espera.map(linhaEspera).join("") :
       `<div class="vazio">Nenhuma pesquisa cadastrada ainda.</div>`;
     marcarUltima(ps);
+    document.querySelectorAll("#cartoes details.pq[data-ids]").forEach(el => el.addEventListener("toggle", () => vistoCard(el), {once: true}));
     $("pesqRod").innerHTML = `<b>${grupos.length + espera.length} institutos · ${ps.length} pesquisa${ps.length === 1 ? "" : "s"} do 2º turno</b> · lista atualizada em ${esc(dataBR(dados.atualizado_em || ""))}`;
   } catch (e) {
     if (!$("cartoes").innerHTML) $("cartoes").innerHTML = `<div class="vazio">Não consegui carregar as pesquisas agora. Tente de novo em instantes.</div>`;
@@ -387,8 +390,9 @@ function linhaInstituto(lista) {
     p.fonte ? `<span><a href="${esc(p.fonte)}" target="_blank" rel="noopener">Ver fonte ↗</a></span>` : "",
   ].filter(Boolean).join("");
   const ant = lista.slice(1).map(a => `<li>${dataBR(a.divulgacao).slice(0, 5)}: <b class="az">${pv(a.flavio)}</b> x <b class="vm">${pv(a.lula)}</b>${a.fonte ? ` · <a href="${esc(a.fonte)}" target="_blank" rel="noopener">fonte ↗</a>` : ""}</li>`).join("");
-  return `<details class="pq"><summary>
-      <div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div><div class="pq-base">${p.base === "validos" ? "votos válidos" : "votos totais"}</div>${lid}</div>
+  const novos = lista.map(idPesq).filter(i => novasCards.has(i));
+  return `<details class="pq"${novos.length ? ` data-ids="${esc(JSON.stringify(novos))}"` : ""}><summary>
+      ${novos.length ? `<b class="ponto pq-ponto" title="pesquisa nova">!</b>` : ""}<div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div><div class="pq-base">${p.base === "validos" ? "votos válidos" : "votos totais"}</div>${lid}</div>
       ${mini}</summary>
     <div class="pq-det">${graficoInstituto(lista)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
 }
@@ -608,7 +612,31 @@ $("btnInst").addEventListener("click", async () => {
 const VAPID = "BFe70NXlcfbErji3jzju-T2_kF667r3gsqnkxK9_fkv5byx07Yuoc9nv5gqezaCWtlzuzcNpNu8iAnETxLW1E0E";   // chave PÚBLICA (a privada fica só no servidor do Fábio)
 const PUSH_OK = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window && location.protocol === "https:";
 const idPesq = p => `${p.instituto.trim().toLowerCase()}|${p.divulgacao}|${(p.registro || "").trim()}`;
-let ultimaPesq = null;
+let ultimaPesq = null, testeNovo = null, novasCards = new Set();
+// "!" em cada card com pesquisa nova (IDs vistos no localStorage; 1º acesso marca tudo como visto)
+function lerVistos() { try { const v = JSON.parse(localStorage.getItem("pesqCardsVistos")); return Array.isArray(v) ? new Set(v) : null; } catch (e) { return null; } }
+function cardsNovos(ps) {
+  const ids = ps.map(idPesq), vistos = lerVistos();
+  if (!vistos) { localStorage.setItem("pesqCardsVistos", JSON.stringify(ids)); return new Set(); }
+  return new Set(ids.filter(i => !vistos.has(i)));
+}
+function vistoCard(el) {
+  const vistos = lerVistos() || new Set();
+  JSON.parse(el.dataset.ids || "[]").forEach(i => { vistos.add(i); novasCards.delete(i); });
+  localStorage.setItem("pesqCardsVistos", JSON.stringify([...vistos]));
+  el.querySelector(".pq-ponto")?.remove(); el.removeAttribute("data-ids");
+}
+// teste: pesquisas.json.testeNovo = ID → aparece como nova UMA vez (card e aba)
+function aplicarTeste(ps) {
+  if (!testeNovo || localStorage.getItem("testeNovoFeito") === testeNovo) return;
+  let vistos = lerVistos();
+  if (!vistos) { if (!localStorage.getItem("pesqVista")) return;   // usuário novo: nada a testar
+    vistos = new Set(ps.map(idPesq)); }                              // vindo da 1.4: tudo visto, menos o teste
+  localStorage.setItem("testeNovoFeito", testeNovo);
+  vistos.delete(testeNovo); localStorage.setItem("pesqCardsVistos", JSON.stringify([...vistos]));
+  const sem = ps.map(idPesq).filter(i => i !== testeNovo).sort().join("|");
+  localStorage.setItem("pesqVista", sem || "x|teste");
+}
 function marcarUltima(ps) {             // ps: pesquisas válidas do 2º turno, mais recente primeiro
   ultimaPesq = ps.length ? ps.map(idPesq).sort().join("|") : null;   // assinatura do conjunto: só muda com pesquisa nova
   const vista = localStorage.getItem("pesqVista");
@@ -649,6 +677,9 @@ async function checarNovas() {          // leve: bolinha "!" nas abas Pesquisas,
   try {
     const d = await (await fetch("pesquisas.json?t=" + Date.now(), {cache: "no-store"})).json();
     const corte = d.inicio_2turno || "2026-10-05";
+    testeNovo = d.testeNovo || null;
+    const lst = (d.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null && p.campo_inicio && p.campo_inicio >= corte);
+    aplicarTeste(lst);
     marcarUltima((d.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null && p.campo_inicio && p.campo_inicio >= corte)
       .sort((a, b) => b.divulgacao.localeCompare(a.divulgacao)));
   } catch (e) {}

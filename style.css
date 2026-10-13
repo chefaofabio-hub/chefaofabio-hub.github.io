@@ -412,3 +412,5 @@ h1{text-shadow:0 1px 0 #fff,0 2px 0 #c6d3ea,0 3px 4px rgba(15,42,94,.35)}
 .autoria .nome{display:block;width:100%;text-align:center;white-space:normal;overflow-wrap:anywhere}
 .autoria .sep{display:none}
 .autoria a{display:block;margin-top:2px;text-align:center}
+
+.pq summary{position:relative}.pq-ponto{top:-6px;right:-4px}
