@@ -696,6 +696,12 @@ if (TESTE || ELE_FORCADA) for (const av of document.querySelectorAll(".aviso-tes
 abrirAba();
 estadoAlerta();
 checarNovas();
+function limparSeloApp() {             // abriu o app: some o selo do ícone e o aviso de atualização
+  try { navigator.clearAppBadge?.(); } catch (e) {}
+  navigator.serviceWorker?.ready.then(r => r.getNotifications?.({tag: "atualizacao"})).then(ns => (ns || []).forEach(n => n.close())).catch(() => {});
+}
+limparSeloApp();
+document.addEventListener("visibilitychange", () => { if (!document.hidden) limparSeloApp(); });
 conferirInscricao();
 atualizar();
 setInterval(atualizar, INTERVALO_MS);

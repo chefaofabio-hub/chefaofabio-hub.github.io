@@ -1,12 +1,14 @@
 // Service worker: guarda o "casco" do app para abrir rápido/offline e recebe os alertas de nova pesquisa.
 // Dados (TSE, pesquisas.json, push_endpoint.json) NUNCA vêm do cache se a rede responder.
-const VERSAO = "apuracao-pres-v44";
-const CASCO = ["./", "index.html", "style.css?v=41", "app.js?v=41", "manifest.json",
+const VERSAO = "apuracao-pres-v45";
+const CASCO = ["./", "index.html", "style.css?v=42", "app.js?v=42", "manifest.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png"];
 const PESQ = "https://chefaofabio-hub.github.io/#pesquisas";
 self.addEventListener("install", e => { e.waitUntil(caches.open(VERSAO).then(c => c.addAll(CASCO)).then(() => self.skipWaiting())); });
-self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VERSAO).map(k => caches.delete(k))))
+self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VERSAO).map(k => caches.delete(k))).then(() => ks))
+  .then(ks => { if (ks.some(k => k !== VERSAO && k.startsWith("apuracao-pres-"))) return selo(); })   // versão nova instalada: selo no ícone
   .then(() => self.clients.claim())); });
+async function selo() { try { if (self.navigator.setAppBadge) await self.navigator.setAppBadge(); } catch (x) {} }
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin || url.pathname.startsWith("/primeiro-turno/") || url.pathname.startsWith("/futebol/")) return;     // TSE, fontes e coletor: direto da rede
@@ -25,6 +27,15 @@ self.addEventListener("fetch", e => {
 self.addEventListener("push", e => {
   let d = {};
   try { d = e.data ? e.data.json() : {}; } catch (x) { d = {body: e.data ? e.data.text() : ""}; }
+  if (d.tipo === "atualizacao") {          // app atualizado: selo (ponto) no ícone + aviso curto que substitui o anterior
+    e.waitUntil((async () => {
+      await self.registration.showNotification(d.title || "App atualizado", {body: d.body || "Toque para ver", icon: "icons/icon-192.png",
+        badge: "icons/icon-192.png", tag: "atualizacao", renotify: false, silent: true, data: {url: d.url || "https://chefaofabio-hub.github.io/"}});
+      await selo();
+      try { await self.registration.update(); } catch (x) {}
+    })());
+    return;
+  }
   const titulo = d.title || "❗ Nova pesquisa eleitoral";
   const op = {body: d.body || "Toque para ver", icon: "icons/icon-192.png", badge: "icons/icon-192.png",
               tag: d.tag || "nova-pesquisa", renotify: true, data: {url: d.url || PESQ}};
