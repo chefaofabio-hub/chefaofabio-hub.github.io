@@ -498,14 +498,25 @@ async function carregarAnalise() {
     const barra = (nome, v, cls, cor) => `<div class="an-b"><div class="an-nm ${cls}">${nome}</div><div class="an-t"><i style="width:${v}%;background:${cor}"></i><em></em></div><div class="an-v ${cls}">${pp(v)}%</div></div>`;
     const tab = ps.slice().reverse().map(p => `<tr><td>${esc(p.instituto)}</td><td>${dataBR(p.divulgacao).slice(0, 5)}</td><td class="az">${pp(valF(p))}%</td><td class="vm">${pp(100 - valF(p))}%</td></tr>`).join("");
     const rej = dados.rejeicao || {};
-    const rejHtml = (rej.flavio != null && rej.lula != null) ? `
-      <div class="an-card an-rej"><div class="an-tit">Rejeição</div>
-        <div class="an-sub">${esc(rej.obs || "não votaria de jeito nenhum")}</div>
+    const rItens = (rej.itens || (rej.flavio != null ? [rej] : [])).filter(x => x.flavio != null && x.lula != null);
+    const rF = rItens.reduce((s, x) => s + x.flavio, 0) / (rItens.length || 1), rL = rItens.reduce((s, x) => s + x.lula, 0) / (rItens.length || 1);
+    const rejHtml = rItens.length ? `
+      <div class="an-card an-rej"><div class="an-tit">Rejeição${rItens.length > 1 ? " · média" : ""}</div>
+        <div class="an-sub">${esc(rej.obs || "não votaria de jeito nenhum")}${rItens.length > 1 ? ` · ${rItens.length} institutos` : ""}</div>
         <div class="an-rej-grid">
-          <div class="an-rej-item az"><div class="an-rej-nm">Flávio Bolsonaro</div><div class="an-rej-pct">${pp(rej.flavio)}%</div></div>
-          <div class="an-rej-item vm"><div class="an-rej-nm">Lula</div><div class="an-rej-pct">${pp(rej.lula)}%</div></div>
+          <div class="an-rej-item az"><div class="an-rej-nm">Flávio B.</div><div class="an-rej-pct">${pp(rF)}%</div></div>
+          <div class="an-rej-item vm"><div class="an-rej-nm">Lula</div><div class="an-rej-pct">${pp(rL)}%</div></div>
         </div>
-        <div class="an-sub an-rej-fonte">${esc(rej.fonte || "")}</div></div>` : "";
+        ${rItens.length > 1 ? `<table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="az">Flávio</th><th class="vm">Lula</th></tr></thead><tbody>${rItens.map(x => `<tr><td>${esc(x.instituto || "")}</td><td>${esc(x.data || "")}</td><td class="az">${pp(x.flavio)}%</td><td class="vm">${pp(x.lula)}%</td></tr>`).join("")}</tbody></table>` : ""}
+        <div class="an-sub an-rej-fonte">${esc(rItens.map(x => x.fonte || "").filter(Boolean).join(" | "))}</div></div>` : "";
+    const dec = dados.decididos || {};
+    const decHtml = dec.total != null ? `
+      <div class="an-card an-dec"><div class="an-tit">Eleitores decididos</div>
+        <div class="an-sub">${esc(dec.obs || "")}</div>
+        ${barra("Total", dec.total, "", "linear-gradient(#5fd38a,#1f9a52)")}
+        ${dec.flavio != null ? barra("De Flávio", dec.flavio, "az", "var(--flavio)") : ""}${dec.lula != null ? barra("De Lula", dec.lula, "vm", "var(--lula)") : ""}
+        ${dec.podem_mudar != null ? `<div class="an-sub">Ainda podem mudar: ${pp(dec.podem_mudar)}%</div>` : ""}
+        <div class="an-sub an-rej-fonte">Fonte: ${esc(dec.fonte || "")}</div></div>` : "";
     $("analise").innerHTML = `
       <div class="an-card"><div class="an-tit">Média de todas as pesquisas</div>
         <div class="an-sub">${ps.length} pesquisa${ps.length === 1 ? "" : "s"} de ${m.n} instituto${m.n === 1 ? "" : "s"} · última de cada instituto</div>
@@ -515,7 +526,7 @@ async function carregarAnalise() {
       ${blocoAprov(dados)}
       <div class="an-tt">Pesquisas incluídas (votos válidos)</div>
       <table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="az">Flávio</th><th class="vm">Lula</th></tr></thead><tbody>${tab}</tbody></table>
-      ${rejHtml}`;
+      ${decHtml}${rejHtml}`;
     $("anRod").innerHTML = `<b>Média simples da pesquisa mais recente de cada instituto</b> · pesquisas em votos totais convertidas para votos válidos · atualizado em ${esc(dataBR(dados.atualizado_em || ""))}`;
   } catch (e) {
     if (!$("analise").innerHTML.includes("an-card")) $("analise").innerHTML = `<div class="vazio">Não consegui carregar as pesquisas agora.</div>`;
