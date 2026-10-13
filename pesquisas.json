@@ -158,6 +158,23 @@
       "margem": "2",
       "obs": "Votos válidos: Flávio 52%, Lula 48%. Rejeição: Flávio 47%, Lula 51%.",
       "fonte": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/"
+    },
+    {
+      "instituto": "Gerp",
+      "contratante": "Gazeta do Povo",
+      "divulgacao": "2026-10-13",
+      "campo_inicio": "2026-10-08",
+      "campo": "08 a 12/10/2026 (depois do 1º turno)",
+      "registro": "BR-07877/2026",
+      "entrevistas": 2400,
+      "base": "validos",
+      "flavio": 55,
+      "lula": 45,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2",
+      "obs": "Votos válidos. Votos totais: Flávio 53%, Lula 44%, nenhum 1%, NS/NR 3%.",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-outubro-2026-segundo-turno/"
     }
   ],
   "rejeicao": {
