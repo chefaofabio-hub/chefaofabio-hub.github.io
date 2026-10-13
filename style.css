@@ -276,14 +276,6 @@ nav.nav a.largo{grid-column:1/-1}
 .ag-fonte{font-size:11.5px;color:#666}
 .ag-card .vazio{padding:12px}
 
-/* ---- aba Canal / Tropa do Flávio ---- */
-.canal-card{border:2px solid var(--flavio);border-radius:16px;padding:22px 16px 18px;margin:14px 0 10px;background:linear-gradient(180deg,#eef3fb 0%,#fff 55%);text-align:center}
-.canal-card h2{color:var(--flavio);font-weight:900;font-size:clamp(18px,5vw,22px);margin:4px 0 8px}
-.canal-card p{color:var(--txt);font-size:14.5px;line-height:1.4;font-weight:600;margin:0 auto 14px;max-width:32em}
-.canal-emoji{font-size:42px;line-height:1}
-.canal-btn{display:inline-block;background:#25D366;color:#fff;font-weight:900;font-size:clamp(16px,4.5vw,18px);padding:14px 22px;border-radius:14px;text-decoration:none;box-shadow:0 4px 14px rgba(37,211,102,.35);-webkit-tap-highlight-color:transparent}
-.canal-btn:active{transform:scale(.98)}
-.canal-hint{margin-top:10px!important;margin-bottom:0!important;font-size:12px!important;color:var(--cinza)!important;font-weight:600!important}
 
 .an-rej{margin-top:16px;border-color:#9aa3b5;background:#fafbfd}
 .an-rej .an-tit{color:var(--txt);font-size:18px}
