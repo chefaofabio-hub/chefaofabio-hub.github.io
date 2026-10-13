@@ -26,17 +26,8 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt
 /* ---------------- abas ---------------- */
 const ABAS = ["apuracao", "regioes", "pesquisas", "proximas", "analise", "agendas"];
 const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "apuracao"; };
-// "!" na aba Apuração: novidades no app. Mude APUR_VER para reacender em todos.
-const APUR_VER = "v2026-10-13";
-let abaAnterior = null;
-function pontoApur() { const el = $("pontoApur"); if (el) el.hidden = localStorage.getItem("visto_apuracao") === APUR_VER; }
-function vistoApur() { localStorage.setItem("visto_apuracao", APUR_VER); pontoApur(); }
-document.querySelector('#nav a[data-aba="apuracao"]')?.addEventListener("click", vistoApur);
-pontoApur();
 function abrirAba() {
   const aba = abaAtual();
-  if (aba === "apuracao" && abaAnterior && abaAnterior !== "apuracao") vistoApur();   // voltou para Apuração vindo de outra aba
-  abaAnterior = aba;
   for (const a of document.querySelectorAll("#nav a")) a.classList.toggle("atual", a.dataset.aba === aba);
   for (const x of ABAS) $("aba-" + x).hidden = x !== aba;
   if (aba === "pesquisas") { carregarPesquisas(); limparAviso(); }
