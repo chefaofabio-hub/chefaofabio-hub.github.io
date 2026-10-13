@@ -386,7 +386,7 @@ function linhaInstituto(lista) {
   ].filter(Boolean).join("");
   const ant = lista.slice(1).map(a => `<li>${dataBR(a.divulgacao).slice(0, 5)}: <b class="az">${pv(a.flavio)}</b> x <b class="vm">${pv(a.lula)}</b>${a.fonte ? ` · <a href="${esc(a.fonte)}" target="_blank" rel="noopener">fonte ↗</a>` : ""}</li>`).join("");
   return `<details class="pq"><summary>
-      <div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}${p.base === "validos" ? " · válidos" : ""}</div>${lid}</div>
+      <div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div>${p.base === "validos" ? '<div class="pq-base">votos válidos</div>' : ''}${lid}</div>
       ${mini}</summary>
     <div class="pq-det">${graficoInstituto(lista)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
 }
