@@ -31,9 +31,9 @@ function abrirAba() {
   for (const a of document.querySelectorAll("#nav a")) a.classList.toggle("atual", a.dataset.aba === aba);
   for (const x of ABAS) $("aba-" + x).hidden = x !== aba;
   if (aba === "pesquisas") { carregarPesquisas(); limparAviso(); }
-  if (aba === "analise") carregarAnalise();
+  if (aba === "analise") { carregarAnalise(); vistoAba("anal"); }
   if (aba === "agendas") carregarAgendas();
-  if (aba === "proximas") carregarProximas();
+  if (aba === "proximas") { carregarProximas(); vistoAba("prox"); }
   if (aba === "regioes") { desenharRegioes(); if (Date.now() - ufUltima > 20000) atualizarEstados(); }
 }
 window.addEventListener("hashchange", abrirAba);
@@ -606,7 +606,25 @@ function limparAviso() {
   try { navigator.clearAppBadge?.(); } catch (e) {}
   navigator.serviceWorker?.ready.then(r => r.getNotifications?.({tag: "nova-pesquisa"})).then(ns => (ns || []).forEach(n => n.close())).catch(() => {});
 }
-async function checarNovas() {          // leve: só para a bolinha "!" na aba Pesquisas
+// "!" nas abas Análise geral e Próximas quando os dados delas mudam (some ao abrir a aba)
+const assin = t => { let h = 0; for (let i = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0; return String(h); };
+const sinalAtual = {};
+function vistoAba(k) { if (sinalAtual[k]) localStorage.setItem("visto_" + k, sinalAtual[k]); pontoAba(k); }
+function pontoAba(k) {
+  const el = $(k === "anal" ? "pontoAnal" : "pontoProx"), v = localStorage.getItem("visto_" + k);
+  if (sinalAtual[k] && v === null) localStorage.setItem("visto_" + k, sinalAtual[k]);   // 1ª vez: não acusa
+  el.hidden = !sinalAtual[k] || localStorage.getItem("visto_" + k) === sinalAtual[k];
+}
+async function checarAbas() {
+  for (const [k, arq, aba] of [["anal", "pesquisas.json", "analise"], ["prox", "proximas.json", "proximas"]]) {
+    try {
+      sinalAtual[k] = assin(await (await fetch(arq + "?t=" + Date.now(), {cache: "no-store"})).text());
+      if (abaAtual() === aba && !document.hidden) vistoAba(k); else pontoAba(k);
+    } catch (e) {}
+  }
+}
+async function checarNovas() {          // leve: bolinha "!" nas abas Pesquisas, Análise geral e Próximas
+  checarAbas();
   if (abaAtual() === "pesquisas") return carregarPesquisas();
   try {
     const d = await (await fetch("pesquisas.json?t=" + Date.now(), {cache: "no-store"})).json();
