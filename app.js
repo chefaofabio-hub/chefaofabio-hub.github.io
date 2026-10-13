@@ -55,7 +55,7 @@ const urlResultado = id => `${TSE}/${CICLO}/${id}/dados/br/br-c0001-e${String(id
 
 /* ---------------- apuração ---------------- */
 const LINHAS = [
-  {chave: "flavio", nome: "Flávio", partido: "PL", cor: "var(--flavio)", grande: true},
+  {chave: "flavio", nome: "Flávio B.", partido: "PL", cor: "var(--flavio)", grande: true},
   {chave: "lula",   nome: "Lula",             partido: "PT", cor: "var(--lula)",   grande: true},
 ];
 const lista = $("lista");
