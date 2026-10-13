@@ -1,18 +1,110 @@
 {
-  "atualizado": "13/10/2026",
-  "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
-  "itens": [
-    {"instituto": "Quaest", "data": "2026-10-14", "status": "confirmada", "obs": "Campo 10 a 13/10 · 2.154 entrevistas · Globo/O Globo", "registro": "BR-08729/2026", "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/13/novas-pesquisas-eleitorais-presidenciais-2o-turno-quaest-e-datafolha.ghtml"},
-    {"instituto": "Datafolha", "data": "2026-10-15", "status": "confirmada", "obs": "Campo 13 a 15/10 · 2.520 entrevistas · Folha de S.Paulo", "registro": "BR-00466/2026", "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/13/novas-pesquisas-eleitorais-presidenciais-2o-turno-quaest-e-datafolha.ghtml"},
-    {"instituto": "AtlasIntel", "data": "2026-10-15", "status": "prevista", "obs": "Campo 9 a 14/10 (segundo a Veja)", "registro": "BR-01093/2026", "fonte": null},
-    {"instituto": "Ipespe", "data": "2026-10-17", "status": "prevista", "obs": "Data prevista, ainda sem confirmação oficial", "registro": null, "fonte": null},
-    {"instituto": "Paraná Pesquisas", "data": null, "status": "a confirmar", "obs": null, "registro": null, "fonte": null},
-    {"instituto": "Veritá", "data": null, "status": "a confirmar", "obs": null, "registro": null, "fonte": null},
-    {"instituto": "Real Time Big Data", "data": null, "status": "a confirmar", "obs": null, "registro": null, "fonte": null},
-    {"instituto": "Vox Brasil", "data": null, "status": "a confirmar", "obs": "Última divulgação: 09/10", "registro": null, "fonte": null},
-    {"instituto": "DataTrends", "data": null, "status": "a confirmar", "obs": "Última divulgação: 11/10", "registro": null, "fonte": null},
-    {"instituto": "PoderData/Aya", "data": null, "status": "a confirmar", "obs": "Última divulgação: 13/10", "registro": null, "fonte": null},
-    {"instituto": "BTG/Nexus", "data": null, "status": "a confirmar", "obs": "Última divulgação: 13/10", "registro": null, "fonte": null},
-    {"instituto": "Gerp", "data": null, "status": "a confirmar", "obs": "Última divulgação: 13/10", "registro": null, "fonte": null}
-  ]
+ "atualizado": "13/10/2026",
+ "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
+ "itens": [
+  {
+   "instituto": "Quaest",
+   "data": "2026-10-14",
+   "status": "confirmada",
+   "obs": "Campo 10 a 13/10 · 2.154 entrevistas · Globo/O Globo",
+   "registro": "BR-08729/2026",
+   "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/13/novas-pesquisas-eleitorais-presidenciais-2o-turno-quaest-e-datafolha.ghtml"
+  },
+  {
+   "instituto": "Datafolha",
+   "data": "2026-10-15",
+   "status": "confirmada",
+   "obs": "Campo 13 a 15/10 · 2.520 entrevistas · Folha de S.Paulo",
+   "registro": "BR-00466/2026",
+   "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/13/novas-pesquisas-eleitorais-presidenciais-2o-turno-quaest-e-datafolha.ghtml"
+  },
+  {
+   "instituto": "AtlasIntel",
+   "data": "2026-10-15",
+   "status": "prevista",
+   "obs": "Campo 9 a 14/10 (segundo a Veja)",
+   "registro": "BR-01093/2026",
+   "fonte": null
+  },
+  {
+   "instituto": "Ipespe",
+   "data": "2026-10-17",
+   "status": "prevista",
+   "obs": "Data prevista, ainda sem confirmação oficial",
+   "registro": null,
+   "fonte": null
+  },
+  {
+   "instituto": "Paraná Pesquisas",
+   "data": null,
+   "status": "a confirmar",
+   "obs": null,
+   "registro": null,
+   "fonte": null
+  },
+  {
+   "instituto": "Veritá",
+   "data": "2026-10-16",
+   "status": "prevista",
+   "obs": "Campo 11 a 15/10 · 40.500 entrevistas",
+   "registro": "BR-06662/2026",
+   "fonte": "https://agregador.ippipesquisas.com/disputa/presidente-2t"
+  },
+  {
+   "instituto": "Real Time Big Data",
+   "data": "2026-10-13",
+   "status": "prevista",
+   "obs": "Campo 7 a 10/10 · 1.500 entrevistas · registrada, resultado ainda não divulgado",
+   "registro": "BR-08265/2026",
+   "fonte": "https://agregador.ippipesquisas.com/disputa/presidente-2t"
+  },
+  {
+   "instituto": "Vox Brasil",
+   "data": "2026-10-16",
+   "status": "prevista",
+   "obs": "Campo 13 a 15/10 · 2.100 entrevistas",
+   "registro": "BR-08771/2026",
+   "fonte": "https://agregador.ippipesquisas.com/disputa/presidente-2t"
+  },
+  {
+   "instituto": "DataTrends",
+   "data": null,
+   "status": "a confirmar",
+   "obs": "Última divulgação: 11/10",
+   "registro": null,
+   "fonte": null
+  },
+  {
+   "instituto": "PoderData/Aya",
+   "data": "2026-10-16",
+   "status": "prevista",
+   "obs": "Campo 13 a 15/10 · 3.000 entrevistas",
+   "registro": "BR-04258/2026",
+   "fonte": "https://agregador.ippipesquisas.com/disputa/presidente-2t"
+  },
+  {
+   "instituto": "BTG/Nexus",
+   "data": null,
+   "status": "a confirmar",
+   "obs": "Última divulgação: 13/10",
+   "registro": null,
+   "fonte": null
+  },
+  {
+   "instituto": "Gerp",
+   "data": "2026-10-16",
+   "status": "prevista",
+   "obs": "Campo 14 a 16/10 · 2.400 entrevistas",
+   "registro": "BR-05187/2026",
+   "fonte": "https://agregador.ippipesquisas.com/disputa/presidente-2t"
+  },
+  {
+   "instituto": "Futura Inteligência",
+   "data": "2026-10-16",
+   "status": "prevista",
+   "obs": "Campo 13 a 15/10 · 2.000 entrevistas · 100% Cidades",
+   "registro": "BR-03764/2026",
+   "fonte": "https://agregador.ippipesquisas.com/disputa/presidente-2t"
+  }
+ ]
 }
