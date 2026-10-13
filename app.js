@@ -501,14 +501,14 @@ async function carregarAnalise() {
     const rItens = (rej.itens || (rej.flavio != null ? [rej] : [])).filter(x => x.flavio != null && x.lula != null);
     const rF = rItens.reduce((s, x) => s + x.flavio, 0) / (rItens.length || 1), rL = rItens.reduce((s, x) => s + x.lula, 0) / (rItens.length || 1);
     const rejHtml = rItens.length ? `
-      <div class="an-card an-rej"><div class="an-tit">Rejeição${rItens.length > 1 ? " · média" : ""}</div>
-        <div class="an-sub">${esc(rej.obs || "não votaria de jeito nenhum")}${rItens.length > 1 ? ` · ${rItens.length} institutos` : ""}</div>
+      <div class="an-card an-rej"><div class="an-tit">Rejeição${rItens.length > 1 ? ` · média de ${rItens.length} institutos` : ""}</div>
+        <div class="an-sub">${esc(rej.obs || "não votaria de jeito nenhum")}</div>
         <div class="an-rej-grid">
           <div class="an-rej-item az"><div class="an-rej-nm">Flávio B.</div><div class="an-rej-pct">${pp(rF)}%</div></div>
           <div class="an-rej-item vm"><div class="an-rej-nm">Lula</div><div class="an-rej-pct">${pp(rL)}%</div></div>
         </div>
         ${rItens.length > 1 ? `<table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="az">Flávio</th><th class="vm">Lula</th></tr></thead><tbody>${rItens.map(x => `<tr><td>${esc(x.instituto || "")}</td><td>${esc(x.data || "")}</td><td class="az">${pp(x.flavio)}%</td><td class="vm">${pp(x.lula)}%</td></tr>`).join("")}</tbody></table>` : ""}
-        <div class="an-sub an-rej-fonte">${esc(rItens.map(x => x.fonte || "").filter(Boolean).join(" | "))}</div></div>` : "";
+        <div class="an-sub an-rej-fonte">Fontes: ${esc(rItens.map(x => x.fonte || "").filter(Boolean).join(" | "))}${rej.fora ? " · Fora: " + esc(rej.fora) : ""}</div></div>` : "";
     const dec = dados.decididos || {};
     const decHtml = dec.total != null ? `
       <div class="an-card an-dec an-rej"><div class="an-tit">Eleitores decididos</div>

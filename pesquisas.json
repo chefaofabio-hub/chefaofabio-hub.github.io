@@ -196,20 +196,56 @@
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
+    "fora": "DataTrends 11/10 não divulgou rejeição",
     "itens": [
+      {
+        "instituto": "PoderData/Aya",
+        "data": "13/10",
+        "flavio": 44,
+        "lula": 46,
+        "fonte": "PoderData/Aya · campo 10–12/10 · BR-01209/2026 (Poder360)"
+      },
+      {
+        "instituto": "Datafolha",
+        "data": "08/10",
+        "flavio": 46,
+        "lula": 49,
+        "fonte": "Datafolha · BR-02949/2026 (g1) · só Flávio 43% + ambos 3%; só Lula 46% + ambos 3%"
+      },
+      {
+        "instituto": "Ipespe",
+        "data": "10/10",
+        "flavio": 46,
+        "lula": 49,
+        "fonte": "Ipespe · BR-00933/2026 (Folha)"
+      },
+      {
+        "instituto": "Vox Brasil",
+        "data": "09/10",
+        "flavio": 44.2,
+        "lula": 45.2,
+        "fonte": "Vox Brasil · BR-09623/2026 (O Dia)"
+      },
       {
         "instituto": "BTG/Nexus",
         "data": "13/10",
         "flavio": 47,
         "lula": 51,
-        "fonte": "BTG/Nexus · campo 10–12/10 · BR-07997/2026"
+        "fonte": "BTG/Nexus · campo 10–12/10 · BR-07997/2026 (Poder360/CNN)"
+      },
+      {
+        "instituto": "Gerp",
+        "data": "13/10",
+        "flavio": 42,
+        "lula": 53,
+        "fonte": "Gerp · campo 08–12/10 · BR-07877/2026 (Poder360/CNN)"
       },
       {
         "instituto": "Futura Inteligência",
         "data": "13/10",
         "flavio": 45.4,
         "lula": 48.6,
-        "fonte": "Futura/100% Cidades · campo 07–10/10 · BR-00650/2026"
+        "fonte": "Futura/100% Cidades · campo 07–10/10 · BR-00650/2026 (Poder360)"
       }
     ]
   },
