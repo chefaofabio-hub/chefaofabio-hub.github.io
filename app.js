@@ -360,9 +360,9 @@ function graficoInstituto(lista) {   // lista: pesquisas do instituto, mais rece
   return `<div class="pq-graf"><div class="pq-gcab"><span>Evolução ${esc(lista[0].instituto)}</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>${s}<div class="pq-gnota">${notas}</div></div>`;
 }
 
-function linhaEspera(i) {   // instituto da lista sem nenhuma pesquisa cadastrada
+function linhaEspera(i) {   // instituto sem pesquisa ainda — datas de divulgação ficam na aba Próximas
   return `<div class="pq pq-vazia"><div class="pq-sum">
-      <div class="pq-esq"><div class="pq-inst">${esc(i.nome)}</div><div class="pq-ag">aguardando pesquisa do 2º turno</div>${i.prevista ? `<div class="pq-prev">${esc(i.prevista)}</div>` : ""}</div>
+      <div class="pq-esq"><div class="pq-inst">${esc(i.nome)}</div><div class="pq-ag">aguardando pesquisa do 2º turno</div></div>
       <div class="pq-mini">
         <div class="pq-b"><span class="pq-nm">Flávio</span><div class="pq-t"></div><span>—</span></div>
         <div class="pq-b"><span class="pq-nm">Lula</span><div class="pq-t"></div><span>—</span></div></div></div></div>`;
@@ -711,16 +711,22 @@ if ("serviceWorker" in navigator) {
 
 /* ---------------- agendas (agendas.json) ---------------- */
 async function carregarProximas() {
+  // Só instituto + data de divulgação (sem % / barras / resultado — isso fica na aba Pesquisas)
   const box = $("proximas");
   try {
     const d = await (await fetch("proximas.json?t=" + Date.now(), {cache: "no-store"})).json();
     const DS = ["dom","seg","ter","qua","qui","sex","sáb"];
     const fmt = iso => { const [a,m,dd] = iso.split("-").map(Number); const dt = new Date(a, m-1, dd); return `${DS[dt.getDay()]}, ${String(dd).padStart(2,"0")}/${String(m).padStart(2,"0")}`; };
     const itens = (d.itens || []).slice().sort((a,b) => (a.data||"9") < (b.data||"9") ? -1 : (a.data||"9") > (b.data||"9") ? 1 : 0);
-    box.innerHTML = itens.map(i => `<section class="px-card${i.data ? "" : " px-aconf"}"><div class="px-top"><h2>${esc(i.instituto)}</h2>` +
-      `<div class="px-data">${i.data ? esc(fmt(i.data)) : "a confirmar"}${i.data && i.status && i.status !== "confirmada" ? `<small>${esc(i.status)}</small>` : ""}</div></div>` +
-      (i.obs || i.registro ? `<div class="px-obs">${i.obs ? esc(i.obs) : ""}${i.registro ? `${i.obs ? " · " : ""}TSE ${esc(i.registro)}` : ""}</div>` : "") +
-      (i.fonte ? `<a class="ag-fonte" href="${esc(i.fonte)}" target="_blank" rel="noopener">Fonte</a>` : "") + "</section>").join("");
+    box.innerHTML = itens.map(i => {
+      const dataTxt = i.data ? fmt(i.data) : "a confirmar";
+      const st = (i.status || "").toLowerCase();
+      const stLab = i.data && st && st !== "confirmada" ? `<small>${esc(st === "prevista" ? "prevista" : i.status)}</small>` : "";
+      const obs = [i.obs, i.registro ? "TSE " + i.registro : ""].filter(Boolean).join(" · ");
+      return `<section class="px-card${i.data ? "" : " px-aconf"}"><div class="px-top"><h2>${esc(i.instituto)}</h2>` +
+        `<div class="px-data">${esc(dataTxt)}${stLab}</div></div>` +
+        (obs ? `<div class="px-obs">${esc(obs)}</div>` : "") + "</section>";
+    }).join("") || `<div class="vazio">Nenhuma divulgação cadastrada.</div>`;
     $("pxRod").textContent = d.atualizado ? "Atualizado em " + d.atualizado : "—";
   } catch (e) { box.innerHTML = `<div class="vazio">Não foi possível carregar as datas.</div>`; }
 }

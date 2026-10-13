@@ -1,7 +1,7 @@
 // Service worker: guarda o "casco" do app para abrir rápido/offline e recebe os alertas de nova pesquisa.
 // Dados (TSE, pesquisas.json, push_endpoint.json) NUNCA vêm do cache se a rede responder.
-const VERSAO = "apuracao-pres-v38";
-const CASCO = ["./", "index.html", "style.css?v=35", "app.js?v=35", "manifest.json",
+const VERSAO = "apuracao-pres-v39";
+const CASCO = ["./", "index.html", "style.css?v=36", "app.js?v=36", "manifest.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png"];
 const PESQ = "https://chefaofabio-hub.github.io/#pesquisas";
 self.addEventListener("install", e => { e.waitUntil(caches.open(VERSAO).then(c => c.addAll(CASCO)).then(() => self.skipWaiting())); });
@@ -11,7 +11,7 @@ self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin || url.pathname.startsWith("/primeiro-turno/") || url.pathname.startsWith("/futebol/")) return;     // TSE, fontes e coletor: direto da rede
   if (url.pathname.endsWith("push_endpoint.json")) return;                       // endereço do coletor: sempre da rede
-  if (url.pathname.endsWith("pesquisas.json") || url.pathname.endsWith("agendas.json")) {                                // dados: rede primeiro, cache só se offline
+  if (url.pathname.endsWith("pesquisas.json") || url.pathname.endsWith("agendas.json") || url.pathname.endsWith("proximas.json")) {                                // dados: rede primeiro, cache só se offline
     e.respondWith(fetch(e.request).then(r => { const c = r.clone(); caches.open(VERSAO).then(ca => ca.put(url.pathname.split("/").pop(), c)); return r; })
       .catch(() => caches.match(url.pathname.split("/").pop())));
     return;
