@@ -349,3 +349,13 @@ h1{text-shadow:0 1px 0 #fff,0 2px 0 #c6d3ea,0 3px 4px rgba(15,42,94,.35)}
 .barra,.ub-prog i,.an-b,.pq-b{background-image:linear-gradient(180deg,rgba(255,255,255,.15) 0%,rgba(255,255,255,.7) 22%,rgba(255,255,255,.1) 45%,rgba(0,0,0,.05) 60%,rgba(0,0,0,.3) 100%);
  box-shadow:inset 0 -1px 1px rgba(0,0,0,.3),0 1px 2px rgba(0,0,0,.3)}
 .nome{text-shadow:0 1px 0 #fff,0 2px 3px rgba(0,0,0,.2)}
+/* Apuração: trilhos e barras 3D (v41) */
+.cand .trilho{height:26px;border-radius:13px;overflow:visible}
+.cand .barra{border-radius:12px}
+.cand[data-chave=flavio] .trilho{background:linear-gradient(180deg,#a9bde3 0%,#d5e0f5 45%,#e9effb 100%);border:2px solid #163a7e;
+ box-shadow:inset 0 5px 7px rgba(10,30,80,.45),inset 0 -2px 2px rgba(255,255,255,.7),0 4px 0 #163a7e,0 7px 8px rgba(10,25,60,.25)}
+.cand[data-chave=lula] .trilho{background:linear-gradient(180deg,#e9aab5 0%,#f7d6dc 45%,#fcecef 100%);border:2px solid #8a0b20;
+ box-shadow:inset 0 5px 7px rgba(90,0,20,.45),inset 0 -2px 2px rgba(255,255,255,.7),0 4px 0 #8a0b20,0 7px 8px rgba(60,10,20,.25)}
+.cand .barra{background-image:linear-gradient(180deg,rgba(255,255,255,.25) 0%,rgba(255,255,255,.85) 18%,rgba(255,255,255,.25) 38%,rgba(255,255,255,0) 55%,rgba(0,0,0,.18) 75%,rgba(0,0,0,.42) 100%)!important;
+ box-shadow:inset 0 0 0 1.5px rgba(0,0,0,.35),inset 0 -3px 4px rgba(0,0,0,.25),2px 0 4px rgba(0,0,0,.35)}
+.cand .m50{z-index:2}
