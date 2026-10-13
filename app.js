@@ -511,11 +511,8 @@ async function carregarAnalise() {
         <div class="an-sub an-rej-fonte">${esc(rItens.map(x => x.fonte || "").filter(Boolean).join(" | "))}</div></div>` : "";
     const dec = dados.decididos || {};
     const decHtml = dec.total != null ? `
-      <div class="an-card an-dec"><div class="an-tit">Eleitores decididos</div>
-        <div class="an-sub">${esc(dec.obs || "")}</div>
-        ${barra("Total", dec.total, "", "linear-gradient(#5fd38a,#1f9a52)")}
-        ${dec.flavio != null ? barra("De Flávio", dec.flavio, "az", "var(--flavio)") : ""}${dec.lula != null ? barra("De Lula", dec.lula, "vm", "var(--lula)") : ""}
-        ${dec.podem_mudar != null ? `<div class="an-sub">Ainda podem mudar: ${pp(dec.podem_mudar)}%</div>` : ""}
+      <div class="an-card an-dec an-rej"><div class="an-tit">Eleitores decididos</div>
+        <div class="an-rej-grid"><div class="an-rej-item" style="grid-column:1/-1;color:#1f9a52"><div class="an-rej-pct" style="font-size:2.6em">${pp(dec.total)}%</div><div class="an-rej-nm">dos eleitores já decididos, não mudam de candidato</div></div></div>
         <div class="an-sub an-rej-fonte">Fonte: ${esc(dec.fonte || "")}</div></div>` : "";
     $("analise").innerHTML = `
       <div class="an-card"><div class="an-tit">Média de todas as pesquisas</div>
