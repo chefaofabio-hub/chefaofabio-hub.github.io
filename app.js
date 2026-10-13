@@ -24,7 +24,7 @@ const hojeBR = () => new Date().toLocaleDateString("pt-BR", {timeZone: TZ});
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------------- abas ---------------- */
-const ABAS = ["apuracao", "regioes", "pesquisas", "analise"];
+const ABAS = ["apuracao", "regioes", "pesquisas", "analise", "agendas"];
 const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "apuracao"; };
 function abrirAba() {
   const aba = abaAtual();
@@ -32,6 +32,7 @@ function abrirAba() {
   for (const x of ABAS) $("aba-" + x).hidden = x !== aba;
   if (aba === "pesquisas") { carregarPesquisas(); limparAviso(); }
   if (aba === "analise") carregarAnalise();
+  if (aba === "agendas") carregarAgendas();
   if (aba === "regioes") { desenharRegioes(); if (Date.now() - ufUltima > 20000) atualizarEstados(); }
 }
 window.addEventListener("hashchange", abrirAba);
@@ -644,4 +645,20 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.addEventListener("controllerchange", () => { if (tinhaSW && !recarregou) { recarregou = true; location.reload(); } });
   const checa = () => navigator.serviceWorker.getRegistration().then(r => r && r.update()).catch(() => {});
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checa(); });
+}
+
+/* ---------------- agendas (agendas.json) ---------------- */
+async function carregarAgendas() {
+  const box = $("agendas");
+  try {
+    const d = await (await fetch("agendas.json?t=" + Date.now(), {cache: "no-store"})).json();
+    const card = (nome, cls, itens) => `<section class="ag-card ${cls}"><h2>${esc(nome)}</h2>` +
+      ((itens && itens.length) ? "<ul>" + itens.map(i => `<li>${i.hora ? `<b class="ag-hora">${esc(i.hora)}</b>` : ""}` +
+        `${i.local ? `<div class="ag-local">📍 ${esc(i.local)}</div>` : ""}<div class="ag-desc">${esc(i.descricao)}</div>` +
+        `${i.fonte ? `<a class="ag-fonte" href="${esc(i.fonte)}" target="_blank" rel="noopener">Fonte${i.fonte_nome ? ": " + esc(i.fonte_nome) : ""}</a>` : ""}</li>`).join("") + "</ul>"
+        : `<div class="vazio">Sem agenda divulgada</div>`) + "</section>";
+    box.innerHTML = `<div class="ag-data">${esc(d.titulo || "Agenda de hoje")}</div>` +
+      card("Flávio Bolsonaro", "ag-flavio", d.flavio) + card("Lula", "ag-lula", d.lula);
+    $("agRod").textContent = d.atualizado ? "Atualizado em " + d.atualizado : "—";
+  } catch (e) { box.innerHTML = `<div class="vazio">Não foi possível carregar as agendas.</div>`; }
 }

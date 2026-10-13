@@ -1,0 +1,14 @@
+{
+  "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
+  "data": "2026-10-13",
+  "titulo": "Agenda de hoje · terça, 13/10",
+  "atualizado": "13/10/2026",
+  "flavio": [
+    {"hora": "Manhã", "local": "Brasília (DF)", "descricao": "Visita ao pai, Jair Bolsonaro.", "fonte": "https://g1.globo.com/jornal-nacional/noticia/2026/10/12/flavio-bolsonaro-campanha.ghtml", "fonte_nome": "g1"},
+    {"hora": "Tarde", "local": "São Paulo (SP)", "descricao": "Eventos privados e encontro com lideranças do MDB.", "fonte": "https://www.cnnbrasil.com.br/eleicoes/flavio-visita-3-regioes-e-lula-foca-sudeste-em-penultima-semana-da-eleicao/", "fonte_nome": "CNN Brasil"},
+    {"hora": "17h", "local": "Clube Atlético Monte Líbano, São Paulo (SP)", "descricao": "Grande Encontro do Associativismo, com Michelle Bolsonaro e Bia Kicis.", "fonte": "https://paralaxenews.com.br/noticia/flavio-bolsonaro-participa-de-encontro-com-empresarios-em-sp-e-mira-eleitorado-feminino", "fonte_nome": "Paralaxe News"}
+  ],
+  "lula": [
+    {"local": "Palácio do Planalto, Brasília (DF)", "descricao": "Cerimônia para anunciar medidas para o MEI e o Simples Nacional.", "fonte": "https://www.cnnbrasil.com.br/eleicoes/flavio-visita-3-regioes-e-lula-foca-sudeste-em-penultima-semana-da-eleicao/", "fonte_nome": "CNN Brasil"}
+  ]
+}
