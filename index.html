@@ -31,11 +31,11 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=33">
+<link rel="stylesheet" href="style.css?v=34">
 </head>
 <body>
 <nav class="nav" id="nav">
-  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<small>das pesquisas</small></a><a href="#agendas" data-aba="agendas" class="largo">Agendas<small>candidatos</small></a>
+  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#proximas" data-aba="proximas">Próximas<small>pesquisas</small></a><a href="#analise" data-aba="analise">Análise geral<small>das pesquisas</small></a><a href="#agendas" data-aba="agendas" class="largo">Agendas<small>candidatos</small></a>
 </nav>
 <div class="inst" id="inst" hidden>
   <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
@@ -113,6 +113,15 @@
   <div class="rod" id="anRod">—</div>
 </main>
 
+<!-- ABA PROXIMAS -->
+<main class="quadro aba" id="aba-proximas" hidden>
+  <h1 style="font-size:clamp(18px,5.6vw,28px)">DIVULGAÇÃO DAS PRÓXIMAS PESQUISAS</h1>
+  <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
+  <div id="proximas"><div class="vazio">Carregando…</div></div>
+  <div class="autoria"><span class="nome">CRIADO POR FÁBIO LINS E SILVA</span> <span class="sep">·</span> <a href="tel:+5521971902990" class="nw">(21) 97190-2990</a></div>
+  <div class="rod" id="pxRod">—</div>
+</main>
+
 <!-- ABA AGENDAS -->
 <main class="quadro aba" id="aba-agendas" hidden>
   <h1 style="font-size:clamp(20px,6.4vw,30px)">AGENDAS DOS CANDIDATOS</h1>
@@ -132,6 +141,6 @@
   </div>
 </div>
 
-<script src="app.js?v=33"></script>
+<script src="app.js?v=34"></script>
 </body>
 </html>
