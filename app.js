@@ -445,6 +445,15 @@ async function carregarAnalise() {
       `<div class="an-lid ${d > 0 ? "az" : "vm"}">${d > 0 ? "Flávio" : "Lula"} lidera por ${pp(Math.abs(d))} ponto${Math.abs(pp(Math.abs(d)).replace(",", ".")) === 1 ? "" : "s"}</div>`;
     const barra = (nome, v, cls, cor) => `<div class="an-b"><div class="an-nm ${cls}">${nome}</div><div class="an-t"><i style="width:${v}%;background:${cor}"></i><em></em></div><div class="an-v ${cls}">${pp(v)}%</div></div>`;
     const tab = ps.slice().reverse().map(p => `<tr><td>${esc(p.instituto)}</td><td>${dataBR(p.divulgacao).slice(0, 5)}</td><td class="az">${pp(valF(p))}%</td><td class="vm">${pp(100 - valF(p))}%</td></tr>`).join("");
+    const rej = dados.rejeicao || {};
+    const rejHtml = (rej.flavio != null && rej.lula != null) ? `
+      <div class="an-card an-rej"><div class="an-tit">Rejeição</div>
+        <div class="an-sub">${esc(rej.obs || "não votaria de jeito nenhum")}</div>
+        <div class="an-rej-grid">
+          <div class="an-rej-item az"><div class="an-rej-nm">Flávio Bolsonaro</div><div class="an-rej-pct">${pp(rej.flavio)}%</div></div>
+          <div class="an-rej-item vm"><div class="an-rej-nm">Lula</div><div class="an-rej-pct">${pp(rej.lula)}%</div></div>
+        </div>
+        <div class="an-sub an-rej-fonte">${esc(rej.fonte || "")}</div></div>` : "";
     $("analise").innerHTML = `
       <div class="an-card"><div class="an-tit">Média de todas as pesquisas</div>
         <div class="an-sub">${ps.length} pesquisa${ps.length === 1 ? "" : "s"} de ${m.n} instituto${m.n === 1 ? "" : "s"} · última de cada instituto</div>
@@ -452,7 +461,8 @@ async function carregarAnalise() {
       <div class="pq-graf"><div class="pq-gcab"><span>Evolução da média</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>${graficoMedia(serie)}
         <div class="pq-gnota">${serie.length === 1 ? "A linha aparece quando sair pesquisa em outra data." : "Cada ponto é a média nas datas de divulgação."}</div></div>
       <div class="an-tt">Pesquisas incluídas (votos válidos)</div>
-      <table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="az">Flávio</th><th class="vm">Lula</th></tr></thead><tbody>${tab}</tbody></table>`;
+      <table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="az">Flávio</th><th class="vm">Lula</th></tr></thead><tbody>${tab}</tbody></table>
+      ${rejHtml}`;
     $("anRod").innerHTML = `<b>Média simples da pesquisa mais recente de cada instituto</b> · pesquisas em votos totais convertidas para votos válidos · atualizado em ${esc(dataBR(dados.atualizado_em || ""))}`;
   } catch (e) {
     if (!$("analise").innerHTML.includes("an-card")) $("analise").innerHTML = `<div class="vazio">Não consegui carregar as pesquisas agora.</div>`;

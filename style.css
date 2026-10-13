@@ -284,3 +284,15 @@ nav.nav a.largo{grid-column:1/-1}
 .canal-btn{display:inline-block;background:#25D366;color:#fff;font-weight:900;font-size:clamp(16px,4.5vw,18px);padding:14px 22px;border-radius:14px;text-decoration:none;box-shadow:0 4px 14px rgba(37,211,102,.35);-webkit-tap-highlight-color:transparent}
 .canal-btn:active{transform:scale(.98)}
 .canal-hint{margin-top:10px!important;margin-bottom:0!important;font-size:12px!important;color:var(--cinza)!important;font-weight:600!important}
+
+.an-rej{margin-top:16px;border-color:#9aa3b5;background:#fafbfd}
+.an-rej .an-tit{color:var(--txt);font-size:18px}
+.an-rej-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0 4px}
+.an-rej-item{text-align:center;padding:12px 8px;border-radius:12px;background:#fff;border:2px solid #e6eaf2;min-width:0}
+.an-rej-item.az{border-color:var(--flavio)}.an-rej-item.vm{border-color:var(--lula)}
+.an-rej-nm{font-weight:800;font-size:13px;line-height:1.2;margin-bottom:4px;word-break:break-word}
+.an-rej-item.az .an-rej-nm,.an-rej-item.az .an-rej-pct{color:var(--flavio)}
+.an-rej-item.vm .an-rej-nm,.an-rej-item.vm .an-rej-pct{color:var(--lula)}
+.an-rej-pct{font-weight:900;font-size:clamp(28px,8vw,36px);line-height:1.05}
+.an-rej-fonte{margin:6px 0 0!important;font-size:11.5px!important}
+

@@ -125,5 +125,11 @@
       "obs": "Votos válidos. Votos totais: Flávio 50%, Lula 44%, brancos/nulos 5%, não sabe 1%.",
       "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/"
     }
-  ]
+  ],
+  "rejeicao": {
+    "flavio": 46,
+    "lula": 49,
+    "fonte": "Ipespe/Abrapel · campo 6–8/10 · BR-00933/2026",
+    "obs": "não votaria de jeito nenhum"
+  }
 }
