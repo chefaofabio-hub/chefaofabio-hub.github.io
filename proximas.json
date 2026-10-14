@@ -14,17 +14,6 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
-   "instituto": "Palver",
-   "data": "2026-10-15",
-   "status": "confirmada",
-   "obs": "Sem detalhes no registro",
-   "registro": "BR-08028/2026",
-   "contratante": null,
-   "campo": null,
-   "entrevistas": null,
-   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-  },
-  {
    "instituto": "Indexa",
    "data": "2026-10-15",
    "status": "confirmada",
@@ -36,25 +25,14 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
-   "instituto": "PoderData/Aya",
-   "data": "2026-10-16",
+   "instituto": "Palver",
+   "data": "2026-10-15",
    "status": "confirmada",
-   "obs": "Campo 13 a 15/10 · 3.000 entrevistas",
-   "registro": "BR-04258/2026",
+   "obs": "Campo 10 a 14/10 · 5.000 entrevistas",
+   "registro": "BR-08028/2026",
    "contratante": null,
-   "campo": "13 a 15/10",
-   "entrevistas": 3000,
-   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-  },
-  {
-   "instituto": "CNT/MDA",
-   "data": "2026-10-16",
-   "status": "confirmada",
-   "obs": "Campo 13 a 15/10 · 2.002 entrevistas · CNT",
-   "registro": "BR-00652/2026",
-   "contratante": "CNT",
-   "campo": "13 a 15/10",
-   "entrevistas": 2002,
+   "campo": "10 a 14/10",
+   "entrevistas": 5000,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
@@ -69,36 +47,25 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
-   "instituto": "Datavero",
+   "instituto": "CNT/MDA",
    "data": "2026-10-16",
    "status": "confirmada",
-   "obs": "Campo 13 a 15/10 · 1.500 entrevistas · TL Comunicação",
-   "registro": "BR-02367/2026",
-   "contratante": "TL Comunicação",
+   "obs": "Campo 13 a 15/10 · 2.002 entrevistas · CNT",
+   "registro": "BR-00652/2026",
+   "contratante": "CNT",
    "campo": "13 a 15/10",
-   "entrevistas": 1500,
+   "entrevistas": 2002,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
-   "instituto": "Stylo",
+   "instituto": "PoderData/Aya",
    "data": "2026-10-16",
    "status": "confirmada",
-   "obs": "Campo 11 a 14/10 · 1.200 entrevistas",
-   "registro": "BR-06187/2026",
+   "obs": "Campo 13 a 15/10 · 3.000 entrevistas",
+   "registro": "BR-04258/2026",
    "contratante": null,
-   "campo": "11 a 14/10",
-   "entrevistas": 1200,
-   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-  },
-  {
-   "instituto": "Veritá",
-   "data": "2026-10-17",
-   "status": "confirmada",
-   "obs": "Campo 12 a 16/10 · 15.554 entrevistas",
-   "registro": "BR-01107/2026",
-   "contratante": null,
-   "campo": "12 a 16/10",
-   "entrevistas": 15554,
+   "campo": "13 a 15/10",
+   "entrevistas": 3000,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
@@ -113,25 +80,14 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
-   "instituto": "Item Pesquisas",
+   "instituto": "Veritá",
    "data": "2026-10-17",
    "status": "confirmada",
-   "obs": "Campo 13 a 15/10 · 1.250 entrevistas · Rádio Difusora de Mossoró",
-   "registro": "BR-02615/2026",
-   "contratante": "Rádio Difusora de Mossoró",
-   "campo": "13 a 15/10",
-   "entrevistas": 1250,
-   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-  },
-  {
-   "instituto": "Vox Brasil",
-   "data": "2026-10-18",
-   "status": "confirmada",
-   "obs": "Campo 15 a 17/10 · 2.100 entrevistas",
-   "registro": "BR-04332/2026",
+   "obs": "Campo 12 a 16/10 · 15.554 entrevistas",
+   "registro": "BR-01107/2026",
    "contratante": null,
-   "campo": "15 a 17/10",
-   "entrevistas": 2100,
+   "campo": "12 a 16/10",
+   "entrevistas": 15554,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
@@ -157,47 +113,14 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
-   "instituto": "IGAPE",
+   "instituto": "Vox Brasil",
    "data": "2026-10-18",
    "status": "confirmada",
-   "obs": "Campo 12 a 14/10 · 1.200 entrevistas · TV Atual",
-   "registro": "BR-01953/2026",
-   "contratante": "TV Atual",
-   "campo": "12 a 14/10",
-   "entrevistas": 1200,
-   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-  },
-  {
-   "instituto": "AtlasIntel/Bloomberg",
-   "data": "2026-10-19",
-   "status": "confirmada",
-   "obs": "Campo 13 a 18/10 · 5.000 entrevistas",
-   "registro": "BR-02418/2026",
-   "contratante": "a própria (ficha TSE); Bloomberg não confirmada",
-   "campo": "13 a 18/10",
-   "entrevistas": 5000,
-   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-  },
-  {
-   "instituto": "PoderData/Aya",
-   "data": "2026-10-19",
-   "status": "confirmada",
-   "obs": "Campo 16 a 18/10 · 3.000 entrevistas",
-   "registro": "BR-02586/2026",
-   "contratante": null,
-   "campo": "16 a 18/10",
-   "entrevistas": 3000,
-   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-  },
-  {
-   "instituto": "DataTrends",
-   "data": "2026-10-19",
-   "status": "confirmada",
-   "obs": "Campo 15 a 17/10 · 2.000 entrevistas",
-   "registro": "BR-04454/2026",
+   "obs": "Campo 15 a 17/10 · 2.100 entrevistas",
+   "registro": "BR-04332/2026",
    "contratante": null,
    "campo": "15 a 17/10",
-   "entrevistas": 2000,
+   "entrevistas": 2100,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
@@ -212,6 +135,17 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
+   "instituto": "AtlasIntel/Bloomberg",
+   "data": "2026-10-19",
+   "status": "confirmada",
+   "obs": "Campo 13 a 18/10 · 5.000 entrevistas",
+   "registro": "BR-02418/2026",
+   "contratante": "a própria (ficha TSE); Bloomberg não confirmada",
+   "campo": "13 a 18/10",
+   "entrevistas": 5000,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
    "instituto": "BTG/Nexus",
    "data": "2026-10-19",
    "status": "confirmada",
@@ -223,14 +157,25 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
-   "instituto": "Paraná Pesquisas",
+   "instituto": "DataTrends",
    "data": "2026-10-19",
    "status": "confirmada",
-   "obs": "Campo 14 a 17/10 · 1.500 entrevistas · FIETO",
-   "registro": "BR-09051/2026",
-   "contratante": "FIETO",
-   "campo": "14 a 17/10",
-   "entrevistas": 1500,
+   "obs": "Campo 15 a 17/10 · 2.000 entrevistas",
+   "registro": "BR-04454/2026",
+   "contratante": null,
+   "campo": "15 a 17/10",
+   "entrevistas": 2000,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
+   "instituto": "PoderData/Aya",
+   "data": "2026-10-19",
+   "status": "confirmada",
+   "obs": "Campo 16 a 18/10 · 3.000 entrevistas",
+   "registro": "BR-02586/2026",
+   "contratante": null,
+   "campo": "16 a 18/10",
+   "entrevistas": 3000,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
