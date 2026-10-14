@@ -396,10 +396,14 @@ function linhaInstituto(lista) {
   return `<details class="pq"${novos.length ? ` data-ids="${esc(JSON.stringify(novos))}"` : ""}><summary>
       ${novos.length ? `<b class="ponto pq-ponto" title="pesquisa nova">!</b>` : ""}<div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div><div class="pq-base">${p.base === "validos" ? "votos válidos" : "votos totais"}</div>${lid}</div>
       ${mini}</summary>
-    <div class="pq-det">${graficoInstituto(lista)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
+    <div class="pq-det">${graficoInstituto(lista)}${blocoGov(p)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
 }
 
 
+function blocoGov(p){
+  if(p.aprovacao==null) return `<div class="pq-gov"><div class="pq-gov-t">Governo Lula</div><div class="pq-gov-n">não mediu aprovação</div></div>`;
+  return `<div class="pq-gov"><div class="pq-gov-t">Governo Lula</div><div class="pq-gov-l"><span class="ap">Aprovação <b>${pv(p.aprovacao)}</b></span><span class="de">Desaprovação <b>${pv(p.desaprovacao)}</b></span></div>${p.aprovacao_fonte?`<a href="${esc(p.aprovacao_fonte)}" target="_blank" rel="noopener">fonte ↗</a>`:""}</div>`;
+}
 /* ---------------- análise: média de todas as pesquisas ---------------- */
 const valF = p => 100 * p.flavio / (p.flavio + p.lula);      // converte para votos válidos (só os dois)
 const chaveInst = n => String(n).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim().toLowerCase();

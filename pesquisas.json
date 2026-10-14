@@ -1,6 +1,6 @@
 {
  "atualizado_em": "2026-10-14",
- "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh.",
+ "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh. Toda pesquisa nova deve ter 'aprovacao', 'desaprovacao' e 'aprovacao_fonte' (null se não mediu).",
  "inicio_2turno": "2026-10-05",
  "institutos": [
   {
@@ -57,7 +57,10 @@
    "indecisos": null,
    "margem": "1,8",
    "obs": "Números divulgados em votos válidos.",
-   "fonte": "https://www.cartacapital.com.br/politica/pesquisa-poder-aya-mostra-flavio-6-pontos-a-frente-de-lula/"
+   "fonte": "https://www.cartacapital.com.br/politica/pesquisa-poder-aya-mostra-flavio-6-pontos-a-frente-de-lula/",
+   "aprovacao": 44,
+   "desaprovacao": 50,
+   "aprovacao_fonte": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-51-desaprovam-governo-lula-42-aprovam/"
   },
   {
    "instituto": "Datafolha",
@@ -74,7 +77,10 @@
    "indecisos": 1,
    "margem": "2",
    "obs": "Votos válidos: Flávio 52%, Lula 48%.",
-   "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml"
+   "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml",
+   "aprovacao": 48,
+   "desaprovacao": 49,
+   "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-avaliacao-governo-8-outubro.ghtml"
   },
   {
    "instituto": "Ipespe",
@@ -91,7 +97,10 @@
    "indecisos": null,
    "margem": "2,6",
    "obs": "Votos válidos. Votos totais: Flávio 49%, Lula 44%, brancos/nulos 5%, não sabe 3%.",
-   "fonte": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-tem-527-dos-votos-validos-no-2o-turno-contra-473-de-lula-diz-ipespe.shtml"
+   "fonte": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-tem-527-dos-votos-validos-no-2o-turno-contra-473-de-lula-diz-ipespe.shtml",
+   "aprovacao": null,
+   "desaprovacao": null,
+   "aprovacao_fonte": null
   },
   {
    "instituto": "AtlasIntel",
@@ -109,7 +118,10 @@
    "margem": "1",
    "obs": "Votos válidos. Votos totais: Flávio 51,1%, Lula 45,7%, branco/nulo/não sabe 3,2%. Campo começou em 03/10, antes do 1º turno (incluída por decisão do Fabio).",
    "fonte": "https://www.pollingdata.com.br/links/relatorio_BR-03663-2026_AtlasIntel.pdf",
-   "incluir": true
+   "incluir": true,
+   "aprovacao": 44.7,
+   "desaprovacao": 53.4,
+   "aprovacao_fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/atlas-intel-flavio-tem-52-8-e-lula-47-2-no-segundo-turno"
   },
   {
    "instituto": "Vox Brasil",
@@ -126,7 +138,10 @@
    "indecisos": null,
    "margem": "2,15",
    "obs": "Votos válidos. Votos totais: Lula 44,2%, Flávio 42,7%, indecisos 9,7%, brancos/nulos 3,4%.",
-   "fonte": "https://odia.ig.com.br/brasil/2026/10/7310750-pesquisa-vox-brasil-lula-tem-442-e-flavio-427-no-segundo-turno.html"
+   "fonte": "https://odia.ig.com.br/brasil/2026/10/7310750-pesquisa-vox-brasil-lula-tem-442-e-flavio-427-no-segundo-turno.html",
+   "aprovacao": null,
+   "desaprovacao": null,
+   "aprovacao_fonte": null
   },
   {
    "instituto": "DataTrends",
@@ -143,7 +158,10 @@
    "indecisos": null,
    "margem": "2,19",
    "obs": "Votos válidos. Votos totais: Flávio 50%, Lula 44%, brancos/nulos 5%, não sabe 1%.",
-   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/"
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/",
+   "aprovacao": null,
+   "desaprovacao": null,
+   "aprovacao_fonte": null
   },
   {
    "instituto": "PoderData",
@@ -160,7 +178,10 @@
    "indecisos": null,
    "margem": "1,8",
    "obs": "Números divulgados em votos válidos. Empate técnico (margem 1,8 p.p.).",
-   "fonte": "https://www.poder360.com.br/poder-governo/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya/"
+   "fonte": "https://www.poder360.com.br/poder-governo/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya/",
+   "aprovacao": 44,
+   "desaprovacao": 50,
+   "aprovacao_fonte": "https://www.poder360.com.br/poder-governo/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya/"
   },
   {
    "instituto": "BTG/Nexus",
@@ -177,7 +198,10 @@
    "indecisos": 2,
    "margem": "2",
    "obs": "Votos válidos: Flávio 52%, Lula 48%. Rejeição: Flávio 47%, Lula 51%.",
-   "fonte": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/"
+   "fonte": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/",
+   "aprovacao": 45,
+   "desaprovacao": 50,
+   "aprovacao_fonte": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-51-de-rejeicao-contra-47-de-flavio-diz-btg-nexus/"
   },
   {
    "instituto": "Gerp",
@@ -194,7 +218,10 @@
    "indecisos": null,
    "margem": "2",
    "obs": "Votos válidos. Votos totais: Flávio 53%, Lula 44%, nenhum 1%, NS/NR 3%.",
-   "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-outubro-2026-segundo-turno/"
+   "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-outubro-2026-segundo-turno/",
+   "aprovacao": 45,
+   "desaprovacao": 49,
+   "aprovacao_fonte": "https://investidoresbrasil.com.br/gerp-flavio-55-45-de-lula-eleicao/"
   },
   {
    "instituto": "Futura Inteligência",
@@ -211,7 +238,10 @@
    "indecisos": null,
    "margem": "2,2",
    "obs": "Votos válidos. Votos totais: Flávio 50%, Lula 46,6%, branco/nulo/nenhum 1,7%, não sabe 1,7%. Rejeição: Lula 48,6%, Flávio 45,4%.",
-   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-518-contra-482-de-lula-diz-futura/"
+   "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-518-contra-482-de-lula-diz-futura/",
+   "aprovacao": null,
+   "desaprovacao": null,
+   "aprovacao_fonte": null
   },
   {
    "instituto": "Quaest",
@@ -228,7 +258,10 @@
    "indecisos": 1,
    "margem": "2",
    "obs": "Votos totais. Rejeição: Flávio 54%, Lula 53%. Para 91% a escolha é definitiva; 9% ainda podem mudar.",
-   "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-presidente-14-outubro.ghtml"
+   "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-presidente-14-outubro.ghtml",
+   "aprovacao": 45,
+   "desaprovacao": 48,
+   "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-48percent-desaprovam-governo-lula-e-45percent-aprovam.ghtml"
   }
  ],
  "rejeicao": {

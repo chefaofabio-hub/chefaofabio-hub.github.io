@@ -451,3 +451,10 @@ nav.nav a.atual small{color:#e6eeff;text-shadow:0 1px 0 rgba(0,0,0,.45),0 2px 3p
 .quadro h1{white-space:normal;text-align:center;overflow-wrap:anywhere;font-size:clamp(22px,6.6vw,34px)}
 .quadro .turno2{white-space:normal;text-align:center}
 .quadro .subt{text-align:center}
+
+.pq-gov{margin:8px 0;padding:10px 12px;border-radius:12px;background:linear-gradient(180deg,#fff,#eef1f6);box-shadow:0 4px 0 #c9cfda,0 6px 12px rgba(0,0,0,.18);text-align:center;font-size:15px}
+.pq-gov-t{font-weight:900;font-size:16px;text-shadow:0 1px 0 #fff,0 2px 2px rgba(0,0,0,.2);margin-bottom:6px}
+.pq-gov-l{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.pq-gov-l span{padding:5px 10px;border-radius:9px;font-weight:800;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.4);box-shadow:inset 0 -3px 0 rgba(0,0,0,.2)}
+.pq-gov-l .ap{background:#1e9e5a}.pq-gov-l .de{background:#c0392b}
+.pq-gov-l b{font-size:17px}.pq-gov-n{font-weight:700;color:#666}.pq-gov a{display:block;margin-top:4px;font-size:13px}
