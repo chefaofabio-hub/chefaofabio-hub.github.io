@@ -1,45 +1,38 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
-  "data": "2026-10-13",
-  "titulo": "Agenda de hoje · terça, 13/10",
-  "atualizado": "13/10/2026, 7h30",
+  "data": "2026-10-14",
+  "titulo": "Agenda de amanhã · quarta, 14/10",
+  "atualizado": "13/10/2026, 21h30",
   "flavio": [
     {
-      "hora": "Manhã",
-      "local": "Brasília (DF)",
-      "descricao": "Visita ao pai, Jair Bolsonaro.",
-      "fonte": "https://oglobo.globo.com/politica/noticia/2026/10/13/flavio-bolsonaro-visita-o-pai-apos-tres-meses-sem-ve-lo-por-decisao-de-moraes.ghtml",
-      "fonte_nome": "O Globo"
-    },
-    {
       "hora": "15h",
-      "local": "São Paulo (SP)",
-      "descricao": "Reunião com o MDB; expectativa de declaração de apoio de diretórios.",
-      "fonte": "https://oglobo.globo.com/politica/noticia/2026/10/13/flavio-bolsonaro-visita-o-pai-apos-tres-meses-sem-ve-lo-por-decisao-de-moraes.ghtml",
-      "fonte_nome": "O Globo"
+      "local": "Vila Brasília, bairro Sarandi, Porto Alegre (RS)",
+      "descricao": "Visita à comunidade perto do dique, com os governadores Luciano Zucco, Sergio Moro, Tarcísio de Freitas e Jorginho Mello.",
+      "fonte": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/10/flavio-bolsonaro-visita-o-rs-nesta-quarta-feira-ao-lado-de-governadores-eleitos-veja-a-programacao-cmv6ygd4800k0013qfwnbsbtb.html",
+      "fonte_nome": "GZH"
     },
     {
       "hora": "17h",
-      "local": "Clube Atlético Monte Líbano, São Paulo (SP)",
-      "descricao": "Grande Encontro do Associativismo, com Michelle Bolsonaro e Bia Kicis.",
-      "fonte": "https://paralaxenews.com.br/noticia/flavio-bolsonaro-participa-de-encontro-com-empresarios-em-sp-e-mira-eleitorado-feminino",
-      "fonte_nome": "Paralaxe News"
-    },
-    {
-      "hora": "21h",
-      "local": "Local não divulgado (entrevista ao vivo)",
-      "descricao": "Entrevista ao vivo ao Anima Podcast, com a mulher, Fernanda Bolsonaro.",
-      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-o-que-o-lula-e-flavio-farao-nesta-3a-feira/",
-      "fonte_nome": "Poder360"
+      "local": "Largo Glênio Peres, Centro Histórico, Porto Alegre (RS)",
+      "descricao": "Comício ao lado do Mercado Público. Atos em Alvorada e Canoas foram cancelados.",
+      "fonte": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/10/flavio-bolsonaro-visita-o-rs-nesta-quarta-feira-ao-lado-de-governadores-eleitos-veja-a-programacao-cmv6ygd4800k0013qfwnbsbtb.html",
+      "fonte_nome": "GZH"
     }
   ],
   "lula": [
     {
-      "hora": "10h",
-      "local": "Palácio do Planalto, Brasília (DF)",
-      "descricao": "Cerimônia sobre medidas para microempreendedores individuais (MEIs).",
-      "fonte": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/agenda-do-presidente-da-republica-lula/agenda-do-presidente-da-republica/2026-10-13",
-      "fonte_nome": "Agenda oficial do Planalto"
+      "hora": "Manhã (a confirmar)",
+      "local": "São Paulo (SP)",
+      "descricao": "Ato com caminhoneiros (previsto; campanha ainda não confirmou local e horário).",
+      "fonte": "https://www1.folha.uol.com.br/colunas/painel/2026/10/campanha-de-lula-organiza-ato-com-caminhoneiros-e-busca-aproximacao-com-categoria.shtml",
+      "fonte_nome": "Folha (Painel)"
+    },
+    {
+      "hora": "A confirmar",
+      "local": "Rio de Janeiro (RJ)",
+      "descricao": "Ato temático sobre saúde (previsto).",
+      "fonte": "https://www.cnnbrasil.com.br/eleicoes/lula-se-reune-com-aliados-para-definir-agenda-e-gravar-material-de-campanha/",
+      "fonte_nome": "CNN Brasil"
     }
   ]
 }
