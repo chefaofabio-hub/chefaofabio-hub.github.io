@@ -31,10 +31,10 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=59">
+<link rel="stylesheet" href="style.css?v=60">
 </head>
 <body>
-<div class="versao-app">versão 1.6</div>
+<div class="versao-app">versão 1.6.1</div>
 <nav class="nav" id="nav">
   <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<b class="ponto" id="pontoAnal" hidden title="análise atualizada">!</b><small>das pesquisas</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#proximas" data-aba="proximas">Próximas<b class="ponto" id="pontoProx" hidden title="datas atualizadas">!</b><small>pesquisas</small></a><a href="#agendas" data-aba="agendas">Agendas<small>candidatos</small></a><a href="#confiabilidade" data-aba="confiabilidade" class="inteira">Confiabilidade das pesquisas<b class="ponto" id="pontoConf" hidden title="aba nova">!</b><small>quem mais acertou o 1º turno</small></a>
 </nav>
@@ -78,13 +78,13 @@
 
 <!-- ABA CONFIABILIDADE -->
 <main class="quadro aba" id="aba-confiabilidade" hidden>
-  <h1 style="font-size:clamp(18px,5.6vw,28px)">CONFIABILIDADE DAS PESQUISAS</h1>
+  <h1 class="cf-h1">CONFIABILIDADE<br>DAS PESQUISAS</h1>
   <div class="turno2"><span>1º TURNO</span> mais perto das urnas</div>
   <div class="aviso2t">Resultado oficial TSE (votos válidos): <b class="az">Flávio 47,03%</b> x <b class="vm">Lula 45,16%</b> · vantagem de 1,87 p.p.</div>
   <ol class="cf-lista"><li class="cf-item"><span class="cf-pos">1º</span><div class="cf-c"><div class="cf-n">Veritá <small>campo até 02/10</small> <i class="cf-ok">acertou o líder</i></div><div class="cf-v"><span class="az">Flávio 47,0%</span> · <span class="vm">Lula 45,0%</span></div></div><div class="cf-e"><b>0,1</b><small>erro na margem</small><span>erro médio 0,1</span></div></li><li class="cf-item"><span class="cf-pos">2º</span><div class="cf-c"><div class="cf-n">Gerp <small>campo até 02/10</small> <i class="cf-ok">acertou o líder</i></div><div class="cf-v"><span class="az">Flávio 46,2%</span> · <span class="vm">Lula 44,1%</span></div></div><div class="cf-e"><b>0,3</b><small>erro na margem</small><span>erro médio 0,9</span></div></li><li class="cf-item"><span class="cf-pos">3º</span><div class="cf-c"><div class="cf-n">Futura <small>campo até 03/10</small> <i class="cf-ok">acertou o líder</i></div><div class="cf-v"><span class="az">Flávio 44,8%</span> · <span class="vm">Lula 42,6%</span></div></div><div class="cf-e"><b>0,3</b><small>erro na margem</small><span>erro médio 1,7</span></div></li><li class="cf-item"><span class="cf-pos">4º</span><div class="cf-c"><div class="cf-n">100% Cidades <small>campo até 29/09</small> <i class="cf-ok">acertou o líder</i></div><div class="cf-v"><span class="az">Flávio ≈44,4%</span> · <span class="vm">Lula ≈41,5%</span></div></div><div class="cf-e"><b>1,1</b><small>erro na margem</small><span>erro médio 2,1</span></div></li><li class="cf-item"><span class="cf-pos">5º</span><div class="cf-c"><div class="cf-n">Palver <small>campo até 03/10</small> <i class="cf-ok">acertou o líder</i></div><div class="cf-v"><span class="az">Flávio 47,5%</span> · <span class="vm">Lula 43,4%</span></div></div><div class="cf-e"><b>2,2</b><small>erro na margem</small><span>erro médio 2,0</span></div></li><li class="cf-item"><span class="cf-pos">6º</span><div class="cf-c"><div class="cf-n">PoderData <small>campo até 02/10</small></div><div class="cf-v"><span class="az">Flávio 44,1%</span> · <span class="vm">Lula 45,2%</span></div></div><div class="cf-e"><b>2,9</b><small>erro na margem</small><span>erro médio 0,9</span></div></li><li class="cf-item"><span class="cf-pos">7º</span><div class="cf-c"><div class="cf-n">Ideia <small>campo até 28/09</small></div><div class="cf-v"><span class="az">Flávio ≈39,0%</span> · <span class="vm">Lula ≈40,1%</span></div></div><div class="cf-e"><b>2,9</b><small>erro na margem</small><span>erro médio 4,3</span></div></li><li class="cf-item"><span class="cf-pos">8º</span><div class="cf-c"><div class="cf-n">Datafolha <small>campo até 03/10</small></div><div class="cf-v"><span class="az">Flávio 43,5%</span> · <span class="vm">Lula 45,7%</span></div></div><div class="cf-e"><b>4,0</b><small>erro na margem</small><span>erro médio 1,5</span></div></li><li class="cf-item"><span class="cf-pos">9º</span><div class="cf-c"><div class="cf-n">DataTrends <small>campo até 30/09</small></div><div class="cf-v"><span class="az">Flávio ≈42,4%</span> · <span class="vm">Lula ≈44,6%</span></div></div><div class="cf-e"><b>4,0</b><small>erro na margem</small><span>erro médio 2,0</span></div></li><li class="cf-item"><span class="cf-pos">10º</span><div class="cf-c"><div class="cf-n">Quaest <small>campo até 03/10</small></div><div class="cf-v"><span class="az">Flávio 43,7%</span> · <span class="vm">Lula 46,0%</span></div></div><div class="cf-e"><b>4,2</b><small>erro na margem</small><span>erro médio 1,4</span></div></li></ol>
   <div class="cf-mais">Fora do top 10: AtlasIntel (4,8) · IFP (5,3) · Vox (5,5) · Real Time Big Data (6,1) · Nexus (7,1) · MDA (7,6) · Data Index (7,8) — erro na margem, em p.p.</div>
   <div class="autoria"><span class="nome">CRIADO POR FÁBIO LINS E SILVA</span> <span class="sep">·</span> <a href="tel:+5521971902990" class="nw">(21) 97190-2990</a></div>
-  <div class="rod"><b>Critério:</b> última pesquisa nacional de cada instituto antes de 04/10, em votos válidos. Ordem pelo <b>erro na margem</b> (diferença entre a vantagem Flávio–Lula da pesquisa e a das urnas); o <b>erro médio</b> por candidato desempata. Valores com ≈ foram reconstruídos a partir do desvio publicado pela fonte. <b>Fonte:</b> <a href="https://www.placardaspesquisas.com.br/" target="_blank" rel="noopener">Placar das Pesquisas</a> (ranking do 1º turno) e TSE.</div>
+  <div class="rod cf-rod"><b>Critério:</b> última pesquisa nacional de cada instituto antes de 04/10, em votos válidos. Ordem pelo <b>erro na margem</b> (diferença entre a vantagem Flávio–Lula da pesquisa e a das urnas); o <b>erro médio</b> por candidato desempata. Valores com ≈ foram reconstruídos a partir do desvio publicado pela fonte. <b>Fonte:</b> <a href="https://www.placardaspesquisas.com.br/" target="_blank" rel="noopener">Placar das Pesquisas</a> (ranking do 1º turno) e TSE.</div>
 </main>
 
 <!-- ABA REGIÕES -->
@@ -154,6 +154,6 @@
   </div>
 </div>
 
-<script src="app.js?v=59"></script>
+<script src="app.js?v=60"></script>
 </body>
 </html>

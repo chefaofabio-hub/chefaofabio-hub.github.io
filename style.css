@@ -427,3 +427,16 @@ nav.nav a.inteira{grid-column:1/-1}
 .cf-v{font-size:13.5px;font-weight:800;margin-top:2px}.cf-v .az{color:var(--azul)}.cf-v .vm{color:#c8102e}
 .cf-e{text-align:right;line-height:1.1}.cf-e b{font-size:20px;color:#163a7e}.cf-e small{display:block;font-size:10px;color:var(--cinza);font-weight:700}.cf-e span{font-size:11px;color:var(--cinza)}
 .cf-mais{font-size:12px;color:var(--cinza);margin:6px 0}
+#aba-confiabilidade{text-align:center}
+#aba-confiabilidade .cf-h1{white-space:normal;text-align:center;font-size:clamp(22px,6.6vw,34px)}
+#aba-confiabilidade .turno2{white-space:normal}
+#aba-confiabilidade .cf-item{text-align:left}
+#aba-confiabilidade .cf-mais{text-align:center}
+#aba-confiabilidade .cf-rod{line-height:1.4}
+#aba-confiabilidade .cf-item{grid-template-columns:40px 1fr auto;gap:8px}
+#aba-confiabilidade .cf-pos{font-size:19px}
+#aba-confiabilidade .cf-n small{display:block;margin:1px 0 0}
+#aba-confiabilidade .cf-ok{margin:2px 0 0}
+#aba-confiabilidade .cf-v{font-size:13px}
+#aba-confiabilidade .cf-v span{white-space:nowrap}
+#aba-confiabilidade .cf-e b{font-size:18px}
