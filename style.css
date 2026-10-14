@@ -443,3 +443,7 @@ nav.nav a.inteira{grid-column:1/-1}
 #aba-confiabilidade .cf-ok{display:table;margin:2px 0 0}
 #aba-confiabilidade .cf-ok{font-size:12.5px;padding:2px 7px;border-radius:7px;max-width:100%;white-space:normal}
 #aba-confiabilidade .cf-ok{font-size:14px;font-weight:900;padding:4px 10px;border-radius:8px;line-height:1.25;margin:4px 0 3px;border:1px solid #9fd9b5}
+/* v1.6.5 subtítulos do menu */
+nav.nav a small{font-size:clamp(11px,3.1vw,13px);font-weight:800;color:#44526e;line-height:1.15;margin-top:2px;white-space:normal;
+ text-shadow:0 1px 0 #fff,0 2px 2px rgba(15,42,94,.28)}
+nav.nav a.atual small{color:#e6eeff;text-shadow:0 1px 0 rgba(0,0,0,.45),0 2px 3px rgba(0,0,0,.35)}
