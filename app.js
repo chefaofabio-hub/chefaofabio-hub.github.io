@@ -24,7 +24,7 @@ const hojeBR = () => new Date().toLocaleDateString("pt-BR", {timeZone: TZ});
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------------- abas ---------------- */
-const ABAS = ["apuracao", "regioes", "pesquisas", "proximas", "analise", "agendas"];
+const ABAS = ["apuracao", "regioes", "pesquisas", "proximas", "analise", "agendas", "confiabilidade"];
 const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "apuracao"; };
 function abrirAba() {
   const aba = abaAtual();
@@ -33,6 +33,8 @@ function abrirAba() {
   if (aba === "pesquisas") { carregarPesquisas(); limparAviso(); }
   if (aba === "analise") { carregarAnalise(); vistoAba("anal"); }
   if (aba === "agendas") carregarAgendas();
+  if (aba === "confiabilidade") localStorage.setItem("vistoConf", "1");
+  $("pontoConf").hidden = !!localStorage.getItem("vistoConf");
   if (aba === "proximas") { carregarProximas(); vistoAba("prox"); }
   if (aba === "regioes") { desenharRegioes(); if (Date.now() - ufUltima > 20000) atualizarEstados(); }
 }
