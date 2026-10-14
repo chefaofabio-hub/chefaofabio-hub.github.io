@@ -441,3 +441,4 @@ nav.nav a.inteira{grid-column:1/-1}
 #aba-confiabilidade .cf-v span{white-space:nowrap}
 #aba-confiabilidade .cf-e b{font-size:18px}
 #aba-confiabilidade .cf-ok{display:table;margin:2px 0 0}
+#aba-confiabilidade .cf-ok{font-size:12.5px;padding:2px 7px;border-radius:7px;max-width:100%;white-space:normal}
