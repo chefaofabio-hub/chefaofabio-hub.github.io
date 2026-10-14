@@ -2,7 +2,7 @@
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
   "data": "2026-10-14",
   "titulo": "Agenda de hoje · quarta, 14/10",
-  "atualizado": "14/10/2026, 0h32",
+  "atualizado": "14/10/2026, 7h35",
   "flavio": [
     {
       "hora": "15h",
@@ -19,5 +19,13 @@
       "fonte_nome": "GZH"
     }
   ],
-  "lula": []
+  "lula": [
+    {
+      "hora": "12h",
+      "local": "Palácio do Planalto, Brasília (DF)",
+      "descricao": "Assinatura do decreto que regulamenta o Marco Legal da Indústria de Jogos Eletrônicos. Lula permanece em Brasília para acompanhar a votação da PEC do fim da escala 6x1 no Senado; atos de campanha em SP e RJ foram deixados de lado.",
+      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-quarta-14-10",
+      "fonte_nome": "Metrópoles"
+    }
+  ]
 }
