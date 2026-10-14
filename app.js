@@ -311,7 +311,7 @@ async function carregarPesquisas() {
     const dados = await r.json();
     const corte = dados.inicio_2turno || "2026-10-05";      // só pesquisas com campo DEPOIS do 1º turno
     const ps = (dados.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null
-                                               && p.campo_inicio && p.campo_inicio >= corte)
+                                               && p.campo_inicio && (p.campo_inicio >= corte || p.incluir))
                  .map((p, i) => (p._i = i, p))
                  .sort((a, b) => b.divulgacao.localeCompare(a.divulgacao) || (b.hora_divulgacao || "").localeCompare(a.hora_divulgacao || "") || b._i - a._i);
     const chave = n => String(n).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim().toLowerCase();
@@ -493,7 +493,7 @@ async function carregarAnalise() {
     const dados = await (await fetch("pesquisas.json?t=" + Date.now(), {cache: "no-store"})).json();
     const corte = dados.inicio_2turno || "2026-10-05";
     const ps = (dados.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null
-                                               && p.campo_inicio && p.campo_inicio >= corte && p.flavio + p.lula > 0)
+                                               && p.campo_inicio && (p.campo_inicio >= corte || p.incluir) && p.flavio + p.lula > 0)
                  .sort((a, b) => a.divulgacao.localeCompare(b.divulgacao));
     if (!ps.length) { $("analise").innerHTML = `<div class="vazio">Nenhuma pesquisa do 2º turno ainda.</div>`; return; }
     const m = mediaAte(ps), d = m.f - m.l;
@@ -680,9 +680,9 @@ async function checarNovas() {          // leve: bolinha "!" nas abas Pesquisas,
     const d = await (await fetch("pesquisas.json?t=" + Date.now(), {cache: "no-store"})).json();
     const corte = d.inicio_2turno || "2026-10-05";
     testeNovo = d.testeNovo || null;
-    const lst = (d.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null && p.campo_inicio && p.campo_inicio >= corte);
+    const lst = (d.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null && p.campo_inicio && (p.campo_inicio >= corte || p.incluir));
     aplicarTeste(lst);
-    marcarUltima((d.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null && p.campo_inicio && p.campo_inicio >= corte)
+    marcarUltima((d.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null && p.campo_inicio && (p.campo_inicio >= corte || p.incluir))
       .sort((a, b) => b.divulgacao.localeCompare(a.divulgacao)));
   } catch (e) {}
 }

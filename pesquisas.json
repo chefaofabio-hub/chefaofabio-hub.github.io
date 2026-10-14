@@ -10,10 +10,6 @@
    "nome": "Quaest"
   },
   {
-   "nome": "AtlasIntel",
-   "prevista": "Nova rodada com campo de 9 a 14/10 e divulgação prevista para 15/10 (registro BR-01093/2026, segundo a Veja)"
-  },
-  {
    "nome": "PoderData"
   },
   {
@@ -40,6 +36,9 @@
   {
    "nome": "Indexa",
    "prevista": "Divulgação prevista para 15/10 (campo 13 a 14/10, registro BR-04629/2026, Agência Estado)"
+  },
+  {
+   "nome": "AtlasIntel"
   }
  ],
  "pesquisas": [
@@ -93,6 +92,24 @@
    "margem": "2,6",
    "obs": "Votos válidos. Votos totais: Flávio 49%, Lula 44%, brancos/nulos 5%, não sabe 3%.",
    "fonte": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-tem-527-dos-votos-validos-no-2o-turno-contra-473-de-lula-diz-ipespe.shtml"
+  },
+  {
+   "instituto": "AtlasIntel",
+   "contratante": "Bloomberg",
+   "divulgacao": "2026-10-09",
+   "campo_inicio": "2026-10-03",
+   "campo": "03 a 08/10/2026 (começou antes do 1º turno), online (RDR)",
+   "registro": "BR-03663/2026",
+   "entrevistas": 5026,
+   "base": "validos",
+   "flavio": 52.8,
+   "lula": 47.2,
+   "brancos_nulos": null,
+   "indecisos": null,
+   "margem": "1",
+   "obs": "Votos válidos. Votos totais: Flávio 51,1%, Lula 45,7%, branco/nulo/não sabe 3,2%. Campo começou em 03/10, antes do 1º turno (incluída por decisão do Fabio).",
+   "fonte": "https://www.pollingdata.com.br/links/relatorio_BR-03663-2026_AtlasIntel.pdf",
+   "incluir": true
   },
   {
    "instituto": "Vox Brasil",
@@ -343,6 +360,15 @@
     "desaprova": 50,
     "registro": "BR-08134/2026",
     "fonte": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-51-desaprovam-governo-lula-42-aprovam/"
+   },
+   {
+    "data": "2026-10-09",
+    "instituto": "AtlasIntel",
+    "campo": "03 a 08/10",
+    "aprova": 44.7,
+    "desaprova": 53.4,
+    "registro": "BR-03663/2026",
+    "fonte": "https://sbtnews.sbt.com.br/noticia/eleicoes/atlas-intel-flavio-tem-52-8-e-lula-47-2-no-segundo-turno"
    },
    {
     "data": "2026-10-13",
