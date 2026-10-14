@@ -1,8 +1,8 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
   "data": "2026-10-14",
-  "titulo": "Agenda de amanhã · quarta, 14/10",
-  "atualizado": "13/10/2026, 21h30",
+  "titulo": "Agenda de hoje · quarta, 14/10",
+  "atualizado": "14/10/2026, 0h32",
   "flavio": [
     {
       "hora": "15h",
@@ -19,20 +19,5 @@
       "fonte_nome": "GZH"
     }
   ],
-  "lula": [
-    {
-      "hora": "Manhã (a confirmar)",
-      "local": "São Paulo (SP)",
-      "descricao": "Ato com caminhoneiros (previsto; campanha ainda não confirmou local e horário).",
-      "fonte": "https://www1.folha.uol.com.br/colunas/painel/2026/10/campanha-de-lula-organiza-ato-com-caminhoneiros-e-busca-aproximacao-com-categoria.shtml",
-      "fonte_nome": "Folha (Painel)"
-    },
-    {
-      "hora": "A confirmar",
-      "local": "Rio de Janeiro (RJ)",
-      "descricao": "Ato temático sobre saúde (previsto).",
-      "fonte": "https://www.cnnbrasil.com.br/eleicoes/lula-se-reune-com-aliados-para-definir-agenda-e-gravar-material-de-campanha/",
-      "fonte_nome": "CNN Brasil"
-    }
-  ]
+  "lula": []
 }
