@@ -3,17 +3,6 @@
  "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
  "itens": [
   {
-   "instituto": "Quaest",
-   "data": "2026-10-14",
-   "status": "confirmada",
-   "obs": "Campo 10 a 13/10 · 2.154 entrevistas · Globo/O Globo",
-   "registro": "BR-08729/2026",
-   "contratante": "Globo/O Globo",
-   "campo": "10 a 13/10",
-   "entrevistas": 2154,
-   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-  },
-  {
    "instituto": "Datafolha",
    "data": "2026-10-15",
    "status": "confirmada",
