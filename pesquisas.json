@@ -261,7 +261,31 @@
       "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-presidente-14-outubro.ghtml",
       "aprovacao": 45,
       "desaprovacao": 48,
-      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-48percent-desaprovam-governo-lula-e-45percent-aprovam.ghtml"
+      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-48percent-desaprovam-governo-lula-e-45percent-aprovam.ghtml",
+      "continuidade_mudanca": {
+        "titulo": "Continuidade x Mudança",
+        "lula_merece": {
+          "sim": 44,
+          "nao": 51,
+          "pergunta": "Lula merece mais 4 anos?"
+        },
+        "flavio_merece": {
+          "sim": 45,
+          "nao": 49,
+          "pergunta": "Flávio Bolsonaro merece governar?"
+        },
+        "medo": {
+          "pergunta": "O que dá mais medo?",
+          "volta_bolsonaro": 43,
+          "mais_mandato_lula": 43,
+          "nenhum": 6,
+          "ambos": 3,
+          "ns_nr": 5
+        },
+        "fonte": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/14/quaest-medo-da-volta-da-familia-bolsonaro-empata-com-medo-da-reeleicao-de-lula.ghtml",
+        "fonte_medo": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-medo-governo-lula-ou-flavio-bolsonaro-14-outubro.ghtml",
+        "fonte_rotulo": "Valor Econômico e g1 · Quaest BR-08729/2026"
+      }
     }
   ],
   "rejeicao": {

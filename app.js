@@ -396,9 +396,29 @@ function linhaInstituto(lista) {
   return `<details class="pq"${novos.length ? ` data-ids="${esc(JSON.stringify(novos))}"` : ""}><summary>
       ${novos.length ? `<b class="ponto pq-ponto" title="pesquisa nova">!</b>` : ""}<div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div><div class="pq-base">${p.base === "validos" ? "votos válidos" : "votos totais"}</div>${lid}</div>
       ${mini}</summary>
-    <div class="pq-det">${graficoInstituto(lista)}${blocoGov(p)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
+    <div class="pq-det">${graficoInstituto(lista)}${blocoGov(p)}${blocoCxM(p)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
 }
 
+
+
+function blocoCxM(p){
+  const c = p.continuidade_mudanca;
+  if (!c) return "";
+  const lm = c.lula_merece || {}, fm = c.flavio_merece || {}, m = c.medo || {};
+  const linha = (perg, sim, nao) => `<div class="cxm-q"><div class="cxm-p">${esc(perg)}</div><div class="cxm-nums"><span class="cxm-sim">Sim <b>${pv(sim)}</b></span><span class="cxm-nao">Não <b>${pv(nao)}</b></span></div></div>`;
+  const medo = `<div class="cxm-q"><div class="cxm-p">${esc(m.pergunta || "O que dá mais medo?")}</div>
+    <div class="cxm-medo">
+      <span class="cxm-mbol">Volta dos Bolsonaro <b>${pv(m.volta_bolsonaro)}</b></span>
+      <span class="cxm-mlul">Mais mandato de Lula <b>${pv(m.mais_mandato_lula)}</b></span>
+    </div>
+    <div class="cxm-mextra">Nenhum ${pv(m.nenhum)} · Ambos ${pv(m.ambos)}${m.ns_nr != null ? ` · NS/NR ${pv(m.ns_nr)}` : ""}</div></div>`;
+  const fonte = c.fonte || c.fonte_medo;
+  return `<div class="pq-cxm"><div class="pq-cxm-t">${esc(c.titulo || "Continuidade x Mudança")}</div>
+    ${linha(lm.pergunta || "Lula merece mais 4 anos?", lm.sim, lm.nao)}
+    ${linha(fm.pergunta || "Flávio Bolsonaro merece governar?", fm.sim, fm.nao)}
+    ${medo}
+    ${fonte ? `<a href="${esc(fonte)}" target="_blank" rel="noopener">${esc(c.fonte_rotulo || "fonte")} ↗</a>` : ""}</div>`;
+}
 
 function blocoGov(p){
   if(p.aprovacao==null) return `<div class="pq-gov"><div class="pq-gov-t">Governo Lula</div><div class="pq-gov-n">não mediu aprovação</div></div>`;
