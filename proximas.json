@@ -168,12 +168,12 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
-   "instituto": "AtlasIntel",
+   "instituto": "AtlasIntel/Bloomberg",
    "data": "2026-10-19",
    "status": "confirmada",
    "obs": "Campo 13 a 18/10 · 5.000 entrevistas",
    "registro": "BR-02418/2026",
-   "contratante": null,
+   "contratante": "a própria (ficha TSE); Bloomberg não confirmada",
    "campo": "13 a 18/10",
    "entrevistas": 5000,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
