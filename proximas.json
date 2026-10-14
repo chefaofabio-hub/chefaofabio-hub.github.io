@@ -1,5 +1,5 @@
 {
- "atualizado": "13/10/2026",
+ "atualizado": "14/10/2026",
  "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
  "itens": [
   {
@@ -104,6 +104,22 @@
    "status": "prevista",
    "obs": "Campo 13 a 15/10 · 2.000 entrevistas · 100% Cidades",
    "registro": "BR-03764/2026",
+   "fonte": "https://agregador.ippipesquisas.com/disputa/presidente-2t"
+  },
+  {
+   "instituto": "Palver",
+   "data": "2026-10-15",
+   "status": "prevista",
+   "obs": "Campo 10 a 14/10 · 5.000 entrevistas",
+   "registro": "BR-08028/2026",
+   "fonte": "https://agregador.ippipesquisas.com/disputa/presidente-2t"
+  },
+  {
+   "instituto": "CNT/MDA",
+   "data": "2026-10-16",
+   "status": "prevista",
+   "obs": "Campo 13 a 15/10 · 2.002 entrevistas",
+   "registro": "BR-00652/2026",
    "fonte": "https://agregador.ippipesquisas.com/disputa/presidente-2t"
   }
  ]
