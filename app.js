@@ -490,6 +490,23 @@ function blocoAprov(dados){
       <div class="pq-gnota">Média de ${insts} · "você aprova ou desaprova o governo do presidente Lula?" (% sobre o total). Cada ponto é a média das últimas leituras de cada instituto.</div></div>`;
 }
 
+function blocoGovMedia(ps){ // última rodada com aprovação de cada instituto (mesmo critério da média de votos)
+  const ult=new Map();
+  for(const p of ps){if(p.aprovacao==null||p.desaprovacao==null)continue;const k=chaveInst(p.instituto);const o=ult.get(k);if(!o||p.divulgacao>=o.divulgacao)ult.set(k,p);}
+  const l=[...ult.values()].sort((a,b)=>b.divulgacao.localeCompare(a.divulgacao));
+  if(!l.length)return "";
+  const A=l.reduce((s,p)=>s+p.aprovacao,0)/l.length, D=l.reduce((s,p)=>s+p.desaprovacao,0)/l.length;
+  const w=v=>Math.min(100,v/60*100).toFixed(1), tubo=(v,c)=>`<div class="rj-trilho"><i class="rj-tubo ${c}" style="width:${w(v)}%"></i></div>`;
+  return `<div class="an-card rj3 gv3"><div class="an-tit">Governo Lula: aprovação x desaprovação${l.length>1?` · média de ${l.length} institutos`:""}</div>
+    <div class="an-sub">"você aprova ou desaprova o governo Lula?" · % sobre o total · última rodada de cada instituto</div>
+    <div class="rj-meds"><div class="rj-med vd"><div class="rj-nm">Aprovam</div><div class="rj-pct">${pp(A)}%</div>${tubo(A,"vd")}</div>
+      <div class="rj-med vm"><div class="rj-nm">Desaprovam</div><div class="rj-pct">${pp(D)}%</div>${tubo(D,"vm")}</div></div>
+    <div class="rj-lista">${l.map(p=>`<div class="rj-placa"><div class="rj-inst"><b>${esc(p.instituto)}</b><small>${dataBR(p.divulgacao).slice(0,5)}</small></div>
+      <div class="rj-lin"><span class="vd">${pp(p.aprovacao)}%</span>${tubo(p.aprovacao,"vd")}</div>
+      <div class="rj-lin"><span class="vm">${pp(p.desaprovacao)}%</span>${tubo(p.desaprovacao,"vm")}</div></div>`).join("")}</div>
+    <div class="rj-fonte">Verde = aprova · vermelho = desaprova · pesquisas sem esse dado ficam fora da média</div></div>`;
+}
+
 let anCarregando = false;
 async function carregarAnalise() {
   if (anCarregando) return; anCarregando = true;
@@ -535,6 +552,7 @@ async function carregarAnalise() {
         ${barra("Flávio Bolsonaro", m.f, "az", "var(--flavio)")}${barra("Lula", m.l, "vm", "var(--lula)")}${lid}</div>
       <div class="pq-graf"><div class="pq-gcab"><span>Evolução da média</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>${graficoMedia(serie)}
         <div class="pq-gnota">${serie.length === 1 ? "A linha aparece quando sair pesquisa em outra data." : "Cada ponto é a média nas datas de divulgação."}</div></div>
+      ${blocoGovMedia(ps)}
       ${blocoAprov(dados)}
       <div class="an-tt">Pesquisas incluídas (votos válidos)</div>
       <table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="az">Flávio</th><th class="vm">Lula</th></tr></thead><tbody>${tab}</tbody></table>
