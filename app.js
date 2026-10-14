@@ -24,7 +24,7 @@ const hojeBR = () => new Date().toLocaleDateString("pt-BR", {timeZone: TZ});
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------------- abas ---------------- */
-const ABAS = ["apuracao", "regioes", "pesquisas", "proximas", "analise", "agendas", "estados"];
+const ABAS = ["apuracao", "regioes", "pesquisas", "proximas", "analise", "agendas"];
 const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "apuracao"; };
 function abrirAba() {
   const aba = abaAtual();
@@ -33,7 +33,6 @@ function abrirAba() {
   if (aba === "pesquisas") { carregarPesquisas(); limparAviso(); }
   if (aba === "analise") { carregarAnalise(); vistoAba("anal"); }
   if (aba === "agendas") carregarAgendas();
-  if (aba === "estados") carregarEstados();
   if (aba === "proximas") { carregarProximas(); vistoAba("prox"); }
   if (aba === "regioes") { desenharRegioes(); if (Date.now() - ufUltima > 20000) atualizarEstados(); }
 }
@@ -384,8 +383,6 @@ function linhaInstituto(lista) {
     p.contratante ? `<span>Contratante: <b>${esc(p.contratante)}</b></span>` : "",
     p.campo ? `<span>Campo: <b>${esc(p.campo)}</b></span>` : "",
     p.entrevistas ? `<span>Entrevistas: <b>${fint(p.entrevistas)}</b></span>` : "",
-    p.validos_flavio != null ? `<span>Votos válidos: <b class="az">Flávio ${pv(p.validos_flavio)}</b> x <b class="vm">Lula ${pv(p.validos_lula)}</b></span>` : "",
-    p.decididos != null ? `<span>Voto decidido: <b>${pv(p.decididos)}</b></span>` : "",
     p.base === "validos" ? "" : `<span>Brancos/nulos: <b>${pv(p.brancos_nulos)}</b> · Indecisos: <b>${pv(p.indecisos)}</b></span>`,
     `<span>Margem: <b>${p.margem ? "±" + esc(p.margem) + " p.p." : "—"}</b></span>`,
     `<span>Registro TSE: <b>${esc(p.registro || "não informado")}</b></span>`,
@@ -395,7 +392,7 @@ function linhaInstituto(lista) {
   const ant = lista.slice(1).map(a => `<li>${dataBR(a.divulgacao).slice(0, 5)}: <b class="az">${pv(a.flavio)}</b> x <b class="vm">${pv(a.lula)}</b>${a.fonte ? ` · <a href="${esc(a.fonte)}" target="_blank" rel="noopener">fonte ↗</a>` : ""}</li>`).join("");
   const novos = lista.map(idPesq).filter(i => novasCards.has(i));
   return `<details class="pq"${novos.length ? ` data-ids="${esc(JSON.stringify(novos))}"` : ""}><summary>
-      ${novos.length ? `<b class="ponto pq-ponto" title="pesquisa nova">!</b>` : ""}<div class="pq-esq">${p.uf ? `<div class="pq-uf"><b>${esc(p.uf)}</b> ${esc(p.estado || "")}</div>` : ""}<div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div><div class="pq-base">${p.base === "validos" ? "votos válidos" : "votos totais"}</div>${lid}</div>
+      ${novos.length ? `<b class="ponto pq-ponto" title="pesquisa nova">!</b>` : ""}<div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div><div class="pq-base">${p.base === "validos" ? "votos válidos" : "votos totais"}</div>${lid}</div>
       ${mini}</summary>
     <div class="pq-det">${graficoInstituto(lista)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
 }
@@ -675,7 +672,7 @@ async function checarAbas() {
   }
 }
 async function checarNovas() {          // leve: bolinha "!" nas abas Pesquisas, Análise geral e Próximas
-  checarAbas(); checarEstados();
+  checarAbas();
   if (abaAtual() === "pesquisas") return carregarPesquisas();
   try {
     const d = await (await fetch("pesquisas.json?t=" + Date.now(), {cache: "no-store"})).json();
@@ -822,48 +819,3 @@ async function carregarAgendas() {
     $("agRod").textContent = d.atualizado ? "Atualizado em " + d.atualizado : "—";
   } catch (e) { box.innerHTML = `<div class="vazio">Não foi possível carregar as agendas.</div>`; }
 }
-
-/* ---------------- pesquisas por estado (mesma renderização da aba Pesquisas) ---------------- */
-var estCarregando = false, estAssin = null;
-const okEst = (p, corte) => p && p.uf && p.instituto && p.divulgacao && p.flavio != null && p.lula != null && p.campo_inicio && p.campo_inicio >= corte;
-async function lerEstados() {
-  const d = await (await fetch("estados.json?t=" + Date.now(), {cache: "no-store"})).json();
-  const corte = d.inicio_2turno || "2026-10-05";
-  const ps = (d.pesquisas || []).filter(p => okEst(p, corte)).map((p, i) => (p._i = i, p))
-    .sort((a, b) => b.divulgacao.localeCompare(a.divulgacao) || (b.hora_divulgacao || "").localeCompare(a.hora_divulgacao || "") || b._i - a._i);
-  return [d, ps];
-}
-function sinalEst(ps) {           // "!" da aba: acende só se entrou pesquisa estadual que não estava na lista vista
-  estAssin = ps.length ? ps.map(idPesq).sort().join("\n") : null;
-  const v = localStorage.getItem("estVista");
-  if (estAssin && v === null) localStorage.setItem("estVista", estAssin);          // 1º acesso: não acende
-  else if (estAssin) { const vs = new Set(v.split("\n")); if (ps.every(p => vs.has(idPesq(p)))) localStorage.setItem("estVista", estAssin); }
-  if (abaAtual() === "estados" && !document.hidden && estAssin) localStorage.setItem("estVista", estAssin);
-  $("pontoEst").hidden = !estAssin || localStorage.getItem("estVista") === estAssin;
-}
-function lerVistosEst() { try { const v = JSON.parse(localStorage.getItem("estCardsVistos")); return Array.isArray(v) ? new Set(v) : null; } catch (e) { return null; } }
-async function carregarEstados() {
-  if (estCarregando) return; estCarregando = true;
-  try {
-    const [d, ps] = await lerEstados();
-    const ids = ps.map(idPesq), vistos = lerVistosEst();
-    let novas = new Set();
-    if (!vistos) localStorage.setItem("estCardsVistos", JSON.stringify(ids)); else novas = new Set(ids.filter(i => !vistos.has(i)));
-    const ch = p => (p.uf + "|" + p.instituto).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim().toLowerCase();
-    const grupos = new Map();
-    for (const p of ps) { const k = ch(p); if (!grupos.has(k)) grupos.set(k, []); grupos.get(k).push(p); }
-    const salvo = novasCards; novasCards = novas;
-    let html; try { html = [...grupos.values()].map(linhaInstituto).join(""); } finally { novasCards = salvo; }
-    $("cartoesEst").innerHTML = html || `<div class="vazio">Nenhuma pesquisa estadual cadastrada ainda.</div>`;
-    document.querySelectorAll("#cartoesEst details.pq[data-ids]").forEach(el => el.addEventListener("toggle", () => {
-      const v = lerVistosEst() || new Set(); JSON.parse(el.dataset.ids || "[]").forEach(i => v.add(i));
-      localStorage.setItem("estCardsVistos", JSON.stringify([...v])); el.querySelector(".pq-ponto")?.remove(); el.removeAttribute("data-ids");
-    }, {once: true}));
-    sinalEst(ps);
-    const ufs = new Set(ps.map(p => p.uf)).size;
-    $("estRod").innerHTML = `<b>${ufs} estado${ufs === 1 ? "" : "s"} · ${ps.length} pesquisa${ps.length === 1 ? "" : "s"} do 2º turno</b> · votos totais (válidos no detalhe) · lista atualizada em ${esc(dataBR(d.atualizado_em || ""))}`;
-  } catch (e) {
-    if (!$("cartoesEst").innerHTML) $("cartoesEst").innerHTML = `<div class="vazio">Não consegui carregar as pesquisas agora. Tente de novo em instantes.</div>`;
-  } finally { estCarregando = false; }
-}
-async function checarEstados() { try { if (abaAtual() === "estados") return carregarEstados(); const [, ps] = await lerEstados(); sinalEst(ps); } catch (e) {} }

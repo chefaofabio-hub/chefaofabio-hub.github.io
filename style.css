@@ -414,8 +414,3 @@ h1{text-shadow:0 1px 0 #fff,0 2px 0 #c6d3ea,0 3px 4px rgba(15,42,94,.35)}
 .autoria a{display:block;margin-top:2px;text-align:center}
 
 .pq summary{position:relative}.pq-ponto{top:-6px;right:-4px}
-
-nav.nav a.est{grid-column:1/-1}
-.pq-uf{display:inline-flex;align-items:center;gap:6px;font-weight:800;font-size:12.5px;color:#173f8c;margin-bottom:3px}
-.pq-uf b{display:inline-block;min-width:34px;text-align:center;padding:3px 7px;border-radius:8px;font-size:15px;font-weight:900;color:#fff;
-  background:linear-gradient(180deg,#5b8ae6 0%,#2a5cc0 45%,#173f8c 100%);box-shadow:0 3px 0 #0f2c66,0 4px 8px rgba(23,63,140,.35);text-shadow:0 -1px 0 rgba(0,0,0,.4)}
