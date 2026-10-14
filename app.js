@@ -821,10 +821,10 @@ async function carregarProximas() {
       const dataTxt = i.data ? fmt(i.data) : "a confirmar";
       const st = (i.status || "").toLowerCase();
       const stLab = i.data && st && st !== "confirmada" ? `<small>${esc(st === "prevista" ? "prevista" : i.status)}</small>` : "";
-      const obs = [i.obs, i.registro ? "TSE " + i.registro : ""].filter(Boolean).join(" · ");
+      const obs = [i.obs ? esc(i.obs) : "", i.registro ? `<span class="px-reg">TSE ${esc(i.registro)}</span>` : ""].filter(Boolean).join(" · ");
       return `<section class="px-card${i.data ? "" : " px-aconf"}"><div class="px-top"><h2>${esc(i.instituto)}</h2>` +
         `<div class="px-data">${esc(dataTxt)}${stLab}</div></div>` +
-        (obs ? `<div class="px-obs">${esc(obs)}</div>` : "") + "</section>";
+        (obs ? `<div class="px-obs">${obs}</div>` : "") + "</section>";
     }).join("") || `<div class="vazio">Nenhuma divulgação cadastrada.</div>`;
     $("pxRod").textContent = d.atualizado ? "Atualizado em " + d.atualizado : "—";
   } catch (e) { box.innerHTML = `<div class="vazio">Não foi possível carregar as datas.</div>`; }

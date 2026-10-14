@@ -292,13 +292,13 @@ nav.nav a.largo{grid-column:1/-1}
 
 
 /* aba Próximas */
-.px-card{background:#fff;border:2px solid #1f4fa8;border-radius:14px;padding:10px 12px;margin:0 0 10px;color:#111}
+.px-card{box-sizing:border-box;max-width:100%;overflow:hidden;background:#fff;border:2px solid #1f4fa8;border-radius:14px;padding:10px 12px;margin:0 0 10px;color:#111}
 .px-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.px-card h2{margin:0;font-size:17px;font-weight:800;color:#1f4fa8}
-.px-data{font-weight:900;font-size:17px;text-align:right;white-space:nowrap}
+.px-card h2{margin:0;flex:1 1 auto;min-width:0;overflow-wrap:anywhere;word-break:break-word;line-height:1.2;font-size:17px;font-weight:800;color:#1f4fa8}
+.px-data{font-weight:900;font-size:17px;text-align:right;white-space:nowrap;flex:0 0 auto}
 .px-data small{display:block;font-size:11px;font-weight:600;opacity:.7}
 .px-aconf{border-color:#bbb}.px-aconf h2{color:#555}.px-aconf .px-data{font-size:14px;font-weight:600;opacity:.6}
-.px-obs{font-size:12.5px;opacity:.75;margin-top:4px}
+.px-obs{overflow-wrap:anywhere;font-size:12.5px;opacity:.75;margin-top:4px}
 /* caixa presidente eleito maior, nome embaixo */
 .eleito,.eleito.compacto{padding:14px 10px 14px;min-height:78px;display:flex;flex-direction:column;justify-content:center}
 .el-t .el-ag{display:block;margin-top:6px;font-size:clamp(15px,4.4vw,18px)}
@@ -462,3 +462,6 @@ nav.nav a.atual small{color:#e6eeff;text-shadow:0 1px 0 rgba(0,0,0,.45),0 2px 3p
 .gv3 .an-tit{text-align:center}.gv3 .an-sub{text-align:center}
 .rj-med.vd{--esp:#0b4d2a;background:linear-gradient(160deg,#34c47a,#1e9e5a 55%,#147a43)}
 .rj-tubo.vd{background-color:#1e9e5a}.rj-lin span.vd{color:#1e9e5a}
+
+#proximas{max-width:100%;overflow-x:hidden}
+.px-reg{white-space:nowrap}
