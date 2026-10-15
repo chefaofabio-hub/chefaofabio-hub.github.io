@@ -212,6 +212,28 @@
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
+      "instituto": "100% Cidades/Futura",
+      "data": "2026-10-21",
+      "status": "confirmada",
+      "obs": "Campo 19 a 20/10 · 2.000 entrevistas",
+      "registro": "BR-06614/2026",
+      "contratante": null,
+      "campo": "19 a 20/10",
+      "entrevistas": 2000,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
+      "instituto": "Gerp",
+      "data": "2026-10-21",
+      "status": "confirmada",
+      "obs": "Campo 17 a 20/10 · 2.400 entrevistas",
+      "registro": "BR-03835/2026",
+      "contratante": null,
+      "campo": "17 a 20/10",
+      "entrevistas": 2400,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
       "instituto": "Meio/Ideia",
       "data": "2026-10-21",
       "status": "confirmada",
