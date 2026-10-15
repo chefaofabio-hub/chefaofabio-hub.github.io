@@ -562,7 +562,7 @@ async function carregarAnalise() {
           <div class="rj-lin"><span class="vm">${pp(x.lula)}%</span>${rjTubo(x.lula, "vm")}</div></div>`).join("")}</div>` : ""}
         <div class="rj-fonte">Fontes: ${esc(rItens.map(x => x.fonte || "").filter(Boolean).join(" | "))}${rej.fora ? " · Fora: " + esc(rej.fora) : ""}</div></div>` : "";
     const dec = dados.decididos || {};
-    const decHtml = dec.total != null ? `
+    const decHtml = false ? `
       <div class="an-card an-dec an-rej"><div class="an-tit">Eleitores decididos</div>
         <div class="an-rej-grid"><div class="an-rej-item" style="grid-column:1/-1;color:#1f9a52"><div class="an-rej-pct" style="font-size:2.6em">${pp(dec.total)}%</div><div class="an-rej-nm">dos eleitores já decididos, não mudam de candidato</div></div></div>
         <div class="an-sub an-rej-fonte">Fonte: ${esc(dec.fonte || "")}</div></div>` : "";
