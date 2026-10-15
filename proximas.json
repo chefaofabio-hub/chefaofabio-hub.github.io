@@ -190,6 +190,50 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
+   "instituto": "Alfa Inteligência",
+   "data": "2026-10-20",
+   "status": "confirmada",
+   "obs": "Campo 15 a 19/10 · 2.700 entrevistas",
+   "registro": "BR-00820/2026",
+   "contratante": null,
+   "campo": "15 a 19/10",
+   "entrevistas": 2700,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
+   "instituto": "Instituto França",
+   "data": "2026-10-20",
+   "status": "confirmada",
+   "obs": "Campo 16 a 20/10 · 3.000 entrevistas",
+   "registro": "BR-07896/2026",
+   "contratante": null,
+   "campo": "16 a 20/10",
+   "entrevistas": 3000,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
+   "instituto": "Real Time Big Data",
+   "data": "2026-10-20",
+   "status": "confirmada",
+   "obs": "Campo 15 a 19/10 · 2.000 entrevistas",
+   "registro": "BR-08176/2026",
+   "contratante": null,
+   "campo": "15 a 19/10",
+   "entrevistas": 2000,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
+   "instituto": "Veritá",
+   "data": "2026-10-20",
+   "status": "confirmada",
+   "obs": "Campo 15 a 19/10 · 15.554 entrevistas",
+   "registro": "BR-06396/2026",
+   "contratante": null,
+   "campo": "15 a 19/10",
+   "entrevistas": 15554,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
    "instituto": "Vetor Arrow",
    "data": "2026-10-20",
    "status": "confirmada",
