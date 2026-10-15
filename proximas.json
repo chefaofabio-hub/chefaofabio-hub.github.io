@@ -221,6 +221,28 @@
    "campo": "22 a 23/10 (conforme ficha)",
    "entrevistas": 3000,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
+   "instituto": "Meio/Ideia",
+   "data": "2026-10-21",
+   "status": "confirmada",
+   "obs": "Campo 15 a 19/10 · 1.500 entrevistas · Canal Meio",
+   "registro": "BR-08251/2026",
+   "contratante": "Canal Meio",
+   "campo": "15 a 19/10",
+   "entrevistas": 1500,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
+   "instituto": "Gerp",
+   "data": null,
+   "status": "a confirmar",
+   "obs": "Campo 14 a 16/10 · 2.400 entrevistas (a ficha do TSE traz divulgação em 13/10, antes do campo)",
+   "registro": "BR-05187/2026",
+   "contratante": null,
+   "campo": "14 a 16/10",
+   "entrevistas": 2400,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   }
  ]
 }
