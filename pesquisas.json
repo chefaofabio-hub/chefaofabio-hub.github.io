@@ -38,6 +38,9 @@
     },
     {
       "nome": "AtlasIntel"
+    },
+    {
+      "nome": "Palver"
     }
   ],
   "pesquisas": [
@@ -305,12 +308,39 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Palver",
+      "contratante": "Recursos próprios (Palver)",
+      "divulgacao": "2026-10-15",
+      "campo_inicio": "2026-10-10",
+      "campo": "10 a 13/10/2026 (depois do 1º turno), questionário online",
+      "registro": "BR-08028/2026",
+      "entrevistas": 5000,
+      "base": "totais",
+      "flavio": 50,
+      "lula": 49,
+      "brancos_nulos": 1,
+      "indecisos": 0,
+      "margem": "2,3",
+      "obs": "Votos totais (Onda 7). Empate técnico: intervalos de 49–51% (Flávio) e 48–50% (Lula). Rejeição (não votaria de jeito nenhum): Flávio 48%, Lula 50%. 81% dizem que nada os faria mudar de voto. Medo: reeleição de Lula 48%, eleição de Flávio 47%.",
+      "fonte": "https://noticias.uol.com.br/eleicoes/2026/10/15/palver-flavio-bolsonaro-tem-50-e-lula-49-no-segundo-turno.ghtm",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
     "fora": "DataTrends 11/10 e AtlasIntel 09/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Palver",
+        "data": "15/10",
+        "flavio": 48,
+        "lula": 50,
+        "fonte": "Palver · campo 10–13/10 · BR-08028/2026 (Exame)"
+      },
       {
         "instituto": "Quaest",
         "data": "14/10",
@@ -476,12 +506,12 @@
     ]
   },
   "decididos": {
-    "total": 87,
-    "podem_mudar": 11,
-    "flavio": null,
-    "lula": null,
-    "fonte": "Indexa/Broadcast 15/10 · BR-04629/2026",
-    "obs": "já decidiram o voto; 11% ainda podem mudar; 2% NS/NR"
+    "total": 81,
+    "podem_mudar": null,
+    "flavio": 82,
+    "lula": 81,
+    "fonte": "Palver 15/10 · BR-08028/2026 (Exame)",
+    "obs": "dizem que nada os faria mudar de voto (81% entre eleitores de Lula, 82% entre os de Flávio)"
   },
   "testeNovo": "indexa|2026-10-15|BR-04629/2026"
 }
