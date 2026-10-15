@@ -1,8 +1,8 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
   "data": "2026-10-15",
-  "titulo": "Agenda de amanhã · quinta, 15/10",
-  "atualizado": "14/10/2026, 21h45",
+  "titulo": "Agenda de hoje · quinta, 15/10",
+  "atualizado": "15/10/2026, 0h40",
   "flavio": [
     {
       "hora": "19h",
