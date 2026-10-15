@@ -328,12 +328,39 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Datafolha",
+      "contratante": "Folha de S.Paulo",
+      "divulgacao": "2026-10-15",
+      "campo_inicio": "2026-10-13",
+      "campo": "13 a 14/10/2026 (depois do 1º turno), presencial",
+      "registro": "BR-00466/2026",
+      "entrevistas": 2520,
+      "base": "totais",
+      "flavio": 47,
+      "lula": 45,
+      "brancos_nulos": 6,
+      "indecisos": 2,
+      "margem": "2",
+      "obs": "Votos válidos: Flávio 51%, Lula 49% (empate técnico). 153 municípios.",
+      "fonte": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-e-lula-49-dos-votos-validos-um-empate-tecnico.shtml",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
     "fora": "DataTrends 11/10 e AtlasIntel 09/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Datafolha",
+        "data": "15/10",
+        "flavio": 44,
+        "lula": 46,
+        "fonte": "Datafolha · campo 13–14/10 · BR-00466/2026 (Folha) · não votaria de jeito nenhum"
+      },
       {
         "instituto": "Indexa",
         "data": "15/10",
@@ -361,13 +388,6 @@
         "flavio": 44,
         "lula": 46,
         "fonte": "PoderData/Aya · campo 10–12/10 · BR-01209/2026 (Poder360)"
-      },
-      {
-        "instituto": "Datafolha",
-        "data": "08/10",
-        "flavio": 46,
-        "lula": 49,
-        "fonte": "Datafolha · BR-02949/2026 (g1) · só Flávio 43% + ambos 3%; só Lula 46% + ambos 3%"
       },
       {
         "instituto": "Ipespe",
