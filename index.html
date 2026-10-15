@@ -32,11 +32,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css?v=67">
+<link rel="stylesheet" href="adpf.css?v=1">
 </head>
 <body>
-<div class="versao-app">versão 1.6.8</div>
+<div class="versao-app">versão 1.7.0</div>
 <nav class="nav" id="nav">
-  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<b class="ponto" id="pontoAnal" hidden title="análise atualizada">!</b><small>das pesquisas</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#proximas" data-aba="proximas">Próximas<b class="ponto" id="pontoProx" hidden title="datas atualizadas">!</b><small>pesquisas</small></a><a href="#agendas" data-aba="agendas">Agendas<small>candidatos</small></a><a href="#confiabilidade" data-aba="confiabilidade" class="inteira">Confiabilidade das pesquisas<b class="ponto" id="pontoConf" hidden title="aba nova">!</b><small>quem mais acertou o 1º turno</small></a>
+  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<b class="ponto" id="pontoAnal" hidden title="análise atualizada">!</b><small>das pesquisas</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#proximas" data-aba="proximas">Próximas<b class="ponto" id="pontoProx" hidden title="datas atualizadas">!</b><small>pesquisas</small></a><a href="#agendas" data-aba="agendas">Agendas<small>candidatos</small></a><a href="#confiabilidade" data-aba="confiabilidade" class="inteira">Confiabilidade das pesquisas<b class="ponto" id="pontoConf" hidden title="aba nova">!</b><small>quem mais acertou o 1º turno</small></a><a href="#adpf" data-aba="adpf" class="inteira"><img src="icons/balanca-192.png" alt="" class="adpf-ico">ADPF 1362<small>ação do PSD no STF · 2º turno RJ</small></a>
 </nav>
 <div class="inst" id="inst" hidden>
   <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
@@ -135,6 +136,26 @@
   <div class="rod" id="pxRod">—</div>
 </main>
 
+<!-- ABA ADPF -->
+<main class="quadro aba" id="aba-adpf" hidden>
+ <div class="adpf-topo">
+  <img class="adpf-logo" src="icons/balanca-logo.png" alt="Balança da Justiça" width="72" height="72">
+  <h1 style="font-size:clamp(20px,6.4vw,30px)">PSD AÇÃO 2º TURNO</h1>
+  <div class="numproc" id="adNum"><span>Número do processo:</span><b>ADPF 1362</b></div>
+  <div class="adpf-ext">Arguição de Descumprimento de Preceito Fundamental</div>
+  <div class="subt">ADPF no STF · governador do RJ</div>
+  <div class="st" id="adSt"></div>
+  <div class="cdt">Contagem até 25/10/2026</div>
+  <div class="contagem" id="adCont"></div>
+ </div>
+ <h2 class="tit">Processo</h2><div id="adProc"></div>
+ <h2 class="tit">Acompanhamento</h2><p class="nota">Mais recentes no topo</p><div id="adAnd"></div>
+ <h2 class="tit">Ministros</h2><div id="adMin"></div>
+ <h2 class="tit">Contexto</h2><div id="adCtx"></div>
+ <h2 class="tit">Fontes</h2><div id="adFon"></div>
+ <div class="rod" id="adAtu">Carregando…</div>
+</main>
+
 <!-- ABA AGENDAS -->
 <main class="quadro aba" id="aba-agendas" hidden>
   <h1 style="font-size:clamp(20px,6.4vw,30px)">AGENDAS DOS CANDIDATOS</h1>
@@ -154,6 +175,7 @@
   </div>
 </div>
 
-<script src="app.js?v=67"></script>
+<script src="app.js?v=68"></script>
+<script src="adpf.js?v=1"></script>
 </body>
 </html>

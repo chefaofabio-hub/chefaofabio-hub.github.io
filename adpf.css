@@ -1,0 +1,28 @@
+nav.nav a .adpf-ico{width:20px;height:20px;vertical-align:-4px;margin-right:6px;border-radius:5px}
+#aba-adpf .adpf-topo{text-align:center;padding-bottom:8px}
+#aba-adpf .adpf-logo{display:block;margin:4px auto 6px;border-radius:16px}
+#aba-adpf .tit{color:var(--azul);font-weight:900;font-size:clamp(20px,5.6vw,26px);text-align:center;margin:18px 0 8px;text-shadow:0 1px 0 #fff,0 2px 0 #c9d6ee,0 3px 4px rgba(31,79,168,.25)}
+#aba-adpf .numproc{display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;max-width:340px;margin:8px auto 8px;padding:10px 12px;border-radius:14px;color:#fff;background:linear-gradient(180deg,#2a8a4a,#14552c);box-shadow:0 5px 0 #0a3319,0 8px 16px rgba(0,0,0,.35);text-shadow:0 1px 2px rgba(0,0,0,.5)}
+#aba-adpf .numproc span{font-size:12.5px;font-weight:700;opacity:.92}
+#aba-adpf .numproc b{font-size:clamp(20px,6vw,24px);font-weight:900;letter-spacing:.5px}
+#aba-adpf .subt{font-size:13.5px;font-weight:800;color:var(--cinza);margin-top:4px}
+#aba-adpf .adpf-ext{font-size:11.5px;font-weight:700;color:var(--cinza);line-height:1.25;margin-top:3px;white-space:normal}
+#aba-adpf .cd .adpf-ext{text-align:left;font-size:12px}
+#aba-adpf .st{display:grid;grid-template-columns:1fr;gap:6px;margin-top:12px;text-align:left}
+#aba-adpf .st div{display:flex;justify-content:space-between;gap:8px;background:linear-gradient(180deg,#f7f9fd,#e8eef9);border:1.5px solid #c9d6ee;border-bottom-width:4px;border-radius:12px;padding:8px 10px;font-weight:700;font-size:14px}
+#aba-adpf .st div b{font-weight:900;text-align:right;color:#b45309;overflow-wrap:anywhere}
+#aba-adpf .cdt{margin:10px 0 6px;font-weight:800;color:var(--cinza)}
+#aba-adpf .contagem{display:flex;justify-content:center;gap:6px;flex-wrap:wrap}
+#aba-adpf .contagem div{background:linear-gradient(180deg,#5b8ae6,#1f4fa8 55%,#163a7e);color:#fff;border-radius:12px;padding:8px 6px;min-width:64px;text-align:center;box-shadow:0 4px 0 #0d2659}
+#aba-adpf .contagem b{display:block;font-size:24px;font-weight:900;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.4)}
+#aba-adpf .contagem small{font-size:11px;font-weight:700;color:#fff}
+#aba-adpf .cd{border:1.5px solid #c9d6ee;border-bottom-width:4px;border-radius:12px;padding:10px 12px;margin:8px 0;background:#fbfcff;overflow-wrap:anywhere;text-align:left}
+#aba-adpf .cd .k{font-size:12px;color:var(--cinza);font-weight:800;text-transform:uppercase}
+#aba-adpf .cd .v{font-weight:700;font-size:15px;margin-top:2px;line-height:1.35}
+#aba-adpf .cd ul{padding-left:18px}
+#aba-adpf .dt{display:inline-block;background:var(--azul);color:#fff;border-radius:6px;font-size:12px;font-weight:800;padding:2px 7px}
+#aba-adpf .cd h3{font-size:16px;font-weight:900;color:var(--azul);margin:6px 0 2px}
+#aba-adpf .cd a{color:var(--azul);font-weight:800}
+#aba-adpf .ex{border-color:#e7b3b3;background:#fff6f6}#aba-adpf .ex h3{color:#c8102e}
+#aba-adpf .nota{color:var(--cinza);font-size:13px;font-weight:600;margin:4px 0 6px;text-align:center}
+#aba-adpf .cd .nota{text-align:left}
