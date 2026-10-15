@@ -1,31 +1,24 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
-  "data": "2026-10-14",
-  "titulo": "Agenda de hoje · quarta, 14/10",
-  "atualizado": "14/10/2026, 7h35",
+  "data": "2026-10-15",
+  "titulo": "Agenda de amanhã · quinta, 15/10",
+  "atualizado": "14/10/2026, 21h45",
   "flavio": [
     {
-      "hora": "15h",
-      "local": "Vila Brasília, bairro Sarandi, Porto Alegre (RS)",
-      "descricao": "Visita à comunidade perto do dique, com os governadores Luciano Zucco, Sergio Moro, Tarcísio de Freitas e Jorginho Mello.",
-      "fonte": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/10/flavio-bolsonaro-visita-o-rs-nesta-quarta-feira-ao-lado-de-governadores-eleitos-veja-a-programacao-cmv6ygd4800k0013qfwnbsbtb.html",
-      "fonte_nome": "GZH"
-    },
-    {
-      "hora": "17h",
-      "local": "Largo Glênio Peres, Centro Histórico, Porto Alegre (RS)",
-      "descricao": "Comício ao lado do Mercado Público. Atos em Alvorada e Canoas foram cancelados.",
-      "fonte": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/10/flavio-bolsonaro-visita-o-rs-nesta-quarta-feira-ao-lado-de-governadores-eleitos-veja-a-programacao-cmv6ygd4800k0013qfwnbsbtb.html",
-      "fonte_nome": "GZH"
+      "hora": "19h",
+      "local": "Praça do Povo, Capelinha (MG), Vale do Jequitinhonha",
+      "descricao": "Ato \"Bloco do 22\", organizado pelo deputado Nikolas Ferreira, com o governador eleito Cleitinho Azevedo. Substitui o ato em Araçuaí; a visita a Belém prevista para o dia foi cancelada.",
+      "fonte": "https://www.metropoles.com/minas-gerais/agenda-de-flavio-em-mg-tem-atos-no-interior-e-motociata-em-bh-veja-locais",
+      "fonte_nome": "Metrópoles"
     }
   ],
   "lula": [
     {
-      "hora": "12h",
-      "local": "Palácio do Planalto, Brasília (DF)",
-      "descricao": "Assinatura do decreto que regulamenta o Marco Legal da Indústria de Jogos Eletrônicos. Lula permanece em Brasília para acompanhar a votação da PEC do fim da escala 6x1 no Senado; atos de campanha em SP e RJ foram deixados de lado.",
-      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-quarta-14-10",
-      "fonte_nome": "Metrópoles"
+      "hora": "21h05",
+      "local": "Estúdios Globo, Rio de Janeiro (RJ)",
+      "descricao": "Entrevista ao vivo com Renata Lo Prete na TV Globo, após o Jornal Nacional, com transmissão pela GloboNews e pelo g1.",
+      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tenta-recuperar-votos-com-viagens-a-sp-e-rio-na-proxima-semana/",
+      "fonte_nome": "Poder360"
     }
   ]
 }
