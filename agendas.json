@@ -2,23 +2,37 @@
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
   "data": "2026-10-15",
   "titulo": "Agenda de hoje · quinta, 15/10",
-  "atualizado": "15/10/2026, 0h40",
+  "atualizado": "15/10/2026, 7h40",
   "flavio": [
+    {
+      "hora": "Dia",
+      "local": "Brasília (DF)",
+      "descricao": "Gravações e reuniões internas da campanha.",
+      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-quinta-15-10",
+      "fonte_nome": "Metrópoles"
+    },
+    {
+      "hora": "18h",
+      "local": "Capelinha (MG) / YouTube",
+      "descricao": "Tradicional live de quinta no canal do YouTube.",
+      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-quinta-15-10",
+      "fonte_nome": "Metrópoles"
+    },
     {
       "hora": "19h",
       "local": "Praça do Povo, Capelinha (MG), Vale do Jequitinhonha",
-      "descricao": "Ato \"Bloco do 22\", organizado pelo deputado Nikolas Ferreira, com o governador eleito Cleitinho Azevedo. Substitui o ato em Araçuaí; a visita a Belém prevista para o dia foi cancelada.",
-      "fonte": "https://www.metropoles.com/minas-gerais/agenda-de-flavio-em-mg-tem-atos-no-interior-e-motociata-em-bh-veja-locais",
+      "descricao": "Ato \"Bloquinho do 22\" com o deputado Nikolas Ferreira, início da série de atos de rua até 24/10.",
+      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-quinta-15-10",
       "fonte_nome": "Metrópoles"
     }
   ],
   "lula": [
     {
-      "hora": "21h05",
+      "hora": "21h15",
       "local": "Estúdios Globo, Rio de Janeiro (RJ)",
-      "descricao": "Entrevista ao vivo com Renata Lo Prete na TV Globo, após o Jornal Nacional, com transmissão pela GloboNews e pelo g1.",
-      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tenta-recuperar-votos-com-viagens-a-sp-e-rio-na-proxima-semana/",
-      "fonte_nome": "Poder360"
+      "descricao": "Sabatina ao vivo com Renata Lo Prete na TV Globo, após o Jornal Nacional, com transmissão pela GloboNews e pelo g1. Sem agendas públicas de campanha durante o dia (preparação em Brasília).",
+      "fonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/15/entrevista-lula-na-globo.ghtml",
+      "fonte_nome": "g1"
     }
   ]
 }
