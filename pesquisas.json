@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-14",
+  "atualizado_em": "2026-10-15",
   "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh. Toda pesquisa nova deve ter 'aprovacao', 'desaprovacao' e 'aprovacao_fonte' (null se não mediu).",
   "inicio_2turno": "2026-10-05",
   "institutos": [
@@ -34,8 +34,7 @@
       "nome": "DataTrends"
     },
     {
-      "nome": "Indexa",
-      "prevista": "Divulgação prevista para 15/10 (campo 13 a 14/10, registro BR-04629/2026, Agência Estado)"
+      "nome": "Indexa"
     },
     {
       "nome": "AtlasIntel"
@@ -286,6 +285,26 @@
         "fonte_medo": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-medo-governo-lula-ou-flavio-bolsonaro-14-outubro.ghtml",
         "fonte_rotulo": "Valor Econômico e g1 · Quaest BR-08729/2026"
       }
+    },
+    {
+      "instituto": "Indexa",
+      "contratante": "Agência Estado S.A. (Broadcast/Estadão)",
+      "divulgacao": "2026-10-15",
+      "campo_inicio": "2026-10-13",
+      "campo": "13 e 14/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-04629/2026",
+      "entrevistas": 2000,
+      "base": "totais",
+      "flavio": 44,
+      "lula": 42,
+      "brancos_nulos": 4,
+      "indecisos": 2,
+      "margem": "2,2",
+      "obs": "Votos totais (8% não iria votar). Votos válidos: Flávio 51%, Lula 49%. Empate técnico (margem 2,2 p.p.). 87% já decidiram o voto; 11% ainda podem mudar.",
+      "fonte": "https://www.estadao.com.br/politica/eleicoes/flavio-bolsonaro-tem-44-e-lula-42-no-2-turno-em-empate-tecnico-aponta-indexabroadcast/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
@@ -457,12 +476,12 @@
     ]
   },
   "decididos": {
-    "total": 91,
-    "podem_mudar": 9,
+    "total": 87,
+    "podem_mudar": 11,
     "flavio": null,
     "lula": null,
-    "fonte": "Quaest 14/10 · BR-08729/2026",
-    "obs": "escolha definitiva; 9% ainda podem mudar de ideia"
+    "fonte": "Indexa/Broadcast 15/10 · BR-04629/2026",
+    "obs": "já decidiram o voto; 11% ainda podem mudar; 2% NS/NR"
   },
-  "testeNovo": "poderdata|2026-10-13|BR-01209/2026"
+  "testeNovo": "indexa|2026-10-15|BR-04629/2026"
 }
