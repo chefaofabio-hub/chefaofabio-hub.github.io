@@ -303,11 +303,11 @@
       "brancos_nulos": 4,
       "indecisos": 2,
       "margem": "2,2",
-      "obs": "Votos totais (8% não iria votar). Votos válidos: Flávio 51%, Lula 49%. Empate técnico (margem 2,2 p.p.). 87% já decidiram o voto; 11% ainda podem mudar.",
+      "obs": "Votos totais (8% não iria votar). Votos válidos: Flávio 51%, Lula 49%. Empate técnico (margem 2,2 p.p.). 87% já decidiram o voto; 11% ainda podem mudar. Rejeição (jamais votaria): Flávio 51%, Lula 50%. Aprovação do governo Lula 45%, desaprovação 50%.",
       "fonte": "https://www.estadao.com.br/politica/eleicoes/flavio-bolsonaro-tem-44-e-lula-42-no-2-turno-em-empate-tecnico-aponta-indexabroadcast/",
-      "aprovacao": null,
-      "desaprovacao": null,
-      "aprovacao_fonte": null
+      "aprovacao": 45,
+      "desaprovacao": 50,
+      "aprovacao_fonte": "https://www.cnnbrasil.com.br/politica/indexa-broadcast-lula-e-desaprovado-por-50-aprovacao-e-de-45/"
     },
     {
       "instituto": "Palver",
@@ -334,6 +334,13 @@
     "obs": "não votaria de jeito nenhum",
     "fora": "DataTrends 11/10 e AtlasIntel 09/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Indexa",
+        "data": "15/10",
+        "flavio": 51,
+        "lula": 50,
+        "fonte": "Indexa/Broadcast · campo 13–14/10 · BR-04629/2026 (Estadão/UOL)"
+      },
       {
         "instituto": "Palver",
         "data": "15/10",
@@ -502,6 +509,15 @@
         "desaprova": 48,
         "registro": "BR-08729/2026",
         "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-48percent-desaprovam-governo-lula-e-45percent-aprovam.ghtml"
+      },
+      {
+        "data": "2026-10-15",
+        "instituto": "Indexa",
+        "campo": "13 e 14/10",
+        "aprova": 45,
+        "desaprova": 50,
+        "registro": "BR-04629/2026",
+        "fonte": "https://www.cnnbrasil.com.br/politica/indexa-broadcast-lula-e-desaprovado-por-50-aprovacao-e-de-45/"
       }
     ]
   },
