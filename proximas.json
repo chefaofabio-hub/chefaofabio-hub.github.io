@@ -36,6 +36,17 @@
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
+   "instituto": "Instituto Stylo",
+   "data": "2026-10-16",
+   "status": "confirmada",
+   "obs": "Campo 11 a 14/10 · 1.200 entrevistas",
+   "registro": "BR-06187/2026",
+   "contratante": null,
+   "campo": "11 a 14/10",
+   "entrevistas": 1200,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
    "instituto": "PoderData/Aya",
    "data": "2026-10-16",
    "status": "confirmada",
@@ -176,6 +187,39 @@
    "contratante": null,
    "campo": "15 a 19/10",
    "entrevistas": 2700,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
+   "instituto": "DataTrends",
+   "data": "2026-10-20",
+   "status": "confirmada",
+   "obs": "Campo 16 a 18/10 · 1.200 entrevistas",
+   "registro": "BR-07585/2026",
+   "contratante": null,
+   "campo": "16 a 18/10",
+   "entrevistas": 1200,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
+   "instituto": "Instituto França",
+   "data": "2026-10-20",
+   "status": "confirmada",
+   "obs": "Campo 15 a 19/10 · 2.000 entrevistas",
+   "registro": "BR-00640/2026",
+   "contratante": null,
+   "campo": "15 a 19/10",
+   "entrevistas": 2000,
+   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+  },
+  {
+   "instituto": "Instituto França",
+   "data": "2026-10-20",
+   "status": "confirmada",
+   "obs": "Campo 13 a 16/10 · 1.141 entrevistas",
+   "registro": "BR-03326/2026",
+   "contratante": null,
+   "campo": "13 a 16/10",
+   "entrevistas": 1141,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {
