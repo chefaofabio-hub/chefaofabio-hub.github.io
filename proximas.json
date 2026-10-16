@@ -25,17 +25,6 @@
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
-      "instituto": "Perfil",
-      "data": "2026-10-18",
-      "status": "confirmada",
-      "obs": "Campo 14 a 17/10 · 1.500 entrevistas · BDC Comunicações",
-      "registro": "BR-01015/2026",
-      "contratante": "BDC Comunicações",
-      "campo": "14 a 17/10",
-      "entrevistas": 1500,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "Phoenix",
       "data": "2026-10-18",
       "status": "confirmada",
@@ -231,6 +220,17 @@
       "contratante": "Globo",
       "campo": "17 a 20/10",
       "entrevistas": 2154,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
+      "instituto": "Gerp",
+      "data": "2026-10-22",
+      "status": "confirmada",
+      "obs": "Campo 21 a 24/10 · 2.400 entrevistas (conforme ficha)",
+      "registro": "BR-09327/2026",
+      "contratante": null,
+      "campo": "21 a 24/10 (conforme ficha)",
+      "entrevistas": 2400,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
