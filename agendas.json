@@ -1,38 +1,31 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
-  "data": "2026-10-15",
-  "titulo": "Agenda de hoje · quinta, 15/10",
-  "atualizado": "15/10/2026, 7h40",
+  "data": "2026-10-16",
+  "titulo": "Agenda de amanhã · sexta, 16/10",
+  "atualizado": "15/10/2026, 21h35",
   "flavio": [
     {
-      "hora": "Dia",
-      "local": "Brasília (DF)",
-      "descricao": "Gravações e reuniões internas da campanha.",
-      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-quinta-15-10",
-      "fonte_nome": "Metrópoles"
-    },
-    {
-      "hora": "18h",
-      "local": "Capelinha (MG) / YouTube",
-      "descricao": "Tradicional live de quinta no canal do YouTube.",
-      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-quinta-15-10",
-      "fonte_nome": "Metrópoles"
-    },
-    {
-      "hora": "19h",
-      "local": "Praça do Povo, Capelinha (MG), Vale do Jequitinhonha",
-      "descricao": "Ato \"Bloquinho do 22\" com o deputado Nikolas Ferreira, início da série de atos de rua até 24/10.",
-      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-quinta-15-10",
-      "fonte_nome": "Metrópoles"
+      "hora": "21h",
+      "local": "Estúdios Globo, Rio de Janeiro (RJ)",
+      "descricao": "Sabatina ao vivo com Renata Lo Prete na TV Globo, após o Jornal Nacional, com transmissão pela GloboNews e pelo g1.",
+      "fonte": "https://g1.globo.com/jornal-nacional/ao-vivo/flavio-bolsonaro-entrevista-candidatos-presidente-segundo-turno.ghtml",
+      "fonte_nome": "g1"
     }
   ],
   "lula": [
     {
-      "hora": "21h15",
-      "local": "Estúdios Globo, Rio de Janeiro (RJ)",
-      "descricao": "Sabatina ao vivo com Renata Lo Prete na TV Globo, após o Jornal Nacional, com transmissão pela GloboNews e pelo g1. Sem agendas públicas de campanha durante o dia (preparação em Brasília).",
-      "fonte": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/15/entrevista-lula-na-globo.ghtml",
-      "fonte_nome": "g1"
+      "hora": "10h",
+      "local": "Praça da Estação, Juiz de Fora (MG)",
+      "descricao": "Ato de campanha na Zona da Mata mineira.",
+      "fonte": "https://www.metropoles.com/minas-gerais/flavio-e-lula-retornam-a-minas-para-disputar-votos-decisivos-do-2o-turno",
+      "fonte_nome": "Metrópoles"
+    },
+    {
+      "hora": "17h",
+      "local": "Av. Selim José de Sales esquina com Rua Siquém, bairro Canaã, Ipatinga (MG)",
+      "descricao": "Caminhada de campanha no Vale do Aço; concentração no local.",
+      "fonte": "https://dcomercio.com.br/publicacao/s/agenda-dos-presidenciaveis-sexta-feira-16-10",
+      "fonte_nome": "Diário do Comércio"
     }
   ]
 }
