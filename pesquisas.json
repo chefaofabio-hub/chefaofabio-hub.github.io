@@ -411,6 +411,26 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Gerp",
+      "contratante": "Gerp (recursos próprios)",
+      "divulgacao": "2026-10-16",
+      "campo_inicio": "2026-10-14",
+      "campo": "14 a 16/10/2026 (depois do 1º turno)",
+      "registro": "BR-05187/2026",
+      "entrevistas": 2400,
+      "base": "totais",
+      "flavio": 50,
+      "lula": 45,
+      "brancos_nulos": 2,
+      "indecisos": 3,
+      "margem": "2",
+      "obs": "Votos totais: Flávio 50%, Lula 45%, nenhum deles 2%, não sabe 3%. Em votos válidos (cálculo do app): Flávio 52,6%, Lula 47,4%.",
+      "fonte": "https://tmc.com.br/politica/pesquisa-gerp-flavio-bolsonaro-lidera-com-50-contra-45-de-lula/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
