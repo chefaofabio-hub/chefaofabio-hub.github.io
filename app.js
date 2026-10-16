@@ -304,12 +304,6 @@ const dataBR = iso => { const [y, m, d] = iso.split("-"); return `${d}/${m}/${y}
 const pv = x => x == null ? "—" : (Number.isInteger(x) ? String(x) : String(x).replace(".", ",")) + "%";
 const pp = x => { const r = Math.round(x * 10) / 10; return (Number.isInteger(r) ? String(r) : String(r).replace(".", ",")); };
 
-const VV = p => {   // votos válidos: publicado, ou calculado a partir dos totais
-  if (p.base === "validos") return {f: p.flavio, l: p.lula, calc: false};
-  if (p.validos_flavio != null && p.validos_lula != null) return {f: p.validos_flavio, l: p.validos_lula, calc: false};
-  const t = p.flavio + p.lula, r = x => Math.round(1000 * x / t) / 10;
-  return {f: r(p.flavio), l: r(p.lula), calc: true};
-};
 let pesqCarregando = false;
 async function carregarPesquisas() {
   if (pesqCarregando) return; pesqCarregando = true;
@@ -340,8 +334,9 @@ async function carregarPesquisas() {
 }
 
 function graficoInstituto(lista) {   // lista: pesquisas do instituto, mais recente primeiro
-  const ps = lista.map(p => { const v = VV(p); return {divulgacao: p.divulgacao, flavio: v.f, lula: v.l, calc: v.calc}; })
-                  .sort((a, b) => a.divulgacao.localeCompare(b.divulgacao));
+  const base = lista[0].base;
+  const ps = lista.filter(p => p.base === base).sort((a, b) => a.divulgacao.localeCompare(b.divulgacao));
+  const fora = lista.length - ps.length;
   const W = 320, H = 178, L = 30, R = 22, T = 22, B = 30, n = ps.length;
   const vals = ps.flatMap(p => [p.flavio, p.lula]);
   let y0 = Math.floor(Math.min(...vals) - 3), y1 = Math.ceil(Math.max(...vals) + 3);
@@ -367,7 +362,8 @@ function graficoInstituto(lista) {   // lista: pesquisas do instituto, mais rece
   });
   s += `</svg>`;
   const notas = [n === 1 ? "A linha aparece a partir da 2ª pesquisa deste instituto." : "",
-    "Votos válidos.", ps.some(p => p.calc) ? "Alguns pontos são válidos calculados a partir dos totais." : ""].filter(Boolean).join(" ");
+    `Base: ${base === "validos" ? "votos válidos" : "votos totais (como o instituto divulgou)"}.`,
+    fora ? `${fora} pesquisa(s) em outra base ficaram fora do gráfico (estão na lista abaixo).` : ""].filter(Boolean).join(" ");
   return `<div class="pq-graf"><div class="pq-gcab"><span>Evolução ${esc(lista[0].instituto)}</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>${s}<div class="pq-gnota">${notas}</div></div>`;
 }
 
@@ -379,15 +375,14 @@ function linhaEspera(i) {   // instituto sem pesquisa ainda — datas de divulga
         <div class="pq-b"><span class="pq-nm">Lula</span><div class="pq-t"></div><span>—</span></div></div></div></div>`;
 }
 function linhaInstituto(lista) {
-  const p = lista[0], v = VV(p), d = v.f - v.l;
+  const p = lista[0], d = p.flavio - p.lula;
   const lid = d > 0 ? `<span class="pq-lid az">Flávio na frente (+${pp(d)})</span>` : d < 0 ? `<span class="pq-lid vm">Lula na frente (+${pp(-d)})</span>` : `<span class="pq-lid emp">Empate</span>`;
-  const esc100 = Math.max(60, v.f, v.l);
+  const esc100 = Math.max(60, p.flavio, p.lula);
   const mini = `<div class="pq-mini">
-      <div class="pq-b"><span class="pq-nm az">Flávio</span><div class="pq-t"><i style="width:${100 * v.f / esc100}%;background:var(--flavio)"></i></div><span class="az">${pv(v.f)}</span></div>
-      <div class="pq-b"><span class="pq-nm vm">Lula</span><div class="pq-t"><i style="width:${100 * v.l / esc100}%;background:var(--lula)"></i></div><span class="vm">${pv(v.l)}</span></div></div>`;
+      <div class="pq-b"><span class="pq-nm az">Flávio</span><div class="pq-t"><i style="width:${100 * p.flavio / esc100}%;background:var(--flavio)"></i></div><span class="az">${pv(p.flavio)}</span></div>
+      <div class="pq-b"><span class="pq-nm vm">Lula</span><div class="pq-t"><i style="width:${100 * p.lula / esc100}%;background:var(--lula)"></i></div><span class="vm">${pv(p.lula)}</span></div></div>`;
   const det = [
-    `<span>Votos válidos: <b>Flávio ${pv(v.f)} x Lula ${pv(v.l)}</b>${v.calc ? " (calculados a partir dos totais)" : ""}</span>`,
-    p.base === "validos" ? "" : `<span class="pq-tot">Votos totais: Flávio ${pv(p.flavio)} x Lula ${pv(p.lula)}</span>`,
+    `<span>Base: <b>${p.base === "validos" ? "votos válidos" : "votos totais"}</b></span>`,
     p.contratante ? `<span>Contratante: <b>${esc(p.contratante)}</b></span>` : "",
     p.campo ? `<span>Campo: <b>${esc(p.campo)}</b></span>` : "",
     p.entrevistas ? `<span>Entrevistas: <b>${fint(p.entrevistas)}</b></span>` : "",
@@ -397,10 +392,10 @@ function linhaInstituto(lista) {
     p.obs ? `<span>${esc(p.obs)}</span>` : "",
     p.fonte ? `<span><a href="${esc(p.fonte)}" target="_blank" rel="noopener">Ver fonte ↗</a></span>` : "",
   ].filter(Boolean).join("");
-  const ant = lista.slice(1).map(a => `<li>${dataBR(a.divulgacao).slice(0, 5)}: <b class="az">${pv(VV(a).f)}</b> x <b class="vm">${pv(VV(a).l)}</b>${VV(a).calc ? " <small>(válidos calculados)</small>" : ""}${a.fonte ? ` · <a href="${esc(a.fonte)}" target="_blank" rel="noopener">fonte ↗</a>` : ""}</li>`).join("");
+  const ant = lista.slice(1).map(a => `<li>${dataBR(a.divulgacao).slice(0, 5)}: <b class="az">${pv(a.flavio)}</b> x <b class="vm">${pv(a.lula)}</b>${a.fonte ? ` · <a href="${esc(a.fonte)}" target="_blank" rel="noopener">fonte ↗</a>` : ""}</li>`).join("");
   const novos = lista.map(idPesq).filter(i => novasCards.has(i));
   return `<details class="pq"${novos.length ? ` data-ids="${esc(JSON.stringify(novos))}"` : ""}><summary>
-      ${novos.length ? `<b class="ponto pq-ponto" title="pesquisa nova">!</b>` : ""}<div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div><div class="pq-base">votos válidos${v.calc ? " <small>(calculados)</small>" : ""}</div>${lid}</div>
+      ${novos.length ? `<b class="ponto pq-ponto" title="pesquisa nova">!</b>` : ""}<div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div><div class="pq-base">${p.base === "validos" ? "votos válidos" : "votos totais"}</div>${lid}</div>
       ${mini}</summary>
     <div class="pq-det">${graficoInstituto(lista)}${blocoGov(p)}${blocoCxM(p)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
 }

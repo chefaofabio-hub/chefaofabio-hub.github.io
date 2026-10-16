@@ -82,9 +82,7 @@
       "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml",
       "aprovacao": 48,
       "desaprovacao": 49,
-      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-avaliacao-governo-8-outubro.ghtml",
-      "validos_flavio": 52,
-      "validos_lula": 48
+      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-avaliacao-governo-8-outubro.ghtml"
     },
     {
       "instituto": "Ipespe",
@@ -205,9 +203,7 @@
       "fonte": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/",
       "aprovacao": 45,
       "desaprovacao": 50,
-      "aprovacao_fonte": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-51-de-rejeicao-contra-47-de-flavio-diz-btg-nexus/",
-      "validos_flavio": 52,
-      "validos_lula": 48
+      "aprovacao_fonte": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-51-de-rejeicao-contra-47-de-flavio-diz-btg-nexus/"
     },
     {
       "instituto": "Gerp",
@@ -311,9 +307,7 @@
       "fonte": "https://www.estadao.com.br/politica/eleicoes/flavio-bolsonaro-tem-44-e-lula-42-no-2-turno-em-empate-tecnico-aponta-indexabroadcast/",
       "aprovacao": 45,
       "desaprovacao": 50,
-      "aprovacao_fonte": "https://www.cnnbrasil.com.br/politica/indexa-broadcast-lula-e-desaprovado-por-50-aprovacao-e-de-45/",
-      "validos_flavio": 51,
-      "validos_lula": 49
+      "aprovacao_fonte": "https://www.cnnbrasil.com.br/politica/indexa-broadcast-lula-e-desaprovado-por-50-aprovacao-e-de-45/"
     },
     {
       "instituto": "Palver",
@@ -353,9 +347,7 @@
       "fonte": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-e-lula-49-dos-votos-validos-um-empate-tecnico.shtml",
       "aprovacao": 48,
       "desaprovacao": 50,
-      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/15/datafolha-lula-aprovacao.ghtml",
-      "validos_flavio": 51,
-      "validos_lula": 49
+      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/15/datafolha-lula-aprovacao.ghtml"
     }
   ],
   "rejeicao": {
