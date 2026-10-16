@@ -1,8 +1,8 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
   "data": "2026-10-16",
-  "titulo": "Agenda de amanhã · sexta, 16/10",
-  "atualizado": "15/10/2026, 21h35",
+  "titulo": "Agenda de hoje · sexta, 16/10",
+  "atualizado": "16/10/2026, 0h40",
   "flavio": [
     {
       "hora": "21h",
@@ -14,16 +14,16 @@
   ],
   "lula": [
     {
-      "hora": "10h",
-      "local": "Praça da Estação, Juiz de Fora (MG)",
-      "descricao": "Ato de campanha na Zona da Mata mineira.",
-      "fonte": "https://www.metropoles.com/minas-gerais/flavio-e-lula-retornam-a-minas-para-disputar-votos-decisivos-do-2o-turno",
-      "fonte_nome": "Metrópoles"
+      "hora": "10h (ato às 12h)",
+      "local": "Praça Clodesmidt Riani, Centro, Juiz de Fora (MG)",
+      "descricao": "Caminhada de campanha na Zona da Mata: concentração às 10h, ato a partir das 12h pela Av. Getúlio Vargas até a Praça Tarcísio Delgado, com a prefeita Margarida Salomão.",
+      "fonte": "https://www.hojeemdia.com.br/politica/capelinha-juiz-de-fora-e-ipatinga-lula-e-flavio-bolsonaro-miram-regi-es-estrategicas-em-minas-1.1136905",
+      "fonte_nome": "Hoje em Dia"
     },
     {
-      "hora": "17h",
+      "hora": "15h (ato às 17h)",
       "local": "Av. Selim José de Sales esquina com Rua Siquém, bairro Canaã, Ipatinga (MG)",
-      "descricao": "Caminhada de campanha no Vale do Aço; concentração no local.",
+      "descricao": "Caminhada de campanha no Vale do Aço: concentração às 15h e ato às 17h.",
       "fonte": "https://dcomercio.com.br/publicacao/s/agenda-dos-presidenciaveis-sexta-feira-16-10",
       "fonte_nome": "Diário do Comércio"
     }
