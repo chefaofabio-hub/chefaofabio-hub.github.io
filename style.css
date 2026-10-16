@@ -483,3 +483,12 @@ nav.nav a.atual small{color:#e6eeff;text-shadow:0 1px 0 rgba(0,0,0,.45),0 2px 3p
   .cxm-p{font-size:12px}.cxm-nums span,.cxm-medo span{padding:4px 8px;font-size:13px}
 }
 
+
+.pq-mini{flex:0 0 164px}
+.pq-b span{width:54px;font-size:13.5px}
+.pq-b .pq-nm{width:42px;font-size:12.5px}
+.pq-vv{font-size:10.5px;font-weight:800;color:#5f697d;text-transform:uppercase;letter-spacing:.3px;line-height:1.2;text-align:right;white-space:nowrap}
+.pq-vv-g{text-align:left;margin:0 0 6px;font-size:11px}
+.pq-lid{display:block;margin-top:3px;line-height:1.25;font-size:13px;white-space:normal;overflow-wrap:anywhere;padding-right:4px}
+.pq-esq{padding-right:6px}
+@media (max-width:380px){.pq-mini{flex-basis:152px}.pq-b span{width:54px;font-size:13px}.pq-inst{font-size:17px}}
