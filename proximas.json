@@ -245,6 +245,28 @@
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
+      "instituto": "Palver",
+      "data": "2026-10-21",
+      "status": "confirmada",
+      "obs": "Campo 16 a 20/10 · 5.000 entrevistas",
+      "registro": "BR-04612/2026",
+      "contratante": null,
+      "campo": "16 a 20/10",
+      "entrevistas": 5000,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
+      "instituto": "Quaest",
+      "data": "2026-10-21",
+      "status": "confirmada",
+      "obs": "Campo 17 a 20/10 · 2.154 entrevistas · Globo",
+      "registro": "BR-08535/2026",
+      "contratante": "Globo",
+      "campo": "17 a 20/10",
+      "entrevistas": 2154,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
       "instituto": "Gerp",
       "data": null,
       "status": "a confirmar",
