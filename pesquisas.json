@@ -388,9 +388,9 @@
       "margem": "2,2",
       "obs": "Votos válidos. Votos totais: Flávio 46,8%, Lula 45,9%, branco/nulo 4,9%, indecisos 2,4%. Não votaria: Lula 48,8%, Flávio 46,6%. Cerca de 140 municípios.",
       "fonte": "https://noticias.uol.com.br/eleicoes/2026/10/16/cntmda-pesquisa-presidencial-2-turno.ghtm",
-      "aprovacao": null,
-      "desaprovacao": null,
-      "aprovacao_fonte": null
+      "aprovacao": 47.7,
+      "desaprovacao": 49.3,
+      "aprovacao_fonte": "https://www.cnnbrasil.com.br/politica/cnt-mda-493-desaprovam-lula-477-aprovam/"
     },
     {
       "instituto": "Futura Inteligência",
@@ -626,6 +626,15 @@
         "desaprova": 49,
         "registro": "BR-04258/2026",
         "fonte": "https://exame.com/brasil/pesquisa-poderdata-aya-lula-e-flavio-bolsonaro-empatam-com-50-dos-votos-validos/"
+      },
+      {
+        "data": "2026-10-16",
+        "instituto": "CNT/MDA",
+        "campo": "13 a 15/10",
+        "aprova": 47.7,
+        "desaprova": 49.3,
+        "registro": "BR-00652/2026",
+        "fonte": "https://www.cnnbrasil.com.br/politica/cnt-mda-493-desaprovam-lula-477-aprovam/"
       }
     ]
   },
