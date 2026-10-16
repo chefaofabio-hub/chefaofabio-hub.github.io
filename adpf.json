@@ -1,10 +1,10 @@
 {
- "atualizado_em": "15/10/2026 14:02",
+ "atualizado_em": "16/10/2026 18:10",
  "status": {
-  "relator": "Ainda não distribuída",
+  "relator": "Min. Cristiano Zanin",
   "liminar": "Sem decisão",
   "numero_adpf": "ADPF 1362",
-  "situacao": "Autuada; petição de amicus curiae em 15/10; aguardando distribuição"
+  "situacao": "Distribuída por prevenção ao Min. Cristiano Zanin em 16/10; conclusa ao relator"
  },
  "data_alvo": "2026-10-25T08:00:00-03:00",
  "processo": {
@@ -29,32 +29,32 @@
   {
    "nome": "Gilmar Mendes",
    "grupo": "pedido",
-   "status": "Pode ser sorteado (pedido do PSD)"
+   "status": "Não é o relator (distribuição por prevenção a Zanin)"
   },
   {
    "nome": "Luiz Fux",
    "grupo": "pedido",
-   "status": "Pode ser sorteado (pedido do PSD)"
+   "status": "Não é o relator (distribuição por prevenção a Zanin)"
   },
   {
    "nome": "Cármen Lúcia",
    "grupo": "pedido",
-   "status": "Pode ser sorteada (pedido do PSD)"
+   "status": "Não é o relator (distribuição por prevenção a Zanin)"
   },
   {
    "nome": "Alexandre de Moraes",
    "grupo": "pedido",
-   "status": "Pode ser sorteado (pedido do PSD)"
+   "status": "Não é o relator (distribuição por prevenção a Zanin)"
   },
   {
    "nome": "Cristiano Zanin",
    "grupo": "pedido",
-   "status": "Pode ser sorteado (pedido do PSD)"
+   "status": "Relator (distribuído por prevenção em 16/10, ligado à TPA 81)"
   },
   {
    "nome": "Flávio Dino",
    "grupo": "pedido",
-   "status": "Pode ser sorteado (pedido do PSD)"
+   "status": "Não é o relator (distribuição por prevenção a Zanin)"
   },
   {
    "nome": "Nunes Marques",
@@ -73,6 +73,20 @@
   }
  ],
  "andamentos": [
+  {
+   "data": "16/10/2026",
+   "titulo": "Conclusos ao relator",
+   "texto": "Processo encaminhado ao gabinete do Min. Cristiano Zanin para análise. Liminar ainda sem decisão.",
+   "fonte": "Portal do STF",
+   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+  },
+  {
+   "data": "16/10/2026",
+   "titulo": "Distribuído por prevenção a Zanin",
+   "texto": "Relator: Min. Cristiano Zanin, por prevenção (RISTF, art. 69), por já ter julgado a TPA 81, pedido anterior da coligação de Paes negado em 08/10. Não houve sorteio.",
+   "fonte": "Portal do STF",
+   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+  },
   {
    "data": "15/10/2026",
    "titulo": "Petição de amicus curiae",
