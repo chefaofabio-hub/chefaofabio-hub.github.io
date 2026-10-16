@@ -1,5 +1,5 @@
 {
-  "atualizado": "15/10/2026",
+  "atualizado": "16/10/2026",
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
@@ -22,17 +22,6 @@
       "contratante": "CNT",
       "campo": "13 a 15/10",
       "entrevistas": 2002,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "PoderData/Aya",
-      "data": "2026-10-16",
-      "status": "confirmada",
-      "obs": "Campo 13 a 15/10 · 3.000 entrevistas",
-      "registro": "BR-04258/2026",
-      "contratante": null,
-      "campo": "13 a 15/10",
-      "entrevistas": 3000,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {

@@ -2,10 +2,10 @@
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
   "data": "2026-10-16",
   "titulo": "Agenda de hoje · sexta, 16/10",
-  "atualizado": "16/10/2026, 0h40",
+  "atualizado": "16/10/2026, 10h50",
   "flavio": [
     {
-      "hora": "21h",
+      "hora": "21h15",
       "local": "Estúdios Globo, Rio de Janeiro (RJ)",
       "descricao": "Sabatina ao vivo com Renata Lo Prete na TV Globo, após o Jornal Nacional, com transmissão pela GloboNews e pelo g1.",
       "fonte": "https://g1.globo.com/jornal-nacional/ao-vivo/flavio-bolsonaro-entrevista-candidatos-presidente-segundo-turno.ghtml",
@@ -13,6 +13,13 @@
     }
   ],
   "lula": [
+    {
+      "hora": "9h20",
+      "local": "Plenário do Senado Federal, Brasília (DF)",
+      "descricao": "Cerimônia de promulgação das PECs do fim da escala 6x1 e da aposentadoria diferenciada de agentes.",
+      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-sexta-16-10",
+      "fonte_nome": "Metrópoles"
+    },
     {
       "hora": "10h (ato às 12h)",
       "local": "Praça Clodesmidt Riani, Centro, Juiz de Fora (MG)",

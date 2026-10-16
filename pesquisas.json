@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-15",
+  "atualizado_em": "2026-10-16",
   "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh. Toda pesquisa nova deve ter 'aprovacao', 'desaprovacao' e 'aprovacao_fonte' (null se não mediu).",
   "inicio_2turno": "2026-10-05",
   "institutos": [
@@ -348,6 +348,26 @@
       "aprovacao": 48,
       "desaprovacao": 50,
       "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/15/datafolha-lula-aprovacao.ghtml"
+    },
+    {
+      "instituto": "PoderData",
+      "contratante": "Recursos próprios (parceria de divulgação Aya)",
+      "divulgacao": "2026-10-16",
+      "campo_inicio": "2026-10-13",
+      "campo": "13 a 15/10/2026 (depois do 1º turno), por telefone (URA)",
+      "registro": "BR-04258/2026",
+      "entrevistas": 3000,
+      "base": "validos",
+      "flavio": 50,
+      "lula": 50,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1,8",
+      "obs": "Números divulgados em votos válidos. Votos totais: Flávio 47%, Lula 47%, brancos/nulos 4%, não sabem 2%. 644 municípios. Empate.",
+      "fonte": "https://exame.com/brasil/pesquisa-poderdata-aya-lula-e-flavio-bolsonaro-empatam-com-50-dos-votos-validos/",
+      "aprovacao": 46,
+      "desaprovacao": 49,
+      "aprovacao_fonte": "https://exame.com/brasil/pesquisa-poderdata-aya-lula-e-flavio-bolsonaro-empatam-com-50-dos-votos-validos/"
     }
   ],
   "rejeicao": {
@@ -384,10 +404,10 @@
       },
       {
         "instituto": "PoderData/Aya",
-        "data": "13/10",
-        "flavio": 44,
+        "data": "16/10",
+        "flavio": 45,
         "lula": 46,
-        "fonte": "PoderData/Aya · campo 10–12/10 · BR-01209/2026 (Poder360)"
+        "fonte": "PoderData/Aya · campo 13–15/10 · BR-04258/2026 (CNN Brasil)"
       },
       {
         "instituto": "Ipespe",
@@ -547,6 +567,15 @@
         "desaprova": 50,
         "registro": "BR-00466/2026",
         "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/15/datafolha-lula-aprovacao.ghtml"
+      },
+      {
+        "data": "2026-10-16",
+        "instituto": "PoderData",
+        "campo": "13 a 15/10",
+        "aprova": 46,
+        "desaprova": 49,
+        "registro": "BR-04258/2026",
+        "fonte": "https://exame.com/brasil/pesquisa-poderdata-aya-lula-e-flavio-bolsonaro-empatam-com-50-dos-votos-validos/"
       }
     ]
   },
@@ -558,5 +587,5 @@
     "fonte": "Palver 15/10 · BR-08028/2026 (Exame)",
     "obs": "dizem que nada os faria mudar de voto (81% entre eleitores de Lula, 82% entre os de Flávio)"
   },
-  "testeNovo": "indexa|2026-10-15|BR-04629/2026"
+  "testeNovo": "poderdata|2026-10-16|BR-04258/2026"
 }
