@@ -41,6 +41,9 @@
     },
     {
       "nome": "Palver"
+    },
+    {
+      "nome": "CNT/MDA"
     }
   ],
   "pesquisas": [
@@ -368,12 +371,66 @@
       "aprovacao": 46,
       "desaprovacao": 49,
       "aprovacao_fonte": "https://exame.com/brasil/pesquisa-poderdata-aya-lula-e-flavio-bolsonaro-empatam-com-50-dos-votos-validos/"
+    },
+    {
+      "instituto": "CNT/MDA",
+      "contratante": "CNT",
+      "divulgacao": "2026-10-16",
+      "campo_inicio": "2026-10-13",
+      "campo": "13 a 15/10/2026 (depois do 1º turno), presencial",
+      "registro": "BR-00652/2026",
+      "entrevistas": 2002,
+      "base": "validos",
+      "flavio": 50.5,
+      "lula": 49.5,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,2",
+      "obs": "Votos válidos. Votos totais: Flávio 46,8%, Lula 45,9%, branco/nulo 4,9%, indecisos 2,4%. Não votaria: Lula 48,8%, Flávio 46,6%. Cerca de 140 municípios.",
+      "fonte": "https://noticias.uol.com.br/eleicoes/2026/10/16/cntmda-pesquisa-presidencial-2-turno.ghtm",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Futura Inteligência",
+      "contratante": "100% Cidades",
+      "divulgacao": "2026-10-16",
+      "campo_inicio": "2026-10-14",
+      "campo": "14 a 15/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-03764/2026",
+      "entrevistas": 2000,
+      "base": "validos",
+      "flavio": 50.8,
+      "lula": 49.2,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,2",
+      "obs": "Votos válidos. Votos totais: Flávio 49%, Lula 47,5%, brancos/nulos 1,5%, indecisos 2,1%. Rejeição: Lula 47,2%, Flávio 46,1%.",
+      "fonte": "https://exame.com/brasil/futura-flavio-tem-508-e-lula-492-no-2o-turno/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
     "fora": "DataTrends 11/10 e AtlasIntel 09/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "CNT/MDA",
+        "data": "16/10",
+        "flavio": 46.6,
+        "lula": 48.8,
+        "fonte": "CNT/MDA · campo 13–15/10 · BR-00652/2026 (UOL) · não votaria"
+      },
+      {
+        "instituto": "Futura Inteligência",
+        "data": "16/10",
+        "flavio": 46.1,
+        "lula": 47.2,
+        "fonte": "Futura/100% Cidades · campo 14–15/10 · BR-03764/2026 (Exame/CNN)"
+      },
       {
         "instituto": "Datafolha",
         "data": "15/10",
@@ -436,13 +493,6 @@
         "flavio": 42,
         "lula": 53,
         "fonte": "Gerp · campo 08–12/10 · BR-07877/2026 (Poder360/CNN)"
-      },
-      {
-        "instituto": "Futura Inteligência",
-        "data": "13/10",
-        "flavio": 45.4,
-        "lula": 48.6,
-        "fonte": "Futura/100% Cidades · campo 07–10/10 · BR-00650/2026 (Poder360)"
       }
     ]
   },
@@ -587,5 +637,5 @@
     "fonte": "Palver 15/10 · BR-08028/2026 (Exame)",
     "obs": "dizem que nada os faria mudar de voto (81% entre eleitores de Lula, 82% entre os de Flávio)"
   },
-  "testeNovo": "poderdata|2026-10-16|BR-04258/2026"
+  "testeNovo": "cntmda|2026-10-16|BR-00652/2026"
 }
