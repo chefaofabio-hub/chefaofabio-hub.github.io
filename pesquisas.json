@@ -426,11 +426,11 @@
       "brancos_nulos": 2,
       "indecisos": 3,
       "margem": "2",
-      "obs": "Votos totais: Flávio 50%, Lula 45%, nenhum deles 2%, não sabe 3%. Em votos válidos (cálculo do app): Flávio 52,6%, Lula 47,4%.",
+      "obs": "Votos totais: Flávio 50%, Lula 45%, nenhum deles 2%, não sabe 3%. Em votos válidos (cálculo do app): Flávio 52,6%, Lula 47,4%. Rejeição (não votaria de jeito nenhum): Lula 49%, Flávio 46%. Governo Lula: 46% aprovam, 48% desaprovam (Poder360).",
       "fonte": "https://tmc.com.br/politica/pesquisa-gerp-flavio-bolsonaro-lidera-com-50-contra-45-de-lula/",
-      "aprovacao": null,
-      "desaprovacao": null,
-      "aprovacao_fonte": null
+      "aprovacao": 46,
+      "desaprovacao": 48,
+      "aprovacao_fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-52-e-lula-48-dos-votos-validos-no-2o-turno-diz-gerp/"
     }
   ],
   "rejeicao": {
@@ -509,10 +509,10 @@
       },
       {
         "instituto": "Gerp",
-        "data": "13/10",
-        "flavio": 42,
-        "lula": 53,
-        "fonte": "Gerp · campo 08–12/10 · BR-07877/2026 (Poder360/CNN)"
+        "data": "16/10",
+        "flavio": 46,
+        "lula": 49,
+        "fonte": "Gerp · campo 14–16/10 · BR-05187/2026 (Poder360) · não votaria de jeito nenhum"
       }
     ]
   },
@@ -655,6 +655,15 @@
         "desaprova": 49.3,
         "registro": "BR-00652/2026",
         "fonte": "https://www.cnnbrasil.com.br/politica/cnt-mda-493-desaprovam-lula-477-aprovam/"
+      },
+      {
+        "data": "2026-10-16",
+        "instituto": "Gerp",
+        "campo": "14 a 16/10",
+        "aprova": 46,
+        "desaprova": 48,
+        "registro": "BR-05187/2026",
+        "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-52-e-lula-48-dos-votos-validos-no-2o-turno-diz-gerp/"
       }
     ]
   },
