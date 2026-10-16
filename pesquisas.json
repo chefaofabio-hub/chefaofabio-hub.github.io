@@ -345,9 +345,9 @@
       "margem": "2",
       "obs": "Votos válidos: Flávio 51%, Lula 49% (empate técnico). 153 municípios.",
       "fonte": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-e-lula-49-dos-votos-validos-um-empate-tecnico.shtml",
-      "aprovacao": null,
-      "desaprovacao": null,
-      "aprovacao_fonte": null
+      "aprovacao": 48,
+      "desaprovacao": 50,
+      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/15/datafolha-lula-aprovacao.ghtml"
     }
   ],
   "rejeicao": {
@@ -538,6 +538,15 @@
         "desaprova": 50,
         "registro": "BR-04629/2026",
         "fonte": "https://www.cnnbrasil.com.br/politica/indexa-broadcast-lula-e-desaprovado-por-50-aprovacao-e-de-45/"
+      },
+      {
+        "data": "2026-10-15",
+        "instituto": "Datafolha",
+        "campo": "13 e 14/10 (2º turno)",
+        "aprova": 48,
+        "desaprova": 50,
+        "registro": "BR-00466/2026",
+        "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/15/datafolha-lula-aprovacao.ghtml"
       }
     ]
   },
