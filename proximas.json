@@ -1,5 +1,5 @@
 {
-  "atualizado": "16/10/2026",
+  "atualizado": "17/10/2026",
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
@@ -223,6 +223,17 @@
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
+      "instituto": "Datafolha",
+      "data": "2026-10-22",
+      "status": "confirmada",
+      "obs": "Campo 20 a 22/10 · 2.520 entrevistas · Folha e Globo",
+      "registro": "BR-09709/2026",
+      "contratante": "Folha da Manhã e Globo",
+      "campo": "20 a 22/10",
+      "entrevistas": 2520,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
       "instituto": "Gerp",
       "data": "2026-10-22",
       "status": "confirmada",
@@ -242,6 +253,17 @@
       "contratante": "Agência Estado",
       "campo": "20 a 21/10",
       "entrevistas": 2000,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
+      "instituto": "PoderData",
+      "data": "2026-10-22",
+      "status": "confirmada",
+      "obs": "Campo 19 a 21/10 · 4.000 entrevistas",
+      "registro": "BR-07926/2026",
+      "contratante": null,
+      "campo": "19 a 21/10",
+      "entrevistas": 4000,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     }
   ]
