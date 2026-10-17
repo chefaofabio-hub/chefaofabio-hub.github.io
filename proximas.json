@@ -3,28 +3,6 @@
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
-      "instituto": "Ipespe",
-      "data": "2026-10-17",
-      "status": "confirmada",
-      "obs": "Campo 13 a 15/10 · 1.500 entrevistas",
-      "registro": "BR-00223/2026",
-      "contratante": null,
-      "campo": "13 a 15/10",
-      "entrevistas": 1500,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "Veritá",
-      "data": "2026-10-17",
-      "status": "confirmada",
-      "obs": "Campo 12 a 16/10 · 15.554 entrevistas",
-      "registro": "BR-01107/2026",
-      "contratante": null,
-      "campo": "12 a 16/10",
-      "entrevistas": 15554,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "Phoenix",
       "data": "2026-10-18",
       "status": "confirmada",

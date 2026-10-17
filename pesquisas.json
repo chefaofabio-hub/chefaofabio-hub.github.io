@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-16",
+  "atualizado_em": "2026-10-17",
   "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh. Toda pesquisa nova deve ter 'aprovacao', 'desaprovacao' e 'aprovacao_fonte' (null se não mediu).",
   "inicio_2turno": "2026-10-05",
   "institutos": [
@@ -431,12 +431,59 @@
       "aprovacao": 46,
       "desaprovacao": 48,
       "aprovacao_fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-52-e-lula-48-dos-votos-validos-no-2o-turno-diz-gerp/"
+    },
+    {
+      "instituto": "Ipespe",
+      "contratante": "Abrapel",
+      "divulgacao": "2026-10-17",
+      "campo_inicio": "2026-10-13",
+      "campo": "13 a 15/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-00223/2026",
+      "entrevistas": 1500,
+      "base": "validos",
+      "flavio": 51.2,
+      "lula": 48.8,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,6",
+      "obs": "Votos válidos (votos totais não informados na reportagem). Empate técnico. Rejeição (não votaria de jeito nenhum): Flávio 47%, Lula 47%. Governo Lula: 45% aprovam, 48% desaprovam.",
+      "fonte": "https://www.cnnbrasil.com.br/eleicoes/ipespe-abrapel-flavio-tem-512-dos-votos-validos-no-2o-turno-lula-488/",
+      "aprovacao": 45,
+      "desaprovacao": 48,
+      "aprovacao_fonte": "https://www.cnnbrasil.com.br/politica/ipespe-48-desaprovam-governo-lula-45-aprovam/"
+    },
+    {
+      "instituto": "Veritá",
+      "contratante": "Recursos próprios",
+      "divulgacao": "2026-10-17",
+      "campo_inicio": "2026-10-12",
+      "campo": "12 a 16/10/2026 (depois do 1º turno)",
+      "registro": "BR-01107/2026",
+      "entrevistas": 15554,
+      "base": "validos",
+      "flavio": 51.1,
+      "lula": 48.9,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1",
+      "obs": "Votos válidos (o Veritá divulga só válidos; totais não informados). Rejeição e aprovação não divulgadas.",
+      "fonte": "https://www.blogdobg.com.br/pesquisa-verita-flavio-bolsonaro-tem-511-contra-489-de-lula/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
     "fora": "DataTrends 11/10 e AtlasIntel 09/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Ipespe",
+        "data": "17/10",
+        "flavio": 47,
+        "lula": 47,
+        "fonte": "Ipespe/Abrapel · campo 13–15/10 · BR-00223/2026 (CNN Brasil) · não votaria de jeito nenhum"
+      },
       {
         "instituto": "CNT/MDA",
         "data": "16/10",
@@ -485,13 +532,6 @@
         "flavio": 45,
         "lula": 46,
         "fonte": "PoderData/Aya · campo 13–15/10 · BR-04258/2026 (CNN Brasil)"
-      },
-      {
-        "instituto": "Ipespe",
-        "data": "10/10",
-        "flavio": 46,
-        "lula": 49,
-        "fonte": "Ipespe · BR-00933/2026 (Folha)"
       },
       {
         "instituto": "Vox Brasil",
@@ -664,6 +704,15 @@
         "desaprova": 48,
         "registro": "BR-05187/2026",
         "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-52-e-lula-48-dos-votos-validos-no-2o-turno-diz-gerp/"
+      },
+      {
+        "data": "2026-10-17",
+        "instituto": "Ipespe",
+        "campo": "13 a 15/10",
+        "aprova": 45,
+        "desaprova": 48,
+        "registro": "BR-00223/2026",
+        "fonte": "https://www.cnnbrasil.com.br/politica/ipespe-48-desaprovam-governo-lula-45-aprovam/"
       }
     ]
   },
