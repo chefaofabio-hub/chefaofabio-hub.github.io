@@ -1,185 +1,192 @@
 {
- "atualizado_em": "16/10/2026 18:10",
- "status": {
-  "relator": "Min. Cristiano Zanin",
-  "liminar": "Sem decisão",
-  "numero_adpf": "ADPF 1362",
-  "situacao": "Distribuída por prevenção ao Min. Cristiano Zanin em 16/10; conclusa ao relator"
- },
- "data_alvo": "2026-10-25T08:00:00-03:00",
- "processo": {
-  "classe": "ADPF",
-  "tribunal": "STF – Supremo Tribunal Federal",
-  "autor": "PSD Diretório Nacional",
-  "advogado": "Thiago Fernandes Boverio (OAB 22432/DF)",
-  "interessado": "TSE",
-  "assunto": "Direito Eleitoral – Condição de Elegibilidade",
-  "protocolo": "Petição Inicial nº 129695 (14/10/2026 16:20)",
-  "numero_unico": "0187813-76.2026.1.00.0000",
-  "pedido": [
-   "Suspender a decisão do TSE que anulou os votos de Garotinho",
-   "Suspender a retotalização feita pelo TRE-RJ",
-   "Realizar o 2º turno Ruas x Paes em 25/10/2026"
+  "atualizado_em": "16/10/2026 21:05",
+  "status": {
+    "relator": "Min. Cristiano Zanin",
+    "liminar": "Sem decisão",
+    "numero_adpf": "ADPF 1362",
+    "situacao": "Distribuída por prevenção ao Min. Cristiano Zanin em 16/10; conclusa ao relator. Nova petição de amicus curiae às 20:58"
+  },
+  "data_alvo": "2026-10-25T08:00:00-03:00",
+  "processo": {
+    "classe": "ADPF",
+    "tribunal": "STF – Supremo Tribunal Federal",
+    "autor": "PSD Diretório Nacional",
+    "advogado": "Thiago Fernandes Boverio (OAB 22432/DF)",
+    "interessado": "TSE",
+    "assunto": "Direito Eleitoral – Condição de Elegibilidade",
+    "protocolo": "Petição Inicial nº 129695 (14/10/2026 16:20)",
+    "numero_unico": "0187813-76.2026.1.00.0000",
+    "pedido": [
+      "Suspender a decisão do TSE que anulou os votos de Garotinho",
+      "Suspender a retotalização feita pelo TRE-RJ",
+      "Realizar o 2º turno Ruas x Paes em 25/10/2026"
+    ],
+    "tese": "Art. 77, §2º da Constituição: votos de candidato que estava na urna, mesmo inelegível, contam para a maioria absoluta; só brancos e nulos ficam de fora.",
+    "citacao": "A existência do segundo turno deve depender da vontade expressa nas urnas, e não de eventos processuais posteriores relativos a terceiro candidato.",
+    "alternativa": "Se o STF não decidir antes de 25/10, o PSD fala em \"eleição avulsa\"."
+  },
+  "ministros": [
+    {
+      "nome": "Gilmar Mendes",
+      "grupo": "pedido",
+      "status": "Não é o relator (distribuição por prevenção a Zanin)"
+    },
+    {
+      "nome": "Luiz Fux",
+      "grupo": "pedido",
+      "status": "Não é o relator (distribuição por prevenção a Zanin)"
+    },
+    {
+      "nome": "Cármen Lúcia",
+      "grupo": "pedido",
+      "status": "Não é o relator (distribuição por prevenção a Zanin)"
+    },
+    {
+      "nome": "Alexandre de Moraes",
+      "grupo": "pedido",
+      "status": "Não é o relator (distribuição por prevenção a Zanin)"
+    },
+    {
+      "nome": "Cristiano Zanin",
+      "grupo": "pedido",
+      "status": "Relator (distribuído por prevenção em 16/10, ligado à TPA 81)"
+    },
+    {
+      "nome": "Flávio Dino",
+      "grupo": "pedido",
+      "status": "Não é o relator (distribuição por prevenção a Zanin)"
+    },
+    {
+      "nome": "Nunes Marques",
+      "grupo": "excluido",
+      "status": "PSD pediu exclusão (integra o TSE)"
+    },
+    {
+      "nome": "Dias Toffoli",
+      "grupo": "excluido",
+      "status": "PSD pediu exclusão (integra o TSE)"
+    },
+    {
+      "nome": "André Mendonça",
+      "grupo": "excluido",
+      "status": "PSD pediu exclusão (integra o TSE)"
+    }
   ],
-  "tese": "Art. 77, §2º da Constituição: votos de candidato que estava na urna, mesmo inelegível, contam para a maioria absoluta; só brancos e nulos ficam de fora.",
-  "citacao": "A existência do segundo turno deve depender da vontade expressa nas urnas, e não de eventos processuais posteriores relativos a terceiro candidato.",
-  "alternativa": "Se o STF não decidir antes de 25/10, o PSD fala em \"eleição avulsa\"."
- },
- "ministros": [
-  {
-   "nome": "Gilmar Mendes",
-   "grupo": "pedido",
-   "status": "Não é o relator (distribuição por prevenção a Zanin)"
-  },
-  {
-   "nome": "Luiz Fux",
-   "grupo": "pedido",
-   "status": "Não é o relator (distribuição por prevenção a Zanin)"
-  },
-  {
-   "nome": "Cármen Lúcia",
-   "grupo": "pedido",
-   "status": "Não é o relator (distribuição por prevenção a Zanin)"
-  },
-  {
-   "nome": "Alexandre de Moraes",
-   "grupo": "pedido",
-   "status": "Não é o relator (distribuição por prevenção a Zanin)"
-  },
-  {
-   "nome": "Cristiano Zanin",
-   "grupo": "pedido",
-   "status": "Relator (distribuído por prevenção em 16/10, ligado à TPA 81)"
-  },
-  {
-   "nome": "Flávio Dino",
-   "grupo": "pedido",
-   "status": "Não é o relator (distribuição por prevenção a Zanin)"
-  },
-  {
-   "nome": "Nunes Marques",
-   "grupo": "excluido",
-   "status": "PSD pediu exclusão (integra o TSE)"
-  },
-  {
-   "nome": "Dias Toffoli",
-   "grupo": "excluido",
-   "status": "PSD pediu exclusão (integra o TSE)"
-  },
-  {
-   "nome": "André Mendonça",
-   "grupo": "excluido",
-   "status": "PSD pediu exclusão (integra o TSE)"
-  }
- ],
- "andamentos": [
-  {
-   "data": "16/10/2026",
-   "titulo": "Conclusos ao relator",
-   "texto": "Processo encaminhado ao gabinete do Min. Cristiano Zanin para análise. Liminar ainda sem decisão.",
-   "fonte": "Portal do STF",
-   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
-  },
-  {
-   "data": "16/10/2026",
-   "titulo": "Distribuído por prevenção a Zanin",
-   "texto": "Relator: Min. Cristiano Zanin, por prevenção (RISTF, art. 69), por já ter julgado a TPA 81, pedido anterior da coligação de Paes negado em 08/10. Não houve sorteio.",
-   "fonte": "Portal do STF",
-   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
-  },
-  {
-   "data": "15/10/2026",
-   "titulo": "Petição de amicus curiae",
-   "texto": "Protocolada petição de amicus curiae (nº 130134) às 13:41. Relator ainda não sorteado; liminar sem decisão.",
-   "fonte": "Portal do STF",
-   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
-  },
-  {
-   "data": "14/10/2026",
-   "titulo": "STF divulga a ação",
-   "texto": "Nota oficial do STF (20h15) informa o ajuizamento da ADPF 1362 pelo PSD e resume a tese: votos de Garotinho devem contar na base da maioria absoluta. Relator ainda não sorteado.",
-   "fonte": "Notícias STF",
-   "url": "https://noticias.stf.jus.br/postsnoticias/psd-pede-ao-stf-realizacao-de-segundo-turno-para-governador-do-rio-de-janeiro/"
-  },
-  {
-   "data": "14/10/2026",
-   "titulo": "Autuado",
-   "texto": "Processo autuado como ADPF 1362. Número único 0187813-76.2026.1.00.0000. Ainda não distribuída.",
-   "fonte": "Portal do STF",
-   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
-  },
-  {
-   "data": "14/10/2026",
-   "titulo": "Protocolado",
-   "texto": "Petição Inicial nº 129695, protocolada em 14/10/2026 às 16:20. Requerente: PSD Diretório Nacional. Advogado: Thiago Fernandes Boverio (OAB 22432/DF). Interessado: TSE.",
-   "fonte": "Portal do STF",
-   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
-  },
-  {
-   "data": "14/10/2026",
-   "titulo": "PSD protocola ADPF no STF",
-   "texto": "Pede suspensão da decisão do TSE e da retotalização e 2º turno Ruas x Paes em 25/10. Relator ainda não sorteado.",
-   "fonte": "g1",
-   "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/14/psd-entra-com-recurso-no-stf-para-restabelecer-segundo-turno-da-eleicao-para-governador-do-rio.ghtml"
-  }
- ],
- "contexto": [
-  {
-   "data": "10/10/2026",
-   "titulo": "TRE-RJ retotaliza os votos",
-   "texto": "Ruas é declarado eleito com 50,88% dos votos válidos.",
-   "fonte": "O Globo",
-   "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/14/partido-de-paes-faz-novo-pedido-ao-stf-para-anular-eleicao-de-douglas-ruas-e-realizar-segundo-turno-ao-governo-do-rio.ghtml"
-  },
-  {
-   "data": "08/10/2026",
-   "titulo": "Zanin nega TPA 81",
-   "texto": "Ministro nega pedido da coligação de Paes; Paes desiste publicamente.",
-   "fonte": "STF",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
-  },
-  {
-   "data": "08/10/2026",
-   "titulo": "TSE anula votos de Garotinho",
-   "texto": "Decisão por 5 a 2.",
-   "fonte": "STF",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
-  },
-  {
-   "data": "1º turno",
-   "titulo": "Resultado para governador do RJ",
-   "texto": "Ruas 4.271.199 (49,27%) · Paes 3.706.984 (42,76%) · Garotinho 274.411 votos, com registro indeferido.",
-   "fonte": "Folha",
-   "url": "https://www1.folha.uol.com.br/poder/2026/10/eduardo-paes-abre-nova-frente-no-stf-para-tentar-realizacao-de-2o-turno-no-rj.shtml"
-  }
- ],
- "fontes": [
-  {
-   "nome": "Portal do STF – ADPF 1362",
-   "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
-  },
-  {
-   "nome": "Notícias STF – PSD pede 2º turno no RJ (ADPF 1362)",
-   "url": "https://noticias.stf.jus.br/postsnoticias/psd-pede-ao-stf-realizacao-de-segundo-turno-para-governador-do-rio-de-janeiro/"
-  },
-  {
-   "nome": "g1 – PSD entra com recurso no STF",
-   "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/14/psd-entra-com-recurso-no-stf-para-restabelecer-segundo-turno-da-eleicao-para-governador-do-rio.ghtml"
-  },
-  {
-   "nome": "O Globo – Partido de Paes faz novo pedido ao STF",
-   "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/14/partido-de-paes-faz-novo-pedido-ao-stf-para-anular-eleicao-de-douglas-ruas-e-realizar-segundo-turno-ao-governo-do-rio.ghtml"
-  },
-  {
-   "nome": "Folha – Paes abre nova frente no STF",
-   "url": "https://www1.folha.uol.com.br/poder/2026/10/eduardo-paes-abre-nova-frente-no-stf-para-tentar-realizacao-de-2o-turno-no-rj.shtml"
-  },
-  {
-   "nome": "STF – Rejeita pedido de coligação (TPA 81)",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
-  }
- ],
- "stf_url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240",
- "stf_incidente": 7724240,
- "stf_nota": "ADPF 1362"
+  "andamentos": [
+    {
+      "data": "16/10/2026",
+      "titulo": "Nova petição de amicus curiae",
+      "texto": "Protocolada nova petição de amicus curiae (nº 131051) às 20:58. Processo segue concluso ao Min. Cristiano Zanin; liminar ainda sem decisão.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "data": "16/10/2026",
+      "titulo": "Conclusos ao relator",
+      "texto": "Processo encaminhado ao gabinete do Min. Cristiano Zanin para análise. Liminar ainda sem decisão.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "data": "16/10/2026",
+      "titulo": "Distribuído por prevenção a Zanin",
+      "texto": "Relator: Min. Cristiano Zanin, por prevenção (RISTF, art. 69), por já ter julgado a TPA 81, pedido anterior da coligação de Paes negado em 08/10. Não houve sorteio.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "data": "15/10/2026",
+      "titulo": "Petição de amicus curiae",
+      "texto": "Protocolada petição de amicus curiae (nº 130134) às 13:41. Relator ainda não sorteado; liminar sem decisão.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "data": "14/10/2026",
+      "titulo": "STF divulga a ação",
+      "texto": "Nota oficial do STF (20h15) informa o ajuizamento da ADPF 1362 pelo PSD e resume a tese: votos de Garotinho devem contar na base da maioria absoluta. Relator ainda não sorteado.",
+      "fonte": "Notícias STF",
+      "url": "https://noticias.stf.jus.br/postsnoticias/psd-pede-ao-stf-realizacao-de-segundo-turno-para-governador-do-rio-de-janeiro/"
+    },
+    {
+      "data": "14/10/2026",
+      "titulo": "Autuado",
+      "texto": "Processo autuado como ADPF 1362. Número único 0187813-76.2026.1.00.0000. Ainda não distribuída.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "data": "14/10/2026",
+      "titulo": "Protocolado",
+      "texto": "Petição Inicial nº 129695, protocolada em 14/10/2026 às 16:20. Requerente: PSD Diretório Nacional. Advogado: Thiago Fernandes Boverio (OAB 22432/DF). Interessado: TSE.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "data": "14/10/2026",
+      "titulo": "PSD protocola ADPF no STF",
+      "texto": "Pede suspensão da decisão do TSE e da retotalização e 2º turno Ruas x Paes em 25/10. Relator ainda não sorteado.",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/14/psd-entra-com-recurso-no-stf-para-restabelecer-segundo-turno-da-eleicao-para-governador-do-rio.ghtml"
+    }
+  ],
+  "contexto": [
+    {
+      "data": "10/10/2026",
+      "titulo": "TRE-RJ retotaliza os votos",
+      "texto": "Ruas é declarado eleito com 50,88% dos votos válidos.",
+      "fonte": "O Globo",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/14/partido-de-paes-faz-novo-pedido-ao-stf-para-anular-eleicao-de-douglas-ruas-e-realizar-segundo-turno-ao-governo-do-rio.ghtml"
+    },
+    {
+      "data": "08/10/2026",
+      "titulo": "Zanin nega TPA 81",
+      "texto": "Ministro nega pedido da coligação de Paes; Paes desiste publicamente.",
+      "fonte": "STF",
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
+    },
+    {
+      "data": "08/10/2026",
+      "titulo": "TSE anula votos de Garotinho",
+      "texto": "Decisão por 5 a 2.",
+      "fonte": "STF",
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
+    },
+    {
+      "data": "1º turno",
+      "titulo": "Resultado para governador do RJ",
+      "texto": "Ruas 4.271.199 (49,27%) · Paes 3.706.984 (42,76%) · Garotinho 274.411 votos, com registro indeferido.",
+      "fonte": "Folha",
+      "url": "https://www1.folha.uol.com.br/poder/2026/10/eduardo-paes-abre-nova-frente-no-stf-para-tentar-realizacao-de-2o-turno-no-rj.shtml"
+    }
+  ],
+  "fontes": [
+    {
+      "nome": "Portal do STF – ADPF 1362",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "nome": "Notícias STF – PSD pede 2º turno no RJ (ADPF 1362)",
+      "url": "https://noticias.stf.jus.br/postsnoticias/psd-pede-ao-stf-realizacao-de-segundo-turno-para-governador-do-rio-de-janeiro/"
+    },
+    {
+      "nome": "g1 – PSD entra com recurso no STF",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/14/psd-entra-com-recurso-no-stf-para-restabelecer-segundo-turno-da-eleicao-para-governador-do-rio.ghtml"
+    },
+    {
+      "nome": "O Globo – Partido de Paes faz novo pedido ao STF",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/14/partido-de-paes-faz-novo-pedido-ao-stf-para-anular-eleicao-de-douglas-ruas-e-realizar-segundo-turno-ao-governo-do-rio.ghtml"
+    },
+    {
+      "nome": "Folha – Paes abre nova frente no STF",
+      "url": "https://www1.folha.uol.com.br/poder/2026/10/eduardo-paes-abre-nova-frente-no-stf-para-tentar-realizacao-de-2o-turno-no-rj.shtml"
+    },
+    {
+      "nome": "STF – Rejeita pedido de coligação (TPA 81)",
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-de-coligacao-e-mantem-decisao-do-tse-que-invalidou-votos-de-anthony-garotinho-no-rj/"
+    }
+  ],
+  "stf_url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240",
+  "stf_incidente": 7724240,
+  "stf_nota": "ADPF 1362"
 }
