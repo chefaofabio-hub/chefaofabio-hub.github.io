@@ -1,38 +1,31 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
-  "data": "2026-10-16",
-  "titulo": "Agenda de hoje · sexta, 16/10",
-  "atualizado": "16/10/2026, 10h50",
+  "data": "2026-10-17",
+  "titulo": "Agenda de amanhã · sábado, 17/10",
+  "atualizado": "16/10/2026, 21h40",
   "flavio": [
     {
-      "hora": "21h15",
-      "local": "Estúdios Globo, Rio de Janeiro (RJ)",
-      "descricao": "Sabatina ao vivo com Renata Lo Prete na TV Globo, após o Jornal Nacional, com transmissão pela GloboNews e pelo g1.",
-      "fonte": "https://g1.globo.com/jornal-nacional/ao-vivo/flavio-bolsonaro-entrevista-candidatos-presidente-segundo-turno.ghtml",
-      "fonte_nome": "g1"
+      "hora": "9h (concentração)",
+      "local": "Praia de Camburi, perto do Píer de Iemanjá (K1), Jardim da Penha, Vitória (ES)",
+      "descricao": "Ato \"Bloquinho 22\" em apoio a Lorenzo Pazolini (Republicanos) ao governo do ES, com Tarcísio de Freitas, Nikolas Ferreira e Marcos Pereira. Trajeto não divulgado por segurança; permanência prevista de cerca de 2 horas.",
+      "fonte": "https://www.folhavitoria.com.br/eleicoes/flavio-bolsonaro-nikolas-ferreira-e-tarcisio-de-freitas-vem-a-vitoria-para-evento-com-pazolini/",
+      "fonte_nome": "Folha Vitória"
+    },
+    {
+      "hora": "15h (comício às 15h22)",
+      "local": "Morro do Cristo, Av. Oceânica, Barra, até o Farol da Barra, Salvador (BA)",
+      "descricao": "\"Bloquinho do 22\" com caminhada do Morro do Cristo até o Farol da Barra e comício, com ACM Neto, João Roma, Nikolas Ferreira e Bruno Reis.",
+      "fonte": "https://www.cbnsalvadoroficial.com.br/noticia/flavio-bolsonaro-acm-neto-nikolas-comicio-farol-barra",
+      "fonte_nome": "CBN Salvador"
     }
   ],
   "lula": [
     {
-      "hora": "9h20",
-      "local": "Plenário do Senado Federal, Brasília (DF)",
-      "descricao": "Cerimônia de promulgação das PECs do fim da escala 6x1 e da aposentadoria diferenciada de agentes.",
-      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-sexta-16-10",
+      "hora": "Dia todo",
+      "local": "Brasília (DF)",
+      "descricao": "Sem agenda pública. Fica em Brasília no fim de semana com auxiliares se preparando para o debate da Band de domingo (18/10), em São Paulo; não deve ir aos atos da campanha nas periferias de SP.",
+      "fonte": "https://www.metropoles.com/colunas/igor-gadelha/lula-fica-em-brasilia-no-fim-de-semana-se-preparando-para-debate-da-band",
       "fonte_nome": "Metrópoles"
-    },
-    {
-      "hora": "10h (ato às 12h)",
-      "local": "Praça Clodesmidt Riani, Centro, Juiz de Fora (MG)",
-      "descricao": "Caminhada de campanha na Zona da Mata: concentração às 10h, ato a partir das 12h pela Av. Getúlio Vargas até a Praça Tarcísio Delgado, com a prefeita Margarida Salomão.",
-      "fonte": "https://www.hojeemdia.com.br/politica/capelinha-juiz-de-fora-e-ipatinga-lula-e-flavio-bolsonaro-miram-regi-es-estrategicas-em-minas-1.1136905",
-      "fonte_nome": "Hoje em Dia"
-    },
-    {
-      "hora": "15h (ato às 17h)",
-      "local": "Av. Selim José de Sales esquina com Rua Siquém, bairro Canaã, Ipatinga (MG)",
-      "descricao": "Caminhada de campanha no Vale do Aço: concentração às 15h e ato às 17h.",
-      "fonte": "https://dcomercio.com.br/publicacao/s/agenda-dos-presidenciaveis-sexta-feira-16-10",
-      "fonte_nome": "Diário do Comércio"
     }
   ]
 }
