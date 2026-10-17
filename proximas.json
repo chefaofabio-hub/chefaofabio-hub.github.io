@@ -243,6 +243,39 @@
       "campo": "19 a 21/10",
       "entrevistas": 4000,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
+      "instituto": "Ipespe",
+      "data": "2026-10-23",
+      "status": "confirmada",
+      "obs": "Campo 20 a 22/10 · 1.500 entrevistas",
+      "registro": "BR-04350/2026",
+      "contratante": null,
+      "campo": "20 a 22/10",
+      "entrevistas": 1500,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
+      "instituto": "Real Time Big Data",
+      "data": "2026-10-23",
+      "status": "confirmada",
+      "obs": "Campo 19 a 22/10 · 2.000 entrevistas",
+      "registro": "BR-09670/2026",
+      "contratante": null,
+      "campo": "19 a 22/10",
+      "entrevistas": 2000,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
+      "instituto": "Vox Brasil",
+      "data": "2026-10-23",
+      "status": "confirmada",
+      "obs": "Campo 20 a 22/10 · 2.100 entrevistas",
+      "registro": "BR-03259/2026",
+      "contratante": null,
+      "campo": "20 a 22/10",
+      "entrevistas": 2100,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     }
   ]
 }
