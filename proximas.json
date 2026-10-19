@@ -1,27 +1,16 @@
 {
-  "atualizado": "17/10/2026",
+  "atualizado": "19/10/2026",
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
       "instituto": "Phoenix",
       "data": "2026-10-18",
-      "status": "confirmada",
-      "obs": "Campo 13 a 16/10 · 3.999 entrevistas · Correio Continental (RO)",
+      "status": "a confirmar",
+      "obs": "Campo 13 a 16/10 · 3.999 entrevistas · Correio Continental (RO) · liberada desde 18/10, resultado ainda não divulgado",
       "registro": "BR-08809/2026",
       "contratante": "Correio Continental (RO)",
       "campo": "13 a 16/10",
       "entrevistas": 3999,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "Vox Brasil",
-      "data": "2026-10-18",
-      "status": "confirmada",
-      "obs": "Campo 15 a 17/10 · 2.100 entrevistas",
-      "registro": "BR-04332/2026",
-      "contratante": null,
-      "campo": "15 a 17/10",
-      "entrevistas": 2100,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
