@@ -491,12 +491,86 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "BTG/Nexus",
+      "contratante": "Banco BTG Pactual",
+      "divulgacao": "2026-10-19",
+      "campo_inicio": "2026-10-16",
+      "campo": "16 a 18/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-04499/2026",
+      "entrevistas": 2002,
+      "base": "validos",
+      "flavio": 50.3,
+      "lula": 49.7,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2",
+      "obs": "Votos válidos. Votos totais (estimulada): Flávio 46,5%, Lula 45,9%, nenhum/branco/nulo 4,7%, não sabem 2,9%. Empate técnico. Rejeição: Lula 47,8%, Flávio 46,8%. Governo Lula: 47,2% aprovam, 48,8% desaprovam.",
+      "fonte": "https://timesbrasil.com.br/eleicoes-2026/pesquisa-btg-nexus-empate-tecnico-flavio-bolsonaro-lula-segundo-turno/",
+      "aprovacao": 47.2,
+      "desaprovacao": 48.8,
+      "aprovacao_fonte": "https://www.poder360.com.br/poder-pesquisas-hoje/"
+    },
+    {
+      "instituto": "AtlasIntel",
+      "contratante": "Bloomberg",
+      "divulgacao": "2026-10-19",
+      "campo_inicio": "2026-10-13",
+      "campo": "13 a 18/10/2026 (depois do 1º turno), online (RDR)",
+      "registro": "BR-02418/2026",
+      "entrevistas": 4998,
+      "base": "validos",
+      "flavio": 51.1,
+      "lula": 48.9,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1",
+      "obs": "Votos válidos. Votos totais: Flávio 49,8%, Lula 47,6%, branco/nulo/não sabe 2,6%. Rejeição não divulgada nas reportagens. Governo Lula: 46,2% aprovam, 52,3% desaprovam.",
+      "fonte": "https://www.congressoemfoco.com.br/noticia/123359/atlasintel-vantagem-de-flavio-cai-de-5-4-para-2-2-pontos-em-10-dias",
+      "aprovacao": 46.2,
+      "desaprovacao": 52.3,
+      "aprovacao_fonte": "https://veja.abril.com.br/politica/a-nova-pesquisa-atlasintel-sobre-a-disputa-entre-lula-e-flavio-a-uma-semana-do-2-turno/"
+    },
+    {
+      "instituto": "PoderData",
+      "contratante": "Recursos próprios (parceria de divulgação Aya)",
+      "divulgacao": "2026-10-19",
+      "campo_inicio": "2026-10-16",
+      "campo": "16 a 18/10/2026 (depois do 1º turno), por telefone (URA)",
+      "registro": "BR-02586/2026",
+      "entrevistas": 3000,
+      "base": "validos",
+      "flavio": 52,
+      "lula": 48,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1,8",
+      "obs": "Números divulgados em votos válidos. Votos totais: Flávio 49%, Lula 46%, brancos/nulos 4%, não sabem 2%. 695 municípios. Rejeição (não votaria de jeito nenhum): Lula 48%, Flávio 44%. Desempenho de Lula: 44% aprovam, 50% desaprovam.",
+      "fonte": "https://exame.com/brasil/flavio-bolsonaro-volta-a-abrir-vantagem-sobre-lula-e-marca-52-a-48-diz-poderdata-aya/",
+      "aprovacao": 44,
+      "desaprovacao": 50,
+      "aprovacao_fonte": "https://exame.com/brasil/flavio-bolsonaro-volta-a-abrir-vantagem-sobre-lula-e-marca-52-a-48-diz-poderdata-aya/"
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
-    "fora": "DataTrends 11/10 e AtlasIntel 09/10 não divulgaram rejeição",
+    "fora": "AtlasIntel 19/10 e DataTrends 11/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "PoderData/Aya",
+        "data": "19/10",
+        "flavio": 44,
+        "lula": 48,
+        "fonte": "PoderData/Aya · campo 16–18/10 · BR-02586/2026 (Exame) · não votaria de jeito nenhum"
+      },
+      {
+        "instituto": "BTG/Nexus",
+        "data": "19/10",
+        "flavio": 46.8,
+        "lula": 47.8,
+        "fonte": "BTG/Nexus · campo 16–18/10 · BR-04499/2026 (Poder360)"
+      },
       {
         "instituto": "Vox Brasil",
         "data": "18/10",
@@ -552,20 +626,6 @@
         "flavio": 54,
         "lula": 53,
         "fonte": "Quaest · campo 10–13/10 · BR-08729/2026 (g1)"
-      },
-      {
-        "instituto": "PoderData/Aya",
-        "data": "16/10",
-        "flavio": 45,
-        "lula": 46,
-        "fonte": "PoderData/Aya · campo 13–15/10 · BR-04258/2026 (CNN Brasil)"
-      },
-      {
-        "instituto": "BTG/Nexus",
-        "data": "13/10",
-        "flavio": 47,
-        "lula": 51,
-        "fonte": "BTG/Nexus · campo 10–12/10 · BR-07997/2026 (Poder360/CNN)"
       },
       {
         "instituto": "Gerp",
@@ -733,6 +793,33 @@
         "desaprova": 48,
         "registro": "BR-00223/2026",
         "fonte": "https://www.cnnbrasil.com.br/politica/ipespe-48-desaprovam-governo-lula-45-aprovam/"
+      },
+      {
+        "data": "2026-10-19",
+        "instituto": "BTG/Nexus",
+        "campo": "16 a 18/10",
+        "aprova": 47.2,
+        "desaprova": 48.8,
+        "registro": "BR-04499/2026",
+        "fonte": "https://www.poder360.com.br/poder-pesquisas-hoje/"
+      },
+      {
+        "data": "2026-10-19",
+        "instituto": "AtlasIntel",
+        "campo": "13 a 18/10",
+        "aprova": 46.2,
+        "desaprova": 52.3,
+        "registro": "BR-02418/2026",
+        "fonte": "https://veja.abril.com.br/politica/a-nova-pesquisa-atlasintel-sobre-a-disputa-entre-lula-e-flavio-a-uma-semana-do-2-turno/"
+      },
+      {
+        "data": "2026-10-19",
+        "instituto": "PoderData",
+        "campo": "16 a 18/10",
+        "aprova": 44,
+        "desaprova": 50,
+        "registro": "BR-02586/2026",
+        "fonte": "https://exame.com/brasil/flavio-bolsonaro-volta-a-abrir-vantagem-sobre-lula-e-marca-52-a-48-diz-poderdata-aya/"
       }
     ]
   },

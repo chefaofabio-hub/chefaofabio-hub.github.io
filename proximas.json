@@ -25,28 +25,6 @@
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
-      "instituto": "AtlasIntel/Bloomberg",
-      "data": "2026-10-19",
-      "status": "confirmada",
-      "obs": "Campo 13 a 18/10 · 5.000 entrevistas",
-      "registro": "BR-02418/2026",
-      "contratante": "a própria (ficha TSE); Bloomberg não confirmada",
-      "campo": "13 a 18/10",
-      "entrevistas": 5000,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "BTG/Nexus",
-      "data": "2026-10-19",
-      "status": "confirmada",
-      "obs": "Campo 16 a 18/10 · 2.000 entrevistas · BTG Pactual",
-      "registro": "BR-04499/2026",
-      "contratante": "BTG Pactual",
-      "campo": "16 a 18/10",
-      "entrevistas": 2000,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "DataTrends",
       "data": "2026-10-19",
       "status": "confirmada",
@@ -55,17 +33,6 @@
       "contratante": null,
       "campo": "15 a 17/10",
       "entrevistas": 2000,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "PoderData/Aya",
-      "data": "2026-10-19",
-      "status": "confirmada",
-      "obs": "Campo 16 a 18/10 · 3.000 entrevistas",
-      "registro": "BR-02586/2026",
-      "contratante": null,
-      "campo": "16 a 18/10",
-      "entrevistas": 3000,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
