@@ -551,12 +551,59 @@
       "aprovacao": 44,
       "desaprovacao": 50,
       "aprovacao_fonte": "https://exame.com/brasil/flavio-bolsonaro-volta-a-abrir-vantagem-sobre-lula-e-marca-52-a-48-diz-poderdata-aya/"
+    },
+    {
+      "instituto": "DataTrends",
+      "contratante": "Recursos próprios (Instituto DataTrends)",
+      "divulgacao": "2026-10-19",
+      "campo_inicio": "2026-10-15",
+      "campo": "15 a 17/10/2026 (depois do 1º turno), por telefone (URA)",
+      "registro": "BR-04454/2026",
+      "entrevistas": 2000,
+      "base": "validos",
+      "flavio": 51.5,
+      "lula": 48.5,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,19",
+      "obs": "Votos válidos divulgados pelo instituto. Votos totais: Flávio 49%, Lula 46%, brancos/nulos 4%, não sabe 1%. Rejeição não divulgada. Governo Lula: 46% aprovam, 52% desaprovam.",
+      "fonte": "https://informebaiano.com.br/546240/politica/flavio-bolsonaro-tem-515-dos-votos-validos-contra-485-de-lula-diz-datatrends",
+      "aprovacao": 46,
+      "desaprovacao": 52,
+      "aprovacao_fonte": "https://informebaiano.com.br/546240/politica/flavio-bolsonaro-tem-515-dos-votos-validos-contra-485-de-lula-diz-datatrends"
+    },
+    {
+      "instituto": "Futura Inteligência",
+      "contratante": "Futura Consultoria (recursos próprios); executada pela 100% Cidades",
+      "divulgacao": "2026-10-19",
+      "campo_inicio": "2026-10-16",
+      "campo": "16 a 17/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-06715/2026",
+      "entrevistas": 2000,
+      "base": "validos",
+      "flavio": 50.4,
+      "lula": 49.6,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,2",
+      "obs": "Votos válidos. Votos totais: Flávio 48,3%, Lula 47,5%, brancos/nulos 2,4%, não sabe 1,9%. Rejeição: Lula 47,4%, Flávio 45,8%. Aprovação do governo não divulgada.",
+      "fonte": "https://tmc.com.br/politica/pesquisa-futura-inteliencia-flavio-lidera-segundo-turno-lula/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
-    "fora": "AtlasIntel 19/10 e DataTrends 11/10 não divulgaram rejeição",
+    "fora": "AtlasIntel 19/10 e DataTrends 19/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Futura Inteligência",
+        "data": "19/10",
+        "flavio": 45.8,
+        "lula": 47.4,
+        "fonte": "Futura/100% Cidades · campo 16–17/10 · BR-06715/2026 (TMC)"
+      },
       {
         "instituto": "PoderData/Aya",
         "data": "19/10",
@@ -820,6 +867,15 @@
         "desaprova": 50,
         "registro": "BR-02586/2026",
         "fonte": "https://exame.com/brasil/flavio-bolsonaro-volta-a-abrir-vantagem-sobre-lula-e-marca-52-a-48-diz-poderdata-aya/"
+      },
+      {
+        "data": "2026-10-19",
+        "instituto": "DataTrends",
+        "campo": "15 a 17/10",
+        "aprova": 46,
+        "desaprova": 52,
+        "registro": "BR-04454/2026",
+        "fonte": "https://informebaiano.com.br/546240/politica/flavio-bolsonaro-tem-515-dos-votos-validos-contra-485-de-lula-diz-datatrends"
       }
     ]
   },
