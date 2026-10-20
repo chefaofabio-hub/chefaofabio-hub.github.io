@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-19",
+  "atualizado_em": "2026-10-20",
   "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh. Toda pesquisa nova deve ter 'aprovacao', 'desaprovacao' e 'aprovacao_fonte' (null se não mediu).",
   "inicio_2turno": "2026-10-05",
   "institutos": [
@@ -44,6 +44,12 @@
     },
     {
       "nome": "CNT/MDA"
+    },
+    {
+      "nome": "Ranking"
+    },
+    {
+      "nome": "Alfa Inteligência"
     }
   ],
   "pesquisas": [
@@ -591,12 +597,79 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Ranking",
+      "contratante": "Fonte83",
+      "divulgacao": "2026-10-20",
+      "campo_inicio": "2026-10-14",
+      "campo": "14 a 16/10/2026 (depois do 1º turno), entrevistas pessoais domiciliares",
+      "registro": "BR-00152/2026",
+      "entrevistas": 2100,
+      "base": "validos",
+      "flavio": 49.6,
+      "lula": 50.4,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,15",
+      "obs": "Votos válidos. Votos totais: Lula 45,4%, Flávio 44,6%, brancos/nulos/nenhum 6%, não sabe 4%. Rejeição e aprovação do governo não divulgadas.",
+      "fonte": "https://fonte83.com.br/politica/pesquisa-nacional-data-ranking-fonte83-lula-tem-504-e-flavio-496-dos-votos-validos-no-2o-turno/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Alfa Inteligência",
+      "contratante": "Alfa Inteligência (recursos próprios)",
+      "divulgacao": "2026-10-20",
+      "campo_inicio": "2026-10-15",
+      "campo": "15 a 19/10/2026 (depois do 1º turno), entrevistas pessoais",
+      "registro": "BR-00820/2026",
+      "entrevistas": 2700,
+      "base": "validos",
+      "flavio": 51.5,
+      "lula": 48.5,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1,9",
+      "obs": "Votos válidos. Votos totais: Flávio 48,8%, Lula 45,9%, brancos/nulos 3,5%, indecisos 1,8%. Rejeição: Lula 46%, Flávio 45%. Aprovação do governo: aprova 46%, desaprova 50%.",
+      "fonte": "https://exame.com/brasil/pesquisa-para-presidente-alfa-flavio-bolsonaro-tem-515-e-lula-485-no-2o-turno/",
+      "aprovacao": 46,
+      "desaprovacao": 50,
+      "aprovacao_fonte": "Alfa Inteligência 20/10 · BR-00820/2026 (Exame)"
+    },
+    {
+      "instituto": "Real Time Big Data",
+      "contratante": null,
+      "divulgacao": "2026-10-20",
+      "campo_inicio": "2026-10-15",
+      "campo": "15 a 19/10/2026 (depois do 1º turno)",
+      "registro": "BR-02952/2026",
+      "entrevistas": 2000,
+      "base": "validos",
+      "flavio": 51.6,
+      "lula": 48.4,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2",
+      "obs": "Votos válidos (calculados sobre Flávio+Lula; o instituto divulgou 52×48). Votos totais: Flávio 48%, Lula 45%, brancos/nulos 5%, não sabe 2%. Rejeição e aprovação do governo não incluídas aqui.",
+      "fonte": "https://veja.abril.com.br/politica/a-nova-pesquisa-real-time-big-data-sobre-a-disputa-flavio-x-lula-a-cinco-dias-do-segundo-turno/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
     "fora": "AtlasIntel 19/10 e DataTrends 19/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Alfa Inteligência",
+        "data": "20/10",
+        "flavio": 45,
+        "lula": 46,
+        "fonte": "Alfa Inteligência · campo 15–19/10 · BR-00820/2026 (Exame)"
+      },
       {
         "instituto": "Futura Inteligência",
         "data": "19/10",

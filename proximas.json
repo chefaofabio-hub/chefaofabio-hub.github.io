@@ -1,5 +1,5 @@
 {
-  "atualizado": "19/10/2026",
+  "atualizado": "20/10/2026",
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
@@ -14,28 +14,6 @@
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
-      "instituto": "Ranking",
-      "data": "2026-10-19",
-      "status": "confirmada",
-      "obs": "Campo 14 a 16/10 · 2.100 entrevistas · Fonte 83 · liberada pelo TSE para 19/10, resultado ainda não divulgado",
-      "registro": "BR-00152/2026",
-      "contratante": "Fonte 83",
-      "campo": "14 a 16/10",
-      "entrevistas": 2100,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "Alfa Inteligência",
-      "data": "2026-10-20",
-      "status": "confirmada",
-      "obs": "Campo 15 a 19/10 · 2.700 entrevistas",
-      "registro": "BR-00820/2026",
-      "contratante": null,
-      "campo": "15 a 19/10",
-      "entrevistas": 2700,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "Instituto França",
       "data": "2026-10-20",
       "status": "confirmada",
@@ -44,17 +22,6 @@
       "contratante": null,
       "campo": "16 a 20/10",
       "entrevistas": 3000,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "Real Time Big Data",
-      "data": "2026-10-20",
-      "status": "confirmada",
-      "obs": "Campo 15 a 19/10 · 2.000 entrevistas",
-      "registro": "BR-02952/2026",
-      "contratante": null,
-      "campo": "15 a 19/10",
-      "entrevistas": 2000,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {

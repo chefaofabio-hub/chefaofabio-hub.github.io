@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "19/10/2026 04:30",
+  "atualizado_em": "20/10/2026 11:20",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
     "numero_adpf": "ADPF 1362",
-    "situacao": "Distribuída por prevenção ao Min. Cristiano Zanin em 16/10; conclusa ao relator. Sem andamento novo até 19/10, 4h30 (última: petição de amicus curiae, 16/10 às 20:58)"
+    "situacao": "Zanin pediu informações ao TSE (prazo de 5 dias), depois AGU e PGR; despacho publicado no DJE em 20/10. Liminar sem decisão até 20/10, 11h20."
   },
   "data_alvo": "2026-10-25T08:00:00-03:00",
   "processo": {
@@ -73,6 +73,34 @@
     }
   ],
   "andamentos": [
+    {
+      "data": "20/10/2026",
+      "titulo": "Despacho publicado no DJE",
+      "texto": "Publicação no DJE do despacho do Min. Zanin (divulgado em 19/10). Liminar ainda sem decisão.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "data": "19/10/2026",
+      "titulo": "Nova petição de amicus curiae",
+      "texto": "Protocolada petição de amicus curiae nº 131510 às 20:09.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "data": "19/10/2026",
+      "titulo": "Ofício enviado ao TSE",
+      "texto": "Certidão: decisão com força de ofício-mandado (16/10) e cópia da inicial enviadas ao Presidente do TSE por e-mail.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
+    {
+      "data": "19/10/2026",
+      "titulo": "Zanin pede informações ao TSE",
+      "texto": "Despacho de 16/10 (registrado em 19/10): Zanin adota o rito do art. 5º da Lei 9.882/99, pede informações ao TSE em 5 dias e depois manifestação da AGU e da PGR. Não decide liminar nem mérito.",
+      "fonte": "Portal do STF / ConJur / CBN",
+      "url": "https://conjur.com.br/2026-out-19/zanin-pede-informacoes-ao-tse-sobre-acao-por-2o-turno-no-rio/"
+    },
     {
       "data": "16/10/2026",
       "titulo": "Nova petição de amicus curiae",
