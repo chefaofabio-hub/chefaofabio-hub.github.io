@@ -1,30 +1,30 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
-  "data": "2026-10-19",
-  "titulo": "Agenda de hoje · segunda, 19/10",
-  "atualizado": "19/10/2026, 4h30",
+  "data": "2026-10-20",
+  "titulo": "Agenda de hoje · terça, 20/10",
+  "atualizado": "20/10/2026, 13h55",
   "flavio": [
     {
-      "hora": "11h",
-      "local": "Marabá (PA) – concentração na Av. Antônio Vilhena, 26, Cidade Nova; dispersão na Folha 16, Nova Marabá",
-      "descricao": "Motocarreata.",
-      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-segunda-19-10",
-      "fonte_nome": "Metrópoles"
-    },
-    {
-      "hora": "20h (19h local)",
-      "local": "Complexo turístico da Ponta Negra, Manaus (AM)",
-      "descricao": "\"Bloco do 22\".",
-      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-segunda-19-10",
-      "fonte_nome": "Metrópoles"
+      "hora": "Dia todo",
+      "local": "São Paulo (SP) e Goiânia (GO)",
+      "descricao": "Sem agenda pública. Gravações para a campanha.",
+      "fonte": "https://www.cnnbrasil.com.br/eleicoes/sem-agendas-publicas-flavio-tera-terca-dedicada-a-gravacoes-de-campanha/",
+      "fonte_nome": "CNN Brasil"
     }
   ],
   "lula": [
     {
+      "hora": "Manhã",
+      "local": "São Luís (MA)",
+      "descricao": "Caminhada \"Brasil Pronto pra Mais\".",
+      "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-terca-feira-20",
+      "fonte_nome": "Agência Brasil"
+    },
+    {
       "hora": "16h",
-      "local": "Largo dos Açorianos, Centro Histórico, Porto Alegre (RS)",
-      "descricao": "Ato de campanha.",
-      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-segunda-19-10",
+      "local": "Juazeiro (BA) e Petrolina (PE)",
+      "descricao": "Caminhada \"Brasil Pronto pra Mais\".",
+      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-terca-20-10",
       "fonte_nome": "Metrópoles"
     }
   ]
