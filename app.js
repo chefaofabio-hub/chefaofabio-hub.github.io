@@ -438,17 +438,6 @@ function mediaAte(ps) {    // média simples da pesquisa MAIS RECENTE de cada in
   const l = [...ult.values()]; const f = l.reduce((s, p) => s + valF(p), 0) / l.length;
   return {f, l: 100 - f, n: l.length};
 }
-
-function blocoTodas(ps, m) { // uma linha por pesquisa usada na média (última de cada instituto)
-  const ult = new Map();
-  for (const p of ps) { const k = chaveInst(p.instituto); const o = ult.get(k); if (!o || p.divulgacao >= o.divulgacao) ult.set(k, p); }
-  const l = [...ult.values()].sort((a, b) => b.divulgacao.localeCompare(a.divulgacao) || a.instituto.localeCompare(b.instituto));
-  const linha = (nome, f, dest) => `<div class="tp-lin${dest ? " tp-med" : ""}"><div class="tp-nome">${nome}</div>
-    <div class="tp-bar"><span style="width:${f}%;background:var(--flavio)">${pp(f)}%</span><span style="width:${100 - f}%;background:var(--lula)">${pp(100 - f)}%</span></div></div>`;
-  return `<div class="pq-graf tp"><div class="pq-gcab"><span>Todas as pesquisas da média (${l.length})</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>
-    ${linha("<b>Média</b>", m.f, true)}${l.map(p => linha(`${esc(p.instituto)} <small>${dataBR(p.divulgacao).slice(0, 5)}</small>`, valF(p), false)).join("")}
-    <div class="pq-gnota">Votos válidos · última pesquisa de cada instituto, da mais recente para a mais antiga.</div></div>`;
-}
 function graficoMedia(serie) {
   const W = 320, H = 190, L = 30, R = 22, T = 22, B = 30, n = serie.length;
   const vals = serie.flatMap(s => [s.f, s.l]);
@@ -593,7 +582,6 @@ async function carregarAnalise() {
         ${barra("Flávio Bolsonaro", m.f, "az", "var(--flavio)")}${barra("Lula", m.l, "vm", "var(--lula)")}${lid}</div>
       <div class="pq-graf"><div class="pq-gcab"><span>Evolução da média</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>${graficoMedia(serie)}
         <div class="pq-gnota">${serie.length === 1 ? "A linha aparece quando sair pesquisa em outra data." : "Cada ponto é a média nas datas de divulgação."}</div></div>
-      ${blocoTodas(ps, m)}
       ${blocoGovMedia(ps)}
       ${blocoAprov(dados)}
       <div class="an-tt">Pesquisas incluídas (votos válidos)</div>
