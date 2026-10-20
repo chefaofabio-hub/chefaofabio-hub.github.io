@@ -50,6 +50,9 @@
     },
     {
       "nome": "Alfa Inteligência"
+    },
+    {
+      "nome": "Instituto França"
     }
   ],
   "pesquisas": [
@@ -654,6 +657,26 @@
       "margem": "2",
       "obs": "Votos válidos (calculados sobre Flávio+Lula; o instituto divulgou 52×48). Votos totais: Flávio 48%, Lula 45%, brancos/nulos 5%, não sabe 2%. Rejeição e aprovação do governo não incluídas aqui.",
       "fonte": "https://veja.abril.com.br/politica/a-nova-pesquisa-real-time-big-data-sobre-a-disputa-flavio-x-lula-a-cinco-dias-do-segundo-turno/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Instituto França",
+      "contratante": "Recursos próprios",
+      "divulgacao": "2026-10-20",
+      "campo_inicio": "2026-10-16",
+      "campo": "16 a 20/10/2026 (depois do 1º turno), por telefone, 27 UFs",
+      "registro": "BR-07896/2026",
+      "entrevistas": 3000,
+      "base": "validos",
+      "flavio": 50.8,
+      "lula": 49.2,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1,8",
+      "obs": "Votos válidos. Votos totais: Flávio 40,95%, Lula 39,65%, branco/nulo/nenhum 10,56%, não sabe 8,84%. Rejeição e aprovação do governo não divulgadas.",
+      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-508-contra-492-de-lula-em-votos-validos-diz-pesquisa/",
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
