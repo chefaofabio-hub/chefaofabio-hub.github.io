@@ -450,17 +450,22 @@ function graficoMedia(serie) {
   for (let y = Math.ceil(y0 / passo) * passo; y <= y1; y += passo)
     s += `<line x1="${L}" x2="${W - 6}" y1="${Y(y)}" y2="${Y(y)}" stroke="#e6eaf2"/><text x="${L - 5}" y="${Y(y) + 3.5}" font-size="10" text-anchor="end" fill="#5f697d" font-weight="600">${y}%</text>`;
   if (y0 < 50 && y1 > 50) s += `<line x1="${L}" x2="${W - 6}" y1="${Y(50)}" y2="${Y(50)}" stroke="#9aa3b5" stroke-dasharray="4 3"/>`;
-  serie.forEach((p, i) => s += `<text x="${X(i)}" y="${H - 10}" font-size="11" text-anchor="middle" fill="#141c2d" font-weight="700">${dataBR(p.d).slice(0, 5)}</text>`);
   const linha = (k, cor) => n > 1 ? `<polyline points="${serie.map((p, i) => X(i) + "," + Y(p[k])).join(" ")}" fill="none" stroke="${cor}" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>` : "";
   s += linha("f", "#1f4fa8") + linha("l", "#c8102e");
+  // rótulos: só em pontos espaçados (sem colisão horizontal); sempre o último e o primeiro se couber
+  const fsR = n > 8 ? 10 : n > 5 ? 11 : 12, larg = fsR * 0.62 * 5 + 6;
+  const mostra = new Set(); let ultX = Infinity;
+  for (let i = n - 1; i >= 0; i--) { if (i === n - 1 || ultX - X(i) >= larg * ((i === 0 || ultX === X(n - 1)) ? 1.5 : 1)) { mostra.add(i); ultX = X(i); } }
+  serie.forEach((p, i) => { if (mostra.has(i)) s += `<text x="${X(i)}" y="${H - 10}" font-size="${fsR}" text-anchor="${n > 1 && i === 0 ? "start" : n > 1 && i === n - 1 ? "end" : "middle"}" fill="#141c2d" font-weight="700">${dataBR(p.d).slice(0, 5)}</text>`; });
   serie.forEach((p, i) => {
     const fCima = p.f >= p.l;
+    if (!mostra.has(i)) { for (const [k, cor] of [["f", "#1f4fa8"], ["l", "#c8102e"]]) s += `<circle cx="${X(i)}" cy="${Y(p[k])}" r="3" fill="#fff" stroke="${cor}" stroke-width="2.2"/>`; return; }
     for (const [k, cor, cima] of [["f", "#1f4fa8", fCima], ["l", "#c8102e", !fCima]]) {
       const x = X(i), y = Y(p[k]);
       const anc = n > 1 && i === 0 ? "start" : n > 1 && i === n - 1 ? "end" : "middle";
       const dx = anc === "start" ? -4 : anc === "end" ? 4 : 0;
       s += `<circle cx="${x}" cy="${y}" r="4.2" fill="#fff" stroke="${cor}" stroke-width="2.8"/>`;
-      s += `<text x="${x + dx}" y="${cima ? y - 9 : y + 17}" font-size="12" font-weight="900" text-anchor="${anc}" fill="${cor}">${pp(p[k])}%</text>`;
+      s += `<text x="${x + dx}" y="${cima ? y - 8 : y + 4 + fsR}" font-size="${fsR}" paint-order="stroke" stroke="#fff" stroke-width="3" font-weight="900" text-anchor="${anc}" fill="${cor}">${pp(p[k])}%</text>`;
     }
   });
   return s + `</svg>`;
