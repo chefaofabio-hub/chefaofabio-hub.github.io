@@ -1,5 +1,5 @@
 {
-  "atualizado": "20/10/2026",
+  "atualizado": "21/10/2026",
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
@@ -14,17 +14,6 @@
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
-      "instituto": "Veritá",
-      "data": "2026-10-20",
-      "status": "confirmada",
-      "obs": "Campo 15 a 19/10 · 15.554 entrevistas",
-      "registro": "BR-06396/2026",
-      "contratante": null,
-      "campo": "15 a 19/10",
-      "entrevistas": 15554,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "Vetor Arrow",
       "data": "2026-10-20",
       "status": "confirmada",
@@ -33,17 +22,6 @@
       "contratante": null,
       "campo": "22 a 23/10 (conforme ficha)",
       "entrevistas": 3000,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "100% Cidades/Futura",
-      "data": "2026-10-21",
-      "status": "confirmada",
-      "obs": "Campo 19 a 20/10 · 2.000 entrevistas",
-      "registro": "BR-06614/2026",
-      "contratante": null,
-      "campo": "19 a 20/10",
-      "entrevistas": 2000,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
@@ -58,28 +36,6 @@
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
-      "instituto": "Meio/Ideia",
-      "data": "2026-10-21",
-      "status": "confirmada",
-      "obs": "Campo 15 a 19/10 · 1.500 entrevistas · Canal Meio",
-      "registro": "BR-08251/2026",
-      "contratante": "Canal Meio",
-      "campo": "15 a 19/10",
-      "entrevistas": 1500,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "Palver",
-      "data": "2026-10-21",
-      "status": "confirmada",
-      "obs": "Campo 16 a 20/10 · 5.000 entrevistas",
-      "registro": "BR-04612/2026",
-      "contratante": null,
-      "campo": "16 a 20/10",
-      "entrevistas": 5000,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "PoderData",
       "data": "2026-10-21",
       "status": "confirmada",
@@ -88,17 +44,6 @@
       "contratante": null,
       "campo": "19 a 21/10",
       "entrevistas": 4000,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "Quaest",
-      "data": "2026-10-21",
-      "status": "confirmada",
-      "obs": "Campo 17 a 20/10 · 2.154 entrevistas · Globo",
-      "registro": "BR-08535/2026",
-      "contratante": "Globo",
-      "campo": "17 a 20/10",
-      "entrevistas": 2154,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {

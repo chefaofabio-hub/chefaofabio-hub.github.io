@@ -1,31 +1,38 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
-  "data": "2026-10-20",
-  "titulo": "Agenda de hoje · terça, 20/10",
-  "atualizado": "20/10/2026, 13h55",
+  "data": "2026-10-21",
+  "titulo": "Agenda de hoje · quarta, 21/10",
+  "atualizado": "21/10/2026, 17h35",
   "flavio": [
     {
-      "hora": "Dia todo",
-      "local": "São Paulo (SP) e Goiânia (GO)",
-      "descricao": "Sem agenda pública. Gravações para a campanha.",
-      "fonte": "https://www.cnnbrasil.com.br/eleicoes/sem-agendas-publicas-flavio-tera-terca-dedicada-a-gravacoes-de-campanha/",
+      "hora": "11h",
+      "local": "Guarulhos (SP)",
+      "descricao": "Evento com o governador Tarcísio de Freitas no Espaço Inter.",
+      "fonte": "https://www.cnnbrasil.com.br/eleicoes/flavio-investe-em-agendas-com-aliados-de-peso-em-guarulhos-e-fortaleza/",
+      "fonte_nome": "CNN Brasil"
+    },
+    {
+      "hora": "19h",
+      "local": "Fortaleza (CE)",
+      "descricao": "\"Bloco do 22\", na Avenida do Contorno, ao lado da Arena Castelão.",
+      "fonte": "https://www.cnnbrasil.com.br/eleicoes/flavio-investe-em-agendas-com-aliados-de-peso-em-guarulhos-e-fortaleza/",
       "fonte_nome": "CNN Brasil"
     }
   ],
   "lula": [
     {
-      "hora": "Manhã",
-      "local": "São Luís (MA)",
-      "descricao": "Caminhada \"Brasil Pronto pra Mais\".",
-      "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-terca-feira-20",
-      "fonte_nome": "Agência Brasil"
+      "hora": "11h",
+      "local": "Brasília (DF)",
+      "descricao": "Sanção do PLP 186/2026 (limites do MEI) e envio de PEC da tarifa zero nos fins de semana, no Planalto.",
+      "fonte": "https://www.portaltela.com/politica/2026/10/21/lula-e-flavio-bolsonaro-confira-as-agendas-desta-quarta-feira-21/",
+      "fonte_nome": "Portal Tela"
     },
     {
-      "hora": "16h",
-      "local": "Juazeiro (BA) e Petrolina (PE)",
-      "descricao": "Caminhada \"Brasil Pronto pra Mais\".",
-      "fonte": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-terca-20-10",
-      "fonte_nome": "Metrópoles"
+      "hora": "17h",
+      "local": "Belo Horizonte (MG)",
+      "descricao": "Caminhada \"Brasil Pronto pra Mais\" (concentração às 15h na Praça Ruy Barbosa).",
+      "fonte": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-quarta-feira-21",
+      "fonte_nome": "Agência Brasil"
     }
   ]
 }
