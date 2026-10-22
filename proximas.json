@@ -1,5 +1,5 @@
 {
- "atualizado": "21/10/2026",
+ "atualizado": "22/10/2026",
  "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
  "itens": [
   {
@@ -22,17 +22,6 @@
    "contratante": null,
    "campo": "22 a 23/10 (conforme ficha)",
    "entrevistas": 3000,
-   "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-  },
-  {
-   "instituto": "PoderData",
-   "data": "2026-10-22",
-   "status": "confirmada",
-   "obs": "Campo 19 a 21/10 · 4.000 entrevistas",
-   "registro": "BR-07926/2026",
-   "contratante": null,
-   "campo": "19 a 21/10",
-   "entrevistas": 4000,
    "fonte": "https://pesqele-divulgacao.tse.jus.br/"
   },
   {

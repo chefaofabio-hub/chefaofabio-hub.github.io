@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-21",
+ "atualizado_em": "2026-10-22",
  "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh. Toda pesquisa nova deve ter 'aprovacao', 'desaprovacao' e 'aprovacao_fonte' (null se não mediu).",
  "inicio_2turno": "2026-10-05",
  "institutos": [
@@ -800,12 +800,39 @@
    "margem": "2",
    "obs": "Votos válidos divulgados pelo instituto: Flávio 53%, Lula 47%. Votos totais não localizados.",
    "fonte": "https://transmissaopolitica.com.br/politica-nacional/2026/10/21/pesquisas-futura-gerp-flavio-lula/"
+  },
+  {
+   "instituto": "PoderData",
+   "contratante": "Recursos próprios (parceria de divulgação Aya)",
+   "divulgacao": "2026-10-22",
+   "campo_inicio": "2026-10-19",
+   "campo": "19 a 21/10/2026 (depois do 1º turno), por telefone (URA)",
+   "registro": "BR-07926/2026",
+   "entrevistas": 4000,
+   "base": "validos",
+   "flavio": 51,
+   "lula": 49,
+   "brancos_nulos": null,
+   "indecisos": null,
+   "margem": "1,6",
+   "obs": "Números divulgados em votos válidos. Votos totais não localizados. 865 municípios das 27 UFs. Rejeição (não votaria de jeito nenhum): Lula 47%, Flávio 45%. Governo Lula: 46% aprovam, 50% desaprovam (trabalho de Lula: 46% aprovam, 49% desaprovam). 97% dos eleitores de Flávio e 94% dos de Lula dizem que não mudam o voto.",
+   "fonte": "https://www.poder360.com.br/poderdata/flavio-tem-51-e-lula-tem-49-dos-votos-validos-diz-poderdata-aya/",
+   "aprovacao": 46,
+   "desaprovacao": 50,
+   "aprovacao_fonte": "https://www.poder360.com.br/poderdata/flavio-tem-51-e-lula-tem-49-dos-votos-validos-diz-poderdata-aya/"
   }
  ],
  "rejeicao": {
   "obs": "não votaria de jeito nenhum",
   "fora": "AtlasIntel 19/10 e DataTrends 19/10 não divulgaram rejeição",
   "itens": [
+   {
+    "instituto": "PoderData/Aya",
+    "data": "22/10",
+    "flavio": 45,
+    "lula": 47,
+    "fonte": "PoderData/Aya · campo 19–21/10 · BR-07926/2026 (Poder360)"
+   },
    {
     "instituto": "Futura Inteligência",
     "data": "21/10",
@@ -1106,6 +1133,15 @@
     "desaprova": 52,
     "registro": "BR-04454/2026",
     "fonte": "https://informebaiano.com.br/546240/politica/flavio-bolsonaro-tem-515-dos-votos-validos-contra-485-de-lula-diz-datatrends"
+   },
+   {
+    "data": "2026-10-22",
+    "instituto": "PoderData",
+    "campo": "19 a 21/10",
+    "aprova": 46,
+    "desaprova": 50,
+    "registro": "BR-07926/2026",
+    "fonte": "https://www.poder360.com.br/poderdata/flavio-tem-51-e-lula-tem-49-dos-votos-validos-diz-poderdata-aya/"
    }
   ]
  },
