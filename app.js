@@ -309,7 +309,7 @@ async function carregarPesquisas() {
   if (pesqCarregando) return; pesqCarregando = true;
   try {
     const r = await fetch("pesquisas.json?t=" + Date.now(), {cache: "no-store"});
-    const dados = await r.json();
+    const dados = await r.json(); window.REJ_ITENS = (dados.rejeicao || {}).itens || [];
     const corte = dados.inicio_2turno || "2026-10-05";      // só pesquisas com campo DEPOIS do 1º turno
     const ps = (dados.pesquisas || []).filter(p => p && p.instituto && p.divulgacao && p.flavio != null && p.lula != null
                                                && p.campo_inicio && (p.campo_inicio >= corte || p.incluir))
@@ -400,7 +400,7 @@ function linhaInstituto(lista) {
   const novos = lista.map(idPesq).filter(i => novasCards.has(i));
   return `<details class="pq"${novos.length ? ` data-ids="${esc(JSON.stringify(novos))}"` : ""}><summary>
       ${novos.length ? `<b class="ponto pq-ponto" title="pesquisa nova">!</b>` : ""}<div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div>${lid}</div>
-      ${mini}${govMini(p)}</summary>
+      ${mini}${govMini(p)}${rejMini(p)}</summary>
     <div class="pq-det">${graficoInstituto(lista)}${blocoGov(p)}${blocoCxM(p)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
 }
 
@@ -425,6 +425,11 @@ function blocoCxM(p){
     ${fonte ? `<a href="${esc(fonte)}" target="_blank" rel="noopener">${esc(c.fonte_rotulo || "fonte")} ↗</a>` : ""}</div>`;
 }
 
+function rejMini(p){
+  const it=(window.REJ_ITENS||[]).find(x=>x.flavio!=null&&x.lula!=null&&chaveInst(x.instituto)===chaveInst(p.instituto)&&x.data===dataBR(p.divulgacao).slice(0,5));
+  if(!it) return "";
+  return `<div class="pq-gm pq-rj"><span class="gm-t">Rejeição</span><span class="rj-f">Flávio <b>${pv(it.flavio)}</b></span><span class="rj-l">Lula <b>${pv(it.lula)}</b></span></div>`;
+}
 function govMini(p){
   if(p.aprovacao==null) return "";
   const av=p.avaliacao?`<span class="gm-av">ótimo/bom ${pv(p.avaliacao.otimo_bom)} · regular ${pv(p.avaliacao.regular)} · ruim/péssimo ${pv(p.avaliacao.ruim_pessimo)}</span>`:"";
