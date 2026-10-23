@@ -492,3 +492,10 @@ nav.nav a.atual small{color:#e6eeff;text-shadow:0 1px 0 rgba(0,0,0,.45),0 2px 3p
 .pq-lid{display:block;margin-top:3px;line-height:1.25;font-size:13px;white-space:normal;overflow-wrap:anywhere;padding-right:4px}
 .pq-esq{padding-right:6px}
 @media (max-width:380px){.pq-mini{flex-basis:152px}.pq-b span{width:54px;font-size:13px}.pq-inst{font-size:17px}}
+
+/* abas uniformes (22/10) */
+nav.nav{grid-template-columns:1fr 1fr!important}
+nav.nav a,nav.nav a.largo,nav.nav a.inteira{grid-column:auto!important;min-height:62px;height:62px;overflow:hidden}
+nav.nav a small{white-space:nowrap!important}
+nav.nav a:last-child:nth-child(odd){grid-column:1/-1!important;justify-self:center;width:calc(50% - 4px)}
+nav.nav .adpf-ico{display:none!important}
