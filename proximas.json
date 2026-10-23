@@ -3,17 +3,6 @@
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
-      "instituto": "Gerp",
-      "data": "2026-10-22",
-      "status": "confirmada",
-      "obs": "Campo 21 a 24/10 · 2.400 entrevistas (conforme ficha)",
-      "registro": "BR-09327/2026",
-      "contratante": null,
-      "campo": "21 a 24/10 (conforme ficha)",
-      "entrevistas": 2400,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "Veritá",
       "data": "2026-10-23",
       "status": "confirmada",
@@ -88,6 +77,17 @@
       "contratante": "Folha da Manhã",
       "campo": "23 a 24/10",
       "entrevistas": 4050,
+      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
+    },
+    {
+      "instituto": "Gerp",
+      "data": "2026-10-24",
+      "status": "confirmada",
+      "obs": "Campo 21 a 24/10 · 2.400 entrevistas (conforme ficha)",
+      "registro": "BR-09327/2026",
+      "contratante": null,
+      "campo": "21 a 24/10 (conforme ficha)",
+      "entrevistas": 2400,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
