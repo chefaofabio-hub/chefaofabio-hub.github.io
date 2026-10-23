@@ -3,17 +3,6 @@
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
-      "instituto": "Veritá",
-      "data": "2026-10-23",
-      "status": "confirmada",
-      "obs": "Campo 18 a 22/10 · 15.554 entrevistas",
-      "registro": "BR-06070/2026",
-      "contratante": null,
-      "campo": "18 a 22/10",
-      "entrevistas": 15554,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "100% Cidades/Futura",
       "data": "2026-10-24",
       "status": "confirmada",
