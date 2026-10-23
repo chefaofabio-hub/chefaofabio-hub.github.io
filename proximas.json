@@ -3,17 +3,6 @@
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
-      "instituto": "Vetor Arrow",
-      "data": "2026-10-23",
-      "status": "a confirmar",
-      "obs": "Campo 22 a 23/10 · 3.000 entrevistas · o registro do TSE indica divulgação em 20/10, data anterior ao campo; ainda não divulgada, saída esperada a partir de 23/10",
-      "registro": "BR-06957/2026",
-      "contratante": null,
-      "campo": "22 a 23/10 (conforme ficha)",
-      "entrevistas": 3000,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "Gerp",
       "data": "2026-10-22",
       "status": "confirmada",
