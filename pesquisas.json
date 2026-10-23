@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-22",
+  "atualizado_em": "2026-10-23",
   "como_editar": "FONTE OFICIAL: o repositório GitHub chefaofabio-hub/chefaofabio-hub.github.io (site em https://chefaofabio-hub.github.io). Edite /workspace/app_presidente/site/pesquisas.json e publique com: bash /workspace/app_presidente/publicar.sh \"mensagem\" (o site atualiza em ~1 minuto). Só entram pesquisas de 2º turno com entrevistas feitas DEPOIS do 1º turno (campo começando em 05/10/2026 ou depois). Cada pesquisa é um bloco dentro de 'pesquisas'. Datas no formato AAAA-MM-DD. 'campo_inicio' é OBRIGATÓRIO: o app esconde a pesquisa se faltar ou se for anterior a 2026-10-05. 'base' = 'totais' (percentual sobre todos os entrevistados) ou 'validos' (só votos válidos; Flávio + Lula = 100). Campos desconhecidos: null. Toda pesquisa precisa de 'registro' (TSE) e 'fonte' (link). 'institutos' é a lista de institutos que aparecem no app mesmo sem pesquisa (linha cinza 'aguardando pesquisa do 2º turno'); 'prevista' é um texto opcional sobre a próxima divulgação. Para incluir uma pesquisa basta acrescentar um bloco em 'pesquisas' com o mesmo nome em 'instituto'. As pesquisas antigas (feitas antes do 1º turno) estão em pesquisas_1turno_arquivo.json e não aparecem no app. ALERTAS: ao publicar uma pesquisa NOVA com o publicar.sh, quem ativou '🔔 Ativar alertas' recebe um aviso no celular sozinho (título '❗ Nova pesquisa: Instituto'). Para publicar sem avisar: publicar.sh --sem-alerta \"mensagem\". O coletor de inscrições precisa estar ligado: bash /workspace/app_presidente/servir_push.sh. Toda pesquisa nova deve ter 'aprovacao', 'desaprovacao' e 'aprovacao_fonte' (null se não mediu).",
   "inicio_2turno": "2026-10-05",
   "institutos": [
@@ -901,12 +901,39 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Vox Brasil",
+      "contratante": "recursos próprios",
+      "divulgacao": "2026-10-23",
+      "campo_inicio": "2026-10-20",
+      "campo": "20 a 22/10/2026 (depois do 1º turno), presencial em domicílios",
+      "registro": "BR-03259/2026",
+      "entrevistas": 2100,
+      "base": "validos",
+      "flavio": 49.4,
+      "lula": 50.6,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,15",
+      "obs": "Números divulgados em votos válidos (Vox Radar). Votos totais não localizados. Rejeição: Flávio 47,1%, Lula 44,8%, ambos 3,9%. Aprovação do governo não localizada.",
+      "fonte": "https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-506-dos-votos-validos-no-2o-turno-flavio-494/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
     "fora": "AtlasIntel 19/10 e DataTrends 19/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Vox Brasil",
+        "data": "23/10",
+        "flavio": 47.1,
+        "lula": 44.8,
+        "fonte": "Vox Brasil · campo 20–22/10 · BR-03259/2026 (CNN)"
+      },
       {
         "instituto": "Datafolha",
         "data": "22/10",

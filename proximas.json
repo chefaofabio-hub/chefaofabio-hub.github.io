@@ -1,5 +1,5 @@
 {
-  "atualizado": "22/10/2026",
+  "atualizado": "23/10/2026",
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
@@ -77,17 +77,6 @@
       "contratante": null,
       "campo": "18 a 22/10",
       "entrevistas": 15554,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "Vox Brasil",
-      "data": "2026-10-23",
-      "status": "confirmada",
-      "obs": "Campo 20 a 22/10 · 2.100 entrevistas",
-      "registro": "BR-03259/2026",
-      "contratante": null,
-      "campo": "20 a 22/10",
-      "entrevistas": 2100,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
