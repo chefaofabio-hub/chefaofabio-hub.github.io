@@ -56,6 +56,9 @@
     },
     {
       "nome": "Meio/Ideia"
+    },
+    {
+      "nome": "Phoenix"
     }
   ],
   "pesquisas": [
@@ -857,6 +860,26 @@
       "margem": "2,2",
       "obs": "Votos válidos. Votos totais: Flávio 45,2%, Lula 44,1%. Rejeição e aprovação não incluídas.",
       "fonte": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/22/flavio-tem-452-ante-441-de-lula-em-empate-tecnico-mostra-pesquisa-indexabroadcast.htm",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Phoenix",
+      "contratante": "Correio Continental (RO)",
+      "divulgacao": "2026-10-19",
+      "campo_inicio": "2026-10-13",
+      "campo": "13 a 16/10/2026 (depois do 1º turno)",
+      "registro": "BR-08809/2026",
+      "entrevistas": 3999,
+      "base": "validos",
+      "flavio": 48.7,
+      "lula": 51.3,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1,55",
+      "obs": "Votos válidos calculados sobre Flávio+Lula (o instituto divulgou 51,3 para Lula e 48,7 para Flávio). Votos totais: Lula 47,59%, Flávio 45,21%, indecisos/NS 4,20%, branco/nulo/nenhum 3%. Rejeição e aprovação não incluídas.",
+      "fonte": "https://www.phoenixnewsrondonia.com.br/pesquisa-do-instituto-phoenix-aponta-lula-com-51-3-e-flavio-bolsonaro-com-48-7-dos-votos-validos",
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
