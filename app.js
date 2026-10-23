@@ -572,7 +572,7 @@ async function carregarAnalise() {
     const rjW = v => Math.min(100, v / 60 * 100).toFixed(1);
     const rjTubo = (v, c) => `<div class="rj-trilho"><i class="rj-tubo ${c}" style="width:${rjW(v)}%"></i></div>`;
     const rejHtml = rItens.length ? `
-      <div class="an-card rj3"><div class="an-tit">Rejeição${rItens.length > 1 ? ` · média de ${rItens.length} institutos` : ""}</div>
+      <div class="an-card rj3"><div class="an-tit">Rejeição${rItens.length > 1 ? ` · média de ${rItens.length} pesquisas` : ""}</div>
         <div class="an-sub">${esc(rej.obs || "não votaria de jeito nenhum")}</div>
         <div class="rj-meds">
           <div class="rj-med az"><div class="rj-nm">Flávio B.</div><div class="rj-pct">${pp(rF)}%</div>${rjTubo(rF, "az")}</div>
