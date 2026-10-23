@@ -433,7 +433,7 @@ function rejMini(p){
 function govMini(p){
   if(p.aprovacao==null) return "";
   const av=p.avaliacao?`<span class="gm-av">ótimo/bom ${pv(p.avaliacao.otimo_bom)} · regular ${pv(p.avaliacao.regular)} · ruim/péssimo ${pv(p.avaliacao.ruim_pessimo)}</span>`:"";
-  return `<div class="pq-gm"><span class="gm-t">Governo Lula</span><span class="gm-ap">Aprova <b>${pv(p.aprovacao)}</b></span><span class="gm-de">Desaprova <b>${pv(p.desaprovacao)}</b></span>${av}</div>`;
+  return `<div class="pq-gm"><span class="gm-t">Gov. Lula</span><span class="gm-ap">Aprova <b>${pv(p.aprovacao)}</b></span><span class="gm-de">Desaprova <b>${pv(p.desaprovacao)}</b></span>${av}</div>`;
 }
 function blocoGov(p){
   if(p.aprovacao==null) return `<div class="pq-gov"><div class="pq-gov-t">Governo Lula</div><div class="pq-gov-n">não mediu aprovação</div></div>`;
