@@ -499,3 +499,6 @@ nav.nav a,nav.nav a.largo,nav.nav a.inteira{grid-column:auto!important;min-heigh
 nav.nav a small{white-space:nowrap!important}
 nav.nav a:last-child:nth-child(odd){grid-column:1/-1!important;justify-self:center;width:calc(50% - 4px)}
 nav.nav .adpf-ico{display:none!important}
+
+.pq-gov-av{margin-top:6px;font-size:13px;font-weight:700;color:#444}
+.an-tab td.vd,.an-tab th.vd{color:#1e9e5a}.an-tab tr.an-med td{border-top:2px solid #c9cfda}

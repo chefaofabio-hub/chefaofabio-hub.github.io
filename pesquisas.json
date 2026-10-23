@@ -721,11 +721,16 @@
       "brancos_nulos": null,
       "indecisos": null,
       "margem": "2",
-      "obs": "Votos válidos. Votos totais: Flávio 45%, Lula 44%, brancos/nulos/não vão votar 9%, indecisos 2%. Rejeição: Flávio 52%, Lula 47%.",
+      "obs": "Votos válidos. Votos totais: Flávio 45%, Lula 44%, brancos/nulos/não vão votar 9%, indecisos 2%. Rejeição: Flávio 52%, Lula 47%. Governo Lula: 46% aprovam, 47% desaprovam, 7% NS/NR. Avaliação: positiva 34%, regular 26%, negativa 38%, 2% NS/NR (g1/CNN).",
       "fonte": "https://noticias.uol.com.br/eleicoes/2026/10/21/pesquisa-eleitoral-para-presidente-veja-novos-numeros-do-2-turno.ghtm",
-      "aprovacao": null,
-      "desaprovacao": null,
-      "aprovacao_fonte": null
+      "aprovacao": 46,
+      "desaprovacao": 47,
+      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/21/quaest-aprovacao-21-outubro.ghtml",
+      "avaliacao": {
+        "otimo_bom": 34,
+        "regular": 26,
+        "ruim_pessimo": 38
+      }
     },
     {
       "instituto": "Futura Inteligência",
@@ -761,11 +766,16 @@
       "brancos_nulos": null,
       "indecisos": null,
       "margem": "2,5",
-      "obs": "Votos válidos. Votos totais: Flávio 48%, Lula 46%. Rejeição e aprovação não incluídas.",
+      "obs": "Votos válidos. Votos totais: Flávio 48%, Lula 46%. Rejeição e aprovação não incluídas. Trabalho de Lula: 46,4% aprovam, 48,2% desaprovam. Avaliação: ótimo/bom 31,7%, regular 22,6%, ruim/péssimo 40,6% (Veja).",
       "fonte": "https://veja.abril.com.br/politica/a-distancia-entre-flavio-bolsonaro-e-lula-em-duas-novas-pesquisas-eleitorais-a-quatro-dias-do-segundo-turno/",
-      "aprovacao": null,
-      "desaprovacao": null,
-      "aprovacao_fonte": null
+      "aprovacao": 46.4,
+      "desaprovacao": 48.2,
+      "aprovacao_fonte": "https://veja.abril.com.br/politica/como-o-governo-lula-e-avaliado-na-reta-final-da-eleicao-segundo-a-pesquisa-meio-ideia/",
+      "avaliacao": {
+        "otimo_bom": 31.7,
+        "regular": 22.6,
+        "ruim_pessimo": 40.6
+      }
     },
     {
       "instituto": "Palver",
@@ -801,8 +811,11 @@
       "brancos_nulos": null,
       "indecisos": null,
       "margem": "2",
-      "obs": "Votos válidos divulgados pelo instituto: Flávio 53%, Lula 47%. Votos totais não localizados.",
-      "fonte": "https://transmissaopolitica.com.br/politica-nacional/2026/10/21/pesquisas-futura-gerp-flavio-lula/"
+      "obs": "Votos válidos divulgados pelo instituto: Flávio 53%, Lula 47%. Votos totais não localizados. Governo Lula: 46% aprovam, 48% desaprovam, 6% NS/NR (CNN).",
+      "fonte": "https://transmissaopolitica.com.br/politica-nacional/2026/10/21/pesquisas-futura-gerp-flavio-lula/",
+      "aprovacao": 46,
+      "desaprovacao": 48,
+      "aprovacao_fonte": "https://www.cnnbrasil.com.br/eleicoes/gerp-48-dos-eleitores-desaprovam-governo-lula-46-aprovam/"
     },
     {
       "instituto": "PoderData",
@@ -842,7 +855,12 @@
       "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/datafolha-presidente-segundo-turno-22-outubro.ghtml",
       "aprovacao": 49,
       "desaprovacao": 48,
-      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/datafolha-aprova-desaprova-governo-22-outubro.ghtml"
+      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/datafolha-aprova-desaprova-governo-22-outubro.ghtml",
+      "avaliacao": {
+        "otimo_bom": 36,
+        "regular": 24,
+        "ruim_pessimo": 39
+      }
     },
     {
       "instituto": "Indexa",

@@ -427,7 +427,7 @@ function blocoCxM(p){
 
 function blocoGov(p){
   if(p.aprovacao==null) return `<div class="pq-gov"><div class="pq-gov-t">Governo Lula</div><div class="pq-gov-n">não mediu aprovação</div></div>`;
-  return `<div class="pq-gov"><div class="pq-gov-t">Governo Lula</div><div class="pq-gov-l"><span class="ap">Aprovação <b>${pv(p.aprovacao)}</b></span><span class="de">Desaprovação <b>${pv(p.desaprovacao)}</b></span></div>${p.aprovacao_fonte?`<a href="${esc(p.aprovacao_fonte)}" target="_blank" rel="noopener">fonte ↗</a>`:""}</div>`;
+  return `<div class="pq-gov"><div class="pq-gov-t">Governo Lula</div><div class="pq-gov-l"><span class="ap">Aprovação <b>${pv(p.aprovacao)}</b></span><span class="de">Desaprovação <b>${pv(p.desaprovacao)}</b></span></div>${p.avaliacao?`<div class="pq-gov-av">Avaliação: ótimo/bom <b>${pv(p.avaliacao.otimo_bom)}</b> · regular <b>${pv(p.avaliacao.regular)}</b> · ruim/péssimo <b>${pv(p.avaliacao.ruim_pessimo)}</b></div>`:""}${p.aprovacao_fonte?`<a href="${esc(p.aprovacao_fonte)}" target="_blank" rel="noopener">fonte ↗</a>`:""}</div>`;
 }
 /* ---------------- análise: média de todas as pesquisas ---------------- */
 const valF = p => 100 * p.flavio / (p.flavio + p.lula);      // converte para votos válidos (só os dois)
@@ -534,6 +534,8 @@ function blocoGovMedia(ps){ // última rodada com aprovação de cada instituto 
     <div class="rj-lista">${l.map(p=>`<div class="rj-placa"><div class="rj-inst"><b>${esc(p.instituto)}</b><small>${dataBR(p.divulgacao).slice(0,5)}</small></div>
       <div class="rj-lin"><span class="vd">${pp(p.aprovacao)}%</span>${tubo(p.aprovacao,"vd")}</div>
       <div class="rj-lin"><span class="vm">${pp(p.desaprovacao)}%</span>${tubo(p.desaprovacao,"vm")}</div></div>`).join("")}</div>
+    <div class="an-tt">Aprovação do governo Lula</div>
+    <table class="an-tab"><thead><tr><th>Instituto</th><th>Data</th><th class="vd">Aprova</th><th class="vm">Desaprova</th></tr></thead><tbody>${l.map(p=>`<tr><td>${esc(p.instituto)}</td><td>${dataBR(p.divulgacao).slice(0,5)}</td><td class="vd">${pp(p.aprovacao)}%</td><td class="vm">${pp(p.desaprovacao)}%</td></tr>`).join("")}<tr class="an-med"><td><b>Média</b></td><td>${l.length} inst.</td><td class="vd"><b>${pp(A)}%</b></td><td class="vm"><b>${pp(D)}%</b></td></tr></tbody></table>
     <div class="rj-fonte">Verde = aprova · vermelho = desaprova · pesquisas sem esse dado ficam fora da média</div></div>`;
 }
 
