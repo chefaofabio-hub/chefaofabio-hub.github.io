@@ -7,7 +7,7 @@
 <meta name="author" content="Fábio Lins e Silva">
 <meta name="description" content="Apuração ao vivo de Presidente 2026 (2º turno), direto do TSE, e pesquisas eleitorais Flávio x Lula.">
 <meta property="og:title" content="Apuração Presidente 2026 – ao vivo + pesquisas do 2º turno">
-<meta property="og:description" content="Flávio B. x Lula: apuração ao vivo direto do TSE, votação por região, pesquisas, análise, agendas e confiabilidade dos institutos. Toque para abrir e instalar.">
+<meta property="og:description" content="Flávio B. x Lula: apuração ao vivo direto do TSE, votação por região, pesquisas, análise e confiabilidade dos institutos. Toque para abrir e instalar.">
 <meta property="og:image" content="https://chefaofabio-hub.github.io/og-image.png?v=1"><meta property="og:image:secure_url" content="https://chefaofabio-hub.github.io/og-image.png?v=1">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:url" content="https://chefaofabio-hub.github.io/">
@@ -17,7 +17,7 @@
 <meta property="og:image:alt" content="Apuração ao vivo + pesquisas do 2º turno · Flávio B. x Lula · chefaofabio-hub.github.io">
 <meta property="og:site_name" content="Apuração Presidente 2026">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Apuração Presidente 2026 – ao vivo + pesquisas do 2º turno"><meta name="twitter:description" content="Flávio B. x Lula: apuração ao vivo direto do TSE, votação por região, pesquisas, análise, agendas e confiabilidade dos institutos. Toque para abrir e instalar.">
+<meta name="twitter:title" content="Apuração Presidente 2026 – ao vivo + pesquisas do 2º turno"><meta name="twitter:description" content="Flávio B. x Lula: apuração ao vivo direto do TSE, votação por região, pesquisas, análise e confiabilidade dos institutos. Toque para abrir e instalar.">
 <meta name="twitter:image" content="https://chefaofabio-hub.github.io/og-image.png?v=1">
 <meta name="theme-color" content="#1f4fa8">
 <link rel="manifest" href="manifest.json">
@@ -31,13 +31,13 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=70">
+<link rel="stylesheet" href="style.css?v=71">
 <link rel="stylesheet" href="adpf.css?v=1">
 </head>
 <body>
 <div class="versao-app">versão 1.7.0</div>
 <nav class="nav" id="nav">
-  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<b class="ponto" id="pontoAnal" hidden title="análise atualizada">!</b><small>das pesquisas</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#proximas" data-aba="proximas">Próximas<b class="ponto" id="pontoProx" hidden title="datas atualizadas">!</b><small>pesquisas</small></a><a href="#agendas" data-aba="agendas">Agendas<small>candidatos</small></a><a href="#confiabilidade" data-aba="confiabilidade" class="inteira">Confiabilidade das pesquisas<b class="ponto" id="pontoConf" hidden title="aba nova">!</b><small>quem mais acertou o 1º turno</small></a><a href="#adpf" data-aba="adpf" class="inteira"><img src="icons/balanca-192.png" alt="" class="adpf-ico">ADPF 1362<small>ação do PSD no STF · 2º turno RJ</small></a>
+  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<b class="ponto" id="pontoAnal" hidden title="análise atualizada">!</b><small>das pesquisas</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#proximas" data-aba="proximas">Próximas<b class="ponto" id="pontoProx" hidden title="datas atualizadas">!</b><small>pesquisas</small></a><a href="#confiabilidade" data-aba="confiabilidade" class="inteira">Confiabilidade das pesquisas<b class="ponto" id="pontoConf" hidden title="aba nova">!</b><small>quem mais acertou o 1º turno</small></a><a href="#adpf" data-aba="adpf" class="inteira"><img src="icons/balanca-192.png" alt="" class="adpf-ico">ADPF 1362<small>ação do PSD no STF · 2º turno RJ</small></a>
 </nav>
 <div class="inst" id="inst" hidden>
   <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
@@ -156,14 +156,6 @@
  <div class="rod" id="adAtu">Carregando…</div>
 </main>
 
-<!-- ABA AGENDAS -->
-<main class="quadro aba" id="aba-agendas" hidden>
-  <h1 style="font-size:clamp(20px,6.4vw,30px)">AGENDAS DOS CANDIDATOS</h1>
-  <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
-  <div id="agendas"><div class="vazio">Carregando…</div></div>
-  <div class="autoria"><span class="nome">CRIADO POR FÁBIO LINS E SILVA</span> <span class="sep">·</span> <a href="tel:+5521971902990" class="nw">(21) 97190-2990</a></div>
-  <div class="rod" id="agRod">—</div>
-</main>
 
 
 
@@ -175,7 +167,7 @@
   </div>
 </div>
 
-<script src="app.js?v=70"></script>
+<script src="app.js?v=71"></script>
 <script src="adpf.js?v=1"></script>
 </body>
 </html>
