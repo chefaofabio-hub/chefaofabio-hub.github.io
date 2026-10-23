@@ -508,3 +508,5 @@ nav.nav .adpf-ico{display:none!important}
 .pq-gm .gm-ap{background:#1e9e5a}.pq-gm .gm-de{background:#c0392b}.pq-gm .gm-av{flex-basis:100%;text-align:center;color:#555;font-size:12px}
 
 .pq-rj .rj-f,.pq-rj .rj-l{padding:2px 8px;border-radius:7px;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.35)}.pq-rj .rj-f{background:#1f5fbf}.pq-rj .rj-l{background:#c0392b}
+.pq-gm.pq-rj{display:grid;grid-template-columns:72px 108px 108px;justify-content:center;gap:6px}
+.pq-rj .gm-t{text-align:right}.pq-rj .rj-f,.pq-rj .rj-l{text-align:center;white-space:nowrap}
