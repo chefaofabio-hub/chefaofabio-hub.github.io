@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "20/10/2026 11:20",
+  "atualizado_em": "22/10/2026 22:55",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
     "numero_adpf": "ADPF 1362",
-    "situacao": "Zanin pediu informações ao TSE (prazo de 5 dias), depois AGU e PGR; despacho publicado no DJE em 20/10. Liminar sem decisão até 20/10, 11h20."
+    "situacao": "Aguardando informações do TSE (prazo de 5 dias do despacho de Zanin). Novo amicus curiae em 22/10. Liminar sem decisão até 22/10, 22h55."
   },
   "data_alvo": "2026-10-25T08:00:00-03:00",
   "processo": {
@@ -73,6 +73,13 @@
     }
   ],
   "andamentos": [
+    {
+      "data": "22/10/2026",
+      "titulo": "Nova petição de amicus curiae",
+      "texto": "Protocolada petição de amicus curiae nº 133549 às 21:36. Liminar ainda sem decisão.",
+      "fonte": "Portal do STF",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
+    },
     {
       "data": "20/10/2026",
       "titulo": "Despacho publicado no DJE",

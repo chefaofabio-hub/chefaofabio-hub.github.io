@@ -1,31 +1,24 @@
 {
   "como_editar": "Edite 'titulo', 'atualizado' e as listas 'flavio' e 'lula'. Cada item: hora (opcional, ex. '17h' ou 'Manhã'), local, descricao, fonte (URL), fonte_nome. Lista vazia [] mostra 'Sem agenda divulgada'. Depois rode: bash /workspace/app_presidente/publicar.sh --sem-alerta \"Agendas DD/MM\"",
-  "data": "2026-10-22",
-  "titulo": "Agenda de amanhã · quinta, 22/10",
-  "atualizado": "21/10/2026, 23h15",
+  "data": "2026-10-23",
+  "titulo": "Agenda de amanhã · sexta, 23/10",
+  "atualizado": "22/10/2026, 22h55",
   "flavio": [
     {
-      "hora": "19h",
-      "local": "Brasília (DF)",
-      "descricao": "\"Tradicional Live de Quinta\", transmitida no canal TV Celular Flávio Bolsonaro no YouTube.",
-      "fonte": "https://www.dcomercio.com.br/publicacao/s/agenda-dos-presidenciaveis-quinta-feira-22-10",
+      "hora": "21h20",
+      "local": "Rio de Janeiro (RJ)",
+      "descricao": "Debate presidencial da TV Globo, nos Estúdios Globo (último antes do 2º turno).",
+      "fonte": "https://www.dcomercio.com.br/publicacao/s/agenda-dos-presidenciaveis-sexta-feira-23-10",
       "fonte_nome": "Diário do Comércio"
     }
   ],
   "lula": [
     {
-      "hora": "11h",
-      "local": "Brasília (DF)",
-      "descricao": "Protocolo no TSE da autorização para abrir os sigilos do Instituto Lula, do ex-assessor Marcola e do cartão corporativo da primeira-dama.",
-      "fonte": "https://noticias.uol.com.br/eleicoes/2026/10/21/lula-aceita-desafio-de-flavio-sobre-sigilo-de-marcola-instituto-e-cartao.ghtm",
-      "fonte_nome": "UOL"
-    },
-    {
-      "hora": "Dia",
-      "local": "Brasília (DF)",
-      "descricao": "Preparação para o debate da TV Globo de sexta (23), no Rio.",
-      "fonte": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-aliados-de-lula-fazem-atos-pelo-pais-na-reta-final-para-o-2o-turno/",
-      "fonte_nome": "CNN Brasil"
+      "hora": "21h20",
+      "local": "Rio de Janeiro (RJ)",
+      "descricao": "Debate presidencial da TV Globo, nos Estúdios Globo (último antes do 2º turno).",
+      "fonte": "https://www.dcomercio.com.br/publicacao/s/agenda-dos-presidenciaveis-sexta-feira-23-10",
+      "fonte_nome": "Diário do Comércio"
     }
   ]
 }
