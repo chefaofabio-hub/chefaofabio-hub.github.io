@@ -916,11 +916,11 @@
       "brancos_nulos": null,
       "indecisos": null,
       "margem": "2,15",
-      "obs": "Números divulgados em votos válidos (Vox Radar). Votos totais não localizados. Rejeição: Flávio 47,1%, Lula 44,8%, ambos 3,9%. Aprovação do governo não localizada.",
+      "obs": "Números divulgados em votos válidos (Vox Radar). Votos totais não localizados. Rejeição: Flávio 47,1%, Lula 44,8%, ambos 3,9%. Governo Lula: 46,9% aprovam, 48,1% desaprovam, 5% NS/NR (CNN). Avaliação ótimo/bom/regular/ruim não localizada.",
       "fonte": "https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-506-dos-votos-validos-no-2o-turno-flavio-494/",
-      "aprovacao": null,
-      "desaprovacao": null,
-      "aprovacao_fonte": null
+      "aprovacao": 46.9,
+      "desaprovacao": 48.1,
+      "aprovacao_fonte": "https://www.cnnbrasil.com.br/eleicoes/vox-481-desaprovam-governo-lula-469-aprovam/"
     }
   ],
   "rejeicao": {
