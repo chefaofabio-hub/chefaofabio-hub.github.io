@@ -797,7 +797,7 @@
     {
       "instituto": "Gerp",
       "contratante": "Gerp Mercadologia",
-      "divulgacao": "2026-10-20",
+      "divulgacao": "2026-10-21",
       "campo_inicio": "2026-10-15",
       "campo": "15 a 19/10/2026 (tracking)",
       "registro": "BR-03835/2026",
@@ -808,7 +808,7 @@
       "brancos_nulos": null,
       "indecisos": null,
       "margem": "2",
-      "obs": "Votos válidos divulgados pelo instituto: Flávio 53%, Lula 47%. Votos totais não localizados. Governo Lula: 46% aprovam, 48% desaprovam, 6% NS/NR (CNN).",
+      "obs": "Votos válidos divulgados pelo instituto: Flávio 53%, Lula 47%. Votos totais não localizados. Governo Lula: 46% aprovam, 48% desaprovam, 6% NS/NR (CNN). Rejeição: Lula 49%, Flávio 46% (relatório Gerp e CNN). Avaliação ótimo/bom/regular/ruim não medida no relatório.",
       "fonte": "https://transmissaopolitica.com.br/politica-nacional/2026/10/21/pesquisas-futura-gerp-flavio-lula/",
       "aprovacao": 46,
       "desaprovacao": 48,
@@ -1009,6 +1009,13 @@
     "obs": "não votaria de jeito nenhum",
     "fora": "AtlasIntel 19/10 e DataTrends 19/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Gerp",
+        "data": "21/10",
+        "flavio": 46,
+        "lula": 49,
+        "fonte": "Gerp · campo 19–21/10 · BR-03835/2026 (relatório Gerp/CNN)"
+      },
       {
         "instituto": "Ipespe",
         "data": "23/10",
