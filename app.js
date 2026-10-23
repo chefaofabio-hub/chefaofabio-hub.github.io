@@ -400,7 +400,7 @@ function linhaInstituto(lista) {
   const novos = lista.map(idPesq).filter(i => novasCards.has(i));
   return `<details class="pq"${novos.length ? ` data-ids="${esc(JSON.stringify(novos))}"` : ""}><summary>
       ${novos.length ? `<b class="ponto pq-ponto" title="pesquisa nova">!</b>` : ""}<div class="pq-esq"><div class="pq-inst">${esc(p.instituto)}</div><div class="pq-data">${dataBR(p.divulgacao)}</div>${lid}</div>
-      ${mini}</summary>
+      ${mini}${govMini(p)}</summary>
     <div class="pq-det">${graficoInstituto(lista)}${blocoGov(p)}${blocoCxM(p)}${det}${ant ? `<div class="pq-ant">Pesquisas anteriores deste instituto:<ul>${ant}</ul></div>` : ""}</div></details>`;
 }
 
@@ -425,6 +425,11 @@ function blocoCxM(p){
     ${fonte ? `<a href="${esc(fonte)}" target="_blank" rel="noopener">${esc(c.fonte_rotulo || "fonte")} ↗</a>` : ""}</div>`;
 }
 
+function govMini(p){
+  if(p.aprovacao==null) return "";
+  const av=p.avaliacao?`<span class="gm-av">ótimo/bom ${pv(p.avaliacao.otimo_bom)} · regular ${pv(p.avaliacao.regular)} · ruim/péssimo ${pv(p.avaliacao.ruim_pessimo)}</span>`:"";
+  return `<div class="pq-gm"><span class="gm-t">Governo Lula</span><span class="gm-ap">Aprova <b>${pv(p.aprovacao)}</b></span><span class="gm-de">Desaprova <b>${pv(p.desaprovacao)}</b></span>${av}</div>`;
+}
 function blocoGov(p){
   if(p.aprovacao==null) return `<div class="pq-gov"><div class="pq-gov-t">Governo Lula</div><div class="pq-gov-n">não mediu aprovação</div></div>`;
   return `<div class="pq-gov"><div class="pq-gov-t">Governo Lula</div><div class="pq-gov-l"><span class="ap">Aprovação <b>${pv(p.aprovacao)}</b></span><span class="de">Desaprovação <b>${pv(p.desaprovacao)}</b></span></div>${p.avaliacao?`<div class="pq-gov-av">Avaliação: ótimo/bom <b>${pv(p.avaliacao.otimo_bom)}</b> · regular <b>${pv(p.avaliacao.regular)}</b> · ruim/péssimo <b>${pv(p.avaliacao.ruim_pessimo)}</b></div>`:""}${p.aprovacao_fonte?`<a href="${esc(p.aprovacao_fonte)}" target="_blank" rel="noopener">fonte ↗</a>`:""}</div>`;

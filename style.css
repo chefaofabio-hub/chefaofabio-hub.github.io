@@ -502,3 +502,7 @@ nav.nav .adpf-ico{display:none!important}
 
 .pq-gov-av{margin-top:6px;font-size:13px;font-weight:700;color:#444}
 .an-tab td.vd,.an-tab th.vd{color:#1e9e5a}.an-tab tr.an-med td{border-top:2px solid #c9cfda}
+.pq summary{flex-wrap:wrap}
+.pq-gm{flex-basis:100%;display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:center;margin-top:2px;padding-top:6px;border-top:1px dashed #c9cfda;font-size:13px;font-weight:700}
+.pq-gm .gm-t{color:#333}.pq-gm .gm-ap,.pq-gm .gm-de{padding:2px 8px;border-radius:7px;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.35)}
+.pq-gm .gm-ap{background:#1e9e5a}.pq-gm .gm-de{background:#c0392b}.pq-gm .gm-av{flex-basis:100%;text-align:center;color:#555;font-size:12px}
