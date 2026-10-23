@@ -838,11 +838,11 @@
       "brancos_nulos": null,
       "indecisos": null,
       "margem": "2",
-      "obs": "Votos válidos (calculados sobre Flávio+Lula; o instituto divulgou 50×50). Votos totais: Flávio 47%, Lula 46%, branco/nulo/nenhum 5%, indecisos 2%. Rejeição: Flávio 46%, Lula 45%.",
+      "obs": "Votos válidos (calculados sobre Flávio+Lula; o instituto divulgou 50×50). Votos totais: Flávio 47%, Lula 46%, branco/nulo/nenhum 5%, indecisos 2%. Rejeição: Flávio 46%, Lula 45%. Governo Lula: 49% aprovam, 48% desaprovam, 2% não sabem. Avaliação: ótimo/bom 36%, regular 24%, ruim/péssimo 39%, 1% não sabe (Folha).",
       "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/datafolha-presidente-segundo-turno-22-outubro.ghtml",
-      "aprovacao": null,
-      "desaprovacao": null,
-      "aprovacao_fonte": null
+      "aprovacao": 49,
+      "desaprovacao": 48,
+      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/datafolha-aprova-desaprova-governo-22-outubro.ghtml"
     },
     {
       "instituto": "Indexa",
