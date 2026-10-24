@@ -59,6 +59,9 @@
     },
     {
       "nome": "Vetor Arrow"
+    },
+    {
+      "nome": "Colectta Instituto de Pesquisa"
     }
   ],
   "pesquisas": [
@@ -1083,6 +1086,26 @@
       "aprovacao": 47.6,
       "desaprovacao": 48.8,
       "aprovacao_fonte": "https://noticias.uol.com.br/eleicoes/2026/10/24/cntmda-pesquisa-presidencial-24-de-outubro.ghtm"
+    },
+    {
+      "instituto": "Colectta Instituto de Pesquisa",
+      "contratante": "Brazil Economy",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-23",
+      "campo": "23/10/2026 (depois do 1º turno), presencial",
+      "registro": "BR-05601/2026",
+      "entrevistas": 3000,
+      "base": "validos",
+      "flavio": 49.7,
+      "lula": 50.3,
+      "brancos_nulos": 4.4,
+      "indecisos": 3.1,
+      "margem": "2",
+      "obs": "Votos totais: Lula 46,5%, Flávio 46%, branco/nulo/nenhum 4,4%, NS/NR 3,1% (instituto divulgou 50,3×49,7 nos válidos). Aprovação 47%, desaprovação 49,7%. Avaliação: só divulgado ruim/péssimo 40,6% (ótimo/bom e regular não divulgados). Rejeição de Flávio e Lula não divulgada.",
+      "fonte": "https://brazileconomy.com.br/eleicoes-2026/2026/10/lula-tem-503-dos-votos-validos-e-flavio-497-aponta-pesquisa-brazil-economycolectta/",
+      "aprovacao": 47,
+      "desaprovacao": 49.7,
+      "aprovacao_fonte": "https://brazileconomy.com.br/eleicoes-2026/2026/10/lula-tem-503-dos-votos-validos-e-flavio-497-aponta-pesquisa-brazil-economycolectta/"
     }
   ],
   "rejeicao": {
