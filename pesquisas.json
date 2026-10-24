@@ -1171,12 +1171,39 @@
         "regular": 4,
         "ruim_pessimo": 50
       }
+    },
+    {
+      "instituto": "Datafolha",
+      "contratante": "Folha de S.Paulo e TV Globo",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-23",
+      "campo": "23 e 24/10/2026 (depois do 1º turno), presencial",
+      "registro": "BR-09540/2026",
+      "entrevistas": 4050,
+      "base": "validos",
+      "flavio": 50.5,
+      "lula": 49.5,
+      "brancos_nulos": 3,
+      "indecisos": 2,
+      "margem": "2",
+      "obs": "Votos totais: Flávio 48%, Lula 47%, branco/nulo/nenhum 3%, indecisos 2% (instituto divulgou 51×49 nos válidos; com propensão ao voto, alta propensão 52×48). Rejeição: Lula 46%, Flávio 45%. Aprovação/avaliação do governo não divulgada nesta rodada até agora (última: 22/10, BR-09709).",
+      "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/24/datafolha-presidente-24-outubro.ghtml",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
     "fora": "AtlasIntel 19/10 e DataTrends 19/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Datafolha",
+        "data": "24/10",
+        "flavio": 45,
+        "lula": 46,
+        "fonte": "Datafolha · campo 23–24/10 · BR-09540/2026 (Folha)"
+      },
       {
         "instituto": "Gerp",
         "data": "24/10",
