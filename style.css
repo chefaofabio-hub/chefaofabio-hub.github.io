@@ -522,3 +522,7 @@ nav.nav .adpf-ico{display:none!important}
 .pq-gm,.pq-gm.pq-rj{grid-template-columns:54px minmax(0,1fr) minmax(0,1fr);gap:4px}
 .pq-gm .gm-ap,.pq-gm .gm-de,.pq-rj .rj-f,.pq-rj .rj-l{font-size:11px;padding:3px 1px}
 .pq-gm .gm-t{font-size:11px}
+
+/* espaço maior entre votos e % (Apuração 2º turno) */
+.cand .pct,.cand.grande .pct{margin-left:16px;flex-shrink:0}
+.cand .votos{padding-right:4px}
