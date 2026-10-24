@@ -1191,6 +1191,26 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Quaest",
+      "contratante": "Globo e O Globo",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-23",
+      "campo": "23 e 24/10/2026 (depois do 1º turno), presencial",
+      "registro": "BR-09158/2026",
+      "entrevistas": 3702,
+      "base": "validos",
+      "flavio": 51.0,
+      "lula": 49.0,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2",
+      "obs": "Votos totais ainda não divulgados: usados os válidos publicados pelo instituto (g1, 19h01). Rejeição e aprovação/avaliação do governo ainda não divulgadas nesta rodada.",
+      "fonte": "https://glo.bo/4iA4ZpD",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
