@@ -1201,13 +1201,13 @@
       "registro": "BR-09158/2026",
       "entrevistas": 3702,
       "base": "validos",
-      "flavio": 51.0,
-      "lula": 49.0,
-      "brancos_nulos": null,
-      "indecisos": null,
+      "flavio": 50.5,
+      "lula": 49.5,
+      "brancos_nulos": 8,
+      "indecisos": 1,
       "margem": "2",
-      "obs": "Votos totais ainda não divulgados: usados os válidos publicados pelo instituto (g1, 19h01). Rejeição e aprovação/avaliação do governo ainda não divulgadas nesta rodada.",
-      "fonte": "https://glo.bo/4iA4ZpD",
+      "obs": "Votos totais: Flávio 46%, Lula 45%, branco/nulo/não vai votar 8%, indecisos 1% (instituto divulgou 51×49 nos válidos, modelo likely voter). Rejeição: Flávio 49%, Lula 47%. Aprovação/avaliação do governo não divulgada nesta rodada até agora.",
+      "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/24/quaest-2o-turno-votos-validos.ghtml",
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
@@ -1217,6 +1217,13 @@
     "obs": "não votaria de jeito nenhum",
     "fora": "AtlasIntel 19/10 e DataTrends 19/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Quaest",
+        "data": "24/10",
+        "flavio": 49,
+        "lula": 47,
+        "fonte": "Quaest · campo 23–24/10 · BR-09158/2026 (g1/O Globo)"
+      },
       {
         "instituto": "Datafolha",
         "data": "24/10",
