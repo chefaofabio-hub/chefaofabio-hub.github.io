@@ -1211,11 +1211,31 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "AtlasIntel",
+      "contratante": "Bloomberg",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-18",
+      "campo": "18 a 23/10/2026 (depois do 1º turno), online (RDR)",
+      "registro": "BR-06380/2026",
+      "entrevistas": 4990,
+      "base": "validos",
+      "flavio": 50.8,
+      "lula": 49.2,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "1",
+      "obs": "Votos válidos. Votos totais: Flávio 49,9%, Lula 48,4%, branco/nulo/não sabe 1,7%. Rejeição não divulgada nas reportagens. Governo Lula: 47,9% aprovam, 50,8% desaprovam (avaliação: 39,3% ótimo/bom, 49,1% ruim/péssimo).",
+      "fonte": "https://www.cnnbrasil.com.br/eleicoes/atlasintel-flavio-tem-508-dos-votos-validos-no-2o-turno-lula-492/",
+      "aprovacao": 47.9,
+      "desaprovacao": 50.8,
+      "aprovacao_fonte": "https://www.cnnbrasil.com.br/eleicoes/atlas-lula-e-desaprovado-por-508-dos-eleitores-479-aprovam/"
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
-    "fora": "AtlasIntel 19/10 e DataTrends 19/10 não divulgaram rejeição",
+    "fora": "AtlasIntel 19/10 e 24/10 e DataTrends 19/10 não divulgaram rejeição",
     "itens": [
       {
         "instituto": "Quaest",
