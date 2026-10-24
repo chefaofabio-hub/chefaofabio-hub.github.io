@@ -36,28 +36,6 @@
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
-      "instituto": "Gerp",
-      "data": "2026-10-24",
-      "status": "confirmada",
-      "obs": "Campo 21 a 24/10 · 2.400 entrevistas (conforme ficha)",
-      "registro": "BR-09327/2026",
-      "contratante": null,
-      "campo": "21 a 24/10 (conforme ficha)",
-      "entrevistas": 2400,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "Palver",
-      "data": "2026-10-24",
-      "status": "confirmada",
-      "obs": "Campo 22 a 24/10 · 5.000 entrevistas",
-      "registro": "BR-01794/2026",
-      "contratante": null,
-      "campo": "22 a 24/10",
-      "entrevistas": 5000,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
       "instituto": "Phoenix",
       "data": "2026-10-24",
       "status": "confirmada",

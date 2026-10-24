@@ -1126,12 +1126,71 @@
       "aprovacao": 46.1,
       "desaprovacao": 49.4,
       "aprovacao_fonte": "https://veja.abril.com.br/politica/a-nova-pesquisa-btg-nexus-sobre-a-disputa-flavio-x-lula-a-ultima-antes-do-segundo-turno/"
+    },
+    {
+      "instituto": "Gerp",
+      "contratante": "recursos próprios",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-22",
+      "campo": "22 a 24/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-09327/2026",
+      "entrevistas": 2400,
+      "base": "validos",
+      "flavio": 51.6,
+      "lula": 48.4,
+      "brancos_nulos": 1,
+      "indecisos": 3,
+      "margem": "2",
+      "obs": "Votos totais: Flávio 49%, Lula 46%, nenhum 1%, NS 3% (instituto divulgou 52×48 nos válidos). Rejeição: Lula 48%, Flávio 45%. Aprovação/avaliação do governo não localizada nesta rodada.",
+      "fonte": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-52-dos-votos-validos-contra-48-de-lula-diz-gerp/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Palver",
+      "contratante": "recursos próprios",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-22",
+      "campo": "22 a 24/10/2026 (depois do 1º turno), online",
+      "registro": "BR-01794/2026",
+      "entrevistas": 5000,
+      "base": "validos",
+      "flavio": 50.5,
+      "lula": 49.5,
+      "brancos_nulos": 1,
+      "indecisos": 0,
+      "margem": "2,2",
+      "obs": "Votos totais: Flávio 50%, Lula 49%, branco/nulo/não vota 1%. Rejeição: Lula 49%, Flávio 47%. Aprovação 48%, desaprovação 51%; avaliação: ótimo/bom 46%, regular 4%, ruim/péssimo 50% (Exame).",
+      "fonte": "https://noticias.uol.com.br/eleicoes/2026/10/24/pesquisa-palver-presidencial-segundo-turno-24-de-outubro.ghtm",
+      "aprovacao": 48,
+      "desaprovacao": 51,
+      "aprovacao_fonte": "https://noticias.uol.com.br/eleicoes/2026/10/24/pesquisa-palver-presidencial-segundo-turno-24-de-outubro.ghtm",
+      "avaliacao": {
+        "otimo_bom": 46,
+        "regular": 4,
+        "ruim_pessimo": 50
+      }
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
     "fora": "AtlasIntel 19/10 e DataTrends 19/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Gerp",
+        "data": "24/10",
+        "flavio": 45,
+        "lula": 48,
+        "fonte": "Gerp · campo 22–24/10 · BR-09327/2026 (Poder360/CNN)"
+      },
+      {
+        "instituto": "Palver",
+        "data": "24/10",
+        "flavio": 47,
+        "lula": 49,
+        "fonte": "Palver · campo 22–24/10 · BR-01794/2026 (UOL)"
+      },
       {
         "instituto": "Gerp",
         "data": "21/10",
