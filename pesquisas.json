@@ -1063,6 +1063,26 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "CNT/MDA",
+      "contratante": "CNT",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-21",
+      "campo": "21 a 23/10/2026 (depois do 1º turno), presencial",
+      "registro": "BR-02136/2026",
+      "entrevistas": 2032,
+      "base": "validos",
+      "flavio": 50.7,
+      "lula": 49.3,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,2",
+      "obs": "Votos válidos. Votos totais: Flávio 46,3%, Lula 45%, branco/nulo 5,8%, indecisos 2,9%. Não votaria: Lula 47,4%, Flávio 47,3%. Avaliação do governo: ótimo/bom 38%, ruim/péssimo 38%. 140 municípios.",
+      "fonte": "https://noticias.uol.com.br/eleicoes/2026/10/24/cntmda-pesquisa-presidencial-24-de-outubro.ghtm",
+      "aprovacao": 47.6,
+      "desaprovacao": 48.8,
+      "aprovacao_fonte": "https://noticias.uol.com.br/eleicoes/2026/10/24/cntmda-pesquisa-presidencial-24-de-outubro.ghtm"
     }
   ],
   "rejeicao": {
@@ -1222,6 +1242,13 @@
         "flavio": 46,
         "lula": 49,
         "fonte": "Gerp · campo 14–16/10 · BR-05187/2026 (Poder360) · não votaria de jeito nenhum"
+      },
+      {
+        "instituto": "CNT/MDA",
+        "data": "24/10",
+        "flavio": 47.3,
+        "lula": 47.4,
+        "fonte": "CNT/MDA · campo 21–23/10 · BR-02136/2026 (UOL) · não votaria"
       }
     ]
   },
@@ -1427,6 +1454,15 @@
         "desaprova": 50,
         "registro": "BR-07926/2026",
         "fonte": "https://www.poder360.com.br/poderdata/flavio-tem-51-e-lula-tem-49-dos-votos-validos-diz-poderdata-aya/"
+      },
+      {
+        "data": "2026-10-24",
+        "instituto": "CNT/MDA",
+        "campo": "21 a 23/10",
+        "aprova": 47.6,
+        "desaprova": 48.8,
+        "registro": "BR-02136/2026",
+        "fonte": "https://noticias.uol.com.br/eleicoes/2026/10/24/cntmda-pesquisa-presidencial-24-de-outubro.ghtm"
       }
     ]
   },
