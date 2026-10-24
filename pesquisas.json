@@ -1206,11 +1206,16 @@
       "brancos_nulos": 8,
       "indecisos": 1,
       "margem": "2",
-      "obs": "Votos totais: Flávio 46%, Lula 45%, branco/nulo/não vai votar 8%, indecisos 1% (instituto divulgou 51×49 nos válidos, modelo likely voter). Rejeição: Flávio 49%, Lula 47%. Aprovação/avaliação do governo não divulgada nesta rodada até agora.",
+      "obs": "Votos totais: Flávio 46%, Lula 45%, branco/nulo/não vai votar 8%, indecisos 1% (instituto divulgou 51×49 nos válidos, modelo likely voter). Rejeição: Flávio 49%, Lula 47%. Aprovação 48%, desaprovação 45%; avaliação positiva 36%, regular 24%, negativa 38% (g1).",
       "fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/24/quaest-2o-turno-votos-validos.ghtml",
-      "aprovacao": null,
-      "desaprovacao": null,
-      "aprovacao_fonte": null
+      "aprovacao": 48,
+      "desaprovacao": 45,
+      "aprovacao_fonte": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/24/quaest-aprovacao-24-outubro.ghtml",
+      "avaliacao": {
+        "otimo_bom": 36,
+        "regular": 24,
+        "ruim_pessimo": 38
+      }
     },
     {
       "instituto": "AtlasIntel",
