@@ -1106,6 +1106,26 @@
       "aprovacao": 47,
       "desaprovacao": 49.7,
       "aprovacao_fonte": "https://brazileconomy.com.br/eleicoes-2026/2026/10/lula-tem-503-dos-votos-validos-e-flavio-497-aponta-pesquisa-brazil-economycolectta/"
+    },
+    {
+      "instituto": "BTG/Nexus",
+      "contratante": "Banco BTG Pactual",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-23",
+      "campo": "23 e 24/10/2026 (depois do 1º turno), por telefone",
+      "registro": "BR-08234/2026",
+      "entrevistas": 2000,
+      "base": "validos",
+      "flavio": 50.5,
+      "lula": 49.5,
+      "brancos_nulos": null,
+      "indecisos": null,
+      "margem": "2,2",
+      "obs": "Votos válidos. Votos totais (estimulada): Flávio 47%, Lula 46%, branco/nulo 5,2%, não sabem 1,8%. Empate técnico. No modelo de eleitor provável (abstenção de 21%): Flávio 52,4%, Lula 47,6% dos válidos. Rejeição: Lula 49,1%, Flávio 46,5%. Governo Lula: 46,1% aprovam, 49,4% desaprovam.",
+      "fonte": "https://veja.abril.com.br/politica/a-nova-pesquisa-btg-nexus-sobre-a-disputa-flavio-x-lula-a-ultima-antes-do-segundo-turno/",
+      "aprovacao": 46.1,
+      "desaprovacao": 49.4,
+      "aprovacao_fonte": "https://veja.abril.com.br/politica/a-nova-pesquisa-btg-nexus-sobre-a-disputa-flavio-x-lula-a-ultima-antes-do-segundo-turno/"
     }
   ],
   "rejeicao": {
@@ -1272,6 +1292,13 @@
         "flavio": 47.3,
         "lula": 47.4,
         "fonte": "CNT/MDA · campo 21–23/10 · BR-02136/2026 (UOL) · não votaria"
+      },
+      {
+        "instituto": "BTG/Nexus",
+        "data": "24/10",
+        "flavio": 46.5,
+        "lula": 49.1,
+        "fonte": "BTG/Nexus · campo 23–24/10 · BR-08234/2026 (Veja) · não votaria"
       }
     ]
   },
@@ -1486,6 +1513,15 @@
         "desaprova": 48.8,
         "registro": "BR-02136/2026",
         "fonte": "https://noticias.uol.com.br/eleicoes/2026/10/24/cntmda-pesquisa-presidencial-24-de-outubro.ghtm"
+      },
+      {
+        "data": "2026-10-24",
+        "instituto": "BTG/Nexus",
+        "campo": "23 e 24/10",
+        "aprova": 46.1,
+        "desaprova": 49.4,
+        "registro": "BR-08234/2026",
+        "fonte": "https://veja.abril.com.br/politica/a-nova-pesquisa-btg-nexus-sobre-a-disputa-flavio-x-lula-a-ultima-antes-do-segundo-turno/"
       }
     ]
   },
