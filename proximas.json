@@ -1,5 +1,5 @@
 {
-  "atualizado": "23/10/2026",
+  "atualizado": "24/10/2026",
   "como_editar": "Lista das próximas divulgações de pesquisas do 2º turno. 'data' = AAAA-MM-DD ou null (aparece 'a confirmar'). 'status' = 'confirmada' ou 'a confirmar'.",
   "itens": [
     {
@@ -77,17 +77,6 @@
       "contratante": null,
       "campo": "21 a 24/10 (conforme ficha)",
       "entrevistas": 2400,
-      "fonte": "https://pesqele-divulgacao.tse.jus.br/"
-    },
-    {
-      "instituto": "Instituto França",
-      "data": "2026-10-24",
-      "status": "confirmada",
-      "obs": "Campo 21 a 23/10 · 1.537 entrevistas",
-      "registro": "BR-04863/2026",
-      "contratante": null,
-      "campo": "21 a 23/10",
-      "entrevistas": 1537,
       "fonte": "https://pesqele-divulgacao.tse.jus.br/"
     },
     {
