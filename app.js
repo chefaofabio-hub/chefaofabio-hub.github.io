@@ -24,7 +24,7 @@ const hojeBR = () => new Date().toLocaleDateString("pt-BR", {timeZone: TZ});
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------------- abas ---------------- */
-const ABAS = ["apuracao", "regioes", "pesquisas", "proximas", "analise", "confiabilidade", "adpf"];
+const ABAS = ["apuracao", "regioes", "pesquisas", "proximas", "analise", "confiabilidade", "adpf", "apostas"];
 const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "apuracao"; };
 function abrirAba() {
   const aba = abaAtual();
@@ -34,8 +34,9 @@ function abrirAba() {
   if (aba === "analise") { carregarAnalise(); vistoAba("anal"); }
   if (aba === "agendas") carregarAgendas();
   if (aba === "adpf" && window.carregarADPF) window.carregarADPF();
+  if (aba === "apostas" && window.carregarApostas) window.carregarApostas();
   if (aba === "confiabilidade") localStorage.setItem("vistoConf", "1");
-  $("pontoConf").hidden = !!localStorage.getItem("vistoConf");
+  $("pontoConf").hidden = true;   // 1.7.24: sem "!" na Confiabilidade (pedido do Fabio)
   if (aba === "proximas") { carregarProximas(); vistoAba("prox"); }
   if (aba === "regioes") { desenharRegioes(); if (Date.now() - ufUltima > 20000) atualizarEstados(); }
 }

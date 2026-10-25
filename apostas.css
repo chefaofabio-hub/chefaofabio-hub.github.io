@@ -1,0 +1,24 @@
+/* aba Mercado de apostas */
+nav.nav a.aposta{background:linear-gradient(180deg,#ff6b6b 0%,#d81e2c 45%,#9b0f1a 100%)!important;color:#fff!important;
+ border-color:#6e0710!important;border-bottom:5px solid #5c050c!important;text-shadow:0 -1px 0 rgba(0,0,0,.5)!important;
+ box-shadow:inset 0 2px 0 rgba(255,255,255,.45),0 2px 1px rgba(60,0,0,.45),0 6px 12px rgba(200,16,46,.45)!important}
+nav.nav a.aposta small{color:#ffe3e3!important;text-shadow:0 -1px 0 rgba(0,0,0,.45)!important}
+nav.nav a.aposta.atual{transform:translateY(3px);border-bottom-width:2px!important;
+ box-shadow:inset 0 3px 6px rgba(0,0,0,.5),0 1px 0 rgba(255,255,255,.6)!important;background:linear-gradient(180deg,#e0303d,#a3101c 55%,#7a0a13)!important}
+.ap-nota{margin:6px auto 12px;padding:8px 12px;border-radius:12px;background:#fff4f4;border:1.5px solid #e9a0a8;color:#8a1020;font-weight:800;text-align:center;font-size:14px}
+#apCards{display:grid;gap:14px}
+.ap-card{background:linear-gradient(180deg,#fff,#eef2f9);border:1.5px solid #8d9bb4;border-bottom:5px solid #6f7f9c;border-radius:16px;padding:12px 14px;
+ box-shadow:inset 0 2px 0 #fff,0 4px 10px rgba(10,25,60,.22)}
+.ap-cab{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+.ap-cab b{font-size:20px;color:#0d1b3a}
+.ap-tag{font-size:12px;font-weight:800;color:#5a6a88;white-space:nowrap}.ap-tag.vivo{color:#14853b}
+.ap-linha{display:flex;justify-content:space-between;align-items:baseline;font-weight:900}
+.ap-nome{font-size:18px}.ap-pct{font-size:28px;text-shadow:0 1px 0 #fff,0 2px 3px rgba(0,0,0,.18)}
+.ap-cand{margin:6px 0 10px}
+.ap-trilho{height:20px;border-radius:10px;overflow:hidden;margin-top:4px;background:linear-gradient(180deg,#d9e0eb,#eef2f8);border:1.5px solid #8d9bb4;box-shadow:inset 0 2px 4px rgba(0,0,0,.28)}
+.ap-trilho i{display:block;height:100%;border-radius:8px 0 0 8px;box-shadow:inset 0 2px 0 rgba(255,255,255,.4),inset 0 -2px 0 rgba(0,0,0,.25)}
+.ap-trilho .f{background:linear-gradient(180deg,#5b8ae6,#1f4fa8 55%,#163a7e)}.ap-trilho .l{background:linear-gradient(180deg,#ff6b6b,#c8102e 55%,#8f0b20)}
+.ap-barra{display:flex;height:18px;border-radius:9px;overflow:hidden;margin:8px 0 8px;border:1.5px solid #5a6a88;box-shadow:inset 0 2px 3px rgba(0,0,0,.3)}
+.ap-barra .f{background:linear-gradient(180deg,#5b8ae6,#1f4fa8 55%,#163a7e)}.ap-barra .l{background:linear-gradient(180deg,#ff6b6b,#c8102e 55%,#8f0b20)}
+.ap-info{font-size:13.5px;color:#44526e;margin-top:2px;overflow-wrap:anywhere}
+.ap-link{display:inline-block;margin-top:10px;font-weight:900;color:#1f4fa8}

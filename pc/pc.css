@@ -1,7 +1,7 @@
 /* Versão PC (1366x768 até 1920x1080). Carrega depois do style.css do celular. */
 body.pc{padding:0 22px 16px}
 body.pc .versao-app,body.pc nav.nav,body.pc .inst,body.pc .quadro{max-width:1760px}
-body.pc nav.nav{grid-template-columns:repeat(6,1fr)!important;position:sticky;top:0;z-index:20;margin-top:6px;box-shadow:0 3px 10px rgba(13,27,58,.12)}
+body.pc nav.nav{grid-template-columns:repeat(7,1fr)!important;position:sticky;top:0;z-index:20;margin-top:6px;box-shadow:0 3px 10px rgba(13,27,58,.12)}
 body.pc nav.nav a{grid-column:auto!important;font-size:17px!important;min-height:48px}
 body.pc nav.nav a small{font-size:12px!important}
 body.pc .inst{display:none!important}
@@ -90,3 +90,11 @@ body.pc #cartoes .pq-t{height:24px;border-radius:12px;border:2px solid #163a7e;b
 body.pc #cartoes .pq-t i{border-radius:10px;background-image:linear-gradient(180deg,rgba(255,255,255,.25) 0%,rgba(255,255,255,.8) 18%,rgba(255,255,255,.2) 40%,rgba(0,0,0,0) 55%,rgba(0,0,0,.22) 100%)!important;background-blend-mode:overlay}
 body.pc #cartoes .pq summary>:not(.pq-esq):not(.pq-mini){flex:1 1 100%}
 body.pc #cartoes .pq-gm{grid-template-columns:80px minmax(0,1fr) minmax(0,1fr)!important;gap:6px!important}body.pc #cartoes .pq-gm .gm-t,body.pc #cartoes .pq-gm .gm-ap,body.pc #cartoes .pq-gm .gm-de,body.pc #cartoes .pq-rj .rj-f,body.pc #cartoes .pq-rj .rj-l{font-size:14px!important;padding:4px 4px!important}body.pc #cartoes .pq-gm .gm-av{font-size:13px}
+/* 1.7.29: Mercado de apostas no PC — dois cartões lado a lado */
+body.pc #aba-apostas #apCards{grid-template-columns:1fr 1fr;gap:22px}
+body.pc #aba-apostas .ap-card{padding:18px 22px}
+body.pc #aba-apostas .ap-pct{font-size:40px}body.pc #aba-apostas .ap-nome{font-size:24px}
+body.pc #aba-apostas .ap-barra{height:26px;border-radius:13px}
+body.pc #aba-apostas .ap-info{font-size:15px}body.pc #aba-apostas .ap-nota{max-width:520px}
+body.pc nav.nav a:last-child:nth-child(odd){grid-column:auto!important;justify-self:stretch!important;width:auto!important}
+body.pc #aba-apostas .ap-trilho{height:28px;border-radius:14px}
