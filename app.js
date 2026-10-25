@@ -895,3 +895,11 @@ async function carregarAgendas() {
     $("agRod").textContent = d.atualizado ? "Atualizado em " + d.atualizado : "—";
   } catch (e) { box.innerHTML = `<div class="vazio">Não foi possível carregar as agendas.</div>`; }
 }
+
+// 1.7.22: relógio digital (horário de Brasília), todas as abas
+(function () {
+  const el = document.getElementById("relogioH"); if (!el) return;
+  const fmt = new Intl.DateTimeFormat("pt-BR", {timeZone: "America/Sao_Paulo", hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false});
+  const tic = () => { el.textContent = fmt.format(new Date()); setTimeout(tic, 1000 - (Date.now() % 1000) + 5); };
+  tic();
+})();

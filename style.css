@@ -585,3 +585,9 @@ nav.nav .adpf-ico{display:none!important}
 .un-c span{font-size:clamp(10px,3vw,12px);line-height:1.15}
 .un-c b{font-size:clamp(17px,5vw,21px);line-height:1.1}
 .urnas-num + #lista .cand:first-child{margin-top:10px}
+
+/* 1.7.22: relógio digital (hora de Brasília) no topo, todas as abas */
+.versao-app{display:flex;justify-content:space-between;align-items:center;gap:8px;padding-left:4px}
+.relogio{display:inline-flex;align-items:baseline;gap:4px;padding:2px 9px;border-radius:9px;border:1.5px solid #163a7e;border-bottom-width:3px;background:linear-gradient(180deg,#ffffff 0%,#e7eefb 100%);box-shadow:0 2px 4px rgba(13,27,58,.18);color:#0d1b3a;font-size:12px;line-height:1.25;letter-spacing:0}
+.relogio b{font-size:15px;font-weight:900;color:#1f4fa8;font-variant-numeric:tabular-nums;letter-spacing:.3px}
+.relogio small{font-size:10px;font-weight:700;color:#5f697d}
