@@ -22,3 +22,7 @@ nav.nav a.aposta.atual{transform:translateY(3px);border-bottom-width:2px!importa
 .ap-barra .f{background:linear-gradient(180deg,#5b8ae6,#1f4fa8 55%,#163a7e)}.ap-barra .l{background:linear-gradient(180deg,#ff6b6b,#c8102e 55%,#8f0b20)}
 .ap-info{font-size:13.5px;color:#44526e;margin-top:2px;overflow-wrap:anywhere}
 .ap-link{display:inline-block;margin-top:10px;font-weight:900;color:#1f4fa8}
+.ap-atu{margin:0 auto 12px;padding:10px 12px;border-radius:14px;text-align:center;font-weight:900;font-size:clamp(16px,4.6vw,20px);color:#fff;
+ background:linear-gradient(180deg,#ff6b6b 0%,#d81e2c 45%,#9b0f1a 100%);border:1.5px solid #6e0710;border-bottom:5px solid #5c050c;
+ text-shadow:0 -1px 0 rgba(0,0,0,.5);box-shadow:inset 0 2px 0 rgba(255,255,255,.45),0 4px 10px rgba(200,16,46,.4)}
+body.na-apostas #inst{display:none!important}

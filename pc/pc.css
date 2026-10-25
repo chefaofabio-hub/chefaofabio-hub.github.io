@@ -98,3 +98,4 @@ body.pc #aba-apostas .ap-barra{height:26px;border-radius:13px}
 body.pc #aba-apostas .ap-info{font-size:15px}body.pc #aba-apostas .ap-nota{max-width:520px}
 body.pc nav.nav a:last-child:nth-child(odd){grid-column:auto!important;justify-self:stretch!important;width:auto!important}
 body.pc #aba-apostas .ap-trilho{height:28px;border-radius:14px}
+body.pc #aba-apostas .ap-atu{max-width:620px;font-size:22px}

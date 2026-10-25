@@ -1,5 +1,5 @@
-// Aba Mercado de apostas: Polymarket (ao vivo no navegador, gamma-api) + Kalshi (API bloqueia navegador → apostas.json,
-// gerado por tools/gerar_apostas.py a cada publicação). Atualiza a cada 60 s só com a aba aberta. NÃO é pesquisa.
+// Aba Mercado de apostas: Polymarket (ao vivo no navegador, gamma-api) + Kalshi (API bloqueia navegador → só apostas.json,
+// gerado por tools/gerar_apostas.py a cada publicação). Atualiza a cada 30 s só com a aba aberta. NÃO é pesquisa.
 (function(){
 const $=i=>document.getElementById(i);
 const TZ="America/Sao_Paulo";
@@ -12,10 +12,6 @@ async function pm(){const r=await fetch("https://gamma-api.polymarket.com/events
  for(const m of e.markets){if(m.closed||!m.outcomePrices)continue;const p=+JSON.parse(m.outcomePrices)[0],n=m.groupItemTitle||"";
   if(n.includes("Flávio"))o.flavio=p;if(n.includes("Lula"))o.lula=p}
  if(o.flavio==null||o.lula==null)throw 0;return o}
-async function ks(){const r=await fetch("https://api.elections.kalshi.com/trade-api/v2/markets?event_ticker=KXBRPRES-26",{cache:"no-store"});
- const ms=(await r.json()).markets,o={contratos:0,atualizado:new Date().toISOString(),vivo:1};
- for(const m of ms){o.contratos+=+m.volume_fp||0;if(m.ticker.endsWith("-FBOL"))o.flavio=+m.last_price_dollars;if(m.ticker.endsWith("-LULA"))o.lula=+m.last_price_dollars}
- if(o.flavio==null)throw 0;return o}
 function cartao(nome,cls,url,d,volTxt){
  if(!d)return `<div class="ap-card ${cls}"><div class="ap-cab"><b>${nome}</b></div><p class="nota">Sem dados agora.</p></div>`;
  const lin=(n,c,v)=>`<div class="ap-cand"><div class="ap-linha"><span class="ap-nome ${c}">${n}</span><span class="ap-pct ${c}">${pct(v)}</span></div><div class="ap-trilho"><i class="${c==="az"?"f":"l"}" style="width:${Math.max(0,Math.min(100,(v||0)*100))}%"></i></div></div>`;
@@ -26,13 +22,14 @@ function cartao(nome,cls,url,d,volTxt){
 function desenhar(){if(!res)return;const p=res.polymarket,k=res.kalshi;
  $("apCards").innerHTML=cartao("Polymarket","pm","https://polymarket.com/event/brazil-presidential-election",p,p?`Volume apostado: <b>US$ ${mi(p.volume)}</b> (evento todo)`:"")
   +cartao("Kalshi","ks","https://kalshi.com/markets/kxbrpres/brazil-presidency/kxbrpres-26",k,k?`Negociado: <b>${mi(k.contratos)} de contratos</b> (evento todo)`:"");
- $("apRod").textContent="Chance = preço do contrato \"Sim\" (US$ 0 a 1). Atualiza sozinho a cada 1 min com a aba aberta."}
+ $("apRod").textContent="Chance = preço do contrato \"Sim\" (US$ 0 a 1). Polymarket ao vivo; Kalshi na última leitura (bloqueia busca direta)."}
 async function carregar(){
  let base={};try{base=await (await fetch("apostas.json?t="+Date.now(),{cache:"no-store"})).json()}catch(_){}
  res={polymarket:(res&&res.polymarket&&res.polymarket.vivo&&res.polymarket)||base.polymarket||(res&&res.polymarket),kalshi:(res&&res.kalshi&&res.kalshi.vivo&&res.kalshi)||base.kalshi||(res&&res.kalshi)};desenhar();
  try{res.polymarket=await pm()}catch(_){}
- if(kalshiVivo){try{res.kalshi=await ks()}catch(_){kalshiVivo=false}}
+ 
  desenhar()}
-window.carregarApostas=function(){carregar();clearInterval(timer);timer=setInterval(()=>{if(location.hash==="#apostas"&&!document.hidden)carregar();else clearInterval(timer)},60000)};
+window.carregarApostas=function(){carregar();clearInterval(timer);timer=setInterval(()=>{if(location.hash==="#apostas"&&!document.hidden)carregar();else clearInterval(timer)},30000)};
+const marca=()=>document.body.classList.toggle("na-apostas",location.hash==="#apostas");marca();window.addEventListener("hashchange",marca);
 if(location.hash==="#apostas")window.carregarApostas();
 })();
