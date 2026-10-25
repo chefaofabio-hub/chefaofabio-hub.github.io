@@ -21,3 +21,47 @@ body.pc .rod,body.pc .vivo{font-size:15px}
   body.pc .pc-dir #regioes{grid-template-columns:repeat(3,minmax(0,1fr))}
   body.pc .quadro h1{font-size:40px}
 }
+/* 1.7.22: Apuração compacta para caber nacional + 5 regiões em 1366x768 */
+body.pc .versao-app{margin:2px auto -4px;font-size:10px}
+body.pc nav.nav{margin-top:2px;padding:5px!important;gap:6px!important}
+body.pc nav.nav a{min-height:38px!important;font-size:15px!important;padding:4px!important}
+body.pc nav.nav a small{font-size:10.5px!important}
+body.pc .pc-grid{zoom:.74;padding:14px 20px 10px;grid-template-columns:minmax(480px,.8fr) 1.45fr;gap:22px;margin-top:6px}
+body.pc .pc-dir #regioes{grid-template-columns:repeat(3,minmax(0,1fr))}
+body.pc .pc-dir #resultado hr{display:none}
+body.pc .pc-dir #extras{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
+/* 1.7.23: layout de computador nas demais abas (menos ADPF) */
+body.pc #aba-pesquisas,body.pc #aba-analise,body.pc #aba-proximas,body.pc #aba-confiabilidade{zoom:.8;padding:16px 22px 12px;margin-top:6px}
+body.pc #aba-pesquisas h1,body.pc #aba-analise h1,body.pc #aba-proximas h1,body.pc #aba-confiabilidade h1{font-size:32px!important;margin:0}
+/* Pesquisas: cartões em 2 colunas */
+body.pc #aba-pesquisas .aviso-graf,body.pc #aba-pesquisas .aviso2t{margin:6px 0}
+body.pc #cartoes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 14px;align-items:start}
+body.pc #cartoes>details.pq{margin:0!important;min-width:0}
+/* Análise: média + gráfico lado a lado */
+body.pc #analise{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px 18px;align-items:start}
+body.pc #analise>*{margin:0!important;min-width:0}
+body.pc #analise>:nth-child(n+5){grid-column:1/-1}
+body.pc #analise>.pc-col{grid-column:2!important}
+body.pc #analise>.pc-col>*{margin:0 0 8px}
+body.pc #analise .pq-svg{max-height:330px;width:100%}
+/* Próximas: 3 colunas */
+body.pc #proximas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}
+body.pc #proximas>*{margin:0!important;min-width:0}
+body.pc #proximas>.vazio{grid-column:1/-1}
+/* Confiabilidade: ranking em 2 colunas */
+body.pc .cf-lista{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px}
+body.pc .cf-lista>li{margin:0!important;min-width:0}
+@media (min-width:1700px){body.pc #cartoes{grid-template-columns:repeat(3,minmax(0,1fr))}body.pc #proximas{grid-template-columns:repeat(4,minmax(0,1fr))}}
+body.pc #aba-pesquisas,body.pc #aba-analise,body.pc #aba-proximas,body.pc #aba-confiabilidade{max-width:2200px}
+body.pc #aba-apuracao{margin-bottom:0}
+body.pc .pc-dir .rod,body.pc .pc-dir .vivo{margin-top:4px}
+body.pc #aba-apuracao{max-width:none;margin-left:0;margin-right:0}
+body.pc{padding-bottom:0}body.pc #aba-apuracao{margin-bottom:0!important}
+body.pc .pc-grid{grid-template-columns:minmax(0,1fr) minmax(0,1.9fr)}body.pc .pc-dir #regioes{grid-template-columns:repeat(5,minmax(0,1fr))!important}
+body.pc .pc-grid{grid-template-columns:minmax(0,.62fr) minmax(0,1.9fr);gap:18px}body.pc .pc-dir{padding-left:16px}body.pc .pc-dir #regioes{gap:10px}
+body.pc .pc-dir .regc{padding-left:10px!important;padding-right:10px!important}
+body.pc .pc-dir .rc-vv .rv{font-size:15px!important;gap:4px;letter-spacing:-.3px}
+body.pc .pc-dir .rc-vv .rv b{font-size:18px}
+body.pc .pc-dir .rc-vot .rv{font-size:13px!important}
+body.pc .pc-dir .rc-vot .rv b{font-size:14px}
+body.pc .pc-dir .rc-pu span{font-size:14px}

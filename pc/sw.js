@@ -1,5 +1,5 @@
 // SW da versão PC (escopo /pc/). Rede primeiro; cache só como reserva offline. Não toca no app do celular.
-const CACHE = "apuracao-pc-v1";
+const CACHE = "apuracao-pc-v4";
 self.addEventListener("install", e => self.skipWaiting());
 self.addEventListener("activate", e => e.waitUntil((async () => {
   for (const k of await caches.keys()) if (k.startsWith("apuracao-pc-") && k !== CACHE) await caches.delete(k);
