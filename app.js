@@ -128,6 +128,9 @@ function mostrar(r) {
   else { const lid = f.votos > l.votos ? "Flávio" : "Lula";
          st = `${lid} na frente por ${fint(Math.abs(f.votos - l.votos))} votos`; }
   $("status").textContent = st;
+  { const vg = $("vantagem"), dv = Math.abs(f.votos - l.votos);         // vantagem ao vivo: votos do líder − votos do outro
+    vg.hidden = f.votos + l.votos <= 0;
+    vg.textContent = `Ganhando pela vantagem = ${fint(dv)} votos`; }
   $("hora").textContent = r.hora;
   mostrarEleito(r);
 }
@@ -199,7 +202,7 @@ let timerContagem = null;
 function modoEspera(sim) {
   $("espera").hidden = !sim; $("resultado").hidden = sim;
   $("linhaHora").hidden = sim;
-  if (sim) { zerarCandidatos(); eleitoEspera(); }
+  if (sim) { zerarCandidatos(); eleitoEspera(); $("vantagem").hidden = true; }
   clearInterval(timerContagem);
   if (sim) { contagem(); timerContagem = setInterval(contagem, 1000); }
 }
