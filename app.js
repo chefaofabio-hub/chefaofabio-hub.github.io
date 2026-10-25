@@ -765,13 +765,16 @@ const b64u8 = b => { const s = atob((b + "=".repeat((4 - b.length % 4) % 4)).rep
 async function enviarInscricao(sub, rota = "subscribe") {
   const ep = await (await fetch("push_endpoint.json?t=" + Date.now(), {cache: "no-store"})).json();
   const r = await fetch(ep.url.replace(/\/$/, "") + "/" + rota, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(sub)});
+  if (r.status === 410) { const e = new Error("recusada"); e.recusada = true; throw e; }
   if (!r.ok) throw new Error("coletor " + r.status);
   if (rota === "subscribe") localStorage.setItem("alertaEnviado", Date.now() + " " + sub.endpoint);
 }
 function msgAlerta(t) { const m = $("alertaMsg"); m.innerHTML = t || ""; m.hidden = !t; }
 function estadoAlerta() {
   const box = $("alertaBox"), btn = $("btnAlerta");
-  const ativo = localStorage.getItem("alertaAtivo") === "1" && PUSH_OK && Notification.permission === "granted";
+  const quer = localStorage.getItem("alertaAtivo") === "1" && PUSH_OK && Notification.permission === "granted";
+  const ativo = quer && !!localStorage.getItem("alertaEnviado");   // 1.7.25: só "ativado" com confirmação do servidor
+  btn.firstChild.textContent = quer && !ativo ? "🔔 Reativar alertas " : "🔔 Ativar alertas de nova pesquisa ";
   box.hidden = false;
   if (ativo) {
     btn.hidden = true;
@@ -800,9 +803,8 @@ async function ativarAlertas() {
     const perm = await Notification.requestPermission();
     if (perm !== "granted") { msgAlerta("Sem permissão, não dá para avisar. Se mudar de ideia, toque de novo e escolha <b>Permitir</b>."); return; }
     const reg = await navigator.serviceWorker.ready;
-    const sub = await reg.pushManager.getSubscription() || await reg.pushManager.subscribe({userVisibleOnly: true, applicationServerKey: b64u8(VAPID)});
     localStorage.setItem("alertaAtivo", "1"); localStorage.removeItem("alertaEnviado");
-    try { await enviarInscricao(sub.toJSON()); } catch (e) { /* tenta de novo na próxima vez que abrir o app */ }
+    try { await inscreverConfirmar(reg); } catch (e) { msgAlerta("Não consegui confirmar com o servidor agora. Toque em <b>Reativar alertas</b> em instantes."); }
     estadoAlerta();
   } catch (e) {
     msgAlerta("Não consegui ativar agora. Tente de novo em instantes.");
@@ -814,15 +816,25 @@ async function desativarAlertas() {
         if (sub) { const j = sub.toJSON(); await sub.unsubscribe(); enviarInscricao(j, "unsubscribe").catch(() => {}); } } catch (e) {}
   estadoAlerta();
 }
-async function conferirInscricao() {    // reenvia se o envio falhou, se a inscrição mudou ou a cada 3 dias
-  if (!PUSH_OK || localStorage.getItem("alertaAtivo") !== "1" || Notification.permission !== "granted") return;
-  try {
-    const reg = await navigator.serviceWorker.ready;
-    let sub = await reg.pushManager.getSubscription();
-    if (!sub) sub = await reg.pushManager.subscribe({userVisibleOnly: true, applicationServerKey: b64u8(VAPID)});
-    const [quando, ep] = (localStorage.getItem("alertaEnviado") || "0 ").split(" ");
-    if (ep !== sub.endpoint || Date.now() - +quando > 3 * UM_DIA) await enviarInscricao(sub.toJSON());
-  } catch (e) {}
+async function inscreverConfirmar(reg) {   // 1.7.25: envia ao servidor atual; se o servidor disser que a inscrição foi recusada, cria outra
+  let sub = await reg.pushManager.getSubscription();
+  if (!sub) sub = await reg.pushManager.subscribe({userVisibleOnly: true, applicationServerKey: b64u8(VAPID)});
+  try { await enviarInscricao(sub.toJSON()); }
+  catch (e) {
+    if (!e.recusada) throw e;
+    try { await sub.unsubscribe(); } catch (_) {}
+    sub = await reg.pushManager.subscribe({userVisibleOnly: true, applicationServerKey: b64u8(VAPID)});
+    await enviarInscricao(sub.toJSON());
+  }
+}
+let conferindo = false;
+async function conferirInscricao(sempre) {    // 1.7.25: ao abrir o app reenvia sempre; ao voltar para o app, no máx. 1x/dia
+  if (conferindo || !PUSH_OK || localStorage.getItem("alertaAtivo") !== "1" || Notification.permission !== "granted") return;
+  const [quando] = (localStorage.getItem("alertaEnviado") || "0 ").split(" ");
+  if (!sempre && localStorage.getItem("alertaEnviado") && Date.now() - +quando < UM_DIA) return;
+  conferindo = true;
+  try { const reg = await navigator.serviceWorker.ready; await inscreverConfirmar(reg); }
+  catch (e) { localStorage.removeItem("alertaEnviado"); } finally { conferindo = false; estadoAlerta(); }
 }
 $("btnAlerta").addEventListener("click", ativarAlertas);
 $("btnAlertaTopo").addEventListener("click", () => { ativarAlertas().then(() => { if ($("alertaMsg").textContent) location.hash = "#pesquisas"; }); });
@@ -848,7 +860,7 @@ function limparSeloApp() {             // abriu o app: some o selo do ícone e o
 }
 limparSeloApp();
 document.addEventListener("visibilitychange", () => { if (!document.hidden) limparSeloApp(); });
-conferirInscricao();
+conferirInscricao(true);
 atualizar();
 setInterval(atualizar, INTERVALO_MS);
 setInterval(checarNovas, 5 * 60000);
