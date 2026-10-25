@@ -1256,6 +1256,26 @@
       "aprovacao": null,
       "desaprovacao": null,
       "aprovacao_fonte": null
+    },
+    {
+      "instituto": "Veritá",
+      "contratante": "Recursos próprios",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-19",
+      "campo": "19 a 23/10/2026 (depois do 1º turno), por telefone (URA)",
+      "registro": "BR-03181/2026",
+      "entrevistas": 15554,
+      "base": "validos",
+      "flavio": 51.6,
+      "lula": 48.4,
+      "brancos_nulos": 1.4,
+      "indecisos": 2.7,
+      "margem": "1",
+      "obs": "Válidos divulgados: Flávio 51,56%, Lula 48,44%. Votos totais: Flávio 49,44%, Lula 46,46%, branco/nulo 1,43%, não sabe 2,67%. Expectativa de vitória (válidos): Flávio 54,05%, Lula 45,95%. Rejeição e aprovação do governo não divulgadas.",
+      "fonte": "https://exame.com/brasil/pesquisa-verita-flavio-bolsonaro-tem-5156-e-lula-4844-no-2o-turno/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
