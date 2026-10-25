@@ -250,7 +250,7 @@ const UFS = {   // uf -> região
   pr: "S", rs: "S", sc: "S",
   df: "CO", go: "CO", ms: "CO", mt: "CO",
 };
-const REGIOES = [["N", "Norte"], ["NE", "Nordeste"], ["SE", "Sudeste"], ["S", "Sul"], ["CO", "Centro-Oeste"]];
+const REGIOES = [["S", "Sul"], ["SE", "Sudeste"], ["CO", "Centro-Oeste"], ["N", "Norte"], ["NE", "Nordeste"]];
 const dadosUF = {};            // uf -> {f, l, vv, st, ts} | {status:"aguardando"|"erro"}
 let timerEstados = null, ufCarregando = false, ufUltima = 0;
 const urlUF = (id, uf) => `${TSE}/${CICLO}/${id}/dados/${uf}/${uf}-c0001-e${String(id).padStart(6, "0")}-u.json`;
