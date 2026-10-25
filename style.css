@@ -537,3 +537,4 @@ nav.nav .adpf-ico{display:none!important}
 .selo-vant{display:block;box-sizing:border-box;width:fit-content;max-width:100%;margin-left:auto;margin-right:auto;padding:8px 16px;border:2px solid var(--azul);border-radius:12px;background:linear-gradient(#ffffff,#eaf0fb);box-shadow:0 2px 6px rgba(31,79,168,.15);color:#0d1b3a;font-weight:800;white-space:nowrap;letter-spacing:-.2px;overflow:hidden;text-overflow:ellipsis}
 .an-vdif.selo-vant{font-size:clamp(15px,4.5vw,19px);margin-top:10px}
 .vantagem.selo-vant{font-size:clamp(16px,4.8vw,22px);margin-top:28px;margin-bottom:8px}
+.selo-vant{white-space:normal;overflow:visible;text-overflow:clip;text-align:center;line-height:1.25}.selo-vant .nw{white-space:nowrap}

@@ -130,7 +130,7 @@ function mostrar(r) {
   $("status").textContent = st;
   { const vg = $("vantagem"), dv = Math.abs(f.votos - l.votos);         // vantagem ao vivo: votos do líder − votos do outro
     vg.hidden = f.votos + l.votos <= 0;
-    vg.textContent = `Vantagem = ${fint(dv)} votos`; }
+    vg.innerHTML = `Vantagem = <span class="nw">${fint(dv)} votos</span>`; }
   $("hora").textContent = r.hora;
   mostrarEleito(r);
 }
@@ -599,7 +599,7 @@ async function carregarAnalise() {
     $("analise").innerHTML = `
       <div class="an-card"><div class="an-tit">Média de todas as pesquisas</div>
         <div class="an-sub">${ps.length} pesquisa${ps.length === 1 ? "" : "s"} de ${m.n} instituto${m.n === 1 ? "" : "s"} · última de cada instituto</div>
-        ${barra("Flávio Bolsonaro", m.f, "az", "var(--flavio)")}${votos(m.f)}${barra("Lula", m.l, "vm", "var(--lula)")}${votos(m.l)}${lid}<div class="an-vdif selo-vant">Vantagem = ≈ ${Math.abs(Math.round(vvEst * m.f / 100) - Math.round(vvEst * m.l / 100)).toLocaleString("pt-BR")} votos</div><div class="an-vnota">estimativa: eleitores aptos (TSE) × comparecimento e votos válidos do 1º turno</div></div>
+        ${barra("Flávio Bolsonaro", m.f, "az", "var(--flavio)")}${votos(m.f)}${barra("Lula", m.l, "vm", "var(--lula)")}${votos(m.l)}${lid}<div class="an-vdif selo-vant">Vantagem = <span class="nw">${Math.abs(Math.round(vvEst * m.f / 100) - Math.round(vvEst * m.l / 100)).toLocaleString("pt-BR")} votos</span></div><div class="an-vnota">estimativa: eleitores aptos (TSE) × comparecimento e votos válidos do 1º turno</div></div>
       <div class="pq-graf"><div class="pq-gcab"><span>Evolução da média</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>${graficoMedia(serie)}
         <div class="pq-gnota">${serie.length === 1 ? "A linha aparece quando sair pesquisa em outra data." : "Cada ponto é a média nas datas de divulgação."}</div></div>
       ${blocoGovMedia(ps)}
