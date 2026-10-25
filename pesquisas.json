@@ -1236,12 +1236,39 @@
       "aprovacao": 47.9,
       "desaprovacao": 50.8,
       "aprovacao_fonte": "https://www.cnnbrasil.com.br/eleicoes/atlas-lula-e-desaprovado-por-508-dos-eleitores-479-aprovam/"
+    },
+    {
+      "instituto": "Futura Inteligência",
+      "contratante": "100% Cidades",
+      "divulgacao": "2026-10-24",
+      "campo_inicio": "2026-10-23",
+      "campo": "23 e 24/10/2026 (depois do 1º turno), por telefone (CATI)",
+      "registro": "BR-09726/2026",
+      "entrevistas": 2000,
+      "base": "validos",
+      "flavio": 50.2,
+      "lula": 49.8,
+      "brancos_nulos": 2.3,
+      "indecisos": 1.6,
+      "margem": "2,2",
+      "obs": "Votos totais: Flávio 48,2%, Lula 47,9%, branco/nulo/ninguém 2,3%, NS/indecisos 1,6% (instituto divulgou 50,1×49,9 nos válidos). Rejeição: Flávio 46,6%, Lula 46,2%. Aprovação/avaliação do governo não medida/divulgada nesta rodada.",
+      "fonte": "https://exame.com/brasil/pesquisa-futura-flavio-bolsonaro-tem-501-e-lula-499-no-2o-turno/",
+      "aprovacao": null,
+      "desaprovacao": null,
+      "aprovacao_fonte": null
     }
   ],
   "rejeicao": {
     "obs": "não votaria de jeito nenhum",
     "fora": "AtlasIntel 19/10 e 24/10 e DataTrends 19/10 não divulgaram rejeição",
     "itens": [
+      {
+        "instituto": "Futura Inteligência",
+        "data": "24/10",
+        "flavio": 46.6,
+        "lula": 46.2,
+        "fonte": "Futura/100% Cidades · campo 23–24/10 · BR-09726/2026 (Exame)"
+      },
       {
         "instituto": "Quaest",
         "data": "24/10",
