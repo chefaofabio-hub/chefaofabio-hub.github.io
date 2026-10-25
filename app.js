@@ -564,6 +564,11 @@ async function carregarAnalise() {
     const serie = datas.map(dt => ({d: dt, ...mediaAte(ps.filter(p => p.divulgacao <= dt))}));
     const lid = Math.abs(d) < 0.05 ? `<div class="an-lid emp">Empate na média</div>` :
       `<div class="an-lid ${d > 0 ? "az" : "vm"}">${d > 0 ? "Flávio" : "Lula"} lidera por ${pp(Math.abs(d))} ponto${Math.abs(pp(Math.abs(d)).replace(",", ".")) === 1 ? "" : "s"}</div>`;
+    // Votos estimados (fontes: TSE, resultados.tse.jus.br, 1º turno presidencial 04/10/2026, eleição 6257, arquivo br.json de 05/10 12:51):
+    // eleitores aptos 158.745.502 (mesmo eleitorado no 2º turno) · comparecimento 125.275.835 (78,916%) · válidos 119.300.788 (95,230% do comparecimento)
+    const EST = {aptos: 158745502, comp: 125275835 / 158745502, valComp: 119300788 / 125275835};
+    const vvEst = EST.aptos * EST.comp * EST.valComp;
+    const votos = v => `<div class="an-votos ${v === m.f ? "az" : "vm"}">≈ ${Math.round(vvEst * v / 100).toLocaleString("pt-BR")} votos</div>`;
     const barra = (nome, v, cls, cor) => `<div class="an-b"><div class="an-nm ${cls}">${nome}</div><div class="an-t"><i style="width:${v}%;background:${cor}"></i><em></em></div><div class="an-v ${cls}">${pp(v)}%</div></div>`;
     const tab = ps.slice().reverse().map(p => `<tr><td>${esc(p.instituto)}</td><td>${dataBR(p.divulgacao).slice(0, 5)}</td><td class="az">${pp(valF(p))}%</td><td class="vm">${pp(100 - valF(p))}%</td></tr>`).join("");
     const rej = dados.rejeicao || {};
@@ -591,7 +596,7 @@ async function carregarAnalise() {
     $("analise").innerHTML = `
       <div class="an-card"><div class="an-tit">Média de todas as pesquisas</div>
         <div class="an-sub">${ps.length} pesquisa${ps.length === 1 ? "" : "s"} de ${m.n} instituto${m.n === 1 ? "" : "s"} · última de cada instituto</div>
-        ${barra("Flávio Bolsonaro", m.f, "az", "var(--flavio)")}${barra("Lula", m.l, "vm", "var(--lula)")}${lid}</div>
+        ${barra("Flávio Bolsonaro", m.f, "az", "var(--flavio)")}${votos(m.f)}${barra("Lula", m.l, "vm", "var(--lula)")}${votos(m.l)}${lid}<div class="an-vnota">estimativa: eleitores aptos (TSE) × comparecimento e votos válidos do 1º turno</div></div>
       <div class="pq-graf"><div class="pq-gcab"><span>Evolução da média</span><span class="leg2"><b class="az">●</b> Flávio <b class="vm">●</b> Lula</span></div>${graficoMedia(serie)}
         <div class="pq-gnota">${serie.length === 1 ? "A linha aparece quando sair pesquisa em outra data." : "Cada ponto é a média nas datas de divulgação."}</div></div>
       ${blocoGovMedia(ps)}

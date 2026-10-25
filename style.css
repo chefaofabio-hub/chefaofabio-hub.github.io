@@ -526,3 +526,6 @@ nav.nav .adpf-ico{display:none!important}
 /* espaço maior entre votos e % (Apuração 2º turno) */
 .cand .pct,.cand.grande .pct{margin-left:16px;flex-shrink:0}
 .cand .votos{padding-right:4px}
+
+.an-votos{text-align:right;font-size:13px;font-weight:800;margin:-4px 2px 8px}.an-votos.az{color:var(--flavio)}.an-votos.vm{color:var(--lula)}
+.an-vnota{text-align:center;font-size:11px;color:var(--cinza);font-weight:600;margin-top:6px}
