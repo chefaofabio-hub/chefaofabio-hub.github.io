@@ -565,3 +565,9 @@ nav.nav .adpf-ico{display:none!important}
 .cand .linha2{margin-top:9px}
 .cand .trilho{height:34px!important;border-radius:17px!important}
 .cand .barra{border-radius:15px!important}
+/* 1.7.18: barra na largura toda, percentual abaixo */
+.cand .linha2{flex-wrap:wrap;row-gap:5px;gap:0}
+.cand .linha2 .trilho{flex:1 1 100%;width:100%;margin:0}
+.cand .pct,.cand.grande .pct{width:auto!important;margin-left:auto!important;display:flex;align-items:baseline;gap:6px;line-height:1.1}
+.cand .pct small{display:inline!important}
+.cand .linha2{row-gap:12px}.cand .pct{padding-top:2px}
