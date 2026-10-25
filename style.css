@@ -555,3 +555,13 @@ nav.nav .adpf-ico{display:none!important}
 .rc-vot{margin:8px 0 2px}
 .rc-vot .rv{font-size:clamp(13px,4vw,16px)}
 .rc-vot .rv b{font-size:1.12em}
+/* 1.7.17: apuração maior e homogênea */
+.cand{margin-top:18px}
+.cand .nome{font-size:clamp(21px,6.1vw,28px)}
+.cand .votos,.cand.grande .votos{font-size:clamp(19px,5.5vw,25px)}
+.cand .votos small{font-size:15px}
+.cand .pct,.cand.grande .pct{width:92px;font-size:clamp(18px,5.2vw,21px)}
+.cand .pct small{font-size:12px}
+.cand .linha2{margin-top:9px}
+.cand .trilho{height:34px!important;border-radius:17px!important}
+.cand .barra{border-radius:15px!important}
