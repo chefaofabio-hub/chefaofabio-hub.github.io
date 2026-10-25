@@ -288,12 +288,14 @@ function cartaoRegiao(cod, nome) {
     com++; f += d.f; l += d.l; vv += d.vv; st += d.st; ts += d.ts; }
   const pu = ts ? 100 * st / ts : 0;
   if (!com || (vv === 0 && pu === 0)) return `<div class="regc esp"><div class="rc-top"><span class="rc-n">${nome}</span></div>
+      <div class="rc-vv"><div class="rv az"><span>Flávio Bolsonaro</span><b>0,00%</b></div><div class="rv vm"><span>Lula</span><b>0,00%</b></div></div>
       <div class="rc-pu"><b>0%</b><span>urnas apuradas</span></div><div class="rc-prog"><i style="width:0"></i></div>
       <div class="rc-ag">aguardando início da apuração</div></div>`;
   const lid = f > l ? "f" : l > f ? "l" : "";
   const pf = vv ? 100 * f / vv : 0, pl = vv ? 100 * l / vv : 0, t = f + l;
   const frase = lid ? `${lid === "f" ? "Flávio" : "Lula"} na frente por ${fint(Math.abs(f - l))} votos` : "Empate";
   return `<div class="regc ${lid ? "lid-" + lid : ""}"><div class="rc-top"><span class="rc-n">${nome}</span></div>
+    <div class="rc-vv"><div class="rv az"><span>Flávio Bolsonaro</span><b>${fpct(pf, 2)}</b></div><div class="rv vm"><span>Lula</span><b>${fpct(pl, 2)}</b></div></div>
     <div class="rc-pu"><b>${fpctUrna(pu)}</b><span>urnas apuradas</span></div>
     <div class="rc-prog"><i style="width:${Math.min(100, pu)}%"></i></div>
     <div class="rc-cand"><span class="az${lid === "f" ? " lid" : ""}">Flávio <b>${fpct(pf, 1)}</b></span><span class="vm${lid === "l" ? " lid" : ""}"><b>${fpct(pl, 1)}</b> Lula</span></div>
