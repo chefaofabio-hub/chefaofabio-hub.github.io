@@ -230,6 +230,7 @@ async function atualizar() {
     }
     if (!resp.ok) throw new Error("HTTP " + resp.status);
     const r = calcular(await resp.json());
+    if (r.ts > 0) { $("unTot").textContent = fint(r.ts); $("unAp").textContent = fint(r.st); }   // TSE: s.ts (total de seções) e s.st (seções totalizadas)
     const zerado = r.validos === 0 && r.pu === 0;
     if (zerado && Date.now() < INICIO.getTime() && !temDados) { modoEspera(true); }
     else { temDados = !zerado; modoEspera(false); mostrar(r); }
