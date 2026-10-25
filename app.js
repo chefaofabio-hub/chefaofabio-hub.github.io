@@ -298,8 +298,6 @@ function cartaoRegiao(cod, nome) {
     <div class="rc-vv"><div class="rv az"><span>Flávio Bolsonaro</span><b>${fpct(pf, 2)}</b></div><div class="rv vm"><span>Lula</span><b>${fpct(pl, 2)}</b></div></div>
     <div class="rc-pu"><b>${fpctUrna(pu)}</b><span>urnas apuradas</span></div>
     <div class="rc-prog"><i style="width:${Math.min(100, pu)}%"></i></div>
-    <div class="rc-cand"><span class="az${lid === "f" ? " lid" : ""}">Flávio <b>${fpct(pf, 1)}</b></span><span class="vm${lid === "l" ? " lid" : ""}"><b>${fpct(pl, 1)}</b> Lula</span></div>
-    <div class="rc-split"><i class="sf" style="width:${t ? 100 * f / t : 0}%"></i><i class="sl" style="width:${t ? 100 * l / t : 0}%"></i><span class="s50"></span></div>
     <div class="rc-lid ${lid === "f" ? "az" : lid === "l" ? "vm" : ""}">${frase}</div></div>`;
 }
 function desenharRegioes() { const box = $("regioes"); if (box) box.innerHTML = REGIOES.map(([c, n]) => cartaoRegiao(c, n)).join(""); }
