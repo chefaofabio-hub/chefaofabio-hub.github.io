@@ -26,3 +26,6 @@ nav.nav a .adpf-ico{width:20px;height:20px;vertical-align:-4px;margin-right:6px;
 #aba-adpf .ex{border-color:#e7b3b3;background:#fff6f6}#aba-adpf .ex h3{color:#c8102e}
 #aba-adpf .nota{color:var(--cinza);font-size:13px;font-weight:600;margin:4px 0 6px;text-align:center}
 #aba-adpf .cd .nota{text-align:left}
+
+.adnovo{position:relative;border:2px solid #e00b2b!important}
+.adexc{position:absolute;top:-9px;right:-6px;min-width:20px;height:20px;border-radius:10px;background:#e00b2b;color:#fff;font-weight:900;font-size:14px;line-height:20px;text-align:center;box-shadow:0 0 0 2px #fff}
