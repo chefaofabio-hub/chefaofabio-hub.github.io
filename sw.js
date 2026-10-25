@@ -1,6 +1,6 @@
 // Service worker: guarda o "casco" do app para abrir rápido/offline e recebe os alertas de nova pesquisa.
 // Dados (TSE, pesquisas.json, push_endpoint.json) NUNCA vêm do cache se a rede responder.
-const VERSAO = "apuracao-pres-v88";
+const VERSAO = "apuracao-pres-v89";
 const CASCO = ["./", "index.html", "style.css?v=79", "app.js?v=79", "adpf.js?v=2", "adpf.css?v=2", "manifest.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png"];
 const PESQ = "https://chefaofabio-hub.github.io/#pesquisas";
