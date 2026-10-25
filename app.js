@@ -290,6 +290,7 @@ function cartaoRegiao(cod, nome) {
   if (!com || (vv === 0 && pu === 0)) return `<div class="regc esp"><div class="rc-top"><span class="rc-n">${nome}</span></div>
       <div class="rc-vv"><div class="rv az"><span>Flávio Bolsonaro</span><b>0,00%</b></div><div class="rv vm"><span>Lula</span><b>0,00%</b></div></div>
       <div class="rc-pu"><b>0%</b><span>urnas apuradas</span></div><div class="rc-prog"><i style="width:0"></i></div>
+      <div class="rc-vv rc-vot"><div class="rv az"><span>Flávio Bolsonaro</span><b>0 votos</b></div><div class="rv vm"><span>Lula</span><b>0 votos</b></div></div>
       <div class="rc-ag">aguardando início da apuração</div></div>`;
   const lid = f > l ? "f" : l > f ? "l" : "";
   const pf = vv ? 100 * f / vv : 0, pl = vv ? 100 * l / vv : 0, t = f + l;
@@ -298,7 +299,7 @@ function cartaoRegiao(cod, nome) {
     <div class="rc-vv"><div class="rv az"><span>Flávio Bolsonaro</span><b>${fpct(pf, 2)}</b></div><div class="rv vm"><span>Lula</span><b>${fpct(pl, 2)}</b></div></div>
     <div class="rc-pu"><b>${fpctUrna(pu)}</b><span>urnas apuradas</span></div>
     <div class="rc-prog"><i style="width:${Math.min(100, pu)}%"></i></div>
-    <div class="rc-lid ${lid === "f" ? "az" : lid === "l" ? "vm" : ""}">${frase}</div></div>`;
+    <div class="rc-vv rc-vot"><div class="rv az"><span>Flávio Bolsonaro</span><b>${fint(f)} votos</b></div><div class="rv vm"><span>Lula</span><b>${fint(l)} votos</b></div></div></div>`;
 }
 function desenharRegioes() { const box = $("regioes"); if (box) box.innerHTML = REGIOES.map(([c, n]) => cartaoRegiao(c, n)).join(""); }
 
