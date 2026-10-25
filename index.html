@@ -31,11 +31,11 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=83">
+<link rel="stylesheet" href="style.css?v=84">
 <link rel="stylesheet" href="adpf.css?v=2">
 </head>
 <body>
-<div class="versao-app">versão 1.7.5</div>
+<div class="versao-app">versão 1.7.6</div>
 <nav class="nav" id="nav">
   <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<b class="ponto" id="pontoAnal" hidden title="análise atualizada">!</b><small>das pesquisas</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#proximas" data-aba="proximas">Próximas<b class="ponto" id="pontoProx" hidden title="datas atualizadas">!</b><small>pesquisas</small></a><a href="#confiabilidade" data-aba="confiabilidade" >Confiabilidade<b class="ponto" id="pontoConf" hidden title="aba nova">!</b><small>dos institutos</small></a><a href="#adpf" data-aba="adpf"><img src="icons/balanca-192.png" alt="" class="adpf-ico">ADPF 1362<b class="ponto" id="pontoAdpf" hidden title="novidade na ADPF">!</b><small>PSD no STF</small></a>
 </nav>
@@ -61,7 +61,7 @@
   <div class="cab"><span>% DOS VOTOS VÁLIDOS · TSE</span><span class="leg"><i></i>50%</span></div>
   <div id="lista"></div>
   <div class="eleito" id="eleito"><div class="el-t"><svg class="el-flag" viewBox="0 0 28 20" width="28" height="20" aria-hidden="true"><rect width="28" height="20" rx="3.5" fill="#009c3b"/><path d="M14 2.6 25.2 10 14 17.4 2.8 10Z" fill="#ffdf00"/><circle cx="14" cy="10" r="5" fill="#002776"/><path d="M9.2 9.1Q14 7.3 18.9 10.7" fill="none" stroke="#fff" stroke-width="1.15"/></svg><span class="el-lab">CANDIDATO ELEITO:</span> <span class="el-ag">aguardando definição matemática</span></div></div>
-  <div class="vantagem" id="vantagem" hidden></div>
+  <div class="vantagem selo-vant" id="vantagem" hidden></div>
   <div id="espera" class="espera" hidden>
     <div class="esp-t">A apuração começa em <b class="nw">25/10 às 17h</b></div>
     <div class="esp-s">horário de Brasília · fechamento das urnas</div>
@@ -168,7 +168,7 @@
   </div>
 </div>
 
-<script src="app.js?v=83"></script>
+<script src="app.js?v=84"></script>
 <script src="adpf.js?v=3"></script>
 </body>
 </html>
