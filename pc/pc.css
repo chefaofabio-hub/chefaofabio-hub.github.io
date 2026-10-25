@@ -1,0 +1,23 @@
+/* Versão PC (1366x768 até 1920x1080). Carrega depois do style.css do celular. */
+body.pc{padding:0 22px 16px}
+body.pc .versao-app,body.pc nav.nav,body.pc .inst,body.pc .quadro{max-width:1760px}
+body.pc nav.nav{grid-template-columns:repeat(6,1fr)!important;position:sticky;top:0;z-index:20;margin-top:6px;box-shadow:0 3px 10px rgba(13,27,58,.12)}
+body.pc nav.nav a{grid-column:auto!important;font-size:17px!important;min-height:48px}
+body.pc nav.nav a small{font-size:12px!important}
+body.pc .inst{display:none!important}
+body.pc .quadro{padding:22px 26px 16px}
+body.pc .quadro h1{font-size:34px}
+body.pc .subt,body.pc .turno2{font-size:18px}
+body.pc .pc-grid{display:grid;grid-template-columns:minmax(500px,.95fr) 1.25fr;gap:28px;align-items:start}
+body.pc .pc-grid[hidden]{display:none}
+body.pc .pc-esq,body.pc .pc-dir{min-width:0}
+body.pc .pc-dir{border-left:2px solid #d5deee;padding-left:26px}
+body.pc .pc-h2{margin:2px 0 4px;font-size:26px;font-weight:900;color:#0d1b3a;text-align:center;letter-spacing:-.3px}
+body.pc .pc-dir #regioes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:12px}
+body.pc .pc-dir #regioes>*{margin:0!important;min-width:0}
+body.pc .vantagem.selo-vant{font-size:24px!important}
+body.pc .rod,body.pc .vivo{font-size:15px}
+@media (min-width:2200px){
+  body.pc .pc-dir #regioes{grid-template-columns:repeat(3,minmax(0,1fr))}
+  body.pc .quadro h1{font-size:40px}
+}

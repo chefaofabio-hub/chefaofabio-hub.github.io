@@ -270,7 +270,7 @@ async function buscarUF(uf) {
 }
 async function atualizarEstados() {
   if (ufCarregando || !ELE) { desenharRegioes(); return; }
-  if (abaAtual() !== "regioes") return;          // só baixa os 27 estados com a aba "Por região" aberta
+  if (!window.APP_PC && abaAtual() !== "regioes") return;          // só baixa os 27 estados com a aba "Por região" aberta
   ufCarregando = true; ufUltima = Date.now();
   try { await Promise.all(Object.keys(UFS).map(buscarUF)); } finally { ufCarregando = false; }
   desenharRegioes();
@@ -834,7 +834,7 @@ navigator.serviceWorker?.addEventListener("message", e => {
 matchMedia("(display-mode: standalone)").addEventListener?.("change", estadoAlerta);
 
 mostrarBotaoInst();
-if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js", {updateViaCache: "none"}).catch(() => {});
+if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register(window.SW_URL || "sw.js", window.SW_URL ? {scope: window.SW_SCOPE, updateViaCache: "none"} : {updateViaCache: "none"}).catch(() => {});
 
 /* ---------------- início ---------------- */
 if (TESTE || ELE_FORCADA) for (const av of document.querySelectorAll(".aviso-teste")) { av.hidden = false; av.textContent = `MODO TESTE: mostrando ${TESTE || "eleição " + ELE_FORCADA} (não é o 2º turno)`; }

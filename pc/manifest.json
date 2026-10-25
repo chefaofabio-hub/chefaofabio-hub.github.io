@@ -1,0 +1,19 @@
+{
+  "name": "Apuração Presidente 2026 – PC",
+  "short_name": "Apuração PC",
+  "description": "Versão para computador: apuração ao vivo de Presidente 2026 (2º turno) direto do TSE e pesquisas. Criado por Fábio Lins e Silva.",
+  "lang": "pt-BR",
+  "id": "/pc/",
+  "start_url": "/pc/?origem=app",
+  "scope": "/pc/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#ffffff",
+  "theme_color": "#1f4fa8",
+  "icons": [
+    {"src": "/icons/icon-192.png?v=3", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/icons/icon-512.png?v=3", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/icons/icon-192-maskable.png?v=3", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "/icons/icon-512-maskable.png?v=3", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
