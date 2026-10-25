@@ -105,3 +105,15 @@ body.pc .pc-dir .rc-vv .rv b{font-size:22px!important}
 body.pc .pc-dir .rc-vot .rv{font-size:13px!important}
 body.pc .pc-dir .rc-vot .rv b{font-size:16px!important}
 body.pc .pc-dir .rc-n{font-size:21px!important}
+body.pc .pc-dir .regc .rv.az span{font-size:0!important;text-overflow:clip!important}
+body.pc .pc-dir .regc .rv.az span::before{content:"Flávio B.";font-size:17px}
+body.pc .pc-dir .regc .rc-vot .rv.az span::before{font-size:13px}
+/* 1.7.32b: regiões em 3+2 (Nordeste por último), números bem maiores */
+body.pc .pc-dir #regioes{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:10px!important;margin-top:6px}
+body.pc .pc-dir .rc-vv .rv{font-size:20px!important}
+body.pc .pc-dir .rc-vv .rv b{font-size:30px!important}
+body.pc .pc-dir .rc-vot .rv{font-size:17px!important}
+body.pc .pc-dir .rc-vot .rv b{font-size:22px!important}
+body.pc .pc-dir .regc .rv.az span::before{font-size:20px}
+body.pc .pc-dir .regc .rc-vot .rv.az span::before{font-size:17px}
+body.pc .pc-dir .rc-n{font-size:22px!important}
