@@ -1,6 +1,6 @@
 // Service worker: guarda o "casco" do app para abrir rápido/offline e recebe os alertas de nova pesquisa.
 // Dados (TSE, pesquisas.json, push_endpoint.json) NUNCA vêm do cache se a rede responder.
-const VERSAO = "apuracao-pres-v87";
+const VERSAO = "apuracao-pres-v88";
 const CASCO = ["./", "index.html", "style.css?v=79", "app.js?v=79", "adpf.js?v=1", "adpf.css?v=1", "manifest.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png"];
 const PESQ = "https://chefaofabio-hub.github.io/#pesquisas";
@@ -48,12 +48,17 @@ self.addEventListener("push", e => {
 });
 self.addEventListener("notificationclick", e => {
   e.notification.close();
-  const alvo = (e.notification.data && e.notification.data.url) || PESQ;
+  let alvo = (e.notification.data && e.notification.data.url) || PESQ;
+  try { alvo = new URL(alvo, PESQ).href; } catch (x) { alvo = PESQ; }
+  if (new URL(alvo).origin !== location.origin) alvo = PESQ;           // sempre abre o APP
   e.waitUntil((async () => {
     const cs = await self.clients.matchAll({type: "window", includeUncontrolled: true});
-    for (const c of cs) if (new URL(c.url).origin === location.origin) {
-      c.postMessage({tipo: "abrir"});
-      return c.focus();
+    const app = cs.find(c => { const u = new URL(c.url); return u.origin === location.origin && !u.pathname.startsWith("/primeiro-turno/") && !u.pathname.startsWith("/futebol/"); });
+    if (app) {
+      try { await app.focus(); } catch (x) {}
+      if (new URL(alvo).hash === "#pesquisas") app.postMessage({tipo: "abrir"});
+      else if (app.navigate && app.url !== alvo) { try { await app.navigate(alvo); } catch (x) {} }
+      return;
     }
     return self.clients.openWindow(alvo);
   })());
