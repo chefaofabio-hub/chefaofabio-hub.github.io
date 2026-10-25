@@ -99,3 +99,9 @@ body.pc #aba-apostas .ap-info{font-size:15px}body.pc #aba-apostas .ap-nota{max-w
 body.pc nav.nav a:last-child:nth-child(odd){grid-column:auto!important;justify-self:stretch!important;width:auto!important}
 body.pc #aba-apostas .ap-trilho{height:28px;border-radius:14px}
 body.pc #aba-apostas .ap-atu{max-width:620px;font-size:22px}
+/* 1.7.32: regiões da Apuração um pouco maiores (percentual e votos) */
+body.pc .pc-dir .rc-vv .rv{font-size:17px!important}
+body.pc .pc-dir .rc-vv .rv b{font-size:22px!important}
+body.pc .pc-dir .rc-vot .rv{font-size:13px!important}
+body.pc .pc-dir .rc-vot .rv b{font-size:16px!important}
+body.pc .pc-dir .rc-n{font-size:21px!important}
