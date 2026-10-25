@@ -66,3 +66,24 @@ document.addEventListener("click", e => {
   new MutationObserver(agendar).observe(g, {childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["hidden"]});
   agendar();
 })();
+// 1.7.26: botão "Instalar no computador" (fica na linha do relógio, sem mudar a altura da tela)
+(function () {
+  const linha = document.querySelector(".versao-app"); if (!linha) return;
+  const inst = () => matchMedia("(display-mode: standalone)").matches || matchMedia("(display-mode: window-controls-overlay)").matches;
+  let prompt = null;
+  const b = document.createElement("button"); b.className = "pc-inst"; b.type = "button";
+  b.innerHTML = "💻 <b>Instalar no computador</b>";
+  const dica = document.createElement("div"); dica.className = "pc-inst-dica"; dica.hidden = true;
+  dica.innerHTML = 'Para instalar: clique no ícone <b>⊕ / 🖥️ Instalar</b> na barra de endereço, ou no menu <b>⋮</b> → <b>Transmitir, salvar e compartilhar</b> → <b>Instalar página como app</b> (Chrome/Edge). <button type="button" aria-label="Fechar">×</button>';
+  linha.insertBefore(b, linha.lastElementChild); document.body.appendChild(dica);
+  const ver = () => { b.hidden = inst(); if (b.hidden) dica.hidden = true; };
+  addEventListener("beforeinstallprompt", e => { e.preventDefault(); prompt = e; ver(); });
+  addEventListener("appinstalled", () => { b.hidden = true; dica.hidden = true; });
+  b.addEventListener("click", async () => {
+    if (prompt) { const p = prompt; prompt = null; p.prompt(); try { await p.userChoice; } catch (x) {} ver(); }
+    else dica.hidden = !dica.hidden;
+  });
+  dica.querySelector("button").addEventListener("click", () => { dica.hidden = true; });
+  if (/[?&]instalar=1/.test(location.search)) b.classList.add("destaque");
+  ver();
+})();
