@@ -680,7 +680,7 @@ $("btnInst").addEventListener("click", async () => {
       `<p class="sheet-dica">Abriu pelo WhatsApp? Use antes <b>⋮ → “Abrir no Chrome”</b>.</p>`);
   } else {
     abrirSheet("Instalar no computador", passos([
-      `No Chrome ou Edge, clique no ícone de <b>instalar</b> na barra de endereço (monitor com seta), ou no menu <b>⋮</b> → <b>“Instalar Apuração Presidente 2026”</b>.`,
+      `No Chrome ou Edge, clique no ícone de <b>instalar</b> na barra de endereço (monitor com seta), ou no menu <b>⋮</b> → <b>“Instalar Vigia”</b>.`,
       `No celular, abra ${LINK} e toque em <b>📲 Instalar app</b>.`]) + botaoCopiar);
   }
 });

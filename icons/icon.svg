@@ -1,51 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs>
-<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3470d6"/><stop offset="1" stop-color="#143683"/></linearGradient>
-<radialGradient id="luz" cx=".3" cy=".2" r=".8"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
-<linearGradient id="frente" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f2e4"/><stop offset="1" stop-color="#c9bfa6"/></linearGradient>
-<linearGradient id="topo" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#fffaf0"/><stop offset="1" stop-color="#ddd4bf"/></linearGradient>
-<linearGradient id="lado" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b3aa91"/><stop offset="1" stop-color="#8a826b"/></linearGradient>
-<linearGradient id="tela" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef7e8"/><stop offset="1" stop-color="#b6cfa6"/></linearGradient>
-<linearGradient id="tec" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d4148"/><stop offset="1" stop-color="#1f2125"/></linearGradient>
-<linearGradient id="tecla" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4f57"/><stop offset=".5" stop-color="#1c1e22"/><stop offset="1" stop-color="#0e0f12"/></linearGradient>
-<linearGradient id="branco" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#cfd3d8"/></linearGradient>
-<linearGradient id="laranja" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffa45a"/><stop offset="1" stop-color="#e0640e"/></linearGradient>
-<linearGradient id="verde" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fd27a"/><stop offset="1" stop-color="#138a3c"/></linearGradient>
-<filter id="blur" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="9"/></filter>
-</defs><rect width="512" height="512" fill="url(#bg)"/><rect width="512" height="512" fill="url(#luz)"/><g transform="translate(0 -12)">  <ellipse cx="262" cy="418" rx="215" ry="26" fill="#071a42" opacity=".45" filter="url(#blur)"/>
-  <!-- topo -->
-  <path d="M50 172 L110 116 H462 L402 172 Z" fill="url(#topo)" stroke="#7d7560" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M60 168 L114 120 H452" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="3"/>
-  <!-- lateral -->
-  <path d="M402 172 L462 116 V346 L402 402 Z" fill="url(#lado)" stroke="#6e6752" stroke-width="3" stroke-linejoin="round"/>
-  <!-- frente -->
-  <rect x="50" y="172" width="352" height="230" rx="14" fill="url(#frente)" stroke="#7d7560" stroke-width="3"/>
-  <rect x="56" y="176" width="340" height="18" rx="8" fill="#fff" opacity=".35"/>
-  <!-- tela -->
-  <rect x="68" y="192" width="200" height="164" rx="10" fill="#2b2e34"/>
-  <rect x="78" y="202" width="180" height="144" rx="5" fill="url(#tela)"/>
-  <path d="M78 202 H258 L190 346 H78 Z" fill="#fff" opacity=".18"/>
-  <text x="168" y="236" font-family="Inter,Arial,sans-serif" font-weight="900" font-size="25" fill="#1e3a24" text-anchor="middle">PRESIDENTE</text>
-  <rect x="98" y="254" width="36" height="46" rx="4" fill="#fff" stroke="#1e3a24" stroke-width="3.5"/>
-  <rect x="142" y="254" width="36" height="46" rx="4" fill="#fff" stroke="#1e3a24" stroke-width="3.5"/>
-  <rect x="192" y="262" width="50" height="8" rx="3" fill="#6f8f67"/>
-  <rect x="192" y="280" width="36" height="8" rx="3" fill="#6f8f67"/>
-  <rect x="96" y="318" width="146" height="8" rx="3" fill="#6f8f67"/>
-  <!-- teclado -->
-  <rect x="280" y="192" width="108" height="194" rx="10" fill="url(#tec)"/>
-  <g id="k">
-<rect x="288" y="203" width="28" height="24" rx="5" fill="#000"/><rect x="288" y="200" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="302" y="218" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">1</text>
-<rect x="320" y="203" width="28" height="24" rx="5" fill="#000"/><rect x="320" y="200" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="334" y="218" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">2</text>
-<rect x="352" y="203" width="28" height="24" rx="5" fill="#000"/><rect x="352" y="200" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="366" y="218" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">3</text>
-<rect x="288" y="233" width="28" height="24" rx="5" fill="#000"/><rect x="288" y="230" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="302" y="248" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">4</text>
-<rect x="320" y="233" width="28" height="24" rx="5" fill="#000"/><rect x="320" y="230" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="334" y="248" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">5</text>
-<rect x="352" y="233" width="28" height="24" rx="5" fill="#000"/><rect x="352" y="230" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="366" y="248" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">6</text>
-<rect x="288" y="263" width="28" height="24" rx="5" fill="#000"/><rect x="288" y="260" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="302" y="278" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">7</text>
-<rect x="320" y="263" width="28" height="24" rx="5" fill="#000"/><rect x="320" y="260" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="334" y="278" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">8</text>
-<rect x="352" y="263" width="28" height="24" rx="5" fill="#000"/><rect x="352" y="260" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="366" y="278" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">9</text>
-<rect x="320" y="293" width="28" height="24" rx="5" fill="#000"/><rect x="320" y="290" width="28" height="24" rx="5" fill="url(#tecla)"/><text x="334" y="308" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="16" fill="#fff" text-anchor="middle">0</text>
-<rect x="286" y="338" width="30" height="32" rx="6" fill="#000" opacity=".6"/><rect x="286" y="334" width="30" height="32" rx="6" fill="url(#branco)"/><rect x="290" y="337" width="22" height="12" rx="4" fill="#fff" opacity=".45"/>
-<rect x="320" y="338" width="30" height="32" rx="6" fill="#000" opacity=".6"/><rect x="320" y="334" width="30" height="32" rx="6" fill="url(#laranja)"/><rect x="324" y="337" width="22" height="12" rx="4" fill="#fff" opacity=".45"/>
-<rect x="354" y="332" width="30" height="38" rx="6" fill="#000" opacity=".6"/><rect x="354" y="328" width="30" height="38" rx="6" fill="url(#verde)"/><rect x="358" y="331" width="22" height="14" rx="4" fill="#fff" opacity=".45"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<radialGradient id="bg" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#2d6fe0"/><stop offset="1" stop-color="#0b2257"/></radialGradient>
+<radialGradient id="esc" cx="50%" cy="38%" r="65%"><stop offset="0" stop-color="#ffffff"/><stop offset=".7" stop-color="#e8eef8"/><stop offset="1" stop-color="#9fb0cc"/></radialGradient>
+<radialGradient id="iris" cx="45%" cy="40%" r="60%"><stop offset="0" stop-color="#7fe0ff"/><stop offset=".45" stop-color="#1a9a6a"/><stop offset=".85" stop-color="#0c5a3c"/><stop offset="1" stop-color="#05301f"/></radialGradient>
+<radialGradient id="pup" cx="45%" cy="40%" r="60%"><stop offset="0" stop-color="#333"/><stop offset="1" stop-color="#000"/></radialGradient>
+<linearGradient id="lid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd84d"/><stop offset="1" stop-color="#c98a00"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity=".55"/></filter>
+<clipPath id="cl"><path d="M36 256 Q256 56 476 256 Q256 456 36 256Z"/></clipPath>
+</defs>
+<rect width="512" height="512" rx="112" fill="url(#bg)"/>
+<ellipse cx="256" cy="120" rx="200" ry="70" fill="#fff" opacity=".10"/>
+<g transform="translate(256 256) scale(1) translate(-256 -256)">
+<g filter="url(#sh)">
+<path d="M22 256 Q256 34 490 256 Q256 478 22 256Z" fill="url(#lid)"/>
+<path d="M36 256 Q256 56 476 256 Q256 456 36 256Z" fill="url(#esc)"/>
 </g>
-  <rect x="140" y="370" width="110" height="16" rx="4" fill="#b3a98e"/>
-</g></svg>
+<g clip-path="url(#cl)">
+<circle cx="256" cy="256" r="112" fill="url(#iris)"/>
+<g stroke="#9ff5d0" stroke-opacity=".35" stroke-width="3">
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(0 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(15 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(30 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(45 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(60 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(75 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(90 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(105 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(120 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(135 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(150 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(165 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(180 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(195 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(210 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(225 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(240 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(255 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(270 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(285 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(300 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(315 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(330 256 256)'/>
+<line x1='256' y1='256' x2='256' y2='150' transform='rotate(345 256 256)'/>
+</g>
+<circle cx="256" cy="256" r="52" fill="url(#pup)"/>
+<ellipse cx="222" cy="214" rx="26" ry="18" fill="#fff" opacity=".9"/>
+<circle cx="292" cy="294" r="9" fill="#fff" opacity=".6"/>
+<path d="M36 256 Q256 56 476 256 L476 180 L36 180Z" fill="#000" opacity=".12"/>
+</g>
+<path d="M60 236 Q256 70 452 236" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="6" stroke-linecap="round"/>
+</g>
+</svg>

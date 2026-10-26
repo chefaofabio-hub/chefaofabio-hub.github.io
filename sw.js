@@ -1,8 +1,8 @@
 // Service worker: guarda o "casco" do app para abrir rápido/offline e recebe os alertas de nova pesquisa.
 // Dados (TSE, pesquisas.json, push_endpoint.json) NUNCA vêm do cache se a rede responder.
-const VERSAO = "apuracao-pres-v117";
+const VERSAO = "apuracao-pres-v118";
 const CASCO = ["./", "index.html", "style.css?v=97", "app.js?v=98", "adpf.js?v=4", "adpf.css?v=2", "flavio.js?v=4", "flavio.css?v=3", "ruas.js?v=1", "ruas.css?v=1", "manifest.json",
-  "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png", "icons/balanca-192.png", "icons/balanca-logo.png"];
+  "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png", "icons/balanca-192.png", "icons/balanca-logo.png", "icons/olho-logo.png"];
 const PESQ = "https://chefaofabio-hub.github.io/#pesquisas";
 self.addEventListener("install", e => { e.waitUntil(caches.open(VERSAO).then(c => c.addAll(CASCO)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VERSAO).map(k => caches.delete(k))).then(() => ks))

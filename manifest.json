@@ -1,6 +1,6 @@
 {
-  "name": "Apuração Presidente 2026",
-  "short_name": "Apuração",
+  "name": "Vigia",
+  "short_name": "Vigia",
   "description": "Apuração ao vivo de Presidente 2026 (2º turno) direto do TSE e pesquisas eleitorais. Criado por Fábio Lins e Silva.",
   "lang": "pt-BR",
   "id": "./",
@@ -12,25 +12,25 @@
   "theme_color": "#1f4fa8",
   "icons": [
     {
-      "src": "icons/icon-192.png?v=3",
+      "src": "icons/icon-192.png?v=4",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/icon-512.png?v=3",
+      "src": "icons/icon-512.png?v=4",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/icon-192-maskable.png?v=3",
+      "src": "icons/icon-192-maskable.png?v=4",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "icons/icon-512-maskable.png?v=3",
+      "src": "icons/icon-512-maskable.png?v=4",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -42,7 +42,7 @@
       "url": "./?origem=app#pesquisas",
       "icons": [
         {
-          "src": "icons/icon-192.png?v=3",
+          "src": "icons/icon-192.png?v=4",
           "sizes": "192x192"
         }
       ]
