@@ -117,3 +117,6 @@ body.pc .pc-dir .rc-vot .rv b{font-size:22px!important}
 body.pc .pc-dir .regc .rv.az span::before{font-size:20px}
 body.pc .pc-dir .regc .rc-vot .rv.az span::before{font-size:17px}
 body.pc .pc-dir .rc-n{font-size:22px!important}
+
+/* 26/10: menu numa linha só (2 abas) */
+body.pc nav.nav{grid-template-columns:repeat(2,1fr)!important}

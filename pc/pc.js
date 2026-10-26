@@ -11,7 +11,7 @@ window.APP_PC = true; window.SW_URL = "/pc/sw.js"; window.SW_SCOPE = "/pc/";
   for (const el of [...esq.querySelectorAll(":scope > #resultado, :scope > .autoria, :scope > .rod, :scope > .vivo, :scope > .aviso-teste")]) dir.appendChild(el);
   m.append(esq, dir); m.classList.add("pc-grid");
   document.querySelector('#nav a[data-aba="regioes"]')?.remove();
-  if (location.hash === "#regioes") history.replaceState(null, "", location.pathname + location.search + "#apuracao");
+  if (location.hash === "#regioes") history.replaceState(null, "", location.pathname + location.search + "#flavio");
 })();
 // Ao trocar de aba, volta ao topo (evita o navegador rolar até a âncora).
 addEventListener("hashchange", () => scrollTo(0, 0));

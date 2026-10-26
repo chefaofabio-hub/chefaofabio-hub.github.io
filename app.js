@@ -24,12 +24,12 @@ const hojeBR = () => new Date().toLocaleDateString("pt-BR", {timeZone: TZ});
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------------- abas ---------------- */
-const ABAS = ["apuracao", "regioes", "pesquisas", "proximas", "analise", "confiabilidade", "adpf", "apostas"];
-const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "apuracao"; };
+const ABAS = ["flavio", "adpf"];  // Apuração, Pesquisas, Análise geral, Por região, Confiabilidade, Próximas e Mercado de apostas removidas (Fabio, 26/10)
+const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "flavio"; };
 function abrirAba() {
   const aba = abaAtual();
   for (const a of document.querySelectorAll("#nav a")) a.classList.toggle("atual", a.dataset.aba === aba);
-  for (const x of ABAS) $("aba-" + x).hidden = x !== aba;
+  for (const x of ABAS) { const el = $("aba-" + x); if (el) el.hidden = x !== aba; }
   if (aba === "pesquisas") { carregarPesquisas(); limparAviso(); }
   if (aba === "analise") { carregarAnalise(); vistoAba("anal"); }
   if (aba === "agendas") carregarAgendas();

@@ -1,8 +1,8 @@
 // Service worker: guarda o "casco" do app para abrir rápido/offline e recebe os alertas de nova pesquisa.
 // Dados (TSE, pesquisas.json, push_endpoint.json) NUNCA vêm do cache se a rede responder.
-const VERSAO = "apuracao-pres-v115";
-const CASCO = ["./", "index.html", "style.css?v=97", "app.js?v=96", "adpf.js?v=3", "adpf.css?v=2", "apostas.js?v=4", "apostas.css?v=4", "manifest.json",
-  "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png"];
+const VERSAO = "apuracao-pres-v116";
+const CASCO = ["./", "index.html", "style.css?v=97", "app.js?v=97", "adpf.js?v=4", "adpf.css?v=2", "flavio.js?v=3", "flavio.css?v=3", "manifest.json",
+  "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png", "icons/favicon-32.png", "icons/balanca-192.png", "icons/balanca-logo.png"];
 const PESQ = "https://chefaofabio-hub.github.io/#pesquisas";
 self.addEventListener("install", e => { e.waitUntil(caches.open(VERSAO).then(c => c.addAll(CASCO)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VERSAO).map(k => caches.delete(k))).then(() => ks))
@@ -12,7 +12,7 @@ self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin || url.pathname.startsWith("/primeiro-turno/") || url.pathname.startsWith("/futebol/")) return;     // TSE, fontes e coletor: direto da rede
   if (url.pathname.endsWith("push_endpoint.json")) return;                       // endereço do coletor: sempre da rede
-  if (url.pathname.endsWith("pesquisas.json") || url.pathname.endsWith("agendas.json") || url.pathname.endsWith("proximas.json") || url.pathname.endsWith("adpf.json") || url.pathname.endsWith("apostas.json")) {                                // dados: rede primeiro, cache só se offline
+  if (url.pathname.endsWith("pesquisas.json") || url.pathname.endsWith("agendas.json") || url.pathname.endsWith("proximas.json") || url.pathname.endsWith("adpf.json") || url.pathname.endsWith("flavio.json") || url.pathname.endsWith("apostas.json")) {                                // dados: rede primeiro, cache só se offline
     e.respondWith(fetch(e.request).then(r => { const c = r.clone(); caches.open(VERSAO).then(ca => ca.put(url.pathname.split("/").pop(), c)); return r; })
       .catch(() => caches.match(url.pathname.split("/").pop())));
     return;

@@ -13,3 +13,21 @@ nav.nav a .fb-ico{font-size:16px;margin-right:5px}
 #aba-flavio .cd a{color:var(--azul);font-weight:800}
 #aba-flavio .nota{color:var(--cinza);font-size:13px;font-weight:600;margin:4px 0 6px;text-align:center}
 #aba-flavio .cd .nota{text-align:left}
+#aba-flavio .fbcd{cursor:pointer}
+#aba-flavio .fb-ler,#aba-adpf .fb-ler{color:var(--azul);font-weight:800}
+#aba-flavio .st .adexc,#aba-adpf .st .adexc,#aba-adpf .cd .adexc{color:#fff}
+#aba-flavio .st div.adnovo,#aba-adpf .st div.adnovo,#aba-adpf .cd.adnovo{position:relative}
+.nt-fundo{position:fixed;inset:0;z-index:1000;background:rgba(10,20,45,.55);display:flex;align-items:center;justify-content:center;padding:14px}
+.nt-fundo[hidden]{display:none}
+.nt-caixa{position:relative;background:#fbfcff;border:1.5px solid #c9d6ee;border-bottom-width:5px;border-radius:16px;max-width:760px;width:100%;max-height:88vh;overflow:auto;-webkit-overflow-scrolling:touch;padding:18px 16px 14px;box-shadow:0 12px 40px rgba(0,0,0,.4);text-align:left}
+.nt-caixa .dt{display:inline-block;background:var(--azul);color:#fff;border-radius:6px;font-size:12px;font-weight:800;padding:2px 7px}
+.nt-caixa h3{font-size:19px;font-weight:900;color:var(--azul);margin:8px 34px 6px 0}
+.nt-txt p{font-size:15.5px;font-weight:600;line-height:1.5;margin:0 0 10px}
+.nt-caixa .nota{color:var(--cinza);font-size:13px;font-weight:700}.nt-caixa a{color:var(--azul);font-weight:800}
+.nt-x{position:sticky;float:right;top:0;width:34px;height:34px;border-radius:17px;border:0;background:#e8eef9;color:var(--azul);font-size:24px;font-weight:900;cursor:pointer;z-index:2}
+.nt-exc{top:6px!important;left:6px;right:auto!important}
+.nt-novo{background:#e00b2b;color:#fff;border-radius:6px;font-size:11px;font-weight:900;padding:2px 6px}
+body.nt-aberto{overflow:hidden}
+#aba-flavio .fb-contra{font-weight:900;font-size:clamp(16px,4.6vw,21px);color:#c8102e;margin-top:2px}
+#aba-flavio .fb-assunto{max-width:640px;margin:8px auto 2px;padding:8px 12px;border-radius:12px;background:#fff8e6;border:1.5px solid #f0d48a;border-bottom-width:4px;font-weight:700;font-size:14px;line-height:1.4;color:#5b4300}
+#aba-flavio .fb-assunto b{color:#b45309}

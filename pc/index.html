@@ -32,14 +32,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css?v=97">
 <link rel="stylesheet" href="adpf.css?v=2">
-<link rel="stylesheet" href="flavio.css?v=1">
-<link rel="stylesheet" href="/pc/pc.css?v=20">
-<link rel="stylesheet" href="apostas.css?v=4">
+<link rel="stylesheet" href="flavio.css?v=3">
+<link rel="stylesheet" href="/pc/pc.css?v=21">
 </head>
 <body class="pc">
 <div class="versao-app"><span class="relogio" id="relogio" title="Hora local · horário de Brasília">🕒 <b id="relogioH">--:--:--</b> <small>Brasília</small></span><span class="ver-txt">versão 1.7.32 · PC</span></div>
 <nav class="nav" id="nav">
-  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<b class="ponto" id="pontoAnal" hidden title="análise atualizada">!</b><small>das pesquisas</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#proximas" data-aba="proximas">Próximas<b class="ponto" id="pontoProx" hidden title="datas atualizadas">!</b><small>pesquisas</small></a><a href="#confiabilidade" data-aba="confiabilidade" >Confiabilidade<b class="ponto" id="pontoConf" hidden title="aba nova">!</b><small>dos institutos</small></a><a href="#adpf" data-aba="adpf"><img src="icons/balanca-192.png" alt="" class="adpf-ico">ADPF 1362<b class="ponto" id="pontoAdpf" hidden title="novidade na ADPF">!</b><small>PSD no STF</small></a><a href="#flavio" data-aba="flavio"><span class="fb-ico">🇧🇷</span>Flávio Bolsonaro<b class="ponto" id="pontoFlavio" hidden title="novidade no caso Flávio">!</b><small>caso no STF</small></a><a href="#apostas" data-aba="apostas" class="aposta">Mercado<small>de apostas</small></a>
+  <b class="ponto" id="pontoPesq" hidden style="display:none"></b><b class="ponto" id="pontoAnal" hidden style="display:none"></b><b class="ponto" id="pontoProx" hidden style="display:none"></b><b class="ponto" id="pontoConf" hidden style="display:none"></b><a href="#flavio" data-aba="flavio"><span class="fb-ico">🇧🇷</span>Flávio Bolsonaro<b class="ponto" id="pontoFlavio" hidden title="novidade no caso Flávio">!</b><small>× Alexandre de Moraes</small></a><a href="#adpf" data-aba="adpf"><img src="icons/balanca-192.png" alt="" class="adpf-ico">ADPF 1362<b class="ponto" id="pontoAdpf" hidden title="novidade na ADPF">!</b><small>PSD no STF</small></a>
 </nav>
 <div class="inst" id="inst" hidden>
   <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
@@ -51,7 +50,7 @@
 </div>
 
 <!-- ABA APURAÇÃO -->
-<main class="quadro aba" id="aba-apuracao">
+<main class="quadro" id="aba-apuracao" hidden style="display:none" aria-hidden="true"><!-- removida do app a pedido do Fabio; mantida oculta só porque app.js usa os ids -->
   <h1>APURAÇÃO PRESIDENTE</h1>
   <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
   <div class="subt">Domingo, 25/10/2026 · Brasil</div>
@@ -82,7 +81,7 @@
 </main>
 
 <!-- ABA CONFIABILIDADE -->
-<main class="quadro aba" id="aba-confiabilidade" hidden>
+<main class="quadro" id="aba-confiabilidade" style="display:none" aria-hidden="true" hidden>
   <h1 class="cf-h1">CONFIABILIDADE<br>DAS PESQUISAS</h1>
   <div class="turno2"><span>1º TURNO</span> mais perto das urnas</div>
   <div class="aviso2t">Resultado oficial TSE (votos válidos): <b class="az">Flávio 47,03%</b> x <b class="vm">Lula 45,16%</b> · vantagem de 1,87 p.p.</div>
@@ -93,7 +92,7 @@
 </main>
 
 <!-- ABA REGIÕES -->
-<main class="quadro aba" id="aba-regioes" hidden>
+<main class="quadro" id="aba-regioes" hidden style="display:none" aria-hidden="true">
   <h1>VOTAÇÃO POR REGIÃO</h1>
   <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
   <div class="subt">Domingo, 25/10/2026 · % dos votos válidos em cada região</div>
@@ -106,7 +105,7 @@
 </main>
 
 <!-- ABA PESQUISAS -->
-<main class="quadro aba" id="aba-pesquisas" hidden>
+<main class="quadro" id="aba-pesquisas" style="display:none" aria-hidden="true" hidden>
   <h1>PESQUISAS ELEITORAIS</h1>
   <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
   <div class="aviso-graf">👆 CLIQUE EM CIMA DA PESQUISA PARA VER O GRÁFICO DE EVOLUÇÃO</div>
@@ -121,7 +120,7 @@
 </main>
 
 <!-- ABA ANÁLISE -->
-<main class="quadro aba" id="aba-analise" hidden>
+<main class="quadro" id="aba-analise" style="display:none" aria-hidden="true" hidden>
   <h1>ANÁLISE DAS PESQUISAS</h1>
   <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
   <div class="aviso2t">Soma de todas as pesquisas nacionais feitas após o 1º turno · % dos votos válidos</div>
@@ -131,7 +130,7 @@
 </main>
 
 <!-- ABA PROXIMAS -->
-<main class="quadro aba" id="aba-proximas" hidden>
+<main class="quadro" id="aba-proximas" hidden style="display:none" aria-hidden="true">
   <h1 style="font-size:clamp(18px,5.6vw,28px)">DIVULGAÇÃO DAS PRÓXIMAS PESQUISAS</h1>
   <div class="turno2"><span>2º TURNO</span> Flávio Bolsonaro x Lula</div>
   <div class="aviso2t">Só as datas de divulgação · o resultado fica na aba Pesquisas</div>
@@ -164,20 +163,13 @@
  <div class="fb-topo">
   <div class="fb-logo">⚖️</div>
   <h1 style="font-size:clamp(20px,6.4vw,30px)">FLÁVIO BOLSONARO</h1>
+  <div class="fb-contra" id="fbContra">× Alexandre de Moraes</div>
+  <div class="fb-assunto" id="fbAss"></div>
   <div class="subt" id="fbRes"></div>
   <div class="st" id="fbSt"></div>
  </div>
  <h2 class="tit">Linha do tempo</h2><p class="nota">Mais recentes no topo</p><div id="fbLin"></div>
  <div class="rod" id="fbAtu">Carregando…</div>
-</main>
-
-<main class="quadro aba" id="aba-apostas" hidden>
- <div class="ap-atu">🔄 Atualiza de 30 em 30 segundos</div>
- <h1 style="font-size:clamp(20px,6.4vw,30px)">MERCADO DE APOSTAS</h1>
- <div class="subt">Chances de vitória na eleição presidencial 2026</div>
- <div class="ap-nota">Mercado de apostas não é pesquisa</div>
- <div id="apCards"><p class="nota">Carregando…</p></div>
- <div class="rod" id="apRod"></div>
 </main>
 
 <div class="sheet-fundo" id="sheet" hidden>
@@ -188,10 +180,9 @@
   </div>
 </div>
 
-<script src="/pc/pc.js?v=9"></script>
-<script src="app.js?v=96"></script>
-<script src="adpf.js?v=3"></script>
-<script src="flavio.js?v=1"></script>
-<script src="apostas.js?v=4"></script>
+<script src="/pc/pc.js?v=10"></script>
+<script src="app.js?v=97"></script>
+<script src="adpf.js?v=4"></script>
+<script src="flavio.js?v=3"></script>
 </body>
 </html>
