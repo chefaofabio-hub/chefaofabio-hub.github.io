@@ -22,7 +22,7 @@ let DD=null,IT=[];
 const ckS=k=>((DD&&DD.novidade_id)||'')+'|status|'+k, novoS=k=>DD&&DD.novidade_id&&(DD.status_novos||[]).includes(k)&&!vistos().includes(ckS(k));
 const exc='<b class="adexc" title="novidade">!</b>';
 function ponto(D){const el=$('pontoAdpf');if(!el)return;const v=vistos();
- el.hidden=!(D.novidade_id&&([...(D.andamentos||[]),...(D.contexto||[])].some(a=>a.novo&&!v.includes(chave(D,a)))||(D.status_novos||[]).some(k=>!v.includes(((D.novidade_id)||'')+'|status|'+k))))}
+ el.hidden=!(D.novidade_id&&([...(D.andamentos||[]),...(D.contexto||[]),...(D.segundo_turno||[])].some(a=>a.novo&&!v.includes(chave(D,a)))||(D.status_novos||[]).some(k=>!v.includes(((D.novidade_id)||'')+'|status|'+k))))}
 document.addEventListener('click',ev=>{if(!DD||!ev.target.closest)return;
  const st=ev.target.closest('.adst.adnovo');if(st){const v=vistos();v.push(ckS(st.dataset.s));localStorage.setItem(VK,JSON.stringify(v.slice(-200)));document.querySelectorAll('.adst[data-s="'+st.dataset.s+'"]').forEach(x=>{x.classList.remove('adnovo');x.querySelector('.adexc')?.remove()});ponto(DD);return}
  const c=ev.target.closest('.adcd');if(!c)return;const a=IT[+c.dataset.ix];const nv=c.classList.contains('adnovo');
@@ -38,6 +38,7 @@ window.carregarADPF=function(){
   IT=[];$('adSt').innerHTML=sb('Relator',e(s.relator),'relator')+sb('Liminar',e(s.liminar),'liminar')+sb('Número único',e(p.numero_unico||'—'),'numero_unico')+sb('Protocolo',e(p.protocolo||'—'),'protocolo');
   $('adProc').innerHTML=kv('Situação',e(s.situacao),'situacao')+kv('Classe','ADPF'+EXT)+kv('Número',e(s.numero_adpf))+kv('Número único',e(p.numero_unico||'—'))+kv('Tribunal',e(p.tribunal))+kv('Requerente',e(p.autor))+kv('Advogado',e(p.advogado||'—'))+kv('Interessado',e(p.interessado||'—'))+kv('Assunto',e(p.assunto||'—'))+kv('Protocolo',e(p.protocolo))+kv('Relator',e(s.relator),'relator')+kv('Liminar',e(s.liminar),'liminar')+kv('Pedido','<ul>'+(p.pedido||[]).map(x=>'<li>'+e(x)+'</li>').join('')+'</ul>')+kv('Tese',e(p.tese))+(p.citacao?kv('Citação do PSD','<q>'+e(p.citacao)+'</q>'):'')+(p.alternativa?kv('Se não houver decisão',e(p.alternativa)):'');
   $('adAnd').innerHTML=(D.andamentos||[]).map(item).join('');
+  if($('ad2t'))$('ad2t').innerHTML=(D.segundo_turno||[]).map(item).join('');
   $('adCtx').innerHTML=(D.contexto||[]).map(item).join('');
   const M=D.ministros||[];
   $('adMin').innerHTML='<p class="nota">Indicados pelo PSD para o sorteio</p>'+M.filter(m=>m.grupo=='pedido').map(m=>`<div class="cd"><h3>${e(m.nome)}</h3><div class="v">${e(m.status)}</div></div>`).join('')+'<p class="nota">Excluídos no pedido</p>'+M.filter(m=>m.grupo!='pedido').map(m=>`<div class="cd ex"><h3>${e(m.nome)}</h3><div class="v">${e(m.status)}</div></div>`).join('');
