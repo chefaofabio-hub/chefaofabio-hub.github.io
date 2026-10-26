@@ -34,7 +34,7 @@ function carregar(){
   $('fbLin').innerHTML=(D.itens||[]).map(item).join('');
   $('fbAtu').innerHTML='Atualizado em <b>'+e(D.atualizado_em)+'</b> (horário de Brasília)';
  }).catch(()=>{ult=0;$('fbAtu').textContent='Sem conexão. Tente de novo.'})}
-function abrir(){const h=location.hash.slice(1),on=h=='flavio'||!['adpf'].includes(h),m=$('aba-flavio');if(!m)return;
+function abrir(){const h=location.hash.slice(1),on=h=='flavio'||!['adpf','ruas'].includes(h),m=$('aba-flavio');if(!m)return;
  if(on){for(const x of document.querySelectorAll('main.aba'))x.hidden=x!==m;for(const a of document.querySelectorAll('#nav a'))a.classList.toggle('atual',a.dataset.aba==='flavio');carregar()}else m.hidden=true}
 window.addEventListener('hashchange',abrir);abrir();
 })();

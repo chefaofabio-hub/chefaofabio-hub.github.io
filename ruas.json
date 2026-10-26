@@ -1,0 +1,83 @@
+{
+ "novidade_id": "2026-10-26 18:10",
+ "atualizado_em": "26/10/2026 18:00",
+ "contra": "× Ministério Público do RJ",
+ "assunto": "ação do Ministério Público: investigação criminal (PIC) por suspeita de enriquecimento ilícito, peculato, lavagem de dinheiro, fraude em licitações e organização criminosa; e inquérito civil de 2023 por improbidade e enriquecimento ilícito",
+ "resumo": "Governador eleito do RJ (PL), presidente da Alerj. Investigação do MPRJ tramita em segredo de justiça no TJRJ: só o que saiu na imprensa aparece aqui.",
+ "status": {
+  "Número do processo": "Não divulgado (segredo de justiça)",
+  "Tribunal / relator": "TJRJ · Des. Carlos Santos de Oliveira",
+  "Situação": "Investigação (PIC) em andamento; sem denúncia",
+  "Sigilo": "Sim, segredo de justiça",
+  "Inquérito civil (2023)": "Aguarda pauta no Conselho Superior do MPRJ"
+ },
+ "status_novos": [
+  "Número do processo",
+  "Sigilo"
+ ],
+ "itens": [
+  {
+   "data": "10/2026",
+   "novo": true,
+   "titulo": "Extra: destino da investigação de Ruas na Justiça é incerto",
+   "texto": "Com Ruas eleito, ainda não se sabe se o caso fica no TJRJ ou sobe ao STJ, que julga governadores.",
+   "fonte": "Extra (Grupo Globo)",
+   "url": "https://extra.globo.com/politica/noticia/2026/10/investigacao-contra-douglas-ruas-tem-destino-incerto-na-justica.ghtml",
+   "texto_completo": "O jornal Extra, do Grupo Globo, retomou o caso revelado pelo colunista Lauro Jardim: o governador eleito Douglas Ruas (PL) é investigado pelo MPRJ por suspeita de peculato, lavagem de dinheiro e organização criminosa. O procedimento foi aberto em 17 de julho pelo procurador-geral Antonio José Campos Moreira, depois de denúncia de conflito de interesses e enriquecimento ilícito, e trata do crescimento patrimonial considerado abrupto das empresas Saur Construção, Terraplanagem e Locação e DM Invest Consultoria e Participações, ligadas a ele. O caso tramita no TJRJ sob relatoria do desembargador Carlos Santos de Oliveira. A dúvida agora é se a investigação continua no Rio ou é levada ao STJ, que julga governadores. Para o advogado Matheus Herren Falivene (USP), o mais provável é ficar no TJRJ, porque os fatos são anteriores ao mandato. Até agora não há notícia de que o caso tenha sido efetivamente enviado ao STJ."
+  },
+  {
+   "data": "11/10/2026",
+   "novo": true,
+   "titulo": "Eleito, Ruas pode ter caso levado ao STJ",
+   "texto": "Com Ruas eleito governador, há dúvida se a investigação fica no TJRJ ou vai para o STJ, que julga governadores.",
+   "fonte": "O Globo",
+   "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/11/entenda-o-que-acontece-com-investigacao-sobre-douglas-ruas-apos-eleicao.ghtml",
+   "texto_completo": "Reportagem de O Globo de 11/10 explica o que pode acontecer com a investigação depois que Douglas Ruas (PL) foi declarado governador eleito do Rio. O procedimento investigatório criminal foi aberto pelo procurador-geral de Justiça, Antonio José Campos Moreira, e apura suspeita de peculato, lavagem de dinheiro e organização criminosa. O caso foi revelado pela coluna de Lauro Jardim.\n\nO caso tramita no TJRJ sob relatoria do desembargador Carlos Santos de Oliveira. A dúvida é de foro: governadores são julgados pelo STJ, mas o foro só vale, em regra, para fatos ligados ao mandato. O advogado Matheus Herren Falivene, doutor em direito penal pela USP, disse que \"em princípio\" o caso deveria continuar no TJ do Rio, porque os fatos são anteriores ao mandato de governador.\n\nEle ponderou, porém, que os fatos \"não são totalmente estranhos\" ao novo cargo, por causa da secretaria que Ruas ocupou, e que o mais provável é que, depois da diplomação e da posse, o caso seja enviado ao STJ para o próprio tribunal decidir quem é competente.\n\nObservação: O Globo dá 17/07 como data de abertura; g1 e Metrópoles, que viram a portaria, citam 15/07."
+  },
+  {
+   "data": "09/10/2026",
+   "novo": true,
+   "titulo": "Ruas vai assumir sob investigação",
+   "texto": "A Folha informa que Ruas tomará posse investigado por peculato, lavagem, fraude licitatória e organização criminosa; a base são compras milionárias da empresa dele e uma auditoria estadual.",
+   "fonte": "Folha de S.Paulo",
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/douglas-ruas-deve-ser-declarado-governador-eleito-do-rj-sob-investigacao.shtml",
+   "texto_completo": "Segundo a Folha, Douglas Ruas, presidente da Alerj, foi declarado governador eleito em 10/10, após a retotalização dos votos (com a anulação dos votos de Anthony Garotinho), e deverá tomar posse já sob investigação.\n\nA Procuradoria-Geral de Justiça instaurou em julho um procedimento para apurar peculato, lavagem de dinheiro, fraude em licitação e organização criminosa. A base são as transações milionárias feitas por ele e por sua empresa nos últimos três anos, reveladas pela própria Folha em abril, e uma auditoria do governo estadual na Secretaria das Cidades, que Ruas comandou no governo Cláudio Castro (PL).\n\nO outro lado: depois de um debate na TV Globo, Ruas disse estar tranquilo e que acredita no arquivamento: \"Tenho certeza que essa outra será arquivada\"."
+  },
+  {
+   "data": "01/10/2026",
+   "novo": true,
+   "titulo": "MPRJ investiga patrimônio de empresas de Ruas",
+   "texto": "Investigação criminal do MPRJ, em sigilo no TJRJ, apura crescimento \"abrupto\" das empresas Saur e DM Invest, ligadas a Ruas, e contratos de R$ 702 milhões da época em que ele era secretário.",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/10/01/mprj-investiga-crescimento-patrimonial-de-empresas-ligadas-a-douglas-ruas.ghtml",
+   "texto_completo": "O RJ2/g1 teve acesso à portaria de instauração do Procedimento Investigatório Criminal (PIC), de 15/07/2026. A investigação, revelada pelo jornal O Globo, tramita em segredo de justiça no TJRJ e começou com uma denúncia anônima. O número do procedimento não foi divulgado.\n\nO MPRJ apura o que chama de crescimento patrimonial e financeiro abrupto de duas empresas com as quais Ruas tem vínculo societário: a construtora Saur Construção, Terraplanagem e Locação e a administradora DM Invest Consultoria e Participações. Segundo o documento, esse crescimento coincidiu com a ascensão política dele e do pai, Capitão Nelson, prefeito de São Gonçalo. As suspeitas são de organização criminosa, peculato, lavagem de dinheiro e crimes em licitações, além de possível contratação fraudulenta.\n\nTambém faz parte da apuração uma auditoria do governo estadual sobre a Secretaria das Cidades, que encontrou contratos de R$ 702 milhões com consórcios liderados pela FP Vieira Engenharia. Num deles houve subcontratação da Mineração Santa Edwiges, da família do deputado federal Altineu Côrtes, presidente do PL no Rio. O MP aponta ligação entre as famílias Ruas e Côrtes, incluindo um imóvel em São Gonçalo comprado pela Saur com a Normandia Empreendimentos.\n\nO outro lado: Ruas disse que confia no MP, que não foi chamado para dar explicações e que um procedimento anterior sobre os mesmos fatos foi arquivado. Ele afirmou que este também será arquivado por se tratar de \"mentiras e ataques da velha política\" e que tem \"zero processos\" criminais."
+  },
+  {
+   "data": "01/10/2026",
+   "novo": true,
+   "titulo": "Saur movimentou R$ 12,23 milhões em imóveis",
+   "texto": "O Metrópoles aponta que a Saur movimentou R$ 12,23 milhões em escrituras de imóveis entre 2023 e 2025; a PGE disse ao MPRJ que não achou pagamentos do estado à Saur nem à DM Invest.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/mprj-investiga-douglas-ruas-por-suspeita-de-lavagem-e-crime-licitatorio",
+   "texto_completo": "O Metrópoles também teve acesso à portaria do PIC, de 15/07. A apuração começou após uma denúncia de conflito de interesses e enriquecimento ilícito, e diligências preliminares confirmaram o vínculo societário de Ruas com a Saur (construção e locação) e a DM Invest (administração e investimentos).\n\nLevantamento do site aponta que a Saur movimentou R$ 12,23 milhões em escrituras de compra e venda de imóveis entre janeiro de 2023 e maio de 2025.\n\nEm junho, o MPRJ pediu à Procuradoria-Geral do Estado informações sobre pagamentos do governo às duas empresas. Em julho, a PGE respondeu que não encontrou nenhum repasse. O caso segue em sigilo no TJRJ, sob relatoria do desembargador Carlos Santos de Oliveira. Até a publicação, o Metrópoles tentava contato com a defesa de Ruas."
+  },
+  {
+   "data": "15/07/2026",
+   "novo": true,
+   "titulo": "MPRJ abre investigação criminal (PIC)",
+   "texto": "O procurador-geral de Justiça, Antonio José Campos Moreira, instaurou um Procedimento Investigatório Criminal contra Ruas, que tramita em segredo de justiça no TJRJ.",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/10/01/mprj-investiga-crescimento-patrimonial-de-empresas-ligadas-a-douglas-ruas.ghtml",
+   "texto_completo": "Em 15/07/2026, segundo a portaria vista por g1 e Metrópoles (O Globo cita 17/07), o procurador-geral de Justiça do RJ, Antonio José Campos Moreira, instaurou um Procedimento Investigatório Criminal (PIC) envolvendo Douglas Ruas, então deputado estadual e presidente da Alerj. Ele é investigado na Procuradoria-Geral, e não por um promotor comum, por ter foro.\n\nO PIC tramita em segredo de justiça no TJRJ e apura o crescimento patrimonial das empresas Saur e DM Invest, com suspeitas de organização criminosa, peculato, lavagem de dinheiro, crimes em licitações e possível contratação fraudulenta. A apuração começou com uma denúncia anônima. Até a última notícia pública, não havia denúncia formal, busca e apreensão nem arquivamento.\n\nO outro lado: Ruas nega irregularidades e diz esperar o arquivamento."
+  },
+  {
+   "data": "05/2023",
+   "novo": true,
+   "titulo": "Inquérito civil por improbidade e enriquecimento ilícito",
+   "texto": "Desde maio de 2023 tramita no MPRJ um inquérito civil sobre possível improbidade e enriquecimento ilícito de Ruas e de Thiago Saraiva; segundo o Metrópoles, ele aguarda pauta no Conselho Superior do MPRJ.",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/colunas/tacio-lorran/mprj-abre-investigacao-sobre-negocios-de-douglas-ruas",
+   "texto_completo": "Além da investigação criminal, há no MPRJ um inquérito civil aberto em maio de 2023 para apurar possível improbidade administrativa e enriquecimento ilícito de Douglas Ruas e de Thiago Saraiva, ex-secretário da Fazenda de São Gonçalo e marido da sócia de Ruas na DM Invest.\n\nSegundo a coluna de Tácio Lorran, no Metrópoles, o procedimento está sem conclusão na Gerência de Suporte ao Conselho Superior do MPRJ, esperando ser pautado. É o Conselho Superior que revisa arquivamentos de inquéritos civis. Não há notícia de ação de improbidade proposta na Justiça a partir desse inquérito.\n\nA coluna também informa que, em junho, o MPRJ disse à PGE que os dados pedidos serviriam a um procedimento da Assessoria de Atribuição Originária Criminal, setor que cuida de casos de autoridades com foro.\n\nO outro lado: a assessoria de Ruas disse que as empresas citadas não têm vínculo ou contrato com nenhum órgão público."
+  }
+ ]
+}

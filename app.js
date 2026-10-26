@@ -24,7 +24,7 @@ const hojeBR = () => new Date().toLocaleDateString("pt-BR", {timeZone: TZ});
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------------- abas ---------------- */
-const ABAS = ["flavio", "adpf"];  // Apuração, Pesquisas, Análise geral, Por região, Confiabilidade, Próximas e Mercado de apostas removidas (Fabio, 26/10)
+const ABAS = ["flavio", "adpf", "ruas"];  // Apuração, Pesquisas, Análise geral, Por região, Confiabilidade, Próximas e Mercado de apostas removidas (Fabio, 26/10)
 const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "flavio"; };
 function abrirAba() {
   const aba = abaAtual();

@@ -20,7 +20,7 @@ Edite `pesquisas.json` (instruções no campo `como_editar`) e publique com `bas
 - Envio manual: `bash /workspace/app_presidente/notificar.sh "Título" "Texto"`.
 - Chaves VAPID e inscrições ficam só no box em `/workspace/app_presidente/push/` (nunca no repositório).
 
-## Abas atuais (26/10/2026): só "Flávio Bolsonaro" (abre por padrão) e "ADPF 1362"
+## Abas atuais (26/10/2026): "Flávio Bolsonaro" (abre por padrão), "ADPF 1362" e "Douglas Ruas"
 As demais (Apuração, Pesquisas, Análise, Por região, Confiabilidade, Próximas, Mercado de apostas) foram tiradas do menu;
 os dados continuam no disco e algumas seções ficam ocultas no HTML porque o app.js usa seus ids.
 
@@ -36,3 +36,10 @@ os dados continuam no disco e algumas seções ficam ocultas no HTML porque o ap
 - Mesmo esquema: andamento novo no topo de "andamentos" com texto + texto_completo + "novo": true;
   caixas mudadas em "status_novos" (liminar, relator, situacao, numero_unico, protocolo); trocar novidade_id e atualizado_em.
 - Publicar: bash /workspace/app_presidente/publicar.sh --sem-alerta "ADPF: <resumo>"
+
+### Rotina Douglas Ruas (edita só ruas.json; aba "Douglas Ruas", mesmo modelo da aba Flávio)
+- Caso em SEGREDO DE JUSTIÇA no TJRJ: só entra o que for público (imprensa séria, notas oficiais). Não inventar número de processo.
+- Cabeçalho: "contra" e "assunto" (manter atualizado: tipo de ação/investigação e acusações).
+- Cards de situação em "status" (Número do processo, Tribunal / relator, Situação, Sigilo, Inquérito civil (2023)); os que mudarem vão em "status_novos".
+- Notícia nova no topo de "itens" com data, titulo, texto, texto_completo (relato completo com palavras próprias e o outro lado), fonte, url e "novo": true; tirar "novo" das antigas; trocar novidade_id e atualizado_em.
+- Sem novidade, não publicar. Publicar: bash /workspace/app_presidente/publicar.sh --sem-alerta "Ruas: <resumo>"
