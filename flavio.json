@@ -1,17 +1,27 @@
 {
- "novidade_id": "2026-10-26 18:00",
- "atualizado_em": "26/10/2026 18:00",
- "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em dois inquéritos no STF. Mandato vai até fevereiro de 2027.",
+ "novidade_id": "2026-10-26 19:00",
+ "atualizado_em": "26/10/2026 19:00",
+ "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
-  "Passaporte": "Entregue à PF por ordem de Moraes (26/10)",
+  "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
   "Sair do país": "Proibido",
+  "Contato com Willer": "Proibido (26/10)",
   "Inquérito apostas / Willer": "Relator: Alexandre de Moraes",
-  "Inquérito Dark Horse": "Relator: André Mendonça"
+  "Inquérito Dark Horse": "Relator: André Mendonça",
+  "Inquérito calúnia contra Lula": "Relator: Alexandre de Moraes"
  },
  "itens": [
   {
    "data": "26/10/2026",
-   "novo": true,
+   "titulo": "Moraes proíbe contato com Willer e cancela passaportes",
+   "texto": "A decisão de Moraes, assinada na noite de 25/10 no inquérito de lavagem com apostas, também proíbe Flávio de falar com Willer Tomaz e cancela todos os passaportes brasileiros dele, inclusive o diplomático. Passaportes de outros países, se houver, devem ser entregues em 24 horas.",
+   "texto_completo": "O conteúdo da decisão do ministro Alexandre de Moraes contra Flávio Bolsonaro (PL-RJ) foi detalhado no fim da tarde de 26/10 por G1 e O Globo. Ela foi assinada na noite de domingo (25), depois do resultado do 2º turno, no inquérito do STF que investiga Flávio e o advogado Willer Tomaz por suspeita de lavagem de dinheiro por meio de empresas ligadas a casas de apostas.\n\nSão três medidas: Flávio fica proibido de manter qualquer contato com Willer, direto ou por meio de terceiros; todos os passaportes brasileiros emitidos em nome dele, inclusive o diplomático, foram cancelados; e ele tem 24 horas para entregar eventuais passaportes de outras nacionalidades. Moraes usou o artigo 319 do Código de Processo Penal, que trata de medidas cautelares alternativas à prisão. A PF deve registrar um alerta migratório no sistema SONAR, que controla entradas e saídas do país, e o Itamaraty será avisado para cuidar do passaporte diplomático.\n\nWiller está fora do Brasil desde agosto, segundo a PF. Na sexta (23), Moraes já tinha bloqueado até R$ 6 bilhões em bens ligados a ele e cancelado o passaporte dele, medida que só terá efeito quando ele voltar ao país. A PF aponta que Flávio aparecia como usuário \"master\" numa conta da Alcazar Holdings, empresa ligada ao advogado, no Santander.\n\nSegundo a Reuters, Flávio responde a três inquéritos no STF: o das apostas e o de suposta calúnia contra Lula (por uma postagem que associou o presidente a crimes), ambos com Moraes, e o do financiamento do filme Dark Horse, com André Mendonça. No mesmo dia, a deputada Sâmia Bomfim (PSOL-SP) e o vereador Alexandre Frota (Cotia-SP) também tinham pedido ao STF a apreensão do passaporte dele.\n\nO outro lado: Flávio diz que nunca pensou em sair do país, que vai entregar os passaportes e chamou a decisão de \"aberração\" e \"clara tentativa de me intimidar\". As defesas dele e de Willer negam irregularidades e dizem que os dois são amigos, mas não sócios.",
+   "fonte": "O Globo",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/26/moraes-proibe-flavio-bolsonaro-de-manter-contato-com-willer-tomaz-e-determina-entrega-de-passaportes-em-24-horas.ghtml",
+   "novo": true
+  },
+  {
+   "data": "26/10/2026",
    "titulo": "PF intima Flávio a entregar passaportes",
    "texto": "Por ordem do ministro Alexandre de Moraes, assinada na noite de 25/10, a PF intimou Flávio a entregar os passaportes; ele também está proibido de deixar o país. Segundo Flávio, a decisão se baseou numa fala de Eduardo Bolsonaro, de 23/10, de que ele deveria sair do país se perdesse a eleição.",
    "fonte": "O Globo",
@@ -20,7 +30,6 @@
   },
   {
    "data": "26/10/2026",
-   "novo": true,
    "titulo": "Flávio reage e anuncia pedido de cassação da chapa de Lula",
    "texto": "Em vídeo, Flávio disse nunca ter pensado em sair do país, chamou a decisão de política e de \"aberração\" e afirmou que vai entregar os passaportes e se defender. Também disse que vai pedir a cassação da chapa de Lula, alegando abuso de poder político e econômico, sem apresentar provas no vídeo.",
    "fonte": "R7",
@@ -29,7 +38,6 @@
   },
   {
    "data": "26/10/2026",
-   "novo": true,
    "titulo": "Inquéritos devem avançar após a eleição",
    "texto": "Com a derrota, os dois inquéritos no STF (apostas/Willer Tomaz e Dark Horse) devem avançar. Pela regra de foro fixada pelo STF em 2025, os casos podem continuar no Supremo mesmo depois que o mandato terminar, em fevereiro de 2027.",
    "fonte": "O Globo",
@@ -38,7 +46,6 @@
   },
   {
    "data": "23/10/2026",
-   "novo": true,
    "titulo": "Moraes bloqueia até R$ 6 bilhões de Willer Tomaz",
    "texto": "Moraes determinou o bloqueio de até R$ 6 bi em bens do advogado, a quebra dos sigilos bancário, fiscal e cambial, o cancelamento dos passaportes e a suspensão das atividades das empresas dele. Os bancos devem informar quem teve acesso às contas da Alcazar Holdings, onde a PF diz que Flávio era \"usuário master\". A defesa chamou as medidas de desproporcionais.",
    "fonte": "Valor Econômico",
@@ -47,7 +54,6 @@
   },
   {
    "data": "23/10/2026",
-   "novo": true,
    "titulo": "Medidas vieram após viagem de Willer aos EUA",
    "texto": "Segundo a PF, Willer Tomaz foi para Miami depois de ser alvo de buscas em agosto, o que levantou suspeita de risco de destruição de provas.",
    "fonte": "Agência Brasil",
@@ -56,7 +62,6 @@
   },
   {
    "data": "18/10/2026",
-   "novo": true,
    "titulo": "STF abre inquérito sobre lavagem com apostas",
    "texto": "O STF abriu inquérito sobre suspeita de lavagem de dinheiro envolvendo Willer Tomaz, empresas dele e Flávio, com Moraes sorteado relator. O caso começou na Justiça Federal do RS e subiu ao STF em 8/10 por causa do foro do senador. Ambos negam irregularidades.",
    "fonte": "g1",
@@ -65,7 +70,6 @@
   },
   {
    "data": "18/10/2026",
-   "novo": true,
    "titulo": "PF apura R$ 1,4 bi entre Willer e site de apostas",
    "texto": "A PF investiga R$ 1,4 bilhão em transações entre Willer Tomaz e a Blaze e suspeita que as apostas tenham sido usadas para ocultar recursos. O advogado nega e diz que apostou dinheiro próprio.",
    "fonte": "UOL",
@@ -74,7 +78,6 @@
   },
   {
    "data": "16/10/2026",
-   "novo": true,
    "titulo": "PF pede mais 90 dias no caso Dark Horse",
    "texto": "A PF pediu ao ministro André Mendonça mais 90 dias para concluir o inquérito sobre o financiamento do filme Dark Horse por Daniel Vorcaro, ex-dono do Banco Master. Faltam perícias financeiras e cooperação com os EUA.",
    "fonte": "g1",
@@ -83,7 +86,6 @@
   },
   {
    "data": "11/09/2026",
-   "novo": true,
    "titulo": "Flávio aparece como investigado no caso Dark Horse",
    "texto": "Com o fim do sigilo, veio a público que Flávio é investigado por suspeita de lavagem, evasão de divisas e corrupção no financiamento do filme. Ele nega e diz que o dinheiro era privado.",
    "fonte": "g1",
@@ -92,7 +94,6 @@
   },
   {
    "data": "04/08/2026",
-   "novo": true,
    "titulo": "Willer Tomaz é alvo de buscas na Operação Sem Desconto",
    "texto": "Na operação que apura fraudes no INSS, a PF fez buscas no escritório de Willer em Brasília, apreendeu R$ 345 mil, uma máquina de contar dinheiro e quatro aviões. Flávio não foi alvo dessa operação.",
    "fonte": "g1",
@@ -101,7 +102,6 @@
   },
   {
    "data": "23/07/2026",
-   "novo": true,
    "titulo": "Mendonça autoriza inquérito sobre o Dark Horse",
    "texto": "O ministro André Mendonça autorizou a PF a investigar o financiamento do filme, que teria recebido R$ 61 milhões de Vorcaro por meio de um fundo nos EUA. A PGR deu parecer favorável.",
    "fonte": "O Globo",
@@ -111,7 +111,8 @@
  ],
  "status_novos": [
   "Passaporte",
-  "Sair do país"
+  "Contato com Willer",
+  "Inquérito calúnia contra Lula"
  ],
  "contra": "× Alexandre de Moraes",
  "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
