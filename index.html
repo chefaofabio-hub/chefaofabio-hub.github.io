@@ -33,12 +33,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css?v=97">
 <link rel="stylesheet" href="adpf.css?v=2">
+<link rel="stylesheet" href="flavio.css?v=1">
 <link rel="stylesheet" href="apostas.css?v=4">
 </head>
 <body>
 <div class="versao-app"><span class="relogio" id="relogio" title="Hora local · horário de Brasília">🕒 <b id="relogioH">--:--:--</b> <small>Brasília</small></span><span class="ver-txt">versão 1.7.26</span></div>
 <nav class="nav" id="nav">
-  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<b class="ponto" id="pontoAnal" hidden title="análise atualizada">!</b><small>das pesquisas</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#proximas" data-aba="proximas">Próximas<b class="ponto" id="pontoProx" hidden title="datas atualizadas">!</b><small>pesquisas</small></a><a href="#confiabilidade" data-aba="confiabilidade" >Confiabilidade<b class="ponto" id="pontoConf" hidden title="aba nova">!</b><small>dos institutos</small></a><a href="#adpf" data-aba="adpf"><img src="icons/balanca-192.png" alt="" class="adpf-ico">ADPF 1362<b class="ponto" id="pontoAdpf" hidden title="novidade na ADPF">!</b><small>PSD no STF</small></a><a href="#apostas" data-aba="apostas" class="aposta">Mercado<small>de apostas</small></a>
+  <a href="#apuracao" data-aba="apuracao" class="atual">Apuração<small>2º turno</small></a><a href="#pesquisas" data-aba="pesquisas">Pesquisas<b class="ponto" id="pontoPesq" hidden title="pesquisa nova">!</b><small>eleitorais</small></a><a href="#analise" data-aba="analise">Análise geral<b class="ponto" id="pontoAnal" hidden title="análise atualizada">!</b><small>das pesquisas</small></a><a href="#regioes" data-aba="regioes">Por região<small>votação</small></a><a href="#proximas" data-aba="proximas">Próximas<b class="ponto" id="pontoProx" hidden title="datas atualizadas">!</b><small>pesquisas</small></a><a href="#confiabilidade" data-aba="confiabilidade" >Confiabilidade<b class="ponto" id="pontoConf" hidden title="aba nova">!</b><small>dos institutos</small></a><a href="#adpf" data-aba="adpf"><img src="icons/balanca-192.png" alt="" class="adpf-ico">ADPF 1362<b class="ponto" id="pontoAdpf" hidden title="novidade na ADPF">!</b><small>PSD no STF</small></a><a href="#flavio" data-aba="flavio"><span class="fb-ico">🇧🇷</span>Flávio Bolsonaro<b class="ponto" id="pontoFlavio" hidden title="novidade no caso Flávio">!</b><small>caso no STF</small></a><a href="#apostas" data-aba="apostas" class="aposta">Mercado<small>de apostas</small></a>
 </nav>
 <div class="inst" id="inst" hidden>
   <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
@@ -159,6 +160,17 @@
  <div class="rod" id="adAtu">Carregando…</div>
 </main>
 
+<main class="quadro aba" id="aba-flavio" hidden>
+ <div class="fb-topo">
+  <div class="fb-logo">⚖️</div>
+  <h1 style="font-size:clamp(20px,6.4vw,30px)">FLÁVIO BOLSONARO</h1>
+  <div class="subt" id="fbRes"></div>
+  <div class="st" id="fbSt"></div>
+ </div>
+ <h2 class="tit">Linha do tempo</h2><p class="nota">Mais recentes no topo</p><div id="fbLin"></div>
+ <div class="rod" id="fbAtu">Carregando…</div>
+</main>
+
 <main class="quadro aba" id="aba-apostas" hidden>
  <div class="ap-atu">🔄 Atualiza de 30 em 30 segundos</div>
  <h1 style="font-size:clamp(20px,6.4vw,30px)">MERCADO DE APOSTAS</h1>
@@ -178,6 +190,7 @@
 
 <script src="app.js?v=96"></script>
 <script src="adpf.js?v=3"></script>
+<script src="flavio.js?v=1"></script>
 <script src="apostas.js?v=4"></script>
 </body>
 </html>
