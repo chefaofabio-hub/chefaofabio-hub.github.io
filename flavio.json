@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-10-27 18:15",
-  "atualizado_em": "27/10/2026 18:15",
+  "novidade_id": "2026-10-27 18:55",
+  "atualizado_em": "27/10/2026 18:55",
   "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
   "status": {
     "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -12,17 +12,26 @@
     "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
     "Suposta fuga": "Campanha (à Record) e o deputado Mario Frias dizem que ele já chegou aos EUA; Reuters e CNN citam fontes dos EUA; PF sem registro de saída; Argentina nega entrada; sem confirmação oficial (27/10, 18h)",
     "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema e vai oficiar Moraes",
-    "Pedido de prisão": "Só pedido de deputados do PT (Lindbergh, Rogério Correia, Ana Elisa); Moraes não decidiu; não há prisão decretada (27/10)"
+    "Pedido de prisão": "Só pedido de deputados do PT (Lindbergh, Rogério Correia, Ana Elisa); Moraes não decidiu; não há prisão decretada (27/10)",
+    "Visto dos EUA": "Departamento de Estado disse à BBC, sob anonimato, que dará visto a Flávio e família e permitirá a entrada (27/10, fim da tarde)"
   },
   "itens": [
+    {
+      "data": "27/10/2026",
+      "titulo": "Governo Trump diz à BBC que dará visto a Flávio e família e permitirá a entrada nos EUA",
+      "texto": "Um alto funcionário do Departamento de Estado dos EUA disse à BBC que o órgão vai conceder vistos a Flávio Bolsonaro e à família e permitir que entrem no país. Ainda não há registro oficial de saída dele do Brasil, e a defesa diz estar sem informações.",
+      "texto_completo": "No fim da tarde desta terça (27), a BBC informou que um alto funcionário do Departamento de Estado dos Estados Unidos disse ao jornalista Tom Bateman que o governo americano \"concederá vistos a Flávio Bolsonaro e a seus familiares e permitirá entrada deles no país\". É a primeira manifestação atribuída ao governo dos EUA sobre o caso, embora feita sob anonimato e não em nota oficial. Segundo a Reuters, citada pela BBC, o senador estaria em voo rumo aos EUA; um aliado disse ao UOL que ele já chegou e que deve dar entrevista coletiva na quarta (28). Do lado brasileiro, a PF segue sem registro formal de saída do país, e a Argentina nega entrada por posto migratório. O coordenador da campanha, Rogério Marinho, disse em coletiva que não foi comunicado sobre a viagem e que a última mensagem de Flávio, por volta das 8h, dizia que ele tiraria o dia para descansar; a defesa disse à BBC estar \"completamente no escuro\". O presidente Lula, em comemoração de aniversário em Brasília, chamou a suposta saída de \"vergonhosa\" e disse que \"quem não deve não teme\". Criminalistas ouvidos pela BBC lembram que, sem ordem de prisão, Flávio não é considerado foragido, embora o descumprimento da entrega dos passaportes possa configurar crime de desobediência.",
+      "fonte": "BBC News Brasil (ao vivo), UOL",
+      "url": "https://www.bbc.com/portuguese/live/c6x2v49yvrygt",
+      "novo": true
+    },
     {
       "data": "27/10/2026",
       "titulo": "Campanha e aliados dizem que Flávio já chegou aos EUA (sem confirmação oficial)",
       "texto": "Um integrante da campanha disse à Record que Flávio já está nos Estados Unidos, e o deputado Mario Frias (PL) postou que ele chegou em segurança. O STF disse não ter informação sobre pedido de prisão. Não há confirmação oficial do Brasil nem dos EUA.",
       "texto_completo": "No fim da tarde, a versão de aliados mudou de \"a caminho\" para \"já chegou\". Segundo o R7, um integrante da campanha de Flávio Bolsonaro disse à TV Record que o senador já está em território americano. O deputado federal Mario Frias (PL-SP) publicou no X que Flávio chegou em segurança aos Estados Unidos.\n\nMais cedo, por volta das 15h30, o empresário mexicano Simón Levy, ex-secretário de Turismo do México e próximo do governo Trump, já tinha postado que Flávio chegou aos EUA e que a operação teria sido articulada pelo secretário de Estado Marco Rubio, segundo a Agência Brasil. Essa é uma afirmação dele, sem prova apresentada.\n\nNada disso foi confirmado por autoridade oficial: a PF segue sem registro formal de saída, a Argentina nega a entrada e o governo dos EUA não se pronunciou. A assessoria do STF disse ao portal ND Mais que está sem informações sobre qualquer ordem de prisão assinada por Moraes. O pedido de prisão dos deputados do PT continua sendo só um pedido.",
       "fonte": "R7 / Record, Agência Brasil, ND Mais",
-      "url": "https://noticias.r7.com/eleicoes/2026/equipe-de-campanha-confirma-que-flavio-bolsonaro-esta-nos-eua-27102026/",
-      "novo": true
+      "url": "https://noticias.r7.com/eleicoes/2026/equipe-de-campanha-confirma-que-flavio-bolsonaro-esta-nos-eua-27102026/"
     },
     {
       "data": "27/10/2026",
@@ -226,7 +235,7 @@
     }
   ],
   "status_novos": [
-    "Suposta fuga"
+    "Visto dos EUA"
   ],
   "contra": "× Alexandre de Moraes",
   "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
