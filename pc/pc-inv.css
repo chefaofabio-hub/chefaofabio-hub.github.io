@@ -1,0 +1,5 @@
+/* PC com visual do celular: ajustes de tela larga */
+body.inv.pc .quadro{max-width:1100px;margin-left:auto;margin-right:auto}
+body.inv.pc nav.nav a{height:60px!important;min-height:60px!important}
+body.inv.pc .vg-sair{background:#c8102e!important;border-color:#e2344f!important;color:#fff!important}
+body.inv.pc #adSt .adst{color:#3a4250!important}
