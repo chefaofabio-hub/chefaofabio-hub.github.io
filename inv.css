@@ -70,3 +70,16 @@ body.inv .quadro{padding-top:6px!important}
 body.inv .fbcd,body.inv .rscd,body.inv .adcd{border:1px solid #b8932f!important;box-shadow:0 0 0 1px #d4af3733,0 10px 24px -10px #d4af3755!important;background:linear-gradient(160deg,#2a2418,#1a1812 60%,#171a20)!important}
 body.inv .fbcd:after,body.inv .rscd:after,body.inv .adcd:after{background:linear-gradient(90deg,#8a6d1f,#f2c94c,#b8932f)!important;border-color:#b8932f!important}
 body.inv .fbcd h3,body.inv .rscd h3,body.inv .adcd h3{background:linear-gradient(180deg,#fbe7a1,#f2c94c 45%,#c9a13a);-webkit-background-clip:text;background-clip:text;color:transparent!important;text-shadow:0 0 14px #f2c94c33}
+/* faixa DECISÃO TOMADA (ADPF) */
+#adFaixa.adfx{margin:0 0 14px}
+.adfx-bar{background:#d10a1e;color:#fff;border-radius:10px;padding:14px 12px;text-align:center;cursor:pointer;box-shadow:0 0 18px rgba(255,30,50,.7);animation:adfxp 1s steps(2,start) infinite;position:relative}
+.adfx-bar b{display:block;font-size:clamp(30px,10vw,44px);font-weight:900;letter-spacing:2px;line-height:1.05}
+.adfx-bar small{display:block;font-size:13px;opacity:.9;margin-top:4px}
+.adfx-tag{position:absolute;top:6px;left:8px;font-size:10px;font-weight:800;background:#fff;color:#d10a1e;padding:1px 6px;border-radius:3px}
+@keyframes adfxp{0%{opacity:1}50%{opacity:.25}100%{opacity:1}}
+.adfx-txt{display:none}
+.adfx.lida .adfx-bar{display:none}
+.adfx.lida .adfx-txt{display:block;border:2px solid #d10a1e;border-left-width:6px;background:#1a0d10;color:#f2f2f2;border-radius:10px;padding:12px 14px;text-align:left}
+.adfx-h{color:#ff4d5e;font-weight:900;font-size:15px;letter-spacing:.5px}
+.adfx-l{margin:6px 0;font-size:14px}.adfx-txt p{font-size:15px;line-height:1.5;margin:6px 0}
+.adfx-f{font-size:13px;opacity:.85}.adfx-f a{color:#7fb3ff}
