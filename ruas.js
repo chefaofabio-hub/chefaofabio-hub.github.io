@@ -16,15 +16,20 @@ if(!window.abrirNoticia)window.abrirNoticia=function(a,nova){const m=modal();
  m.hidden=false;document.body.classList.add('nt-aberto');m.querySelector('.nt-caixa').scrollTop=0};
 const VK='ruas_vistos',vistos=()=>{try{return JSON.parse(localStorage.getItem(VK)||'[]')}catch(_){return[]}};
 const marca=k=>{const v=vistos();if(!v.includes(k)){v.push(k);localStorage.setItem(VK,JSON.stringify(v.slice(-300)))}};
-const chave=(D,a)=>((D&&D.novidade_id)||'')+'|'+a.data+'|'+a.titulo, chS=(D,k)=>((D&&D.novidade_id)||'')+'|status|'+k;
+// chave ESTÁVEL (não depende de novidade_id: antes, cada troca de novidade_id fazia o ❗ voltar em notícias já vistas)
+const chave=(D,a)=>a.data+'|'+a.titulo, chS=(D,k)=>'status|'+k+'|'+((D&&D.status&&D.status[k])||'');
+const visto=k=>{const v=vistos();return v.some(x=>x===k||(k.indexOf('status|')!==0&&x.endsWith('|'+k)))};
 let DD=null,ult=0;
-const novoI=a=>a.novo&&DD.novidade_id&&!vistos().includes(chave(DD,a)), novoS=k=>DD.novidade_id&&(DD.status_novos||[]).includes(k)&&!vistos().includes(chS(DD,k));
+const novoI=a=>a.novo&&DD.novidade_id&&!visto(chave(DD,a)), novoS=k=>DD.novidade_id&&(DD.status_novos||[]).includes(k)&&!visto(chS(DD,k));
 function ponto(D){DD=D;const el=$('pontoRuas');if(!el)return;el.hidden=!((D.itens||[]).some(novoI)||Object.keys(D.status||{}).some(novoS))}
 const item=(a,i)=>{const nv=novoI(a);return `<div class="cd rscd${nv?' adnovo':''}" data-i="${i}" role="button" tabindex="0">${nv?'<b class="adexc" title="novidade">!</b>':''}<span class="dt">${e(a.data)}</span><h3>${e(a.titulo)}</h3><div class="v">${e(a.texto)}</div><div class="nota">Fonte: ${e(a.fonte)} · <b class="fb-ler">Toque para ler a notícia completa ›</b></div></div>`};
 document.addEventListener('click',ev=>{if(!DD)return;
  const s=ev.target.closest&&ev.target.closest('.rsst.adnovo');if(s){marca(chS(DD,s.dataset.k));s.classList.remove('adnovo');s.querySelector('.adexc')?.remove();ponto(DD);return}
  const c=ev.target.closest&&ev.target.closest('.rscd');if(!c)return;const a=(DD.itens||[])[+c.dataset.i];if(!a)return;
  const nv=novoI(a);window.abrirNoticia(a,nv);if(nv){marca(chave(DD,a));c.classList.remove('adnovo');c.querySelector('.adexc')?.remove();ponto(DD)}});
+function sinc(){if(!DD)return;document.querySelectorAll('.rscd.adnovo').forEach(c=>{const a=(DD.itens||[])[+c.dataset.i];if(a&&!novoI(a)){c.classList.remove('adnovo');c.querySelector('.adexc')?.remove()}});document.querySelectorAll('.rsst.adnovo').forEach(s=>{if(!novoS(s.dataset.k)){s.classList.remove('adnovo');s.querySelector('.adexc')?.remove()}});ponto(DD)}
+window.addEventListener('storage',ev=>{if(ev.key===VK)sinc()});document.addEventListener('visibilitychange',()=>{if(!document.hidden)sinc()});window.addEventListener('pageshow',sinc);
+document.addEventListener('keydown',ev=>{if((ev.key==='Enter'||ev.key===' ')&&ev.target.closest&&ev.target.closest('.rscd')){ev.preventDefault();ev.target.click()}});
 fetch('ruas.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(ponto).catch(()=>{});
 function carregar(){
  if(Date.now()-ult<60000)return;ult=Date.now();
