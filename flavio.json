@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-10-27 11:16",
-  "atualizado_em": "27/10/2026 11:16",
+  "novidade_id": "2026-10-27 12:40",
+  "atualizado_em": "27/10/2026 12:40",
   "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
   "status": {
     "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -10,18 +10,54 @@
     "Inquérito Dark Horse": "Relator: André Mendonça",
     "Inquérito calúnia contra Lula": "Relator: Alexandre de Moraes",
     "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
-    "Suposta fuga": "PF apura; Argentina nega entrada; não confirmada (27/10)",
-    "Entrega dos passaportes": "Ainda não feita até a manhã de 27/10"
+    "Suposta fuga": "PF apura; Argentina nega entrada em nota oficial; paradeiro não confirmado (27/10)",
+    "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10 (descumprida)",
+    "Pedido de prisão": "PF avalia pedir, segundo O Antagonista; não há pedido feito"
   },
   "itens": [
+    {
+      "data": "27/10/2026",
+      "titulo": "Prazo vence e Flávio não entrega os passaportes",
+      "texto": "Segundo G1 e O Globo, o prazo de Moraes terminou às 11h sem a entrega dos passaportes. A Gazeta do Povo diz que os advogados confirmaram não ter localizado o senador.",
+      "texto_completo": "O prazo de 24 horas fixado pelo ministro Alexandre de Moraes para Flávio Bolsonaro entregar os passaportes à Polícia Federal terminou às 11h de 27/10, e a entrega não foi feita, segundo o G1 e O Globo. Na prática, ele descumpriu a medida cautelar.\n\nDe acordo com a Gazeta do Povo, os próprios advogados do senador confirmaram que não conseguiram localizá-lo para fazer a entrega. O jornal diz ainda ter apurado que a PF acionou o Itamaraty para emitir um alerta internacional sobre os documentos, informação que não foi confirmada oficialmente.\n\nO Estadão relata que aliados dizem não saber onde ele está. Cedo, a campanha negava que ele tivesse saído do país, mas depois passou a dizer apenas que iria verificar o paradeiro. O Globo informa que Flávio não se manifesta nas redes desde a noite de 26/10 e que, nessa noite, um comboio saiu da casa dele no Lago Sul, sem que se saiba se ele estava nos carros. Até agora não há confirmação de onde ele está.",
+      "fonte": "G1, O Globo, Gazeta do Povo, Estadão",
+      "url": "https://g1.globo.com/politica/noticia/2026/10/27/flavio-bolsonaro-nao-entrega-passaporte-a-pf-e-descumpre-ordem-de-moraes.ghtml",
+      "novo": true
+    },
+    {
+      "data": "27/10/2026",
+      "titulo": "Ala da PF avalia pedir prisão preventiva, diz O Antagonista",
+      "texto": "O Antagonista afirma que uma parte da PF avalia pedir a Moraes a prisão preventiva de Flávio se ele não entregar os passaportes. Não há pedido formal confirmado.",
+      "texto_completo": "Segundo O Antagonista, em matéria publicada às 10h18 de 27/10, uma ala da Polícia Federal avalia pedir ao ministro Alexandre de Moraes a prisão preventiva de Flávio Bolsonaro, por causa da suspeita de fuga e do possível descumprimento da ordem de entregar os passaportes.\n\nNa avaliação desses agentes, a preventiva permitiria acionar a Interpol e tratar o senador oficialmente como foragido. O site diz que nem aliados nem a própria redação conseguiram falar com ele, porque o celular principal estava fora do ar, e que a campanha nega que ele tenha saído do Brasil.\n\nTrata-se de uma informação de bastidor atribuída a parte da PF. Até agora, nenhum pedido de prisão foi confirmado pela PF ou pelo STF.",
+      "fonte": "O Antagonista",
+      "url": "https://oantagonista.com.br/brasil/ala-da-pf-avalia-pedir-prisao-preventiva-de-flavio-bolsonaro/",
+      "novo": true
+    },
+    {
+      "data": "27/10/2026",
+      "titulo": "PF iria à casa de Flávio em Brasília recolher passaportes, diz Band",
+      "texto": "A Band noticiou às 10h28 que a PF iria à casa do senador em Brasília para recolher os passaportes e conferir o cumprimento das medidas cautelares. O resultado dessa ida não foi informado.",
+      "texto_completo": "A Band informou na manhã de 27/10 que agentes da Polícia Federal iriam à residência de Flávio Bolsonaro em Brasília para recolher os passaportes, em cumprimento à ordem de Moraes.\n\nSegundo a emissora, os agentes também verificariam se as medidas cautelares estão sendo cumpridas e apurariam a suposta saída do país sem registro. A Band não informou o que os agentes encontraram, e não há confirmação pública do resultado.",
+      "fonte": "Band",
+      "url": "https://www.band.com.br/politica/pf-vai-a-casa-de-flavio-bolsonaro-para-recolher-passaporte-apos-ordem-de-moraes",
+      "novo": true
+    },
+    {
+      "data": "27/10/2026",
+      "titulo": "Casa Rosada nega em nota oficial entrada de Flávio na Argentina",
+      "texto": "Em nota oficial, o governo Milei diz que a imigração argentina não registra entrada de Flávio e que nenhum plano de voo incluía a família Bolsonaro. O jato segue em Iguazú.",
+      "texto_completo": "A Casa Rosada, sede do governo argentino, divulgou nota oficial dizendo que a Direção Nacional de Migrações não registra nenhuma entrada de Flávio Bolsonaro no país, segundo a coluna de Janaína Figueiredo no UOL e O Globo.\n\nNa nota, o governo diz que, diante da repercussão, fiscalizou o avião particular parado em Iguazú e a tripulação, concluiu que a documentação da empresa está em ordem e afirma que nenhum plano de voo apresentado incluía a família Bolsonaro.\n\nSegundo o UOL, o jato continuava em solo argentino esperando autorização para decolar, e ninguém confirma quem estaria a bordo. O Globo cita o Clarín: o voo para Miami foi cancelado porque 'um dos passageiros teve um problema'. Eduardo Bolsonaro ironizou a suspeita de fuga ao UOL.",
+      "fonte": "UOL, O Globo",
+      "url": "https://noticias.uol.com.br/colunas/janaina-figueiredo/2026/10/27/casa-rosada-nega-em-nota-oficial-entrada-de-flavio-bolsonaro-na-argentina.htm",
+      "novo": true
+    },
     {
       "data": "27/10/2026",
       "titulo": "Suposta fuga pela Argentina não é confirmada; passaportes ainda não entregues",
       "texto": "Um site argentino noticiou que Flávio teria ido à Argentina para voar aos EUA, mas a Argentina nega a entrada e a PF não achou registro de saída. Até a manhã de 27/10 ele ainda não tinha entregado os passaportes, e nem a defesa conseguia falar com ele.",
       "texto_completo": "Na madrugada de 27/10, o site argentino Infobae publicou que o senador Flávio Bolsonaro teria atravessado a fronteira para a Argentina por Misiones, usando apenas a carteira de identidade, e que embarcaria em Puerto Iguazú num jatinho particular (Gulfstream G400, matrícula LV-JQW, da empresa Baires Fly) com destino aos Estados Unidos.\n\nO avião de fato voou de Buenos Aires a Puerto Iguazú na noite de 26/10, mas não decolou de lá. A imprensa argentina relata que o plano de voo foi cancelado e que a aeronave ficou retida no aeroporto sob vigilância da polícia aeroportuária. O próprio Infobae passou a falar em 'mistério' e disse que faltava um dos quatro passageiros previstos. A Baires Fly negou que fosse transportar o senador.\n\nO governo argentino nega a entrada: o órgão de imigração informou não ter nenhum registro de Flávio no país, e o porta-voz do presidente Milei disse o mesmo à Bloomberg.\n\nNo Brasil, a Polícia Federal não encontrou registro de saída do senador por aeroportos ou postos de fronteira, segue checando fronteiras e voos e acionou as autoridades argentinas para esclarecer o caso.\n\nAliados negam a fuga: o senador Rogério Marinho, coordenador da campanha, disse que ele não saiu do país, e Fábio Wajngarten chamou a notícia de falsa.\n\nAo mesmo tempo, até a manhã de 27/10 Flávio ainda não havia entregado os passaportes à PF, como determinou o ministro Alexandre de Moraes no prazo de 24 horas. Segundo a imprensa, nem os próprios advogados nem aliados conseguiam falar com ele, e a assessoria não confirmou onde ele está. Até agora, não há confirmação de que tenha deixado o Brasil.",
       "fonte": "Infobae, G1, CBN, Valor, Folha, Metrópoles",
-      "url": "https://g1.globo.com/mundo/noticia/2026/10/27/controle-de-imigracao-da-argentina-diz-que-nao-tem-registro-da-entrada-de-flavio-bolsonaro-no-pais.ghtml",
-      "novo": true
+      "url": "https://g1.globo.com/mundo/noticia/2026/10/27/controle-de-imigracao-da-argentina-diz-que-nao-tem-registro-da-entrada-de-flavio-bolsonaro-no-pais.ghtml"
     },
     {
       "data": "26/10/2026",
@@ -129,8 +165,9 @@
     }
   ],
   "status_novos": [
+    "Entrega dos passaportes",
     "Suposta fuga",
-    "Entrega dos passaportes"
+    "Pedido de prisão"
   ],
   "contra": "× Alexandre de Moraes",
   "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
