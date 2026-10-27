@@ -1,0 +1,72 @@
+/* Visual investigativo — só celular (body.inv, aplicado por inv.js; nunca no PC) */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&display=swap');
+body.inv{--g0:#0f1216;--g1:#171a20;--g2:#1d2128;--ln:#2c313a;--tx:#dfe3ea;--mu:#8a919d;background:radial-gradient(520px 320px at 50% 0,#252b36,transparent),var(--g0)!important;color:var(--tx)!important}
+body.inv .quadro{background:transparent!important;box-shadow:none!important;border:0!important;color:var(--tx)!important}
+body.inv .versao-app{background:transparent!important;color:var(--mu)!important;font-family:'IBM Plex Mono',monospace}
+body.inv .versao-app *{color:var(--mu)!important}
+body.inv .vg-cab{flex-direction:column;gap:0;margin:4px 0 8px}
+body.inv .inv-cam{filter:drop-shadow(0 12px 12px #000)}.inv-led{fill:#4a505b}
+body.inv.inv-alerta .inv-led{fill:#c8102e;filter:drop-shadow(0 0 4px #c8102e)}
+body.inv .inv-cam.salta .inv-head{animation:invSalto .55s cubic-bezier(.3,1.6,.5,1) 1}
+@keyframes invSalto{0%{transform:none}30%{transform:translateY(-12px)}60%{transform:none}80%{transform:translateY(-3px)}100%{transform:none}}
+body.inv .vg-cab b{font:600 14px 'IBM Plex Mono',monospace!important;letter-spacing:.35em;color:var(--tx)!important;text-shadow:none!important;text-align:center}
+body.inv .vg-cab b small{display:block;font-size:9px;letter-spacing:.25em;color:var(--mu);margin-top:2px}
+body.inv .vg-sair{top:22px;transform:none;background:var(--g2)!important;border:1px solid var(--ln)!important;box-shadow:none!important;color:var(--tx)!important;font:600 11px 'IBM Plex Mono',monospace!important;letter-spacing:.1em;padding:7px 10px}
+body.inv .vg-sair:active{transform:translateY(1px)}
+body.inv nav.nav{background:transparent!important;box-shadow:none!important;border:0!important;padding:0 10px!important}
+body.inv nav.nav a{height:52px!important;min-height:52px!important;background:var(--g1)!important;border:1px solid var(--ln)!important;color:#b9bfca!important;box-shadow:none!important;border-radius:10px!important;font-weight:600!important;text-shadow:none!important;position:relative;overflow:visible!important}
+body.inv nav.nav a small{color:var(--mu)!important}
+body.inv nav.nav a.atual{background:#1f4fa8!important;border-color:#5b8ae6!important;color:#fff!important;box-shadow:0 0 16px #1f4fa866!important}
+body.inv nav.nav a.atual small{color:#d6e2ff!important}
+body.inv .ponto:not([hidden]){background:#c8102e!important;box-shadow:0 0 0 2px var(--g0),0 0 10px #c8102e!important}
+body.inv .inst-btn{background:var(--g1)!important;color:var(--tx)!important;border:1px solid var(--ln)!important;box-shadow:none!important}
+body.inv .inst-btn small{color:var(--mu)!important}body.inv .inst-x{color:var(--mu)!important;background:transparent!important}
+/* cabeçalhos de cada tema = capa do dossiê */
+body.inv .fb-topo,body.inv .rs-topo,body.inv .ad-topo,body.inv #aba-adpf>div:first-child{background:linear-gradient(var(--g2),var(--g1))!important;border:1px solid var(--ln)!important;border-radius:4px 14px 14px 14px!important;box-shadow:0 14px 26px -14px #000!important;color:var(--tx)!important}
+body.inv .quadro h1{color:#f2f4f7!important;text-shadow:none!important;letter-spacing:.02em}
+body.inv .fb-logo,body.inv .rs-logo{filter:grayscale(1) brightness(1.2);opacity:.6}
+body.inv .fb-contra,body.inv .rs-contra{color:#e9ecf1!important;background:transparent!important;border:0!important;font-weight:700!important}
+body.inv .fb-assunto,body.inv .rs-assunto,body.inv .subt,body.inv .nota,body.inv .cdt{color:var(--mu)!important;background:transparent!important}
+body.inv .fb-assunto b,body.inv .rs-assunto b{color:var(--tx)!important}
+body.inv .quadro h2.tit{font:600 11px 'IBM Plex Mono',monospace!important;letter-spacing:.25em;text-transform:uppercase;color:var(--mu)!important;background:transparent!important;border:0!important;box-shadow:none!important;border-bottom:1px dashed var(--ln)!important;padding:14px 0 6px!important;text-align:left!important}
+/* fichas */
+body.inv .cd,body.inv .fbst,body.inv .rsst{background:linear-gradient(var(--g2),var(--g1))!important;border:1px solid var(--ln)!important;color:var(--tx)!important;box-shadow:0 10px 20px -12px #000!important;border-radius:4px 12px 12px 12px!important}
+body.inv .cd *,body.inv .fbst *,body.inv .rsst *{color:inherit}
+body.inv .cd h3{color:#f2f4f7!important}body.inv .cd .v,body.inv .cd .k{color:#c3c8d1!important}
+body.inv .cd a{color:#9fbcff!important}
+body.inv .fbst b,body.inv .rsst b{color:#f2f4f7!important}
+body.inv #fbLin,body.inv #rsLin,body.inv #adAnd,body.inv #ad2t{position:relative;padding-left:20px!important}
+body.inv #fbLin:before,body.inv #rsLin:before,body.inv #adAnd:before,body.inv #ad2t:before{content:"";position:absolute;left:6px;top:6px;bottom:6px;border-left:1px dashed #3d434d}
+body.inv .fbcd,body.inv .rscd,body.inv .adcd{position:relative;overflow:visible!important;margin-top:16px!important}
+body.inv .fbcd:after,body.inv .rscd:after,body.inv .adcd:after{content:"";position:absolute;left:-1px;top:-10px;width:62px;height:10px;background:var(--g2);border:1px solid var(--ln);border-bottom:0;border-radius:6px 6px 0 0}
+body.inv .fbcd:before,body.inv .rscd:before,body.inv .adcd:before{content:"";position:absolute;left:-19px;top:16px;width:9px;height:9px;border-radius:50%;background:#4a505b}
+body.inv .adnovo:before{background:#c8102e!important;box-shadow:0 0 10px #c8102e}
+body.inv .cd .dt{font:600 10px 'IBM Plex Mono',monospace!important;letter-spacing:.1em;color:var(--mu)!important;background:transparent!important}
+body.inv .adnovo .dt{color:#ff4d63!important}
+body.inv .adexc{background:#c8102e!important;color:#fff!important;box-shadow:0 0 10px #c8102e88!important}
+body.inv .fb-ler{color:#9fbcff!important}
+body.inv .rod{color:var(--mu)!important;background:transparent!important;font-family:'IBM Plex Mono',monospace;font-size:10px!important}
+body.inv .rod b{color:var(--tx)!important}
+body.inv .contagem,body.inv .st{color:var(--tx)!important}
+/* ficha aberta = documento */
+body.inv .nt-fundo{background:rgba(5,7,10,.82)!important}
+body.inv .nt-caixa{background:#ebe6da!important;color:#1d1f23!important;border-radius:4px!important;box-shadow:0 30px 60px #000!important;max-height:86vh;overflow-y:auto!important;-webkit-overflow-scrolling:touch}
+body.inv .nt-caixa h3{color:#14161a!important;font-weight:800}
+body.inv .nt-caixa .dt{font:600 11px 'IBM Plex Mono',monospace!important;letter-spacing:.08em;color:#555!important}
+body.inv .nt-caixa .nt-txt p{color:#26292e!important;line-height:1.6}
+body.inv .nt-caixa .nota{font-family:'IBM Plex Mono',monospace;border-top:1px dashed #999;padding-top:10px;color:#444!important}
+body.inv .nt-caixa .nota a{color:#163a7e!important}
+body.inv .nt-novo{display:inline-block;transform:rotate(-6deg);border:2px solid #c8102e!important;color:#c8102e!important;background:transparent!important;font:700 10px 'IBM Plex Mono',monospace!important;letter-spacing:.15em;padding:2px 6px}
+body.inv .nt-x{color:#333!important;background:transparent!important}
+body.inv nav.nav a{height:66px!important;min-height:66px!important;padding:6px 14px 6px 4px!important}
+body.inv nav.nav a .ponto{right:-6px!important;top:-8px!important}
+body.inv .relogio{background:var(--g1)!important;border:1px solid var(--ln)!important;box-shadow:none!important}
+body.inv .fb-logo,body.inv .rs-logo{display:none!important}
+body.inv .fb-assunto,body.inv .rs-assunto{border:1px solid var(--ln)!important;box-shadow:none!important;border-radius:8px!important}
+body.inv .nt-caixa .dt{background:transparent!important;padding:0!important}
+body.inv .nt-caixa .nt-txt p{font-weight:500!important}
+body.inv .quadro{padding-top:6px!important}
+/* teste dourado: 2 primeiras fichas do Flávio */
+body.inv #fbLin .fbcd:nth-child(-n+2){border:1px solid #b8932f!important;box-shadow:0 0 0 1px #d4af3733,0 10px 24px -10px #d4af3755!important;background:linear-gradient(160deg,#2a2418,#1a1812 60%,#171a20)!important}
+body.inv #fbLin .fbcd:nth-child(-n+2):after{background:linear-gradient(90deg,#8a6d1f,#f2c94c,#b8932f)!important;border-color:#b8932f!important}
+body.inv #fbLin .fbcd:nth-child(-n+2) h3{background:linear-gradient(180deg,#fbe7a1,#f2c94c 45%,#c9a13a);-webkit-background-clip:text;background-clip:text;color:transparent!important;text-shadow:0 0 14px #f2c94c33}
