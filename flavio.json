@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-10-26 19:40",
-  "atualizado_em": "26/10/2026 19:40",
+  "novidade_id": "2026-10-27 11:16",
+  "atualizado_em": "27/10/2026 11:16",
   "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
   "status": {
     "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -9,17 +9,27 @@
     "Inquérito apostas / Willer": "Relator: Alexandre de Moraes",
     "Inquérito Dark Horse": "Relator: André Mendonça",
     "Inquérito calúnia contra Lula": "Relator: Alexandre de Moraes",
-    "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)"
+    "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
+    "Suposta fuga": "PF apura; Argentina nega entrada; não confirmada (27/10)",
+    "Entrega dos passaportes": "Ainda não feita até a manhã de 27/10"
   },
   "itens": [
+    {
+      "data": "27/10/2026",
+      "titulo": "Suposta fuga pela Argentina não é confirmada; passaportes ainda não entregues",
+      "texto": "Um site argentino noticiou que Flávio teria ido à Argentina para voar aos EUA, mas a Argentina nega a entrada e a PF não achou registro de saída. Até a manhã de 27/10 ele ainda não tinha entregado os passaportes, e nem a defesa conseguia falar com ele.",
+      "texto_completo": "Na madrugada de 27/10, o site argentino Infobae publicou que o senador Flávio Bolsonaro teria atravessado a fronteira para a Argentina por Misiones, usando apenas a carteira de identidade, e que embarcaria em Puerto Iguazú num jatinho particular (Gulfstream G400, matrícula LV-JQW, da empresa Baires Fly) com destino aos Estados Unidos.\n\nO avião de fato voou de Buenos Aires a Puerto Iguazú na noite de 26/10, mas não decolou de lá. A imprensa argentina relata que o plano de voo foi cancelado e que a aeronave ficou retida no aeroporto sob vigilância da polícia aeroportuária. O próprio Infobae passou a falar em 'mistério' e disse que faltava um dos quatro passageiros previstos. A Baires Fly negou que fosse transportar o senador.\n\nO governo argentino nega a entrada: o órgão de imigração informou não ter nenhum registro de Flávio no país, e o porta-voz do presidente Milei disse o mesmo à Bloomberg.\n\nNo Brasil, a Polícia Federal não encontrou registro de saída do senador por aeroportos ou postos de fronteira, segue checando fronteiras e voos e acionou as autoridades argentinas para esclarecer o caso.\n\nAliados negam a fuga: o senador Rogério Marinho, coordenador da campanha, disse que ele não saiu do país, e Fábio Wajngarten chamou a notícia de falsa.\n\nAo mesmo tempo, até a manhã de 27/10 Flávio ainda não havia entregado os passaportes à PF, como determinou o ministro Alexandre de Moraes no prazo de 24 horas. Segundo a imprensa, nem os próprios advogados nem aliados conseguiam falar com ele, e a assessoria não confirmou onde ele está. Até agora, não há confirmação de que tenha deixado o Brasil.",
+      "fonte": "Infobae, G1, CBN, Valor, Folha, Metrópoles",
+      "url": "https://g1.globo.com/mundo/noticia/2026/10/27/controle-de-imigracao-da-argentina-diz-que-nao-tem-registro-da-entrada-de-flavio-bolsonaro-no-pais.ghtml",
+      "novo": true
+    },
     {
       "data": "26/10/2026",
       "titulo": "Decisão atendeu pedido de Lindbergh e Rogério Correia",
       "texto": "Segundo a CBN, a ordem de Moraes para Flávio entregar os passaportes atendeu a uma petição dos deputados Lindbergh Farias e Rogério Correia (PT), que apontaram risco de fuga do senador.",
       "texto_completo": "A CBN informou na noite de 26/10 que a decisão do ministro Alexandre de Moraes que obriga Flávio Bolsonaro a entregar os passaportes em 24 horas e o proíbe de deixar o país atendeu a um pedido dos deputados petistas Lindbergh Farias e Rogério Correia. Em petição ao STF, os parlamentares apontaram risco de fuga do senador. Flávio, por sua vez, disse que a decisão se baseou numa fala do irmão Eduardo Bolsonaro, de 23/10, segundo a qual ele deixaria o país se perdesse a eleição, e negou ter dito isso. A mesma decisão proíbe contato com o advogado Willer Tomaz e cancela os passaportes brasileiros do senador. A investigação, iniciada na Justiça Federal do Rio Grande do Sul, apura lavagem de dinheiro e evasão de divisas com uso de casas de apostas.",
       "fonte": "CBN",
-      "url": "https://cbn.globo.com/politica/noticia/2026/10/26/moraes-determina-que-flavio-bolsonaro-entregue-passaportes-em-24h-e-nao-contate-willer-tomaz.ghtml",
-      "novo": true
+      "url": "https://cbn.globo.com/politica/noticia/2026/10/26/moraes-determina-que-flavio-bolsonaro-entregue-passaportes-em-24h-e-nao-contate-willer-tomaz.ghtml"
     },
     {
       "data": "26/10/2026",
@@ -119,7 +129,8 @@
     }
   ],
   "status_novos": [
-    "Origem da decisão"
+    "Suposta fuga",
+    "Entrega dos passaportes"
   ],
   "contra": "× Alexandre de Moraes",
   "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
