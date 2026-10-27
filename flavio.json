@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-27 16:10",
- "atualizado_em": "27/10/2026 16:10",
+ "novidade_id": "2026-10-27 17:10",
+ "atualizado_em": "27/10/2026 17:10",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -10,19 +10,36 @@
   "Inquérito Dark Horse": "Relator: André Mendonça",
   "Inquérito calúnia contra Lula": "Relator: Alexandre de Moraes",
   "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
-  "Suposta fuga": "Reuters: aliado e fonte do governo dos EUA dizem que ele está nos EUA; O Globo: 5 aliados avisados do embarque; defesa sem contato desde 16h30 de 26/10; PF sem registro de saída; Argentina nega entrada; sem confirmação oficial (27/10)",
+  "Suposta fuga": "Deputado Maurício Marcon (PL) diz em vídeo que ele voou aos EUA para pedir asilo; Reuters e CNN citam fontes dos EUA dizendo que ele está a caminho da Flórida; PF sem registro de saída; Argentina nega entrada; sem confirmação oficial (27/10, 17h)",
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema e vai oficiar Moraes",
   "Pedido de prisão": "Só pedido de deputados do PT (Lindbergh, Rogério Correia, Ana Elisa); Moraes não decidiu; não há prisão decretada (27/10)"
  },
  "itens": [
   {
    "data": "27/10/2026",
+   "titulo": "Deputado do PL diz em vídeo que Flávio voou para pedir asilo nos EUA (sem confirmação oficial)",
+   "texto": "O deputado Maurício Marcon (PL) afirmou em vídeo que Flávio deixou o país de avião rumo aos EUA para buscar asilo. Segundo a Folha, citada pelo Infobae, aliados dizem que o governo Trump sabe da viagem e daria asilo. Não há confirmação oficial do Brasil nem dos EUA.",
+   "texto_completo": "Pela primeira vez um aliado falou abertamente, com o próprio nome. O deputado federal Maurício Marcon (PL-RS) divulgou um vídeo nas redes dizendo que Flávio Bolsonaro pegou um voo e está indo para os Estados Unidos em busca de asilo. Ele comparou o caso ao da opositora venezuelana María Corina Machado e disse não saber se a rota foi pela Venezuela ou pela Argentina. Segundo a CBN, Marcon também disse que Flávio vai liderar a oposição de fora do Brasil.\n\nO Infobae, citando a Folha de S.Paulo, relata que aliados da família com ligações nos EUA afirmam que o governo Trump está ciente da viagem e concederia asilo, e que ele deveria chegar nas próximas horas a Miami ou Dallas. Um desses aliados diz que o governo americano teria ajudado no plano; outro diz que ele não saiu pela Argentina.\n\nTudo isso é versão de aliados. A PF continua sem registro formal de saída, o governo dos EUA não emitiu nota oficial e o Moraes não tomou nova decisão até agora.",
+   "fonte": "CBN, Infobae (citando Folha de S.Paulo)",
+   "url": "https://www.infobae.com/america/america-latina/2026/10/27/flavio-bolsonaro-abandono-brasil-en-vivo/",
+   "novo": true
+  },
+  {
+   "data": "27/10/2026",
+   "titulo": "PF viu riscos \"concretos e atuais\" de fuga ao pedir a retenção dos passaportes",
+   "texto": "Segundo o G1, o pedido da PF a Moraes citou a fala de Eduardo Bolsonaro sugerindo que o irmão saísse do país, o poder econômico de Flávio e a estrutura que a família já teria nos EUA.",
+   "texto_completo": "O G1 teve acesso ao pedido em que a Polícia Federal pediu a Moraes a apreensão dos passaportes e a proibição de saída do país. A PF falou em riscos \"concretos e atuais\" de fuga e apontou três motivos: a declaração pública de Eduardo Bolsonaro recomendando que Flávio deixasse o Brasil em caso de derrota, o grande poder econômico do senador e a existência de estruturas no exterior que permitiriam uma permanência longa.\n\nA PF lembrou ainda que Willer Tomaz, investigado junto com Flávio, está em Miami desde agosto, e que segue em apuração se dinheiro enviado aos EUA por Daniel Vorcaro ajudou a bancar a estadia de Eduardo por lá. Isso explica a base da decisão de Moraes; não é uma decisão nova.",
+   "fonte": "G1",
+   "url": "https://g1.globo.com/politica/noticia/2026/10/27/pf-apontou-risco-de-flavio-bolsonaro-fugir-do-brasil-e-suspeita-sobre-destino-de-dinheiro-de-vorcaro-ao-pedir-a-moraes-apreensao-de-passaporte.ghtml",
+   "novo": true
+  },
+  {
+   "data": "27/10/2026",
    "titulo": "Reuters: aliado e fonte do governo dos EUA dizem que Flávio está nos EUA (sem confirmação oficial do Brasil)",
    "texto": "A Reuters informou às 15h18 que um aliado próximo de Flávio e uma fonte do governo dos EUA confirmaram à agência que ele foi para os Estados Unidos. A defesa diz que falou com ele pela última vez às 16h30 de segunda (26) e não sabe onde ele está. A PF segue sem registro de saída e o Moraes ainda não decidiu nada novo.",
    "texto_completo": "Em reportagem publicada às 15h18 desta terça (27/10), reproduzida pela Agência Brasil, a Reuters afirma que um aliado próximo de Flávio Bolsonaro e uma fonte do governo dos Estados Unidos confirmaram à agência que o senador está nos EUA. É a primeira vez que uma fonte ligada a um governo estrangeiro aparece dizendo isso, mas a fonte é anônima e não há nota oficial do governo americano.\n\nA Reuters não conseguiu confirmar com quem ele viajou. Uma terceira fonte disse à agência que as duas filhas do senador não foram às escolas em Brasília nesta terça.\n\nO Globo também informou que cinco pessoas próximas a Flávio foram avisadas de que ele teria embarcado para os EUA. Segundo o jornal, ele primeiro pensou em mandar só a mulher e as filhas, mas mudou de ideia depois da ordem de Moraes, com medo de ser preso.\n\nJá a defesa disse à CNN Brasil que o último contato com Flávio foi às 16h30 de segunda (26), quando ficou combinado que ele entregaria os passaportes aos advogados na manhã de terça. Desde então os advogados não conseguem falar com ele e dizem não saber onde ele está.\n\nA PF continua sem registro de saída dele por posto oficial e investiga se ele saiu por fora do controle migratório. Como não há mandado de prisão, ele não é considerado foragido. Até agora o ministro Alexandre de Moraes não tomou nenhuma decisão nova, e o paradeiro de Flávio não foi confirmado oficialmente pelo Brasil.",
    "fonte": "Reuters (via Agência Brasil), O Globo, CNN Brasil",
-   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-fugiu-para-os-eua-dizem-aliado-do-senador-reuters",
-   "novo": true
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-fugiu-para-os-eua-dizem-aliado-do-senador-reuters"
   },
   {
    "data": "27/10/2026",
@@ -38,8 +55,7 @@
    "texto": "É só um pedido de Lindbergh Farias, Rogério Correia e da deputada eleita Ana Elisa (PT): querem a preventiva de Flávio e, se houver mandado, o alerta vermelho da Interpol. Quem decide é Alexandre de Moraes, que ainda não decidiu. Não há prisão decretada.",
    "texto_completo": "Segundo a coluna de Mônica Bergamo, na Folha, os deputados federais Lindbergh Farias (PT-RJ) e Rogério Correia (PT-MG), junto com a deputada federal eleita Ana Elisa (PT-MG), protocolaram nesta terça (27/10) um pedido ao ministro Alexandre de Moraes para decretar a prisão preventiva de Flávio Bolsonaro. Eles também querem que, se o mandado for expedido, o nome do senador entre na difusão vermelha da Interpol, o alerta internacional usado para localizar foragidos.\n\nO argumento é que Flávio deixou passar o prazo das 11h para entregar os passaportes, estava proibido de sair do país e nem advogados nem aliados conseguem dizer onde ele está, o que, para os autores, mostra risco de fuga. O documento menciona a possível passagem pela Argentina noticiada pela imprensa de lá e pede que a PGR se manifeste com urgência, que a defesa informe o paradeiro e que a Argentina entregue a lista de passageiros e diga quem fretou o avião.\n\nComo alternativa, caso ele apareça no Brasil e Moraes ache suficiente, sugerem tornozeleira eletrônica, recolhimento noturno e nos dias de folga e comparecimento periódico à Justiça.\n\nÉ um pedido de parlamentares adversários, os mesmos cuja petição levou à ordem dos passaportes. Não é pedido da PF nem da PGR, e até agora não há decisão de Moraes nem nota do STF. Na CBN, juristas avaliaram que o descumprimento da ordem pode levar o ministro a decretar a preventiva se ele entender que há alto risco de fuga.\n\nResumo: é apenas um pedido desses três parlamentares. Quem decide é o ministro Alexandre de Moraes, que ainda não decidiu. Não há prisão decretada.",
    "fonte": "Folha de S.Paulo (coluna Mônica Bergamo), CBN",
-   "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/10/deputados-do-pt-pedem-prisao-de-flavio-bolsonaro-e-alerta-vermelho-da-interpol.shtml",
-   "novo": false
+   "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/10/deputados-do-pt-pedem-prisao-de-flavio-bolsonaro-e-alerta-vermelho-da-interpol.shtml"
   },
   {
    "data": "27/10/2026",
