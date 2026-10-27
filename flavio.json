@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-27 19:20",
- "atualizado_em": "27/10/2026 19:20",
+ "novidade_id": "2026-10-27 20:15",
+ "atualizado_em": "27/10/2026 20:15",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -10,7 +10,7 @@
   "Inquérito Dark Horse": "Relator: André Mendonça",
   "Inquérito calúnia contra Lula": "Relator: Alexandre de Moraes",
   "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
-  "Suposta fuga": "Aliados dizem à Folha que ele chegou aos EUA por volta das 16h20 com a mulher e as filhas; EUA confirmam vistos mas não dizem se ele já está lá; PF sem registro de saída; sem confirmação oficial (27/10, 19h)",
+  "Suposta fuga": "Aliados dizem que ele chegou aos EUA por volta das 16h20 com a mulher e as filhas; cúpula do PL diz que não foi avisada; EUA confirmam vistos mas não dizem se ele já está lá; PF sem registro de saída; sem confirmação oficial (27/10, 20h)",
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema e vai oficiar Moraes",
   "Pedido de prisão": "Só pedido de deputados do PT (Lindbergh, Rogério Correia, Ana Elisa); Moraes não decidiu; não há prisão decretada (27/10)",
   "Visto dos EUA": "Porta-voz do Departamento de Estado (AP, El País) e Casa Branca (Folha) confirmam que darão vistos a Flávio e família e permitirão a entrada (27/10)"
@@ -18,12 +18,20 @@
  "itens": [
   {
    "data": "27/10/2026",
+   "titulo": "PL faz reunião de emergência; Marinho diz que a cúpula do partido não foi avisada da viagem",
+   "texto": "Valdemar Costa Neto reuniu parlamentares do PL em Brasília após as notícias de que Flávio foi para os EUA. Rogério Marinho disse depois que a liderança do partido não sabia da viagem e que a última mensagem de Flávio, por volta das 8h, dizia que ele ia 'dar um tempo'. O PL não soltou nota oficial. O paradeiro segue sem confirmação oficial do Brasil.",
+   "texto_completo": "Na tarde desta terça (27), o presidente nacional do PL, Valdemar Costa Neto, convocou uma reunião de emergência na sede do partido em Brasília por causa das informações de que Flávio teria deixado o país rumo aos Estados Unidos. Segundo O Globo, cinco aliados disseram ao jornal que ouviram que ele embarcou com previsão de chegar a Miami por volta das 16h30, e que a ideia de sair foi discutida no domingo, rejeitada a princípio e retomada depois da ordem do Moraes sobre os passaportes. O jornal também relata que a defesa tinha um encontro marcado com ele para recolher os passaportes e entregá-los à PF, mas ele não apareceu.\n\nAo sair da reunião, o senador Rogério Marinho disse ao UOL que as lideranças do PL não foram avisadas da viagem. Contou que esteve com Flávio até o fim da tarde de segunda e que só recebeu uma mensagem dele por volta das 8h de terça, dizendo que ia dar um tempo e conversaria depois. Marinho criticou a PF por ter pedido medidas contra Flávio minutos depois do resultado da eleição. Segundo o R7, Valdemar também se reuniu com Michelle Bolsonaro, mas nenhum dos dois comentou o caso, e o PL não divulgou nota oficial.\n\nTudo isso são relatos de aliados à imprensa. Do lado oficial brasileiro, nada mudou: a PF não tem registro formal de saída, o Moraes não tomou nova decisão conhecida e o pedido de prisão dos deputados do PT segue sendo só um pedido.",
+   "fonte": "O Globo, UOL, R7, CNN Brasil",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/27/valdemar-faz-reuniao-de-emergencia-no-pl-apos-possivel-saida-de-flavio-do-pais.ghtml",
+   "novo": true
+  },
+  {
+   "data": "27/10/2026",
    "titulo": "Folha: aliados dizem que Flávio chegou aos EUA por volta das 16h20 com a mulher e as filhas (sem confirmação oficial)",
    "texto": "Segundo a Folha, duas pessoas ligadas à família dizem que Flávio desembarcou nos EUA por volta das 16h20 com a mulher e as duas filhas, e não teria saído pela Argentina. A Casa Branca confirmou à Folha que dará vistos; AP e El País dizem que um porta-voz do Departamento de Estado confirmou isso. Os EUA não dizem se ele já está lá, e a PF segue sem registro de saída.",
    "texto_completo": "Na atualização das 18h37, a Folha de S.Paulo relatou que duas pessoas ligadas ao clã Bolsonaro afirmam que Flávio chegou aos Estados Unidos nesta terça (27) por volta das 16h20, acompanhado da mulher, Fernanda, e das duas filhas. Um aliado disse ao jornal que ele não saiu pela Argentina, primeira hipótese levantada de manhã. Ainda segundo a Folha, um americano ligado ao governo Trump e uma pessoa próxima do senador dizem que a operação contou com participação ativa do secretário de Estado Marco Rubio. Tudo isso é versão de fontes anônimas, sem confirmação oficial.\n\nO que avançou do lado oficial americano: uma autoridade da Casa Branca confirmou à Folha que o governo dos EUA vai conceder vistos ao senador e à família e autorizar a permanência, e a agência AP e o jornal El País relatam que um porta-voz do Departamento de Estado confirmou a emissão dos vistos e a permissão de entrada. Mesmo assim, o governo americano não informou se Flávio já está no país.\n\nDo lado brasileiro, nada mudou: a PF não tem registro formal de saída e, segundo a Folha, emitiu alerta para vigiar as fronteiras. O jornal lembra que a PF cancelou os passaportes brasileiros, mas a cidadania italiana dele continua válida. O Moraes não tomou nova decisão conhecida, e o pedido de prisão dos deputados do PT continua sendo só um pedido. Segundo um aliado ouvido pelo UOL, Flávio deve dar entrevista coletiva na quarta (28).",
    "fonte": "Folha de S.Paulo, AP, El País, UOL",
-   "url": "https://www1.folha.uol.com.br/poder/2026/10/governo-trump-esta-ciente-sobre-saida-de-flavio-bolsonaro-do-brasil-dizem-aliados.shtml",
-   "novo": true
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/governo-trump-esta-ciente-sobre-saida-de-flavio-bolsonaro-do-brasil-dizem-aliados.shtml"
   },
   {
    "data": "27/10/2026",
@@ -243,8 +251,7 @@
   }
  ],
  "status_novos": [
-  "Suposta fuga",
-  "Visto dos EUA"
+  "Suposta fuga"
  ],
  "contra": "× Alexandre de Moraes",
  "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
