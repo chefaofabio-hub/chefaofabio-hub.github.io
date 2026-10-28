@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-28 09:20",
- "atualizado_em": "28/10/2026 09:20",
+ "novidade_id": "2026-10-28 11:15",
+ "atualizado_em": "28/10/2026 11:15",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -10,21 +10,29 @@
   "Inquérito Dark Horse": "Relator: André Mendonça",
   "Inquérito calúnia contra Lula": "Relator: Alexandre de Moraes",
   "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
-  "Suposta fuga": "Argentina confirmou oficialmente: entrou por Puerto Iguazú às 22h50 de 27/10 e voou às 23h30 para Guayaquil (Equador); avião decolou de lá às 6h22 de 28/10 rumo a Miami (Opa-locka), chegada prevista ~10h40 (G1/FlightAware)",
+  "Suposta fuga": "Confirmada: entrou na Argentina por Puerto Iguazú (27/10, 22h50), voou via Guayaquil e pousou em Miami (Opa-locka) às 10h24 de 28/10 com a família (Folha, O Globo, G1)",
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema",
-  "Pedido de prisão": "Só pedido de deputados do PT; PF avalia pedir (O Globo). Moraes não decidiu; não há prisão decretada (28/10, 9h)",
+  "Pedido de prisão": "Só pedidos de deputados do PT; PF avalia pedir (O Globo). Moraes não decidiu; não há prisão decretada (28/10, 11h)",
   "Visto dos EUA": "Porta-voz do Departamento de Estado (AP, El País) e Casa Branca (Folha) confirmam que darão vistos a Flávio e família e permitirão a entrada (27/10)",
   "Busca e apreensão": "Não houve: STF e PF negam mandado ou operação (nota de 28/10); G1 corrigiu a notícia"
  },
  "itens": [
   {
    "data": "28/10/2026",
+   "titulo": "Flávio pousa em Miami com a mulher e as filhas",
+   "texto": "O jatinho LV-JQW pousou no aeroporto executivo Opa-locka, em Miami, por volta das 10h24 (horário de Brasília). Imagens ao vivo mostraram Flávio, a mulher e as duas filhas descendo do avião. O aliado Paulo Figueiredo diz que ele falará à imprensa na quinta (29).",
+   "texto_completo": "O avião que levou Flávio Bolsonaro, a mulher, Fernanda, e as duas filhas aterrissou nesta quarta (28), entre 10h23 e 10h24 no horário de Brasília, no aeroporto executivo Miami-Opa Locka, na Flórida. Folha, O Globo, G1, CBN e The Guardian noticiaram o pouso, e imagens de TV e da Reuters mostraram a família descendo do jatinho e seguindo de carro, escoltada por um policial americano.\n\nO Gulfstream da Baires Fly saiu de Puerto Iguazú na noite de terça, parou em Guayaquil (Equador) e evitou o espaço aéreo brasileiro. Segundo a Folha, Flávio entrou na Argentina com passaporte italiano.\n\nO aliado Paulo Figueiredo disse que Flávio está bem e em segurança e que dará entrevista coletiva em Miami na quinta (29); isso ainda não foi confirmado pelo próprio senador. O Departamento de Estado já havia dito que dará vistos à família.\n\nNo Brasil, nada mudou no plano judicial: Moraes não decretou prisão, e o STF disse ao ND Mais não ter informação sobre qualquer ordem. Segundo O Globo, a PF avalia pedir bloqueio de bens e prisão preventiva, mas isso ainda não foi pedido nem decidido.",
+   "fonte": "Folha / O Globo / G1 / CBN / The Guardian",
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/aviao-em-que-flavio-bolsonaro-estaria-pousa-em-miami.shtml",
+   "novo": true
+  },
+  {
+   "data": "28/10/2026",
    "titulo": "STF desmente: não há mandado de busca nem operação da PF contra Flávio",
    "texto": "Em nota nesta quarta (28), o STF disse que é falsa a informação de busca e apreensão em endereços de Flávio: não existe decisão judicial nem diligência policial. A PF confirmou à Band que não faz nenhuma ação. O G1 corrigiu a reportagem.",
    "texto_completo": "Na manhã desta quarta (28), depois que GloboNews, G1 e O Globo noticiaram buscas da Polícia Federal na casa de Flávio em Brasília e num endereço no Rio, o Supremo divulgou nota dizendo que essa informação é falsa. Segundo o tribunal, não há nenhuma decisão judicial autorizando busca e apreensão contra o senador ou seus endereços, e nenhuma diligência policial está em curso.\n\nA Polícia Federal também disse à Band que não realiza nenhuma ação em endereços ligados a Flávio. O G1 publicou correção às 7h25 reconhecendo o erro. A Reuters e a Veja também registraram o desmentido.\n\nContinua valendo o que já se sabia: Moraes cancelou os passaportes e proibiu Flávio de sair do país, mas até agora não decretou prisão. O avião com ele e a família saiu de Guayaquil às 6h22 rumo a Miami (Opa-locka), com pouso previsto entre 10h20 e 10h40 (horário de Brasília), segundo o FlightAware.",
    "fonte": "STF (nota) / Band / G1 / Reuters",
-   "url": "https://www.band.com.br/colunistas/bastidores-de-brasilia/stf-nega-busca-e-operacao-da-pf-em-enderecos-ligados-a-flavio-bolsonaro",
-   "novo": true
+   "url": "https://www.band.com.br/colunistas/bastidores-de-brasilia/stf-nega-busca-e-operacao-da-pf-em-enderecos-ligados-a-flavio-bolsonaro"
   },
   {
    "data": "28/10/2026",
@@ -324,7 +332,7 @@
   }
  ],
  "status_novos": [
-  "Busca e apreensão"
+  "Suposta fuga"
  ],
  "contra": "× Alexandre de Moraes",
  "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
