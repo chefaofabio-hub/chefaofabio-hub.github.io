@@ -1,9 +1,9 @@
 {
- "novidade_id": "2026-10-28 13:55",
- "atualizado_em": "28/10/2026 13:55",
+ "novidade_id": "2026-10-28 20:25",
+ "atualizado_em": "28/10/2026 20:25",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
-  "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
+  "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
   "Sair do país": "Proibido",
   "Contato com Willer": "Proibido (26/10)",
   "Inquérito apostas / Willer": "Relator: Alexandre de Moraes",
@@ -12,20 +12,65 @@
   "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
   "Suposta fuga": "Confirmada: entrou na Argentina por Puerto Iguazú (27/10, 22h50), voou via Guayaquil e pousou em Miami (Opa-locka) às 10h24 de 28/10 com a família (Folha, O Globo, G1)",
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema",
-  "Pedido de prisão": "Só pedidos de deputados do PT; PF avalia pedir (O Globo). Moraes não decidiu; não há prisão decretada (28/10, 11h)",
-  "Visto dos EUA": "Porta-voz do Departamento de Estado (AP, El País) e Casa Branca (Folha) confirmam que darão vistos a Flávio e família e permitirão a entrada (27/10)",
+  "Pedido de prisão": "Só pedidos de deputados do PT. Em nota de 28/10 (~14h25), a PF disse que a decisão de Moraes não autorizava prisão nem vigilância permanente e que Flávio não é foragido só por restrição de documentos; investiga o descumprimento. Moraes não decretou prisão.",
+  "Visto dos EUA": "Admitido pelo CBP como \"DT\" (parole/autorizado a entrar temporariamente) até 27/10/2027 (~1 ano). Casa Branca/Departamento de Estado confirmaram vistos (27/10).",
   "Busca e apreensão": "Não houve: STF e PF negam mandado ou operação (nota de 28/10); G1 corrigiu a notícia",
-  "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (assessor Santiago Caputo em Puerto Iguazú) (O Globo, 28/10)"
+  "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (assessor Santiago Caputo em Puerto Iguazú) (O Globo, 28/10)",
+  "Declaração escrita": "Carta à Nação (28/10, tarde): 1ª versão se dizia \"presidente eleito\"; 3ª versão (~17h41) troca por \"líder do Brasil\". Publicada no X (@FlavioBolsonaro)."
  },
  "itens": [
+  {
+   "data": "28/10/2026",
+   "titulo": "Flávio divulga carta escrita de Miami: se diz \"presidente eleito\", depois troca por \"líder do Brasil\"",
+   "texto": "À tarde, Flávio publicou no X a \"Carta à Nação Brasileira\" (imagens). Na 1ª versão (~16h43) se declarava \"verdadeiro presidente eleito\", acusava fraude sem provas (prorrogação de Zanin) e agradecia Milei e Trump; a 1ª imagem ainda usava brasão \"Estados Unidos do Brazil\". Na 3ª versão (~17h41) trocou \"presidente eleito\" por \"líder do Brasil\", negou fuga (\"saí pelo Brasil\") e disse que liderará a oposição dos EUA. Post: x.com/FlavioBolsonaro.",
+   "texto_completo": "Na tarde desta quarta (28), já em Miami, Flávio Bolsonaro fez a primeira declaração pública depois de deixar o Brasil: uma carta escrita, em imagens, titulada \"Carta à Nação Brasileira\", divulgada primeiro por aliados (Paulo Figueiredo) e depois no X oficial (@FlavioBolsonaro).\n\nO Poder360 registrou três versões: às 16h43, com brasão antigo \"Estados Unidos do Brazil\" (grafia fora de uso desde 1931) e a autodeclaração de \"verdadeiro presidente eleito\"; às 16h56, com o brasão atual corrigido, ainda se dizendo presidente eleito; e às 17h41, trocando \"presidente eleito\"/\"verdadeiro presidente\" por \"líder do Brasil\"/\"líder\".\n\nNa íntegra (versão inicial, reproduzida pelo iG e pelo G1), ele agradece a Javier Milei e a Donald Trump; alega, sem provas, \"fraude eleitoral\" e \"impossibilidade matemática\" por causa da prorrogação do horário de votação determinada por Cristiano Zanin (só ~34,8 mil votos depois das 17h; a diferença final foi de ~4,4 milhões); pede cassação da chapa Lula-Alckmin; ataca Moraes; nega mandado de prisão; diz que não fugiu (\"saí pelo Brasil, saí de um regime de exceção\"); compara-se a Rui Barbosa, De Gaulle, Guaidó, Edmundo González e María Corina; e afirma que liderará a oposição de fora, citando Rogério Marinho.\n\nO TSE confirmou a vitória de Lula; o PL reconheceu o resultado (com pedido de esclarecimentos). A própria campanha de Flávio também tinha pedido a prorrogação do horário. Fontes: X/@FlavioBolsonaro, Poder360, G1, VEJA, Metrópoles, iG.",
+   "fonte": "X (@FlavioBolsonaro) / Poder360 / G1 / VEJA / iG",
+   "url": "https://x.com/FlavioBolsonaro/status/2115544562219315474",
+   "novo": true
+  },
+  {
+   "data": "28/10/2026",
+   "titulo": "Trump evita apoiar a carta: \"Não vou me envolver\"",
+   "texto": "Questionado se concordava com Flávio se dizer \"verdadeiro presidente\", Trump respondeu que não comentaria: \"Nós demos a ele uma autorização para entrar no país. Mas não vou me envolver\". Sem provas, voltou a chamar a eleição brasileira de \"muito estranha\" e disse que ainda não conversou com o senador.",
+   "texto_completo": "Nesta quarta (28), o presidente dos EUA, Donald Trump, evitou apoiar a declaração de Flávio Bolsonaro de ser o \"verdadeiro presidente do Brasil\". Perguntado por jornalistas, disse: \"Não vou comentar isso. Nós demos a ele uma autorização para entrar no país. Mas não vou me envolver\". Sem apresentar provas, repetiu que a eleição brasileira foi \"muito estranha\" e que Flávio teria sido tratado de forma injusta; afirmou ainda não ter conversado com o senador. Mais cedo, na madrugada, Trump já tinha dito que aprovava a ida de Flávio aos EUA. Fonte: G1.",
+   "fonte": "G1",
+   "url": "https://g1.globo.com/mundo/noticia/2026/10/28/trump-evita-apoiar-declaracao-de-flavio-bolsonaro-de-que-e-o-verdadeiro-presidente-do-brasil-nao-vou-me-envolver.ghtml",
+   "novo": true
+  },
+  {
+   "data": "28/10/2026",
+   "titulo": "Reações à carta: Nunes Marques fala em normalidade; Tarcísio pede olhar à frente; Senado e partidos criticam",
+   "texto": "O presidente do TSE, Kassio Nunes Marques, disse que as eleições \"transcorreram dentro da mais absoluta normalidade\". Tarcísio disse entender a indignação, mas que \"a eleição acabou\" e o caminho é respeitar as urnas. Alessandro Vieira chamou de \"ridículo\"; Randolfe, de \"ofensa\". União Brasil, MDB e partidos de esquerda defenderam o resultado. Aliados do PL se surpreenderam; Marinho falou em possível \"problema na confecção\" do texto.",
+   "texto_completo": "A carta de Flávio provocou críticas no Senado e notas de partidos nesta quarta (28). Kassio Nunes Marques, presidente do TSE, afirmou que a Justiça Eleitoral entregou o pleito com segurança e que as eleições \"transcorreram dentro da mais absoluta normalidade\".\n\nTarcísio de Freitas (Republicanos-SP) disse compreender a \"indignação\" de Flávio, mas que \"a eleição acabou\" e \"o caminho é respeitar o resultado das urnas e seguir em frente\", atuando \"dentro das instituições\".\n\nNo Senado, Alessandro Vieira (MDB) classificou a contestação como \"ridícula\"; Randolfe Rodrigues (PT), líder do governo no Congresso, chamou de \"ofensa\" ao processo eleitoral. Rogério Marinho (PL), ex-coordenador da campanha, disse acreditar em \"algum problema na confecção\" do texto. Aliados se disseram surpresos e viram caminho para Michelle Bolsonaro no protagonismo da oposição.\n\nUnião Brasil e MDB divulgaram notas defendendo o reconhecimento do resultado. PT, PCdoB, PV, PSB, PSOL, Rede e PDT afirmaram que \"o Brasil não aceita interferência estrangeira\" e lembraram que a prorrogação do horário foi pedida pelas duas campanhas. Fonte: G1.",
+   "fonte": "G1",
+   "url": "https://g1.globo.com/politica/noticia/2026/10/28/ridiculo-ofensa-olhar-para-frente-a-reacao-apos-flavio-fugir-se-dizer-presidente-eleito-apagar-e-falar-que-e-lider-do-brasil.ghtml",
+   "novo": true
+  },
+  {
+   "data": "28/10/2026",
+   "titulo": "Flávio entrou nos EUA com passaporte diplomático cancelado; CBP autoriza ficar até 27/10/2027",
+   "texto": "Registros do CBP (alfândega dos EUA) mostram entrada com o passaporte diplomático brasileiro já cancelado pela PF/STF. Foi admitido na categoria \"DT\" (parole/entrada temporária) até 27/10/2027 (~1 ano). Para sair da Argentina usou o passaporte italiano.",
+   "texto_completo": "Segundo o G1 e a CBN, com base em registros públicos do U.S. Customs and Border Protection (CBP), Flávio Bolsonaro entrou nos Estados Unidos nesta quarta (28) usando o passaporte diplomático brasileiro, apesar de o documento ter sido cancelado pela Polícia Federal após a decisão de Alexandre de Moraes. A PF confirmou o cancelamento dos passaportes comum e diplomático.\n\nOs mesmos registros apontam que ele foi admitido na categoria \"DT\", que o CBP descreve como autorizado a entrar temporariamente (parole), com permissão para permanecer até 27 de outubro de 2027 — cerca de um ano. O g1 diz que procurou a agência e não obteve resposta até a publicação.\n\nPara deixar a Argentina, segundo o plano de voo e autoridades argentinas, ele usou o passaporte italiano. Fontes: G1, CBN.",
+   "fonte": "G1 / CBN (CBP)",
+   "url": "https://g1.globo.com/mundo/noticia/2026/10/28/flavio-bolsonaro-recebeu-autorizacao-para-ficar-1-ano-nos-eua.ghtml",
+   "novo": true
+  },
+  {
+   "data": "28/10/2026",
+   "titulo": "PF em nota: decisão de Moraes não autorizava prisão; Flávio não é foragido só por restrição de documentos",
+   "texto": "Primeira nota pública da PF após a saída. Diz que pediu cautelares (passaportes, proibição de saída, restrição de contato), cancelou os passaportes, inseriu alerta no SONAR e que não há registro oficial de saída pelos postos brasileiros. Afirma que restrição de documentos, por si só, \"não caracteriza a condição de foragido nem autoriza prisão, vigilância permanente ou outras medidas cautelares\". Investiga o descumprimento.",
+   "texto_completo": "Em nota divulgada na tarde desta quarta (28, ~14h25; Poder360 às 14h48), a Polícia Federal fez a primeira manifestação pública depois da saída de Flávio para os EUA.\n\nA corporação lembrou que, em 25/10, representou ao STF por medidas cautelares (apreensão de passaportes, proibição de saída e restrição de contato com outros investigados) na Pet nº 16.877/DF; após a decisão, cancelou os passaportes comum e diplomático, inseriu alerta no SONAR e intimou Flávio na manhã de 26/10 a entregar passaportes de outras nacionalidades em 24 horas, o que não ocorreu. \"Não há registro oficial de saída do parlamentar pelos postos de controle migratório brasileiros.\"\n\nTrecho central: \"A existência de restrições relacionadas a documentos de viagem, por si só, não caracteriza a condição de foragido nem autoriza a realização de prisão, vigilância permanente ou outras medidas cautelares.\" A PF diz investigar as circunstâncias do descumprimento, \"atuando nos limites da legislação\". Fontes: CBN, Poder360.",
+   "fonte": "PF (nota) / CBN / Poder360",
+   "url": "https://cbn.globo.com/politica/noticia/2026/10/28/pf-diz-que-flavio-bolsonaro-nao-e-considerado-foragido-e-nao-ha-pedido-de-prisao.ghtml",
+   "novo": true
+  },
   {
    "data": "28/10/2026",
    "titulo": "PF suspeita que governo Milei ajudou Flávio a sair do Brasil rumo aos EUA",
    "texto": "Segundo O Globo, a Polícia Federal apura se o governo argentino de Javier Milei deu apoio à saída de Flávio. Um dos indícios é a presença do assessor presidencial Santiago Caputo em Puerto Iguazú.",
    "texto_completo": "O Globo informou, às 12h40 desta quarta (28), que a Polícia Federal investiga a suspeita de que Flávio Bolsonaro teve apoio do governo de Javier Milei para deixar o Brasil pela Argentina e seguir para os Estados Unidos. Entre os indícios, os investigadores citam a presença de Santiago Caputo, assessor próximo de Milei e um de seus principais estrategistas, na cidade de Puerto Iguazú, que faz divisa com Foz do Iguaçu; segundo a imprensa argentina, ele acompanhou de perto a movimentação do senador.\n\nDe acordo com o jornal La Nación, citado pelo Globo, o voo no Gulfstream G400 de prefixo LV-JQW, da empresa de táxi aéreo Baires Fly, foi acertado por alguém próximo do assessor de Milei. A empresa é ligada ao empresário Sergio Daniel Mastropietro, que, conforme a coluna de Malu Gaspar, é investigado na Argentina por suspeita de participar de um esquema de lavagem de dinheiro desviado da Agência Nacional de Deficiência (Andis). Parlamentares argentinos de oposição já pediram que se investigue se o governo colaborou com a saída.\n\nO Ministério da Segurança argentino informou que Flávio cruzou a ponte Tancredo Neves às 22h50 de terça (27) e registrou a saída da Argentina às 23h52 com o passaporte italiano; o governo diz que ele não tinha \"nenhum impedimento legal\" para entrar no país. Nos bastidores, investigadores da PF dizem que não podiam agir de forma mais drástica porque não havia mandado de prisão preventiva nem pedido de captura internacional contra ele. O Valor também apurou que a PF não tinha ordem específica para deter o senador. A reportagem não traz resposta do governo argentino sobre a suspeita de apoio.",
    "fonte": "O Globo / Valor Econômico",
-   "url": "https://oglobo.globo.com/politica/noticia/2026/10/28/pf-suspeita-que-flavio-contou-com-apoio-de-governo-milei-para-viajar-aos-estados-unidos.ghtml",
-   "novo": true
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/28/pf-suspeita-que-flavio-contou-com-apoio-de-governo-milei-para-viajar-aos-estados-unidos.ghtml"
   },
   {
    "data": "28/10/2026",
@@ -341,7 +386,10 @@
   }
  ],
  "status_novos": [
-  "Apoio na fuga"
+  "Declaração escrita",
+  "Pedido de prisão",
+  "Passaporte",
+  "Visto dos EUA"
  ],
  "contra": "× Alexandre de Moraes",
  "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
