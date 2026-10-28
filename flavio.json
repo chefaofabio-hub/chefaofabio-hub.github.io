@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-28 07:20",
- "atualizado_em": "28/10/2026 07:20",
+ "novidade_id": "2026-10-28 07:50",
+ "atualizado_em": "28/10/2026 07:50",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -14,17 +14,25 @@
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema",
   "Pedido de prisão": "Só pedido de deputados do PT; PF avalia pedir (O Globo). Moraes não decidiu; não há prisão decretada (28/10, 7h)",
   "Visto dos EUA": "Porta-voz do Departamento de Estado (AP, El País) e Casa Branca (Folha) confirmam que darão vistos a Flávio e família e permitirão a entrada (27/10)",
-  "Busca e apreensão": "PF cumpre mandado na casa de Flávio em Brasília, autorizado por Moraes com aval da PGR (28/10)"
+  "Busca e apreensão": "PF cumpre mandados na casa de Flávio em Brasília e em endereço ligado a ele no Rio, autorizados por Moraes com aval da PGR (28/10)"
  },
  "itens": [
+  {
+   "data": "28/10/2026",
+   "titulo": "PF também faz buscas em endereço ligado a Flávio no Rio de Janeiro",
+   "texto": "Além da casa em Brasília, a PF faz buscas nesta quarta (28) em um endereço ligado a Flávio no Rio, segundo a GloboNews. Detalhes do local e do objetivo ainda não foram divulgados.",
+   "texto_completo": "O Globo informou às 6h56 desta quarta (28), com base na GloboNews, que a Polícia Federal faz buscas em um endereço ligado ao senador Flávio Bolsonaro no Rio de Janeiro. Até a publicação, não havia detalhes sobre qual é o imóvel nem sobre o objetivo específico dessa diligência.\n\nA ação acontece no mesmo dia da busca na casa de Flávio em Brasília, autorizada pelo ministro Alexandre de Moraes, com aval da PGR, no inquérito que apura suposta lavagem de dinheiro com casas de apostas ligadas ao advogado Willer Tomaz. O G1 fala em buscas em \"endereços\" ligados ao senador.\n\nEnquanto isso, Flávio, a mulher, Fernanda, e as duas filhas estão em um voo particular que saiu de Guayaquil (Equador) rumo ao aeroporto de Opa-locka, em Miami, com chegada prevista por volta das 10h40 (horário de Brasília). Não há ordem de prisão contra ele; segundo criminalistas ouvidos pela BBC, por isso ele ainda não é tecnicamente foragido. Flávio nega irregularidades.",
+   "fonte": "O Globo / GloboNews",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/28/pf-faz-buscas-em-enderecos-a-flavio-no-rio.ghtml",
+   "novo": true
+  },
   {
    "data": "28/10/2026",
    "titulo": "PF faz busca e apreensão na casa de Flávio em Brasília, com autorização de Moraes",
    "texto": "Na manhã desta quarta (28), a PF cumpre mandado de busca e apreensão em endereço ligado a Flávio, segundo investigadores a mansão dele em Brasília. A ordem foi dada pelo ministro Alexandre de Moraes no inquérito de lavagem via apostas, com aval da PGR. Não é ordem de prisão.",
    "texto_completo": "O G1 informou às 6h51 desta quarta (28) que a Polícia Federal está cumprindo um mandado de busca e apreensão em endereço ligado ao senador Flávio Bolsonaro. Segundo investigadores, o alvo é a casa dele em Brasília.\n\nA busca foi autorizada pelo ministro Alexandre de Moraes, relator do inquérito que apura suposta lavagem de dinheiro com casas de apostas ligadas ao advogado Willer Tomaz. A Procuradoria-Geral da República concordou com a medida. A ideia é recolher documentos e equipamentos eletrônicos.\n\nÉ uma decisão do próprio Moraes, mas trata de busca, não de prisão: até agora não há mandado de prisão contra Flávio.",
    "fonte": "G1",
-   "url": "https://g1.globo.com/politica/noticia/2026/10/28/pf-buscas-enderecos-flavio-bolsonaro.ghtml",
-   "novo": true
+   "url": "https://g1.globo.com/politica/noticia/2026/10/28/pf-buscas-enderecos-flavio-bolsonaro.ghtml"
   },
   {
    "data": "28/10/2026",
@@ -32,8 +40,7 @@
    "texto": "A Migração argentina informou de madrugada que Flávio, a mulher e as duas filhas entraram pela Ponte Tancredo Neves às 22h50 de 27/10 e, às 23h30, embarcaram num voo privado da Baires Fly com destino declarado a Guayaquil. É a primeira confirmação oficial da rota. Isso contradiz as versões de aliados de que ele já estaria na Flórida na tarde de 27/10.",
    "texto_completo": "Às 2h01 desta quarta (28), a Direção Nacional de Migrações da Argentina divulgou nota dizendo que Flávio Nantes Bolsonaro, a esposa Fernanda e as filhas Carolina e Luiza entraram no país às 22h50 de terça (27), pela Ponte Internacional Tancredo Neves, que liga Foz do Iguaçu a Puerto Iguazú. Segundo a nota, todos tinham documentos de viagem válidos e não havia impedimento legal registrado na fronteira.\n\nAinda segundo o órgão, às 23h30 o grupo embarcou num voo privado operado pela Baires Fly com destino a Guayaquil, no Equador, conforme o plano de voo. La Nación diz que o avião, um Gulfstream G400, evitou o espaço aéreo brasileiro passando pelo Paraguai, e relata a presença do estrategista de Milei, Santiago Caputo, em Misiones na hora da decolagem. Na terça, o mesmo governo argentino havia negado qualquer registro de entrada dele.\n\nÉ a primeira confirmação oficial sobre a rota de saída. Ela desmente as versões de aliados, publicadas na terça, de que Flávio já teria desembarcado na Flórida à tarde.",
    "fonte": "La Nación, Infobae, CNN Brasil, El País",
-   "url": "https://www.lanacion.com.ar/el-mundo/revuelo-en-el-aeropuerto-de-puerto-iguazu-tras-el-despegue-del-avion-que-esperaba-a-bolsonaro-nid28102026/",
-   "novo": true
+   "url": "https://www.lanacion.com.ar/el-mundo/revuelo-en-el-aeropuerto-de-puerto-iguazu-tras-el-despegue-del-avion-que-esperaba-a-bolsonaro-nid28102026/"
   },
   {
    "data": "28/10/2026",
@@ -41,8 +48,7 @@
    "texto": "Segundo o G1, com dados do FlightAware, o jato fez escala em Guayaquil e decolou às 6h22 (Brasília) para o aeroporto Opa-locka Executive, em Miami, com chegada prevista por volta das 10h40. Trump disse que aprova a ida de Flávio aos EUA.",
    "texto_completo": "De acordo com o G1, o voo com Flávio e a família fez uma escala curta em Guayaquil, no Equador, e voltou a decolar às 6h22 desta quarta (28), horário de Brasília. O destino é o aeroporto Opa-locka Executive, em Miami, onde a chegada está prevista para cerca de 10h40, segundo o site de monitoramento FlightAware.\n\nO Departamento de Estado já tinha dito na terça que daria vistos a Flávio e à família. Agora o presidente Donald Trump afirmou que aprova a ida do senador aos EUA e repetiu, sem provas, alegações de fraude na eleição brasileira.\n\nO pouso ainda não foi confirmado oficialmente; o horário é estimativa do serviço de rastreamento de voos.",
    "fonte": "G1",
-   "url": "https://g1.globo.com/mundo/noticia/2026/10/28/trump-diz-que-aprova-ida-de-flavio-bolsonaro-aos-eua.ghtml",
-   "novo": true
+   "url": "https://g1.globo.com/mundo/noticia/2026/10/28/trump-diz-que-aprova-ida-de-flavio-bolsonaro-aos-eua.ghtml"
   },
   {
    "data": "28/10/2026",
@@ -50,8 +56,7 @@
    "texto": "Segundo O Globo, a PF estuda pedir a Moraes o bloqueio de bens de Flávio e avalia pedir a preventiva, e a defesa teme um mandado de prisão. São só avaliações: nenhum pedido da PF foi confirmado e Moraes não decidiu nada sobre prisão.",
    "texto_completo": "O Globo relata que, com Flávio fora do país, a Polícia Federal avalia pedir ao STF o bloqueio de bens e valores do senador, como Moraes já fez com Willer Tomaz e com Eduardo Bolsonaro. Os investigadores também avaliam pedir a prisão preventiva por causa do descumprimento da ordem, embora achem que teria pouco efeito prático com os EUA dando visto a ele.\n\nEm outra reportagem, o jornal diz que a defesa de Flávio teme que o próximo passo de Moraes seja decretar a prisão.\n\nTudo isso ainda é avaliação e especulação. Não há pedido formal da PF confirmado, e o ministro Alexandre de Moraes não decretou prisão nem bloqueio de bens.",
    "fonte": "O Globo",
-   "url": "https://oglobo.globo.com/politica/noticia/2026/10/28/bloqueio-de-bens-prisao-preventiva-e-rastreamento-da-rota-de-fuga-pf-avalia-proximos-passos-apos-flavio-deixar-o-pais.ghtml",
-   "novo": false
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/28/bloqueio-de-bens-prisao-preventiva-e-rastreamento-da-rota-de-fuga-pf-avalia-proximos-passos-apos-flavio-deixar-o-pais.ghtml"
   },
   {
    "data": "27/10/2026",
@@ -311,7 +316,6 @@
   }
  ],
  "status_novos": [
-  "Suposta fuga",
   "Busca e apreensão"
  ],
  "contra": "× Alexandre de Moraes",
