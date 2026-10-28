@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-27 21:15",
- "atualizado_em": "27/10/2026 21:15",
+ "novidade_id": "2026-10-27 22:15",
+ "atualizado_em": "27/10/2026 22:15",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -10,7 +10,7 @@
   "Inquérito Dark Horse": "Relator: André Mendonça",
   "Inquérito calúnia contra Lula": "Relator: Alexandre de Moraes",
   "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
-  "Suposta fuga": "Band diz que ele desembarcou em Fort Lauderdale (Flórida) por volta das 17h e vai pedir asilo; aliados confirmam ida aos EUA com a família; PF investiga a rota (inclusive via Roraima/Venezuela) e não tem registro de saída; sem confirmação oficial (27/10, 21h)",
+  "Suposta fuga": "Aliados dizem que ele chegou à Flórida (Band: Fort Lauderdale, ~17h) com a família e já foi recebido por Eduardo; pode dar entrevista na quarta (28); PF investiga a rota e não tem registro de saída; sem confirmação oficial (27/10, 22h)",
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema e vai oficiar Moraes",
   "Pedido de prisão": "Só pedido de deputados do PT (Lindbergh, Rogério Correia, Ana Elisa); Moraes não decidiu; não há prisão decretada (27/10)",
   "Visto dos EUA": "Porta-voz do Departamento de Estado (AP, El País) e Casa Branca (Folha) confirmam que darão vistos a Flávio e família e permitirão a entrada (27/10)"
@@ -18,12 +18,20 @@
  "itens": [
   {
    "data": "27/10/2026",
+   "titulo": "Aliados dizem que Flávio foi recebido por Eduardo na Flórida e planeja falar à imprensa (sem confirmação oficial)",
+   "texto": "Segundo aliados ouvidos pela CNN Brasil, pelo blog de Bela Megale (O Globo), pelo SBT e por fontes da BBC, Flávio já se encontrou com o irmão Eduardo na Flórida, com a mulher e as filhas. A ideia seria dar uma entrevista nesta quarta (28). Nada disso foi confirmado oficialmente pelo governo brasileiro ou pela PF.",
+   "texto_completo": "Na noite desta terça (27), vários veículos relataram, sempre com base em aliados e pessoas próximas da família, que Flávio Bolsonaro já está com o irmão Eduardo Bolsonaro na Flórida. O blog de Bela Megale, no O Globo, diz que Eduardo, que mora no Texas, foi até a Flórida com a família para recebê-lo e que teria ajudado a articular a saída junto a autoridades americanas. O SBT diz que a mulher e as duas filhas de Flávio também estão juntas com a família de Eduardo.\n\nSegundo a CNN Brasil, os dois discutem os próximos passos e uma das ideias é Flávio conceder uma entrevista nesta quarta (28) para explicar por que deixou o país. A BBC News Brasil registrou ainda que o primo Léo Índio também afirmou que o senador chegou aos EUA.\n\nTudo isso vem de aliados e fontes não identificadas. Não há confirmação oficial do Brasil sobre o paradeiro nem sobre a rota usada, e a PF segue sem registro de saída dele. Até agora o ministro Alexandre de Moraes não decretou prisão; o STF disse não ter informação sobre qualquer mandado.",
+   "fonte": "CNN Brasil, O Globo (Bela Megale), SBT News, BBC News Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-se-encontra-com-eduardo-bolsonaro-nos-eua-e-planeja-coletiva/",
+   "novo": true
+  },
+  {
+   "data": "27/10/2026",
    "titulo": "Band: PF investiga rota da saída de Flávio; uma hipótese é Roraima e Venezuela",
    "texto": "Segundo a Band, a PF apura por onde Flávio saiu do Brasil sem passar por controle migratório. Além da versão argentina (Foz do Iguaçu e Puerto Iguazú), os investigadores analisam uma rota pelo Norte, passando por Roraima e pela Venezuela. A PF não confirmou oficialmente nenhuma rota.",
    "texto_completo": "Reportagem da Band publicada no início da noite desta terça (27) diz que a Polícia Federal está tentando descobrir o caminho que Flávio usou para deixar o país com a mulher e as duas filhas, já que não há registro dele em nenhum posto regular de imigração. Órgãos de inteligência e de fronteira foram acionados desde a manhã.\n\nA primeira versão, publicada pelo Infobae, falava em ida de jatinho até Foz do Iguaçu e travessia até Puerto Iguazú, mas o jato lá não decolou e a Argentina nega a entrada dele. Por isso, segundo a Band, a PF também analisa uma rota pelo Norte, por Roraima e depois pela Venezuela, olhando registros de voos e deslocamentos por terra na região.\n\nA emissora relata ainda que, segundo pessoas próximas, o plano inicial era só a mulher e as filhas viajarem, e que Flávio teria mudado de ideia depois da ordem sobre os passaportes. A PF avisou o STF que não conseguia localizá-lo e cancelou os passaportes brasileiro, italiano e diplomático. Tudo isso é apuração da Band, sem confirmação oficial da rota pela PF.",
    "fonte": "Band",
-   "url": "https://www.band.com.br/politica/eleicoes/pf-investiga-rota-da-fuga-de-flavio-planopode-ter-passado-pela-venezuela",
-   "novo": true
+   "url": "https://www.band.com.br/politica/eleicoes/pf-investiga-rota-da-fuga-de-flavio-planopode-ter-passado-pela-venezuela"
   },
   {
    "data": "27/10/2026",
@@ -31,8 +39,7 @@
    "texto": "A Band informa que o avião com Flávio pousou no aeroporto de Fort Lauderdale, na Flórida, por volta das 17h (horário de Brasília), e que ele pretende pedir asilo político ao governo Trump. Não há confirmação oficial do Brasil nem dos EUA sobre o desembarque.",
    "texto_completo": "Segundo a Band, o senador chegou aos Estados Unidos na tarde desta terça (27), por volta das 17h no horário de Brasília. O avião teria pousado no aeroporto de Fort Lauderdale, na Flórida, e a emissora diz que ele vai pedir asilo político ao governo de Donald Trump.\n\nA Band lembra que, depois, o Departamento de Estado disse que vai dar vistos a Flávio, à mulher, Fernanda, e às filhas. A emissora também relata indignação dentro do PL com a saída dele, porque aliados acham que isso enfraquece o partido no Congresso.\n\nO local e o horário do desembarque são informação da Band. A PF continua sem registro oficial de saída, o governo americano não confirmou se ele já entrou no país e o Moraes não tomou nova decisão conhecida.",
    "fonte": "Band",
-   "url": "https://www.band.com.br/politica/eleicoes/aliados-dizem-que-flavio-esta-a-caminho-dos-eua-e-pediu-asilo-para-trump",
-   "novo": true
+   "url": "https://www.band.com.br/politica/eleicoes/aliados-dizem-que-flavio-esta-a-caminho-dos-eua-e-pediu-asilo-para-trump"
   },
   {
    "data": "27/10/2026",
