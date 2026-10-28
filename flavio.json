@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-28 07:50",
- "atualizado_em": "28/10/2026 07:50",
+ "novidade_id": "2026-10-28 09:20",
+ "atualizado_em": "28/10/2026 09:20",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -12,24 +12,32 @@
   "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
   "Suposta fuga": "Argentina confirmou oficialmente: entrou por Puerto Iguazú às 22h50 de 27/10 e voou às 23h30 para Guayaquil (Equador); avião decolou de lá às 6h22 de 28/10 rumo a Miami (Opa-locka), chegada prevista ~10h40 (G1/FlightAware)",
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema",
-  "Pedido de prisão": "Só pedido de deputados do PT; PF avalia pedir (O Globo). Moraes não decidiu; não há prisão decretada (28/10, 7h)",
+  "Pedido de prisão": "Só pedido de deputados do PT; PF avalia pedir (O Globo). Moraes não decidiu; não há prisão decretada (28/10, 9h)",
   "Visto dos EUA": "Porta-voz do Departamento de Estado (AP, El País) e Casa Branca (Folha) confirmam que darão vistos a Flávio e família e permitirão a entrada (27/10)",
-  "Busca e apreensão": "PF cumpre mandados na casa de Flávio em Brasília e em endereço ligado a ele no Rio, autorizados por Moraes com aval da PGR (28/10)"
+  "Busca e apreensão": "Não houve: STF e PF negam mandado ou operação (nota de 28/10); G1 corrigiu a notícia"
  },
  "itens": [
   {
    "data": "28/10/2026",
-   "titulo": "PF também faz buscas em endereço ligado a Flávio no Rio de Janeiro",
-   "texto": "Além da casa em Brasília, a PF faz buscas nesta quarta (28) em um endereço ligado a Flávio no Rio, segundo a GloboNews. Detalhes do local e do objetivo ainda não foram divulgados.",
-   "texto_completo": "O Globo informou às 6h56 desta quarta (28), com base na GloboNews, que a Polícia Federal faz buscas em um endereço ligado ao senador Flávio Bolsonaro no Rio de Janeiro. Até a publicação, não havia detalhes sobre qual é o imóvel nem sobre o objetivo específico dessa diligência.\n\nA ação acontece no mesmo dia da busca na casa de Flávio em Brasília, autorizada pelo ministro Alexandre de Moraes, com aval da PGR, no inquérito que apura suposta lavagem de dinheiro com casas de apostas ligadas ao advogado Willer Tomaz. O G1 fala em buscas em \"endereços\" ligados ao senador.\n\nEnquanto isso, Flávio, a mulher, Fernanda, e as duas filhas estão em um voo particular que saiu de Guayaquil (Equador) rumo ao aeroporto de Opa-locka, em Miami, com chegada prevista por volta das 10h40 (horário de Brasília). Não há ordem de prisão contra ele; segundo criminalistas ouvidos pela BBC, por isso ele ainda não é tecnicamente foragido. Flávio nega irregularidades.",
-   "fonte": "O Globo / GloboNews",
-   "url": "https://oglobo.globo.com/politica/noticia/2026/10/28/pf-faz-buscas-em-enderecos-a-flavio-no-rio.ghtml",
+   "titulo": "STF desmente: não há mandado de busca nem operação da PF contra Flávio",
+   "texto": "Em nota nesta quarta (28), o STF disse que é falsa a informação de busca e apreensão em endereços de Flávio: não existe decisão judicial nem diligência policial. A PF confirmou à Band que não faz nenhuma ação. O G1 corrigiu a reportagem.",
+   "texto_completo": "Na manhã desta quarta (28), depois que GloboNews, G1 e O Globo noticiaram buscas da Polícia Federal na casa de Flávio em Brasília e num endereço no Rio, o Supremo divulgou nota dizendo que essa informação é falsa. Segundo o tribunal, não há nenhuma decisão judicial autorizando busca e apreensão contra o senador ou seus endereços, e nenhuma diligência policial está em curso.\n\nA Polícia Federal também disse à Band que não realiza nenhuma ação em endereços ligados a Flávio. O G1 publicou correção às 7h25 reconhecendo o erro. A Reuters e a Veja também registraram o desmentido.\n\nContinua valendo o que já se sabia: Moraes cancelou os passaportes e proibiu Flávio de sair do país, mas até agora não decretou prisão. O avião com ele e a família saiu de Guayaquil às 6h22 rumo a Miami (Opa-locka), com pouso previsto entre 10h20 e 10h40 (horário de Brasília), segundo o FlightAware.",
+   "fonte": "STF (nota) / Band / G1 / Reuters",
+   "url": "https://www.band.com.br/colunistas/bastidores-de-brasilia/stf-nega-busca-e-operacao-da-pf-em-enderecos-ligados-a-flavio-bolsonaro",
    "novo": true
   },
   {
    "data": "28/10/2026",
-   "titulo": "PF faz busca e apreensão na casa de Flávio em Brasília, com autorização de Moraes",
-   "texto": "Na manhã desta quarta (28), a PF cumpre mandado de busca e apreensão em endereço ligado a Flávio, segundo investigadores a mansão dele em Brasília. A ordem foi dada pelo ministro Alexandre de Moraes no inquérito de lavagem via apostas, com aval da PGR. Não é ordem de prisão.",
+   "titulo": "[DESMENTIDO pelo STF] PF faria buscas em endereço ligado a Flávio no Rio",
+   "texto": "Notícia da GloboNews/O Globo da manhã de 28/10. O STF e a PF negaram depois: não houve busca nem mandado (ver item acima).",
+   "texto_completo": "O Globo informou às 6h56 desta quarta (28), com base na GloboNews, que a Polícia Federal faz buscas em um endereço ligado ao senador Flávio Bolsonaro no Rio de Janeiro. Até a publicação, não havia detalhes sobre qual é o imóvel nem sobre o objetivo específico dessa diligência.\n\nA ação acontece no mesmo dia da busca na casa de Flávio em Brasília, autorizada pelo ministro Alexandre de Moraes, com aval da PGR, no inquérito que apura suposta lavagem de dinheiro com casas de apostas ligadas ao advogado Willer Tomaz. O G1 fala em buscas em \"endereços\" ligados ao senador.\n\nEnquanto isso, Flávio, a mulher, Fernanda, e as duas filhas estão em um voo particular que saiu de Guayaquil (Equador) rumo ao aeroporto de Opa-locka, em Miami, com chegada prevista por volta das 10h40 (horário de Brasília). Não há ordem de prisão contra ele; segundo criminalistas ouvidos pela BBC, por isso ele ainda não é tecnicamente foragido. Flávio nega irregularidades.",
+   "fonte": "O Globo / GloboNews",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/28/pf-faz-buscas-em-enderecos-a-flavio-no-rio.ghtml"
+  },
+  {
+   "data": "28/10/2026",
+   "titulo": "[DESMENTIDO pelo STF] PF faria busca na casa de Flávio em Brasília",
+   "texto": "O G1 publicou às 6h51 de 28/10 que a PF cumpria mandado de busca na casa de Flávio em Brasília. O próprio G1 corrigiu: o STF não autorizou nenhuma ação da PF (ver item acima).",
    "texto_completo": "O G1 informou às 6h51 desta quarta (28) que a Polícia Federal está cumprindo um mandado de busca e apreensão em endereço ligado ao senador Flávio Bolsonaro. Segundo investigadores, o alvo é a casa dele em Brasília.\n\nA busca foi autorizada pelo ministro Alexandre de Moraes, relator do inquérito que apura suposta lavagem de dinheiro com casas de apostas ligadas ao advogado Willer Tomaz. A Procuradoria-Geral da República concordou com a medida. A ideia é recolher documentos e equipamentos eletrônicos.\n\nÉ uma decisão do próprio Moraes, mas trata de busca, não de prisão: até agora não há mandado de prisão contra Flávio.",
    "fonte": "G1",
    "url": "https://g1.globo.com/politica/noticia/2026/10/28/pf-buscas-enderecos-flavio-bolsonaro.ghtml"
