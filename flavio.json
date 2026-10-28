@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-28 11:15",
- "atualizado_em": "28/10/2026 11:15",
+ "novidade_id": "2026-10-28 13:55",
+ "atualizado_em": "28/10/2026 13:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados, inclusive o diplomático; estrangeiros a entregar em 24h (26/10)",
@@ -14,17 +14,26 @@
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema",
   "Pedido de prisão": "Só pedidos de deputados do PT; PF avalia pedir (O Globo). Moraes não decidiu; não há prisão decretada (28/10, 11h)",
   "Visto dos EUA": "Porta-voz do Departamento de Estado (AP, El País) e Casa Branca (Folha) confirmam que darão vistos a Flávio e família e permitirão a entrada (27/10)",
-  "Busca e apreensão": "Não houve: STF e PF negam mandado ou operação (nota de 28/10); G1 corrigiu a notícia"
+  "Busca e apreensão": "Não houve: STF e PF negam mandado ou operação (nota de 28/10); G1 corrigiu a notícia",
+  "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (assessor Santiago Caputo em Puerto Iguazú) (O Globo, 28/10)"
  },
  "itens": [
+  {
+   "data": "28/10/2026",
+   "titulo": "PF suspeita que governo Milei ajudou Flávio a sair do Brasil rumo aos EUA",
+   "texto": "Segundo O Globo, a Polícia Federal apura se o governo argentino de Javier Milei deu apoio à saída de Flávio. Um dos indícios é a presença do assessor presidencial Santiago Caputo em Puerto Iguazú.",
+   "texto_completo": "O Globo informou, às 12h40 desta quarta (28), que a Polícia Federal investiga a suspeita de que Flávio Bolsonaro teve apoio do governo de Javier Milei para deixar o Brasil pela Argentina e seguir para os Estados Unidos. Entre os indícios, os investigadores citam a presença de Santiago Caputo, assessor próximo de Milei e um de seus principais estrategistas, na cidade de Puerto Iguazú, que faz divisa com Foz do Iguaçu; segundo a imprensa argentina, ele acompanhou de perto a movimentação do senador.\n\nDe acordo com o jornal La Nación, citado pelo Globo, o voo no Gulfstream G400 de prefixo LV-JQW, da empresa de táxi aéreo Baires Fly, foi acertado por alguém próximo do assessor de Milei. A empresa é ligada ao empresário Sergio Daniel Mastropietro, que, conforme a coluna de Malu Gaspar, é investigado na Argentina por suspeita de participar de um esquema de lavagem de dinheiro desviado da Agência Nacional de Deficiência (Andis). Parlamentares argentinos de oposição já pediram que se investigue se o governo colaborou com a saída.\n\nO Ministério da Segurança argentino informou que Flávio cruzou a ponte Tancredo Neves às 22h50 de terça (27) e registrou a saída da Argentina às 23h52 com o passaporte italiano; o governo diz que ele não tinha \"nenhum impedimento legal\" para entrar no país. Nos bastidores, investigadores da PF dizem que não podiam agir de forma mais drástica porque não havia mandado de prisão preventiva nem pedido de captura internacional contra ele. O Valor também apurou que a PF não tinha ordem específica para deter o senador. O governo argentino não comentou a suspeita de apoio na reportagem.",
+   "fonte": "O Globo / Valor Econômico",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/28/pf-suspeita-que-flavio-contou-com-apoio-de-governo-milei-para-viajar-aos-estados-unidos.ghtml",
+   "novo": true
+  },
   {
    "data": "28/10/2026",
    "titulo": "Flávio pousa em Miami com a mulher e as filhas",
    "texto": "O jatinho LV-JQW pousou no aeroporto executivo Opa-locka, em Miami, por volta das 10h24 (horário de Brasília). Imagens ao vivo mostraram Flávio, a mulher e as duas filhas descendo do avião. O aliado Paulo Figueiredo diz que ele falará à imprensa na quinta (29).",
    "texto_completo": "O avião que levou Flávio Bolsonaro, a mulher, Fernanda, e as duas filhas aterrissou nesta quarta (28), entre 10h23 e 10h24 no horário de Brasília, no aeroporto executivo Miami-Opa Locka, na Flórida. Folha, O Globo, G1, CBN e The Guardian noticiaram o pouso, e imagens de TV e da Reuters mostraram a família descendo do jatinho e seguindo de carro, escoltada por um policial americano.\n\nO Gulfstream da Baires Fly saiu de Puerto Iguazú na noite de terça, parou em Guayaquil (Equador) e evitou o espaço aéreo brasileiro. Segundo a Folha, Flávio entrou na Argentina com passaporte italiano.\n\nO aliado Paulo Figueiredo disse que Flávio está bem e em segurança e que dará entrevista coletiva em Miami na quinta (29); isso ainda não foi confirmado pelo próprio senador. O Departamento de Estado já havia dito que dará vistos à família.\n\nNo Brasil, nada mudou no plano judicial: Moraes não decretou prisão, e o STF disse ao ND Mais não ter informação sobre qualquer ordem. Segundo O Globo, a PF avalia pedir bloqueio de bens e prisão preventiva, mas isso ainda não foi pedido nem decidido.",
    "fonte": "Folha / O Globo / G1 / CBN / The Guardian",
-   "url": "https://www1.folha.uol.com.br/poder/2026/10/aviao-em-que-flavio-bolsonaro-estaria-pousa-em-miami.shtml",
-   "novo": true
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/aviao-em-que-flavio-bolsonaro-estaria-pousa-em-miami.shtml"
   },
   {
    "data": "28/10/2026",
@@ -332,7 +341,7 @@
   }
  ],
  "status_novos": [
-  "Suposta fuga"
+  "Apoio na fuga"
  ],
  "contra": "× Alexandre de Moraes",
  "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
