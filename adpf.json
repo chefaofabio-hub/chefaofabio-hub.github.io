@@ -1,11 +1,11 @@
 {
-  "novidade_id": "2t-rj-20261026",
-  "atualizado_em": "22/10/2026 22:55",
+  "novidade_id": "tse-resposta-20261027",
+  "atualizado_em": "27/10/2026 22:30",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
     "numero_adpf": "ADPF 1362",
-    "situacao": "Aguardando informações do TSE (prazo de 5 dias do despacho de Zanin). Novo amicus curiae em 22/10. Liminar sem decisão até 22/10, 22h55."
+    "situacao": "TSE já respondeu a Zanin, segundo o SBT News (27/10), opondo-se ao 2º turno. Próximo passo: manifestações da AGU e da PGR. Liminar sem decisão até 27/10, 22h30."
   },
   "data_alvo": "2026-10-25T08:00:00-03:00",
   "processo": {
@@ -74,6 +74,15 @@
     }
   ],
   "andamentos": [
+    {
+      "data": "27/10/2026",
+      "titulo": "TSE responde a Zanin e se opõe ao 2º turno no RJ (segundo o SBT News; ainda não confirmado no portal do STF)",
+      "texto": "Segundo a coluna de Basília Rodrigues no SBT News, o presidente do TSE, Kassio Nunes Marques, enviou a Zanin as informações pedidas e disse que não era viável fazer o 2º turno para governador junto com a eleição de 25/10. A liminar continua sem decisão.",
+      "texto_completo": "De acordo com a coluna de Basília Rodrigues no SBT News, publicada em 27/10, o presidente do Tribunal Superior Eleitoral, ministro Kassio Nunes Marques, já respondeu ao pedido de informações feito pelo ministro Cristiano Zanin na ADPF 1362. Essa resposta ainda não aparece confirmada em fonte oficial do STF, então a informação é da coluna.\n\nNa manifestação, Nunes Marques afirma que não seria viável incluir a eleição para governador do Rio no dia 25 de outubro, porque as urnas já estavam preparadas e lacradas sem a previsão desse cargo. Incluir a votação exigiria gerar novas mídias, fazer nova carga e nova lacração das urnas, com cerimônias públicas e fiscalização, o que, segundo ele, não caberia no prazo que restava.\n\nEle também defende o mérito da decisão do TSE: diz que a inelegibilidade de Garotinho foi reconhecida por unanimidade no TRE-RJ e reafirmada pelo relator no TSE, Floriano de Azevedo Marques, de forma amplamente divulgada, e que por isso o eleitor tinha ciência do elevado risco de anulação dos votos. Com a exclusão dos 274.411 votos de Garotinho, Douglas Ruas teria passado a ter 52,59% dos votos válidos, segundo o texto citado pela coluna.\n\nO próximo passo previsto no despacho de Zanin é a manifestação da AGU e da PGR. A liminar pedida pelo PSD continua sem decisão.",
+      "fonte": "SBT News (Coluna da Basília)",
+      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-basilia/kassio-se-opoe-a-nova-eleicao-no-rj-em-resposta-a-zanin",
+      "novo": true
+    },
     {
       "data": "22/10/2026",
       "titulo": "Nova petição de amicus curiae",
@@ -308,5 +317,7 @@
       "novo": true
     }
   ],
-  "status_novos": []
+  "status_novos": [
+    "situacao"
+  ]
 }
