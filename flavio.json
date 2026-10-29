@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-29 15:55",
- "atualizado_em": "29/10/2026 15:55",
+ "novidade_id": "2026-10-29 17:55",
+ "atualizado_em": "29/10/2026 17:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -26,8 +26,34 @@
  "itens": [
   {
    "data": "29/10/2026",
-   "fonte": "O Globo; Folha (citando The New York Times)",
+   "fonte": "UOL",
    "novo": true,
+   "titulo": "Vice-líder do PT pede à Procuradoria Eleitoral a inelegibilidade de Flávio por causa da carta",
+   "texto": "O deputado Alencar Santana, vice-líder do PT na Câmara, acionou nesta quinta (29) a Procuradoria-Geral Eleitoral para que ela entre com ação no TSE pedindo a inelegibilidade de Flávio por oito anos, por abuso de poder político e uso indevido dos meios de comunicação. É pedido de um adversário; não há decisão.",
+   "texto_completo": "Segundo o UOL (29/10, 16h16), o vice-líder do PT na Câmara dos Deputados, Alencar Santana, acionou a PGE (Procuradoria-Geral Eleitoral) pedindo a inelegibilidade, por oito anos, de Flávio Bolsonaro, depois da carta divulgada dos EUA em que ele alega, sem provas, fraude na eleição.\n\nNa representação, o petista pede que o órgão ajuíze uma ação no TSE contra Flávio e que se investiguem abuso de poder político e uso indevido dos meios de comunicação. A carta teve três versões; uma dizia que ele era \"o verdadeiro presidente eleito\", depois trocado por \"líder do Brasil\".\n\nÉ um pedido de um parlamentar adversário. Até agora a PGE e o TSE não se manifestaram.",
+   "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/29/pt-pede-investigacao-e-inelegibilidade-de-flavio-apos-carta-golpista.ghtm"
+  },
+  {
+   "data": "29/10/2026",
+   "fonte": "g1",
+   "novo": true,
+   "titulo": "Governo Lula acha que EUA e Argentina ajudaram na fuga, mas decide não reagir diplomaticamente",
+   "texto": "Segundo o g1 (29/10, 16h28), o Planalto está convencido de que os governos Trump e Milei participaram da fuga de Flávio, mas não vai reagir oficialmente, para manter uma relação pragmática com os dois países. O chanceler Mauro Vieira vai ao G20 em Atlanta e pode cruzar com Marco Rubio.",
+   "texto_completo": "Segundo o g1 (29/10, 16h28), o governo brasileiro está convencido de que Estados Unidos e Argentina participaram da operação que permitiu a fuga do senador Flávio Bolsonaro. Mesmo assim, o Palácio do Planalto não pretende se manifestar nem reagir diplomaticamente, porque entende que não há motivo para o presidente Lula entrar na controvérsia; uma reação oficial dependeria de fatos novos. A orientação é manter uma relação pragmática com os governos de Donald Trump e Javier Milei, sem prejudicar o diálogo diplomático e comercial.\n\nO ministro das Relações Exteriores, Mauro Vieira, viaja nesta quinta (29) para Atlanta, onde participa na sexta (30) de reunião de chanceleres do G20. O secretário de Estado americano, Marco Rubio, também estará lá; não há bilateral marcada, mas o governo não descarta uma conversa. Integrantes do governo suspeitam que Flávio trocou \"presidente eleito\" por \"líder\" na carta depois de contatos com autoridades americanas.",
+   "url": "https://g1.globo.com/politica/noticia/2026/10/29/governo-quer-manter-pragmatismo-com-eua-e-argentina-e-nao-pretende-reagir-a-fuga-de-flavio-bolsonaro.ghtml"
+  },
+  {
+   "data": "29/10/2026",
+   "fonte": "O Globo; Metrópoles",
+   "novo": true,
+   "titulo": "Por que Flávio recuou do \"presidente eleito\": alerta jurídico e pressão do PL; aliado culpa erro de inteligência artificial",
+   "texto": "Segundo O Globo (29/10, atualizado 15h27), Flávio tirou \"presidente eleito\" da carta depois de alertas sobre o risco de ser processado e de pedidos da cúpula do PL. Paulo Figueiredo diz que foi um erro de inteligência artificial. O Metrópoles (16h39) conta que Rogério Marinho falou duas vezes com ele por telefone e reclamou também do uso da palavra \"fraude\".",
+   "texto_completo": "Segundo O Globo (29/10, 14h14, atualizado às 15h27), Flávio Bolsonaro recuou da autoproclamação como presidente eleito depois de receber alertas jurídicos sobre o risco de ser processado e de ser aconselhado por integrantes da cúpula do PL a retirar a expressão da carta. A primeira versão preocupou pessoas da campanha e dirigentes do partido, que o procuraram diretamente. Rogério Marinho (PL-RN) já tinha chamado a expressão de \"erro de confecção\" e dito que não há provas de fraude.\n\nO influenciador Paulo Figueiredo, que está com Flávio nos EUA, deu outra versão: um erro no uso de inteligência artificial teria feito publicar uma redação anterior no lugar do texto final.\n\nSegundo a coluna de Igor Gadelha no Metrópoles (29/10, 16h39), Marinho conversou com Flávio por telefone pelo menos duas vezes desde a fuga, usando o celular de um aliado em comum nos EUA, porque Flávio ainda não tem número novo no exterior. Marinho reclamou de dois trechos: o \"verdadeiro presidente eleito\" e o que diz ter visto \"estarrecido uma fraude eleitoral\".",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/29/flavio-recuou-de-autoproclamacao-como-presidente-eleito-apos-alerta-juridico-e-pressao-de-parlamentares-do-pl.ghtml"
+  },
+  {
+   "data": "29/10/2026",
+   "fonte": "O Globo; Folha (citando The New York Times)",
    "titulo": "NYT: Casa Branca arrumou o jato da fuga de Flávio, e ele deve ganhar green card",
    "texto": "Segundo o The New York Times, citado por O Globo (14h09) e Folha (14h35), o jato que levou Flávio da Argentina a Miami foi providenciado por Jason Miller, funcionário da Casa Branca, e Eduardo Bolsonaro falou com ele logo após a intimação. Autoridades americanas dizem que Flávio e a família devem receber residência permanente (green card).",
    "texto_completo": "Segundo reportagem do The New York Times, repercutida por O Globo (29/10, 14h09, atualizada às 14h27) e pela Folha (29/10, 14h35), Flávio Bolsonaro fugiu do Brasil com ajuda do governo Trump. O uso do jato particular que levou o senador e a família da Argentina ao Equador (para reabastecer) e depois a Miami teria sido organizado por Jason Miller, funcionário de comunicações da Casa Branca.\n\nO plano teria sido posto em prática na segunda-feira (26), depois que Flávio foi intimado a entregar os passaportes por decisão do ministro Alexandre de Moraes. Segundo o NYT, Eduardo Bolsonaro entrou em contato com Miller assim que o irmão foi intimado.\n\nFlávio está em Miami com status de admissão condicional (\"parole\"), concedido por ordem de Trump, que disse que ele recebeu \"um passe livre\". Segundo autoridades americanas ouvidas pelo jornal, ele deve pedir o green card (residência permanente), que seria processado rápido, como no caso de Eduardo. A Folha observa que a ajuda da Casa Branca pode prejudicar a relação entre Trump e o governo Lula.",
