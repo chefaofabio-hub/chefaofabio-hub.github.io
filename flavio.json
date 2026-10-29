@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-28 20:25",
- "atualizado_em": "28/10/2026 20:25",
+ "novidade_id": "2026-10-28 21:55",
+ "atualizado_em": "28/10/2026 21:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -14,11 +14,29 @@
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema",
   "Pedido de prisão": "Só pedidos de deputados do PT. Em nota de 28/10 (~14h25), a PF disse que a decisão de Moraes não autorizava prisão nem vigilância permanente e que Flávio não é foragido só por restrição de documentos; investiga o descumprimento. Moraes não decretou prisão.",
   "Visto dos EUA": "Admitido pelo CBP como \"DT\" (parole/autorizado a entrar temporariamente) até 27/10/2027 (~1 ano). Casa Branca/Departamento de Estado confirmaram vistos (27/10).",
-  "Busca e apreensão": "Não houve: STF e PF negam mandado ou operação (nota de 28/10); G1 corrigiu a notícia",
-  "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (assessor Santiago Caputo em Puerto Iguazú) (O Globo, 28/10)",
+  "Busca e apreensão": "Não houve. PF pediu buscas em 27/10 com parecer favorável da PGR, mas Moraes não decidiu e a operação foi desmobilizada (UOL); STF diz que não houve decisão",
+  "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (Santiago Caputo em Puerto Iguazú) e do irmão Eduardo, que teria ajudado a despistar a rota (O Globo, JN, 28/10)",
   "Declaração escrita": "Carta à Nação (28/10, tarde): 1ª versão se dizia \"presidente eleito\"; 3ª versão (~17h41) troca por \"líder do Brasil\". Publicada no X (@FlavioBolsonaro)."
  },
  "itens": [
+  {
+   "data": "28/10/2026",
+   "titulo": "PF investiga como Flávio fugiu; suspeita de que Eduardo Bolsonaro e o governo argentino ajudaram a despistar",
+   "texto": "Jornal Nacional (20h40): a PF apura como Flávio chegou à fronteira e analisa uma série de informações desencontradas que teriam sido espalhadas para desviar a atenção da rota. Há suspeita de ajuda do irmão Eduardo e do governo argentino. Segundo a declaração de voo, Flávio embarcou no jato com o passaporte italiano; a mulher e as filhas usaram o brasileiro. TV Globo teve acesso a uma 2ª decisão de Moraes dizendo que a proibição de sair do país era consequência lógica da ordem dos passaportes.",
+   "texto_completo": "O Jornal Nacional informou na noite desta quarta (28) que a Polícia Federal ainda não sabe como Flávio chegou à fronteira com a Argentina na noite de terça (27). A PF diz que não há registro oficial de saída dele, da mulher e das filhas; a Argentina afirma que a família apresentou documentação válida.\n\nA reportagem mostrou que na Ponte Tancredo Neves (Foz do Iguaçu–Puerto Iguazú) não é obrigatório registrar a saída do lado brasileiro; do lado argentino a parada é obrigatória.\n\nSegundo a declaração de voo, Flávio usou o passaporte italiano para embarcar no jato particular (Gulfstream G400 da Baires Fly); Fernanda e as duas filhas usaram o passaporte brasileiro. O avião decolou de Puerto Iguazú à 0h22 (Brasília), evitando o território brasileiro, chegou a Guayaquil às 5h46 e partiu para os EUA às 6h22.\n\nA TV Globo teve acesso a uma segunda decisão de Moraes, posterior ao cancelamento dos passaportes, em que o ministro afirma que a proibição de deixar o país era medida lógica e natural da ordem de cancelamento e entrega dos passaportes.\n\nDesde terça, equipes da PF investigam o descumprimento da decisão do STF e analisam a divulgação de informações desencontradas que teriam servido para desviar a atenção da rota de fuga. Há suspeita de que o ex-deputado Eduardo Bolsonaro e o governo argentino tenham ajudado Flávio.",
+   "fonte": "Jornal Nacional / G1",
+   "url": "https://g1.globo.com/jornal-nacional/noticia/2026/10/28/pf-investiga-como-flavio-bolsonaro-descumpriu-ordem-de-nao-deixar-o-brasil-ha-suspeita-de-que-o-irmao-eduardo-ajudou-a-despistar-a-fuga.ghtml",
+   "novo": true
+  },
+  {
+   "data": "28/10/2026",
+   "titulo": "PF pediu buscas contra Flávio, PGR concordou, mas Moraes não decidiu e a operação não saiu",
+   "texto": "UOL: na terça (27) a PF pediu a Moraes autorização para buscas em endereços ligados a Flávio por causa da fuga; a PGR deu parecer favorável à noite. Moraes não decidiu, e a operação planejada para quarta (28) foi desmobilizada. O STF disse em nota que não houve manifestação, despacho ou decisão do ministro sobre o assunto.",
+   "texto_completo": "Segundo os colunistas Cézar Feitoza e Fabio Serapião, do UOL, a Polícia Federal pediu na terça (27) ao ministro Alexandre de Moraes autorização para fazer buscas em endereços ligados ao senador, no inquérito de lavagem de dinheiro com o advogado Willer Tomaz, alegando que a saída do país prejudicava as apurações.\n\nA PGR deu parecer favorável, protocolado à noite. Equipes da PF ficaram de sobreaviso à espera da decisão durante a madrugada, mas Moraes não decidiu e elas foram desmobilizadas; a operação prevista para quarta (28) não aconteceu.\n\nEm nota, o STF afirmou que \"não houve qualquer manifestação, despacho ou decisão por parte do ministro Alexandre de Moraes ou do Supremo Tribunal Federal sobre essa matéria\". O UOL corrigiu a versão inicial, que dizia que Moraes tinha negado o pedido.",
+   "fonte": "UOL / STF (nota)",
+   "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/28/moraes-negou-buscas-contra-flavio-apos-pedido-da-pf-e-aval-da-pgr.htm",
+   "novo": true
+  },
   {
    "data": "28/10/2026",
    "titulo": "Flávio divulga carta escrita de Miami: se diz \"presidente eleito\", depois troca por \"líder do Brasil\"",
@@ -389,7 +407,9 @@
   "Declaração escrita",
   "Pedido de prisão",
   "Passaporte",
-  "Visto dos EUA"
+  "Visto dos EUA",
+  "Busca e apreensão",
+  "Apoio na fuga"
  ],
  "contra": "× Alexandre de Moraes",
  "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
