@@ -42,6 +42,114 @@ function abrirAba() {
 }
 window.addEventListener("hashchange", abrirAba);
 
+/* ---------------- tocar aba com ! → rolar até a novidade ----------------
+   Pedido Fabio: ao apertar o menu de cima com ponto de exclamação, abrir a aba
+   e ir direto ao item novo (card ou status), com destaque breve piscando. */
+(function () {
+  const ABAS_NOV = ["flavio", "adpf", "ruas"];
+  let pend = null, timer = null, tries = 0;
+  const pontoVisivel = p => p && !p.hidden && getComputedStyle(p).display !== "none";
+  const parseDt = el => {
+    const t = ((el.querySelector && el.querySelector(".dt")) || {}).textContent || "";
+    const m = t.match(/(\d{2})\/(\d{2})\/(\d{4})(?:\s+(\d{2}):(\d{2}))?/);
+    if (!m) return 0;
+    return new Date(+m[3], +m[2] - 1, +m[1], +(m[4] || 0), +(m[5] || 0)).getTime();
+  };
+  const alvoNaAba = root => {
+    const cards = [...root.querySelectorAll(".fbcd.adnovo, .adcd.adnovo, .rscd.adnovo")];
+    if (cards.length) {
+      cards.sort((a, b) => parseDt(b) - parseDt(a) || (a.getBoundingClientRect().top - b.getBoundingClientRect().top));
+      return cards[0];
+    }
+    return root.querySelector(".adnovo");
+  };
+  function limpar() {
+    pend = null; tries = 0; window._novPend = null;
+    if (timer) { clearTimeout(timer); timer = null; }
+  }
+  function destacar(el) {
+    el.classList.remove("nov-flash");
+    void el.offsetWidth;
+    el.classList.add("nov-flash");
+    clearTimeout(el._novFlashT);
+    el._novFlashT = setTimeout(() => el.classList.remove("nov-flash"), 2000);
+  }
+  function lerSeVisivel(aba, alvo) {
+    // Depois de chegar na novidade pelo !, se ela ficar visível um tempo = leu → apaga alerta.
+    // Toque no card também apaga (nos módulos). Aqui cobre “chegou e ficou visível”.
+    if (!alvo || !aba) return;
+    const disparar = () => {
+      const fn = window._lerNovidade && window._lerNovidade[aba];
+      if (fn) try { fn(); } catch (_) {}
+    };
+    if (!("IntersectionObserver" in window)) {
+      setTimeout(disparar, 1200);
+      return;
+    }
+    let feito = false;
+    const io = new IntersectionObserver(ents => {
+      const en = ents[0];
+      if (!en || !en.isIntersecting || en.intersectionRatio < 0.4) return;
+      if (feito) return;
+      feito = true;
+      io.disconnect();
+      setTimeout(disparar, 700);
+    }, { threshold: [0.4, 0.6] });
+    io.observe(alvo);
+    setTimeout(() => { if (!feito) { feito = true; io.disconnect(); disparar(); } }, 2500);
+  }
+  function ir() {
+    if (!pend) return;
+    const aba = pend;
+    const root = document.getElementById("aba-" + pend);
+    if (!root || root.hidden) {
+      if (++tries < 50) timer = setTimeout(ir, 60);
+      else limpar();
+      return;
+    }
+    const alvo = alvoNaAba(root);
+    if (!alvo) {
+      if (++tries < 50) timer = setTimeout(ir, 80);
+      else limpar();
+      return;
+    }
+    limpar();
+    try { alvo.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" }); }
+    catch (_) { alvo.scrollIntoView(true); }
+    destacar(alvo);
+    setTimeout(() => {
+      try { alvo.scrollIntoView({ behavior: "auto", block: "center", inline: "nearest" }); }
+      catch (_) { alvo.scrollIntoView(true); }
+      destacar(alvo);
+      lerSeVisivel(aba, alvo);
+    }, 500);
+  }
+  function pedir(aba) {
+    if (!ABAS_NOV.includes(aba)) return;
+    pend = aba; window._novPend = aba; tries = 0;
+    if (timer) clearTimeout(timer);
+    // espera hashchange + render (e o scrollTo(0,0) do PC)
+    timer = setTimeout(ir, 140);
+  }
+  window.novidadeAbaPronta = function (aba) {
+    if (pend === aba || window._novPend === aba) {
+      if (timer) clearTimeout(timer);
+      tries = 0;
+      timer = setTimeout(ir, 40);
+    }
+  };
+  document.addEventListener("click", ev => {
+    const a = ev.target.closest && ev.target.closest("#nav a[data-aba]");
+    if (!a) return;
+    const aba = a.dataset.aba;
+    if (!ABAS_NOV.includes(aba)) return;
+    const p = a.querySelector("b.ponto");
+    if (!pontoVisivel(p)) return;
+    pedir(aba);
+  }, true);
+})();
+
+
 /* ---------------- descobrir id da eleição ---------------- */
 async function descobrirEleicao() {
   if (ELE_FORCADA) return ELE_FORCADA;

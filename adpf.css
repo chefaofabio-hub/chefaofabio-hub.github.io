@@ -29,3 +29,15 @@ nav.nav a .adpf-ico{width:20px;height:20px;vertical-align:-4px;margin-right:6px;
 
 .adnovo{position:relative;border:2px solid #e00b2b!important}
 .adexc{position:absolute;top:-9px;right:-6px;min-width:20px;height:20px;border-radius:10px;background:#e00b2b;color:#fff;font-weight:900;font-size:14px;line-height:20px;text-align:center;box-shadow:0 0 0 2px #fff}
+
+/* Destaque breve ao chegar na novidade pelo ! da aba */
+.adnovo,.fbst.adnovo,.rsst.adnovo,.adst.adnovo{scroll-margin-top:88px}
+@keyframes nov-flash{
+  0%,100%{box-shadow:0 0 0 0 rgba(224,11,43,0);filter:none}
+  10%,40%{box-shadow:0 0 0 6px rgba(224,11,43,.65),0 0 28px rgba(224,11,43,.55);filter:brightness(1.08)}
+  25%,55%{box-shadow:0 0 0 3px rgba(224,11,43,.4)}
+}
+  12%,38%{box-shadow:0 0 0 5px rgba(224,11,43,.55),0 0 18px rgba(224,11,43,.4);background-color:#fff0f3}
+  25%,55%{box-shadow:0 0 0 2px rgba(224,11,43,.35)}
+}
+.nov-flash{animation:nov-flash 1.8s ease-in-out 1!important;border-color:#e00b2b!important}

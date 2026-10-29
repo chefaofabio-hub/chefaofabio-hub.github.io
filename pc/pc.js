@@ -14,7 +14,13 @@ window.APP_PC = true; window.SW_URL = "/pc/sw.js"; window.SW_SCOPE = "/pc/";
   if (location.hash === "#regioes") history.replaceState(null, "", location.pathname + location.search + "#flavio");
 })();
 // Ao trocar de aba, volta ao topo (evita o navegador rolar até a âncora).
-addEventListener("hashchange", () => scrollTo(0, 0));
+addEventListener("hashchange", () => {
+  const aba = location.hash.slice(1);
+  const link = document.querySelector('#nav a[data-aba="'+aba+'"]');
+  const p = link && link.querySelector("b.ponto");
+  if (p && !p.hidden && getComputedStyle(p).display !== "none") return; // app.js rola até a novidade
+  scrollTo(0, 0);
+});
 addEventListener("load", () => setTimeout(() => scrollTo(0, 0), 50));
 // Com <base href="../">, links "#aba" iriam para a raiz (app do celular). Mantém tudo em /pc/.
 document.addEventListener("click", e => {
@@ -22,7 +28,9 @@ document.addEventListener("click", e => {
   if (!a || e.ctrlKey || e.metaKey || e.shiftKey) return;
   e.preventDefault();
   const h = a.getAttribute("href");
-  if (h.length > 1 && location.hash !== h) location.hash = h; else scrollTo(0, 0);
+  const p = a.querySelector && a.querySelector("b.ponto");
+  const temNov = p && !p.hidden && getComputedStyle(p).display !== "none";
+  if (h.length > 1 && location.hash !== h) location.hash = h; else if (!temNov) scrollTo(0, 0);
 }, true);
 // Título da Confiabilidade em uma linha (só no PC).
 (function () { const h = document.querySelector("#aba-confiabilidade .cf-h1"); if (h) h.innerHTML = h.innerHTML.replace(/<br\s*\/?>/i, " "); })();
