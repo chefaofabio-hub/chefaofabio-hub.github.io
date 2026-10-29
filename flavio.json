@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-29 14:05",
- "atualizado_em": "29/10/2026 14:05",
+ "novidade_id": "2026-10-29 15:55",
+ "atualizado_em": "29/10/2026 15:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -13,7 +13,7 @@
   "Suposta fuga": "Confirmada: entrou na Argentina por Puerto Iguazú (27/10, 22h50), voou via Guayaquil e pousou em Miami (Opa-locka) às 10h24 de 28/10 com a família (Folha, O Globo, G1)",
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema",
   "Pedido de prisão": "Só pedidos de deputados do PT. Em nota de 28/10 (~14h25), a PF disse que a decisão de Moraes não autorizava prisão nem vigilância permanente e que Flávio não é foragido só por restrição de documentos; investiga o descumprimento. Moraes não decretou prisão.",
-  "Visto dos EUA": "Admitido pelo CBP como \"DT\" (parole/autorizado a entrar temporariamente) até 27/10/2027 (~1 ano). Casa Branca/Departamento de Estado confirmaram vistos (27/10).",
+  "Visto dos EUA": "Admitido pelo CBP como \"DT\" (parole) até 27/10/2027, por ordem de Trump. Segundo o NYT (29/10), o jato foi arranjado por Jason Miller, da Casa Branca, e Flávio e a família devem receber green card (residência permanente).",
   "Busca e apreensão": "Não houve. PF pediu buscas em 27/10 com parecer favorável da PGR, mas Moraes não decidiu e a operação foi desmobilizada (UOL); STF diz que não houve decisão",
   "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (Santiago Caputo em Puerto Iguazú) e do irmão Eduardo, que teria ajudado a despistar a rota (O Globo, JN, 28/10). PF também apura se jato PR-AAA de Willer Tomaz levou Flávio de Brasília a San Fernando (Buenos Aires) em 27/10 (O Globo/g1)",
   "Declaração escrita": "Carta à Nação (28/10, tarde): 1ª versão se dizia \"presidente eleito\"; 3ª versão (~17h41) troca por \"líder do Brasil\". Publicada no X (@FlavioBolsonaro).",
@@ -26,8 +26,16 @@
  "itens": [
   {
    "data": "29/10/2026",
-   "fonte": "O Globo",
+   "fonte": "O Globo; Folha (citando The New York Times)",
    "novo": true,
+   "titulo": "NYT: Casa Branca arrumou o jato da fuga de Flávio, e ele deve ganhar green card",
+   "texto": "Segundo o The New York Times, citado por O Globo (14h09) e Folha (14h35), o jato que levou Flávio da Argentina a Miami foi providenciado por Jason Miller, funcionário da Casa Branca, e Eduardo Bolsonaro falou com ele logo após a intimação. Autoridades americanas dizem que Flávio e a família devem receber residência permanente (green card).",
+   "texto_completo": "Segundo reportagem do The New York Times, repercutida por O Globo (29/10, 14h09, atualizada às 14h27) e pela Folha (29/10, 14h35), Flávio Bolsonaro fugiu do Brasil com ajuda do governo Trump. O uso do jato particular que levou o senador e a família da Argentina ao Equador (para reabastecer) e depois a Miami teria sido organizado por Jason Miller, funcionário de comunicações da Casa Branca.\n\nO plano teria sido posto em prática na segunda-feira (26), depois que Flávio foi intimado a entregar os passaportes por decisão do ministro Alexandre de Moraes. Segundo o NYT, Eduardo Bolsonaro entrou em contato com Miller assim que o irmão foi intimado.\n\nFlávio está em Miami com status de admissão condicional (\"parole\"), concedido por ordem de Trump, que disse que ele recebeu \"um passe livre\". Segundo autoridades americanas ouvidas pelo jornal, ele deve pedir o green card (residência permanente), que seria processado rápido, como no caso de Eduardo. A Folha observa que a ajuda da Casa Branca pode prejudicar a relação entre Trump e o governo Lula.",
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-teve-ajuda-de-trump-e-do-governo-americano-para-fugir-para-os-estados-unidos.shtml"
+  },
+  {
+   "data": "29/10/2026",
+   "fonte": "O Globo",
    "titulo": "PF tenta descobrir como Flávio foi de Brasília a Foz do Iguaçu e se empresários ajudaram na fuga",
    "texto": "Segundo O Globo (29/10, 12h38), a PF ainda não sabe como Flávio saiu de Brasília e chegou a Foz do Iguaçu. As hipóteses são carro (cerca de 20 horas), jato particular saindo de pista rural no DF ou entorno, ou parte de carro e parte de avião. A PF também apura se empresários e aliados deram apoio logístico e financeiro.",
    "texto_completo": "Segundo reportagem de Sarah Teófilo em O Globo (29/10, 12h38, atualizada às 12h59), a Polícia Federal investiga a rota usada por Flávio Bolsonaro entre Brasília e Foz do Iguaçu (PR). O trajeto depois da Argentina já é conhecido, mas ainda há lacunas no trecho dentro do Brasil.\n\nUma possibilidade é que ele tenha ido por terra, viagem de cerca de 20 horas. Na noite de segunda-feira (26), por volta das 19h50, o comboio usado pelo senador em Brasília saiu do condomínio onde ele mora, mas não se sabe quem estava nos carros. Outra hipótese é um jato privado ter decolado de algum aeródromo ou pista em propriedade rural do DF e entorno rumo a Foz. A PF também analisa se ele fez parte do caminho de carro e parte de avião.\n\nNesse braço da investigação, a PF verifica se houve ajuda logística e financeira de empresários e aliados políticos da família Bolsonaro, e continua suspeitando da participação do governo Milei. Segundo o jornal, como Flávio é apenas investigado, a PF não o trata como foragido; a apuração da fuga se deve ao descumprimento da ordem de entregar os passaportes e não sair do país.",
@@ -36,7 +44,6 @@
   {
    "data": "29/10/2026",
    "fonte": "CBN",
-   "novo": true,
    "titulo": "Valdemar, depois de 2 horas com Jair Bolsonaro: PL rejeita a carta de Flávio e ninguém sabia da viagem",
    "texto": "O presidente do PL, Valdemar Costa Neto, disse nesta quinta (29), depois de se reunir por cerca de duas horas com Jair Bolsonaro em prisão domiciliar, que ninguém no partido concorda com a carta de Flávio e que o PL quer \"seguir em frente\". Disse ainda que nem ele nem Jair sabiam que Flávio sairia do país.",
    "texto_completo": "Segundo a CBN (29/10, 12h01), Valdemar Costa Neto, presidente nacional do PL, afirmou que ninguém no partido concordou com a carta publicada por Flávio Bolsonaro nas redes depois de chegar aos EUA, na qual ele voltou a alegar, sem provas, fraude no 2º turno. A declaração veio depois de uma reunião de cerca de duas horas com o ex-presidente Jair Bolsonaro, que cumpre prisão domiciliar em Brasília (visita autorizada por Moraes na véspera).\n\nValdemar disse que o objetivo do PL é \"seguir em frente\", que Jair está bem de saúde, mas que ninguém fica feliz com a situação dele nem com a dos filhos. Afirmou também que nem ele nem Jair Bolsonaro sabiam previamente que Flávio deixaria o país, e criticou a decisão de Moraes que mandou recolher o passaporte do senador.",
@@ -45,7 +52,6 @@
   {
    "data": "29/10/2026",
    "fonte": "CBN",
-   "novo": true,
    "titulo": "Governo Milei: Flávio entrou e saiu da Argentina legalmente, \"não havia mandado da Interpol\"",
    "texto": "O chefe de gabinete de Milei, Diego Santilli, defendeu nesta quinta (29) a imigração argentina: disse que Flávio entrou com a documentação em ordem, saiu de avião nas mesmas condições e que não havia mandado da Interpol contra ele.",
    "texto_completo": "Segundo a CBN (29/10, 10h41), Diego Santilli, chefe de gabinete do governo Javier Milei, defendeu as autoridades de imigração que deixaram Flávio Bolsonaro seguir da Argentina para os EUA. \"Como afirmou a Direção-Geral de Migração: ele entrou com a documentação correspondente, em ordem, e acabou saindo de avião, também nas mesmas condições\", disse. Questionado se a manobra não era estranha, insistiu que \"não havia mandados da Interpol contra ele\" e que, se um cidadão entra e sai sem restrições, a imigração autoriza.\n\nSegundo fontes do governo brasileiro ouvidas pela CBN, o Brasil apura se houve participação dos governos da Argentina e dos EUA na fuga, e também se houve algum apoio do governo do Equador, onde o avião fez escala.",
@@ -484,7 +490,9 @@
    "texto_completo": "Em 23/07, o ministro André Mendonça autorizou a abertura de inquérito da PF sobre o financiamento do filme Dark Horse, cinebiografia de Jair Bolsonaro. O pedido teve parecer favorável do procurador-geral Paulo Gonet, para quem havia elementos suficientes.\n\nA suspeita é que parte da produção foi bancada por Daniel Vorcaro, do Banco Master, com o envio de R$ 61 milhões, e a investigação quer saber se o dinheiro mandado ao exterior teve outro destino. Os recursos teriam saído da empresa Entre Investimentos e Participações, ligada a Vorcaro, para um fundo no Texas. Uma das principais suspeitas é que parte do valor tenha pago despesas de Eduardo Bolsonaro, que vive nos EUA desde fevereiro de 2025, ou outras iniciativas de aliados junto ao governo Trump.\n\nContexto: o Intercept Brasil revelou em maio mensagens em que Flávio pedia recursos a Vorcaro; a cobrança foi feita em 8/09/2025, quando a produção tinha dificuldade para pagar a montagem.\n\nO outro lado: Eduardo nega irregularidades e diz ser perseguido por Moraes; Flávio diz que o dinheiro era privado."
   }
  ],
- "status_novos": [],
+ "status_novos": [
+  "Visto dos EUA"
+ ],
  "contra": "× Alexandre de Moraes",
  "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
 }
