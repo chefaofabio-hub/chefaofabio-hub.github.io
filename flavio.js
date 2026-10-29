@@ -43,8 +43,8 @@ function sinc(){if(!DD)return;document.querySelectorAll('.fbcd.adnovo').forEach(
 window.addEventListener('storage',ev=>{if(ev.key===VK||ev.key===NK)sinc()});document.addEventListener('visibilitychange',()=>{if(!document.hidden)sinc()});window.addEventListener('pageshow',sinc);
 document.addEventListener('keydown',ev=>{if((ev.key==='Enter'||ev.key===' ')&&ev.target.closest&&ev.target.closest('.fbcd')){ev.preventDefault();ev.target.click()}});
 fetch('flavio.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(ponto).catch(()=>{});
-function carregar(){
- if(Date.now()-ult<60000)return;ult=Date.now();
+function carregar(forcar){
+ if(!forcar&&Date.now()-ult<60000)return;ult=Date.now();
  fetch('flavio.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(D=>{ponto(D);
   $('fbRes').textContent=D.resumo||'';if(D.contra)$('fbContra').textContent=D.contra;$('fbAss').innerHTML=D.assunto?'<b>Assunto:</b> '+e(D.assunto):'';
   $('fbSt').innerHTML=Object.entries(D.status||{}).map(([k,v])=>{const n=novoS(k);return `<div class="fbst${n?' adnovo':''}" data-k="${e(k)}">${n?'<b class="adexc" title="novidade">!</b>':''}${e(k)}<b>${e(v)}</b></div>`}).join('');
@@ -53,6 +53,6 @@ function carregar(){
   if(window.novidadeAbaPronta)window.novidadeAbaPronta('flavio');
  }).catch(()=>{ult=0;$('fbAtu').textContent='Sem conexão. Tente de novo.'})}
 function abrir(){const h=location.hash.slice(1),on=h=='flavio'||!['adpf','ruas'].includes(h),m=$('aba-flavio');if(!m)return;
- if(on){for(const x of document.querySelectorAll('main.aba'))x.hidden=x!==m;for(const a of document.querySelectorAll('#nav a'))a.classList.toggle('atual',a.dataset.aba==='flavio');carregar();if(window.novidadeAbaPronta)window.novidadeAbaPronta('flavio')}else m.hidden=true}
+ if(on){for(const x of document.querySelectorAll('main.aba'))x.hidden=x!==m;for(const a of document.querySelectorAll('#nav a'))a.classList.toggle('atual',a.dataset.aba==='flavio');const stale=!$('aba-flavio').querySelector('.adnovo')&&localStorage.getItem(NK)!== (DD&&DD.novidade_id);carregar(!!stale||!DD);if(window.novidadeAbaPronta)window.novidadeAbaPronta('flavio')}else m.hidden=true}
 window.addEventListener('hashchange',abrir);abrir();
 })();

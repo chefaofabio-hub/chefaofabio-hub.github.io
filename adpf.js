@@ -51,10 +51,10 @@ function faixa(D){const el=$('adFaixa');if(!el)return;const s=D.status||{},l=Str
  el.hidden=false;el.className=lida?'adfx lida':'adfx';el.dataset.k=k;
  el.innerHTML=`<div class="adfx-bar" role="button" tabindex="0"><span class="adfx-tag">AO VIVO</span><b>DECISÃO TOMADA</b><small>Min. Cristiano Zanin · toque para ler</small></div><div class="adfx-txt"><div class="adfx-h">DECISÃO DO MIN. CRISTIANO ZANIN${d.data?' · '+e(d.data):''}</div><div class="adfx-l">Liminar: <b>${e(l)}</b></div><p>${e(txt)}</p>${src?'<div class="adfx-f">Fonte: '+src+'</div>':''}</div>`;
  el.querySelector('.adfx-bar').onclick=()=>{localStorage.setItem(FK,k);el.classList.add('lida')}}
-window.carregarADPF=function(){
- if(Date.now()-ult<60000){if(window.novidadeAbaPronta)window.novidadeAbaPronta('adpf');return;} ult=Date.now();
+window.carregarADPF=function(forcar){
+ if(!forcar&&Date.now()-ult<60000){if(window.novidadeAbaPronta)window.novidadeAbaPronta('adpf');return;} ult=Date.now();
  fetch('adpf.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(D=>{
-  DD=D;ponto(D);const s=D.status||{},p=D.processo||{};alvo=new Date(D.data_alvo||'2026-10-25T08:00:00-03:00');cont();if(!timer)timer=setInterval(()=>{if(!$('aba-adpf').hidden)cont()},1000);
+  DD=D;ponto(D);const abaEl=$('aba-adpf');if(abaEl)abaEl.dataset.nid=D.novidade_id||'';const s=D.status||{},p=D.processo||{};alvo=new Date(D.data_alvo||'2026-10-25T08:00:00-03:00');cont();if(!timer)timer=setInterval(()=>{if(!$('aba-adpf').hidden)cont()},1000);
   const n=(s.numero_adpf||'').trim();$('adNum').innerHTML='<span>Número do processo:</span><b>'+e(n&&!/^n[ãa]o divulgado$/i.test(n)?n:'ADPF 1362')+'</b>';
   faixa(D);
   IT=[];$('adSt').innerHTML=sb('Relator',e(s.relator),'relator')+sb('Liminar',e(s.liminar),'liminar')+sb('Número único',e(p.numero_unico||'—'),'numero_unico')+sb('Protocolo',e(p.protocolo||'—'),'protocolo');

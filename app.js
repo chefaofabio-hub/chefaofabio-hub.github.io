@@ -33,7 +33,12 @@ function abrirAba() {
   if (aba === "pesquisas") { carregarPesquisas(); limparAviso(); }
   if (aba === "analise") { carregarAnalise(); vistoAba("anal"); }
   if (aba === "agendas") carregarAgendas();
-  if (aba === "adpf" && window.carregarADPF) window.carregarADPF();
+  if (aba === "adpf" && window.carregarADPF) {
+    const root = $("aba-adpf");
+    const p = $("pontoAdpf");
+    const precisa = p && !p.hidden && root && !root.querySelector(".adnovo");
+    window.carregarADPF(!!precisa);
+  }
   if (aba === "apostas" && window.carregarApostas) window.carregarApostas();
   if (aba === "confiabilidade") localStorage.setItem("vistoConf", "1");
   $("pontoConf").hidden = true;   // 1.7.24: sem "!" na Confiabilidade (pedido do Fabio)

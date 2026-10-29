@@ -41,8 +41,8 @@ function sinc(){if(!DD)return;document.querySelectorAll('.rscd.adnovo').forEach(
 window.addEventListener('storage',ev=>{if(ev.key===VK||ev.key===NK)sinc()});document.addEventListener('visibilitychange',()=>{if(!document.hidden)sinc()});window.addEventListener('pageshow',sinc);
 document.addEventListener('keydown',ev=>{if((ev.key==='Enter'||ev.key===' ')&&ev.target.closest&&ev.target.closest('.rscd')){ev.preventDefault();ev.target.click()}});
 fetch('ruas.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(ponto).catch(()=>{});
-function carregar(){
- if(Date.now()-ult<60000)return;ult=Date.now();
+function carregar(forcar){
+ if(!forcar&&Date.now()-ult<60000)return;ult=Date.now();
  fetch('ruas.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(D=>{ponto(D);
   $('rsRes').textContent=D.resumo||'';if(D.contra)$('rsContra').textContent=D.contra;$('rsAss').innerHTML=D.assunto?'<b>Assunto:</b> '+e(D.assunto):'';
   $('rsSt').innerHTML=Object.entries(D.status||{}).map(([k,v])=>{const n=novoS(k);return `<div class="rsst${n?' adnovo':''}" data-k="${e(k)}">${n?'<b class="adexc" title="novidade">!</b>':''}${e(k)}<b>${e(v)}</b></div>`}).join('');
@@ -51,6 +51,6 @@ function carregar(){
   if(window.novidadeAbaPronta)window.novidadeAbaPronta('ruas');
  }).catch(()=>{ult=0;$('rsAtu').textContent='Sem conexão. Tente de novo.'})}
 function abrir(){const on=location.hash=='#ruas',m=$('aba-ruas');if(!m)return;
- if(on){for(const x of document.querySelectorAll('main.aba'))x.hidden=x!==m;for(const a of document.querySelectorAll('#nav a'))a.classList.toggle('atual',a.dataset.aba==='ruas');carregar();if(window.novidadeAbaPronta)window.novidadeAbaPronta('ruas')}else m.hidden=true}
+ if(on){for(const x of document.querySelectorAll('main.aba'))x.hidden=x!==m;for(const a of document.querySelectorAll('#nav a'))a.classList.toggle('atual',a.dataset.aba==='ruas');const stale=!$('aba-ruas').querySelector('.adnovo')&&localStorage.getItem(NK)!==(DD&&DD.novidade_id);carregar(!!stale||!DD);if(window.novidadeAbaPronta)window.novidadeAbaPronta('ruas')}else m.hidden=true}
 window.addEventListener('hashchange',abrir);abrir();
 })();
