@@ -1,11 +1,11 @@
 {
-  "novidade_id": "tse-resposta-20261027",
-  "atualizado_em": "27/10/2026 22:30",
+  "novidade_id": "agu-vista-20261028",
+  "atualizado_em": "28/10/2026 22:30",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
     "numero_adpf": "ADPF 1362",
-    "situacao": "TSE já respondeu a Zanin, segundo o SBT News (27/10), opondo-se ao 2º turno. Próximo passo: manifestações da AGU e da PGR. Liminar sem decisão até 27/10, 22h30."
+    "situacao": "TSE já respondeu a Zanin opondo-se ao 2º turno. Segundo a imprensa, a ação foi à AGU em 27/10; a PGR também deve se manifestar. Liminar sem decisão até 28/10, 22h30."
   },
   "data_alvo": "2026-10-25T08:00:00-03:00",
   "processo": {
@@ -76,12 +76,20 @@
   "andamentos": [
     {
       "data": "27/10/2026",
+      "titulo": "Ação vai à AGU para manifestação (segundo o site Prensa de Babel; não confirmado no portal do STF)",
+      "texto": "Segundo o site Prensa de Babel, a movimentação mais recente da ADPF 1362, divulgada em 27/10, foi o envio da ação à AGU. A PGR também deve se manifestar. A liminar continua sem decisão.",
+      "texto_completo": "O site Prensa de Babel publicou na manhã de 28/10 que a ADPF 1362 teve nova movimentação no STF: o processo, sob relatoria de Cristiano Zanin, foi encaminhado à Advocacia-Geral da União para manifestação, movimentação que teria sido divulgada na terça-feira (27). A informação não foi confirmada em fonte oficial do STF, porque o portal de processos não pôde ser consultado.\n\nEsse passo segue o rito definido por Zanin no despacho de 16/10: primeiro as informações do TSE (já enviadas pelo presidente Kassio Nunes Marques), depois vista à AGU e à PGR, cada uma com prazo de cinco dias. A PGR ainda deve se manifestar.\n\nAté a publicação, o STF não tinha determinado a realização do 2º turno e a liminar pedida pelo PSD continuava sem decisão.",
+      "fonte": "Prensa de Babel",
+      "url": "https://prensadebabel.com.br/acao-do-psd-por-segundo-turno-no-rio-tem-nova-movimentacao-no-stf-e-mobiliza-apoiadores/",
+      "novo": true
+    },
+    {
+      "data": "27/10/2026",
       "titulo": "TSE responde a Zanin e se opõe ao 2º turno no RJ (segundo o SBT News; ainda não confirmado no portal do STF)",
       "texto": "Segundo a coluna de Basília Rodrigues no SBT News, o presidente do TSE, Kassio Nunes Marques, enviou a Zanin as informações pedidas e disse que não era viável fazer o 2º turno para governador junto com a eleição de 25/10. A liminar continua sem decisão.",
       "texto_completo": "De acordo com a coluna de Basília Rodrigues no SBT News, publicada em 27/10, o presidente do Tribunal Superior Eleitoral, ministro Kassio Nunes Marques, já respondeu ao pedido de informações feito pelo ministro Cristiano Zanin na ADPF 1362. Essa resposta ainda não aparece confirmada em fonte oficial do STF, então a informação é da coluna.\n\nNa manifestação, Nunes Marques afirma que não seria viável incluir a eleição para governador do Rio no dia 25 de outubro, porque as urnas já estavam preparadas e lacradas sem a previsão desse cargo. Incluir a votação exigiria gerar novas mídias, fazer nova carga e nova lacração das urnas, com cerimônias públicas e fiscalização, o que, segundo ele, não caberia no prazo que restava.\n\nEle também defende o mérito da decisão do TSE: diz que a inelegibilidade de Garotinho foi reconhecida por unanimidade no TRE-RJ e reafirmada pelo relator no TSE, Floriano de Azevedo Marques, de forma amplamente divulgada, e que por isso o eleitor tinha ciência do elevado risco de anulação dos votos. Com a exclusão dos 274.411 votos de Garotinho, Douglas Ruas teria passado a ter 52,59% dos votos válidos, segundo o texto citado pela coluna.\n\nO próximo passo previsto no despacho de Zanin é a manifestação da AGU e da PGR. A liminar pedida pelo PSD continua sem decisão.",
       "fonte": "SBT News (Coluna da Basília)",
-      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-basilia/kassio-se-opoe-a-nova-eleicao-no-rj-em-resposta-a-zanin",
-      "novo": true
+      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-basilia/kassio-se-opoe-a-nova-eleicao-no-rj-em-resposta-a-zanin"
     },
     {
       "data": "22/10/2026",
@@ -236,13 +244,30 @@
   "stf_nota": "ADPF 1362",
   "segundo_turno": [
     {
+      "data": "28/10/2026",
+      "titulo": "Apoiadores de Paes lançam abaixo-assinado por 2º turno no RJ",
+      "texto": "Petição no Change.org pede que a Justiça Eleitoral reconsidere a anulação dos votos de Garotinho; tinha mais de 58 mil assinaturas. O canal \"Exército do Dudu\" passou de 240 mil seguidores.",
+      "texto_completo": "Segundo o Diário do Rio, apoiadores de Eduardo Paes intensificaram a mobilização nas redes para pressionar pela realização do 2º turno para governador. Um abaixo-assinado no Change.org, criado em 5 de outubro e dirigido ao TSE, ao TRE-RJ e ao Ministério Público Eleitoral, pede que os órgãos reconsiderem a anulação dos votos de Anthony Garotinho e garantam o 2º turno. A página registrava mais de 58 mil assinaturas verificadas.\n\nO canal de WhatsApp \"Exército do Dudu\" reunia mais de 240 mil seguidores em 28/10, segundo levantamento do jornal. O grupo defende nova votação entre Paes e Douglas Ruas (PL), declarado eleito após a retotalização. A decisão, porém, depende do STF na ADPF 1362, que segue sem liminar.",
+      "fonte": "Diário do Rio",
+      "url": "https://diariodorio.com/politica/2026/10/28/apoiadores-de-eduardo-paes-lancam-peticao-por-segundo-turno-para-governador-do-rio.html",
+      "novo": true
+    },
+    {
+      "data": "27/10/2026",
+      "titulo": "UOL e O Dia: Nunes Marques diz ao STF que 2º turno no RJ não era tecnicamente possível",
+      "texto": "UOL e O Dia confirmam a resposta do presidente do TSE a Zanin: as urnas de 25/10 já estavam preparadas e lacradas sem a eleição para governador.",
+      "texto_completo": "O UOL (27/10) e o jornal O Dia (28/10) também noticiaram a resposta do presidente do TSE, Kassio Nunes Marques, ao ministro Cristiano Zanin na ADPF 1362. Segundo ele, não era tecnicamente possível incluir a eleição para governador do Rio no 2º turno de 25/10, porque as urnas já estavam preparadas e lacradas sem esse cargo. Seria preciso gerar novas mídias, carregar e lacrar de novo os equipamentos e cumprir etapas públicas de fiscalização, sem tempo hábil.\n\nNunes Marques também lembrou que a situação de Garotinho era conhecida durante a campanha. Com a anulação dos 274.411 votos dele, Ruas passou de 49,27% para 50,88% dos votos válidos e Paes de 42,76% para 44,16%. O Dia ressalta que a manifestação não é uma decisão do STF sobre o mérito.",
+      "fonte": "O Dia / UOL",
+      "url": "https://odia.ig.com.br/eleicoes/2026/10/7317172-nunes-marques-aponta-impossibilidade-tecnica-para-segundo-turno-no-rj.html",
+      "novo": true
+    },
+    {
       "data": "26/10/2026",
       "titulo": "Aliados de Paes fazem campanha para STF restabelecer 2º turno",
       "texto": "Um dia após a reeleição de Lula, aliados de Paes lançaram o canal \"Exército do Dudu\" para pressionar o STF.",
       "texto_completo": "Na segunda-feira (26), um dia depois da reeleição de Lula, deputados, vereadores e lideranças ligadas a Eduardo Paes começaram uma mobilização nas redes, no canal \"Exército do Dudu\", inspirado no \"Exército do Lula\". No início da tarde o grupo já tinha mais de 40 mil participantes. As postagens citam a ADPF do PSD no STF e defendem que \"quem votou no Garotinho não votou no Ruas\". O relator segue sendo Cristiano Zanin, que em 19/10 pediu informações ao TSE em 5 dias. Até agora não há liminar nem decisão de mérito.",
       "fonte": "CNN Brasil",
-      "url": "https://www.cnnbrasil.com.br/blogs/cleber-rodrigues/eleicoes/apos-vitoria-de-lula-aliados-de-paes-buscam-2o-turno-para-governo-do-rj/",
-      "novo": true
+      "url": "https://www.cnnbrasil.com.br/blogs/cleber-rodrigues/eleicoes/apos-vitoria-de-lula-aliados-de-paes-buscam-2o-turno-para-governo-do-rj/"
     },
     {
       "data": "25/10/2026",
@@ -250,8 +275,7 @@
       "texto": "No domingo (25) o Rio votou apenas para presidente (e prefeito em Itaguaí). Governador já estava definido.",
       "texto_completo": "Quase 13 milhões de eleitores do Rio foram às urnas no domingo (25), mas só para presidente — e, em Itaguaí, para prefeito em eleição suplementar. Não houve 2º turno para governador: Douglas Ruas (PL) foi eleito no 1º turno com 50,88% dos votos válidos depois que o TSE anulou os 274.411 votos de Garotinho. O g1 lembra que o PSD entrou com a ADPF no STF e que Zanin pediu informações ao TSE, mas até a publicação não havia decisão.",
       "fonte": "g1",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/25/rj-tera-2o-turno-so-para-presidente-itaguai-tambem-elege-prefeito.ghtml",
-      "novo": true
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/25/rj-tera-2o-turno-so-para-presidente-itaguai-tambem-elege-prefeito.ghtml"
     },
     {
       "data": "19/10/2026",
@@ -259,8 +283,7 @@
       "texto": "Despacho não concede liminar nem restabelece o 2º turno; TSE, AGU e PGR devem se manifestar.",
       "texto_completo": "O ministro Cristiano Zanin mandou o TSE prestar informações sobre a decisão que acabou com o 2º turno para governador do Rio e depois abriu prazo para AGU e PGR. O despacho, assinado em 16/10, não concede a liminar pedida pelo PSD nem reativa o 2º turno. Segundo o UOL, o rito da Lei das ADPFs permite prazo de até 10 dias para informações, o que na prática passava da data de 25/10. Até nova decisão, vale a anulação dos votos de Garotinho.",
       "fonte": "g1",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/19/zanin-pede-explicacoes-ao-tse-sobre-suspensao-do-2o-turno-para-governador-do-rj.ghtml",
-      "novo": true
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/19/zanin-pede-explicacoes-ao-tse-sobre-suspensao-do-2o-turno-para-governador-do-rj.ghtml"
     },
     {
       "data": "19/10/2026",
@@ -268,8 +291,7 @@
       "texto": "Zanin adotou o rito da Lei 9.882/99; informações podem levar até 10 dias.",
       "texto_completo": "O UOL destacou que Zanin seguiu o rito da Lei das ADPFs para o pedido de cautelar, com prazo de até 10 dias para as informações — o que já ultrapassaria o domingo 25/10, data original do 2º turno. Depois do TSE, AGU e PGR também se manifestam. O PSD argumenta que a anulação dos votos de Garotinho fere a soberania popular e o sufrágio universal.",
       "fonte": "UOL",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/10/19/zanin-pede-manifestacao-do-tse-sobre-pedido-de-nova-eleicao-no-rj.ghtm",
-      "novo": true
+      "url": "https://noticias.uol.com.br/eleicoes/2026/10/19/zanin-pede-manifestacao-do-tse-sobre-pedido-de-nova-eleicao-no-rj.ghtm"
     },
     {
       "data": "16/10/2026",
@@ -277,8 +299,7 @@
       "texto": "ADPF 1362 distribuída por prevenção a Zanin na sexta (16), às 17h45.",
       "texto_completo": "A ADPF 1362, protocolada pelo PSD em 14/10, foi distribuída a Cristiano Zanin por prevenção, já que ele tinha negado o pedido anterior da coligação de Paes. O partido pede liminar para suspender a retotalização e retomar a disputa Ruas × Paes. A tese é que, pela Constituição, só brancos e nulos ficam fora do cálculo da maioria absoluta, e os votos de Garotinho, que estava na urna, deveriam contar.",
       "fonte": "g1",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/16/zanin-sera-relator-de-acao-do-psd-que-tenta-restabelecer-segundo-turno-entre-paes-e-ruas-no-rj.ghtml",
-      "novo": true
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/16/zanin-sera-relator-de-acao-do-psd-que-tenta-restabelecer-segundo-turno-entre-paes-e-ruas-no-rj.ghtml"
     },
     {
       "data": "15/10/2026",
@@ -286,8 +307,7 @@
       "texto": "Plenário homologou por unanimidade a retotalização: Ruas 50,88%, Paes 44,16%. Diplomação em 18/12.",
       "texto_completo": "O plenário do TRE-RJ homologou por unanimidade o resultado da retotalização e o presidente do tribunal, desembargador Claudio de Mello Tavares, proclamou Douglas Ruas e a vice Fernanda Louback eleitos, dizendo ser desnecessário o 2º turno. Segundo o Valor, não houve recurso contra a retotalização no prazo. Com isso, Ruas passou de 49,27% para 50,88% e Paes de 42,76% para 44,16%. A diplomação está marcada para 18 de dezembro, no Theatro Municipal.",
       "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tre-rj-proclama-douglas-ruas-eleito-para-o-governo-do-rio-de-janeiro",
-      "novo": true
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tre-rj-proclama-douglas-ruas-eleito-para-o-governo-do-rio-de-janeiro"
     },
     {
       "data": "09/10/2026",
@@ -295,8 +315,7 @@
       "texto": "Após TSE e STF, Paes disse respeitar a decisão; TRE-RJ marcou retotalização para 10/10.",
       "texto_completo": "Na noite de 8/10, Eduardo Paes reconheceu que não haveria 2º turno e disse respeitar a Justiça Eleitoral. Isso veio depois de o TSE anular, por 5 a 2, os votos de Garotinho e de Zanin negar a cautelar da coligação. O TRE-RJ marcou a retotalização para sábado (10). Depois, porém, o PSD nacional entrou com a ADPF 1362 para tentar reabrir a disputa.",
       "fonte": "g1",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/09/paes-aceita-decisao-da-justica-ruas-deve-ser-declarado-governador-do-rj-entenda.ghtml",
-      "novo": true
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/09/paes-aceita-decisao-da-justica-ruas-deve-ser-declarado-governador-do-rj-entenda.ghtml"
     },
     {
       "data": "08/10/2026",
@@ -304,8 +323,7 @@
       "texto": "Pedido foi feito antes do recurso extraordinário; Zanin rejeitou por motivo processual.",
       "texto_completo": "Zanin negou o pedido da coligação de Paes para suspender a decisão do TSE. Ele apontou que o pedido veio antes do recurso extraordinário e sem o acórdão do TSE anexado, o que impedia avaliar as chances do recurso. Assim ficou mantida a exclusão dos 274.411 votos de Garotinho. Sem eles, Ruas sai de 49,27% para 50,88%; os votos não são transferidos a ninguém, só muda a base de cálculo.",
       "fonte": "g1",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/08/zanin-nega-pedido-de-paes-para-suspender-decisao-que-pode-eleger-ruas-no-1o-turno-no-rj.ghtml",
-      "novo": true
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/08/zanin-nega-pedido-de-paes-para-suspender-decisao-que-pode-eleger-ruas-no-1o-turno-no-rj.ghtml"
     },
     {
       "data": "08/10/2026",
@@ -313,8 +331,7 @@
       "texto": "Coligação recorre contra anulação dos votos de Garotinho e pede cautelar.",
       "texto_completo": "A coligação \"Juntos para Mudar, Coragem para Reconstruir\" anunciou recurso ao STF contra a decisão do TSE que anulou os votos de Garotinho e um pedido de cautelar para garantir o 2º turno Paes × Ruas. No 1º turno Ruas teve 49,27%, Paes 42,76% e Garotinho 3,17%. O TSE indeferiu Garotinho por estar com direitos políticos suspensos e sem filiação válida.",
       "fonte": "g1",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/08/paes-vai-ao-stf-contra-decisao-do-tse-sobre-votos-de-garotinho-e-pede-realizacao-do-2o-turno-no-rj.ghtml",
-      "novo": true
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/08/paes-vai-ao-stf-contra-decisao-do-tse-sobre-votos-de-garotinho-e-pede-realizacao-do-2o-turno-no-rj.ghtml"
     }
   ],
   "status_novos": [
