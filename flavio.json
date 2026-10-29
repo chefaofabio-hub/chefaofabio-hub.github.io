@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-10-29 07:58",
-  "atualizado_em": "29/10/2026 07:58",
+  "novidade_id": "2026-10-29 10:05",
+  "atualizado_em": "29/10/2026 10:05",
   "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
   "status": {
     "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -15,20 +15,48 @@
     "Pedido de prisão": "Só pedidos de deputados do PT. Em nota de 28/10 (~14h25), a PF disse que a decisão de Moraes não autorizava prisão nem vigilância permanente e que Flávio não é foragido só por restrição de documentos; investiga o descumprimento. Moraes não decretou prisão.",
     "Visto dos EUA": "Admitido pelo CBP como \"DT\" (parole/autorizado a entrar temporariamente) até 27/10/2027 (~1 ano). Casa Branca/Departamento de Estado confirmaram vistos (27/10).",
     "Busca e apreensão": "Não houve. PF pediu buscas em 27/10 com parecer favorável da PGR, mas Moraes não decidiu e a operação foi desmobilizada (UOL); STF diz que não houve decisão",
-    "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (Santiago Caputo em Puerto Iguazú) e do irmão Eduardo, que teria ajudado a despistar a rota (O Globo, JN, 28/10)",
+    "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (Santiago Caputo em Puerto Iguazú) e do irmão Eduardo, que teria ajudado a despistar a rota (O Globo, JN, 28/10). PF também apura se jato PR-AAA de Willer Tomaz levou Flávio de Brasília a San Fernando (Buenos Aires) em 27/10 (O Globo/g1)",
     "Declaração escrita": "Carta à Nação (28/10, tarde): 1ª versão se dizia \"presidente eleito\"; 3ª versão (~17h41) troca por \"líder do Brasil\". Publicada no X (@FlavioBolsonaro).",
     "Afastar Moraes": "Defesa vai pedir a Fachin que tire Moraes do inquérito Willer (prevenção para Mendonça e suspeição); ainda não protocolado (CNN, 29/10)",
-    "Passaporte italiano": "Usado no voo Argentina–EUA; PF diz que não há registro oficial da saída. Deputado italiano Angelo Bonelli pediu apuração da emissão (CBN, 29/10)"
+    "Passaporte italiano": "Usado no voo Argentina–EUA; PF diz que não há registro oficial da saída. Deputado italiano Angelo Bonelli pediu apuração da emissão (CBN, 29/10)",
+    "Coletiva em Miami": "Cancelada; equipe distribuiu declaração por escrito (R7, SBT News). Ida a Washington/encontro com Trump é só boato",
+    "Argentina": "Oposição na Câmara argentina quer convocar Santilli, Monteoliva e Quirno e cobra Milei (g1, 28/10)"
   },
   "itens": [
+    {
+      "data": "29/10/2026",
+      "titulo": "Flávio cancela a coletiva em Miami e solta só uma declaração por escrito",
+      "texto": "A entrevista coletiva que aliados tinham anunciado para a tarde desta quinta (29) em Miami não vai acontecer. Segundo o R7/Record News e a coluna de Patrícia Vasconcellos no SBT News, a equipe de Flávio distribuiu uma declaração por escrito no lugar.",
+      "texto_completo": "Na quarta (28), o blogueiro Paulo Figueiredo, aliado da família Bolsonaro, anunciou que Flávio daria uma entrevista coletiva em Miami na tarde de quinta (29), com local e horário a definir. O R7/Record News informou às 18h34 de 28/10 que o senador emitiu uma declaração a partir dos EUA e que não haveria coletiva. Segundo a coluna de Patrícia Vasconcellos no SBT News (citada pela Rádio Corredor em 29/10), no lugar da entrevista a equipe distribuiu uma declaração de três páginas.\n\nBastidores sem confirmação: o jornalista Eliseu Campos disse que o motivo seria uma ida de Flávio a Washington para um possível encontro com Donald Trump; o SBT News relatou que um integrante do governo Trump comentou que a postura de Flávio de se apresentar como presidente eleito incomoda a Casa Branca. Nenhuma das duas informações tem confirmação oficial da assessoria de Flávio nem do governo americano.",
+      "fonte": "R7 / Record News; SBT News (coluna Patrícia Vasconcellos)",
+      "url": "https://noticias.r7.com/record-news/link-record-news/video/flavio-bolsonaro-emite-declaracao-e-nao-havera-coletiva-28102026/",
+      "novo": true
+    },
+    {
+      "data": "28/10/2026",
+      "titulo": "PF apura se jato de Willer Tomaz levou Flávio de Brasília à Argentina",
+      "texto": "Um Cessna (prefixo PR-AAA) de uma empresa do advogado Willer Tomaz saiu de Brasília às 5h05 de 27/10 e pousou em San Fernando, perto de Buenos Aires, às 8h40, horas antes de vencer o prazo para Flávio entregar os passaportes. A PF investiga se ele estava a bordo; os registros de voo não confirmam isso.",
+      "texto_completo": "Segundo o blog de Malu Gaspar, em O Globo, confirmado pelo blog de Julia Duailibi no g1, um jato Cessna 560XL Citation Excel de prefixo PR-AAA, que pertence a uma empresa controlada por Willer Tomaz, deixou um hangar da Jet Lines (outra empresa do advogado) no aeroporto de Brasília às 5h05 de terça (27) e pousou em San Fernando, nos arredores de Buenos Aires, às 8h40 (horário de Brasília), segundo dados de rastreamento ADS-B.\n\nA PF suspeita que Flávio tenha ido de Brasília a Buenos Aires nesse avião e depois seguido para Puerto Iguazú, de onde partiu com a família no Gulfstream da Baires Fly na noite de 27/10. Os investigadores também suspeitam que ele tenha entrado na Argentina mais cedo e que o registro migratório argentino (22h50 pela ponte Tancredo Neves) tenha sido feito horas depois. Ainda falta explicar como seria o trajeto de San Fernando a Puerto Iguazú (mais de 1.200 km). Os dados de voo não comprovam que Flávio estava no Cessna, e a PF não descarta outras hipóteses. Willer Tomaz está nos EUA desde 25 de agosto, segundo a PF. Flávio e Tomaz negam irregularidades.",
+      "fonte": "O Globo (blog Malu Gaspar) / g1 (blog Julia Duailibi)",
+      "url": "https://g1.globo.com/politica/blog/julia-duailibi/post/2026/10/28/pf-flavio-bolsonaro-entrada-argentina.ghtml",
+      "novo": true
+    },
+    {
+      "data": "28/10/2026",
+      "titulo": "Deputados argentinos cobram Milei e querem convocar três ministros por causa da fuga",
+      "texto": "Deputados de vários blocos da oposição na Argentina acusam o governo Milei de facilitar a passagem de Flávio pelo país e pedem que o chefe de gabinete Diego Santilli, a ministra da Segurança Alejandra Monteoliva e o chanceler Pablo Quirno deem explicações na Câmara. Também cobram que Milei reconheça a vitória de Lula.",
+      "texto_completo": "Segundo o g1 (28/10, 21h43), La Nación, Ámbito e TN, deputados de diferentes blocos da oposição argentina (Unión por la Patria, Frente de Izquierda, Provincias Unidas, Encontro Federal, Coalición Cívica e outros) divulgaram declaração conjunta acusando o governo de Javier Milei de \"absoluta cumplicidade\" na passagem de Flávio Bolsonaro pelo país rumo aos EUA. Eles pedem, com base no artigo 71 da Constituição argentina, a presença na Câmara do chefe de gabinete Diego Santilli, da ministra da Segurança Alejandra Monteoliva (de quem dependem Migrações e a polícia aeroportuária) e do chanceler Pablo Quirno, além de respostas urgentes aos pedidos de informação.\n\nO deputado Pablo Juliano (Provincias Unidas) apresentou pedido de interpelação de Quirno com 91 perguntas, incluindo o papel do assessor presidencial Santiago Caputo e da empresa Baires Fly, dona do jato usado na fuga. Os parlamentares também cobram que Milei reconheça formalmente a vitória de Lula e que a Argentina volte a ter embaixador no Brasil. Segundo La Nación, o caso pode atrapalhar a votação da \"lei Malvinas\" que o governo quer aprovar.",
+      "fonte": "g1 / La Nación / Ámbito / TN",
+      "url": "https://g1.globo.com/mundo/noticia/2026/10/28/deputados-argentinos-acusam-milei-de-facilitar-fuga-de-flavio-e-pedem-reconhecimento-da-vitoria-de-lula.ghtml",
+      "novo": true
+    },
     {
       "data": "29/10/2026",
       "titulo": "Flávio vai pedir a Fachin que tire Moraes do inquérito sobre Willer Tomaz",
       "texto": "Segundo a CNN Brasil, a defesa vai apresentar nos próximos dias dois pedidos ao presidente do STF, Edson Fachin: um diz que o relator certo seria André Mendonça, e o outro diz que Moraes é suspeito para julgar o caso. Os pedidos ainda não foram protocolados.",
       "texto_completo": "Segundo o colunista Caio Junqueira, da CNN Brasil (publicado às 3h55 de 29/10), o senador Flávio Bolsonaro (PL-RJ), derrotado no 2º turno, vai pedir ao presidente do STF, ministro Edson Fachin, que Alexandre de Moraes deixe a relatoria do inquérito que apura a relação dele com o amigo e advogado Willer Tomaz. É nesse inquérito que Moraes cancelou os passaportes de Flávio.\n\nSão dois pedidos, previstos para os próximos dias. O primeiro é uma \"exceção de prevenção\": a defesa vai sustentar que o relator natural é André Mendonça, porque a investigação nasceu, na primeira instância, de uma ação ligada à Operação Sem Desconto (fraudes no INSS), que no Supremo está com Mendonça. O segundo é uma \"exceção de suspeição\": a defesa vai alegar que o relatório da PF cita uma empresa que tinha cotas na mesma aeronave usada por Moraes, cedida no contrato do escritório da mulher dele, Viviane Barci de Moraes, com o banqueiro Daniel Vorcaro.\n\nContexto: a apuração sobre Willer Tomaz começou num inquérito da 11ª Vara Federal de Porto Alegre sobre empresas que intermediavam pagamentos de casas de apostas. O indício mais forte contra Flávio, segundo a CNN, é um e-mail de uma funcionária de Tomaz ao Santander pedindo para desvincular Flávio da conta da Alcazar Holding. Aliados dizem que um documento do banco enviado a Moraes no domingo atesta que Flávio nunca teve essa conta. Flávio e Tomaz negam irregularidades. Até a manhã de 29/10 os pedidos não tinham sido protocolados e o STF não havia se manifestado.",
       "fonte": "CNN Brasil (blog Caio Junqueira)",
-      "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-pedira-ao-stf-que-moraes-saia-de-investigacao-sobre-willer-tomaz/",
-      "novo": true
+      "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-pedira-ao-stf-que-moraes-saia-de-investigacao-sobre-willer-tomaz/"
     },
     {
       "data": "29/10/2026",
@@ -36,8 +64,7 @@
       "texto": "A PF afirma que não existe registro oficial da saída dos quatro do Brasil e investiga como Flávio fugiu. Na Itália, o deputado Angelo Bonelli pediu aos ministérios das Relações Exteriores e do Interior que apurem a emissão dos passaportes italianos da família.",
       "texto_completo": "Segundo a CBN (29/10, 6h26), a Polícia Federal investiga como Flávio Bolsonaro conseguiu sair do Brasil apesar da proibição do STF e afirma que não há registro oficial da saída dele, da mulher e das duas filhas do território brasileiro. O senador cruzou a fronteira com a Argentina na noite de terça (27/10).\n\nA declaração de passageiros do jatinho que levou a família da Argentina aos EUA mostra que Flávio embarcou com passaporte italiano. Os passaportes brasileiro e diplomático dele tinham sido cancelados por ordem de Moraes; a mulher e as filhas viajaram com documentos brasileiros.\n\nNa Itália, o deputado Angelo Bonelli pediu aos ministros das Relações Exteriores e do Interior que investiguem como foram emitidos os passaportes italianos da família Bolsonaro. Não houve resposta do governo italiano até a publicação.",
       "fonte": "CBN",
-      "url": "https://cbn.globo.com/politica/noticia/2026/10/29/pf-investiga-como-flavio-bolsonaro-conseguiu-fugir-do-brasil-apesar-da-proibicao-do-stf.ghtml",
-      "novo": true
+      "url": "https://cbn.globo.com/politica/noticia/2026/10/29/pf-investiga-como-flavio-bolsonaro-conseguiu-fugir-do-brasil-apesar-da-proibicao-do-stf.ghtml"
     },
     {
       "data": "28/10/2026",
@@ -425,8 +452,9 @@
     }
   ],
   "status_novos": [
-    "Afastar Moraes",
-    "Passaporte italiano"
+    "Coletiva em Miami",
+    "Argentina",
+    "Apoio na fuga"
   ],
   "contra": "× Alexandre de Moraes",
   "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
