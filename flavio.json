@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-29 11:55",
- "atualizado_em": "29/10/2026 11:55",
+ "novidade_id": "2026-10-29 14:05",
+ "atualizado_em": "29/10/2026 14:05",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -26,8 +26,34 @@
  "itens": [
   {
    "data": "29/10/2026",
-   "fonte": "g1; O Globo; Metrópoles; UOL",
+   "fonte": "O Globo",
    "novo": true,
+   "titulo": "PF tenta descobrir como Flávio foi de Brasília a Foz do Iguaçu e se empresários ajudaram na fuga",
+   "texto": "Segundo O Globo (29/10, 12h38), a PF ainda não sabe como Flávio saiu de Brasília e chegou a Foz do Iguaçu. As hipóteses são carro (cerca de 20 horas), jato particular saindo de pista rural no DF ou entorno, ou parte de carro e parte de avião. A PF também apura se empresários e aliados deram apoio logístico e financeiro.",
+   "texto_completo": "Segundo reportagem de Sarah Teófilo em O Globo (29/10, 12h38, atualizada às 12h59), a Polícia Federal investiga a rota usada por Flávio Bolsonaro entre Brasília e Foz do Iguaçu (PR). O trajeto depois da Argentina já é conhecido, mas ainda há lacunas no trecho dentro do Brasil.\n\nUma possibilidade é que ele tenha ido por terra, viagem de cerca de 20 horas. Na noite de segunda-feira (26), por volta das 19h50, o comboio usado pelo senador em Brasília saiu do condomínio onde ele mora, mas não se sabe quem estava nos carros. Outra hipótese é um jato privado ter decolado de algum aeródromo ou pista em propriedade rural do DF e entorno rumo a Foz. A PF também analisa se ele fez parte do caminho de carro e parte de avião.\n\nNesse braço da investigação, a PF verifica se houve ajuda logística e financeira de empresários e aliados políticos da família Bolsonaro, e continua suspeitando da participação do governo Milei. Segundo o jornal, como Flávio é apenas investigado, a PF não o trata como foragido; a apuração da fuga se deve ao descumprimento da ordem de entregar os passaportes e não sair do país.",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/29/pf-apura-rota-de-flavio-entre-brasilia-e-foz-do-iguacu-e-investiga-se-houve-ajuda-de-empresarios-em-fuga-do-pais.ghtml"
+  },
+  {
+   "data": "29/10/2026",
+   "fonte": "CBN",
+   "novo": true,
+   "titulo": "Valdemar, depois de 2 horas com Jair Bolsonaro: PL rejeita a carta de Flávio e ninguém sabia da viagem",
+   "texto": "O presidente do PL, Valdemar Costa Neto, disse nesta quinta (29), depois de se reunir por cerca de duas horas com Jair Bolsonaro em prisão domiciliar, que ninguém no partido concorda com a carta de Flávio e que o PL quer \"seguir em frente\". Disse ainda que nem ele nem Jair sabiam que Flávio sairia do país.",
+   "texto_completo": "Segundo a CBN (29/10, 12h01), Valdemar Costa Neto, presidente nacional do PL, afirmou que ninguém no partido concordou com a carta publicada por Flávio Bolsonaro nas redes depois de chegar aos EUA, na qual ele voltou a alegar, sem provas, fraude no 2º turno. A declaração veio depois de uma reunião de cerca de duas horas com o ex-presidente Jair Bolsonaro, que cumpre prisão domiciliar em Brasília (visita autorizada por Moraes na véspera).\n\nValdemar disse que o objetivo do PL é \"seguir em frente\", que Jair está bem de saúde, mas que ninguém fica feliz com a situação dele nem com a dos filhos. Afirmou também que nem ele nem Jair Bolsonaro sabiam previamente que Flávio deixaria o país, e criticou a decisão de Moraes que mandou recolher o passaporte do senador.",
+   "url": "https://cbn.globo.com/politica/noticia/2026/10/29/valdemar-diz-que-pl-rejeita-carta-de-flavio-bolsonaro-apos-reuniao-com-jair-bolsonaro.ghtml"
+  },
+  {
+   "data": "29/10/2026",
+   "fonte": "CBN",
+   "novo": true,
+   "titulo": "Governo Milei: Flávio entrou e saiu da Argentina legalmente, \"não havia mandado da Interpol\"",
+   "texto": "O chefe de gabinete de Milei, Diego Santilli, defendeu nesta quinta (29) a imigração argentina: disse que Flávio entrou com a documentação em ordem, saiu de avião nas mesmas condições e que não havia mandado da Interpol contra ele.",
+   "texto_completo": "Segundo a CBN (29/10, 10h41), Diego Santilli, chefe de gabinete do governo Javier Milei, defendeu as autoridades de imigração que deixaram Flávio Bolsonaro seguir da Argentina para os EUA. \"Como afirmou a Direção-Geral de Migração: ele entrou com a documentação correspondente, em ordem, e acabou saindo de avião, também nas mesmas condições\", disse. Questionado se a manobra não era estranha, insistiu que \"não havia mandados da Interpol contra ele\" e que, se um cidadão entra e sai sem restrições, a imigração autoriza.\n\nSegundo fontes do governo brasileiro ouvidas pela CBN, o Brasil apura se houve participação dos governos da Argentina e dos EUA na fuga, e também se houve algum apoio do governo do Equador, onde o avião fez escala.",
+   "url": "https://cbn.globo.com/politica/noticia/2026/10/29/chefe-de-gabinete-de-milei-afirma-que-flavio-bolsonaro-entrou-na-argentina-legalmente-nao-havia-mandado-da-interpol.ghtml"
+  },
+  {
+   "data": "29/10/2026",
+   "fonte": "g1; O Globo; Metrópoles; UOL",
    "titulo": "Mandato no Senado: fuga não tira a cadeira automaticamente; Alcolumbre espera os próximos passos de Flávio",
    "texto": "Flávio não comunicou ao Senado a saída do país nem pediu licença. Segundo g1 e O Globo, ficar no exterior não faz ele perder o mandato automaticamente (que vai até 31/01/2027), e Davi Alcolumbre vai esperar os próximos passos dele antes de discutir qualquer restrição.",
    "texto_completo": "Segundo o g1 (29/10, 0h), Flávio não fez nenhuma comunicação oficial ao Senado sobre a saída do país nem formalizou pedido de licença. Pela Constituição, só perde o mandato quem falta, sem justificativa, a um terço das sessões deliberativas do ano, e quem declara isso é a Mesa Diretora, com direito de defesa. O mandato dele termina em 31 de janeiro de 2027.\n\nSegundo o Metrópoles (28/10, 20h39), aliados de Davi Alcolumbre (União-AP) dizem que o presidente do Senado vai aguardar como Flávio pretende exercer o mandato antes de discutir restrições, e que é improvável uma medida contra ele, a menos que o senador eleve o tom. Flávio não registrou presença na sessão semipresencial de 28/10. Para votar à distância ele precisaria de um celular habilitado em Brasília, e a Casa não sabe se ele levou o aparelho. O Globo (29/10) diz que, fora do país, ele não pode registrar presença nem votar remotamente, mas pode acumular faltas até o fim da legislatura sem perda automática do cargo, e deve continuar recebendo salário (descontos por ausência ainda não estão claros).\n\nO UOL (28/10) calculou que, com 11 faltas sem justificativa já em 2026 e 25 sessões previstas até o recesso, ele poderia chegar ao limite em dezembro se faltar a todas. A deputada Sâmia Bomfim (PSOL-SP) disse que vai pedir à Mesa do Senado a perda do mandato e a suspensão do salário por abandono do cargo. Um processo por quebra de decoro no Conselho de Ética dependeria de um partido ou da Mesa, e a cassação exigiria 41 dos 81 votos. Até agora não há procedimento aberto.",
@@ -458,9 +484,7 @@
    "texto_completo": "Em 23/07, o ministro André Mendonça autorizou a abertura de inquérito da PF sobre o financiamento do filme Dark Horse, cinebiografia de Jair Bolsonaro. O pedido teve parecer favorável do procurador-geral Paulo Gonet, para quem havia elementos suficientes.\n\nA suspeita é que parte da produção foi bancada por Daniel Vorcaro, do Banco Master, com o envio de R$ 61 milhões, e a investigação quer saber se o dinheiro mandado ao exterior teve outro destino. Os recursos teriam saído da empresa Entre Investimentos e Participações, ligada a Vorcaro, para um fundo no Texas. Uma das principais suspeitas é que parte do valor tenha pago despesas de Eduardo Bolsonaro, que vive nos EUA desde fevereiro de 2025, ou outras iniciativas de aliados junto ao governo Trump.\n\nContexto: o Intercept Brasil revelou em maio mensagens em que Flávio pedia recursos a Vorcaro; a cobrança foi feita em 8/09/2025, quando a produção tinha dificuldade para pagar a montagem.\n\nO outro lado: Eduardo nega irregularidades e diz ser perseguido por Moraes; Flávio diz que o dinheiro era privado."
   }
  ],
- "status_novos": [
-  "Mandato no Senado"
- ],
+ "status_novos": [],
  "contra": "× Alexandre de Moraes",
  "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
 }
