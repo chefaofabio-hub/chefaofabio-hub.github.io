@@ -1,11 +1,11 @@
 {
-  "novidade_id": "agu-vista-20261028",
-  "atualizado_em": "28/10/2026 22:30",
+  "novidade_id": "portal-confirma-20261029",
+  "atualizado_em": "29/10/2026 09:30",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
     "numero_adpf": "ADPF 1362",
-    "situacao": "TSE já respondeu a Zanin opondo-se ao 2º turno. Segundo a imprensa, a ação foi à AGU em 27/10; a PGR também deve se manifestar. Liminar sem decisão até 28/10, 22h30."
+    "situacao": "Portal do STF confirma: TSE prestou informações (27/10) e ação está com vista à AGU; PGR ainda vai se manifestar. Liminar sem decisão até 29/10, 9h30."
   },
   "data_alvo": "2026-10-25T08:00:00-03:00",
   "processo": {
@@ -76,16 +76,24 @@
   "andamentos": [
     {
       "data": "27/10/2026",
-      "titulo": "Ação vai à AGU para manifestação (segundo o site Prensa de Babel; não confirmado no portal do STF)",
-      "texto": "Segundo o site Prensa de Babel, a movimentação mais recente da ADPF 1362, divulgada em 27/10, foi o envio da ação à AGU. A PGR também deve se manifestar. A liminar continua sem decisão.",
-      "texto_completo": "O site Prensa de Babel publicou na manhã de 28/10 que a ADPF 1362 teve nova movimentação no STF: o processo, sob relatoria de Cristiano Zanin, foi encaminhado à Advocacia-Geral da União para manifestação, movimentação que teria sido divulgada na terça-feira (27). A informação não foi confirmada em fonte oficial do STF, porque o portal de processos não pôde ser consultado.\n\nEsse passo segue o rito definido por Zanin no despacho de 16/10: primeiro as informações do TSE (já enviadas pelo presidente Kassio Nunes Marques), depois vista à AGU e à PGR, cada uma com prazo de cinco dias. A PGR ainda deve se manifestar.\n\nAté a publicação, o STF não tinha determinado a realização do 2º turno e a liminar pedida pelo PSD continuava sem decisão.",
-      "fonte": "Prensa de Babel",
-      "url": "https://prensadebabel.com.br/acao-do-psd-por-segundo-turno-no-rio-tem-nova-movimentacao-no-stf-e-mobiliza-apoiadores/",
+      "titulo": "Portal do STF confirma: TSE prestou informações e ação foi à AGU",
+      "texto": "O andamento oficial da ADPF 1362, consultado em 29/10, confirma que em 27/10 o TSE prestou as informações pedidas por Zanin (ofício GAB-PRES nº 5324/2026, petição 135321) e que o processo foi com vista à AGU. Não há registro de parecer da AGU, da PGR nem de decisão sobre a liminar.",
+      "texto_completo": "A consulta ao portal de processos do STF feita na manhã de 29/10 trouxe pela primeira vez a confirmação oficial do que até então só tinha sido noticiado pela imprensa. Em 27/10 foram registrados três andamentos: a juntada da comunicação da decisão de 16/10 (com força de mandado e ofício) entregue ao presidente do TSE em 19/10; a petição 135321/2026, que é o ofício GAB-PRES nº 5324/2026 do Tribunal Superior Eleitoral, que presta informações e encaminha decisão; e a vista à Advocacia-Geral da União.\n\nCom isso ficam confirmadas as notícias de 27/10 sobre a resposta do presidente do TSE, ministro Kassio Nunes Marques, e o envio da ação à AGU. Segundo o site Rio Diário, a resposta do TSE é de 23/10 e só entrou no processo em 27/10.\n\nAté a consulta de 29/10 não aparecia nenhum andamento posterior: nem parecer da AGU, nem vista ou parecer da PGR, nem decisão do ministro Cristiano Zanin sobre a liminar. Pelo rito do art. 5º da Lei 9.882/1999, depois das manifestações da AGU e da PGR o relator pode decidir sozinho, com referendo do plenário, ou levar o pedido ao plenário.",
+      "fonte": "Portal do STF (andamentos da ADPF 1362)",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240",
       "novo": true
     },
     {
       "data": "27/10/2026",
-      "titulo": "TSE responde a Zanin e se opõe ao 2º turno no RJ (segundo o SBT News; ainda não confirmado no portal do STF)",
+      "titulo": "Ação vai à AGU para manifestação (confirmado depois no portal do STF)",
+      "texto": "Segundo o site Prensa de Babel, a movimentação mais recente da ADPF 1362, divulgada em 27/10, foi o envio da ação à AGU. A PGR também deve se manifestar. A liminar continua sem decisão.",
+      "texto_completo": "O site Prensa de Babel publicou na manhã de 28/10 que a ADPF 1362 teve nova movimentação no STF: o processo, sob relatoria de Cristiano Zanin, foi encaminhado à Advocacia-Geral da União para manifestação, movimentação que teria sido divulgada na terça-feira (27). A informação não foi confirmada em fonte oficial do STF, porque o portal de processos não pôde ser consultado.\n\nEsse passo segue o rito definido por Zanin no despacho de 16/10: primeiro as informações do TSE (já enviadas pelo presidente Kassio Nunes Marques), depois vista à AGU e à PGR, cada uma com prazo de cinco dias. A PGR ainda deve se manifestar.\n\nAté a publicação, o STF não tinha determinado a realização do 2º turno e a liminar pedida pelo PSD continuava sem decisão.",
+      "fonte": "Prensa de Babel",
+      "url": "https://prensadebabel.com.br/acao-do-psd-por-segundo-turno-no-rio-tem-nova-movimentacao-no-stf-e-mobiliza-apoiadores/"
+    },
+    {
+      "data": "27/10/2026",
+      "titulo": "TSE responde a Zanin e se opõe ao 2º turno no RJ (resposta confirmada depois no portal do STF)",
       "texto": "Segundo a coluna de Basília Rodrigues no SBT News, o presidente do TSE, Kassio Nunes Marques, enviou a Zanin as informações pedidas e disse que não era viável fazer o 2º turno para governador junto com a eleição de 25/10. A liminar continua sem decisão.",
       "texto_completo": "De acordo com a coluna de Basília Rodrigues no SBT News, publicada em 27/10, o presidente do Tribunal Superior Eleitoral, ministro Kassio Nunes Marques, já respondeu ao pedido de informações feito pelo ministro Cristiano Zanin na ADPF 1362. Essa resposta ainda não aparece confirmada em fonte oficial do STF, então a informação é da coluna.\n\nNa manifestação, Nunes Marques afirma que não seria viável incluir a eleição para governador do Rio no dia 25 de outubro, porque as urnas já estavam preparadas e lacradas sem a previsão desse cargo. Incluir a votação exigiria gerar novas mídias, fazer nova carga e nova lacração das urnas, com cerimônias públicas e fiscalização, o que, segundo ele, não caberia no prazo que restava.\n\nEle também defende o mérito da decisão do TSE: diz que a inelegibilidade de Garotinho foi reconhecida por unanimidade no TRE-RJ e reafirmada pelo relator no TSE, Floriano de Azevedo Marques, de forma amplamente divulgada, e que por isso o eleitor tinha ciência do elevado risco de anulação dos votos. Com a exclusão dos 274.411 votos de Garotinho, Douglas Ruas teria passado a ter 52,59% dos votos válidos, segundo o texto citado pela coluna.\n\nO próximo passo previsto no despacho de Zanin é a manifestação da AGU e da PGR. A liminar pedida pelo PSD continua sem decisão.",
       "fonte": "SBT News (Coluna da Basília)",
@@ -245,12 +253,20 @@
   "segundo_turno": [
     {
       "data": "28/10/2026",
+      "titulo": "Rio Diário: resposta do TSE é de 23/10 e prazo para eleição suplementar vai até 6/12",
+      "texto": "Segundo o Rio Diário, Nunes Marques respondeu a Zanin em 23/10, mas a resposta só entrou no processo em 27/10. O site diz que 6 de dezembro é a última data para uma eventual eleição suplementar; Ruas deve ser diplomado até 18/12 e tomar posse em 6/1.",
+      "texto_completo": "O site Rio Diário publicou na madrugada de 28/10 que o presidente do TSE, ministro Kassio Nunes Marques, respondeu em 23 de outubro ao pedido de informações do ministro Cristiano Zanin na ADPF 1362, mas que a manifestação só foi incluída no processo em 27 de outubro, quatro dias depois. Na resposta, ele relatou o histórico do indeferimento do registro de Anthony Garotinho e afirmou que já não era tecnicamente possível fazer um segundo turno para governador em 25 de outubro.\n\nAinda segundo o Rio Diário, o calendário da Justiça Eleitoral teria 6 de dezembro como última data para uma eleição suplementar, enquanto Douglas Ruas (PL) deve ser diplomado até 18 de dezembro e tomar posse em 6 de janeiro. Essas datas são do site e não foram confirmadas em fonte oficial. O site lembra que, após as manifestações da AGU e da PGR, Zanin pode tomar decisão individual sujeita ao plenário.",
+      "fonte": "Rio Diário",
+      "url": "https://riodiario.com.br/noticia/nunes-marques-diz-que-segundo-turno-no-rio-nao-era-possivel-em-25-de-outubro-81ac33ef",
+      "novo": true
+    },
+    {
+      "data": "28/10/2026",
       "titulo": "Apoiadores de Paes lançam abaixo-assinado por 2º turno no RJ",
       "texto": "Petição no Change.org pede que a Justiça Eleitoral reconsidere a anulação dos votos de Garotinho; tinha mais de 58 mil assinaturas. O canal \"Exército do Dudu\" passou de 240 mil seguidores.",
       "texto_completo": "Segundo o Diário do Rio, apoiadores de Eduardo Paes intensificaram a mobilização nas redes para pressionar pela realização do 2º turno para governador. Um abaixo-assinado no Change.org, criado em 5 de outubro e dirigido ao TSE, ao TRE-RJ e ao Ministério Público Eleitoral, pede que os órgãos reconsiderem a anulação dos votos de Anthony Garotinho e garantam o 2º turno. A página registrava mais de 58 mil assinaturas verificadas.\n\nO canal de WhatsApp \"Exército do Dudu\" reunia mais de 240 mil seguidores em 28/10, segundo levantamento do jornal. O grupo defende nova votação entre Paes e Douglas Ruas (PL), declarado eleito após a retotalização. A decisão, porém, depende do STF na ADPF 1362, que segue sem liminar.",
       "fonte": "Diário do Rio",
-      "url": "https://diariodorio.com/politica/2026/10/28/apoiadores-de-eduardo-paes-lancam-peticao-por-segundo-turno-para-governador-do-rio.html",
-      "novo": true
+      "url": "https://diariodorio.com/politica/2026/10/28/apoiadores-de-eduardo-paes-lancam-peticao-por-segundo-turno-para-governador-do-rio.html"
     },
     {
       "data": "27/10/2026",
@@ -258,8 +274,7 @@
       "texto": "UOL e O Dia confirmam a resposta do presidente do TSE a Zanin: as urnas de 25/10 já estavam preparadas e lacradas sem a eleição para governador.",
       "texto_completo": "O UOL (27/10) e o jornal O Dia (28/10) também noticiaram a resposta do presidente do TSE, Kassio Nunes Marques, ao ministro Cristiano Zanin na ADPF 1362. Segundo ele, não era tecnicamente possível incluir a eleição para governador do Rio no 2º turno de 25/10, porque as urnas já estavam preparadas e lacradas sem esse cargo. Seria preciso gerar novas mídias, carregar e lacrar de novo os equipamentos e cumprir etapas públicas de fiscalização, sem tempo hábil.\n\nNunes Marques também lembrou que a situação de Garotinho era conhecida durante a campanha. Com a anulação dos 274.411 votos dele, Ruas passou de 49,27% para 50,88% dos votos válidos e Paes de 42,76% para 44,16%. O Dia ressalta que a manifestação não é uma decisão do STF sobre o mérito.",
       "fonte": "O Dia / UOL",
-      "url": "https://odia.ig.com.br/eleicoes/2026/10/7317172-nunes-marques-aponta-impossibilidade-tecnica-para-segundo-turno-no-rj.html",
-      "novo": true
+      "url": "https://odia.ig.com.br/eleicoes/2026/10/7317172-nunes-marques-aponta-impossibilidade-tecnica-para-segundo-turno-no-rj.html"
     },
     {
       "data": "26/10/2026",
