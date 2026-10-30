@@ -2,12 +2,11 @@
  "novidade_id": "2026-10-30 seed",
  "atualizado_em": "30/10/2026 12:50",
  "contra": "Diário Oficial do Município",
- "assunto": "trocas no 1º escalão: secretários, subsecretários e cúpula de empresas/autarquias municipais (Câmara fica de fora)",
+ "assunto": "trocas no 1º escalão: secretários, subsecretários e presidência/vice-presidência de empresas e autarquias municipais",
  "resumo": "Lista única de quem entrou e quem saiu. Cada card é uma troca publicada no Diário Oficial do Município do Rio.",
  "status": {
   "Fonte": "D.O. Rio (doweb.rio.rj.gov.br)",
   "Escopo": "Secretário, Subsecretário e cúpula de empresa/autarquia",
-  "Fora": "Câmara Municipal e cargos abaixo do 1º escalão",
   "Período varrido": "16/09 a 29/10/2026 (edições principais do portal)"
  },
  "status_novos": [],
