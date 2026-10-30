@@ -126,7 +126,7 @@ window.addEventListener("hashchange", abrirAba);
       try { alvo.scrollIntoView({ behavior: "auto", block: "center", inline: "nearest" }); }
       catch (_) { alvo.scrollIntoView(true); }
       destacar(alvo);
-      lerSeVisivel(aba, alvo);
+      // não apaga mais ao rolar: só apaga ao clicar na notícia (pedido Fabio 30/10)
     }, 500);
   }
   function pedir(aba) {
