@@ -16,7 +16,7 @@ window.abrirNoticia=function(a,nova){const m=modal();
 const VK='flavio_vistos',NK='flavio_novidade_lida';
 const vistos=()=>{try{return JSON.parse(localStorage.getItem(VK)||'[]')}catch(_){return[]}};
 const marca=k=>{const v=vistos();if(!v.includes(k)){v.push(k);localStorage.setItem(VK,JSON.stringify(v.slice(-300)))}};
-const chave=(D,a)=>a.data+'|'+a.titulo, chS=(D,k)=>'status|'+k+'|'+((D&&D.status&&D.status[k])||'');
+const chave=(D,a)=>a.data+'|'+a.titulo+(a.rev?'|'+a.rev:''), chS=(D,k)=>'status|'+k+'|'+((D&&D.status&&D.status[k])||'');
 const visto=k=>{const v=vistos();return v.some(x=>x===k||(k.indexOf('status|')!==0&&x.endsWith('|'+k)))};
 let DD=null,ult=0;
 const novoI=a=>a.novo&&DD.novidade_id&&localStorage.getItem(NK)!==DD.novidade_id&&!visto(chave(DD,a)), novoS=k=>DD.novidade_id&&localStorage.getItem(NK)!==DD.novidade_id&&(DD.status_novos||[]).includes(k)&&!visto(chS(DD,k));
