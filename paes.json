@@ -1,21 +1,47 @@
 {
- "novidade_id": "2026-10-30 20:00",
- "atualizado_em": "30/10/2026 20:00",
+ "novidade_id": "2026-10-30 20:20",
+ "atualizado_em": "30/10/2026 20:20",
  "contra": "× Justiça Eleitoral · MPRJ · STF",
- "assunto": "derrota no governo do RJ após anulação dos votos de Garotinho; mobilização 'Exército do Dudu' por 2º turno no STF; investigações e inquéritos em aberto",
- "resumo": "Ex-prefeito do Rio (PSD), renunciou em 2026 para concorrer ao governo. Ficou em 2º no 1º turno (3.706.984 votos; 42,76%) e reconheceu derrota após o TSE anular os votos de Anthony Garotinho. Aliados pressionam o STF por 2º turno.",
+ "assunto": "TSE (Nunes Marques) diz ao STF que 2º turno em 25/10 não era tecnicamente possível; 'Exército do Dudu' passa de 255 mil; Paes de férias no exterior",
+ "resumo": "Ex-prefeito do Rio (PSD), renunciou em 2026 para concorrer ao governo. Ficou em 2º no 1º turno e reconheceu derrota após o TSE anular os votos de Garotinho. PSD mantém ADPF no STF; aliados mobilizam o 'Exército do Dudu'.",
  "status": {
   "Inquérito STF (INQ 4.435)": "Aberto em 2017 (Odebrecht/doações 2014); Mendonça negou arquivamento em 12/03/2024 e prorrogou diligências",
   "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
-  "Disputa eleitoral RJ 2026": "TSE anulou votos de Garotinho (08/10); Paes reconheceu derrota (08/10); PSD recorreu ao STF (12–14/10)",
-  "Mobilização 'Exército do Dudu'": "Canal no WhatsApp (desde 25–26/10) para pressionar o STF por 2º turno; VEJA citou +230 mil seguidores em 28/10"
+  "Disputa eleitoral RJ 2026": "ADPF do PSD no STF (relator Zanin); em 27/10 Nunes Marques (TSE) disse não ser tecnicamente possível 2º turno em 25/10; aguarda PGR/AGU",
+  "Mobilização 'Exército do Dudu'": "Canal WhatsApp por 2º turno no STF; Folha citou 255 mil em 30/10; Brasil de Fato ~250 mil em 29/10"
  },
  "status_novos": [
   "Disputa eleitoral RJ 2026",
-  "Mobilização 'Exército do Dudu'",
-  "Inquérito civil MPRJ (servidores)"
+  "Mobilização 'Exército do Dudu'"
  ],
  "itens": [
+  {
+   "data": "29/10/2026",
+   "novo": true,
+   "titulo": "Brasil de Fato: 'Exército do Dudu' chega a quase 250 mil e TSE diz inviável 2º turno em 25/10",
+   "texto": "Manifestação de Nunes Marques (27/10) ao STF: urnas já lacradas; PSD pede pleito extraordinário antes da diplomação.",
+   "fonte": "Brasil de Fato",
+   "url": "https://www.brasildefato.com.br/2026/10/29/exercito-do-dudu-apoiadores-de-eduardo-paes-pedem-2o-turno-extraordinario-no-rj/",
+   "texto_completo": "O Brasil de Fato (29/10/2026) informou que o pedido do PSD ao STF por segundo turno no governo do Rio ganhou novos capítulos com a publicação da manifestação do TSE (juntada em 27/10).\n\nO canal de WhatsApp \"Exército do Dudu\" já contava com quase 250 mil integrantes. O presidente do TSE, Kassio Nunes Marques, declarou-se contrário a nova eleição e apontou inviabilidade técnica de convocar o pleito para 25/10: urnas já preparadas e lacradas; inclusão do cargo de governador exigiria novas mídias, carga e lacração com auditoria, incompatível com o prazo. O PSD pede que eventual novo pleito seja marcado antes da diplomação. A decisão do STF aguarda as manifestações solicitadas (PGR e demais)."
+  },
+  {
+   "data": "28/10/2026",
+   "novo": true,
+   "titulo": "Folha: PT e aliados de Paes discutem herança da virada de Lula; 'Exército do Dudu' com 255 mil",
+   "texto": "Paes de férias no exterior desde 25/10. Aliados pressionam STF por 2º turno; PT-RJ fala em possível ministério, Ferreirinha nega que seja o foco.",
+   "fonte": "Folha de S.Paulo",
+   "url": "https://www1.folha.uol.com.br/poder/2026/10/pt-e-aliados-de-eduardo-paes-discutem-heranca-de-virada-de-lula-no-rio.shtml",
+   "texto_completo": "A Folha (28/10/2026, atualizada em 30/10) relatou que o PT e aliados de Eduardo Paes (PSD) tentam aproveitar a virada de Lula no Rio para manter mobilização e pressionar o STF por segundo turno estadual.\n\nO canal \"Exército do Dudu\" reunia 255 mil pessoas até 30/10. Paes está de férias no exterior desde 25/10 (após votar). Integrantes do PT-RJ avaliam que ele pode ser considerado para um ministério; o deputado Renan Ferreirinha (PSD) disse que o foco de Paes é a disputa pelo governo do Rio. Freixo e Cavaliere relativizaram o \"dono\" da virada e apontaram o papel das ruas e da aliança PSD–PT."
+  },
+  {
+   "data": "27/10/2026",
+   "novo": true,
+   "titulo": "UOL: Nunes Marques diz ao STF que não é 'tecnicamente possível' 2º turno no RJ",
+   "texto": "Presidente do TSE, em resposta a Zanin na ADPF do PSD: urnas do 25/10 já lacradas; nova carga e lacração incompatíveis com o prazo.",
+   "fonte": "UOL",
+   "url": "https://noticias.uol.com.br/eleicoes/2026/10/27/nunes-marques-diz-ao-stf-nao-ser-tecnicamente-possivel-ter-2-turno-no-rj.ghtm",
+   "texto_completo": "O UOL (Luccas Lucena, 27/10/2026) informou que o presidente do TSE, Kassio Nunes Marques, afirmou ao STF que não é mais \"tecnicamente possível\" realizar segundo turno para governador do Rio em 25/10.\n\nA manifestação responde a solicitação do ministro Cristiano Zanin na ADPF do PSD contra a anulação dos votos de Anthony Garotinho pelo TSE. Nunes Marques citou que as urnas já estavam lacradas e que gerar novas mídias, fazer nova carga e nova lacração com auditoria seria incompatível com o prazo remanescente."
+  },
   {
    "data": "28/10/2026",
    "novo": true,
