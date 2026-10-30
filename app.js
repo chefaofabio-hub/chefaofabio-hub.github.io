@@ -24,7 +24,7 @@ const hojeBR = () => new Date().toLocaleDateString("pt-BR", {timeZone: TZ});
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------------- abas ---------------- */
-const ABAS = ["flavio", "adpf", "ruas", "prefeitura"];  // Apuração, Pesquisas, Análise geral, Por região, Confiabilidade, Próximas e Mercado de apostas removidas (Fabio, 26/10)
+const ABAS = ["flavio", "adpf", "ruas", "prefeitura", "paes"];  // Apuração, Pesquisas, Análise geral, Por região, Confiabilidade, Próximas e Mercado de apostas removidas (Fabio, 26/10)
 const abaAtual = () => { const h = location.hash.slice(1); return ABAS.includes(h) ? h : "flavio"; };
 function abrirAba() {
   const aba = abaAtual();
@@ -51,7 +51,7 @@ window.addEventListener("hashchange", abrirAba);
    Pedido Fabio: ao apertar o menu de cima com ponto de exclamação, abrir a aba
    e ir direto ao item novo (card ou status), com destaque breve piscando. */
 (function () {
-  const ABAS_NOV = ["flavio", "adpf", "ruas", "prefeitura"];
+  const ABAS_NOV = ["flavio", "adpf", "ruas", "prefeitura", "paes"];
   let pend = null, timer = null, tries = 0;
   const pontoVisivel = p => p && !p.hidden && getComputedStyle(p).display !== "none";
   const parseDt = el => {
@@ -61,7 +61,7 @@ window.addEventListener("hashchange", abrirAba);
     return new Date(+m[3], +m[2] - 1, +m[1], +(m[4] || 0), +(m[5] || 0)).getTime();
   };
   const alvoNaAba = root => {
-    const cards = [...root.querySelectorAll(".fbcd.adnovo, .adcd.adnovo, .rscd.adnovo, .pfcd.adnovo")];
+    const cards = [...root.querySelectorAll(".fbcd.adnovo, .adcd.adnovo, .rscd.adnovo, .pfcd.adnovo, .pacd.adnovo")];
     if (cards.length) {
       cards.sort((a, b) => parseDt(b) - parseDt(a) || (a.getBoundingClientRect().top - b.getBoundingClientRect().top));
       return cards[0];

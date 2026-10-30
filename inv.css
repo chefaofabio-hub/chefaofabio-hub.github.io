@@ -389,3 +389,39 @@ nav.nav a .ponto, body.inv nav.nav a .ponto, body .ponto:not([hidden]), body.inv
   text-shadow:0 1px 0 #6e0000!important;z-index:3
 }
 body.pc nav.nav a .ponto{min-width:26px!important;height:26px!important;line-height:24px!important;font-size:16px!important;top:10px!important;right:10px!important;border-bottom-width:4px!important;box-shadow:0 4px 0 #6e0000,0 6px 12px rgba(224,11,43,.55),inset 0 1px 0 rgba(255,255,255,.5)!important}
+
+
+/* ===== Eduardo Paes (5º botão + aba) ===== */
+body.inv nav.nav a.n5, nav.nav a.n5{
+  background:linear-gradient(180deg,#f472b6 0%,#ec4899 28%,#db2777 62%,#9d174d 100%)!important;
+  border-color:#fbcfe8!important;border-bottom-color:#4c0519!important;
+  box-shadow:0 6px 0 #4c0519,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.45),inset 0 -3px 6px rgba(0,0,0,.22)!important
+}
+body.inv nav.nav a.atual.n5{
+  background:linear-gradient(180deg,#f472b6 0%,#ec4899 28%,#db2777 62%,#9d174d 100%)!important;
+  box-shadow:0 6px 0 #4c0519,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.45),0 0 0 2px rgba(236,72,153,.4)!important
+}
+body.inv nav.nav a.n5:active, nav.nav a.n5:active{
+  transform:translateY(4px)!important;border-bottom-width:2px!important;
+  box-shadow:0 1px 0 rgba(0,0,0,.35),0 2px 6px rgba(0,0,0,.3),inset 0 3px 8px rgba(0,0,0,.35)!important
+}
+/* 5 botões: grade 2 colunas; o 5º centralizado */
+body.inv nav.nav{grid-template-columns:1fr 1fr!important}
+body.inv nav.nav a:last-child:nth-child(odd),
+nav.nav a:last-child:nth-child(odd){
+  grid-column:1/-1!important;justify-self:center!important;width:min(100%,calc(50% - 6px))!important
+}
+/* pacd no tema claro */
+body.inv .pacd,body.inv .past{
+  background:linear-gradient(180deg,#fbfcff,#f3f6fb)!important;
+  border:1.5px solid #c9d6ee!important;border-bottom-width:4px!important;
+  border-radius:12px!important;color:#1a2438!important;box-shadow:none!important
+}
+body.inv .pacd:before,body.inv .pacd:after{display:none!important;content:none!important}
+body.inv .pacd h3{background:none!important;-webkit-background-clip:unset!important;background-clip:unset!important;color:var(--azul,#1f4fa8)!important;text-shadow:none!important}
+body.inv .pa-topo,body.inv .pa-assunto{color:inherit}
+body.inv .pa-assunto{color:#5b4300!important;background:#fff8e6!important;border:1.5px solid #f0d48a!important;border-bottom-width:4px!important;border-radius:12px!important}
+body.inv .pa-assunto b{background:none!important;-webkit-background-clip:unset!important;background-clip:unset!important;color:#b45309!important;text-shadow:none!important}
+body.inv .pa-contra{color:#c8102e!important}
+body.inv .pa-logo{display:flex!important;filter:none!important;opacity:1!important}
+body.inv .past b{color:#b45309!important}

@@ -1,0 +1,83 @@
+{
+ "novidade_id": "2026-10-30 20:00",
+ "atualizado_em": "30/10/2026 20:00",
+ "contra": "× Justiça Eleitoral · MPRJ · STF",
+ "assunto": "derrota no governo do RJ após anulação dos votos de Garotinho; mobilização 'Exército do Dudu' por 2º turno no STF; investigações e inquéritos em aberto",
+ "resumo": "Ex-prefeito do Rio (PSD), renunciou em 2026 para concorrer ao governo. Ficou em 2º no 1º turno (3.706.984 votos; 42,76%) e reconheceu derrota após o TSE anular os votos de Anthony Garotinho. Aliados pressionam o STF por 2º turno.",
+ "status": {
+  "Inquérito STF (INQ 4.435)": "Aberto em 2017 (Odebrecht/doações 2014); Mendonça negou arquivamento em 12/03/2024 e prorrogou diligências",
+  "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
+  "Disputa eleitoral RJ 2026": "TSE anulou votos de Garotinho (08/10); Paes reconheceu derrota (08/10); PSD recorreu ao STF (12–14/10)",
+  "Mobilização 'Exército do Dudu'": "Canal no WhatsApp (desde 25–26/10) para pressionar o STF por 2º turno; VEJA citou +230 mil seguidores em 28/10"
+ },
+ "status_novos": [
+  "Disputa eleitoral RJ 2026",
+  "Mobilização 'Exército do Dudu'",
+  "Inquérito civil MPRJ (servidores)"
+ ],
+ "itens": [
+  {
+   "data": "28/10/2026",
+   "novo": true,
+   "titulo": "VEJA: 'Exército do Dudu' passa de 230 mil no WhatsApp",
+   "texto": "Aliados de Paes, inspirados no 'Exército do Lula', mobilizam canal no WhatsApp para tentar forçar 2º turno no Rio via STF.",
+   "fonte": "VEJA",
+   "url": "https://veja.abril.com.br/politica/exercito-do-dudu-aliados-de-paes-tentam-mobilizacao-por-2o-turno-no-rio/",
+   "texto_completo": "A revista VEJA publicou em 28/10/2026 que aliados de Eduardo Paes (PSD) criaram o canal \"Exército do Dudu\" no WhatsApp, inspirados na mobilização vista na campanha de Lula, com mais de 230 mil seguidores, para tentar pressionar o Supremo Tribunal Federal a determinar um segundo turno na eleição para governador do Rio de Janeiro.\n\nA reportagem (Ludmilla de Lima) descreve adesivos e a campanha digital pelo 2º turno após a anulação dos votos de Anthony Garotinho pelo TSE, que levou Douglas Ruas (PL) a ser tratado como eleito no 1º turno."
+  },
+  {
+   "data": "26/10/2026",
+   "novo": true,
+   "titulo": "Mobile Time: canal 'Exército do Dudu 55' explode no WhatsApp",
+   "texto": "Canal criado para pressionar o STF por 2º turno chegou a cerca de 89 mil participantes em 26/10, um dos assuntos mais comentados no X.",
+   "fonte": "Mobile Time",
+   "url": "https://www.mobiletime.com.br/noticias/26/10/2026/exercito-do-dudu/",
+   "texto_completo": "O site Mobile Time (Fernando Paiva, 26/10/2026, atualizado às 19h) informou que o canal \"Exército do Dudu 55\" no WhatsApp, inspirado no \"Exército do Lula\", busca pressionar o STF a determinar segundo turno no governo do Rio, após a vitória de Douglas Ruas (PL) no 1º turno em razão da anulação dos votos de Anthony Garotinho (Republicanos).\n\nNo começo da noite de 26/10 o canal tinha cerca de 89 mil participantes e ganhara mais de 80 mil adesões em menos de 24 horas. A matéria observa que o canal não identifica o responsável pela comunicação (diferente do papel de André Janones no canal lulista)."
+  },
+  {
+   "data": "14/10/2026",
+   "novo": true,
+   "titulo": "Diário do Rio: mesmo após Paes aceitar derrota, PSD recorre ao STF",
+   "texto": "Partido protocolou nova medida (12/10) questionando a anulação dos 274.411 votos de Garotinho para restabelecer o 2º turno.",
+   "fonte": "Diário do Rio",
+   "url": "https://diariodorio.com/politica/2026/10/14/mesmo-apos-paes-aceitar-derrota-psd-insiste-no-stf-em-segundo-turno-para-governador-do-rio.html",
+   "texto_completo": "O Diário do Rio (Quintino Gomes Freire, 14/10/2026) informou que, mesmo depois de Eduardo Paes (PSD) reconhecer a derrota para Douglas Ruas (PL) e dizer que respeitaria a Justiça Eleitoral, o PSD apresentou nova medida no STF (protocolada em 12/10) para tentar reverter o resultado.\n\nO partido voltou a questionar a anulação dos 274.411 votos de Anthony Garotinho (Republicanos), visando restabelecer o segundo turno previsto para 25/10. A base é a decisão do TSE, por 5 a 2, que manteve o indeferimento da candidatura de Garotinho e anulou seus votos do 1º turno de 4/10."
+  },
+  {
+   "data": "09/10/2026",
+   "novo": true,
+   "titulo": "g1: Paes reconhece derrota; Ruas deve ser declarado governador",
+   "texto": "Após o TSE anular votos de Garotinho e Zanin negar liminar no STF, Paes disse na noite de 08/10 que não haverá 2º turno e que respeita a decisão.",
+   "fonte": "g1",
+   "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/09/paes-aceita-decisao-da-justica-ruas-deve-ser-declarado-governador-do-rj-entenda.ghtml",
+   "texto_completo": "O g1 (Gabriel Barreira, Lucas Soares, Raoni Alves / TV Globo, 09/10/2026) relatou que, na noite de 08/10, Eduardo Paes (PSD) reconheceu que não haverá 2º turno no governo do RJ e afirmou respeitar a Justiça Eleitoral.\n\nIsso veio depois de o TSE anular os votos de Anthony Garotinho e de o ministro Cristiano Zanin (STF) negar o pedido da coligação de Paes para suspender os efeitos da decisão. Com a exclusão desses votos do cálculo dos válidos, Douglas Ruas (PL) deve superar a maioria absoluta. O TRE-RJ marcou retotalização para 10/10."
+  },
+  {
+   "data": "09/10/2026",
+   "novo": true,
+   "titulo": "Poder360: Paes diz que discorda, mas aceita a Justiça Eleitoral",
+   "texto": "Nota de 08/10: \"Infelizmente, a Justiça decidiu que não haverá 2º turno, contrariando a vontade soberana dos eleitores\".",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/paes-reconhece-derrota-em-disputa-pelo-governo-do-rj/",
+   "texto_completo": "O Poder360 (09/10/2026) publicou que Eduardo Paes (PSD) divulgou nota em 08/10 reconhecendo que não haverá 2º turno no governo do Estado. O TSE decidiu, por 5 a 2, excluir os votos de Anthony Garotinho (Republicanos) da contagem dos válidos e determinou a retotalização, abrindo caminho para Douglas Ruas (PL) ultrapassar 50% e ser declarado eleito no 1º turno.\n\nNa nota, Paes afirmou: \"Infelizmente, a Justiça decidiu que não haverá 2º turno, contrariando a vontade soberana dos eleitores\"."
+  },
+  {
+   "data": "18/08/2026",
+   "novo": true,
+   "titulo": "Ururau: MPRJ investiga suspeita de servidores 'fantasmas' na gestão Paes",
+   "texto": "Inquérito civil (set/2025) mira dois assessores comissionados; Conselho Superior do MPRJ mandou aprofundar após Prefeitura alegar frequência integral sem provas.",
+   "fonte": "Ururau",
+   "url": "https://www.ururau.com.br/noticias/politica/mprj-investiga-suspeita-de-servidores-fantasmas-na-gestao-eduardo-paes/82109/",
+   "texto_completo": "O Ururau (Fabrício Freitas, 18/08/2026) informou que o MPRJ investiga a suspeita de que dois servidores comissionados da gestão Eduardo Paes não cumpram efetivamente as funções: Armed Nemr Sarieddine (ligado ao Costelão do CADEG; nomeado em fev/2023, ~R$ 17,2 mil) e Marcelo Novaes Franco de Souza (administrador do Cachambeer; nomeado em mar/2024, ~R$ 20 mil), ambos Assistente I com jornada informada de 40h.\n\nA Casa Civil chegou a dizer que havia \"frequência integral\", mas a procuradora Ana Cíntia Lazary Serour registrou ausência de documentos. Após recurso à representação do deputado Rodrigo Amorim, o Conselho Superior, por unanimidade, não homologou o indeferimento e mandou aprofundar. Em setembro de 2025 foi instaurado inquérito civil."
+  },
+  {
+   "data": "12/03/2024",
+   "novo": true,
+   "titulo": "ConJur: STF (Mendonça) nega arquivar inquérito Paes e Pedro Paulo",
+   "texto": "INQ 4.435 (doações Odebrecht/campanha 2014): ministro negou arquivamento por demora e deu mais 60 dias para relatório final da Polícia.",
+   "fonte": "Consultor Jurídico",
+   "url": "https://www.conjur.com.br/2024-mar-12/stf-nega-pedido-de-arquivamento-de-inquerito-contra-eduardo-paes-e-pedro-paulo/",
+   "texto_completo": "O Consultor Jurídico (12/03/2024) informou que o ministro André Mendonça (STF) negou pedido de arquivamento do inquérito formulado pela defesa de Eduardo Paes e do deputado Pedro Paulo (PSD-RJ). A apuração trata de supostas doações ilegais na campanha de 2014, a partir de delações da Odebrecht, e tramita desde 2017 (INQ 4.435).\n\nNa mesma decisão, Mendonça prorrogou por mais 60 dias o prazo para conclusão, determinando diligências pendentes e relatório final. A defesa alegava demora; o ministro citou recursos das defesas, troca de relator e a própria PGR apontando necessidade de última prorrogação."
+  }
+ ]
+}
