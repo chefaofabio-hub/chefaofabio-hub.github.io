@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-10-30 13:55",
-  "atualizado_em": "30/10/2026 13:55",
+  "novidade_id": "2026-10-30 15:55",
+  "atualizado_em": "30/10/2026 15:55",
   "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
   "status": {
     "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -19,11 +19,38 @@
     "Declaração escrita": "Carta à Nação (28/10, tarde): 1ª versão se dizia \"presidente eleito\"; 3ª versão (~17h41) troca por \"líder do Brasil\". Publicada no X (@FlavioBolsonaro).",
     "Afastar Moraes": "Defesa vai pedir a Fachin que tire Moraes do inquérito Willer (prevenção para Mendonça e suspeição); ainda não protocolado (CNN, 29/10)",
     "Passaporte italiano": "Usado no voo Argentina–EUA; PF diz que não há registro oficial da saída. Deputado italiano Angelo Bonelli pediu apuração da emissão (CBN, 29/10)",
-    "Coletiva em Miami": "Cancelada; equipe distribuiu declaração por escrito (R7, SBT News). Ida a Washington/encontro com Trump é só boato",
-    "Argentina": "Oposição na Câmara argentina quer convocar Santilli, Monteoliva e Quirno e cobra Milei (g1, 28/10). A juíza federal María Eugenia Capuchetti ordenou a Migrações, ARCA, Polícia Aeroportuária e Gendarmería que preservem as imagens das câmeras (ponte Tancredo Neves, aeroporto de Puerto Iguazú etc.); medida prévia, a pedido da fiscal Paloma Ochoa, para decidir se abre investigação sobre ajuda irregular do governo Milei (Clarín, Estadão, CartaCapital, 29/10).",
-    "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Sâmia Bomfim vai pedir perda por abandono (g1, Metrópoles, UOL, 29/10). Segundo a Folha (30/10), Alcolumbre pensou em recorrer ao STF contra o cancelamento do passaporte e procurou Gilmar, mas desistiu após a fuga; ambos negam a conversa"
+    "Coletiva em Miami": "A de 29/10 foi cancelada (declaração por escrito, segundo R7 e SBT News). O Globo (30/10) diz que há previsão de coletiva nos EUA na semana que vem, e a cúpula do PL teme novas falas de fraude. Ida a Washington/encontro com Trump é só boato",
+    "Argentina": "Oposição na Câmara argentina quer convocar Santilli, Monteoliva e Quirno e cobra Milei (g1, 28/10). A juíza federal María Eugenia Capuchetti ordenou a Migrações, ARCA, Polícia Aeroportuária e Gendarmería que preservem as imagens das câmeras (ponte Tancredo Neves, aeroporto de Puerto Iguazú etc.); medida prévia, a pedido da fiscal Paloma Ochoa, para decidir se abre investigação sobre ajuda irregular do governo Milei (Clarín, Estadão, CartaCapital, 29/10). Em 30/10 o Itamaraty convocou a encarregada de negócios argentina, María Emilia Cortés, para explicar a ajuda do governo Milei (Reuters, g1)",
+    "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Sâmia Bomfim vai pedir perda por abandono (g1, Metrópoles, UOL, 29/10). Segundo a Folha (30/10), Alcolumbre pensou em recorrer ao STF contra o cancelamento do passaporte e procurou Gilmar, mas desistiu após a fuga; ambos negam a conversa. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027"
   },
   "itens": [
+    {
+      "data": "30/10/2026",
+      "fonte": "Reuters (via UOL); g1",
+      "novo": true,
+      "titulo": "Itamaraty convoca a encarregada de negócios da Argentina para explicar a ajuda do governo Milei na fuga",
+      "texto": "Segundo a Reuters (30/10, 14h54) e o g1, o Itamaraty convocou María Emilia Cortés, encarregada de negócios da Embaixada da Argentina, para explicar a participação do governo Milei na fuga de Flávio. A conversa com o diretor do Departamento de América do Sul foi rápida. É um gesto formal de desagrado; não há previsão de mudança nas relações.",
+      "texto_completo": "Segundo reportagem de Lisandra Paraguassu, da Reuters (publicada pelo UOL em 30/10, às 14h54), o Itamaraty convocou a encarregada de negócios da Embaixada da Argentina em Brasília, María Emilia Cortés, para dar explicações sobre a participação do governo de seu país na fuga de Flávio Bolsonaro para os Estados Unidos. Duas fontes do governo brasileiro confirmaram a convocação à agência; o g1 também noticiou.\n\nCortés foi recebida pelo diretor do Departamento de América do Sul, embaixador João Marcelo Galvão de Queiroz, e a conversa foi rápida, segundo uma das fontes. A convocação é praxe diplomática para registrar desagrado com as ações de outro governo.\n\nSegundo a Reuters, reportagens da imprensa argentina mostram o envolvimento direto de integrantes do governo Milei com Flávio e a família, inclusive com escolta da Polícia de Segurança Aeroportuária até o embarque em Puerto Iguazú. Na carta divulgada na quinta (29), Flávio agradeceu a ajuda de Milei.\n\nCortés chefia a representação argentina desde o início da crise diplomática entre os governos Lula e Milei, no fim de julho, quando o Brasil retirou o embaixador em Buenos Aires, Júlio Bitelli, e a Argentina também chamou de volta seu embaixador. Segundo uma das fontes, não há previsão de mudança nas relações num futuro próximo.",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/30/itamaraty-convoca-diplomata-argentina-para-explicar-ajuda-a-fuga-de-flavio-bolsonaro.htm"
+    },
+    {
+      "data": "30/10/2026",
+      "fonte": "O Globo",
+      "novo": true,
+      "titulo": "Cúpula do PL tenta convencer Flávio a largar o discurso de fraude e teme coletiva prevista para a semana que vem nos EUA",
+      "texto": "Segundo O Globo (30/10), dirigentes do PL tentam convencer Flávio a abandonar o discurso de fraude eleitoral e temem novas declarações, já que há previsão de uma entrevista coletiva dele nos EUA na próxima semana. Valdemar disse que o partido não aprovou a carta, e Rogério Marinho afirmou que não há provas de fraude.",
+      "texto_completo": "Segundo O Globo (30/10), a cúpula do PL tenta convencer Flávio Bolsonaro a abandonar o discurso de fraude na eleição presidencial e teme que novas declarações do senador, que está nos Estados Unidos, aprofundem o desgaste do partido. A preocupação cresceu depois da carta em que ele chegou a se declarar \"verdadeiro presidente eleito do Brasil\", sem provas e sem aval da direção partidária.\n\nO receio aumentou com a previsão de que Flávio conceda uma entrevista coletiva nos Estados Unidos na próxima semana, quando deve voltar a falar da derrota e da decisão de ficar no exterior (a coletiva de 29/10 em Miami tinha sido cancelada). Integrantes do PL acham que esse discurso atrapalha a reorganização da oposição e as alianças no Congresso.\n\nValdemar Costa Neto disse na quinta (29), depois de visitar Jair Bolsonaro, que a carta não foi aprovada pelo partido: \"Ninguém quer ter problema, ninguém aprova essa situação que aconteceu com o Flávio. O Flávio passou por uma situação difícil, compreendemos, mas não aprovamos.\" O senador Rogério Marinho (PL-RN), coordenador da campanha, disse na quarta que \"não há provas\" de fraude, que não foi consultado sobre a carta e que não sabe como Flávio pretende liderar a oposição dos EUA.",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/10/30/cupula-do-pl-tenta-convencer-flavio-a-abandonar-discurso-de-fraude-e-teme-novas-declaracoes-nos-eua.ghtml"
+    },
+    {
+      "data": "30/10/2026",
+      "fonte": "Valor Econômico",
+      "novo": true,
+      "titulo": "Valor: governo e Alcolumbre têm pouco interesse em cassar Flávio, que deve terminar o mandato",
+      "texto": "Segundo o Valor (30/10), o governo Lula não vai gastar esforço político para punir o mandato de Flávio, e Alcolumbre só agiria se provocado (pedido de licença do próprio senador ou pressão de muitos parlamentares). A tendência é ele cumprir o mandato até 31/01/2027, mesmo no exterior.",
+      "texto_completo": "Segundo apuração do Valor Econômico (30/10), além de ignorar eventuais falas de Trump e Milei sobre a fuga, o governo Lula não deve concentrar esforços políticos para impor alguma sanção ao mandato de Flávio Bolsonaro. A tendência é que, mesmo no exterior, ele cumpra o mandato até o fim, em 31 de janeiro de 2027.\n\nO presidente do Senado, Davi Alcolumbre (União-AP), não estaria interessado em mover peças para cassar Flávio; só consideraria agir se provocado, seja por um pedido de licença do próprio senador, seja por pressão de um grupo expressivo de parlamentares.\n\nA Constituição prevê duas vias principais para a perda do mandato nesse cenário: excesso de faltas injustificadas (que independe de votação no plenário) e quebra de decoro (que exige processo e ao menos 41 dos 81 votos).",
+      "url": "https://valor.globo.com/politica/noticia/2026/10/30/com-baixo-interesse-do-governo-por-cassacao-flavio-deve-concluir-o-mandato-de-senador.ghtml"
+    },
     {
       "data": "30/10/2026",
       "fonte": "Folha de S.Paulo",
@@ -590,6 +617,8 @@
     }
   ],
   "status_novos": [
+    "Argentina",
+    "Coletiva em Miami",
     "Mandato no Senado"
   ],
   "contra": "× Alexandre de Moraes",
