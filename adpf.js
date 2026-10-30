@@ -33,12 +33,13 @@ function apagarAlerta(){
  localStorage.setItem(NK,DD.novidade_id);
  const root=$('aba-adpf');if(root)root.querySelectorAll('.adnovo').forEach(el=>{el.classList.remove('adnovo','nov-flash');el.querySelector('.adexc')?.remove()});
  ponto(DD)}
+function lerUm(el,k){const v=vistos();if(k&&!v.includes(k)){v.push(k);localStorage.setItem(VK,JSON.stringify(v.slice(-200)))}if(el){el.classList.remove('adnovo','nov-flash');el.querySelector('.adexc')?.remove()}if(!document.querySelector('#aba-adpf .adnovo'))localStorage.setItem(NK,DD.novidade_id);ponto(DD)}
 window._lerNovidade=window._lerNovidade||{};window._lerNovidade.adpf=apagarAlerta;
 document.addEventListener('click',ev=>{if(!DD||!ev.target.closest)return;
- const st=ev.target.closest('.adst.adnovo');if(st){apagarAlerta();return}
+ const st=ev.target.closest('.adst.adnovo');if(st){lerUm(st,ckS(st.dataset.s));return}
  const c=ev.target.closest('.adcd');if(!c)return;const a=IT[+c.dataset.ix];const nv=c.classList.contains('adnovo');
  if(a&&window.abrirNoticia)window.abrirNoticia(a,nv);
- if(nv)apagarAlerta()});
+ if(nv)lerUm(c,c.dataset.k)});
 function sinc(){if(!DD)return;document.querySelectorAll('.adcd.adnovo').forEach(c=>{if(visto(c.dataset.k)||(DD.novidade_id&&localStorage.getItem(NK)===DD.novidade_id)){c.classList.remove('adnovo');c.querySelector('.adexc')?.remove()}});document.querySelectorAll('.adst.adnovo').forEach(x=>{if(!novoS(x.dataset.s)){x.classList.remove('adnovo');x.querySelector('.adexc')?.remove()}});ponto(DD)}
 window.addEventListener('storage',ev=>{if(ev.key===VK||ev.key===NK)sinc()});document.addEventListener('visibilitychange',()=>{if(!document.hidden)sinc()});window.addEventListener('pageshow',sinc);
 document.addEventListener('keydown',ev=>{if((ev.key==='Enter'||ev.key===' ')&&ev.target.closest&&ev.target.closest('.adcd')){ev.preventDefault();ev.target.click()}});

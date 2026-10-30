@@ -31,12 +31,13 @@ function apagarAlerta(){
  localStorage.setItem(NK,DD.novidade_id);
  const root=$('aba-ruas');if(root)root.querySelectorAll('.adnovo').forEach(el=>{el.classList.remove('adnovo','nov-flash');el.querySelector('.adexc')?.remove()});
  ponto(DD)}
+function lerUm(el,k){const v=vistos();if(!v.includes(k)){v.push(k);localStorage.setItem(VK,JSON.stringify(v.slice(-300)))}if(el){el.classList.remove('adnovo','nov-flash');el.querySelector('.adexc')?.remove()}if(!(DD.itens||[]).some(novoI)&&!Object.keys(DD.status||{}).some(novoS))localStorage.setItem(NK,DD.novidade_id);ponto(DD)}
 window._lerNovidade=window._lerNovidade||{};window._lerNovidade.ruas=apagarAlerta;
 const item=(a,i)=>{const nv=novoI(a);return `<div class="cd rscd${nv?' adnovo':''}" data-i="${i}" role="button" tabindex="0">${nv?'<b class="adexc" title="novidade">!</b>':''}<span class="dt">${e(a.data)}</span><h3>${e(a.titulo)}</h3><div class="v">${e(a.texto)}</div><div class="nota">Fonte: ${e(a.fonte)} · <b class="fb-ler">Toque para ler a notícia completa ›</b></div></div>`};
 document.addEventListener('click',ev=>{if(!DD)return;
- const s=ev.target.closest&&ev.target.closest('.rsst.adnovo');if(s){apagarAlerta();return}
+ const s=ev.target.closest&&ev.target.closest('.rsst.adnovo');if(s){lerUm(s,chS(DD,s.dataset.k));return}
  const c=ev.target.closest&&ev.target.closest('.rscd');if(!c)return;const a=(DD.itens||[])[+c.dataset.i];if(!a)return;
- const nv=novoI(a)||c.classList.contains('adnovo');window.abrirNoticia(a,nv);if(nv)apagarAlerta()});
+ const nv=novoI(a)||c.classList.contains('adnovo');window.abrirNoticia(a,nv);if(nv)lerUm(c,chave(DD,a))});
 function sinc(){if(!DD)return;document.querySelectorAll('.rscd.adnovo').forEach(c=>{const a=(DD.itens||[])[+c.dataset.i];if(a&&!novoI(a)){c.classList.remove('adnovo');c.querySelector('.adexc')?.remove()}});document.querySelectorAll('.rsst.adnovo').forEach(s=>{if(!novoS(s.dataset.k)){s.classList.remove('adnovo');s.querySelector('.adexc')?.remove()}});ponto(DD)}
 window.addEventListener('storage',ev=>{if(ev.key===VK||ev.key===NK)sinc()});document.addEventListener('visibilitychange',()=>{if(!document.hidden)sinc()});window.addEventListener('pageshow',sinc);
 document.addEventListener('keydown',ev=>{if((ev.key==='Enter'||ev.key===' ')&&ev.target.closest&&ev.target.closest('.rscd')){ev.preventDefault();ev.target.click()}});
