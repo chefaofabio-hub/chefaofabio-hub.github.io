@@ -36,8 +36,24 @@
 <link rel="stylesheet" href="flavio.css?v=4">
 <link rel="stylesheet" href="ruas.css?v=1">
 <link rel="stylesheet" href="prefeitura.css?v=1">
-<link rel="stylesheet" href="inv.css?v=14">
-<style id="nav4">/* v7: 4 botões de 1º nível */nav.nav{grid-template-columns:repeat(4,1fr)!important;gap:5px!important}nav.nav a,nav.nav a:last-child:nth-child(odd){grid-column:auto!important;width:auto!important;justify-self:stretch!important;height:78px!important;min-height:78px!important;white-space:normal!important;font-size:clamp(10px,2.8vw,13px)!important;line-height:1.12;padding:5px 2px!important}nav.nav a small{white-space:normal!important;font-size:clamp(8px,2.2vw,10px)!important}nav.nav a .fb-ico{display:none}</style>
+<link rel="stylesheet" href="inv.css?v=16">
+<style id="nav4">/* Proposta A: cards grandes com gradiente */
+nav.nav{display:grid!important;grid-template-columns:1fr 1fr!important;gap:12px!important;background:transparent!important;box-shadow:none!important;border:0!important;padding:4px 6px 8px!important;border-radius:0!important;align-items:stretch!important}
+nav.nav a,nav.nav a.largo,nav.nav a.inteira,nav.nav a:last-child:nth-child(odd){grid-column:auto!important;width:auto!important;justify-self:stretch!important;position:relative;overflow:hidden!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-end!important;text-align:left!important;min-height:132px!important;height:auto!important;padding:16px 14px 14px!important;border-radius:20px!important;border:1px solid rgba(255,255,255,.28)!important;border-bottom-width:1px!important;color:#fff!important;text-decoration:none!important;font-weight:800!important;font-size:15px!important;line-height:1.15!important;white-space:normal!important;text-shadow:0 1px 2px rgba(0,0,0,.25)!important;box-shadow:0 10px 24px rgba(13,27,58,.2),0 2px 6px rgba(13,27,58,.1)!important;transform:none!important}
+nav.nav a::before{content:"";position:absolute;inset:0;background:radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.28),transparent 55%);pointer-events:none}
+nav.nav a.n1{background:linear-gradient(145deg,#2f6fe0 0%,#1a4fb0 48%,#0d357a 100%)!important}
+nav.nav a.n2{background:linear-gradient(145deg,#5b7cfa 0%,#3d4fc4 50%,#2a338f 100%)!important}
+nav.nav a.n3{background:linear-gradient(145deg,#00a3a8 0%,#0d7a8a 50%,#0a5566 100%)!important}
+nav.nav a.n4{background:linear-gradient(145deg,#f0a020 0%,#d97706 50%,#b45309 100%)!important}
+nav.nav a.atual{filter:brightness(1.08);box-shadow:0 12px 28px rgba(13,27,58,.28),0 0 0 2px rgba(255,255,255,.35)!important;transform:none!important;border-bottom-width:1px!important}
+nav.nav a:active{transform:translateY(2px)!important}
+nav.nav a .nav-ico{font-size:30px;line-height:1;margin-bottom:auto;position:relative;z-index:1;filter:drop-shadow(0 2px 4px rgba(0,0,0,.25))}
+nav.nav a .nav-lab{display:block;position:relative;z-index:1;margin-top:10px;font:800 15px/1.15 Inter,system-ui,sans-serif}
+nav.nav a small{display:block!important;position:relative;z-index:1;margin-top:4px;color:rgba(255,255,255,.9)!important;font:600 11.5px/1.3 Inter,system-ui,sans-serif!important;white-space:normal!important;text-shadow:none!important}
+nav.nav a small .ass-d{font-style:normal;background:none!important;-webkit-background-clip:unset!important;background-clip:unset!important;color:rgba(255,255,255,.95)!important;text-shadow:none!important}
+nav.nav a .fb-ico,nav.nav a .adpf-ico{display:none!important}
+nav.nav a .ponto{top:10px!important;right:10px!important;min-width:22px;height:22px;line-height:22px;font-size:14px;border-radius:11px;box-shadow:0 0 0 3px rgba(255,255,255,.45),0 4px 12px rgba(224,11,43,.5)!important}
+</style>
 <style id="vigiacab">.vg-cab{display:flex;align-items:center;justify-content:center;gap:10px;margin:8px 0 10px}.vg-cab img{width:44px;height:44px;border-radius:11px;box-shadow:0 4px 10px rgba(0,0,0,.35)}.vg-cab b{font:900 28px Inter,system-ui,sans-serif;letter-spacing:.5px;color:#0b2257;text-shadow:0 2px 0 #c98a00,0 4px 6px rgba(0,0,0,.25)}</style>
 <style id="sairbtn">.vg-cab{position:relative}.vg-sair{position:absolute;right:6px;top:50%;transform:translateY(-50%);background:linear-gradient(#ff5a5a,#c00);color:#fff;border:0;border-radius:14px;padding:11px 18px;font:800 18px Inter,system-ui,sans-serif;box-shadow:0 4px 0 #7a0000,0 6px 10px rgba(0,0,0,.35);cursor:pointer}.vg-sair:active{transform:translateY(calc(-50% + 3px));box-shadow:0 1px 0 #7a0000}#telaSair{position:fixed;inset:0;z-index:99999;background:#0b0f1a;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;font-family:Inter,system-ui,sans-serif}#telaSair h2{font-size:30px;margin:14px 0}#telaSair p{color:#cbd5e1;font-size:16px;max-width:420px;line-height:1.45}#telaSair small{margin-top:28px;color:#94a3b8}</style>
 </head>
@@ -45,7 +61,7 @@
 <div class="versao-app"><span class="relogio" id="relogio" title="Hora local · horário de Brasília">🕒 <b id="relogioH">--:--:--</b> <small>Brasília</small></span><span class="ver-txt">versão 1.7.33</span></div>
 <div class="vg-cab"><img src="icons/olho-logo.png?v=4" alt="" width="44" height="44"><b>Vigia</b><button class="vg-sair" id="btnSair" aria-label="Sair do app">⏻ Sair</button></div>
 <nav class="nav" id="nav">
-  <b class="ponto" id="pontoPesq" hidden style="display:none"></b><b class="ponto" id="pontoAnal" hidden style="display:none"></b><b class="ponto" id="pontoProx" hidden style="display:none"></b><b class="ponto" id="pontoConf" hidden style="display:none"></b><a href="#flavio" data-aba="flavio"><span class="fb-ico">🇧🇷</span>Flávio Bolsonaro<b class="ponto" id="pontoFlavio" hidden title="novidade no caso Flávio">!</b><small>× Alexandre de Moraes</small></a><a href="#adpf" data-aba="adpf"><img src="icons/balanca-192.png" alt="" class="adpf-ico">ADPF 1362<b class="ponto" id="pontoAdpf" hidden title="novidade na ADPF">!</b><small>PSD no STF</small></a><a href="#ruas" data-aba="ruas">Douglas Ruas<b class="ponto" id="pontoRuas" hidden title="novidade no caso Ruas">!</b><small><i class="ass-d">Assunto:</i> Ministério Público</small></a><a href="#prefeitura" data-aba="prefeitura">Prefeitura do Rio<b class="ponto" id="pontoPrefeitura" hidden title="novidade na Prefeitura do Rio">!</b><small>quem entrou e quem saiu</small></a>
+  <b class="ponto" id="pontoPesq" hidden style="display:none"></b><b class="ponto" id="pontoAnal" hidden style="display:none"></b><b class="ponto" id="pontoProx" hidden style="display:none"></b><b class="ponto" id="pontoConf" hidden style="display:none"></b><a href="#flavio" data-aba="flavio" class="nc n1"><span class="nav-ico" aria-hidden="true">🇧🇷</span><span class="nav-lab">Flávio Bolsonaro</span><b class="ponto" id="pontoFlavio" hidden title="novidade no caso Flávio">!</b><small>× Alexandre de Moraes</small></a><a href="#adpf" data-aba="adpf" class="nc n2"><span class="nav-ico" aria-hidden="true">⚖️</span><img src="icons/balanca-192.png" alt="" class="adpf-ico"><span class="nav-lab">ADPF 1362</span><b class="ponto" id="pontoAdpf" hidden title="novidade na ADPF">!</b><small>PSD no STF</small></a><a href="#ruas" data-aba="ruas" class="nc n3"><span class="nav-ico" aria-hidden="true">⚖️</span><span class="nav-lab">Douglas Ruas</span><b class="ponto" id="pontoRuas" hidden title="novidade no caso Ruas">!</b><small><i class="ass-d">Assunto:</i> Ministério Público</small></a><a href="#prefeitura" data-aba="prefeitura" class="nc n4"><span class="nav-ico" aria-hidden="true">🏛️</span><span class="nav-lab">Prefeitura do Rio</span><b class="ponto" id="pontoPrefeitura" hidden title="novidade na Prefeitura do Rio">!</b><small>quem entrou e quem saiu</small></a>
 </nav>
 <div class="inst" id="inst" hidden>
   <button class="inst-btn" id="btnInst">📲 Instalar app <small>ícone na tela do celular</small></button>
@@ -222,7 +238,7 @@
 <script src="flavio.js?v=10"></script>
 <script src="ruas.js?v=6"></script>
 <script src="prefeitura.js?v=1"></script>
-<script src="inv.js?v=3"></script>
+<script src="inv.js?v=4"></script>
 <div id="telaSair" hidden style="display:none"><img src="icons/olho-logo.png?v=4" width="72" height="72" alt="" style="border-radius:16px"><h2>App encerrado</h2><p><b>iPhone:</b> deslize de baixo para cima e arraste o Vigia para cima para fechar.<br><b>Android:</b> toque no botão de apps recentes e deslize o Vigia para fechar.</p><small>Toque na tela para voltar</small></div>
 <script>(function(){var b=document.getElementById('btnSair'),t=document.getElementById('telaSair');b.onclick=function(){try{window.close()}catch(e){}if(/Android/i.test(navigator.userAgent)){try{var n=history.length;if(n>1)history.go(-(n-1));setTimeout(function(){history.back()},150)}catch(e){}}setTimeout(function(){if(!window.closed){t.hidden=false;t.style.display='flex'}},300)};t.onclick=function(){t.hidden=true;t.style.display='none'}})();</script>
 </body>
