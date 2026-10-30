@@ -65,7 +65,7 @@ body.pc .pc-dir .rc-vv .rv b{font-size:18px}
 body.pc .pc-dir .rc-vot .rv{font-size:13px!important}
 body.pc .pc-dir .rc-vot .rv b{font-size:14px}
 body.pc .pc-dir .rc-pu span{font-size:14px}
-body.pc .relogio{font-size:13px}body.pc .relogio b{font-size:17px}body.pc .versao-app{margin-bottom:2px}
+body.pc .relogio{font-size:17px;padding:5px 14px;border-radius:12px}body.pc .relogio b{font-size:24px}body.pc .relogio small{font-size:13px}body.pc .versao-app{margin-bottom:2px}
 /* 1.7.26: botão Instalar no computador */
 body.pc .versao-app{position:relative}
 body.pc .pc-inst{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:30;cursor:pointer;font:800 14px Inter,sans-serif;color:#fff;padding:5px 18px;border-radius:12px;border:0;border-bottom:4px solid #0f5c25;background:linear-gradient(180deg,#3ccf6a,#1b8f3a);box-shadow:0 4px 10px rgba(17,99,42,.35),inset 0 2px 0 rgba(255,255,255,.45);text-shadow:0 1px 0 rgba(0,0,0,.25);white-space:nowrap}
@@ -120,3 +120,6 @@ body.pc .pc-dir .rc-n{font-size:22px!important}
 
 /* 26/10: menu numa linha só (3 abas) */
 body.pc nav.nav{grid-template-columns:repeat(3,1fr)!important}
+
+/* relógio + Sair maiores (pedido Fabio 29/10) */
+body.pc .vg-sair{padding:12px 22px;font-size:20px;border-radius:14px;box-shadow:0 5px 0 #7a0000,0 8px 12px rgba(0,0,0,.35)}

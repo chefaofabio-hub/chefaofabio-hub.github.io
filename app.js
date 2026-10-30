@@ -882,23 +882,50 @@ async function enviarInscricao(sub, rota = "subscribe") {
   if (!r.ok) throw new Error("coletor " + r.status);
   if (rota === "subscribe") localStorage.setItem("alertaEnviado", Date.now() + " " + sub.endpoint);
 }
-function msgAlerta(t) { const m = $("alertaMsg"); m.innerHTML = t || ""; m.hidden = !t; }
+function rotuloAlerta(quer, ativo) {
+  return quer && !ativo ? "🔔 Reativar alertas " : "🔔 Ativar alertas ";
+}
+function msgAlerta(t) {
+  for (const id of ["alertaMsg", "alertaMsgTopo"]) {
+    const m = $(id); if (!m) continue;
+    m.innerHTML = t || ""; m.hidden = !t;
+  }
+}
 function estadoAlerta() {
-  const box = $("alertaBox"), btn = $("btnAlerta");
+  const box = $("alertaBox"), btn = $("btnAlerta"), btnT = $("btnAlertaTopo");
   const quer = localStorage.getItem("alertaAtivo") === "1" && PUSH_OK && Notification.permission === "granted";
   const ativo = quer && !!localStorage.getItem("alertaEnviado");   // 1.7.25: só "ativado" com confirmação do servidor
-  btn.firstChild.textContent = quer && !ativo ? "🔔 Reativar alertas " : "🔔 Ativar alertas de nova pesquisa ";
-  box.hidden = false;
+  const rotulo = rotuloAlerta(quer, ativo);
+  if (btn && btn.firstChild) btn.firstChild.textContent = rotulo;
+  if (btnT && btnT.firstChild) btnT.firstChild.textContent = rotulo;
+  if (box) box.hidden = false;
+  const okHtml = `✅ Alertas ativados: você será avisado quando tiver novidade <button type="button" id="alertaDesl">desativar</button>`;
   if (ativo) {
-    btn.hidden = true;
+    if (btn) btn.hidden = true;
     let ok = $("alertaOk");
-    if (!ok) { ok = document.createElement("div"); ok.id = "alertaOk"; ok.className = "alerta-ok"; box.prepend(ok); }
-    ok.hidden = false;
-    ok.innerHTML = `✅ Alertas ativados: você será avisado quando sair pesquisa nova <button id="alertaDesl">desativar</button>`;
-    $("alertaDesl").onclick = desativarAlertas;
-  } else { btn.hidden = false; if ($("alertaOk")) $("alertaOk").hidden = true; }
+    if (box) {
+      if (!ok) { ok = document.createElement("div"); ok.id = "alertaOk"; ok.className = "alerta-ok"; box.prepend(ok); }
+      ok.hidden = false;
+      ok.innerHTML = okHtml;
+      $("alertaDesl").onclick = desativarAlertas;
+    }
+  } else {
+    if (btn) btn.hidden = false;
+    if ($("alertaOk")) $("alertaOk").hidden = true;
+  }
   const fechado = +localStorage.getItem("alertaFechado") || 0;
-  $("alertaTopo").hidden = !(PUSH_OK && instalado() && !ativo && Notification.permission !== "denied" && Date.now() - fechado > UM_DIA);
+  // Aba Pesquisas saiu do menu (26/10): o botão vive no topo, visível no Chrome/Android mesmo sem PWA.
+  // No iPhone sem instalar, PUSH_OK costuma ser falso e ativarAlertas já orienta a instalar.
+  const mostrarTopo = PUSH_OK && !ativo && Notification.permission !== "denied" && Date.now() - fechado > UM_DIA;
+  if ($("alertaTopo")) $("alertaTopo").hidden = !mostrarTopo;
+  const okT = $("alertaOkTopo");
+  if (okT) {
+    okT.hidden = !ativo;
+    if (ativo) {
+      okT.innerHTML = `✅ Alertas ativados <button type="button" id="alertaDeslTopo">desativar</button>`;
+      $("alertaDeslTopo").onclick = desativarAlertas;
+    }
+  }
 }
 async function ativarAlertas() {
   msgAlerta("");
@@ -911,13 +938,18 @@ async function ativarAlertas() {
     return;
   }
   if (Notification.permission === "denied") { msgAlerta("Os alertas estão <b>bloqueados</b> para este app. Libere em Ajustes/Configurações do celular → Notificações."); return; }
-  const btns = [$("btnAlerta"), $("btnAlertaTopo")]; btns.forEach(b => b.disabled = true);
+  const btns = [$("btnAlerta"), $("btnAlertaTopo")].filter(Boolean); btns.forEach(b => b.disabled = true);
   try {
     const perm = await Notification.requestPermission();
     if (perm !== "granted") { msgAlerta("Sem permissão, não dá para avisar. Se mudar de ideia, toque de novo e escolha <b>Permitir</b>."); return; }
     const reg = await navigator.serviceWorker.ready;
     localStorage.setItem("alertaAtivo", "1"); localStorage.removeItem("alertaEnviado");
-    try { await inscreverConfirmar(reg); } catch (e) { msgAlerta("Não consegui confirmar com o servidor agora. Toque em <b>Reativar alertas</b> em instantes."); }
+    try {
+      await inscreverConfirmar(reg);
+      msgAlerta("");
+    } catch (e) {
+      msgAlerta("Não consegui confirmar com o servidor agora. Toque em <b>Reativar alertas</b> em instantes.");
+    }
     estadoAlerta();
   } catch (e) {
     msgAlerta("Não consegui ativar agora. Tente de novo em instantes.");
@@ -927,6 +959,7 @@ async function desativarAlertas() {
   localStorage.removeItem("alertaAtivo"); localStorage.removeItem("alertaEnviado");
   try { const reg = await navigator.serviceWorker.ready; const sub = await reg.pushManager.getSubscription();
         if (sub) { const j = sub.toJSON(); await sub.unsubscribe(); enviarInscricao(j, "unsubscribe").catch(() => {}); } } catch (e) {}
+  msgAlerta("");
   estadoAlerta();
 }
 async function inscreverConfirmar(reg) {   // 1.7.25: envia ao servidor atual; se o servidor disser que a inscrição foi recusada, cria outra
@@ -950,12 +983,12 @@ async function conferirInscricao(sempre) {    // 1.7.25: ao abrir o app reenvia 
   catch (e) { localStorage.removeItem("alertaEnviado"); } finally { conferindo = false; estadoAlerta(); }
 }
 $("btnAlerta").addEventListener("click", ativarAlertas);
-$("btnAlertaTopo").addEventListener("click", () => { ativarAlertas().then(() => { if ($("alertaMsg").textContent) location.hash = "#pesquisas"; }); });
-$("alertaTopoX").addEventListener("click", () => { localStorage.setItem("alertaFechado", String(Date.now())); $("alertaTopo").hidden = true; });
+$("btnAlertaTopo").addEventListener("click", () => { ativarAlertas(); });  // feedback fica no topo (aba Pesquisas saiu do menu)
+$("alertaTopoX").addEventListener("click", () => { localStorage.setItem("alertaFechado", String(Date.now())); $("alertaTopo").hidden = true; msgAlerta(""); });
 navigator.serviceWorker?.addEventListener("message", e => {
   const d = e.data || {};
   if (d.tipo === "push") { window.__pushes = (window.__pushes || []).concat(d); checarNovas(); }
-  if (d.tipo === "abrir") { location.hash = "#pesquisas"; }
+  if (d.tipo === "abrir") { location.hash = "#flavio"; }
 });
 matchMedia("(display-mode: standalone)").addEventListener?.("change", estadoAlerta);
 

@@ -31,14 +31,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=97">
+<link rel="stylesheet" href="style.css?v=99">
 <link rel="stylesheet" href="adpf.css?v=5">
 <link rel="stylesheet" href="flavio.css?v=4">
 <link rel="stylesheet" href="ruas.css?v=1">
 <link rel="stylesheet" href="inv.css?v=6">
 <style id="nav3">/* v6: 3 botões de 1º nível lado a lado */nav.nav{grid-template-columns:repeat(3,1fr)!important;gap:6px!important}nav.nav a,nav.nav a:last-child:nth-child(odd){grid-column:auto!important;width:auto!important;justify-self:stretch!important;height:78px!important;min-height:78px!important;white-space:normal!important;font-size:clamp(11px,3.3vw,14px)!important;line-height:1.15;padding:6px 3px!important}nav.nav a small{white-space:normal!important;font-size:clamp(9px,2.6vw,11px)!important}nav.nav a .fb-ico{display:none}</style>
 <style id="vigiacab">.vg-cab{display:flex;align-items:center;justify-content:center;gap:10px;margin:8px 0 10px}.vg-cab img{width:44px;height:44px;border-radius:11px;box-shadow:0 4px 10px rgba(0,0,0,.35)}.vg-cab b{font:900 28px Inter,system-ui,sans-serif;letter-spacing:.5px;color:#0b2257;text-shadow:0 2px 0 #c98a00,0 4px 6px rgba(0,0,0,.25)}</style>
-<style id="sairbtn">.vg-cab{position:relative}.vg-sair{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:linear-gradient(#ff5a5a,#c00);color:#fff;border:0;border-radius:12px;padding:8px 14px;font:800 15px Inter,system-ui,sans-serif;box-shadow:0 4px 0 #7a0000,0 6px 10px rgba(0,0,0,.35);cursor:pointer}.vg-sair:active{transform:translateY(calc(-50% + 3px));box-shadow:0 1px 0 #7a0000}#telaSair{position:fixed;inset:0;z-index:99999;background:#0b0f1a;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;font-family:Inter,system-ui,sans-serif}#telaSair h2{font-size:30px;margin:14px 0}#telaSair p{color:#cbd5e1;font-size:16px;max-width:420px;line-height:1.45}#telaSair small{margin-top:28px;color:#94a3b8}</style>
+<style id="sairbtn">.vg-cab{position:relative}.vg-sair{position:absolute;right:6px;top:50%;transform:translateY(-50%);background:linear-gradient(#ff5a5a,#c00);color:#fff;border:0;border-radius:14px;padding:11px 18px;font:800 18px Inter,system-ui,sans-serif;box-shadow:0 4px 0 #7a0000,0 6px 10px rgba(0,0,0,.35);cursor:pointer}.vg-sair:active{transform:translateY(calc(-50% + 3px));box-shadow:0 1px 0 #7a0000}#telaSair{position:fixed;inset:0;z-index:99999;background:#0b0f1a;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;font-family:Inter,system-ui,sans-serif}#telaSair h2{font-size:30px;margin:14px 0}#telaSair p{color:#cbd5e1;font-size:16px;max-width:420px;line-height:1.45}#telaSair small{margin-top:28px;color:#94a3b8}</style>
 </head>
 <body>
 <div class="versao-app"><span class="relogio" id="relogio" title="Hora local · horário de Brasília">🕒 <b id="relogioH">--:--:--</b> <small>Brasília</small></span><span class="ver-txt">versão 1.7.26</span></div>
@@ -51,9 +51,11 @@
   <button class="inst-x" id="instX" aria-label="Agora não">×</button>
 </div>
 <div class="inst" id="alertaTopo" hidden>
-  <button class="inst-btn alerta-btn" id="btnAlertaTopo">🔔 Ativar alertas de nova pesquisa <small>aviso no celular quando sair pesquisa nova</small></button>
+  <button class="inst-btn alerta-btn" id="btnAlertaTopo">🔔 Ativar alertas <small>aviso no celular quando tiver novidade</small></button>
   <button class="inst-x" id="alertaTopoX" aria-label="Agora não">×</button>
 </div>
+<div class="alerta-ok" id="alertaOkTopo" hidden>✅ Alertas ativados <button type="button" id="alertaDeslTopo">desativar</button></div>
+<div class="alerta-msg" id="alertaMsgTopo" hidden></div>
 
 <!-- ABA APURAÇÃO -->
 <main class="quadro" id="aba-apuracao" hidden style="display:none" aria-hidden="true"><!-- removida do app a pedido do Fabio; mantida oculta só porque app.js usa os ids -->
@@ -117,7 +119,7 @@
   <div class="aviso-graf">👆 CLIQUE EM CIMA DA PESQUISA PARA VER O GRÁFICO DE EVOLUÇÃO</div>
   <div class="aviso2t">Somente pesquisas feitas após o 1º turno (entrevistas a partir de 05/10)</div>
   <div class="alerta" id="alertaBox" hidden>
-    <button class="alerta-btn" id="btnAlerta">🔔 Ativar alertas de nova pesquisa <small>aviso no celular quando sair pesquisa nova</small></button>
+    <button class="alerta-btn" id="btnAlerta">🔔 Ativar alertas <small>aviso no celular quando tiver novidade</small></button>
     <div class="alerta-msg" id="alertaMsg" hidden></div>
   </div>
   <div id="cartoes"></div>
@@ -201,7 +203,7 @@
   </div>
 </div>
 
-<script src="app.js?v=103"></script>
+<script src="app.js?v=104"></script>
 <script src="adpf.js?v=8"></script>
 <script src="flavio.js?v=8"></script>
 <script src="ruas.js?v=5"></script>
