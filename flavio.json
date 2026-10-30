@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-30 15:58",
- "atualizado_em": "30/10/2026 15:55",
+ "novidade_id": "2026-10-30 19:55",
+ "atualizado_em": "30/10/2026 19:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -24,6 +24,16 @@
   "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Sâmia Bomfim vai pedir perda por abandono (g1, Metrópoles, UOL, 29/10). Segundo a Folha (30/10), Alcolumbre pensou em recorrer ao STF contra o cancelamento do passaporte e procurou Gilmar, mas desistiu após a fuga; ambos negam a conversa. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027"
  },
  "itens": [
+  {
+   "data": "30/10/2026",
+   "fonte": "O Globo",
+   "novo": true,
+   "titulo": "Flávio planeja ir a Washington para tentar reunião com Rubio, dizem aliados",
+   "texto": "Segundo O Globo (30/10, 16h16), aliados dizem que Flávio planeja viajar nos próximos dias a Washington para buscar encontros com autoridades do governo Trump, principalmente o secretário de Estado Marco Rubio. Também cogita o Tesouro (Scott Bessent), parlamentares republicanos e uma ida ao Texas. Não há reunião marcada nem data confirmada.",
+   "texto_completo": "Reportagem de Luísa Marzullo, do O Globo (30/10, 16h16), relata que, depois de receber autorização do governo Trump para ficar nos Estados Unidos por ao menos um ano, Flávio Bolsonaro planeja viajar nos próximos dias a Washington para buscar encontros com autoridades americanas. Segundo aliados, o principal objetivo é uma reunião com o secretário de Estado, Marco Rubio, que participou das negociações para permitir sua entrada no país.\n\nUma audiência com o próprio Trump chegou a ser considerada, mas interlocutores do senador avaliam que seria difícil viabilizá-la neste momento. Além de Rubio, aliados mencionam possíveis encontros com representantes do Departamento do Tesouro, comandado por Scott Bessent, e com parlamentares republicanos. Flávio também avalia viajar ao Texas para se reunir com lideranças conservadoras.\n\nAinda não há confirmação de reuniões agendadas nem de datas para os deslocamentos. Segundo o jornal, a movimentação ocorre em meio à resistência da Casa Branca em endossar a contestação do resultado da eleição; Flávio tenta transformar o acolhimento em respaldo político para atuar como líder da oposição a partir dos EUA. Trump disse na quarta que aprovou a entrada, mas que não tomou partido na disputa brasileira.",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/30/flavio-planeja-encontro-com-autoridades-em-washington-apos-fuga-dizem-aliados.ghtml",
+   "rev": "r4"
+  },
   {
    "data": "30/10/2026",
    "fonte": "Reuters (via UOL); g1",
