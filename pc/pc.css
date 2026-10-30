@@ -119,7 +119,7 @@ body.pc .pc-dir .regc .rc-vot .rv.az span::before{font-size:17px}
 body.pc .pc-dir .rc-n{font-size:22px!important}
 
 /* 26/10: menu numa linha só (3 abas) */
-body.pc nav.nav{grid-template-columns:repeat(3,1fr)!important}
+body.pc nav.nav{grid-template-columns:repeat(4,1fr)!important}
 
 /* relógio + Sair maiores (pedido Fabio 29/10) */
 body.pc .vg-sair{padding:12px 22px;font-size:20px;border-radius:14px;box-shadow:0 5px 0 #7a0000,0 8px 12px rgba(0,0,0,.35)}

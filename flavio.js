@@ -53,7 +53,7 @@ function carregar(forcar){
   $('fbAtu').innerHTML='Atualizado em <b>'+e(D.atualizado_em)+'</b> (horário de Brasília)';
   if(window.novidadeAbaPronta)window.novidadeAbaPronta('flavio');
  }).catch(()=>{ult=0;$('fbAtu').textContent='Sem conexão. Tente de novo.'})}
-function abrir(){const h=location.hash.slice(1),on=h=='flavio'||!['adpf','ruas'].includes(h),m=$('aba-flavio');if(!m)return;
+function abrir(){const h=location.hash.slice(1),on=h=='flavio'||!['adpf','ruas','prefeitura'].includes(h),m=$('aba-flavio');if(!m)return;
  if(on){for(const x of document.querySelectorAll('main.aba'))x.hidden=x!==m;for(const a of document.querySelectorAll('#nav a'))a.classList.toggle('atual',a.dataset.aba==='flavio');const stale=!$('aba-flavio').querySelector('.adnovo')&&localStorage.getItem(NK)!== (DD&&DD.novidade_id);carregar(!!stale||!DD);if(window.novidadeAbaPronta)window.novidadeAbaPronta('flavio')}else m.hidden=true}
 window.addEventListener('hashchange',abrir);abrir();
 })();

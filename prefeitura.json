@@ -1,0 +1,58 @@
+{
+ "novidade_id": "2026-10-30 seed",
+ "atualizado_em": "30/10/2026 12:50",
+ "contra": "Diário Oficial do Município",
+ "assunto": "trocas no 1º escalão: secretários, subsecretários e cúpula de empresas/autarquias municipais (Câmara fica de fora)",
+ "resumo": "Lista única de quem entrou e quem saiu. Cada card é uma troca publicada no Diário Oficial do Município do Rio.",
+ "status": {
+  "Fonte": "D.O. Rio (doweb.rio.rj.gov.br)",
+  "Escopo": "Secretário, Subsecretário e cúpula de empresa/autarquia",
+  "Fora": "Câmara Municipal e cargos abaixo do 1º escalão",
+  "Período varrido": "16/09 a 29/10/2026 (edições principais do portal)"
+ },
+ "status_novos": [],
+ "itens": [
+  {
+   "data": "22/10/2026",
+   "novo": false,
+   "tipo": "recondução",
+   "pessoa_entrou": "Rodrigo Gonçalves da Silva",
+   "pessoa_saiu": "Rodrigo Gonçalves da Silva",
+   "cargo": "Subsecretário (DAS-10.A, cód. 084310)",
+   "orgao": "Subsecretaria de Proteção e Defesa Civil · Secretaria Municipal de Saúde",
+   "titulo": "Entrou Rodrigo Gonçalves da Silva no lugar de Rodrigo Gonçalves da Silva (recondução)",
+   "texto": "Subsecretário de Proteção e Defesa Civil (SMS). Exoneração e nomeação no mesmo cargo, com validade a partir de 21/08/2026 — recondução formal no D.O.",
+   "fonte": "D.O. Rio nº 150 · 22/10/2026",
+   "url": "https://doweb.rio.rj.gov.br/portal/edicoes/download/14992",
+   "texto_completo": "No Diário Oficial do Município do Rio de 22/10/2026 (edição nº 150), o Secretário Municipal da Casa Civil publicou duas resoluções sobre o mesmo cargo:\n\n• Resolução “P” nº 318, de 21/10/2026 — Exonerar Rodrigo Gonçalves da Silva, matrícula 51/257.549-6, com validade a partir de 21/08/2026, do Cargo em Comissão de Subsecretário, símbolo DAS-10.A, código 084310, da Subsecretaria de Proteção e Defesa Civil, da Secretaria Municipal de Saúde.\n\n• Resolução “P” nº 319, de 21/10/2026 — Nomear Rodrigo Gonçalves da Silva, com validade a partir de 21/08/2026, para o mesmo cargo (Subsecretário DAS-10.A, código 084310, Subsecretaria de Proteção e Defesa Civil / SMS).\n\nTrata-se de recondução formal (sai e entra a mesma pessoa no mesmo posto). Não houve troca de titular."
+  },
+  {
+   "data": "16/10/2026",
+   "novo": false,
+   "tipo": "recondução",
+   "pessoa_entrou": "Paulo Sergio Alves Lopes",
+   "pessoa_saiu": "Paulo Sergio Alves Lopes",
+   "cargo": "Subsecretário (DAS-10.A, cód. 103764)",
+   "orgao": "Subsecretaria de Coordenação Governamental · Secretaria Municipal de Coordenação Governamental",
+   "titulo": "Entrou Paulo Sergio Alves Lopes no lugar de Paulo Sergio Alves Lopes (recondução)",
+   "texto": "Subsecretário de Coordenação Governamental. Saiu a pedido em 23/09 (D.O. 23/09) e foi nomeado de novo no mesmo código 103764, com validade a partir de 05/10/2026.",
+   "fonte": "D.O. Rio nº 146 · 16/10/2026",
+   "url": "https://doweb.rio.rj.gov.br/portal/edicoes/download/14988",
+   "texto_completo": "Linha do tempo no Diário Oficial do Município:\n\n1) D.O. Rio nº 130, de 23/09/2026 — Resolução “P” nº 298, de 22/09/2026 (Casa Civil): Exonerar, a pedido, Paulo Sergio Alves Lopes, matrícula 60/241.256-7, com validade a partir de 23/09/2026, do Cargo em Comissão de Subsecretário, símbolo DAS-10.A, código 103764, da Subsecretaria de Coordenação Governamental, da Secretaria Municipal de Coordenação Governamental.\n\n2) D.O. Rio nº 146, de 16/10/2026 — Nomear Paulo Sergio Alves Lopes, com validade a partir de 05/10/2026, para o mesmo Cargo em Comissão de Subsecretário, símbolo DAS-10.A, código 103764, da Subsecretaria de Coordenação Governamental.\n\nNas edições intermediárias varridas não apareceu outro nome para o código 103764. Leitura: saída a pedido seguida de recondução da mesma pessoa."
+  },
+  {
+   "data": "14/10/2026",
+   "novo": false,
+   "tipo": "troca",
+   "pessoa_entrou": "Julius Goldfarb",
+   "pessoa_saiu": "Daniel Pereira de Oliveira",
+   "cargo": "Diretor de Administração e Finanças",
+   "orgao": "Agência de Fomento do Município do Rio de Janeiro S/A — INVEST.RIO",
+   "titulo": "Entrou Julius Goldfarb no lugar de Daniel Pereira de Oliveira",
+   "texto": "Diretor de Administração e Finanças da INVEST.RIO (empresa municipal). Efeitos a contar de 09/10/2026.",
+   "fonte": "D.O. Rio nº 144 · 14/10/2026",
+   "url": "https://doweb.rio.rj.gov.br/portal/edicoes/download/14985",
+   "texto_completo": "No Diário Oficial do Município do Rio de 14/10/2026 (edição nº 144), o Conselho de Administração da Agência de Fomento do Município do Rio de Janeiro S/A — INVEST.RIO publicou:\n\n• Portaria “P” nº 04, de 05/10/2026 — Exonerar Daniel Pereira de Oliveira, com efeitos a contar de 09/10/2026, do cargo de Diretor de Administração e Finanças da INVEST.RIO.\n\n• Portaria “P” nº 05, de 05/10/2026 — Nomear Julius Goldfarb, com validade a contar de 09/10/2026, para o cargo de Diretor de Administração e Finanças da INVEST.RIO.\n\nCruzamento: mesma data de efeito (09/10/2026), mesmo cargo e mesmo órgão — troca completa."
+  }
+ ]
+}
