@@ -135,3 +135,15 @@ body.pc nav.nav a .nav-lab{font-size:18px!important;margin-top:12px}
 body.pc nav.nav a small{font-size:13px!important}
 body.pc nav.nav a .ponto{top:12px!important;right:12px!important;min-width:24px;height:24px;line-height:24px;font-size:15px}
 body.inv.pc nav.nav a{height:auto!important;min-height:168px!important}
+
+
+/* ===== Relógio menor + menu 3D no PC (Fabio 30/10) ===== */
+body.pc .relogio{padding:4px 11px!important}
+body.pc .relogio b{font-size:17px!important;color:#fff!important}
+body.pc .relogio small{font-size:11px!important;color:#fff!important}
+body.pc nav.nav a.nc,body.pc nav.nav a.n1,body.pc nav.nav a.n2,body.pc nav.nav a.n3,body.pc nav.nav a.n4{
+  min-height:168px!important;border-bottom-width:7px!important;border-radius:22px!important
+}
+body.pc nav.nav a.nc:active,body.pc nav.nav a.n1:active,body.pc nav.nav a.n2:active,body.pc nav.nav a.n3:active,body.pc nav.nav a.n4:active{
+  transform:translateY(5px)!important;border-bottom-width:2px!important
+}

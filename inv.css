@@ -285,3 +285,107 @@ body.inv nav.nav a .ponto,body.inv .ponto:not([hidden]){
   top:10px!important;right:10px!important;background:#e00b2b!important;
   box-shadow:0 0 0 3px rgba(255,255,255,.55),0 4px 12px rgba(224,11,43,.5)!important;color:#fff!important
 }
+
+
+/* ===== Relógio menor + fonte branca · menu 3D (Fabio 30/10) ===== */
+body .relogio, body.inv .relogio, body.pc .relogio{
+  background:linear-gradient(180deg,#2a3550 0%,#0f1626 55%,#070b14 100%)!important;
+  border:1.5px solid #4a6cb3!important;border-bottom:3px solid #1c2c55!important;
+  border-radius:10px!important;
+  box-shadow:0 3px 0 #0a1230,0 5px 10px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.22)!important;
+  padding:3px 9px!important;font-size:12px!important;gap:3px;display:inline-flex;align-items:center
+}
+body .relogio b, body.inv .relogio b, body.pc .relogio b{
+  color:#ffffff!important;font-size:15px!important;font-weight:900!important;
+  text-shadow:0 1px 0 #000,0 0 6px rgba(255,255,255,.25)!important;letter-spacing:.02em
+}
+body .relogio small, body.inv .relogio small, body.pc .relogio small{
+  color:#ffffff!important;font-size:10px!important;font-weight:800!important;text-shadow:0 1px 0 #000!important;opacity:.95
+}
+body.pc .relogio{padding:4px 11px!important;border-radius:11px!important}
+body.pc .relogio b{font-size:17px!important}
+body.pc .relogio small{font-size:11px!important}
+
+/* Sair 3D reforçado */
+body .vg-sair, body.inv .vg-sair, body.pc .vg-sair, body.inv.pc .vg-sair{
+  background:linear-gradient(180deg,#ff7a7a 0%,#e01b1b 42%,#a80000 100%)!important;
+  color:#fff!important;
+  border:2px solid #ffb0b0!important;border-bottom:5px solid #6e0000!important;
+  border-radius:14px!important;
+  box-shadow:0 5px 0 #5a0000,0 8px 14px rgba(0,0,0,.4),inset 0 2px 0 rgba(255,255,255,.45),inset 0 -2px 4px rgba(0,0,0,.25)!important;
+  font:900 16px Inter,system-ui,sans-serif!important;padding:9px 15px!important;
+  text-shadow:0 1px 0 #6e0000,0 2px 3px rgba(0,0,0,.35)!important;
+  transition:transform .08s,box-shadow .08s,border-bottom-width .08s!important
+}
+body.pc .vg-sair{font-size:18px!important;padding:10px 18px!important;border-bottom-width:6px!important;box-shadow:0 6px 0 #5a0000,0 10px 16px rgba(0,0,0,.4),inset 0 2px 0 rgba(255,255,255,.45)!important}
+body .vg-sair:active, body.inv .vg-sair:active, body.pc .vg-sair:active{
+  transform:translateY(calc(-50% + 4px))!important;
+  border-bottom-width:2px!important;
+  box-shadow:0 1px 0 #5a0000,0 2px 4px rgba(0,0,0,.35),inset 0 3px 6px rgba(0,0,0,.35)!important
+}
+body.pc .vg-sair:active{transform:translateY(calc(-50% + 5px))!important}
+
+/* Cards do menu em 3D (Proposta A) */
+nav.nav a.nc, body.inv nav.nav a.nc, body.pc nav.nav a.nc,
+nav.nav a.n1, nav.nav a.n2, nav.nav a.n3, nav.nav a.n4{
+  overflow:visible!important;
+  border:1.5px solid rgba(255,255,255,.45)!important;
+  border-bottom-width:6px!important;
+  transition:transform .08s,box-shadow .08s,border-bottom-width .08s,filter .08s!important
+}
+body.inv nav.nav a.n1, nav.nav a.n1{
+  background:linear-gradient(180deg,#5b8ff0 0%,#2f6fe0 28%,#1a4fb0 62%,#0d357a 100%)!important;
+  border-color:#9bbcff!important;border-bottom-color:#062045!important;
+  box-shadow:0 6px 0 #062045,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.4),inset 0 -3px 6px rgba(0,0,0,.25)!important
+}
+body.inv nav.nav a.n2, nav.nav a.n2{
+  background:linear-gradient(180deg,#8a9dff 0%,#5b7cfa 28%,#3d4fc4 62%,#2a338f 100%)!important;
+  border-color:#b6c0ff!important;border-bottom-color:#151a55!important;
+  box-shadow:0 6px 0 #151a55,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.4),inset 0 -3px 6px rgba(0,0,0,.25)!important
+}
+body.inv nav.nav a.n3, nav.nav a.n3{
+  background:linear-gradient(180deg,#2ad4d9 0%,#00a3a8 28%,#0d7a8a 62%,#0a5566 100%)!important;
+  border-color:#7eecf0!important;border-bottom-color:#053640!important;
+  box-shadow:0 6px 0 #053640,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.4),inset 0 -3px 6px rgba(0,0,0,.25)!important
+}
+body.inv nav.nav a.n4, nav.nav a.n4{
+  background:linear-gradient(180deg,#ffc14d 0%,#f0a020 28%,#d97706 62%,#b45309 100%)!important;
+  border-color:#ffd98a!important;border-bottom-color:#7a3505!important;
+  box-shadow:0 6px 0 #7a3505,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.45),inset 0 -3px 6px rgba(0,0,0,.22)!important
+}
+body.inv nav.nav a.nc:active, nav.nav a.nc:active,
+body.inv nav.nav a.n1:active, body.inv nav.nav a.n2:active, body.inv nav.nav a.n3:active, body.inv nav.nav a.n4:active,
+nav.nav a.n1:active, nav.nav a.n2:active, nav.nav a.n3:active, nav.nav a.n4:active{
+  transform:translateY(4px)!important;
+  border-bottom-width:2px!important;
+  box-shadow:0 1px 0 rgba(0,0,0,.35),0 2px 6px rgba(0,0,0,.3),inset 0 3px 8px rgba(0,0,0,.35)!important;
+  filter:brightness(.96)
+}
+body.inv nav.nav a.atual, nav.nav a.atual.nc{
+  filter:brightness(1.05);
+}
+body.inv nav.nav a.atual.n1{box-shadow:0 6px 0 #062045,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.4),0 0 0 2px rgba(31,79,168,.35)!important}
+body.inv nav.nav a.atual.n2{box-shadow:0 6px 0 #151a55,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.4),0 0 0 2px rgba(91,124,250,.4)!important}
+body.inv nav.nav a.atual.n3{box-shadow:0 6px 0 #053640,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.4),0 0 0 2px rgba(0,163,168,.35)!important}
+body.inv nav.nav a.atual.n4{box-shadow:0 6px 0 #7a3505,0 10px 18px rgba(13,27,58,.35),inset 0 2px 0 rgba(255,255,255,.45),0 0 0 2px rgba(217,119,6,.35)!important}
+
+/* Ícones 3D nos cards */
+nav.nav a .nav-ico, body.inv nav.nav a .nav-ico{
+  font-size:32px!important;line-height:1;margin-bottom:auto;position:relative;z-index:1;
+  filter:drop-shadow(0 2px 0 rgba(0,0,0,.35)) drop-shadow(0 4px 6px rgba(0,0,0,.35)) drop-shadow(0 -1px 0 rgba(255,255,255,.35));
+  transform:translateZ(0);text-shadow:0 3px 0 rgba(0,0,0,.25)
+}
+body.pc nav.nav a .nav-ico{font-size:38px!important;filter:drop-shadow(0 3px 0 rgba(0,0,0,.35)) drop-shadow(0 6px 8px rgba(0,0,0,.35)) drop-shadow(0 -1px 0 rgba(255,255,255,.4))}
+
+/* ! vermelho 3D */
+nav.nav a .ponto, body.inv nav.nav a .ponto, body .ponto:not([hidden]), body.inv .ponto:not([hidden]){
+  top:8px!important;right:8px!important;
+  min-width:24px!important;height:24px!important;line-height:22px!important;font-size:15px!important;
+  border-radius:12px!important;
+  background:linear-gradient(180deg,#ff5a5a 0%,#e00b2b 45%,#a00818 100%)!important;
+  color:#fff!important;
+  border:1.5px solid #ffb4b4!important;border-bottom:3px solid #6e0000!important;
+  box-shadow:0 3px 0 #6e0000,0 5px 10px rgba(224,11,43,.55),inset 0 1px 0 rgba(255,255,255,.5)!important;
+  text-shadow:0 1px 0 #6e0000!important;z-index:3
+}
+body.pc nav.nav a .ponto{min-width:26px!important;height:26px!important;line-height:24px!important;font-size:16px!important;top:10px!important;right:10px!important;border-bottom-width:4px!important;box-shadow:0 4px 0 #6e0000,0 6px 12px rgba(224,11,43,.55),inset 0 1px 0 rgba(255,255,255,.5)!important}
