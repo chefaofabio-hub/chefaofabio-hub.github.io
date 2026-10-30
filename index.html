@@ -224,6 +224,6 @@
 <script src="prefeitura.js?v=1"></script>
 <script src="inv.js?v=3"></script>
 <div id="telaSair" hidden style="display:none"><img src="icons/olho-logo.png?v=4" width="72" height="72" alt="" style="border-radius:16px"><h2>App encerrado</h2><p><b>iPhone:</b> deslize de baixo para cima e arraste o Vigia para cima para fechar.<br><b>Android:</b> toque no botão de apps recentes e deslize o Vigia para fechar.</p><small>Toque na tela para voltar</small></div>
-<script>(function(){var b=document.getElementById('btnSair'),t=document.getElementById('telaSair');b.onclick=function(){try{window.close()}catch(e){}setTimeout(function(){if(!window.closed){t.hidden=false;t.style.display='flex'}},300)};t.onclick=function(){t.hidden=true;t.style.display='none'}})();</script>
+<script>(function(){var b=document.getElementById('btnSair'),t=document.getElementById('telaSair');b.onclick=function(){try{window.close()}catch(e){}if(/Android/i.test(navigator.userAgent)){try{var n=history.length;if(n>1)history.go(-(n-1));setTimeout(function(){history.back()},150)}catch(e){}}setTimeout(function(){if(!window.closed){t.hidden=false;t.style.display='flex'}},300)};t.onclick=function(){t.hidden=true;t.style.display='none'}})();</script>
 </body>
 </html>
