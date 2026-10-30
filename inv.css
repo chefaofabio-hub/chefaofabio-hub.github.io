@@ -100,3 +100,4 @@ body.inv:not(.pc) .adpf-topo .adpf-ext{font-size:17px!important;font-weight:600!
 
 /* destaque ao chegar na novidade pelo ! da aba */
 body.inv .nov-flash{outline:3px solid #ff4d63!important;outline-offset:3px;box-shadow:0 0 0 6px rgba(200,16,46,.45),0 0 28px rgba(200,16,46,.6)!important;background:#2a1218!important}
+body.inv .vg-sair{font:700 17px 'IBM Plex Mono',monospace!important;padding:12px 18px!important;top:16px}

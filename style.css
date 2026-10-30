@@ -593,3 +593,6 @@ nav.nav .adpf-ico{display:none!important}
 .relogio{display:inline-flex;align-items:baseline;gap:5px;padding:4px 12px;border-radius:11px;border:1.5px solid #163a7e;border-bottom-width:3px;background:linear-gradient(180deg,#ffffff 0%,#e7eefb 100%);box-shadow:0 2px 4px rgba(13,27,58,.18);color:#0d1b3a;font-size:15px;line-height:1.25;letter-spacing:0}
 .relogio b{font-size:20px;font-weight:900;color:#1f4fa8;font-variant-numeric:tabular-nums;letter-spacing:.3px}
 .relogio small{font-size:12px;font-weight:700;color:#5f697d}
+/* relógio + Sair maiores (Fabio 29/10) */
+.relogio{font-size:18px;padding:6px 15px;border-radius:13px}.relogio b{font-size:26px}.relogio small{font-size:14px}
+.vg-sair{padding:13px 22px!important;font-size:21px!important;border-radius:15px!important}
