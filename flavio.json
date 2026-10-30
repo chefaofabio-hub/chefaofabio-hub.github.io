@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-30 07:53",
- "atualizado_em": "30/10/2026 07:53",
+ "novidade_id": "2026-10-30 09:55",
+ "atualizado_em": "30/10/2026 09:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -13,7 +13,7 @@
   "Suposta fuga": "Confirmada: entrou na Argentina por Puerto Iguazú (27/10, 22h50), voou via Guayaquil e pousou em Miami (Opa-locka) às 10h24 de 28/10 com a família (Folha, O Globo, G1)",
   "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema",
   "Pedido de prisão": "Só pedidos de deputados do PT. Em nota de 28/10 (~14h25), a PF disse que a decisão de Moraes não autorizava prisão nem vigilância permanente e que Flávio não é foragido só por restrição de documentos; investiga o descumprimento. Moraes não decretou prisão. Segundo o UOL (30/10), ministros do STF avaliam não pedir prisão nem novas cautelares agora.",
-  "Visto dos EUA": "Admitido pelo CBP como \"DT\" (parole) até 27/10/2027, por ordem de Trump. Segundo o NYT (29/10), o jato foi arranjado por Jason Miller, da Casa Branca, e Flávio e a família devem receber green card (residência permanente).",
+  "Visto dos EUA": "Admitido pelo CBP como \"DT\" (parole) até 27/10/2027, por ordem de Trump. Segundo o NYT (29/10), o jato foi arranjado por Jason Miller, da Casa Branca, e Flávio e a família devem receber green card (residência permanente). Segundo a Reuters (30/10), Rubio recomendou a entrada e Trump aprovou; o governo Trump não pretende apoiar Flávio como líder legítimo do Brasil (fontes anônimas).",
   "Busca e apreensão": "Não houve. PF pediu buscas em 27/10 com parecer favorável da PGR, mas Moraes não decidiu e a operação foi desmobilizada (UOL); STF diz que não houve decisão Para colegas de STF ouvidos pelo UOL (30/10), não decidir foi uma mudança de postura de Moraes.",
   "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (Santiago Caputo em Puerto Iguazú) e do irmão Eduardo, que teria ajudado a despistar a rota (O Globo, JN, 28/10). PF também apura se jato PR-AAA de Willer Tomaz levou Flávio de Brasília a San Fernando (Buenos Aires) em 27/10 (O Globo/g1). Segundo o dono da Baires Fly, Luis Grande, à AFP (29/10, ~20h58), o voo Argentina–EUA foi contratado e pago por um intermediário (broker) do setor aeronáutico residente nos EUA, com transferência de US$ 150 mil (~R$ 800 mil) de conta em banco americano; Grande não revelou o nome. O NYT apontou Jason Miller (Casa Branca); a Casa Branca não se pronunciou.",
   "Declaração escrita": "Carta à Nação (28/10, tarde): 1ª versão se dizia \"presidente eleito\"; 3ª versão (~17h41) troca por \"líder do Brasil\". Publicada no X (@FlavioBolsonaro).",
@@ -26,8 +26,16 @@
  "itens": [
   {
    "data": "30/10/2026",
-   "fonte": "O Globo; UOL",
+   "fonte": "Reuters (via CNN Brasil)",
    "novo": true,
+   "titulo": "Reuters: governo Trump não pretende apoiar Flávio como líder legítimo do Brasil",
+   "texto": "Segundo a Reuters (publicada pela CNN Brasil em 30/10, 8h35), uma autoridade americana e outra pessoa a par do assunto disseram que Trump não tem planos atuais de apoiar a alegação de Flávio de ser o líder legítimo do Brasil, embora o presidente possa mudar de ideia. Rubio recomendou a Trump liberar a entrada dele, e Trump aprovou. Fontes anônimas, sem nota oficial.",
+   "texto_completo": "Segundo a Reuters (Steve Holland e Gram Slattery), publicada pela CNN Brasil em 30/10 às 8h35, o governo Trump não pretende apoiar a alegação de Flávio Bolsonaro de ser o líder legítimo do Brasil, apesar de ter ajudado sua chegada aos EUA. A informação foi dada na quinta (29) por uma autoridade americana e outra pessoa a par do assunto, sob anonimato; elas disseram que Trump não tem planos atuais de apoiar as ambições políticas de Flávio, mas que pode mudar de ideia.\n\nUma terceira autoridade americana disse que o capital político de Flávio diminuiu com o autoexílio.\n\nAinda segundo a Reuters: durante a viagem, Flávio falou com várias autoridades americanas; Jason Miller ajudou a organizar o voo a partir da Argentina; o secretário de Estado Marco Rubio recomendou a Trump que a entrada fosse permitida, e Trump aprovou; o Departamento de Estado discutiu com o Departamento de Segurança Interna a via legal, e a família recebeu \"parole humanitária\" na fronteira.\n\nA Casa Branca encaminhou o pedido de comentário ao Departamento de Estado, que não respondeu. O governo brasileiro e um representante de Flávio também não responderam. Autoridades brasileiras ouvidas sob anonimato disseram que a saída de Flávio ajuda Lula ao enfraquecer a oposição no Congresso.\n\nTrump disse na segunda que a eleição pareceu \"manipulada\", mas que gosta de Lula e se dá bem com ele.",
+   "url": "https://www.cnnbrasil.com.br/internacional/reuters-trump-nao-apoia-flavio-bolsonaro-lider-brasil/"
+  },
+  {
+   "data": "30/10/2026",
+   "fonte": "O Globo; UOL",
    "titulo": "Recuo na carta tem versões conflitantes: alerta jurídico do PL, ChatGPT ou exigência do Departamento de Estado",
    "texto": "O Globo (30/10, 3h30) reúne três versões para a troca de \"presidente eleito\" por \"líder do Brasil\": alerta jurídico e pressão do PL; erro de inteligência artificial (Paulo Figueiredo diz que Eduardo pediu ao ChatGPT o brasão, que saiu o antigo de 1889); e, segundo o UOL, emissários do Departamento de Estado de Rubio exigiram a mudança. Nenhuma foi confirmada oficialmente.",
    "texto_completo": "Segundo O Globo (30/10, 3h30), há versões conflitantes para o recuo de Flávio Bolsonaro na carta divulgada dos EUA.\n\n1) Alerta jurídico e pressão do PL: integrantes da defesa e dirigentes do partido o procuraram depois da primeira versão, alertando para o risco de processo e de isolamento, e recomendaram que ele se apresentasse como liderança política no exterior, não como vencedor da eleição. Valdemar Costa Neto disse que \"ninguém concorda\" com a carta.\n\n2) Inteligência artificial: Paulo Figueiredo, aliado que divulgou a carta, disse que Eduardo Bolsonaro pediu ao ChatGPT para inserir o brasão do Brasil e a ferramenta escolheu o símbolo antigo (\"Estados Unidos do Brazil\", usado de 1889 a 1968), e que a IA também teria incluído uma versão anterior do texto com \"presidente eleito\". \"Nós achamos muito engraçado\", disse.\n\n3) Exigência americana: reportagem do UOL citada pelo Globo diz que emissários do Departamento de Estado, comandado por Marco Rubio, determinaram a retirada de \"presidente eleito\" e a entrada de \"líder do Brasil\", para não piorar a relação de Washington com Brasília. O governo americano não confirmou oficialmente.",
@@ -39,8 +47,7 @@
    "texto": "Segundo a coluna de Cézar Feitoza (UOL, 30/10), um ministro e dois auxiliares do STF avaliam que pedir a prisão preventiva de Flávio ou novas cautelares agora pode prejudicar o tribunal, e que ignorá-lo o enfraquece. Os inquéritos Dark Horse e Willer Tomaz seguem o curso normal. É apuração da coluna, sem decisão oficial.",
    "texto_completo": "A coluna de Cézar Feitoza, no UOL (30/10, 5h30), relata que ministros do Supremo discutem como reagir à fuga de Flávio Bolsonaro para os EUA e à carta em que ele se disse \"verdadeiro presidente eleito\". Um ministro e dois auxiliares ouvidos pela coluna acham que pedir a prisão preventiva do senador ou avançar com outras medidas cautelares neste momento pode ser ruim para o STF, que vê a eleição para a Presidência do Senado, em fevereiro de 2027, como a próxima disputa importante. Segundo o texto, essa leitura é compartilhada por ministros próximos de Alexandre de Moraes: ignorar Flávio seria uma forma de enfraquecê-lo enquanto até aliados se afastam dele.\n\nAs investigações do caso Dark Horse e da suspeita de lavagem de dinheiro com o advogado Willer Tomaz continuariam no ritmo normal. A coluna lembra que a PF pediu buscas em endereços ligados a Flávio depois do descumprimento da ordem dos passaportes, com aval da PGR, e chegou a deixar uma equipe de prontidão, mas Moraes não decidiu. Colegas do Supremo leram essa omissão como uma mudança de postura do ministro, que no domingo (25) tinha mandado apreender os passaportes horas depois da derrota de Flávio. O texto observa que a estratégia contrasta com o histórico combativo de Moraes.\n\nA coluna diz ainda que um grupo de ministros, incluindo Moraes, avalia que Davi Alcolumbre ganhou força para se reeleger presidente do Senado e já acena à direita bolsonarista, inclusive com a possibilidade de propor indulto ou anistia a Jair Bolsonaro. No STF segue pendente o julgamento da Lei da Dosimetria, suspensa por Moraes desde 9 de maio; um ministro defende levá-la ao plenário ainda este ano. Tudo isso é apuração da coluna com fontes sob reserva; o STF não divulgou decisão nem nota sobre essa estratégia.",
    "fonte": "UOL (coluna Cézar Feitoza)",
-   "url": "https://noticias.uol.com.br/colunas/cezar-feitoza/2026/10/30/stf-avalia-ignorar-fuga-de-flavio-e-fazer-acenos-pro-alcolumbre.htm",
-   "novo": true
+   "url": "https://noticias.uol.com.br/colunas/cezar-feitoza/2026/10/30/stf-avalia-ignorar-fuga-de-flavio-e-fazer-acenos-pro-alcolumbre.htm"
   },
   {
    "data": "29/10/2026",
@@ -556,8 +563,7 @@
   }
  ],
  "status_novos": [
-  "Pedido de prisão",
-  "Busca e apreensão"
+  "Visto dos EUA"
  ],
  "contra": "× Alexandre de Moraes",
  "assunto": "passaporte retido e proibição de sair do país; inquéritos de lavagem via apostas (com Willer Tomaz) e financiamento do filme Dark Horse"
