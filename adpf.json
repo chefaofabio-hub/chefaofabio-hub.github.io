@@ -1,11 +1,11 @@
 {
- "novidade_id": "odia-canellas-20261030",
- "atualizado_em": "30/10/2026 22:15",
+ "novidade_id": "ancelmo-artistas-20261031",
+ "atualizado_em": "31/10/2026 09:25",
  "status": {
   "relator": "Min. Cristiano Zanin",
   "liminar": "Sem decisão",
   "numero_adpf": "ADPF 1362",
-  "situacao": "Portal do STF confirma: TSE prestou informações (27/10) e ação está com vista à AGU; PGR ainda vai se manifestar. Liminar sem decisão até 30/10, 22h15."
+  "situacao": "Portal do STF confirma: TSE prestou informações (27/10) e ação está com vista à AGU; PGR ainda vai se manifestar. Liminar sem decisão até 31/10, 9h25."
  },
  "data_alvo": "2026-10-25T08:00:00-03:00",
  "processo": {
@@ -250,6 +250,15 @@
  "stf_incidente": 7724240,
  "stf_nota": "ADPF 1362",
  "segundo_turno": [
+  {
+   "data": "31/10/2026",
+   "titulo": "O Globo (Ancelmo Gois): artistas do Rio lançam movimento para cobrar 2º turno para governador",
+   "texto": "A coluna de Ancelmo Gois informa que um grupo de artistas liderado por Eduardo Barata, presidente da APTR, se reúne na terça (3/11) para lançar um movimento pela realização do 2º turno no Rio. É mobilização política; a liminar de Zanin na ADPF 1362 segue sem decisão.",
+   "texto_completo": "A coluna de Ancelmo Gois, no jornal O Globo, publicou na manhã de 31/10 que um grupo de artistas liderado por Eduardo Barata, presidente da Associação dos Produtores de Teatro do Rio (APTR), vai se reunir na terça-feira, 3 de novembro, para lançar um movimento pela realização de segundo turno na eleição para o governo do Rio de Janeiro.\n\nA nota lembra que o PSD, partido de Eduardo Paes, questiona no STF a decisão do TSE que anulou os votos de Anthony Garotinho (Republicanos) e permitiu a proclamação de Douglas Ruas (PL) como eleito no primeiro turno.\n\nTrata-se de mobilização da sociedade civil, não de decisão judicial. Na manhã de 31/10, o portal do STF continuava mostrando como último andamento da ADPF 1362 a vista à AGU, de 27/10, sem decisão sobre a liminar do ministro Cristiano Zanin.",
+   "fonte": "O Globo (coluna Ancelmo Gois)",
+   "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/10/artista-do-rio-preparam-movimento-para-cobrar-2o-turno-na-disputa-para-governador.ghtml",
+   "novo": true
+  },
   {
    "data": "30/10/2026",
    "titulo": "O Dia: advogado eleitoral vê chance de 2º turno entre Paes e Ruas; decisão está com o STF",
