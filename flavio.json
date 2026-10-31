@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-30 21:58",
- "atualizado_em": "30/10/2026 21:58",
+ "novidade_id": "2026-10-31 07:55",
+ "atualizado_em": "31/10/2026 07:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -19,11 +19,20 @@
   "Declaração escrita": "Carta à Nação (28/10, tarde): 1ª versão se dizia \"presidente eleito\"; 3ª versão (~17h41) troca por \"líder do Brasil\". Publicada no X (@FlavioBolsonaro).",
   "Afastar Moraes": "Defesa vai pedir a Fachin que tire Moraes do inquérito Willer (prevenção para Mendonça e suspeição); ainda não protocolado (CNN, 29/10)",
   "Passaporte italiano": "Usado no voo Argentina–EUA; PF diz que não há registro oficial da saída. Deputado italiano Angelo Bonelli pediu apuração da emissão (CBN, 29/10)",
-  "Coletiva em Miami": "A de 29/10 foi cancelada (declaração por escrito, segundo R7 e SBT News). O Globo (30/10) diz que há previsão de coletiva nos EUA na semana que vem, e a cúpula do PL teme novas falas de fraude. Ida a Washington/encontro com Trump é só boato",
+  "Coletiva em Miami": "A de 29/10 foi cancelada (declaração por escrito, segundo R7 e SBT News). O Globo (30/10) diz que há previsão de coletiva nos EUA na semana que vem, e a cúpula do PL teme novas falas de fraude. Ida a Washington/encontro com Trump é só boato. Em 30/10 à noite fez a primeira live (Instagram) dos EUA: lançou Marinho à presidência do Senado e disse que fará novas transmissões",
   "Argentina": "Oposição na Câmara argentina quer convocar Santilli, Monteoliva e Quirno e cobra Milei (g1, 28/10). A juíza federal María Eugenia Capuchetti ordenou a Migrações, ARCA, Polícia Aeroportuária e Gendarmería que preservem as imagens das câmeras (ponte Tancredo Neves, aeroporto de Puerto Iguazú etc.); medida prévia, a pedido da fiscal Paloma Ochoa, para decidir se abre investigação sobre ajuda irregular do governo Milei (Clarín, Estadão, CartaCapital, 29/10). Em 30/10 o Itamaraty convocou a encarregada de negócios argentina, María Emilia Cortés, para explicar a ajuda do governo Milei (Reuters, g1)",
   "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Sâmia Bomfim vai pedir perda por abandono (g1, Metrópoles, UOL, 29/10). Segundo a Folha (30/10), Alcolumbre pensou em recorrer ao STF contra o cancelamento do passaporte e procurou Gilmar, mas desistiu após a fuga; ambos negam a conversa. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027"
  },
  "itens": [
+  {
+   "data": "30/10/2026",
+   "fonte": "O Globo; CNN Brasil; Metrópoles; CBN",
+   "novo": true,
+   "titulo": "Em live dos EUA, Flávio diz que decidiu a fuga só com a mulher, lança Marinho à presidência do Senado e fala em disputar antes de 2030",
+   "texto": "Na primeira live desde que saiu do Brasil (Instagram, noite de 30/10), Flávio disse que decidiu fugir só com a mulher, Fernanda, e manteve sigilo; relatou um alerta do pai na visita de 26/10, mas não disse que Bolsonaro sabia do plano. Anunciou que vai indicar Rogério Marinho à presidência do Senado, chamou de \"nojentas\" as negociações de anistia ao pai e disse estar pronto para disputar a Presidência \"antes de 2030\". Voltou a questionar a eleição sem provas.",
+   "texto_completo": "Segundo O Globo (Luísa Marzullo, 30/10, 21h04), em transmissão ao vivo no Instagram, a primeira desde que deixou o país, Flávio Bolsonaro afirmou que decidiu sair do Brasil depois de conversar com a mulher, Fernanda, e que manteve o plano em sigilo para não ser frustrado. \"A decisão eu tomei junto com a minha esposa, sem que ninguém soubesse\", disse, pedindo que os apoiadores não culpem integrantes da campanha.\n\nEle relatou que, na visita ao pai em 26/10, quando foi intimado pela PF a entregar os passaportes, Jair Bolsonaro lhe disse: \"Já sabe onde é que eles querem chegar com isso, né?\". Flávio não afirmou que o pai soubesse do plano. Justificou a fuga dizendo que seria usado como \"moeda de troca\" e, sem provas, acusou o Judiciário de perseguição. \"Eu não saí do Brasil, eu saí pelo Brasil.\"\n\nSegundo CNN Brasil, Metrópoles e CBN, Flávio disse que o Congresso, em especial o Senado, será a \"trincheira\" da oposição e que vai indicar Rogério Marinho (PL-RN) à presidência da Casa, contra a reeleição de Davi Alcolumbre. Classificou de \"nojentas\" as negociações que usariam a liberdade do pai como moeda de troca. Disse ainda estar pronto para disputar a Presidência de novo \"antes de 2030\", associando isso a uma crise econômica que, a seu ver, abreviaria o mandato de Lula, sem explicar como. Voltou a questionar o resultado da eleição sem apresentar provas e disse que fará novas transmissões dos EUA.",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/10/30/flavio-diz-que-decidiu-deixar-o-brasil-apos-conversa-com-mulher-e-relata-alerta-de-bolsonaro-ja-sabe-onde-eles-querem-chegar.ghtml"
+  },
   {
    "data": "30/10/2026",
    "fonte": "CNN Brasil",
