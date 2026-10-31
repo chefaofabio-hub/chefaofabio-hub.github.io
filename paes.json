@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-10-30 20:20",
- "atualizado_em": "30/10/2026 20:20",
+ "novidade_id": "2026-10-31 14:00",
+ "atualizado_em": "31/10/2026 14:00",
  "contra": "× Justiça Eleitoral · MPRJ · STF",
  "assunto": "TSE (Nunes Marques) diz ao STF que 2º turno em 25/10 não era tecnicamente possível; 'Exército do Dudu' passa de 255 mil; Paes de férias no exterior",
  "resumo": "Ex-prefeito do Rio (PSD), renunciou em 2026 para concorrer ao governo. Ficou em 2º no 1º turno e reconheceu derrota após o TSE anular os votos de Garotinho. PSD mantém ADPF no STF; aliados mobilizam o 'Exército do Dudu'.",
@@ -15,6 +15,15 @@
   "Mobilização 'Exército do Dudu'"
  ],
  "itens": [
+  {
+   "data": "30/10/2026",
+   "novo": true,
+   "titulo": "O Dia (coluna Política Costa do Sol): segundo turno no Rio ainda pode sair do papel?",
+   "texto": "Advogado eleitoral Pedro Canellas disse à rádio RCFM que há fundamento constitucional para 2º turno Paes x Ruas em outra data; STF ainda não decidiu.",
+   "texto_completo": "A coluna Política Costa do Sol, do jornal O Dia (30/10/2026, 14h17), relatou que o advogado Pedro Canellas, especialista em Direito Eleitoral, afirmou em entrevista à rádio RCFM na quinta-feira (29) que existem fundamentos jurídicos para a realização de um segundo turno entre Eduardo Paes (PSD) e Douglas Ruas (PL).\n\nCanellas analisou a ADPF do PSD no STF contra a decisão do TSE que anulou os 274.411 votos de Anthony Garotinho. Para ele, a manifestação de Nunes Marques sobre a impossibilidade logística dizia respeito só à data de 25/10, com urnas já lacradas, e não seria impedimento definitivo para uma votação em outro momento, hipótese prevista no pedido alternativo do PSD. O caso segue sem decisão: o relator Cristiano Zanin pediu informações ao TSE e manifestações da AGU e da PGR. Douglas Ruas continua oficialmente reconhecido como governador eleito.",
+   "fonte": "O Dia",
+   "url": "https://odia.ig.com.br/colunas/politica-costa-do-sol/2026/10/7317799-segundo-turno-no-rio-de-janeiro-ainda-pode-sair-do-papel.html"
+  },
   {
    "data": "29/10/2026",
    "novo": true,
