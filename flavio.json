@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-11-01 09:55",
- "atualizado_em": "01/11/2026 09:55",
+ "novidade_id": "2026-11-01 13:55",
+ "atualizado_em": "01/11/2026 13:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -24,6 +24,15 @@
   "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Em 31/10, ação popular na 6ª Vara Federal do RJ pediu suspensão de salário e verbas (Agência Brasil/Poder360); Psol já havia oficiado o Senado em 27/10. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027."
  },
  "itens": [
+  {
+   "data": "01/11/2026",
+   "fonte": "O Globo (coluna Lauro Jardim)",
+   "novo": true,
+   "titulo": "Lauro Jardim: alerta da Argentina a um aliado de Lula adiou a fuga de Flávio em um dia",
+   "texto": "Segundo a coluna de Lauro Jardim no O Globo (01/11, 5h40), às 23h50 de segunda (26/10) um aliado próximo de Lula recebeu por WhatsApp um alerta da Argentina: um Gulfstream da Baires Fly ia decolar de Puerto Iguazú para Miami às 2h30 de terça, com Flávio, a mulher e as duas filhas no plano de voo. O aliado ligou para Lula e para o diretor da PF, Andrei Rodrigues, mas sem reação a tempo o contato argentino vazou a informação ao Infobae, o que frustrou a decolagem; Flávio só voou na noite seguinte.",
+   "texto_completo": "Reportagem de Lauro Jardim, em sua coluna no O Globo (01/11/2026, 5h40), afirma que pelo menos um aliado próximo de Lula foi informado no fim da noite de segunda-feira (26/10) de que Flávio Bolsonaro estava prestes a fugir do Brasil rumo aos EUA.\n\nÀs 23h50, esse aliado recebeu uma mensagem por WhatsApp de um interlocutor na Argentina, que tinha sido avisado por trabalhadores ligados a sindicatos peronistas: um avião Gulfstream da empresa Baires Fly estava programado para decolar do aeroporto de Puerto Iguazú às 2h30 da madrugada de terça (27/10) com destino a Miami. No plano de voo constavam quatro passageiros: Flávio, a mulher, Fernanda, e as filhas Luiza e Carolina.\n\nO aliado ligou imediatamente para Lula, para o diretor-geral da PF, Andrei Rodrigues, e para outras autoridades, mas, segundo a coluna, \"era tarde\". A saída encontrada pelo interlocutor argentino foi vazar a informação ao site Infobae, e com a notícia publicada o plano foi frustrado. Por isso Flávio só conseguiu decolar rumo aos EUA na noite seguinte (27 para 28/10).\n\nA coluna não identifica o aliado de Lula nem o interlocutor argentino. Não há confirmação oficial do governo ou da PF.",
+   "url": "https://oglobo.globo.com/blogs/lauro-jardim/post/2026/11/o-alerta-a-um-aliado-de-lula-que-adiou-a-fuga-de-flavio-bolsonaro-para-os-eua.ghtml"
+  },
   {
    "data": "01/11/2026",
    "fonte": "Clarín; TMC",
@@ -720,5 +729,5 @@
   "Argentina"
  ],
  "contra": "× Alexandre de Moraes",
- "assunto": "Clarín: Flávio entrou em pânico na fuga e Milei mandou Caputo e a SIDE ajudarem; Trump diz que ele pode ficar nos EUA"
+ "assunto": "Lauro Jardim: alerta da Argentina a aliado de Lula adiou a fuga de Flávio em um dia"
 }
