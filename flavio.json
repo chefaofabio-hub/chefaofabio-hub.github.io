@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-01 01:25",
-  "atualizado_em": "01/11/2026 01:25",
+  "novidade_id": "2026-11-01 07:55",
+  "atualizado_em": "01/11/2026 07:55",
   "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
   "status": {
     "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -24,6 +24,15 @@
     "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Em 31/10, ação popular na 6ª Vara Federal do RJ pediu suspensão de salário e verbas (Agência Brasil/Poder360); Psol já havia oficiado o Senado em 27/10. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027."
   },
   "itens": [
+    {
+      "data": "01/11/2026",
+      "fonte": "Folha de S.Paulo",
+      "novo": true,
+      "titulo": "UNE faz atos em nove estados neste domingo contra Flávio e em defesa da reeleição de Lula",
+      "texto": "Segundo a Folha (01/11, 4h), estudantes ligados à UNE se reúnem neste domingo (1º), de manhã e à tarde, em cidades de nove estados num ato chamado \"Brasil com S\" contra Flávio, em referência à carta em que ele se disse \"verdadeiro presidente eleito\". Em Salvador, o ato será na segunda (2).",
+      "texto_completo": "Segundo reportagem de Ana Gabriela Oliveira Lima na Folha (01/11/2026, 4h), estudantes organizados pela UNE (União Nacional dos Estudantes) fazem neste domingo (1º) atos contra o senador Flávio Bolsonaro (PL-RJ), que deixou o Brasil depois de perder a eleição e divulgou a carta em que se dizia o \"verdadeiro presidente eleito\". O ato também comemora a reeleição de Lula e defende a democracia e a soberania, segundo comunicado da entidade.\n\nAs manifestações acontecem de manhã e à tarde em Maceió (AL), Manaus (AM), Goiânia (GO), Cuiabá (MT), Belém (PA), Recife (PE), Rio de Janeiro (RJ), Porto Alegre (RS) e São Paulo (SP). Em Salvador (BA), a previsão é de ato na segunda-feira (2), a partir das 9h, no Morro do Cristo.\n\nO nome \"Brasil com S\" é uma referência à primeira versão da carta de Flávio (28/10), que trazia um brasão antigo com a inscrição \"Estados Unidos do Brazil\", com z; o brasão foi trocado depois, e o termo \"verdadeiro presidente eleito\" virou \"líder do Brasil\".",
+      "url": "https://www1.folha.uol.com.br/poder/2026/11/estudantes-fazem-ato-em-9-estados-contra-flavio-bolsonaro-e-de-apoio-a-reeleicao-de-lula.shtml"
+    },
     {
       "data": "31/10/2026",
       "fonte": "Folha de S.Paulo; g1; CNN Brasil; Estadão; UOL",
