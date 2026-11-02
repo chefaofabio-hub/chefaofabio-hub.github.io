@@ -1,11 +1,11 @@
 {
   "novidade_id": "2026-11-01 01:25",
-  "atualizado_em": "01/11/2026 01:25",
+  "atualizado_em": "02/11/2026 10:18",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
   "assunto": "Artistas marcam ato (3/11) pelo 2º turno; TSE (Nunes Marques) disse inviável 25/10; Exército do Dudu passa de 255 mil; Paes de férias",
   "resumo": "Ex-prefeito do Rio (PSD), renunciou em 2026 para concorrer ao governo. Ficou em 2º no 1º turno e reconheceu derrota após o TSE anular os votos de Garotinho. PSD mantém ADPF no STF; aliados mobilizam o 'Exército do Dudu'.",
   "status": {
-    "Inquérito STF (INQ 4.435)": "Aberto em 2017 (Odebrecht/doações 2014); Mendonça negou arquivamento em 12/03/2024 e prorrogou diligências",
+    "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
     "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
     "Disputa eleitoral RJ 2026": "ADPF do PSD no STF (relator Zanin); em 27/10 Nunes Marques (TSE) disse não ser tecnicamente possível 2º turno em 25/10; aguarda PGR/AGU",
     "Mobilização 'Exército do Dudu'": "Canal WhatsApp por 2º turno no STF; Folha citou 255 mil em 30/10; Brasil de Fato ~250 mil em 29/10"
@@ -52,15 +52,6 @@
       "texto_completo": "A Folha (28/10/2026, atualizada em 30/10) relatou que o PT e aliados de Eduardo Paes (PSD) tentam aproveitar a virada de Lula no Rio para manter mobilização e pressionar o STF por segundo turno estadual.\n\nO canal \"Exército do Dudu\" reunia 255 mil pessoas até 30/10. Paes está de férias no exterior desde 25/10 (após votar). Integrantes do PT-RJ avaliam que ele pode ser considerado para um ministério; o deputado Renan Ferreirinha (PSD) disse que o foco de Paes é a disputa pelo governo do Rio. Freixo e Cavaliere relativizaram o \"dono\" da virada e apontaram o papel das ruas e da aliança PSD–PT."
     },
     {
-      "data": "27/10/2026",
-      "novo": true,
-      "titulo": "UOL: Nunes Marques diz ao STF que não é 'tecnicamente possível' 2º turno no RJ",
-      "texto": "Presidente do TSE, em resposta a Zanin na ADPF do PSD: urnas do 25/10 já lacradas; nova carga e lacração incompatíveis com o prazo.",
-      "fonte": "UOL",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/10/27/nunes-marques-diz-ao-stf-nao-ser-tecnicamente-possivel-ter-2-turno-no-rj.ghtm",
-      "texto_completo": "O UOL (Luccas Lucena, 27/10/2026) informou que o presidente do TSE, Kassio Nunes Marques, afirmou ao STF que não é mais \"tecnicamente possível\" realizar segundo turno para governador do Rio em 25/10.\n\nA manifestação responde a solicitação do ministro Cristiano Zanin na ADPF do PSD contra a anulação dos votos de Anthony Garotinho pelo TSE. Nunes Marques citou que as urnas já estavam lacradas e que gerar novas mídias, fazer nova carga e nova lacração com auditoria seria incompatível com o prazo remanescente."
-    },
-    {
       "data": "28/10/2026",
       "novo": true,
       "titulo": "VEJA: 'Exército do Dudu' passa de 230 mil no WhatsApp",
@@ -68,6 +59,15 @@
       "fonte": "VEJA",
       "url": "https://veja.abril.com.br/politica/exercito-do-dudu-aliados-de-paes-tentam-mobilizacao-por-2o-turno-no-rio/",
       "texto_completo": "A revista VEJA publicou em 28/10/2026 que aliados de Eduardo Paes (PSD) criaram o canal \"Exército do Dudu\" no WhatsApp, inspirados na mobilização vista na campanha de Lula, com mais de 230 mil seguidores, para tentar pressionar o Supremo Tribunal Federal a determinar um segundo turno na eleição para governador do Rio de Janeiro.\n\nA reportagem (Ludmilla de Lima) descreve adesivos e a campanha digital pelo 2º turno após a anulação dos votos de Anthony Garotinho pelo TSE, que levou Douglas Ruas (PL) a ser tratado como eleito no 1º turno."
+    },
+    {
+      "data": "27/10/2026",
+      "novo": true,
+      "titulo": "UOL: Nunes Marques diz ao STF que não é 'tecnicamente possível' 2º turno no RJ",
+      "texto": "Presidente do TSE, em resposta a Zanin na ADPF do PSD: urnas do 25/10 já lacradas; nova carga e lacração incompatíveis com o prazo.",
+      "fonte": "UOL",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/10/27/nunes-marques-diz-ao-stf-nao-ser-tecnicamente-possivel-ter-2-turno-no-rj.ghtm",
+      "texto_completo": "O UOL (Luccas Lucena, 27/10/2026) informou que o presidente do TSE, Kassio Nunes Marques, afirmou ao STF que não é mais \"tecnicamente possível\" realizar segundo turno para governador do Rio em 25/10.\n\nA manifestação responde a solicitação do ministro Cristiano Zanin na ADPF do PSD contra a anulação dos votos de Anthony Garotinho pelo TSE. Nunes Marques citou que as urnas já estavam lacradas e que gerar novas mídias, fazer nova carga e nova lacração com auditoria seria incompatível com o prazo remanescente."
     },
     {
       "data": "26/10/2026",
@@ -113,6 +113,14 @@
       "fonte": "Ururau",
       "url": "https://www.ururau.com.br/noticias/politica/mprj-investiga-suspeita-de-servidores-fantasmas-na-gestao-eduardo-paes/82109/",
       "texto_completo": "O Ururau (Fabrício Freitas, 18/08/2026) informou que o MPRJ investiga a suspeita de que dois servidores comissionados da gestão Eduardo Paes não cumpram efetivamente as funções: Armed Nemr Sarieddine (ligado ao Costelão do CADEG; nomeado em fev/2023, ~R$ 17,2 mil) e Marcelo Novaes Franco de Souza (administrador do Cachambeer; nomeado em mar/2024, ~R$ 20 mil), ambos Assistente I com jornada informada de 40h.\n\nA Casa Civil chegou a dizer que havia \"frequência integral\", mas a procuradora Ana Cíntia Lazary Serour registrou ausência de documentos. Após recurso à representação do deputado Rodrigo Amorim, o Conselho Superior, por unanimidade, não homologou o indeferimento e mandou aprofundar. Em setembro de 2025 foi instaurado inquérito civil."
+    },
+    {
+      "data": "21/03/2025",
+      "titulo": "PlatôBR: STF arquiva inquérito contra Paes e Pedro Paulo (Odebrecht)",
+      "texto": "INQ 4.435 arquivado pelo relator André Mendonça, seguindo parecer da PGR. Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; provas da leniência foram anuladas. Fatos de 2010 e 2012 foram à Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
+      "fonte": "PlatôBR",
+      "url": "https://platobr.com.br/depois-de-oito-anos-inquerito-contra-paes-sobre-odebrecht-e-arquivado-no-stf",
+      "texto_completo": "O PlatôBR (21/03/2025) informou que o ministro André Mendonça arquivou o Inquérito 4.435 no STF, seguindo parecer da PGR, após cerca de oito anos. Os investigados eram Eduardo Paes e Pedro Paulo. No STF restava a suspeita de caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; pesaram a anulação das provas do acordo de leniência da Odebrecht e a demora. Em 2019 o STF havia enviado os fatos de 2010 e 2012 à Justiça Eleitoral do Rio, onde acabaram arquivados. Em 11/03/2024 Mendonça havia negado arquivamento e dado mais 60 dias à PF; a decisão final de arquivamento foi divulgada em 21/03/2025."
     },
     {
       "data": "12/03/2024",
