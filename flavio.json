@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-11-02 09:55",
- "atualizado_em": "02/11/2026 09:55",
+ "novidade_id": "2026-11-02 11:50",
+ "atualizado_em": "02/11/2026 11:50",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -24,6 +24,15 @@
   "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Em 31/10, ação popular na 6ª Vara Federal do RJ pediu suspensão de salário e verbas (Agência Brasil/Poder360); Psol já havia oficiado o Senado em 27/10. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027."
  },
  "itens": [
+  {
+   "data": "02/11/2026",
+   "fonte": "X (@FlavioBolsonaro)",
+   "novo": true,
+   "titulo": "Flávio no X: \"Fiz o que achava certo, necessário e com muita fé\" e \"sinto ainda não acabou\"",
+   "texto": "Às 9h44 desta segunda (02/11), Flávio citou um post do irmão Carlos Bolsonaro e escreveu: \"Fiz o que achava certo, necessário e com muita fé, que continua inabalável! Sinto ainda não acabou! Que Deus nos abençoe!\". No post citado (9h09), Carlos relata a reflexão de uma pessoa próxima: \"O que Flávio fez, ninguém faz. Políticos se aventuram em candidaturas a outros cargos, sempre preservando seus mandatos e as garantias que eles oferecem.\"",
+   "texto_completo": "Post de Flávio Bolsonaro no X em 02/11/2026, às 9h44 (horário de Brasília), citando post de Carlos Bolsonaro publicado às 9h09.\n\nTexto de Flávio: \"Fiz o que achava certo, necessário e com muita fé, que continua inabalável! Sinto ainda não acabou!\n\nQue Deus nos abençoe!\"\n\nTrecho do post de Carlos citado: \"Conversando com uma das pessoas mais especiais que conheço, ouvi dela uma reflexão que me marcou profundamente: 'O que Flávio fez, ninguém faz. Políticos se aventuram em candidaturas a outros cargos, sempre preservando seus mandatos e as garantias que eles oferecem. Flávio, ...'\" (o restante do texto de Carlos está no post original).",
+   "url": "https://x.com/FlavioBolsonaro/status/2117236503591936125"
+  },
   {
    "data": "02/11/2026",
    "fonte": "O Globo",
@@ -792,5 +801,5 @@
   "Argentina"
  ],
  "contra": "× Alexandre de Moraes",
- "assunto": "Flávio faz primeira aparição pública nos EUA em culto evangélico na Flórida"
+ "assunto": "Flávio no X: \"Fiz o que achava certo\" e \"sinto ainda não acabou\""
 }
