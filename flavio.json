@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-11-02 15:55",
- "atualizado_em": "02/11/2026 15:55",
+ "novidade_id": "2026-11-02 18:00",
+ "atualizado_em": "02/11/2026 18:00",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -24,6 +24,15 @@
   "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Em 31/10, ação popular na 6ª Vara Federal do RJ pediu suspensão de salário e verbas (Agência Brasil/Poder360); Psol já havia oficiado o Senado em 27/10. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027."
  },
  "itens": [
+  {
+   "data": "02/11/2026",
+   "fonte": "R7; g1 (TV Globo); NSC Total",
+   "novo": true,
+   "titulo": "Recurso de Flávio no STF: defesa diz que o Santander negou que ele fosse titular ou usuário das contas da Alcazar",
+   "texto": "Segundo o R7 (02/11, 15h27) e o g1 (16h20), a defesa de Flávio pediu a Moraes a revogação da decisão de 25/10 (entrega e cancelamento dos passaportes e proibição de contato com Willer Tomaz), além de mandar o caso para André Mendonça e declarar Moraes impedido ou suspeito. O argumento novo é que, em resposta enviada ao STF, o Santander teria informado que Flávio não era sócio, titular, cotitular nem usuário das contas da Alcazar Holding Unipessoal, Alcazar Holding Ltda. e Alcazar Global. Ainda não há decisão.",
+   "texto_completo": "Reportagem de Gabriela Coelho, do R7, em Brasília, publicada em 02/11/2026 às 15h27 (atualizada às 15h35), e do g1 (Luiz Felipe Barbiéri, TV Globo), às 16h20.\n\nA defesa do senador Flávio Bolsonaro (PL-RJ) apresentou recurso ao STF para derrubar as medidas impostas pelo ministro Alexandre de Moraes em 25/10 na investigação sobre o advogado Willer Tomaz: pede a revogação da ordem de entrega dos passaportes, do cancelamento dos passaportes brasileiros (inclusive o diplomático) e da proibição de contato com Willer. Os advogados também pedem que a investigação seja redistribuída ao ministro André Mendonça, relator da Operação Sem Desconto (fraudes no INSS), que segundo eles já apura a estrutura atribuída a Willer, e que Moraes seja declarado impedido ou, alternativamente, suspeito, por vínculos entre a empresa Fraction 024 (dona do jato usado pelo ministro), o escritório de sua mulher, Viviane Barci de Moraes, e o controlador do Banco Master. Esses pedidos já tinham sido noticiados pela CNN em 31/10.\n\nO ponto novo, segundo o R7, é que um dos principais argumentos da defesa é uma resposta do Banco Santander encaminhada ao STF: de acordo com os advogados, o banco informou que Flávio não era sócio, titular, cotitular ou usuário das contas das empresas Alcazar Holding Unipessoal, Alcazar Holding Ltda. e Alcazar Global (a PF afirmava que ele aparecia como \"usuário master\" de uma conta da Alcazar Holdings). A defesa diz ainda que os encontros e viagens com Willer decorrem de amizade pública e notória, que a própria PF reconheceu inicialmente não configurar crime, e que o risco de fuga foi baseado em atos de terceiros, como declarações de Eduardo Bolsonaro nos EUA e a conduta de Willer, o que \"violaria o princípio constitucional da pessoalidade da pena\".\n\nAté agora não há decisão de Moraes nem do presidente do STF, Edson Fachin.",
+   "url": "https://noticias.r7.com/brasilia/flavio-bolsonaro-recorre-pede-de-volta-passaportes-e-alega-impedimento-de-moraes-02112026/"
+  },
   {
    "data": "02/11/2026",
    "fonte": "Poder360",
