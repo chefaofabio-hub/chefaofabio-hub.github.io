@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-11-01 21:55",
- "atualizado_em": "01/11/2026 21:55",
+ "novidade_id": "2026-11-02 07:50",
+ "atualizado_em": "02/11/2026 07:50",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -24,6 +24,15 @@
   "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Em 31/10, ação popular na 6ª Vara Federal do RJ pediu suspensão de salário e verbas (Agência Brasil/Poder360); Psol já havia oficiado o Senado em 27/10. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027."
  },
  "itens": [
+  {
+   "data": "02/11/2026",
+   "fonte": "Fantástico (TV Globo/g1); CBN",
+   "novo": true,
+   "titulo": "Fantástico: imigração argentina registrou três entradas de Flávio em 40 minutos, com passaporte italiano, CNH e passaporte brasileiro",
+   "texto": "Documentos da imigração argentina obtidos pelo Fantástico (g1, 01/11, 22h03; CBN, 02/11, 6h14) mostram três entradas de Flávio na mesma van em 27/10: às 22h37 com o passaporte italiano, às 22h40 com a carteira de motorista e às 23h11 com o passaporte brasileiro; as duas com documentos brasileiros foram canceladas depois. A mulher e as filhas saíram de Brasília para Cascavel (PR) e embarcaram às 20h02 numa van da Dallas Turismo, cujo endereço é um estacionamento. Na outra van estavam o motorista Neri Luiz Dala Corte, o advogado Roberto Jorge Alexandre (ex-defesa de Jair) e o israelense Menachem Halevy. A principal linha de investigação, porém, é que Flávio chegou a Iguazú de avião e esperou horas na aeronave.",
+   "texto_completo": "Reportagem do Fantástico (TV Globo), publicada no g1 em 01/11/2026 às 22h03 e repercutida pela CBN em 02/11 às 6h14, com base em documentos do sistema de imigração da Argentina que integram uma investigação em cooperação internacional.\n\nNuma das versões apuradas, Flávio deixou Brasília às 5h05 de 27/10 num Cessna Citation Excel ligado ao advogado Willer Tomaz, que pousou às 8h40 em San Fernando (Buenos Aires); de lá teria seguido em outro voo privado para Puerto Iguazú. A mulher, Fernanda, e as duas filhas foram de Brasília para Cascavel (PR) em outro avião e, às 20h02, embarcaram no hangar numa van da Iguaçu Dallas Travel Turismo, de Foz do Iguaçu. No endereço da empresa na Receita a reportagem só achou um estacionamento; a Dallas negou em nota ter transportado o candidato.\n\nDuas vans da empresa cruzaram a fronteira naquela noite. Na van vinda de Cascavel estavam os dados da mulher e das filhas, e o sistema registrou três entradas de Flávio: às 22h37 com passaporte italiano, às 22h40 com carteira de motorista e às 23h11 com passaporte brasileiro. As duas com documentos brasileiros foram canceladas depois; ficou valendo só a do passaporte italiano. Na outra van, que passou cerca de sete minutos antes, estavam o motorista Neri Luiz Dala Corte, o advogado Roberto Jorge Alexandre, que já atuou na defesa de Jair Bolsonaro, e o israelense Menachem Booky Halevy, apontado como ex-oficial da inteligência de Israel, que entrou no Brasil por Guarulhos em 19/10. O motorista disse ter levado \"duas pessoas que eu nem sei quem é\" de um posto em Foz ao aeroporto. O jornalista Nicolás Munafó (C5N) relatou escolta da Polícia de Segurança Aeroportuária, caminhonetes brasileiras e uma argentina com placa diplomática.\n\nApesar do registro terrestre, a principal linha de investigação é que Flávio chegou a Puerto Iguazú de avião, vindo de Buenos Aires, e esperou horas dentro da aeronave. A Justiça argentina mandou preservar as imagens das câmeras da fronteira e do aeroporto; a deputada argentina Marcela Pagano cobra explicações sobre a imigração, a escolta e o uso de carros diplomáticos. O governo argentino disse que não tem nada a declarar.\n\nFrederick Wassef, advogado de Flávio, disse ao Fantástico que nenhuma informação sobre a viagem é oficial e negou fuga. A assessoria de Willer Tomaz nega que avião dele ou da família tenha sido usado. A Baires Fly não respondeu.",
+   "url": "https://g1.globo.com/fantastico/noticia/2026/11/01/bastidores-da-saida-de-flavio-bolsonaro-do-brasil.ghtml"
+  },
   {
    "data": "01/11/2026",
    "fonte": "Fantástico (TV Globo); O Globo",
