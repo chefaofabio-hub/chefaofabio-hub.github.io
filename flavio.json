@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-11-02 11:50",
- "atualizado_em": "02/11/2026 11:50",
+ "novidade_id": "2026-11-02 15:55",
+ "atualizado_em": "02/11/2026 15:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -24,6 +24,15 @@
   "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Em 31/10, ação popular na 6ª Vara Federal do RJ pediu suspensão de salário e verbas (Agência Brasil/Poder360); Psol já havia oficiado o Senado em 27/10. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027."
  },
  "itens": [
+  {
+   "data": "02/11/2026",
+   "fonte": "Poder360",
+   "novo": true,
+   "titulo": "Cartaz na Maratona de Nova York ironiza: \"Corra como Flávio Bolsonaro\"",
+   "texto": "Segundo o Poder360 (02/11, 13h44), um cartaz com a frase \"Run like Flavio Bolsonaro\" (\"Corra como Flávio Bolsonaro\") foi exibido à margem do percurso da Maratona de Nova York no domingo (01/11). O vídeo, gravado pelo fotógrafo francês @hippolyte.p e publicado pelo PT do Piauí, passou de 2,3 milhões de visualizações. Flávio também apareceu como \"procurado\" em cartazes não oficiais espalhados por Nova York.",
+   "texto_completo": "Reportagem do Poder360 publicada em 02/11/2026 às 13h44 (horário de Brasília).\n\nUm cartaz com a frase \"Run like Flavio Bolsonaro\" (\"Corra como Flávio Bolsonaro\", em português) foi exibido à margem do percurso da Maratona de Nova York, no domingo (01/11/2026), em referência ao senador, que deixou o Brasil e foi para os EUA em 27/10.\n\nO vídeo foi registrado originalmente pelo perfil do fotógrafo, cinegrafista e diretor francês @hippolyte.p e publicado pelo perfil do PT do Piauí nas redes sociais; a gravação já somava 2,3 milhões de visualizações.\n\nAlém da mensagem na maratona, Flávio também foi retratado como \"procurado\" em cartazes não oficiais espalhados por Nova York, segundo o Poder360.",
+   "url": "https://www.poder360.com.br/poder-internacional/corra-como-flavio-bolsonaro-ironiza-cartaz-na-maratona-de-ny/"
+  },
   {
    "data": "02/11/2026",
    "fonte": "X (@FlavioBolsonaro)",
@@ -801,5 +810,5 @@
   "Argentina"
  ],
  "contra": "× Alexandre de Moraes",
- "assunto": "Flávio no X: \"Fiz o que achava certo\" e \"sinto ainda não acabou\""
+ "assunto": "Cartaz na Maratona de NY: \"Corra como Flávio Bolsonaro\""
 }
