@@ -1,6 +1,6 @@
 {
- "novidade_id": "2026-11-02 07:50",
- "atualizado_em": "02/11/2026 07:50",
+ "novidade_id": "2026-11-02 09:55",
+ "atualizado_em": "02/11/2026 09:55",
  "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
  "status": {
   "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano.",
@@ -24,6 +24,24 @@
   "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Em 31/10, ação popular na 6ª Vara Federal do RJ pediu suspensão de salário e verbas (Agência Brasil/Poder360); Psol já havia oficiado o Senado em 27/10. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027."
  },
  "itens": [
+  {
+   "data": "02/11/2026",
+   "fonte": "O Globo",
+   "novo": true,
+   "titulo": "Primeira aparição pública nos EUA: Flávio vai a culto evangélico na Flórida com a mulher e o irmão Eduardo",
+   "texto": "Segundo O Globo (02/11, 8h58), Flávio fez sua primeira aparição pública depois da fuga num culto da comunidade evangélica Celeiro, na Flórida, ao lado da mulher, Fernanda, do irmão Eduardo e da cunhada, Heloísa. Posou com os pastores Alice Fernandes (Mãezona) e José Maurício Fernandes (Paizão). O pastor falou ao senador sobre derrota, sem citar a eleição: \"Não ganhou ou perdeu porque com Jesus você não perde. E se perder, você está ganhando\".",
+   "texto_completo": "Reportagem do O Globo publicada em 02/11/2026 às 8h58.\n\nEm sua primeira aparição pública depois de deixar o Brasil, o senador Flávio Bolsonaro foi a um culto evangélico na comunidade Celeiro, na Flórida. Nas fotos ele aparece com a mulher, a dentista Fernanda Bolsonaro, o irmão Eduardo Bolsonaro e a cunhada, Heloísa, e posou com os pastores responsáveis pela igreja, Alice Fernandes, a Mãezona, e José Maurício Fernandes, o Paizão.\n\nDurante o culto, José Maurício falou diretamente ao senador sobre derrota, mas sem citar a eleição: \"Não ganhou ou perdeu porque com Jesus você não perde. E se perder, você está ganhando\".",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/11/02/flavio-bolsonaro-vai-a-culto-evangelico-com-mulher-e-eduardo-em-primeira-aparicao-publica-apos-fuga-para-os-eua.ghtml"
+  },
+  {
+   "data": "02/11/2026",
+   "fonte": "Valor Econômico",
+   "novo": true,
+   "titulo": "Valor: licença \"DT\" dada a Flávio pelos EUA tem 32 mil pedidos na fila e cerca de 85% de recusa",
+   "texto": "Segundo o Valor (02/11, 9h20, de Washington), dados do serviço de imigração americano (USCIS) mostram 32.373 pedidos pendentes do mesmo tipo de permissão temporária (parole) que Flávio recebeu, no ano fiscal de 2026 até junho; dos analisados, quase 85% foram negados. A permissão dele vale até 27/10/2027 e não dá direito automático de trabalhar; até lá ele pode tentar asilo ou green card, como o irmão Eduardo.",
+   "texto_completo": "Reportagem de Anaïs Fernandes no Valor Econômico, de Washington, publicada em 02/11/2026 às 9h20.\n\nMais de 30 mil pedidos do mesmo tipo de licença temporária de entrada nos EUA concedida a Flávio Bolsonaro estavam aguardando decisão no ano fiscal americano de 2026 (iniciado em outubro de 2025), até junho: 32.373 pendentes, contra 36.101 no mesmo período de 2025. Dos formulários analisados, quase 85% foram negados (81,6% no ano anterior). Os dados são do USCIS, o serviço de cidadania e imigração dos EUA.\n\nFlávio entrou com classe de admissão \"DT\", ou parole (liberdade condicional), permissão para entrar e ficar temporariamente sem admissão formal, em geral por razões humanitárias urgentes ou benefício público significativo. A licença dele vale até 27/10/2027. Até lá ele pode buscar regularizar a situação de outra forma, por exemplo pedindo asilo ou obtendo green card, como fez o irmão Eduardo. O regime não concede automaticamente o direito de trabalhar, mas permite pedir autorização de emprego.",
+   "url": "https://valor.globo.com/politica/noticia/2026/11/02/licena-dada-a-flvio-bolsonaro-pelos-eua-tem-32-mil-pedidos-na-fila-e-reprovao-de-80-pontos-percentuais.ghtml"
+  },
   {
    "data": "02/11/2026",
    "fonte": "Fantástico (TV Globo/g1); CBN",
@@ -774,5 +792,5 @@
   "Argentina"
  ],
  "contra": "× Alexandre de Moraes",
- "assunto": "Lauro Jardim: alerta da Argentina a aliado de Lula adiou a fuga de Flávio em um dia"
+ "assunto": "Flávio faz primeira aparição pública nos EUA em culto evangélico na Flórida"
 }
