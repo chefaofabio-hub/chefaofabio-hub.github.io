@@ -3,7 +3,7 @@
 if(document.body.classList.contains('pc')&&!document.body.dataset.inv)return;
 document.body.classList.add('inv');
 // NÃO troca mais o logo pelo "olho de câmera" — cabeçalho igual ao do PC (pedido Fabio 30/10).
-const P=['pontoFlavio','pontoAdpf','pontoRuas','pontoPrefeitura','pontoGoverno','pontoPaes'];
+const P=['pontoFlavio','pontoAdpf','pontoRuas','pontoPrefeitura','pontoPaes'];
 const ativo=()=>P.some(i=>{const x=document.getElementById(i);return x&&!x.hidden});
 function chk(){document.body.classList.toggle('inv-alerta',ativo())}
 const mo=new MutationObserver(chk);P.forEach(i=>{const x=document.getElementById(i);if(x)mo.observe(x,{attributes:true,attributeFilter:['hidden']})});

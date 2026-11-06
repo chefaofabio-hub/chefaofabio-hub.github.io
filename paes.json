@@ -1,13 +1,13 @@
 {
-  "novidade_id": "2026-11-06 10:00",
-  "atualizado_em": "06/11/2026 10:00",
+  "novidade_id": "2026-11-06 18:00",
+  "atualizado_em": "06/11/2026 18:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
-  "assunto": "Paes retoma cobrança por 2º turno; Ruas vai a Zanin; AIJEs mútuas; TRE mantém 'Exército do Dudu'",
-  "resumo": "Ex-prefeito do Rio (PSD) retomou nas redes (03/11) a luta por 2º turno via ADPF 1362. Ruas reuniu-se com Zanin (03/11). Ambos abriram AIJEs na Justiça Eleitoral (01–04/11). TRE-RJ manteve o canal WhatsApp pró-Paes (05/11). Imprensa descreve STF cauteloso e processo ainda em instrução; portal do STF inacessível nesta checagem (403).",
+  "assunto": "Folha: Zanin aguarda AGU/PGR na ADPF; artistas em 2º ato; Ruas faz transição",
+  "resumo": "Folha (06/11) confirma: Zanin aguarda AGU e PGR na ADPF 1362 do PSD pelo 2º turno; artistas fizeram segundo encontro (5/11); Ruas indica secretários e faz transição com Couto. TRE-RJ manteve o canal 'Exército do Dudu' (05/11). AIJEs mútuas e INQ 4.435 arquivado seguem no quadro.",
   "status": {
     "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
     "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
-    "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin no mesmo dia (Gazeta do Povo). Valor (05/11) e Folha (06/11) descrevem processo ainda aguardando AGU/PGR e STF cauteloso. Portal do STF retornou 403 nesta checagem — sem confirmação direta de andamento. INQ 4.435 permanece arquivado.",
+    "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). Folha (06/11): Zanin aguarda AGU e PGR para dar andamento; artistas em 2º encontro (5/11) pelo novo pleito; Ruas já indica secretários e faz transição com Couto. Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin (03/11). Valor (05/11) descreveu STF cauteloso. INQ 4.435 permanece arquivado.",
     "Mobilização 'Exército do Dudu'": "Canal WhatsApp pró-2º turno; TRE-RJ negou suspensão pedida pelo PL (O Dia, 05/11). Valor (03/11) citou ~314 mil no abaixo-assinado; Folha tinha ~255 mil no canal em 30/10.",
     "Ofensiva judicial Ruas × Paes": "AIJEs mútuas no TRE (01–04/11): Ruas alega site ilegal, assédio a servidores e pede bloqueio do canal; Paes alega compra de votos e panfletos. Ambos pedem inelegibilidade (Folha 04/11; O Globo 04/11)."
   },
@@ -17,6 +17,15 @@
     "Ofensiva judicial Ruas × Paes"
   ],
   "itens": [
+    {
+      "data": "06/11/2026",
+      "novo": true,
+      "titulo": "Folha: debate sobre 2º turno mantém STF na política do RJ por quase um ano",
+      "texto": "Zanin aguarda AGU e PGR na ADPF do PSD. Artistas fizeram 2º encontro (5/11) pelo novo pleito; Ruas indica secretários e faz transição com Couto. Pedido do PL contra canal 'Exército do Dudu' foi negado.",
+      "texto_completo": "A Folha (Italo Nogueira, 06/11/2026, 4h) descreveu que a ação do PSD pelo segundo turno no governo do Rio prolonga a atuação do STF na política fluminense por quase um ano.\n\nCristiano Zanin é o relator da ADPF; a Folha informa que ele aguarda manifestações da AGU e da PGR para dar andamento. Artistas realizaram um segundo encontro na quinta (5) em apoio a novo pleito. Douglas Ruas reuniu-se com Zanin na terça (3), teve negado o pedido de bloqueio do canal \"Exército do Dudu\" e, ao mesmo tempo, já indicou secretários e faz a transição com a gestão do interino Ricardo Couto.\n\nA reportagem recapitula a liminar que mantém Couto no cargo (vista de Flávio Dino sem retorno ao plenário) e o contexto da Operação Unha e Carne. Não há decisão sobre o 2º turno.",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://www1.folha.uol.com.br/poder/2026/11/debate-sobre-2o-turno-no-rj-mantem-atuacao-do-stf-na-politica-estadual-por-um-ano.shtml"
+    },
     {
       "data": "05/11/2026",
       "novo": true,
