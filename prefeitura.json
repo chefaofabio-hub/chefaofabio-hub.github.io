@@ -1,16 +1,30 @@
 {
-  "novidade_id": "2026-10-30 seed",
-  "atualizado_em": "30/10/2026 12:50",
+  "novidade_id": "2026-11-06 12:30",
+  "atualizado_em": "06/11/2026 12:29",
   "contra": "Diário Oficial do Município",
   "assunto": "trocas no 1º escalão: secretários, subsecretários e presidência/vice-presidência de empresas e autarquias municipais",
   "resumo": "Lista única de quem entrou e quem saiu. Cada card é uma troca publicada no Diário Oficial do Município do Rio.",
   "status": {
     "Fonte": "D.O. Rio (doweb.rio.rj.gov.br)",
     "Escopo": "Secretário, Subsecretário e cúpula de empresa/autarquia",
-    "Período varrido": "16/09 a 01/11/2026 (edições principais; última main=29/10 nº155; sem edição em 30/10, 31/10 e 01/11)"
+    "Período varrido": "16/09 a 06/11/2026 (edições principais; mains 03/11 nº156, 04/11 nº157, 05/11 nº158, 06/11 nº159)"
   },
   "status_novos": [],
   "itens": [
+    {
+      "data": "03/11/2026",
+      "novo": true,
+      "tipo": "saida",
+      "pessoa_entrou": null,
+      "pessoa_saiu": "Bernardo Figueiredo de Castro Ainbinder",
+      "cargo": "Subsecretário (DAS-10.A, cód. 100046)",
+      "orgao": "Subsecretaria de Empreendedorismo e Inovação · Secretaria Municipal de Ciência, Tecnologia e Inovação",
+      "titulo": "Saiu Bernardo Figueiredo de Castro Ainbinder, substituto ainda não nomeado",
+      "texto": "Subsecretário de Empreendedorismo e Inovação (SMCTI). Exoneração a pedido, com validade a partir de 1º/11/2026. Até as edições principais de 03 a 06/11 não houve nomeação para o código 100046.",
+      "fonte": "D.O. Rio nº 156 · 03/11/2026",
+      "url": "https://doweb.rio.rj.gov.br/portal/edicoes/download/14999",
+      "texto_completo": "No Diário Oficial do Município do Rio de 03/11/2026 (edição nº 156), a Secretaria Municipal da Casa Civil publicou:\n\n• Resolução “P” nº 322, de 29/10/2026 — Exonerar, a pedido, Bernardo Figueiredo de Castro Ainbinder, matrícula 60/362.850-0, com validade a partir de 1º de novembro de 2026, do Cargo em Comissão de Subsecretário, símbolo DAS-10.A, código 100046, da Subsecretaria de Empreendedorismo e Inovação, da Secretaria Municipal de Ciência, Tecnologia e Inovação.\n\nNas edições principais seguintes varridas (04/11 nº157, 05/11 nº158 e 06/11 nº159) não apareceu nomeação para o mesmo código 100046. Leitura: saída a pedido sem substituto nomeado até 06/11/2026."
+    },
     {
       "data": "22/10/2026",
       "novo": false,
