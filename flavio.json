@@ -26,6 +26,15 @@
  "itens": [
   {
    "data": "06/11/2026",
+   "fonte": "O Dia Político",
+   "novo": true,
+   "titulo": "Governo dos EUA · Deputado democrata Robert Garcia pede a Rubio que Flávio seja enviado de volta ao Brasil",
+   "texto": "Segundo O Dia Político (05/11), Robert Garcia (D-CA), principal democrata do Comitê de Supervisão da Câmara dos EUA, enviou carta a Marco Rubio em 02/11 pedindo que Flávio seja enviado ao Brasil, explicações sobre a base legal dos vistos, registros de comunicações entre Casa Branca, Departamento de Estado, DHS, Jason Miller e autoridades argentinas, e documentos sobre apoio da Rockbridge Network. Prazo para resposta: 13/11. É cobrança política de parlamentar, não ordem de deportação; não há decisão oficial mandando Flávio sair dos EUA. Sobre Magnitsky: OFAC (recent actions até 05/11) não traz Moraes, esposa ou Instituto Lex; sanção segue suspensa desde 12/12/2025 e relatos de nova sanção seguem sem confirmação oficial.",
+   "texto_completo": "Segundo O Dia Político (05/11), Robert Garcia (D-CA), principal democrata do Comitê de Supervisão da Câmara dos EUA, enviou carta a Marco Rubio em 02/11 pedindo que Flávio seja enviado ao Brasil, explicações sobre a base legal dos vistos, registros de comunicações entre Casa Branca, Departamento de Estado, DHS, Jason Miller e autoridades argentinas, e documentos sobre apoio da Rockbridge Network. Prazo para resposta: 13/11. É cobrança política de parlamentar, não ordem de deportação; não há decisão oficial mandando Flávio sair dos EUA. Sobre Magnitsky: OFAC (recent actions até 05/11) não traz Moraes, esposa ou Instituto Lex; sanção segue suspensa desde 12/12/2025 e relatos de nova sanção seguem sem confirmação oficial.",
+   "url": "https://odiapolitico.com.br/deputado-dos-eua-pede-que-flavio-bolsonaro-seja-enviado-ao-brasil/"
+  },
+  {
+   "data": "06/11/2026",
    "fonte": "O Globo",
    "novo": true,
    "titulo": "Flávio fica em Mar-a-Lago para reuniões reservadas com republicanos após discursar na CPAC",
