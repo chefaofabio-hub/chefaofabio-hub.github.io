@@ -1,6 +1,6 @@
 {
-  "novidade_id": "folha-alvaro-20261102",
-  "atualizado_em": "02/11/2026 18:20",
+  "novidade_id": "2026-11-06 09:25",
+  "atualizado_em": "06/11/2026 09:25",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
@@ -251,13 +251,31 @@
   "stf_nota": "ADPF 1362",
   "segundo_turno": [
     {
+      "data": "06/11/2026",
+      "titulo": "Folha: debate sobre 2º turno no RJ mantém STF na política do estado; Zanin segue sem decidir",
+      "texto": "Reportagem da Folha de 6/11 diz que o destino do Palácio Guanabara está de novo nas mãos de Zanin, relator da ação do PSD. A liminar na ADPF 1362 segue sem decisão.",
+      "texto_completo": "A Folha de S.Paulo publicou em 6/11 reportagem sobre como a ação do PSD pelo 2º turno prolonga a atuação do STF na política fluminense por quase um ano.\n\nSegundo o texto, o STF também é responsável pelos desdobramentos da Operação Unha e Carne e por manter o desembargador Ricardo Couto, presidente do TJ-RJ, como governador interino por liminar de Zanin, referendada pelo plenário.\n\nA reportagem diz que o destino do Palácio Guanabara está de novo nas mãos de Zanin. Não há decisão sobre a liminar na ADPF 1362 até a publicação.",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://www1.folha.uol.com.br/poder/2026/11/debate-sobre-2o-turno-no-rj-mantem-atuacao-do-stf-na-politica-estadual-por-um-ano.shtml",
+      "novo": true
+    },
+    {
+      "data": "03/11/2026",
+      "titulo": "Conjur: especialistas defendem que soberania popular justifica 2º turno no Rio em 6/12",
+      "texto": "Conjur ouviu especialistas que defendem que o STF ordene o 2º turno no Rio em 6/12. A liminar de Zanin segue sem decisão.",
+      "texto_completo": "A Conjur publicou em 3/11 matéria com especialistas que defendem que o STF determine a realização do 2º turno no Rio em 6/12, em nome da soberania popular.\n\nA reportagem reproduz a tese do PSD na ADPF 1362: votos dados a candidato sub judice, como Garotinho, cujo nome constava da urna, integrariam a base de cálculo da maioria absoluta, e a anulação posterior não se confunde com voto nulo.\n\nÉ opinião de especialistas; não há decisão de Zanin.",
+      "fonte": "Conjur",
+      "url": "https://conjur.com.br/2026-nov-03/em-nome-da-soberania-popular-stf-deve-ordenar-segundo-turno-no-rio-em-6-12/",
+      "novo": true
+    },
+    {
       "data": "02/11/2026",
       "titulo": "Folha (Alvaro Costa e Silva): cresce nas redes o movimento por 2º turno no Rio, mas colunista acha difícil o STF comprar a briga",
       "texto": "Coluna de opinião publicada na Folha às 17h20 diz que cresce o movimento pela realização de 2º turno para governador no Rio, com campanha nas redes nos moldes do canal \"Exército do Lula\". O colunista avalia que, no momento, é difícil o STF comprar essa briga. É opinião; a liminar de Zanin na ADPF 1362 segue sem decisão.",
       "texto_completo": "O colunista Alvaro Costa e Silva publicou na Folha de S.Paulo, em 2/11 às 17h20, o texto \"O STF terá coragem de chamar um 2º turno no Rio?\". A coluna trata da virada de Lula na capital fluminense no segundo turno presidencial e do impacto disso sobre Douglas Ruas (PL), já que Lula chegou a 48,02% dos votos em São Gonçalo, reduto eleitoral de Ruas.\n\nSegundo o colunista, Ruas, declarado governador após a anulação dos votos de Anthony Garotinho, agora diz que vai governar para todos, e a situação é delicada porque cresce o movimento a favor da realização de um segundo turno no Rio, tema de ação no Supremo. Ele afirma que a campanha já ganhou as redes, nos moldes do canal \"Exército do Lula\".\n\nA conclusão do texto é a avaliação pessoal do autor: no momento, ele acha difícil o STF, em crise, comprar essa briga. Trata-se de coluna de opinião, não de informação sobre o processo. Até o fim da tarde de 2/11 não havia notícia de decisão do ministro Cristiano Zanin sobre a liminar na ADPF 1362.",
       "fonte": "Folha de S.Paulo (coluna Alvaro Costa e Silva)",
       "url": "https://www1.folha.uol.com.br/colunas/alvaro-costa-e-silva/2026/11/o-stf-tera-coragem-de-chamar-um-2o-turno-no-rio.shtml",
-      "novo": true
+      "novo": false
     },
     {
       "data": "31/10/2026",
