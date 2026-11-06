@@ -425,3 +425,18 @@ body.inv .pa-assunto b{background:none!important;-webkit-background-clip:unset!i
 body.inv .pa-contra{color:#c8102e!important}
 body.inv .pa-logo{display:flex!important;filter:none!important;opacity:1!important}
 body.inv .past b{color:#b45309!important}
+/* Governo do Estado do Rio — mesmo tratamento claro da Prefeitura */
+body.inv .ge-topo{background:transparent!important;border:0!important;box-shadow:none!important;color:#1a2438!important}
+body.inv .ge-logo{display:flex!important;filter:none!important;opacity:1!important}
+body.inv .ge-contra{color:#c8102e!important;background:transparent!important;border:0!important}
+body.inv .ge-assunto{color:#5b4300!important;background:#fff8e6!important;border:1.5px solid #f0d48a!important;border-bottom-width:4px!important;border-radius:12px!important;box-shadow:none!important}
+body.inv .ge-assunto b{background:none!important;-webkit-background-clip:unset!important;background-clip:unset!important;color:#b45309!important;text-shadow:none!important}
+body.inv .gecd,body.inv .gest{background:linear-gradient(180deg,#fbfcff,#f3f6fb)!important;border:1.5px solid #c9d6ee!important;border-bottom-width:4px!important;border-radius:12px!important;color:#1a2438!important;box-shadow:none!important}
+body.inv .gecd:before,body.inv .gecd:after{display:none!important;content:none!important}
+body.inv .gecd h3{background:none!important;-webkit-background-clip:unset!important;background-clip:unset!important;color:var(--azul,#1f4fa8)!important;text-shadow:none!important;font-weight:900!important}
+body.inv .gecd .v{color:#1a2438!important}
+body.inv .gest b{color:#b45309!important}
+body.inv #geLin:before{display:none!important;content:none!important}
+body.inv #geLin{padding-left:0!important}
+body.inv nav.nav a[data-aba="governo"],nav.nav a[data-aba="governo"]{overflow:visible!important;height:auto!important}
+body.inv nav.nav a[data-aba="governo"] .nav-lab,nav.nav a[data-aba="governo"] .nav-lab{white-space:normal!important;overflow-wrap:break-word!important;line-height:1.2!important;font-size:14.5px!important}
