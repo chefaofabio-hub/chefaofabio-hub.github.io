@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-06 12:26",
-  "atualizado_em": "06/11/2026 12:26",
+  "novidade_id": "2026-11-06 18:25",
+  "atualizado_em": "06/11/2026 18:25",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
@@ -80,8 +80,7 @@
       "texto": "O portal do STF registra, em 3/11, que a ADPF 1362 voltou conclusa ao ministro Cristiano Zanin. Não há decisão sobre a liminar; também não aparece parecer da AGU nem da PGR.",
       "texto_completo": "A consulta ao portal de processos do STF em 6/11 mostrou dois andamentos novos em 3/11, posteriores à vista à AGU de 27/10.\n\nO mais recente é o registro \"Conclusos ao(à) Relator(a)\", com a descrição oficial de que o processo foi encaminhado para análise do ministro responsável pelo caso — Cristiano Zanin. Logo abaixo aparece a petição 137512/2026, de 3/11 às 16h54, classificada como Procuração/Substabelecimento.\n\nNão há, no andamento oficial até essa consulta, registro de parecer da Advocacia-Geral da União, de vista ou parecer da PGR, nem de decisão do relator sobre a liminar pedida pelo PSD. A faixa de status da liminar permanece \"Sem decisão\".",
       "fonte": "Portal do STF (andamentos da ADPF 1362)",
-      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240",
-      "novo": true
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
     },
     {
       "data": "03/11/2026",
@@ -89,8 +88,7 @@
       "texto": "Em 3/11, às 16h54, foi protocolada a petição 137512 (procuração/substabelecimento). Em seguida o processo ficou concluso ao relator. Liminar ainda sem decisão.",
       "texto_completo": "No mesmo 3/11, o portal do STF registra a petição 137512/2026, protocolada às 16h54 e descrita como Procuração/Substabelecimento. É um ato processual de representação, não uma decisão.\n\nDepois dessa petição, o sistema aponta o processo como concluso ao relator Cristiano Zanin. Continua sem registro de parecer da AGU ou da PGR e sem decisão sobre a liminar.",
       "fonte": "Portal do STF (andamentos da ADPF 1362)",
-      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240",
-      "novo": true
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240"
     },
     {
       "data": "27/10/2026",
@@ -270,12 +268,20 @@
   "segundo_turno": [
     {
       "data": "05/11/2026",
+      "titulo": "Valor: aliados de Paes dão 2º turno como certo; ministros do STF tratam com cautela",
+      "texto": "Reportagem do Valor de 5/11 (atualizada em 6/11) diz que políticos próximos a Paes apostam em decisão favorável do STF, mas ministros e auxiliares consultados avaliam cenários com cautela e não tratam o tema como resolvido. A liminar de Zanin na ADPF 1362 segue sem decisão.",
+      "texto_completo": "O Valor Econômico publicou em 5/11, atualizado em 6/11 às 8h45, reportagem de Tiago Angelo sobre a expectativa de segundo turno no Rio.\n\nSegundo o texto, políticos próximos a Eduardo Paes (PSD) dão nos bastidores como certa a realização de um segundo turno, apostando em decisão favorável do STF na ação do PSD. Paes, ainda conforme a reportagem, teria dito a pessoas próximas que está confiante e estaria fazendo contas de votos no plenário.\n\nMinistros do STF e auxiliares consultados pelo Valor, porém, ainda avaliam cenários e dizem não ser possível afirmar se a Corte entrará em tema eleitoral rumoroso, com impacto em todo o estado. Integrantes da Corte não tratam o assunto como resolvido: o processo segue em instrução, depois do prazo aberto por Zanin para informações do TSE e manifestações da PGR (e da AGU). Há integrantes que consideram a solicitação do PSD \"frágil\".\n\nO Valor também registra que, entre aliados de Douglas Ruas (PL), o cenário é de incerteza. Não há decisão sobre a liminar. Até a consulta ao portal do STF em 6/11 à noite, o último andamento oficial da ADPF 1362 continuava sendo o de 3/11 (processo concluso ao relator Zanin), sem parecer da AGU/PGR no andamento e sem decisão da liminar.",
+      "fonte": "Valor Econômico",
+      "url": "https://valor.globo.com/politica/noticia/2026/11/05/entorno-de-paes-aposta-em-segundo-turno-no-rio-mas-ministros-do-stf-tratam-tema-com-cautela.ghtml",
+      "novo": true
+    },
+    {
+      "data": "05/11/2026",
       "titulo": "Exame: Paes intensifica cobrança por 2º turno e aciona TRE-RJ contra chapa de Ruas",
       "texto": "Reportagem da Exame de 5/11 diz que Paes voltou a pedir 2º turno nas redes (vídeos de 3 e 4/11) e que a coligação dele pediu ao TRE-RJ a cassação da chapa de Ruas. A liminar de Zanin na ADPF 1362 segue sem decisão.",
       "texto_completo": "A revista Exame publicou em 5/11 reportagem sobre a retomada da contestação de Eduardo Paes (PSD) ao resultado do 1º turno no Rio. Segundo o texto, em 3/11 Paes pediu mobilização pelo segundo turno e em 4/11 fez novas acusações contra a campanha de Douglas Ruas (PL), incluindo panfletos que, na visão dele, teriam induzido eleitores ao erro.\n\nAlém da ADPF 1362 no STF, a reportagem informa que Paes e a coligação acionaram o TRE-RJ pedindo cassação da chapa Ruas-Louback por abuso de poder econômico, desinformação e compra de votos. São acusações apresentadas pelos autores da ação; a Exame registra que não há decisão judicial que as confirme.\n\nSobre o STF, o texto lembra que a ADPF 1362, sob relatoria de Zanin, questiona a exclusão dos votos de Garotinho do cálculo da maioria absoluta. Não há notícia de decisão da liminar.",
       "fonte": "Exame",
-      "url": "https://exame.com/brasil/eduardo-paes-contesta-eleicao-no-rio-entenda-o-que-se-sabe-e-o-que-esta-em-jogo/",
-      "novo": true
+      "url": "https://exame.com/brasil/eduardo-paes-contesta-eleicao-no-rio-entenda-o-que-se-sabe-e-o-que-esta-em-jogo/"
     },
     {
       "data": "03/11/2026",
@@ -283,8 +289,7 @@
       "texto": "O Globo informa que Douglas Ruas (PL) se reuniu em 3/11 com o ministro Cristiano Zanin para tratar da ação do PSD que pede 2º turno no RJ. A agenda oficial do ministro citou a ADPF 1362. Não há decisão sobre a liminar.",
       "texto_completo": "O jornal O Globo publicou em 3/11 que o presidente da Alerj e governador eleito Douglas Ruas (PL) se reuniu naquele dia com o ministro Cristiano Zanin, relator da ADPF 1362. O assunto do encontro, segundo a reportagem, é a ação do PSD, partido de Eduardo Paes, que pede a realização de segundo turno após a anulação dos votos de Anthony Garotinho.\n\nA matéria lembra que a ação está em fase de manifestações: Zanin pediu informações ao TSE e manifestações da AGU e da PGR; o TSE protocolou parecer em 27/10 dizendo que não era tecnicamente possível incluir a eleição para governador em 25/10. Segundo O Globo, a AGU deveria se manifestar em seguida e depois a PGR.\n\nA reunião não é decisão judicial. Até a consulta ao portal do STF em 6/11, a liminar pedida pelo PSD continuava sem decisão.",
       "fonte": "O Globo",
-      "url": "https://oglobo.globo.com/politica/noticia/2026/11/03/governador-eleito-do-rio-douglas-ruas-se-encontra-com-zanin-para-tratar-de-acao-que-pede-segundo-turno-no-estado.ghtml",
-      "novo": true
+      "url": "https://oglobo.globo.com/politica/noticia/2026/11/03/governador-eleito-do-rio-douglas-ruas-se-encontra-com-zanin-para-tratar-de-acao-que-pede-segundo-turno-no-estado.ghtml"
     },
     {
       "data": "06/11/2026",
@@ -292,8 +297,7 @@
       "texto": "Reportagem da Folha de 6/11 diz que o destino do Palácio Guanabara está de novo nas mãos de Zanin, relator da ação do PSD. A liminar na ADPF 1362 segue sem decisão.",
       "texto_completo": "A Folha de S.Paulo publicou em 6/11 reportagem sobre como a ação do PSD pelo 2º turno prolonga a atuação do STF na política fluminense por quase um ano.\n\nSegundo o texto, o STF também é responsável pelos desdobramentos da Operação Unha e Carne e por manter o desembargador Ricardo Couto, presidente do TJ-RJ, como governador interino por liminar de Zanin, referendada pelo plenário.\n\nA reportagem diz que o destino do Palácio Guanabara está de novo nas mãos de Zanin. Não há decisão sobre a liminar na ADPF 1362 até a publicação.",
       "fonte": "Folha de S.Paulo",
-      "url": "https://www1.folha.uol.com.br/poder/2026/11/debate-sobre-2o-turno-no-rj-mantem-atuacao-do-stf-na-politica-estadual-por-um-ano.shtml",
-      "novo": false
+      "url": "https://www1.folha.uol.com.br/poder/2026/11/debate-sobre-2o-turno-no-rj-mantem-atuacao-do-stf-na-politica-estadual-por-um-ano.shtml"
     },
     {
       "data": "03/11/2026",
@@ -301,8 +305,7 @@
       "texto": "Conjur ouviu especialistas que defendem que o STF ordene o 2º turno no Rio em 6/12. A liminar de Zanin segue sem decisão.",
       "texto_completo": "A Conjur publicou em 3/11 matéria com especialistas que defendem que o STF determine a realização do 2º turno no Rio em 6/12, em nome da soberania popular.\n\nA reportagem reproduz a tese do PSD na ADPF 1362: votos dados a candidato sub judice, como Garotinho, cujo nome constava da urna, integrariam a base de cálculo da maioria absoluta, e a anulação posterior não se confunde com voto nulo.\n\nÉ opinião de especialistas; não há decisão de Zanin.",
       "fonte": "Conjur",
-      "url": "https://conjur.com.br/2026-nov-03/em-nome-da-soberania-popular-stf-deve-ordenar-segundo-turno-no-rio-em-6-12/",
-      "novo": false
+      "url": "https://conjur.com.br/2026-nov-03/em-nome-da-soberania-popular-stf-deve-ordenar-segundo-turno-no-rio-em-6-12/"
     },
     {
       "data": "02/11/2026",
@@ -310,8 +313,7 @@
       "texto": "Coluna de opinião publicada na Folha às 17h20 diz que cresce o movimento pela realização de 2º turno para governador no Rio, com campanha nas redes nos moldes do canal \"Exército do Lula\". O colunista avalia que, no momento, é difícil o STF comprar essa briga. É opinião; a liminar de Zanin na ADPF 1362 segue sem decisão.",
       "texto_completo": "O colunista Alvaro Costa e Silva publicou na Folha de S.Paulo, em 2/11 às 17h20, o texto \"O STF terá coragem de chamar um 2º turno no Rio?\". A coluna trata da virada de Lula na capital fluminense no segundo turno presidencial e do impacto disso sobre Douglas Ruas (PL), já que Lula chegou a 48,02% dos votos em São Gonçalo, reduto eleitoral de Ruas.\n\nSegundo o colunista, Ruas, declarado governador após a anulação dos votos de Anthony Garotinho, agora diz que vai governar para todos, e a situação é delicada porque cresce o movimento a favor da realização de um segundo turno no Rio, tema de ação no Supremo. Ele afirma que a campanha já ganhou as redes, nos moldes do canal \"Exército do Lula\".\n\nA conclusão do texto é a avaliação pessoal do autor: no momento, ele acha difícil o STF, em crise, comprar essa briga. Trata-se de coluna de opinião, não de informação sobre o processo. Até o fim da tarde de 2/11 não havia notícia de decisão do ministro Cristiano Zanin sobre a liminar na ADPF 1362.",
       "fonte": "Folha de S.Paulo (coluna Alvaro Costa e Silva)",
-      "url": "https://www1.folha.uol.com.br/colunas/alvaro-costa-e-silva/2026/11/o-stf-tera-coragem-de-chamar-um-2o-turno-no-rio.shtml",
-      "novo": false
+      "url": "https://www1.folha.uol.com.br/colunas/alvaro-costa-e-silva/2026/11/o-stf-tera-coragem-de-chamar-um-2o-turno-no-rio.shtml"
     },
     {
       "data": "31/10/2026",
@@ -426,7 +428,5 @@
       "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/08/paes-vai-ao-stf-contra-decisao-do-tse-sobre-votos-de-garotinho-e-pede-realizacao-do-2o-turno-no-rj.ghtml"
     }
   ],
-  "status_novos": [
-    "situacao"
-  ]
+  "status_novos": []
 }
