@@ -1,23 +1,69 @@
 {
- "novidade_id": "2026-11-02 17:55",
- "atualizado_em": "02/11/2026 17:55",
+ "novidade_id": "2026-11-06 05:25",
+ "atualizado_em": "06/11/2026 05:25",
  "contra": "× Justiça Eleitoral · MPRJ · STF",
- "assunto": "Terra analisa espaço de Paes no governo Lula; artistas marcam ato (3/11) pelo 2º turno; ADPF segue sem decisão",
- "resumo": "Ex-prefeito do Rio (PSD), renunciou em 2026 para concorrer ao governo. Ficou em 2º no 1º turno e reconheceu derrota após o TSE anular os votos de Garotinho. PSD mantém ADPF no STF; aliados mobilizam o 'Exército do Dudu'.",
+ "assunto": "Paes retoma cobrança por 2º turno; Ruas vai a Zanin; AIJEs mútuas; TRE mantém 'Exército do Dudu'",
+ "resumo": "Ex-prefeito do Rio (PSD) retomou nas redes (03/11) a luta por 2º turno via ADPF 1362. Ruas reuniu-se com Zanin (03/11). Ambos abriram AIJEs na Justiça Eleitoral (01–04/11). TRE-RJ manteve o canal WhatsApp pró-Paes (05/11). Imprensa descreve STF cauteloso e processo ainda em instrução; portal do STF inacessível nesta checagem (403).",
  "status": {
   "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
   "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
-  "Disputa eleitoral RJ 2026": "ADPF do PSD no STF (relator Zanin); em 27/10 Nunes Marques (TSE) disse não ser tecnicamente possível 2º turno em 25/10; aguarda PGR/AGU",
-  "Mobilização 'Exército do Dudu'": "Canal WhatsApp por 2º turno no STF; Folha citou 255 mil em 30/10; Brasil de Fato ~250 mil em 29/10"
+  "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin no mesmo dia (Gazeta do Povo). Valor (05/11) e Folha (06/11) descrevem processo ainda aguardando AGU/PGR e STF cauteloso. Portal do STF retornou 403 nesta checagem — sem confirmação direta de andamento. INQ 4.435 permanece arquivado.",
+  "Mobilização 'Exército do Dudu'": "Canal WhatsApp pró-2º turno; TRE-RJ negou suspensão pedida pelo PL (O Dia, 05/11). Valor (03/11) citou ~314 mil no abaixo-assinado; Folha tinha ~255 mil no canal em 30/10.",
+  "Ofensiva judicial Ruas × Paes": "AIJEs mútuas no TRE (01–04/11): Ruas alega site ilegal, assédio a servidores e pede bloqueio do canal; Paes alega compra de votos e panfletos. Ambos pedem inelegibilidade (Folha 04/11; O Globo 04/11)."
  },
  "status_novos": [
   "Disputa eleitoral RJ 2026",
-  "Mobilização 'Exército do Dudu'"
+  "Mobilização 'Exército do Dudu'",
+  "Ofensiva judicial Ruas × Paes"
  ],
  "itens": [
   {
-   "data": "02/11/2026",
+   "data": "05/11/2026",
    "novo": true,
+   "titulo": "Valor: aliados de Paes apostam em 2º turno; STF trata o tema com cautela",
+   "texto": "Entorno de Paes dá como certo um 2º turno via STF; ministros e auxiliares consultados pelo Valor ainda avaliam cenários. Processo em fase de instrução, segundo a reportagem.",
+   "texto_completo": "O Valor Econômico (Tiago Angelo, 05/11/2026, atualizado 06/11 00h14) informou que políticos próximos a Eduardo Paes (PSD) dão nos bastidores como certa a realização de um segundo turno no Rio, com decisão favorável do STF na ADPF do PSD. Ministros do STF e auxiliares consultados pelo jornal, porém, ainda avaliam cenários e não tratam o tema como resolvido.\n\nSegundo a reportagem, Cristiano Zanin é o relator; Paes estaria confiante e fazendo contas de apoio entre ministros, além de se mobilizar nas redes. O Valor descreveu o processo ainda em fase de instrução, após prazo aberto no mês passado para informações do TSE e manifestação da PGR. Há integrantes da Corte que consideram o pedido do PSD \"frágil\". A reportagem não equivale a consulta ao portal do STF (inacessível nesta checagem, 403).",
+   "fonte": "Valor Econômico",
+   "url": "https://valor.globo.com/politica/noticia/2026/11/05/entorno-de-paes-aposta-em-segundo-turno-no-rio-mas-ministros-do-stf-tratam-tema-com-cautela.ghtml"
+  },
+  {
+   "data": "05/11/2026",
+   "novo": true,
+   "titulo": "O Dia: TRE-RJ mantém canal 'Exército do Dudu 55' após ação do PL",
+   "texto": "Desembargador negou suspensão do WhatsApp pró-2º turno; faltam provas de que Paes criou, administrou ou financiou o canal. Pedido pode ser reavaliado com fatos novos.",
+   "texto_completo": "O jornal O Dia (Leonardo Brito, 05/11/2026, 21h53) informou que o TRE-RJ negou o pedido do PL para suspender o canal de WhatsApp \"Exército do Dudu 55\", usado por apoiadores de Eduardo Paes na mobilização por segundo turno.\n\nO desembargador entendeu que ainda não há elementos suficientes para suspensão integral ou remoção das publicações, e destacou a ausência de provas de que Paes e demais investigados tenham criado, administrado ou financiado diretamente o espaço. Mensagens como \"Queremos 2º turno!\" foram vistas como ligadas à ADPF do PSD no STF. A frase \"Vai ter 2º turno\", segundo a decisão citada, teria sido de terceira pessoa. Pedidos de preservação de registros e dados da Meta ficaram para etapa posterior. A decisão não altera o resultado eleitoral nem antecipa o julgamento no STF.",
+   "fonte": "O Dia",
+   "url": "https://odia.ig.com.br/eleicoes/2026/11/7319740-tre-rj-mantem-canal-pro-paes-no-whatsapp-apos-acao-do-pl.html"
+  },
+  {
+   "data": "04/11/2026",
+   "novo": true,
+   "titulo": "Folha: Ruas e Paes movem ações na Justiça Eleitoral um contra o outro",
+   "texto": "AIJEs de 1º a 4/11: Ruas alega site ilegal, assédio a servidores e pede bloqueio do 'Exército do Dudu'; Paes acusa compra de votos e panfletos. Ambos pedem inelegibilidade.",
+   "texto_completo": "A Folha (04/11/2026, 19h54) relatou que Douglas Ruas (PL) e Eduardo Paes (PSD) iniciaram nesta semana ofensiva de acusações mútuas na Justiça Eleitoral sobre irregularidades e crimes eleitorais na disputa pelo governo do Rio.\n\nRuas protocolou ações (domingo a terça) alegando site ilegal hospedado nos EUA divulgado por Paes em debate da TV Globo; assédio a servidores/prestadores da Secretaria Municipal de Educação (com base em procedimento do MPT), mirando também o prefeito Eduardo Cavaliere; e bloqueio do canal \"Exército do Dudu\". Paes, na quarta (4), acusou Ruas de \"compra indiscriminada de votos\", panfletos associando-o a valores contrários aos cristãos e confusão de números de urna. Ambos pedem inelegibilidade do adversário por oito anos; nas ações contra Ruas também cassação de diploma/mandato. Procurados, não comentaram. A ofensiva se soma à ADPF do PSD no STF pelo 2º turno.",
+   "fonte": "Folha de S.Paulo",
+   "url": "https://www1.folha.uol.com.br/poder/2026/11/douglas-ruas-e-eduardo-paes-movem-acoes-na-justica-eleitoral-por-atuacao-em-disputa-no-rj.shtml"
+  },
+  {
+   "data": "04/11/2026",
+   "novo": true,
+   "titulo": "Gazeta do Povo: Ruas se reúne com Zanin sobre a ADPF do 2º turno",
+   "texto": "Encontro em 03/11 constou na agenda oficial do ministro como ADPF 1362. No mesmo dia Paes retomou nas redes a cobrança por nova votação.",
+   "texto_completo": "A Gazeta do Povo (Diógenes Freire Feitosa, 04/11/2026, 11h21) informou que o governador eleito Douglas Ruas (PL) se reuniu com o ministro Cristiano Zanin (STF) para tratar da ação que pede segundo turno no Rio. A agenda oficial do ministro identificou o assunto como ADPF 1362, proposta pelo PSD.\n\nA reunião ocorreu na terça (3), no mesmo dia em que Eduardo Paes voltou a defender nova votação em vídeo nas redes, afirmando que mais de 270 mil eleitores escolheram Garotinho e que a Constituição exige segundo turno sem maioria absoluta. A reportagem recapitula a retotalização que elevou Ruas a 50,88% dos válidos e o pedido do PSD para suspender esses efeitos.",
+   "fonte": "Gazeta do Povo",
+   "url": "https://www.gazetadopovo.com.br/republica/douglas-ruas-se-reune-com-zanin-para-tratar-de-acao-que-pede-segundo-turno-no-rio-de-janeiro/"
+  },
+  {
+   "data": "03/11/2026",
+   "novo": true,
+   "titulo": "O Globo: Paes vai às redes e pede movimento por 2º turno no RJ",
+   "texto": "Primeiro pronunciamento dele sobre a campanha dos apoiadores. Cita ADPF do PSD; Ruas disse em coletiva que a questão está superada. Valor: Paes fala em suplementar em 6/12.",
+   "texto_completo": "O Globo (Fernanda Alves, 03/11/2026) informou que Eduardo Paes (PSD) divulgou vídeo nas redes reiniciando a luta por segundo turno no governo do Rio — a primeira vez que comentou a campanha endossada por apoiadores após a anulação dos votos de Garotinho.\n\nPaes disse ter ficado em silêncio para não atrapalhar a eleição presidencial e que a decisão do 1º turno \"foi para ter 2º turno\". Douglas Ruas, em coletiva no mesmo dia, afirmou confiar no sistema eleitoral e ter convicção de que a questão está superada. O Globo lembrou que a ADPF segue em fase de manifestações; o TSE protocolou parecer em 27/10 e Nunes Marques apontou inviabilidade técnica para 25/10. Em matéria paralela, o Valor (03/11) registrou que Paes pediu que o pleito ocorra nas suplementares de 6/12 e citou abaixo-assinado com cerca de 314 mil assinaturas.",
+   "fonte": "O Globo",
+   "url": "https://oglobo.globo.com/politica/noticia/2026/11/03/povo-do-rio-tem-direito-de-votar-paes-vai-as-redes-e-pede-movimento-por-segundo-turno-ao-governo-do-estado.ghtml"
+  },
+  {
+   "data": "02/11/2026",
    "titulo": "Terra: o espaço de Paes no novo governo Lula é incerto, diz cientista político",
    "texto": "Reportagem lista aliados derrotados que Lula pode acomodar no 4º mandato. Para o cientista político Bhreno Vieira (UFPE), Paes teria mais dificuldade e precisaria de um cargo de grande visibilidade.",
    "texto_completo": "Reportagem do Terra (02/11/2026) analisa como a coalizão do quarto mandato de Lula pode abrigar aliados derrotados nas eleições, como Fernando Haddad, Simone Tebet, Marina Silva, Gleisi Hoffmann e Eduardo Paes.\n\nSegundo o cientista político Bhreno Vieira, doutorando na UFPE, Tebet e Marina têm futuro mais previsível. Já Paes (PSD) pode enfrentar mais dificuldades: o perfil dele teria menos força para um cargo ministerial técnico e, por ter carisma e ser apontado como possível presidenciável, caberia a Lula achar um espaço com alto grau de visibilidade. É uma análise; não há anúncio de cargo para Paes.",
@@ -26,7 +72,6 @@
   },
   {
    "data": "31/10/2026",
-   "novo": true,
    "titulo": "O Globo (Ancelmo Gois): artistas do Rio lançam movimento pelo 2º turno para governador",
    "texto": "Grupo liderado por Eduardo Barata (APTR) se reúne na terça (3/11) para cobrar 2º turno Paes × Ruas. É mobilização política; liminar de Zanin na ADPF 1362 segue sem decisão.",
    "texto_completo": "A coluna de Ancelmo Gois, no O Globo (31/10), informou que artistas liderados por Eduardo Barata, presidente da Associação dos Produtores de Teatro do Rio (APTR), se reúnem na terça-feira (3/11) para lançar um movimento pela realização do segundo turno na eleição para o governo do Rio.\n\nA nota lembra que o PSD, partido de Eduardo Paes, questiona no STF (ADPF 1362) a decisão do TSE que anulou os votos de Anthony Garotinho e permitiu a proclamação de Douglas Ruas (PL) como eleito no primeiro turno. Trata-se de mobilização da sociedade civil, não de decisão judicial. Até 31/10, o portal do STF seguia com vista à AGU desde 27/10, sem liminar de Cristiano Zanin.",
@@ -35,7 +80,6 @@
   },
   {
    "data": "30/10/2026",
-   "novo": true,
    "titulo": "O Dia (coluna Política Costa do Sol): segundo turno no Rio ainda pode sair do papel?",
    "texto": "Advogado eleitoral Pedro Canellas disse à rádio RCFM que há fundamento constitucional para 2º turno Paes x Ruas em outra data; STF ainda não decidiu.",
    "texto_completo": "A coluna Política Costa do Sol, do jornal O Dia (30/10/2026, 14h17), relatou que o advogado Pedro Canellas, especialista em Direito Eleitoral, afirmou em entrevista à rádio RCFM na quinta-feira (29) que existem fundamentos jurídicos para a realização de um segundo turno entre Eduardo Paes (PSD) e Douglas Ruas (PL).\n\nCanellas analisou a ADPF do PSD no STF contra a decisão do TSE que anulou os 274.411 votos de Anthony Garotinho. Para ele, a manifestação de Nunes Marques sobre a impossibilidade logística dizia respeito só à data de 25/10, com urnas já lacradas, e não seria impedimento definitivo para uma votação em outro momento, hipótese prevista no pedido alternativo do PSD. O caso segue sem decisão: o relator Cristiano Zanin pediu informações ao TSE e manifestações da AGU e da PGR. Douglas Ruas continua oficialmente reconhecido como governador eleito.",
@@ -44,7 +88,6 @@
   },
   {
    "data": "29/10/2026",
-   "novo": true,
    "titulo": "Brasil de Fato: 'Exército do Dudu' chega a quase 250 mil e TSE diz inviável 2º turno em 25/10",
    "texto": "Manifestação de Nunes Marques (27/10) ao STF: urnas já lacradas; PSD pede pleito extraordinário antes da diplomação.",
    "fonte": "Brasil de Fato",
@@ -53,7 +96,6 @@
   },
   {
    "data": "28/10/2026",
-   "novo": true,
    "titulo": "Folha: PT e aliados de Paes discutem herança da virada de Lula; 'Exército do Dudu' com 255 mil",
    "texto": "Paes de férias no exterior desde 25/10. Aliados pressionam STF por 2º turno; PT-RJ fala em possível ministério, Ferreirinha nega que seja o foco.",
    "fonte": "Folha de S.Paulo",
@@ -62,7 +104,6 @@
   },
   {
    "data": "28/10/2026",
-   "novo": true,
    "titulo": "VEJA: 'Exército do Dudu' passa de 230 mil no WhatsApp",
    "texto": "Aliados de Paes, inspirados no 'Exército do Lula', mobilizam canal no WhatsApp para tentar forçar 2º turno no Rio via STF.",
    "fonte": "VEJA",
@@ -71,7 +112,6 @@
   },
   {
    "data": "27/10/2026",
-   "novo": true,
    "titulo": "UOL: Nunes Marques diz ao STF que não é 'tecnicamente possível' 2º turno no RJ",
    "texto": "Presidente do TSE, em resposta a Zanin na ADPF do PSD: urnas do 25/10 já lacradas; nova carga e lacração incompatíveis com o prazo.",
    "fonte": "UOL",
@@ -80,7 +120,6 @@
   },
   {
    "data": "26/10/2026",
-   "novo": true,
    "titulo": "Mobile Time: canal 'Exército do Dudu 55' explode no WhatsApp",
    "texto": "Canal criado para pressionar o STF por 2º turno chegou a cerca de 89 mil participantes em 26/10, um dos assuntos mais comentados no X.",
    "fonte": "Mobile Time",
@@ -89,7 +128,6 @@
   },
   {
    "data": "14/10/2026",
-   "novo": true,
    "titulo": "Diário do Rio: mesmo após Paes aceitar derrota, PSD recorre ao STF",
    "texto": "Partido protocolou nova medida (12/10) questionando a anulação dos 274.411 votos de Garotinho para restabelecer o 2º turno.",
    "fonte": "Diário do Rio",
@@ -98,7 +136,6 @@
   },
   {
    "data": "09/10/2026",
-   "novo": true,
    "titulo": "g1: Paes reconhece derrota; Ruas deve ser declarado governador",
    "texto": "Após o TSE anular votos de Garotinho e Zanin negar liminar no STF, Paes disse na noite de 08/10 que não haverá 2º turno e que respeita a decisão.",
    "fonte": "g1",
@@ -107,7 +144,6 @@
   },
   {
    "data": "09/10/2026",
-   "novo": true,
    "titulo": "Poder360: Paes diz que discorda, mas aceita a Justiça Eleitoral",
    "texto": "Nota de 08/10: \"Infelizmente, a Justiça decidiu que não haverá 2º turno, contrariando a vontade soberana dos eleitores\".",
    "fonte": "Poder360",
@@ -116,7 +152,6 @@
   },
   {
    "data": "18/08/2026",
-   "novo": true,
    "titulo": "Ururau: MPRJ investiga suspeita de servidores 'fantasmas' na gestão Paes",
    "texto": "Inquérito civil (set/2025) mira dois assessores comissionados; Conselho Superior do MPRJ mandou aprofundar após Prefeitura alegar frequência integral sem provas.",
    "fonte": "Ururau",
@@ -133,7 +168,6 @@
   },
   {
    "data": "12/03/2024",
-   "novo": true,
    "titulo": "ConJur: STF (Mendonça) nega arquivar inquérito Paes e Pedro Paulo",
    "texto": "INQ 4.435 (doações Odebrecht/campanha 2014): ministro negou arquivamento por demora e deu mais 60 dias para relatório final da Polícia.",
    "fonte": "Consultor Jurídico",
