@@ -1,11 +1,11 @@
 {
-  "novidade_id": "2026-11-06 09:25",
-  "atualizado_em": "06/11/2026 09:25",
+  "novidade_id": "2026-11-06 12:26",
+  "atualizado_em": "06/11/2026 12:26",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
     "numero_adpf": "ADPF 1362",
-    "situacao": "Portal do STF confirma: TSE prestou informações (27/10) e ação está com vista à AGU; PGR ainda vai se manifestar. Liminar sem decisão até 31/10, 9h25."
+    "situacao": "Portal do STF (consulta 06/11): em 03/11 petição 137512 (procuração/substabelecimento) e processo concluso ao relator Zanin. Sem parecer da AGU/PGR no andamento e liminar ainda sem decisão. Vista à AGU permanece o último passo substantivo anterior (27/10)."
   },
   "data_alvo": "2026-10-25T08:00:00-03:00",
   "processo": {
@@ -74,6 +74,24 @@
     }
   ],
   "andamentos": [
+    {
+      "data": "03/11/2026",
+      "titulo": "Portal do STF: processo conclusos ao relator Zanin",
+      "texto": "O portal do STF registra, em 3/11, que a ADPF 1362 voltou conclusa ao ministro Cristiano Zanin. Não há decisão sobre a liminar; também não aparece parecer da AGU nem da PGR.",
+      "texto_completo": "A consulta ao portal de processos do STF em 6/11 mostrou dois andamentos novos em 3/11, posteriores à vista à AGU de 27/10.\n\nO mais recente é o registro \"Conclusos ao(à) Relator(a)\", com a descrição oficial de que o processo foi encaminhado para análise do ministro responsável pelo caso — Cristiano Zanin. Logo abaixo aparece a petição 137512/2026, de 3/11 às 16h54, classificada como Procuração/Substabelecimento.\n\nNão há, no andamento oficial até essa consulta, registro de parecer da Advocacia-Geral da União, de vista ou parecer da PGR, nem de decisão do relator sobre a liminar pedida pelo PSD. A faixa de status da liminar permanece \"Sem decisão\".",
+      "fonte": "Portal do STF (andamentos da ADPF 1362)",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240",
+      "novo": true
+    },
+    {
+      "data": "03/11/2026",
+      "titulo": "Portal do STF: petição de procuração/substabelecimento (137512)",
+      "texto": "Em 3/11, às 16h54, foi protocolada a petição 137512 (procuração/substabelecimento). Em seguida o processo ficou concluso ao relator. Liminar ainda sem decisão.",
+      "texto_completo": "No mesmo 3/11, o portal do STF registra a petição 137512/2026, protocolada às 16h54 e descrita como Procuração/Substabelecimento. É um ato processual de representação, não uma decisão.\n\nDepois dessa petição, o sistema aponta o processo como concluso ao relator Cristiano Zanin. Continua sem registro de parecer da AGU ou da PGR e sem decisão sobre a liminar.",
+      "fonte": "Portal do STF (andamentos da ADPF 1362)",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7724240",
+      "novo": true
+    },
     {
       "data": "27/10/2026",
       "titulo": "Portal do STF confirma: TSE prestou informações e ação foi à AGU",
@@ -251,13 +269,31 @@
   "stf_nota": "ADPF 1362",
   "segundo_turno": [
     {
+      "data": "05/11/2026",
+      "titulo": "Exame: Paes intensifica cobrança por 2º turno e aciona TRE-RJ contra chapa de Ruas",
+      "texto": "Reportagem da Exame de 5/11 diz que Paes voltou a pedir 2º turno nas redes (vídeos de 3 e 4/11) e que a coligação dele pediu ao TRE-RJ a cassação da chapa de Ruas. A liminar de Zanin na ADPF 1362 segue sem decisão.",
+      "texto_completo": "A revista Exame publicou em 5/11 reportagem sobre a retomada da contestação de Eduardo Paes (PSD) ao resultado do 1º turno no Rio. Segundo o texto, em 3/11 Paes pediu mobilização pelo segundo turno e em 4/11 fez novas acusações contra a campanha de Douglas Ruas (PL), incluindo panfletos que, na visão dele, teriam induzido eleitores ao erro.\n\nAlém da ADPF 1362 no STF, a reportagem informa que Paes e a coligação acionaram o TRE-RJ pedindo cassação da chapa Ruas-Louback por abuso de poder econômico, desinformação e compra de votos. São acusações apresentadas pelos autores da ação; a Exame registra que não há decisão judicial que as confirme.\n\nSobre o STF, o texto lembra que a ADPF 1362, sob relatoria de Zanin, questiona a exclusão dos votos de Garotinho do cálculo da maioria absoluta. Não há notícia de decisão da liminar.",
+      "fonte": "Exame",
+      "url": "https://exame.com/brasil/eduardo-paes-contesta-eleicao-no-rio-entenda-o-que-se-sabe-e-o-que-esta-em-jogo/",
+      "novo": true
+    },
+    {
+      "data": "03/11/2026",
+      "titulo": "O Globo: Ruas se reúne com Zanin sobre a ADPF 1362; liminar segue sem decisão",
+      "texto": "O Globo informa que Douglas Ruas (PL) se reuniu em 3/11 com o ministro Cristiano Zanin para tratar da ação do PSD que pede 2º turno no RJ. A agenda oficial do ministro citou a ADPF 1362. Não há decisão sobre a liminar.",
+      "texto_completo": "O jornal O Globo publicou em 3/11 que o presidente da Alerj e governador eleito Douglas Ruas (PL) se reuniu naquele dia com o ministro Cristiano Zanin, relator da ADPF 1362. O assunto do encontro, segundo a reportagem, é a ação do PSD, partido de Eduardo Paes, que pede a realização de segundo turno após a anulação dos votos de Anthony Garotinho.\n\nA matéria lembra que a ação está em fase de manifestações: Zanin pediu informações ao TSE e manifestações da AGU e da PGR; o TSE protocolou parecer em 27/10 dizendo que não era tecnicamente possível incluir a eleição para governador em 25/10. Segundo O Globo, a AGU deveria se manifestar em seguida e depois a PGR.\n\nA reunião não é decisão judicial. Até a consulta ao portal do STF em 6/11, a liminar pedida pelo PSD continuava sem decisão.",
+      "fonte": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/11/03/governador-eleito-do-rio-douglas-ruas-se-encontra-com-zanin-para-tratar-de-acao-que-pede-segundo-turno-no-estado.ghtml",
+      "novo": true
+    },
+    {
       "data": "06/11/2026",
       "titulo": "Folha: debate sobre 2º turno no RJ mantém STF na política do estado; Zanin segue sem decidir",
       "texto": "Reportagem da Folha de 6/11 diz que o destino do Palácio Guanabara está de novo nas mãos de Zanin, relator da ação do PSD. A liminar na ADPF 1362 segue sem decisão.",
       "texto_completo": "A Folha de S.Paulo publicou em 6/11 reportagem sobre como a ação do PSD pelo 2º turno prolonga a atuação do STF na política fluminense por quase um ano.\n\nSegundo o texto, o STF também é responsável pelos desdobramentos da Operação Unha e Carne e por manter o desembargador Ricardo Couto, presidente do TJ-RJ, como governador interino por liminar de Zanin, referendada pelo plenário.\n\nA reportagem diz que o destino do Palácio Guanabara está de novo nas mãos de Zanin. Não há decisão sobre a liminar na ADPF 1362 até a publicação.",
       "fonte": "Folha de S.Paulo",
       "url": "https://www1.folha.uol.com.br/poder/2026/11/debate-sobre-2o-turno-no-rj-mantem-atuacao-do-stf-na-politica-estadual-por-um-ano.shtml",
-      "novo": true
+      "novo": false
     },
     {
       "data": "03/11/2026",
@@ -266,7 +302,7 @@
       "texto_completo": "A Conjur publicou em 3/11 matéria com especialistas que defendem que o STF determine a realização do 2º turno no Rio em 6/12, em nome da soberania popular.\n\nA reportagem reproduz a tese do PSD na ADPF 1362: votos dados a candidato sub judice, como Garotinho, cujo nome constava da urna, integrariam a base de cálculo da maioria absoluta, e a anulação posterior não se confunde com voto nulo.\n\nÉ opinião de especialistas; não há decisão de Zanin.",
       "fonte": "Conjur",
       "url": "https://conjur.com.br/2026-nov-03/em-nome-da-soberania-popular-stf-deve-ordenar-segundo-turno-no-rio-em-6-12/",
-      "novo": true
+      "novo": false
     },
     {
       "data": "02/11/2026",
@@ -390,5 +426,7 @@
       "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/08/paes-vai-ao-stf-contra-decisao-do-tse-sobre-votos-de-garotinho-e-pede-realizacao-do-2o-turno-no-rj.ghtml"
     }
   ],
-  "status_novos": []
+  "status_novos": [
+    "situacao"
+  ]
 }
