@@ -1,23 +1,37 @@
 # Publicar só o JSON da rotina
 
-O `publicar.sh` antigo apagava o repositório (exceto `.git`, `futebol` e `primeiro-turno`) e copiava `site/` por cima. Uma cópia do site sem `governo.*` removia a aba no `main`.
+O publicador antigo apagava o `pages_repo` e copiava `site/` por cima. A correção não copia a árvore e não move o `HEAD` local.
 
-O script novo não copia a árvore e não apaga arquivo. Ele publica somente os JSON nomeados, em cima do `origin/main` atual.
+Cada JSON tem a própria base, gravada antes da edição. Publicar `adpf.json` não atualiza a base de `paes.json`. Se o remoto mudou `paes.json` depois da base, a edição feita em cima da cópia antiga é recusada.
+
+## Sintaxe para os prompts
+
+Antes de editar o arquivo:
+
+```bash
+bash /workspace/app_presidente/publicar.sh --base paes.json
+```
+
+Isso lê `origin/main` e grava a base. Se `site/paes.json` já é igual ao remoto, ele permanece. Se ainda não existe, é criado com o conteúdo remoto. Se já tem edição local diferente do remoto, o comando para e não substitui.
+
+Quando a cópia local está velha e a edição ainda não começou:
+
+```bash
+bash /workspace/app_presidente/publicar.sh --base --substituir paes.json
+```
+
+Aí sim `site/paes.json` passa a ser o arquivo remoto. Só então edite.
+
+Depois de editar:
 
 ```bash
 bash /workspace/app_presidente/publicar.sh --somente paes.json --sem-alerta "Paes: resumo"
-bash /workspace/app_presidente/publicar.sh --somente ruas.json --sem-alerta "Ruas: resumo"
-bash /workspace/app_presidente/publicar.sh --somente adpf.json --sem-alerta "ADPF: resumo"
-bash /workspace/app_presidente/publicar.sh --somente prefeitura.json --sem-alerta "Prefeitura: resumo"
-bash /workspace/app_presidente/publicar.sh --somente governo.json --sem-alerta "Governo: resumo"
-bash /workspace/app_presidente/publicar.sh --somente flavio.json --sem-alerta "Flavio: resumo"
-bash /workspace/app_presidente/publicar.sh --somente apostas.json --sem-alerta "Apostas: resumo"
 ```
 
-Lista fechada: `ruas.json`, `adpf.json`, `prefeitura.json`, `paes.json`, `governo.json`, `flavio.json`, `apostas.json`. O arquivo é lido de `/workspace/app_presidente/site/`. Caminho com barra, `..` ou outro nome é recusado.
+Troque `paes.json` por `ruas.json`, `adpf.json`, `prefeitura.json`, `governo.json`, `flavio.json` ou `apostas.json`. Outro nome ou caminho é recusado.
 
-Chamada antiga, sem `--somente`, termina com erro e não publica.
+Chamada antiga, sem `--base` e sem `--somente`, não publica.
 
-`--sem-alerta` e `--sem-selo` continuam aceitos. Este publicador não chama os scripts de push.
+`--sem-alerta` e `--sem-selo` continuam aceitos. Este publicador não envia push.
 
-O `pages_repo` existente precisa estar na branch `main` e ser ancestral de `origin/main`. O script faz `git fetch` e monta o commit em cima do remoto. Não usa `reset`, `clean` nem force. Se o mesmo JSON mudou no remoto desde esta cópia, a publicação é recusada.
+O `pages_repo` precisa existir, com `origin`, mas o script não depende da árvore antiga dele para montar o `main` remoto e não dá `update-ref` nessa branch. O índice e os arquivos de trabalho do `pages_repo` ficam como estavam.

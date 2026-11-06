@@ -78,6 +78,7 @@ remote_sha() {
 echo "=== 1. site velho sem governo.* não apaga a aba ==="
 D=$(mktemp -d)
 new_repo "$D"
+pub "$D" --base paes.json >/dev/null
 printf '%s\n' '{"v":2,"quem":"real"}' > "$D/site/paes.json"
 rm -f "$D/site/governo.json" "$D/site/governo.css" "$D/site/governo.js"
 OUT=$(pub "$D" --somente paes.json --sem-alerta "Paes: teste local")
@@ -103,7 +104,7 @@ printf '%s\n' '{"v":9,"remoto":true}' > "$D/outro/adpf.json"
 git -C "$D/outro" add adpf.json
 git -C "$D/outro" commit -q -m "adpf remoto"
 git -C "$D/outro" push -q origin main
-# pages_repo fica no commit anterior
+pub "$D" --base ruas.json >/dev/null
 printf '%s\n' '{"v":2}' > "$D/site/ruas.json"
 pub "$D" --somente ruas.json --sem-alerta "Ruas: teste" >/dev/null
 assert_eq "adpf remoto preservado" "$(remote_file "$D" adpf.json)" '{"v":9,"remoto":true}'
@@ -114,6 +115,7 @@ rm -rf "$D"
 echo "=== 3. conflito no mesmo JSON é recusado ==="
 D=$(mktemp -d)
 new_repo "$D"
+pub "$D" --base paes.json >/dev/null
 git clone -q "$D/bare.git" "$D/outro"
 git -C "$D/outro" config user.name "teste"
 git -C "$D/outro" config user.email "teste@example.com"
@@ -127,13 +129,14 @@ OUT=$(pub "$D" --somente paes.json --sem-alerta "Paes: conflito" 2>&1)
 RC=$?
 set -e
 [ "$RC" -ne 0 ] && ok "conflito recusado" || bad "conflito recusado" "$OUT"
-echo "$OUT" | grep -q "conflito em paes.json" && ok "mensagem de conflito" || bad "mensagem de conflito" "$OUT"
+echo "$OUT" | grep -q "base de paes.json desatualizada" && ok "mensagem de conflito" || bad "mensagem de conflito" "$OUT"
 assert_eq "remoto não foi sobrescrito" "$(remote_file "$D" paes.json)" '{"v":2,"lado":"remoto"}'
 rm -rf "$D"
 
 echo "=== 4. cópia velha que reverteria o remoto é recusada ==="
 D=$(mktemp -d)
 new_repo "$D"
+pub "$D" --base prefeitura.json >/dev/null
 git clone -q "$D/bare.git" "$D/outro"
 git -C "$D/outro" config user.name "teste"
 git -C "$D/outro" config user.email "teste@example.com"
@@ -141,13 +144,12 @@ printf '%s\n' '{"v":2,"lado":"remoto"}' > "$D/outro/prefeitura.json"
 git -C "$D/outro" add prefeitura.json
 git -C "$D/outro" commit -q -m "prefeitura remota"
 git -C "$D/outro" push -q origin main
-printf '%s\n' '{"v":1}' > "$D/site/prefeitura.json"
 set +e
 OUT=$(pub "$D" --somente prefeitura.json --sem-alerta "Prefeitura: velha" 2>&1)
 RC=$?
 set -e
 [ "$RC" -ne 0 ] && ok "reversão recusada" || bad "reversão recusada" "$OUT"
-echo "$OUT" | grep -q "cópia desatualizada" && ok "mensagem de cópia velha" || bad "mensagem de cópia velha" "$OUT"
+echo "$OUT" | grep -q "base de prefeitura.json desatualizada" && ok "mensagem de cópia velha" || bad "mensagem de cópia velha" "$OUT"
 assert_eq "prefeitura remota intacta" "$(remote_file "$D" prefeitura.json)" '{"v":2,"lado":"remoto"}'
 rm -rf "$D"
 
@@ -155,6 +157,7 @@ echo "=== 5. sem mudança não cria commit ==="
 D=$(mktemp -d)
 new_repo "$D"
 ANTES=$(remote_sha "$D")
+pub "$D" --base governo.json >/dev/null
 OUT=$(pub "$D" --somente governo.json --sem-alerta "Governo: igual")
 echo "$OUT" | grep -q "Nada mudou" && ok "sem mudança" || bad "sem mudança" "$OUT"
 assert_eq "sha estável" "$(remote_sha "$D")" "$ANTES"
@@ -210,6 +213,8 @@ rm -rf "$D"
 echo "=== 9. concorrência em arquivos diferentes ==="
 D=$(mktemp -d)
 new_repo "$D"
+pub "$D" --base paes.json >/dev/null
+pub "$D" --base adpf.json >/dev/null
 printf '%s\n' '{"v":4}' > "$D/site/paes.json"
 printf '%s\n' '{"v":5}' > "$D/site/adpf.json"
 pub "$D" --somente paes.json --sem-alerta "Paes: paralelo" >/tmp/pub-a 2>&1 &
@@ -243,6 +248,7 @@ echo "=== 11. lixo no pages_repo não entra no commit ==="
 D=$(mktemp -d)
 new_repo "$D"
 printf 'segredo-local\n' > "$D/pages_repo/nao-publicar.txt"
+pub "$D" --base prefeitura.json >/dev/null
 printf '%s\n' '{"v":3}' > "$D/site/prefeitura.json"
 pub "$D" --somente prefeitura.json --sem-selo "Prefeitura: teste" >/dev/null
 NAMES=$(git --git-dir="$D/bare.git" show --name-only --pretty=format: main)
@@ -256,6 +262,7 @@ rm -rf "$D"
 echo "=== 12. segundo publish legítimo depois de alinhar ==="
 D=$(mktemp -d)
 new_repo "$D"
+pub "$D" --base governo.json >/dev/null
 printf '%s\n' '{"v":2}' > "$D/site/governo.json"
 pub "$D" --somente governo.json --sem-alerta "Governo: parte 1" >/dev/null
 printf '%s\n' '{"v":3}' > "$D/site/governo.json"
@@ -271,6 +278,8 @@ for n in paes ruas adpf prefeitura governo apostas; do
   printf '%s\n' '{"v":1}' > "$D/siteA/$n.json"
   printf '%s\n' '{"v":1}' > "$D/siteB/$n.json"
 done
+VIGIA_BASE="$D" VIGIA_SITE="$D/siteA" VIGIA_REPO="$D/pages_repo" \
+  bash "$PUB" --base paes.json >/dev/null
 printf '%s\n' '{"v":"A"}' > "$D/siteA/paes.json"
 printf '%s\n' '{"v":"B"}' > "$D/siteB/paes.json"
 VIGIA_BASE="$D" VIGIA_SITE="$D/siteA" VIGIA_REPO="$D/pages_repo" \
@@ -295,6 +304,64 @@ else
   bad "conteúdo íntegro do vencedor" "$GOT"
 fi
 assert_eq "aba permanece na disputa" "$(remote_file "$D" governo.css)" "css"
+rm -rf "$D"
+
+echo "=== 14. base por arquivo não apaga notícia remota de outro JSON ==="
+D=$(mktemp -d)
+new_repo "$D"
+HEAD0=$(git -C "$D/pages_repo" rev-parse HEAD)
+pub "$D" --base paes.json >/dev/null
+git clone -q "$D/bare.git" "$D/outro"
+git -C "$D/outro" config user.name "teste"
+git -C "$D/outro" config user.email "teste@example.com"
+printf '%s\n' '{"v":2,"noticia":"P2"}' > "$D/outro/paes.json"
+git -C "$D/outro" add paes.json
+git -C "$D/outro" commit -q -m "paes P2"
+git -C "$D/outro" push -q origin main
+pub "$D" --base adpf.json >/dev/null
+printf '%s\n' '{"v":2}' > "$D/site/adpf.json"
+pub "$D" --somente adpf.json --sem-alerta "ADPF: teste" >/dev/null
+assert_eq "P2 sobrevive à publicação de adpf" "$(remote_file "$D" paes.json)" '{"v":2,"noticia":"P2"}'
+assert_eq "site/paes continua P1" "$(cat "$D/site/paes.json")" '{"v":1}'
+printf '%s\n' '{"v":3}' > "$D/site/paes.json"
+set +e
+OUT=$(pub "$D" --somente paes.json --sem-alerta "Paes: P3 sem base nova" 2>&1)
+RC=$?
+set -e
+[ "$RC" -ne 0 ] && ok "P3 sem base nova é recusado" || bad "P3 sem base nova é recusado" "$OUT"
+echo "$OUT" | grep -q "base de paes.json desatualizada" && ok "explica a base velha" || bad "explica a base velha" "$OUT"
+assert_eq "P2 não foi apagado" "$(remote_file "$D" paes.json)" '{"v":2,"noticia":"P2"}'
+assert_eq "HEAD local não avançou" "$(git -C "$D/pages_repo" rev-parse HEAD)" "$HEAD0"
+PORC=$(git -C "$D/pages_repo" status --porcelain)
+assert_eq "worktree local sem reversão" "$PORC" ""
+assert_eq "paes local segue P1" "$(cat "$D/pages_repo/paes.json")" '{"v":1}'
+set +e
+OUT=$(pub "$D" --base paes.json 2>&1)
+RC=$?
+set -e
+[ "$RC" -ne 0 ] && ok "base não apaga edição local" || bad "base não apaga edição local" "$OUT"
+pub "$D" --base --substituir paes.json >/dev/null
+assert_eq "substituir traz P2 para site" "$(cat "$D/site/paes.json")" '{"v":2,"noticia":"P2"}'
+printf '%s\n' '{"v":3,"noticia":"P2"}' > "$D/site/paes.json"
+pub "$D" --somente paes.json --sem-alerta "Paes: P3 em cima de P2" >/dev/null
+assert_eq "P3 conserva a notícia P2" "$(remote_file "$D" paes.json)" '{"v":3,"noticia":"P2"}'
+assert_eq "HEAD continua no lugar" "$(git -C "$D/pages_repo" rev-parse HEAD)" "$HEAD0"
+rm -rf "$D"
+
+echo "=== 15. JSON de site muda entre o hash e a cópia ==="
+D=$(mktemp -d)
+new_repo "$D"
+ANTES=$(remote_sha "$D")
+pub "$D" --base governo.json >/dev/null
+printf '%s\n' '{"v":2}' > "$D/site/governo.json"
+set +e
+OUT=$(VIGIA_PUBLICAR_MUTATE_SITE="printf '%s\n' '{\"v\":99}' > '$D/site/governo.json'" \
+  pub "$D" --somente governo.json --sem-alerta "Governo: corrida" 2>&1)
+RC=$?
+set -e
+[ "$RC" -ne 0 ] && ok "corrida no fonte recusada" || bad "corrida no fonte recusada" "$OUT"
+echo "$OUT" | grep -q "mudou durante a publicação" && ok "explica a corrida" || bad "explica a corrida" "$OUT"
+assert_eq "remoto não levou o JSON rasgado" "$(remote_sha "$D")" "$ANTES"
 rm -rf "$D"
 
 echo
