@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-06 18:25",
-  "atualizado_em": "06/11/2026 18:25",
+  "novidade_id": "adpf-2026-11-07-oglobo-jogo-politico",
+  "atualizado_em": "07/11/2026 09:25",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
@@ -267,13 +267,22 @@
   "stf_nota": "ADPF 1362",
   "segundo_turno": [
     {
+      "data": "07/11/2026",
+      "titulo": "O Globo (Jogo Político): campanha digital de Paes pelo 2º turno tem pouco apoio do PT; Zanin aguarda AGU e PGR",
+      "texto": "Newsletter de Thiago Prado relata que o canal 'Exército do Dudu' levou a hashtag #49NÃOé50 aos assuntos do X, mas a mobilização de Paes pelo 2º turno tem pouco apoio do PT e nas ruas. Segundo o jornal, Zanin aguarda as manifestações da AGU e da PGR antes de se posicionar.",
+      "texto_completo": "A newsletter Jogo Político, do editor Thiago Prado, de O Globo, relata que o canal de WhatsApp 'Exército do Dudu', com cerca de 263 mil seguidores, lançou na quarta-feira uma ação para espalhar a hashtag #49NÃOé50, referência ao percentual de Douglas Ruas antes da anulação dos votos de Garotinho. A expressão chegou aos assuntos mais comentados do X em pouco mais de uma hora.\n\nSegundo o texto, Eduardo Paes concentrou a pressão sobre o STF no ambiente digital, mas com pouca adesão dos partidos aliados: o PT nacional e o do Rio praticamente ignoram a campanha, com exceção de Washington Quaquá, e o marqueteiro das últimas campanhas do ex-prefeito não participa. Os atos de rua, por ora, se limitam a distribuições de adesivos sem repercussão.\n\nO jornal informa que o caso está com o ministro Cristiano Zanin, que aguarda as manifestações da AGU e da PGR para depois se posicionar. Ruas e aliados passaram a acompanhar o quadro com mais atenção nesta semana e o governador eleito teve audiência com Zanin. Não há decisão sobre a liminar.",
+      "fonte": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/11/07/jogo-politico-exercito-do-dudu-de-paes-pelo-2o-turno-no-rio-e-ignorado-pelo-pt-e-nem-marqueteiro-tem.ghtml",
+      "novo": true
+    },
+    {
       "data": "05/11/2026",
       "titulo": "Valor: aliados de Paes dão 2º turno como certo; ministros do STF tratam com cautela",
       "texto": "Reportagem do Valor de 5/11 (atualizada em 6/11) diz que políticos próximos a Paes apostam em decisão favorável do STF, mas ministros e auxiliares consultados avaliam cenários com cautela e não tratam o tema como resolvido. A liminar de Zanin na ADPF 1362 segue sem decisão.",
       "texto_completo": "O Valor Econômico publicou em 5/11, atualizado em 6/11 às 8h45, reportagem de Tiago Angelo sobre a expectativa de segundo turno no Rio.\n\nSegundo o texto, políticos próximos a Eduardo Paes (PSD) dão nos bastidores como certa a realização de um segundo turno, apostando em decisão favorável do STF na ação do PSD. Paes, ainda conforme a reportagem, teria dito a pessoas próximas que está confiante e estaria fazendo contas de votos no plenário.\n\nMinistros do STF e auxiliares consultados pelo Valor, porém, ainda avaliam cenários e dizem não ser possível afirmar se a Corte entrará em tema eleitoral rumoroso, com impacto em todo o estado. Integrantes da Corte não tratam o assunto como resolvido: o processo segue em instrução, depois do prazo aberto por Zanin para informações do TSE e manifestações da PGR (e da AGU). Há integrantes que consideram a solicitação do PSD \"frágil\".\n\nO Valor também registra que, entre aliados de Douglas Ruas (PL), o cenário é de incerteza. Não há decisão sobre a liminar. Até a consulta ao portal do STF em 6/11 à noite, o último andamento oficial da ADPF 1362 continuava sendo o de 3/11 (processo concluso ao relator Zanin), sem parecer da AGU/PGR no andamento e sem decisão da liminar.",
       "fonte": "Valor Econômico",
       "url": "https://valor.globo.com/politica/noticia/2026/11/05/entorno-de-paes-aposta-em-segundo-turno-no-rio-mas-ministros-do-stf-tratam-tema-com-cautela.ghtml",
-      "novo": true
+      "novo": false
     },
     {
       "data": "05/11/2026",
