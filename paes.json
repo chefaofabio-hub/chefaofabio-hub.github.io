@@ -1,13 +1,13 @@
 {
-  "novidade_id": "2026-11-07 06:00",
-  "atualizado_em": "07/11/2026 06:00",
+  "novidade_id": "2026-11-07 18:00",
+  "atualizado_em": "07/11/2026 18:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
-  "assunto": "O Globo: mobilização digital sem PT; PlatôBR: aliados otimistas no STF",
-  "resumo": "O Globo (07/11, Jogo Político): 'Exército do Dudu' (263 mil) viralizou '49NÃOé50', mas PT quase ignora Paes e Faulhaber não participa. PlatôBR (07/11): entorno otimista com reversão no STF; Zanin aguarda TSE/PGR; limite de suplementares em 6/12. AIJEs e INQ 4.435 arquivado seguem no quadro.",
+  "assunto": "Brasil 247: Renan Santos (Missão) aposta em 2º turno e discute apoio a Paes",
+  "resumo": "Brasil 247 (07/11, 15h08): Renan Santos disse em live (6/11) achar que haverá 2º turno por decisão judicial e cogitou abandonar a neutralidade contra Ruas, sem endosso formal a Paes. O Globo e PlatôBR (07/11) sobre Exército do Dudu e otimismo no STF seguem no quadro; ADPF 1362 sem novo andamento.",
   "status": {
     "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
     "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
-    "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). PlatôBR (07/11): aliados de Paes otimistas com reversão no STF; Zanin aguarda TSE e PGR; fontes temem 'crise sob encomenda'; resolução do TSE cita 6/12 como limite para suplementares. O Globo (07/11): Zanin aguarda AGU e PGR. Folha (06/11): artistas em 2º encontro (5/11); Ruas indica secretários e faz transição com Couto. Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin (03/11). Valor (05/11) descreveu STF cauteloso. INQ 4.435 permanece arquivado.",
+    "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). Brasil 247 (07/11): Renan Santos (Missão) aposta em 2º turno judicial e discute apoio circunstancial a Paes contra Ruas. PlatôBR (07/11): aliados otimistas; Zanin aguarda TSE e PGR; limite de suplementares em 6/12. O Globo (07/11): Zanin aguarda AGU e PGR. Folha (06/11): artistas em 2º encontro (5/11); Ruas indica secretários e faz transição com Couto. Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin (03/11). Valor (05/11) descreveu STF cauteloso. INQ 4.435 permanece arquivado.",
     "Mobilização 'Exército do Dudu'": "Canal WhatsApp pró-2º turno. O Globo (07/11): 263 mil seguidores; hashtag '49NÃOé50' no TT do X; PT quase não apoia Paes nas redes; Faulhaber fora; atos de rua esvaziados. TRE-RJ negou suspensão pedida pelo PL (O Dia, 05/11). Valor (03/11) citou ~314 mil no abaixo-assinado; Folha tinha ~255 mil no canal em 30/10.",
     "Ofensiva judicial Ruas × Paes": "AIJEs mútuas no TRE (01–04/11): Ruas alega site ilegal, assédio a servidores e pede bloqueio do canal; Paes alega compra de votos e panfletos. Ambos pedem inelegibilidade (Folha 04/11; O Globo 04/11)."
   },
@@ -16,6 +16,15 @@
     "Mobilização 'Exército do Dudu'"
   ],
   "itens": [
+    {
+      "data": "07/11/2026",
+      "novo": true,
+      "titulo": "Brasil 247: Renan Santos (Missão) aposta em 2º turno e discute apoio a Paes",
+      "texto": "Em live (6/11), o presidente do Missão disse achar que haverá 2º turno por decisão judicial e cogitou abandonar a neutralidade contra Ruas, apesar da distância política com Paes; não formalizou endosso.",
+      "texto_completo": "O Brasil 247 (07/11/2026, 15h08) informou que Renan Santos, presidente nacional do partido Missão, afirmou em transmissão ao vivo na sexta (6) acreditar que uma decisão judicial poderá determinar segundo turno no Rio entre Douglas Ruas (PL) e Eduardo Paes (PSD).\n\n\"Sim. Eu acho que haverá, haverá segundo turno das eleições, sim. Vai ser uma decisão judicial, provavelmente terá\", disse. Renan atacou a projeção de Ruas (\"ninguém sabe quem é Douglas Ruas\") e argumentou que derrotá-lo deveria prevalecer sobre a distância política com o grupo de Paes. Consultou os espectadores sobre abandonar a neutralidade numa eventual nova votação.\n\nA reportagem registra que ele não formalizou endosso eleitoral a Paes no trecho apresentado — a aproximação seria circunstancial, motivada pela oposição a Ruas. O contexto jurídico permanece a ADPF do PSD no STF sobre os votos de Anthony Garotinho anulados pelo TSE.",
+      "fonte": "Brasil 247",
+      "url": "https://www.brasil247.com/poder/renan-santos-aponta-segundo-turno-no-rio-de-janeiro-e-declara-apoio-a-eduardo-paes/"
+    },
     {
       "data": "07/11/2026",
       "novo": true,
