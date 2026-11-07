@@ -1,22 +1,39 @@
 {
-  "novidade_id": "2026-11-06 18:00",
-  "atualizado_em": "06/11/2026 18:00",
+  "novidade_id": "2026-11-07 06:00",
+  "atualizado_em": "07/11/2026 06:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
-  "assunto": "Folha: Zanin aguarda AGU/PGR na ADPF; artistas em 2º ato; Ruas faz transição",
-  "resumo": "Folha (06/11) confirma: Zanin aguarda AGU e PGR na ADPF 1362 do PSD pelo 2º turno; artistas fizeram segundo encontro (5/11); Ruas indica secretários e faz transição com Couto. TRE-RJ manteve o canal 'Exército do Dudu' (05/11). AIJEs mútuas e INQ 4.435 arquivado seguem no quadro.",
+  "assunto": "O Globo: mobilização digital sem PT; PlatôBR: aliados otimistas no STF",
+  "resumo": "O Globo (07/11, Jogo Político): 'Exército do Dudu' (263 mil) viralizou '49NÃOé50', mas PT quase ignora Paes e Faulhaber não participa. PlatôBR (07/11): entorno otimista com reversão no STF; Zanin aguarda TSE/PGR; limite de suplementares em 6/12. AIJEs e INQ 4.435 arquivado seguem no quadro.",
   "status": {
     "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
     "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
-    "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). Folha (06/11): Zanin aguarda AGU e PGR para dar andamento; artistas em 2º encontro (5/11) pelo novo pleito; Ruas já indica secretários e faz transição com Couto. Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin (03/11). Valor (05/11) descreveu STF cauteloso. INQ 4.435 permanece arquivado.",
-    "Mobilização 'Exército do Dudu'": "Canal WhatsApp pró-2º turno; TRE-RJ negou suspensão pedida pelo PL (O Dia, 05/11). Valor (03/11) citou ~314 mil no abaixo-assinado; Folha tinha ~255 mil no canal em 30/10.",
+    "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). PlatôBR (07/11): aliados de Paes otimistas com reversão no STF; Zanin aguarda TSE e PGR; fontes temem 'crise sob encomenda'; resolução do TSE cita 6/12 como limite para suplementares. O Globo (07/11): Zanin aguarda AGU e PGR. Folha (06/11): artistas em 2º encontro (5/11); Ruas indica secretários e faz transição com Couto. Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin (03/11). Valor (05/11) descreveu STF cauteloso. INQ 4.435 permanece arquivado.",
+    "Mobilização 'Exército do Dudu'": "Canal WhatsApp pró-2º turno. O Globo (07/11): 263 mil seguidores; hashtag '49NÃOé50' no TT do X; PT quase não apoia Paes nas redes; Faulhaber fora; atos de rua esvaziados. TRE-RJ negou suspensão pedida pelo PL (O Dia, 05/11). Valor (03/11) citou ~314 mil no abaixo-assinado; Folha tinha ~255 mil no canal em 30/10.",
     "Ofensiva judicial Ruas × Paes": "AIJEs mútuas no TRE (01–04/11): Ruas alega site ilegal, assédio a servidores e pede bloqueio do canal; Paes alega compra de votos e panfletos. Ambos pedem inelegibilidade (Folha 04/11; O Globo 04/11)."
   },
   "status_novos": [
     "Disputa eleitoral RJ 2026",
-    "Mobilização 'Exército do Dudu'",
-    "Ofensiva judicial Ruas × Paes"
+    "Mobilização 'Exército do Dudu'"
   ],
   "itens": [
+    {
+      "data": "07/11/2026",
+      "novo": true,
+      "titulo": "O Globo: 'Exército do Dudu' é ignorado pelo PT e nem marqueteiro tem",
+      "texto": "Newsletter Jogo Político (Thiago Prado): canal com 263 mil fez hashtag '49NÃOé50' viralizar; PT quase não apoia Paes; Faulhaber voltou ao exterior; Kassab fala em ministério para Paes.",
+      "texto_completo": "A newsletter Jogo Político, de Thiago Prado no O Globo (07/11/2026, 3h30), descreveu bastidores da ofensiva digital de Eduardo Paes (PSD) pelo segundo turno no Rio.\n\nO canal de WhatsApp \"Exército do Dudu\" — com 263 mil seguidores, segundo a reportagem — lançou a missão de circular a hashtag \"49NÃOé50\", referência ao percentual de Douglas Ruas (PL) antes da retotalização; a expressão chegou ao Trending Topics do X. Paes joga fichas no digital para pressionar o STF a aceitar a tese do PSD; o caso segue com o ministro Cristiano Zanin, que aguarda AGU e PGR.\n\nA coluna aponta desmobilização dos aliados da coligação nas redes e diz que o marqueteiro Marcello Faulhaber, das três últimas campanhas de Paes, já voltou ao exterior e não participa dos vídeos. Atos de rua pró-Paes teriam sido esvaziados. No PT, só Washington Quaquá teria defendido nova disputa; Lindbergh, Freixo e Benedita celebram Lula. Gilberto Kassab, segundo a newsletter, fala abertamente que Paes poderia ser ministro da cota do PSD no quarto governo Lula. Ruas passou a olhar o quadro com mais atenção e já teve audiência com Zanin.",
+      "fonte": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/11/07/jogo-politico-exercito-do-dudu-de-paes-pelo-2o-turno-no-rio-e-ignorado-pelo-pt-e-nem-marqueteiro-tem.ghtml"
+    },
+    {
+      "data": "07/11/2026",
+      "novo": true,
+      "titulo": "PlatôBR: entorno de Paes otimista com STF; temem 'crise sob encomenda'",
+      "texto": "Aliados apostam que o Supremo reverta a proclamação de Ruas. Zanin aguarda TSE e PGR. Fontes citam risco de desgaste para a Corte; resolução do TSE marca 6/12 como limite para suplementares.",
+      "texto_completo": "O PlatôBR (Victor Fuzeira, 07/11/2026) informou que aliados de Eduardo Paes (PSD) e integrantes da direção do partido demonstram otimismo com a possibilidade de o STF reverter a decisão do TSE que proclamou Douglas Ruas (PL) governador eleito no primeiro turno.\n\nA controvérsia envolve os 274.411 votos de Anthony Garotinho (Republicanos). Com a anulação determinada pelo TSE, Ruas passou a 50,88% dos válidos. O PSD alega que a exclusão posterior alterou a base de cálculo da maioria absoluta. O relator Cristiano Zanin abriu prazo para TSE e PGR se manifestarem; o caso ainda estaria em fase preliminar, segundo auxiliares e advogados ouvidos.\n\nFontes citadas temem que uma eventual reversão abra \"crise sob encomenda\" para o STF, que já interveio na sucessão fluminense após a cassação de Cláudio Castro (vista de Flávio Dino ainda não devolvida). Aliados de Paes apostam em novos desdobramentos diante do calendário curto: resolução do TSE prevê 6 de dezembro como data-limite para eleições suplementares. Em 3/11, Paes defendeu nas redes a revisão da decisão e nova votação.",
+      "fonte": "PlatôBR",
+      "url": "https://platobr.com.br/o-otimismo-no-entorno-de-paes-e-o-temor-de-uma-crise-sob-encomenda-no-stf"
+    },
     {
       "data": "06/11/2026",
       "novo": true,
