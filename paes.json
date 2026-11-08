@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-07 22:00",
-  "atualizado_em": "07/11/2026 22:00",
+  "novidade_id": "2026-11-08 14:00",
+  "atualizado_em": "08/11/2026 14:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
   "assunto": "Paes é cotado para ministério no Lula 4 (Turismo ou Cidades)",
   "resumo": "Brasil 247 (07/11, 15h08): Renan Santos disse em live (6/11) achar que haverá 2º turno por decisão judicial e cogitou abandonar a neutralidade contra Ruas, sem endosso formal a Paes. O Globo e PlatôBR (07/11) sobre Exército do Dudu e otimismo no STF seguem no quadro; ADPF 1362 sem novo andamento.",
@@ -8,7 +8,7 @@
     "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
     "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
     "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). Brasil 247 (07/11): Renan Santos (Missão) aposta em 2º turno judicial e discute apoio circunstancial a Paes contra Ruas. PlatôBR (07/11): aliados otimistas; Zanin aguarda TSE e PGR; limite de suplementares em 6/12. O Globo (07/11): Zanin aguarda AGU e PGR. Folha (06/11): artistas em 2º encontro (5/11); Ruas indica secretários e faz transição com Couto. Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin (03/11). Valor (05/11) descreveu STF cauteloso. INQ 4.435 permanece arquivado.",
-    "Mobilização 'Exército do Dudu'": "Canal WhatsApp pró-2º turno. O Globo (07/11): 263 mil seguidores; hashtag '49NÃOé50' no TT do X; PT quase não apoia Paes nas redes; Faulhaber fora; atos de rua esvaziados. TRE-RJ negou suspensão pedida pelo PL (O Dia, 05/11). Valor (03/11) citou ~314 mil no abaixo-assinado; Folha tinha ~255 mil no canal em 30/10.",
+    "Mobilização 'Exército do Dudu'": "Canal WhatsApp pró-2º turno. Estadão (08/11): canal 'flopou', ~260 mil (263 mil em 06/11) contra 10,2 mi do 'Exército do Lula'; aliados alegam 'timing' e apostam no STF. Canal WhatsApp pró-2º turno. O Globo (07/11): 263 mil seguidores; hashtag '49NÃOé50' no TT do X; PT quase não apoia Paes nas redes; Faulhaber fora; atos de rua esvaziados. TRE-RJ negou suspensão pedida pelo PL (O Dia, 05/11). Valor (03/11) citou ~314 mil no abaixo-assinado; Folha tinha ~255 mil no canal em 30/10.",
     "Ofensiva judicial Ruas × Paes": "AIJEs mútuas no TRE (01–04/11): Ruas alega site ilegal, assédio a servidores e pede bloqueio do canal; Paes alega compra de votos e panfletos. Ambos pedem inelegibilidade (Folha 04/11; O Globo 04/11)."
   },
   "status_novos": [
@@ -16,6 +16,15 @@
     "Mobilização 'Exército do Dudu'"
   ],
   "itens": [
+    {
+      "data": "08/11/2026",
+      "novo": true,
+      "titulo": "Estadão (Coluna do Estadão): 'Exército do Dudu' por 2º turno 'flopa' e tem só 260 mil seguidores",
+      "texto": "Coluna diz que o canal pró-2º turno de Paes estagnou em cerca de 260 mil integrantes, contra 10,2 milhões do 'Exército do Lula'; aliados falam em 'otimismo realista' e apostam no STF.",
+      "texto_completo": "A Coluna do Estadão (Leticia Fernandes, 08/11/2026, 12h) informa que o 'Exército do Dudu', canal criado por aliados de Eduardo Paes para pressionar pelo 2º turno no Rio, 'flopou' e tem cerca de 260 mil pessoas, ante 10,2 milhões do 'Exército do Lula'. Na terça (3), Paes pediu em vídeo que o grupo, então com 250 mil seguidores, chegasse a 300 mil, mas até sexta (6) eram 263 mil. O canal copia o modelo de André Janones, com missões e figurinha de Paes com o bordão 'Explode'. Aliados atribuem a baixa adesão ao 'timing' (a população 'virou a página') e dizem estar em 'otimismo realista', apostando na ação no STF relatada por Cristiano Zanin.",
+      "fonte": "Estadão",
+      "url": "https://www.estadao.com.br/politica/coluna-do-estadao/exercito-de-eduardo-paes-por-2-turno-no-rj-flopa-e-tem-apenas-260-mil-seguidores/"
+    },
     {
       "data": "07/11/2026",
       "novo": true,
