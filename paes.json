@@ -1,8 +1,8 @@
 {
-  "novidade_id": "2026-11-07 18:00",
-  "atualizado_em": "07/11/2026 18:00",
+  "novidade_id": "2026-11-07 22:00",
+  "atualizado_em": "07/11/2026 22:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
-  "assunto": "Brasil 247: Renan Santos (Missão) aposta em 2º turno e discute apoio a Paes",
+  "assunto": "Paes é cotado para ministério no Lula 4 (Turismo ou Cidades)",
   "resumo": "Brasil 247 (07/11, 15h08): Renan Santos disse em live (6/11) achar que haverá 2º turno por decisão judicial e cogitou abandonar a neutralidade contra Ruas, sem endosso formal a Paes. O Globo e PlatôBR (07/11) sobre Exército do Dudu e otimismo no STF seguem no quadro; ADPF 1362 sem novo andamento.",
   "status": {
     "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
@@ -16,6 +16,24 @@
     "Mobilização 'Exército do Dudu'"
   ],
   "itens": [
+    {
+      "data": "07/11/2026",
+      "novo": true,
+      "titulo": "O Globo (Malu Gaspar): Paes se movimenta de olho no Ministério do Turismo",
+      "texto": "Coluna diz que, segundo o Correio da Manhã, Paes mira o Turismo no governo Lula 4, pasta também disputada por Marcelo Freixo e Soraya Thronicke.",
+      "texto_completo": "A coluna de Malu Gaspar no O Globo (07/11/2026) informa que a disputa pelo Ministério do Turismo no quarto mandato de Lula opõe a senadora Soraya Thronicke (PSB-MS) e o deputado federal eleito Marcelo Freixo (PT-RJ). De acordo com o Correio da Manhã (coluna de Cláudio Magnavita, 04/11), Eduardo Paes também se movimenta de olho na pasta caso não prospere a tentativa de 2º turno no Rio. Em Brasília, o movimento é visto como uma operação casada entre Freixo e Paes para manter o ministério com um quadro do Rio. Lula não anunciou nenhuma escolha.",
+      "fonte": "O Globo",
+      "url": "https://oglobo.globo.com/blogs/malu-gaspar/post/2026/11/disputa-pelo-turismo-no-governo-lula-4-opoe-soraya-thronicke-e-freixo.ghtml"
+    },
+    {
+      "data": "06/11/2026",
+      "novo": true,
+      "titulo": "Estadão: PSD quer três ministérios no Lula 4; Paes é cotado (Cidades é uma hipótese)",
+      "texto": "Segundo o Estadão/Broadcast, Paes é citado como favorito do PSD para ganhar um ministério; uma possibilidade nos bastidores é o Ministério das Cidades.",
+      "texto_completo": "O Estadão/Broadcast apurou (06/11/2026) que o PSD espera manter ao menos três ministérios no governo Lula 4, mirando pastas com força regional. Eduardo Paes, que apoiou Lula e foi derrotado por Douglas Ruas no 1º turno no Rio, é cogitado como integrante do PSD favorito para ser contemplado com algum ministério; uma das possibilidades aventadas nos bastidores é o Ministério das Cidades. O PSD ainda tenta, na Justiça, garantir um 2º turno no estado.",
+      "fonte": "Estadão",
+      "url": "https://www.estadao.com.br/politica/psd-quer-manter-tres-ministerios-no-governo-lula-4-e-mira-pastas-com-forca-regional-paes-e-citado/"
+    },
     {
       "data": "07/11/2026",
       "novo": true,
