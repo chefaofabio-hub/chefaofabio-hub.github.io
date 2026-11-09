@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-08 14:00",
-  "atualizado_em": "08/11/2026 14:00",
+  "novidade_id": "2026-11-09 06:00",
+  "atualizado_em": "09/11/2026 06:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
   "assunto": "Paes é cotado para ministério no Lula 4 (Turismo ou Cidades)",
   "resumo": "Brasil 247 (07/11, 15h08): Renan Santos disse em live (6/11) achar que haverá 2º turno por decisão judicial e cogitou abandonar a neutralidade contra Ruas, sem endosso formal a Paes. O Globo e PlatôBR (07/11) sobre Exército do Dudu e otimismo no STF seguem no quadro; ADPF 1362 sem novo andamento.",
@@ -16,6 +16,15 @@
     "Mobilização 'Exército do Dudu'"
   ],
   "itens": [
+    {
+      "data": "08/11/2026",
+      "novo": true,
+      "titulo": "Correio da Manhã (Magnavita): ala experiente de Paes abre diálogo com núcleo de Ruas",
+      "texto": "Coluna diz que aliados mais experientes de Paes conversam com o núcleo duro do governador eleito sobre a Alerj em 2027 e a relação prefeitura-estado.",
+      "texto_completo": "Na coluna publicada em 08/11/2026 às 23h05 no Correio da Manhã, Cláudio Magnavita afirma que, enquanto o 'Exército do Dudu' segue cobrando um segundo turno, a turma mais experiente ligada ao ex-prefeito Eduardo Paes abriu diálogo com o núcleo duro do governador eleito Douglas Ruas (PL). Segundo o colunista, a pauta inclui a vida da Alerj na legislatura de 2027 e a retomada do diálogo entre a prefeitura da capital e o governo estadual. Ele acrescenta que, entre os engajados na mobilização pelo 2º turno, estão aqueles que sabem que terão pouco espaço na gestão do prefeito Eduardo Cavaliere.",
+      "fonte": "Correio da Manhã (coluna Magnavita)",
+      "url": "https://www.correiodamanha.com.br/colunistas/magnavita/2026/11/333406-coluna-magnavita-a-turma-experiente-de-eduardo-paes-se-abre-ao-dialogo.html"
+    },
     {
       "data": "08/11/2026",
       "novo": true,
