@@ -1,23 +1,33 @@
 {
-  "novidade_id": "2026-11-09 14:00",
-  "atualizado_em": "09/11/2026 14:00",
+  "novidade_id": "2026-11-09 18:00",
+  "atualizado_em": "09/11/2026 18:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
-  "assunto": "Paes é cotado para ministério no Lula 4 (Turismo ou Cidades)",
-  "resumo": "Brasil 247 (07/11, 15h08): Renan Santos disse em live (6/11) achar que haverá 2º turno por decisão judicial e cogitou abandonar a neutralidade contra Ruas, sem endosso formal a Paes. O Globo e PlatôBR (07/11) sobre Exército do Dudu e otimismo no STF seguem no quadro; ADPF 1362 sem novo andamento.",
+  "assunto": "TRE-RJ recebe ação de Paes pedindo cassação de Ruas e Louback",
+  "resumo": "Diário do Rio (09/11, 17h12): o TRE-RJ recebeu a AIJE de Paes contra Ruas e Louback por panfletos e suposta compra de votos; a fase é inicial. No mesmo dia, Garotinho foi condenado em 1ª instância por calúnia em ação de Paes, e Paes segue cotado para ministério no Lula 4.",
   "status": {
     "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
     "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
     "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). Brasil 247 (07/11): Renan Santos (Missão) aposta em 2º turno judicial e discute apoio circunstancial a Paes contra Ruas. PlatôBR (07/11): aliados otimistas; Zanin aguarda TSE e PGR; limite de suplementares em 6/12. O Globo (07/11): Zanin aguarda AGU e PGR. Folha (06/11): artistas em 2º encontro (5/11); Ruas indica secretários e faz transição com Couto. Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin (03/11). Valor (05/11) descreveu STF cauteloso. INQ 4.435 permanece arquivado.",
     "Mobilização 'Exército do Dudu'": "Canal WhatsApp pró-2º turno. Estadão (08/11): canal 'flopou', ~260 mil (263 mil em 06/11) contra 10,2 mi do 'Exército do Lula'; aliados alegam 'timing' e apostam no STF. Canal WhatsApp pró-2º turno. O Globo (07/11): 263 mil seguidores; hashtag '49NÃOé50' no TT do X; PT quase não apoia Paes nas redes; Faulhaber fora; atos de rua esvaziados. TRE-RJ negou suspensão pedida pelo PL (O Dia, 05/11). Valor (03/11) citou ~314 mil no abaixo-assinado; Folha tinha ~255 mil no canal em 30/10.",
-    "Ofensiva judicial Ruas × Paes": "AIJEs mútuas no TRE (01–04/11): Ruas alega site ilegal, assédio a servidores e pede bloqueio do canal; Paes alega compra de votos e panfletos. Ambos pedem inelegibilidade (Folha 04/11; O Globo 04/11).",
+    "Ofensiva judicial Ruas × Paes": "TRE-RJ (09/11): relator Fernando Cerqueira Chagas recebeu a AIJE de Paes contra Ruas e Louback (panfletos e compra de votos), mandou gráfica de Niterói entregar documentos em 2 dias e negou por ora busca e apreensão; defesa em 5 dias após citação (Diário do Rio). AIJEs mútuas no TRE (01–04/11): Ruas alega site ilegal, assédio a servidores e pede bloqueio do canal; Paes alega compra de votos e panfletos. Ambos pedem inelegibilidade (Folha 04/11; O Globo 04/11).",
     "Ações de Paes contra Garotinho (TJRJ)": "09/11/2026: 1ª condenação, em 1ª instância (20ª Vara Criminal da Capital, proc. 0876910-56.2025.8.19.0001): 2 anos e 4 meses de detenção + 48 dias-multa por ofensas em podcast; cabe recurso. Paes diz mover nove ações contra Garotinho."
   },
   "status_novos": [
+    "Ofensiva judicial Ruas × Paes",
     "Disputa eleitoral RJ 2026",
     "Mobilização 'Exército do Dudu'",
     "Ações de Paes contra Garotinho (TJRJ)"
   ],
   "itens": [
+    {
+      "data": "09/11/2026",
+      "novo": true,
+      "titulo": "Diário do Rio: TRE-RJ recebe AIJE de Paes contra Ruas e Louback",
+      "texto": "Relator Fernando Cerqueira Chagas deu andamento à ação sobre panfletos e suposta compra de votos; gráfica de Niterói tem 2 dias para entregar documentos e Ruas e Louback, 5 dias após citação para defesa.",
+      "texto_completo": "O desembargador Fernando Cerqueira Chagas, relator no TRE-RJ, recebeu a Ação de Investigação Judicial Eleitoral (AIJE) da coligação de Eduardo Paes contra o governador eleito Douglas Ruas (PL) e a vice Fernanda Louback (PL). A ação aponta cerca de 1,1 milhão de panfletos 'Rio Escolhe' que associariam Paes ao número 13 (204.309 eleitores digitaram 13 para governador), 100 mil panfletos difamatórios supostamente pagos com FEFC, santinhos com Paes e o número 22 em Nova Iguaçu e suspeitas de compra de votos, incluindo R$ 600 mil apreendidos pela PF em Niterói. O relator mandou a EDG Editora Gráfica, de Niterói, entregar em até dois dias notas fiscais, artes e comprovantes de serviços entre 20/07 e 04/11, mas negou por ora busca e apreensão de equipamentos; outros pedidos ainda serão analisados. Ruas e Louback terão cinco dias após a citação para se defender. Paes pede cassação, anulação dos votos da chapa e inelegibilidade por 8 anos. O processo está em fase inicial e o recebimento não significa reconhecimento de culpa. (Diário do Rio, 09/11, 17h12; informação divulgada inicialmente pela Tribuna NF.)",
+      "fonte": "Diário do Rio",
+      "url": "https://diariodorio.com/politica/2026/11/09/tre-rj-aceita-acao-de-eduardo-paes-contra-douglas-ruas-por-suspeita-de-fraude-eleitoral.html"
+    },
     {
       "data": "09/11/2026",
       "novo": true,
