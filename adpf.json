@@ -1,6 +1,6 @@
 {
-  "novidade_id": "adpf-2026-11-07-platobr-crise-sob-encomenda",
-  "atualizado_em": "07/11/2026 18:30",
+  "novidade_id": "2026-11-10 18:20",
+  "atualizado_em": "10/11/2026 18:20",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Sem decisão",
@@ -74,6 +74,15 @@
     }
   ],
   "andamentos": [
+    {
+      "data": "10/11/2026",
+      "titulo": "Imprensa (iG): Zanin recebe advogados de Paes nesta terça (10)",
+      "texto": "Segundo o iG, o ministro Cristiano Zanin recebeu na tarde de 10/11 os advogados de Eduardo Paes para discutir a ADPF 1362. Não há notícia de decisão sobre a liminar.",
+      "texto_completo": "O portal iG informou, em texto atualizado às 16h53 de 10/11, que o ministro Cristiano Zanin, relator da ADPF 1362, receberia na tarde desta terça-feira os advogados do ex-prefeito Eduardo Paes (PSD) para discutir a ação que busca garantir o segundo turno para governador do Rio.\n\nA reportagem recapitula que o PSD pede que os votos de Anthony Garotinho continuem na base de cálculo da maioria absoluta. A informação da reunião vem da imprensa; não há confirmação em fonte oficial do STF consultada, e nenhuma decisão sobre a liminar foi noticiada.",
+      "fonte": "iG",
+      "url": "https://ultimosegundo.ig.com.br/politica/2026-11-10/zanin-recebe-defesa-de-paes-em-acao-para-reabrir-2-turno-no-rj.html",
+      "novo": true
+    },
     {
       "data": "03/11/2026",
       "titulo": "Portal do STF: processo conclusos ao relator Zanin",
