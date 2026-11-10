@@ -1,18 +1,33 @@
 {
-  "novidade_id": "2026-11-06 parte-1",
-  "atualizado_em": "06/11/2026 13:10",
+  "novidade_id": "2026-11-10 09:06",
+  "atualizado_em": "10/11/2026 09:06",
   "contra": "Diário Oficial do Estado do Rio de Janeiro",
   "assunto": "trocas no 1º escalão estadual: secretário e subsecretário de Estado, presidentes de autarquias e empresas, CEDAE e Águas do Rio (concessionária privada)",
   "resumo": "Lista única de quem entrou e quem saiu. Cada card é uma troca publicada no DOERJ, com cargo, data e link da edição.",
-  "vazio": "Nenhuma troca de secretário, subsecretário de Estado ou presidente de autarquia/empresa estadual no Diário Oficial de 03 a 06/11/2026 (Parte I). A varredura achou só atos de cargos menores, fora do escopo.",
+  "vazio": "Nenhuma troca de secretário, subsecretário de Estado ou presidente de autarquia/empresa estadual no Diário Oficial de 03 a 10/11/2026 (Parte I; 07 e 08/11 sem edição).",
   "status": {
     "Fonte": "DOERJ · ioerj.com.br",
     "Escopo": "Secretário, Subsecretário de Estado, presidentes (inclui CEDAE)",
     "Exceção": "Águas do Rio: concessionária privada",
     "Fora": "Vices, diretores, cargos menores, Alerj, municípios",
-    "Período varrido": "03 a 06/11/2026 (Parte I)"
+    "Período varrido": "03 a 10/11/2026 (Parte I; 07 e 08/11 sem edição; 09 e 10/11 lidas, só este ato no escopo)"
   },
   "status_novos": [],
-  "itens": [],
+  "itens": [
+    {
+      "data": "09/11/2026",
+      "novo": true,
+      "tipo": "troca",
+      "pessoa_entrou": "Leandro Diniz Moraes Pestana",
+      "pessoa_saiu": "Karine Tomaz Veiga",
+      "cargo": "Subsecretário de Administração",
+      "orgao": "Secretaria de Estado de Fazenda",
+      "titulo": "Entrou Leandro Diniz Moraes Pestana no lugar de Karine Tomaz Veiga",
+      "texto": "Subsecretário de Administração (Secretaria de Estado de Fazenda). Nomeação de Leandro Diniz Moraes Pestana vale a partir de 09/11/2026. Exoneração de Karine Tomaz Veiga, a pedido, a contar de 06/11/2026. Leandro deixou o cargo de Assessor Especial da mesma secretaria.",
+      "fonte": "DOERJ nº 204 · 09/11/2026",
+      "url": "https://www.ioerj.com.br/portal/modules/conteudoonline/mostra_edicao.php?session=VGxSTmVWRlZSVE5OYWtGMFVUQkdSRkY1TURCT2VrSkRURlJyZVUxVVVYUk5WRXBGVFdwYVExSnFiRUpQUkU1Q1RWUmpOVTVFVFhoTmFrVXdUMEU5UFE9PQ==",
+      "texto_completo": "No Diário Oficial do Estado do Rio de Janeiro de 09/11/2026 (edição nº 204, Parte I, pág. 1), nos Atos do Governador em exercício, foi publicado ato de 06/11/2026 com a seguinte troca no 1º escalão:\n\n• Exoneração, a pedido, de Karine Tomaz Veiga do cargo de Subsecretária de Administração da Secretaria de Estado de Fazenda, a contar de 06/11/2026.\n\n• Nomeação de Leandro Diniz Moraes Pestana para o cargo de Subsecretário de Administração da Secretaria de Estado de Fazenda, com validade a partir de 09/11/2026. Leandro deixou o cargo de Assessor Especial da mesma secretaria."
+    }
+  ],
   "como_editar": "A rotina externa edita só este arquivo. Itens mais recentes no topo de itens. Cada item: data (dd/mm/aaaa), titulo, texto, texto_completo, fonte, url (link oficial do DOERJ), novo. Opcional: tipo (entrada|saida|troca|reconducao), pessoa_entrou, pessoa_saiu, cargo, orgao, rev, esfera, natureza. Escopo: Secretário e Subsecretário de Estado; presidente de autarquia ou empresa estadual, inclusive CEDAE. Águas do Rio é concessionária privada: natureza concessionaria_privada (ou o nome no órgão/título). O app mostra o selo e não trata o ato como nomeação do governador. Fora: vice, diretor que não seja presidente, cargo menor, Alerj, município, anúncio sem DOERJ. Sem ato verificado, deixe itens vazio e atualize vazio. Não invente nomes. Novidade: novo true no item, status_novos se a caixa mudou, troque novidade_id e atualizado_em. O ! do menu não marca tudo como lido; some só no item clicado (governo_vistos)."
 }
