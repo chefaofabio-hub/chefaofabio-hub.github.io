@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-09 22:00",
-  "atualizado_em": "09/11/2026 22:00",
+  "novidade_id": "2026-11-10 06:00",
+  "atualizado_em": "10/11/2026 06:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
   "assunto": "TRE-RJ abre investigação do PL contra Paes e Cavaliere; TJRJ aceita queixa de Paes contra Poubel",
   "resumo": "Diário Carioca (09/11, 19h36): o TRE-RJ deu andamento à ação do PL contra Paes e Cavaliere por suposto uso da Prefeitura na campanha, mas o relator viu provas frágeis. No mesmo dia, o TRE-RJ recebeu a AIJE de Paes contra Ruas e Louback, e o Órgão Especial do TJRJ aceitou a queixa-crime de Paes contra o deputado Filippe Poubel.",
@@ -21,6 +21,15 @@
     "Ações de Paes contra Garotinho (TJRJ)"
   ],
   "itens": [
+    {
+      "data": "09/11/2026",
+      "novo": true,
+      "titulo": "Coluna Esplanada: PT não compra briga de Paes por 2º turno no Rio",
+      "texto": "Coluna diz que, com a reeleição de Lula resolvida, ninguém no PT quer entrar na briga de Paes por um 2º turno no Rio, e que ele segue questionando a vitória de Ruas.",
+      "texto_completo": "A Coluna Esplanada (09/11/2026, 10h19) afirma que, com a reeleição de Lula resolvida, ninguém no PT está disposto a entrar na briga de Eduardo Paes (PSD) por um segundo turno no Rio. Em tom opinativo, a coluna diz que o ex-prefeito, derrotado na disputa pelo governo, 'está em crise existencial' e que, após reclamar, desistir de recurso e viajar, voltou a contestar a eleição de Douglas Ruas (PL) por causa dos votos sub judice de Garotinho, tema que o TRE-RJ e o TSE já decidiram. A ação do PSD (ADPF 1362) segue sem decisão no STF.",
+      "fonte": "Coluna Esplanada",
+      "url": "https://www.colunaesplanada.com.br/rio-pt-nao-compra-briga-de-paes-que-continua-questionando-vitoria-de-ruas/"
+    },
     {
       "data": "09/11/2026",
       "novo": true,
