@@ -1,24 +1,44 @@
 {
-  "novidade_id": "2026-11-09 18:00",
-  "atualizado_em": "09/11/2026 18:00",
+  "novidade_id": "2026-11-09 22:00",
+  "atualizado_em": "09/11/2026 22:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
-  "assunto": "TRE-RJ recebe ação de Paes pedindo cassação de Ruas e Louback",
-  "resumo": "Diário do Rio (09/11, 17h12): o TRE-RJ recebeu a AIJE de Paes contra Ruas e Louback por panfletos e suposta compra de votos; a fase é inicial. No mesmo dia, Garotinho foi condenado em 1ª instância por calúnia em ação de Paes, e Paes segue cotado para ministério no Lula 4.",
+  "assunto": "TRE-RJ abre investigação do PL contra Paes e Cavaliere; TJRJ aceita queixa de Paes contra Poubel",
+  "resumo": "Diário Carioca (09/11, 19h36): o TRE-RJ deu andamento à ação do PL contra Paes e Cavaliere por suposto uso da Prefeitura na campanha, mas o relator viu provas frágeis. No mesmo dia, o TRE-RJ recebeu a AIJE de Paes contra Ruas e Louback, e o Órgão Especial do TJRJ aceitou a queixa-crime de Paes contra o deputado Filippe Poubel.",
   "status": {
     "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
     "Inquérito civil MPRJ (servidores)": "Instaurado em set/2025; apura suspeita de 'fantasmas' (Armed Sarieddine e Marcelo Novaes); em andamento",
     "Disputa eleitoral RJ 2026": "ADPF 1362 (relator Zanin). Brasil 247 (07/11): Renan Santos (Missão) aposta em 2º turno judicial e discute apoio circunstancial a Paes contra Ruas. PlatôBR (07/11): aliados otimistas; Zanin aguarda TSE e PGR; limite de suplementares em 6/12. O Globo (07/11): Zanin aguarda AGU e PGR. Folha (06/11): artistas em 2º encontro (5/11); Ruas indica secretários e faz transição com Couto. Paes retomou cobrança pública em 03/11; Ruas reuniu-se com Zanin (03/11). Valor (05/11) descreveu STF cauteloso. INQ 4.435 permanece arquivado.",
     "Mobilização 'Exército do Dudu'": "Canal WhatsApp pró-2º turno. Estadão (08/11): canal 'flopou', ~260 mil (263 mil em 06/11) contra 10,2 mi do 'Exército do Lula'; aliados alegam 'timing' e apostam no STF. Canal WhatsApp pró-2º turno. O Globo (07/11): 263 mil seguidores; hashtag '49NÃOé50' no TT do X; PT quase não apoia Paes nas redes; Faulhaber fora; atos de rua esvaziados. TRE-RJ negou suspensão pedida pelo PL (O Dia, 05/11). Valor (03/11) citou ~314 mil no abaixo-assinado; Folha tinha ~255 mil no canal em 30/10.",
-    "Ofensiva judicial Ruas × Paes": "TRE-RJ (09/11): relator Fernando Cerqueira Chagas recebeu a AIJE de Paes contra Ruas e Louback (panfletos e compra de votos), mandou gráfica de Niterói entregar documentos em 2 dias e negou por ora busca e apreensão; defesa em 5 dias após citação (Diário do Rio). AIJEs mútuas no TRE (01–04/11): Ruas alega site ilegal, assédio a servidores e pede bloqueio do canal; Paes alega compra de votos e panfletos. Ambos pedem inelegibilidade (Folha 04/11; O Globo 04/11).",
-    "Ações de Paes contra Garotinho (TJRJ)": "09/11/2026: 1ª condenação, em 1ª instância (20ª Vara Criminal da Capital, proc. 0876910-56.2025.8.19.0001): 2 anos e 4 meses de detenção + 48 dias-multa por ofensas em podcast; cabe recurso. Paes diz mover nove ações contra Garotinho."
+    "Ofensiva judicial Ruas × Paes": "TRE-RJ (09/11): o relator Fernando Cerqueira Chagas também abriu a investigação da ação do PL contra Paes e Cavaliere (suposto uso da Prefeitura e pressão sobre servidores), apontando provas frágeis e excluindo Jane Reis; defesa em 5 dias (Diário Carioca). TRE-RJ (09/11): relator Fernando Cerqueira Chagas recebeu a AIJE de Paes contra Ruas e Louback (panfletos e compra de votos), mandou gráfica de Niterói entregar documentos em 2 dias e negou por ora busca e apreensão; defesa em 5 dias após citação (Diário do Rio). AIJEs mútuas no TRE (01–04/11): Ruas alega site ilegal, assédio a servidores e pede bloqueio do canal; Paes alega compra de votos e panfletos. Ambos pedem inelegibilidade (Folha 04/11; O Globo 04/11).",
+    "Ações de Paes contra Garotinho (TJRJ)": "09/11/2026: 1ª condenação, em 1ª instância (20ª Vara Criminal da Capital, proc. 0876910-56.2025.8.19.0001): 2 anos e 4 meses de detenção + 48 dias-multa por ofensas em podcast; cabe recurso. Paes diz mover nove ações contra Garotinho.",
+    "Queixa-crime de Paes contra Filippe Poubel (TJRJ)": "Órgão Especial do TJRJ recebeu por maioria em 09/11/2026 a queixa-crime por calúnia, difamação e injúria (falas na Alerj em 21/08/2025); relatora Gizelda Leitão; ação penal em andamento (O Globo, Ancelmo Gois)."
   },
   "status_novos": [
+    "Queixa-crime de Paes contra Filippe Poubel (TJRJ)",
     "Ofensiva judicial Ruas × Paes",
     "Disputa eleitoral RJ 2026",
     "Mobilização 'Exército do Dudu'",
     "Ações de Paes contra Garotinho (TJRJ)"
   ],
   "itens": [
+    {
+      "data": "09/11/2026",
+      "novo": true,
+      "titulo": "Diário Carioca: TRE-RJ abre investigação do PL contra Paes e Cavaliere",
+      "texto": "Relator Fernando Cerqueira Chagas deu andamento à ação do PL sobre suposto uso da Prefeitura na campanha de Paes, mas apontou fragilidade nas provas; Jane Reis foi excluída e Paes e Cavaliere têm 5 dias para se defender.",
+      "texto_completo": "O desembargador Fernando Cerqueira Chagas, relator no TRE-RJ, autorizou o prosseguimento da ação do PL contra Eduardo Paes (PSD) e o prefeito Eduardo Cavaliere (PSD) por suspeita de uso da estrutura da Prefeitura do Rio para favorecer a campanha de Paes ao governo, com pressão sobre servidores, contratados e terceirizados (sobretudo da Secretaria Municipal de Educação, 3ª CRE, e da Assistência Social) para ir a reuniões e eventos políticos. Ele viu 'elementos mínimos' para a investigação, mas ressaltou que os documentos ainda não comprovam participação direta: Paes aparece em só uma das denúncias e Cavaliere em nenhuma. A vice Jane Reis (MDB) foi excluída do processo, e a apuração ficou restrita a fatos que beneficiem diretamente a candidatura de Paes. Paes e Cavaliere serão notificados para apresentar defesa, documentos e testemunhas em cinco dias; dados de servidores ficam sob sigilo. O PL pede inelegibilidade por 8 anos. (Diário Carioca, 09/11, 19h36.)",
+      "fonte": "Diário Carioca",
+      "url": "https://www.diariocarioca.com/2026/11/09/politica/eleicoes/tre-rj-investiga-paes-cavaliere-uso-prefeitura-campanha/"
+    },
+    {
+      "data": "09/11/2026",
+      "novo": true,
+      "titulo": "O Globo (Ancelmo Gois): TJRJ aceita queixa-crime de Paes contra Filippe Poubel",
+      "texto": "Por maioria, o Órgão Especial do TJRJ recebeu a queixa-crime de Paes contra o deputado estadual Filippe Poubel por calúnia, difamação e injúria; a ação penal segue.",
+      "texto_completo": "O Órgão Especial do Tribunal de Justiça do Rio aceitou, por maioria, em sessão nesta segunda-feira (09/11), a queixa-crime apresentada por Eduardo Paes contra o deputado estadual Filippe Poubel, dando início à ação penal. Paes acusa o deputado de calúnia, difamação e injúria por declarações em sessão da Alerj em 21/08/2025, quando Poubel teria acusado o ex-prefeito de receber propina da Odebrecht e o chamado de 'ladrão' e 'vagabundo'. A relatora é a desembargadora Gizelda Leitão. (O Globo, coluna Ancelmo Gois, 09/11, 17h42.)",
+      "fonte": "O Globo (Ancelmo Gois)",
+      "url": "https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/11/justica-do-rio-aceita-queixa-crime-de-eduardo-paes-contra-deputado-filippe-poubel.ghtml"
+    },
     {
       "data": "09/11/2026",
       "novo": true,
