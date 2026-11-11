@@ -1,8 +1,8 @@
 {
-  "novidade_id": "2026-11-10 22:00",
-  "atualizado_em": "10/11/2026 22:00",
+  "novidade_id": "2026-11-11 06:00",
+  "atualizado_em": "11/11/2026 06:00",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
-  "assunto": "Após reunião com Zanin, defesa de Paes diz que não houve sinalização e admite eleição em 10 de janeiro",
+  "assunto": "Paes ganha apoios (Freixo, manifesto da UNE e juristas) e intensifica ofensiva por 2º turno no STF",
   "resumo": "CBN (10/11): especialistas avaliam que, sem decisão do STF na ADPF 1362 até sexta (13), uma suplementar em 6/12 fica inviável. O Globo defendeu em editorial o 2º turno entre Paes e Ruas, e o 'Exército do Dudu' convocou ato em Copacabana no local de evento de Ruas.",
   "status": {
     "Inquérito STF (INQ 4.435)": "ARQUIVADO. Arquivado pelo relator André Mendonça, seguindo parecer da PGR (divulgado em 21/03/2025). Restava no STF o suposto caixa 2 de R$ 300 mil da Odebrecht na campanha de 2014; as provas da leniência foram anuladas. Fatos de 2010 e 2012 foram para a Justiça Eleitoral do RJ em 2019 e acabaram arquivados.",
@@ -21,6 +21,24 @@
     "Ações de Paes contra Garotinho (TJRJ)"
   ],
   "itens": [
+    {
+      "data": "11/11/2026",
+      "novo": true,
+      "titulo": "O Globo: Paes intensifica movimentos e ganha apoios para tentar 2º turno no Rio",
+      "texto": "Após audiência dos advogados com Zanin, aliados de Paes demonstram otimismo; PGR e AGU ainda não deram parecer. Freixo, deputados do PT e um manifesto de entidades como a UNE e juristas apoiam o 2º turno.",
+      "texto_completo": "O Globo (11/11, 3h30) relata que Paes reforçou o movimento por um 2º turno. Na terça (10), os advogados Felipe Santa Cruz e Gustavo Schmidt tiveram audiência com o relator Cristiano Zanin, que pediu pareceres da PGR e da AGU, ainda não apresentados. Aliados de Paes e de Ruas têm dificuldade de prever o placar no STF. Entre os novos apoios estão o deputado federal eleito Marcelo Freixo (PT), as deputadas estaduais Verônica Lima e Marina do MST e o deputado federal Reimont, além de um manifesto de entidades como a UNE e de juristas. Ruas é o governador eleito, com diplomação marcada para 18/12 e posse em 6/1. A data de 6/12 para eleição suplementar é considerada inviável, e a primeira data de 2027 seria 10/01.",
+      "fonte": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/11/11/paes-intensifica-movimentos-e-ganha-apoios-para-tentar-segundo-turno-no-rio.ghtml"
+    },
+    {
+      "data": "10/11/2026",
+      "novo": true,
+      "titulo": "O Globo: após silêncio do PT, Freixo defende 2º turno no Rio",
+      "texto": "Em vídeo, o deputado federal eleito Marcelo Freixo (PT), aliado de Paes, defendeu o 2º turno e rompeu o silêncio da esquerda fluminense sobre o tema.",
+      "texto_completo": "O Globo (10/11) informa que Marcelo Freixo (PT) publicou vídeo defendendo o 2º turno para governador, argumentando que Garotinho teve o nome nas urnas mesmo inelegível e que anular depois os votos dados a ele fere o direito do eleitor. Até então, grandes nomes do PT e o diretório estadual não haviam se manifestado. No mesmo dia, um manifesto de entidades como a UNE e de juristas apoiou o 2º turno.",
+      "fonte": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/11/10/apos-silencio-do-pt-freixo-se-posiciona-a-favor-de-segundo-turno-no-rio.ghtml"
+    },
     {
       "data": "10/11/2026",
       "novo": true,
