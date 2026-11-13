@@ -1,11 +1,11 @@
 {
-  "novidade_id": "2026-11-11 22:30",
-  "atualizado_em": "11/11/2026 22:30",
+  "novidade_id": "2026-11-13 00:16",
+  "atualizado_em": "13/11/2026 00:16",
   "status": {
     "relator": "Min. Cristiano Zanin",
-    "liminar": "Sem decisão",
+    "liminar": "Indeferida em 12/11/2026 (decisão monocrática de Zanin). Mérito ainda não julgado.",
     "numero_adpf": "ADPF 1362",
-    "situacao": "Portal do STF (consulta 06/11): em 03/11 petição 137512 (procuração/substabelecimento) e processo concluso ao relator Zanin. Sem parecer da AGU/PGR no andamento e liminar ainda sem decisão. Vista à AGU permanece o último passo substantivo anterior (27/10)."
+    "situacao": "STF (nota oficial, 12/11, 19h43, e decisão monocrática na MC da ADPF 1362): Zanin indeferiu a liminar, por ora, em análise preliminar, por considerar que a ADPF foi utilizada em substituição a recurso. Há embargos de declaração pendentes de julgamento no TSE (RO 0602359-26.2026.6.19.0000), e o caso ainda pode chegar ao STF por recurso extraordinário. O relator determinou que se aguarde a regular instrução do feito e registrou que ainda não constam nos autos as informações da AGU nem o parecer da PGR. O mérito não foi julgado."
   },
   "data_alvo": "2026-10-25T08:00:00-03:00",
   "processo": {
@@ -74,6 +74,15 @@
     }
   ],
   "andamentos": [
+    {
+      "data": "12/11/2026",
+      "titulo": "STF: Zanin indefere a liminar da ADPF 1362; determina que a instrução da ação continue",
+      "texto": "Na decisão monocrática de 12/11, Zanin indeferiu o pedido liminar, por ora, por entender que a ADPF foi usada como substituto de recurso enquanto há embargos pendentes no TSE. O mérito não foi julgado. Ele determinou que se aguarde a regular instrução do feito e anotou que AGU e PGR ainda não se manifestaram.",
+      "texto_completo": "A nota oficial do STF, publicada às 19h43 de 12/11, e a íntegra da decisão monocrática na medida cautelar da ADPF 1362 confirmam que o relator, ministro Cristiano Zanin, indeferiu a liminar pedida pelo diretório nacional do PSD.\n\nEm análise preliminar, Zanin considerou que a ADPF foi utilizada em substituição a recurso. Segundo o ministro, o processo eleitoral no TSE (Recurso Ordinário Eleitoral 0602359-26.2026.6.19.0000) ainda tem embargos de declaração pendentes de julgamento, e o caso ainda pode chegar ao STF por recurso extraordinário. Ele também apontou aparente inadequação da via eleita e violação do princípio da subsidiariedade (art. 4º, § 1º, da Lei 9.882/1999).\n\nNo dispositivo, escreveu: “Posto isso, por ora, indefiro o pedido liminar.” Em seguida, determinou: “Aguarde-se a regular instrução do feito.” Na mesma decisão, registrou que ainda não constam nos autos as informações da Advocacia-Geral da União nem o parecer da Procuradoria-Geral da República, e admitiu o PDT como amicus curiae. O mérito da ADPF não foi julgado.",
+      "fonte": "STF (notícias)",
+      "url": "https://noticias.stf.jus.br/postsnoticias/por-questoes-processuais-relator-nega-pedido-do-psd-para-realizar-segundo-turno-das-eleicoes-no-rj/",
+      "novo": true
+    },
     {
       "data": "11/11/2026",
       "titulo": "Imprensa (O Globo/Valor/O Dia): Zanin sinaliza dar encaminhamento em até 15 dias; avalia liminar ou plenário",
@@ -316,6 +325,15 @@
   "stf_nota": "ADPF 1362",
   "segundo_turno": [
     {
+      "data": "12/11/2026",
+      "titulo": "G1/O Globo: PSB pede para entrar no TSE e defende 2º turno, apoiando embargos da coligação de Paes",
+      "texto": "No mesmo 12/11 em que Zanin indeferiu a liminar da ADPF, o PSB Nacional pediu para ingressar como assistente no processo de Garotinho no TSE, relatado por Floriano de Azevedo Marques, e pediu o acolhimento dos embargos da coligação de Paes para determinar o 2º turno.",
+      "texto_completo": "O g1 e O Globo informaram que o PSB Nacional protocolou em 12/11 pedido para participar, como assistente simples ou, subsidiariamente, como terceiro interessado, do processo no TSE sobre o registro de Anthony Garotinho. A petição foi dirigida ao ministro Floriano de Azevedo Marques.\n\nO partido apoiou os embargos de declaração da coligação de Eduardo Paes e pediu que o TSE os acolha, com efeitos que permitam a realização do segundo turno. A tese é a de que os 274.411 votos dados a Garotinho deveriam permanecer no cálculo da maioria absoluta, por não se confundirem com voto nulo por manifestação do eleitor.\n\nA movimentação ocorreu no mesmo dia da decisão de Zanin que indeferiu a liminar da ADPF 1362 e apontou a existência de embargos ainda pendentes no TSE.",
+      "fonte": "g1 / O Globo",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/11/12/psb-pedido-tse-segundo-turno-na-eleicao-para-governador-do-rj.ghtml",
+      "novo": true
+    },
+    {
       "data": "10/11/2026",
       "titulo": "O Globo: Freixo defende 2º turno no Rio; Ruas diz que disputa está encerrada",
       "texto": "Segundo O Globo, o deputado federal eleito Marcelo Freixo (PT) publicou vídeo defendendo o segundo turno. Douglas Ruas disse considerar a disputa encerrada. Zanin ainda aguarda AGU e PGR; sem decisão sobre a liminar.",
@@ -510,5 +528,8 @@
       "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/08/paes-vai-ao-stf-contra-decisao-do-tse-sobre-votos-de-garotinho-e-pede-realizacao-do-2o-turno-no-rj.ghtml"
     }
   ],
-  "status_novos": []
+  "status_novos": [
+    "liminar",
+    "situacao"
+  ]
 }
