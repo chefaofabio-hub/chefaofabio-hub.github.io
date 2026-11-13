@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-13 00:16",
-  "atualizado_em": "13/11/2026 00:16",
+  "novidade_id": "2026-11-13 06:05",
+  "atualizado_em": "13/11/2026 06:05",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
   "assunto": "Zanin nega liminar do PSD por 2º turno no Rio; mérito da ADPF segue no STF",
   "resumo": "Em 12/11, Zanin indeferiu a liminar da ADPF 1362, por entender que o PSD usou a ação como substituto de recurso enquanto ainda há embargos no TSE. O mérito não foi julgado; a ação segue, e o ministro ainda aguarda a AGU e a PGR. O PSD e a coligação de Paes disseram que aguardam o mérito e o recurso no TSE. No mesmo dia, o PSB pediu para entrar no processo no TSE em defesa do 2º turno.",
@@ -21,6 +21,24 @@
     "Ações de Paes contra Garotinho (TJRJ)"
   ],
   "itens": [
+    {
+      "data": "12/11/2026",
+      "novo": true,
+      "titulo": "CBN: com revés no STF, aliados de Paes veem menos chances de 2º turno; Ruas acelera transição",
+      "texto": "Após Zanin negar a liminar, aliados de Paes admitiram à CBN, sob reserva, que não há clima para o 2º turno sair pelo Supremo e que o otimismo arrefeceu. O PSD diz que aguarda o mérito da ADPF e ainda há embargos no TSE. Do lado de Ruas, aliados relatam que ele acelera a transição.",
+      "texto_completo": "Reportagem da CBN (12/11, 21h22) relata que, depois de o ministro Cristiano Zanin negar a liminar do PSD, aliados de Eduardo Paes admitiram, sob reserva, que não há clima para a decisão sair pelo Supremo e que o otimismo no caso arrefeceu. O PSD Nacional afirma que vai aguardar a análise de mérito da ADPF, que segue em tramitação.\n\nAinda há recursos da coligação de Paes pendentes no TSE (embargos de declaração), e o PSB protocolou petição na Corte Eleitoral reforçando o pedido de 2º turno. Segundo o especialista Gustavo D'Addazio Marques, depois dos embargos caberá recurso extraordinário ao STF.\n\nDo lado de Douglas Ruas, aliados disseram reservadamente que ele está acelerando a transição e não vê risco de o 2º turno sair do papel. Ainda não há data para o TSE analisar novamente o tema.",
+      "fonte": "CBN",
+      "url": "https://cbn.globo.com/rio-de-janeiro/noticia/2026/11/12/com-reves-no-stf-aliados-de-paes-veem-menos-chances-de-2o-turno-no-rj-ruas-acelera-transicao.ghtml"
+    },
+    {
+      "data": "12/11/2026",
+      "novo": true,
+      "titulo": "Valor: plenário do STF decidirá pedido de Paes; cinco ministros estariam abertos ao 2º turno",
+      "texto": "O Valor apurou que, no STF, a questão é tratada como aberta: não há maioria para determinar o 2º turno, mas cinco ministros estariam abertos à ideia e consideram o caso complexo. Zanin negou só a liminar e segue aguardando AGU e PGR.",
+      "texto_completo": "Segundo o Valor Econômico (12/11, atualizado às 21h45), Zanin rejeitou o pedido do PSD por razões processuais, entendendo que a ADPF não pode ser usada como recurso, e manteve a instrução do processo à espera das informações da AGU e do parecer da PGR. Como não houve julgamento de mérito, o caso segue no Supremo.\n\nO jornal apurou que no STF a questão é dada como aberta: ainda não há maioria para determinar um segundo turno, mas hoje cinco ministros estariam abertos à ideia; esse grupo considera o caso complexo e defende analisá-lo com calma.",
+      "fonte": "Valor Econômico",
+      "url": "https://valor.globo.com/politica/noticia/2026/11/12/zanin-rejeita-pedido-de-eduardo-paes-para-realizar-segundo-turno-no-rio.ghtml"
+    },
     {
       "data": "12/11/2026",
       "novo": true,
