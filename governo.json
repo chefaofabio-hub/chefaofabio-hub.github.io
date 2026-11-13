@@ -1,16 +1,16 @@
 {
   "novidade_id": "2026-11-10 09:06",
-  "atualizado_em": "10/11/2026 09:06",
+  "atualizado_em": "13/11/2026 08:55",
   "contra": "Diário Oficial do Estado do Rio de Janeiro",
   "assunto": "trocas no 1º escalão estadual: secretário e subsecretário de Estado, presidentes de autarquias e empresas, CEDAE e Águas do Rio (concessionária privada)",
   "resumo": "Lista única de quem entrou e quem saiu. Cada card é uma troca publicada no DOERJ, com cargo, data e link da edição.",
-  "vazio": "Nenhuma troca de secretário, subsecretário de Estado ou presidente de autarquia/empresa estadual no Diário Oficial de 03 a 10/11/2026 (Parte I; 07 e 08/11 sem edição).",
+  "vazio": "Nenhuma troca nova de secretário, subsecretário de Estado ou presidente de autarquia/empresa estadual no Diário Oficial de 11, 12 e 13/11/2026 (Parte I). Última troca no escopo: 09/11/2026.",
   "status": {
     "Fonte": "DOERJ · ioerj.com.br",
     "Escopo": "Secretário, Subsecretário de Estado, presidentes (inclui CEDAE)",
     "Exceção": "Águas do Rio: concessionária privada",
     "Fora": "Vices, diretores, cargos menores, Alerj, municípios",
-    "Período varrido": "03 a 10/11/2026 (Parte I; 07 e 08/11 sem edição; 09 e 10/11 lidas, só este ato no escopo)"
+    "Período varrido": "03 a 13/11/2026 (Parte I; 07 e 08/11 sem edição; 09 e 10/11 lidas, só o ato de 09/11 no escopo; 11, 12 e 13/11 lidas, nenhum ato no escopo)"
   },
   "status_novos": [],
   "itens": [
