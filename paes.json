@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-13 14:10",
-  "atualizado_em": "13/11/2026 14:10",
+  "novidade_id": "2026-11-13 21:55",
+  "atualizado_em": "13/11/2026 21:55",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
   "assunto": "AGU pede ao STF que mantenha negativa de Zanin ao 2º turno no Rio; mérito da ADPF segue",
   "resumo": "Em 12/11, Zanin indeferiu a liminar da ADPF 1362, por entender que o PSD usou a ação como substituto de recurso enquanto ainda há embargos no TSE. O mérito não foi julgado; a ação segue, e o ministro ainda aguarda a AGU e a PGR. O PSD e a coligação de Paes disseram que aguardam o mérito e o recurso no TSE. No mesmo dia, o PSB pediu para entrar no processo no TSE em defesa do 2º turno.",
@@ -21,6 +21,15 @@
     "Ações de Paes contra Garotinho (TJRJ)"
   ],
   "itens": [
+    {
+      "data": "13/11/2026",
+      "novo": true,
+      "titulo": "O Dia: ato na Cinelândia reúne centenas de pessoas pelo 2º turno no Rio",
+      "texto": "Na tarde de 13/11, centenas de pessoas foram à Cinelândia com o lema 'O Rio de Janeiro quer votar!', em ato de movimentos estudantis, sociais e apoiadores de Paes pelo 2º turno contra Ruas.",
+      "texto_completo": "Segundo O Dia, centenas de pessoas participaram na tarde desta sexta-feira (13) de um ato na Cinelândia, no Centro do Rio, em defesa do 2º turno para o governo do estado, sob o lema 'O Rio de Janeiro quer votar!'. A mobilização reuniu movimentos estudantis, sociais e apoiadores de Eduardo Paes (PSD), que contestam o resultado proclamado após a anulação dos votos de Anthony Garotinho. Manifestantes repetiram o argumento de que '49 não é 50', em referência aos 49,27% de Ruas na primeira totalização. O ato ocorreu um dia depois de Zanin negar a liminar do PSD e no mesmo dia em que a AGU se manifestou contra o pedido; o mérito da ADPF segue sem data no STF.",
+      "fonte": "O Dia",
+      "url": "https://odia.ig.com.br/eleicoes/2026/11/7322279-ato-na-cinelandia-pede-realizacao-do-segundo-turno-no-rj.html"
+    },
     {
       "data": "13/11/2026",
       "novo": true,
