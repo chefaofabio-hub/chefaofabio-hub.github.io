@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-14 10:00",
-  "atualizado_em": "14/11/2026 10:00",
+  "novidade_id": "2026-11-15 13:50",
+  "atualizado_em": "15/11/2026 13:50",
   "contra": "× Justiça Eleitoral · MPRJ · STF",
   "assunto": "Advogado de Paes diz que seguirá pelo 2º turno; Gilmar diz que eventual recurso irá ao plenário do STF",
   "resumo": "Em 12/11, Zanin indeferiu a liminar da ADPF 1362, por entender que o PSD usou a ação como substituto de recurso enquanto ainda há embargos no TSE. O mérito não foi julgado; a ação segue, e o ministro ainda aguarda a AGU e a PGR. O PSD e a coligação de Paes disseram que aguardam o mérito e o recurso no TSE. No mesmo dia, o PSB pediu para entrar no processo no TSE em defesa do 2º turno.",
@@ -21,6 +21,15 @@
     "Ações de Paes contra Garotinho (TJRJ)"
   ],
   "itens": [
+    {
+      "data": "15/11/2026",
+      "novo": true,
+      "titulo": "O Globo: com 2º turno menos provável, Cavaliere reforça aliança com a esquerda; revés no STF foi lido como sinal de que Lula não entrou na causa de Paes",
+      "texto": "O Globo (Caio Sartori, 15/11): diante da perspectiva reduzida de 2º turno, o prefeito Eduardo Cavaliere, ex-vice de Paes, reforça a aliança com o PT para 2028. A negativa de Zanin e o parecer contrário da AGU foram lidos como sinal de que Lula não se envolveu diretamente na reivindicação de Paes.",
+      "texto_completo": "Reportagem de Caio Sartori em O Globo (15/11/2026) afirma que, depois da vitória de Lula e diante da perspectiva reduzida de um segundo turno para o governo do estado, o prefeito do Rio, Eduardo Cavaliere (PSD), ex-vice de Eduardo Paes, tem reforçado a aliança com a esquerda para evitar uma candidatura própria do PT na eleição municipal de 2028. Segundo o jornal, os planos do grupo de Paes consideravam o ex-prefeito no governo estadual no ano que vem, expectativa frustrada; ao contrário de Paes, Cavaliere participou de praticamente todos os atos de Lula no Rio. O texto registra que o grupo de Paes ficou imerso nas costuras pelo 2º turno, endossadas por Marcelo Freixo, e que a negativa da liminar por Zanin e o parecer desfavorável da AGU foram lidos como sinal de que Lula não se envolveu diretamente na reivindicação de Paes.",
+      "fonte": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/11/15/apos-vitoria-de-lula-com-virada-no-rio-cavaliere-reforca-alianca-para-evitar-voo-proprio-do-pt-na-eleicao-de-2028.ghtml"
+    },
     {
       "data": "14/11/2026",
       "novo": true,
