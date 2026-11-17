@@ -1,9 +1,9 @@
 {
-  "novidade_id": "2026-11-06 14:03",
-  "atualizado_em": "06/11/2026 14:03",
+  "novidade_id": "2026-11-17 18:00",
+  "atualizado_em": "17/11/2026 18:00",
   "resumo": "Senador (PL-RJ), derrotado no 2º turno em 25/10. Investigado em três inquéritos no STF. Mandato vai até fevereiro de 2027.",
   "status": {
-    "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano. Em 06/11 o governo italiano confirmou no Parlamento que a cidadania dos três irmãos foi reconhecida em 5/1/2023 (58 dias após os documentos); Flávio tirou o passaporte italiano em 8/11/2023 (Folha).",
+    "Passaporte": "Brasileiros cancelados (comum e diplomático); estrangeiros a entregar em 24h (26/10). Entrou nos EUA em 28/10 com o diplomático cancelado (CBP/G1); saiu da Argentina com o italiano. Em 06/11 o governo italiano confirmou no Parlamento que a cidadania dos três irmãos foi reconhecida em 5/1/2023 (58 dias após os documentos); Flávio tirou o passaporte italiano em 8/11/2023 (Folha). Em 13/11, Cármen Lúcia, presidente da 1ª Turma, pautou para 20 a 30/11, no plenário virtual, o recurso de Flávio contra a apreensão dos passaportes; o processo é de relatoria de Moraes (CBN, UOL).",
     "Sair do país": "Proibido",
     "Contato com Willer": "Proibido (26/10)",
     "Inquérito apostas / Willer": "Relator: Alexandre de Moraes",
@@ -12,22 +12,103 @@
     "Origem da decisão": "Petição de Lindbergh Farias e Rogério Correia (risco de fuga)",
     "Suposta fuga": "Confirmada: entrou na Argentina por Puerto Iguazú (27/10, 22h50), voou via Guayaquil e pousou em Miami (Opa-locka) às 10h24 de 28/10 com a família (Folha, O Globo, G1)",
     "Entrega dos passaportes": "Não feita; prazo venceu às 11h de 27/10. PF cancelou os passaportes no sistema",
-    "Pedido de prisão": "Só pedidos de deputados do PT. Em nota de 28/10 (~14h25), a PF disse que a decisão de Moraes não autorizava prisão nem vigilância permanente e que Flávio não é foragido só por restrição de documentos; investiga o descumprimento. Moraes não decretou prisão. Segundo o UOL (30/10), ministros do STF avaliam não pedir prisão nem novas cautelares agora.",
-    "Visto dos EUA": "Admitido pelo CBP como \"DT\" (parole) até 27/10/2027, por ordem de Trump. Em 31/10 à noite, Trump disse em Mar-a-Lago que não tem planos de encontrar Flávio, mas que ele \"pode ficar o tempo que quiser\" (Folha, g1). No mesmo dia Rubio negou envolvimento direto na fuga. Segundo o NYT (29/10), Jason Miller arranjou o jato e a família deve receber green card; Reuters (30/10): governo Trump não pretende apoiar Flávio como líder legítimo.",
+    "Pedido de prisão": "Só pedidos de deputados do PT. Em nota de 28/10 (~14h25), a PF disse que a decisão de Moraes não autorizava prisão nem vigilância permanente e que Flávio não é foragido só por restrição de documentos; investiga o descumprimento. Moraes não decretou prisão. Segundo o UOL (30/10), ministros do STF avaliam não pedir prisão nem novas cautelares agora. Em 16/11, o deputado Alencar Santana (PT-SP) e o Grupo Prerrogativas pediram a Moraes prisão preventiva, bloqueio de salário e bens, suspensão do mandato e difusão vermelha da Interpol (Folha, R7, Band). Sem decisão.",
+    "Visto dos EUA": "Admitido pelo CBP como \"DT\" (parole) até 27/10/2027, por ordem de Trump. Em 31/10 à noite, Trump disse em Mar-a-Lago que não tem planos de encontrar Flávio, mas que ele \"pode ficar o tempo que quiser\" (Folha, g1). No mesmo dia Rubio negou envolvimento direto na fuga. Segundo o NYT (29/10), Jason Miller arranjou o jato e a família deve receber green card; Reuters (30/10): governo Trump não pretende apoiar Flávio como líder legítimo. Em 13/11, a Reuters o entrevistou em Washington, onde tratava da situação imigratória; ele não disse com quem se reunia e afirmou ainda não ter encontrado Trump. Lauro Jardim (O Globo, 15/11) noticiou que, dias antes, Flávio olhava casas para alugar no condomínio Lotus, em Boca Raton, na faixa de US$ 15 mil/mês.",
     "Busca e apreensão": "Não houve. PF pediu buscas em 27/10 com parecer favorável da PGR, mas Moraes não decidiu e a operação foi desmobilizada (UOL); STF diz que não houve decisão Para colegas de STF ouvidos pelo UOL (30/10), não decidir foi uma mudança de postura de Moraes.",
     "Apoio na fuga": "PF apura suspeita de ajuda do governo Milei (Santiago Caputo em Puerto Iguazú) e do irmão Eduardo, que teria ajudado a despistar a rota (O Globo, JN, 28/10). PF também apura se jato PR-AAA de Willer Tomaz levou Flávio de Brasília a San Fernando (Buenos Aires) em 27/10 (O Globo/g1). Segundo o dono da Baires Fly, Luis Grande, à AFP (29/10, ~20h58), o voo Argentina–EUA foi contratado e pago por um intermediário (broker) do setor aeronáutico residente nos EUA, com transferência de US$ 150 mil (~R$ 800 mil) de conta em banco americano; Grande não revelou o nome. O NYT apontou Jason Miller (Casa Branca), e o próprio Miller confirmou ao Metrópoles que providenciou o jato. Em 29/10, 25 deputados democratas cobraram de Rubio explicações por carta (prazo 13/11).",
     "Declaração escrita": "Carta à Nação (28/10, tarde): 1ª versão se dizia \"presidente eleito\"; 3ª versão (~17h41) troca por \"líder do Brasil\". Publicada no X (@FlavioBolsonaro).",
-    "Afastar Moraes": "Protocolado na noite de 30/10: duas petições a Fachin (mandar o inquérito Willer para André Mendonça e declarar Moraes impedido/suspeito) e um pedido a Moraes para rever o recolhimento do passaporte e a proibição de sair do país. Sem decisão ainda (CNN, 31/10)",
+    "Afastar Moraes": "Protocolado na noite de 30/10: duas petições a Fachin (mandar o inquérito Willer para André Mendonça e declarar Moraes impedido/suspeito) e um pedido a Moraes para rever o recolhimento do passaporte e a proibição de sair do país. Sem decisão ainda (CNN, 31/10) O recurso contra a apreensão do passaporte foi pautado por Cármen Lúcia para 20 a 30/11, no plenário virtual da 1ª Turma (CBN, 13/11). Sem julgamento ainda.",
     "Passaporte italiano": "Usado no voo Argentina–EUA; PF diz que não há registro oficial da saída. Deputado italiano Angelo Bonelli pediu apuração da emissão (CBN, 29/10)",
-    "Coletiva em Miami": "A de 29/10 foi cancelada (declaração por escrito). O Globo (30/10) falava em coletiva na semana seguinte; Trump (31/10) disse não ter planos de encontro. Ida a Washington para Rubio segue só como plano de aliados.",
+    "Coletiva em Miami": "A de 29/10 foi cancelada (declaração por escrito). O Globo (30/10) falava em coletiva na semana seguinte; Trump (31/10) disse não ter planos de encontro. A ida a Washington ocorreu: a Reuters (13/11) o entrevistou lá, em meio a reuniões sobre a situação imigratória; ele não revelou os interlocutores e disse ainda não ter encontrado Trump. Também deu entrevista ao The Epoch Times (exibida em 14/11).",
     "Argentina": "Oposição na Câmara argentina quer convocar Santilli, Monteoliva e Quirno e cobra Milei (g1, 28/10). A juíza federal María Eugenia Capuchetti ordenou a Migrações, ARCA, Polícia Aeroportuária e Gendarmería que preservem as imagens das câmeras (ponte Tancredo Neves, aeroporto de Puerto Iguazú etc.); medida prévia, a pedido da fiscal Paloma Ochoa, para decidir se abre investigação sobre ajuda irregular do governo Milei (Clarín, Estadão, CartaCapital, 29/10). Em 30/10 o Itamaraty convocou a encarregada de negócios argentina, María Emilia Cortés, para explicar a ajuda do governo Milei (Reuters, g1)",
-    "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Em 31/10, ação popular na 6ª Vara Federal do RJ pediu suspensão de salário e verbas (Agência Brasil/Poder360); Psol já havia oficiado o Senado em 27/10. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027."
+    "Mandato no Senado": "Mantido; sem licença nem comunicação ao Senado. Alcolumbre aguarda os próximos passos; perda só por faltas (1/3 das sessões) declarada pela Mesa ou cassação (41 votos). Em 31/10, ação popular na 6ª Vara Federal do RJ pediu suspensão de salário e verbas (Agência Brasil/Poder360); Psol já havia oficiado o Senado em 27/10. Valor (30/10): governo e Alcolumbre têm pouco interesse em cassar; tendência é cumprir o mandato até 31/01/2027. Em 13/11, votou remotamente dos EUA contra o ajuste fiscal do governo (O Globo); o texto foi aprovado por 45 a 31. Em 17/11, como presidente da Comissão de Segurança, faltou à sessão remota que definiu emendas ao Orçamento; Damares Alves conduziu (R7). Em 16/11, PT e Prerrogativas pediram ao STF o bloqueio do salário e a suspensão do mandato; sem decisão."
   },
   "itens": [
     {
+      "data": "17/11/2026",
+      "fonte": "O Globo",
+      "novo": true,
+      "titulo": "Flávio critica Moraes por barrar visitas a Bolsonaro e chama o Senado de \"última trincheira\"",
+      "texto": "Em vídeo nas redes (17/11), Flávio criticou a decisão de Moraes, na véspera, que barrou as visitas de Rogério Marinho (PL-RN), Tereza Cristina (PP-MS) e Valdemar Costa Neto a Jair Bolsonaro, em prisão domiciliar, para tratar da eleição do Senado. Disse que a \"última trincheira\" da oposição é o Congresso, \"em especial o Senado Federal\".",
+      "texto_completo": "Segundo O Globo (17/11, 10h12), Flávio criticou em vídeo a decisão de Alexandre de Moraes que, em 16/11, negou os pedidos de visita de Rogério Marinho (pré-candidato do PL à presidência do Senado), da senadora Tereza Cristina (também pré-candidata) e do presidente do PL, Valdemar Costa Neto, a Jair Bolsonaro, que cumpre prisão domiciliar. Moraes entendeu que os encontros teriam motivação político-partidária e que a residência não pode ser usada para articulações, dada a suspensão dos direitos políticos do ex-presidente. Flávio afirmou: \"Nossa última trincheira é o Congresso, em especial o Senado Federal. Daí o medo do sistema com a candidatura de Rogério Marinho.\" Disse ainda que a perda dos direitos políticos impede votar ou concorrer, mas não ter opinião ou receber parlamentares, e que \"Jair Bolsonaro deve ser o único brasileiro que tem essa vedação.\" Aliados planejavam que Bolsonaro ajudasse a unificar a oposição contra a reeleição de Alcolumbre; Marinho e Tereza discutem comparar votos em janeiro para evitar dois candidatos.",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/11/17/flavio-critica-moraes-por-barrar-visita-de-marinho-a-bolsonaro-para-tratar-de-eleicao-no-senado-e-diz-que-congresso-e-trincheira-da-oposicao.ghtml"
+    },
+    {
+      "data": "17/11/2026",
+      "fonte": "R7",
+      "novo": true,
+      "titulo": "Presidente da Comissão de Segurança, Flávio falta à sessão remota que definiu emendas ao Orçamento",
+      "texto": "Flávio, presidente da Comissão de Segurança do Senado, não registrou presença na sessão remota de 17/11 que definiu as emendas do colegiado ao Orçamento. A reunião permitia participação dos EUA e foi conduzida por Damares Alves; foi a primeira após a eleição.",
+      "texto_completo": "Segundo o R7 Planalto (17/11, 15h24), o senador Flávio Bolsonaro, presidente da Comissão de Segurança, não registrou presença na sessão que definiu as emendas do colegiado ao Orçamento do próximo ano. A reunião, na terça (17/11), foi remota, o que permitia participar e registrar presença mesmo dos Estados Unidos. Na ausência dele, a reunião foi conduzida pela senadora Damares Alves. Foi a primeira reunião da comissão após o resultado das eleições.",
+      "url": "https://noticias.r7.com/prisma/r7-planalto/flavio-bolsonaro-falta-a-sessao-remota-que-definiu-emendas-da-comissao-de-seguranca-17112026/"
+    },
+    {
+      "data": "16/11/2026",
+      "fonte": "Folha de S.Paulo; R7; Band",
+      "novo": true,
+      "titulo": "PT e Prerrogativas pedem ao STF prisão, bloqueio de salário e inclusão de Flávio na Interpol",
+      "texto": "Em 16/11, o deputado Alencar Santana (PT-SP) e o Grupo Prerrogativas pediram a Moraes prisão preventiva, bloqueio de salário e bens, suspensão do mandato e inclusão na difusão vermelha da Interpol. Alegam descumprimento da ordem de entregar os passaportes, no inquérito de lavagem com Willer Tomaz. Pedido ainda sem decisão.",
+      "texto_completo": "Segundo a Folha (16/11, 18h19), a Band e o R7 (17/11), o deputado Alencar Santana (PT-SP) e os advogados Marco Aurélio de Carvalho e Reinaldo Santos de Almeida, do Grupo Prerrogativas, protocolaram no STF (PET 16.877, segundo a Band) pedido urgente a Alexandre de Moraes. Pedem prisão preventiva, bloqueio de bens, contas e do salário (R$ 46.366,19 brutos) e da estrutura de gabinete (cerca de R$ 400 mil/mês), suspensão cautelar do mandato (inclusive voto remoto e gestão do gabinete), inclusão na difusão vermelha da Interpol e providências para eventual extradição. Caso a imunidade impeça a prisão imediata, pedem que a ordem valha a partir de 1º/02/2027, ao fim do mandato. A peça alega que Flávio descumpriu a ordem de entregar os passaportes, viajou à Flórida três dias após o 2º turno, no inquérito de lavagem de dinheiro com Willer Tomaz, e que recursos públicos sustentam a estadia nos EUA. Também pedem que o Senado informe em 48 horas se houve comunicação da viagem, além de registros de voto remoto e gastos. Moraes ainda não decidiu.",
+      "url": "https://noticias.r7.com/brasilia/deputado-do-pt-e-advogados-pedem-ao-stf-que-flavio-deixe-de-receber-salario-de-senador-17112026/"
+    },
+    {
+      "data": "16/11/2026",
+      "fonte": "X (@FlavioBolsonaro)",
+      "novo": true,
+      "titulo": "Flávio no X: vídeo \"EU AVISEI…\" passa de 2 milhões de visualizações",
+      "texto": "Em 16/11, às 19h24 (Brasília), Flávio publicou no X o vídeo \"EU AVISEI…\" (2min21s). Até 17/11 à noite, o post tinha cerca de 2,06 milhões de visualizações e 42,5 mil curtidas.",
+      "texto_completo": "Post de Flávio Bolsonaro no X (@FlavioBolsonaro) em 16/11/2026, 19h24 (Brasília): \"EU AVISEI…\" — vídeo de 2min21s. https://x.com/FlavioBolsonaro/status/2122455708927156697\n\nAté 17/11, por volta das 18h (Brasília), o post registrava cerca de 2,06 milhões de visualizações, 42,5 mil curtidas, 8,3 mil republicações e 2,8 mil respostas.",
+      "url": "https://x.com/FlavioBolsonaro/status/2122455708927156697"
+    },
+    {
+      "data": "15/11/2026",
+      "fonte": "O Globo (coluna Lauro Jardim)",
+      "novo": true,
+      "titulo": "Lauro Jardim: Flávio procura casa de luxo para alugar em Boca Raton, na faixa de US$ 15 mil",
+      "texto": "Segundo Lauro Jardim (O Globo, 15/11, 5h40), Flávio esteve dias antes olhando casas para alugar no condomínio Lotus, em Boca Raton (Flórida). Os aluguéis ficam na faixa de US$ 15 mil por mês; as casas à venda chegam a cerca de US$ 3 milhões.",
+      "texto_completo": "Segundo a coluna de Lauro Jardim no O Globo (15/11, 5h40), Flávio esteve dias antes olhando casas para alugar no condomínio Lotus, de luxo, erguido entre 2019 e 2020 em Boca Raton, em Palm Beach, na Flórida. Para locação, há imóveis na faixa de US$ 15 mil por mês. Para compra, as casas saem por até cerca de US$ 3 milhões — quase R$ 17 milhões, na cotação da reportagem.",
+      "url": "https://oglobo.globo.com/blogs/lauro-jardim/post/2026/11/flavio-bolsonaro-procura-casa-de-luxo-nos-eua.ghtml"
+    },
+    {
+      "data": "15/11/2026",
+      "fonte": "Estado de Minas",
+      "novo": true,
+      "titulo": "Na entrevista ao Epoch Times, Flávio diz que Valdemar reconheceu a eleição só por receio de perseguição",
+      "texto": "Na entrevista ao The Epoch Times, exibida em 14/11, Flávio afirmou que o reconhecimento da vitória de Lula por Valdemar Costa Neto foi \"protocolar\", por receio de perseguição, e voltou a falar em fraude sem apresentar provas.",
+      "texto_completo": "Segundo o Estado de Minas (15/11, 9h58), Flávio disse na entrevista ao The Epoch Times, conduzida por Jan Jekielek e exibida em 14/11, que Valdemar Costa Neto reconheceu o resultado do 2º turno só de forma \"protocolar\", por receio de perseguição. Afirmou que Valdemar \"não se sente à vontade para falar de verdade o que ele pensa\" e citou a multa de R$ 22,9 milhões imposta ao PL por litigância de má-fé no TSE, em 2022. Voltou a dizer que \"suspeita\" de fraude e que \"muita coisa estranha aconteceu\", sem apresentar provas, e alegou que não pode pedir investigação no Brasil.",
+      "url": "https://www.em.com.br/politica/2026/11/7538851-flavio-diz-que-valdemar-reconheceu-a-eleicao-por-receio-de-perseguicao.html"
+    },
+    {
+      "data": "13/11/2026",
+      "fonte": "CBN; UOL",
+      "novo": true,
+      "titulo": "Cármen Lúcia marca para 20 a 30/11 o julgamento do recurso de Flávio contra a apreensão do passaporte",
+      "texto": "A presidente da 1ª Turma do STF, Cármen Lúcia, pautou para 20 a 30/11, no plenário virtual, o recurso de Flávio contra a decisão de Moraes que mandou apreender seus passaportes. Os ministros só depositam os votos, sem discussão.",
+      "texto_completo": "Segundo a CBN (13/11, 13h44) e o UOL, a ministra Cármen Lúcia, presidente da 1ª Turma do STF, pautou o julgamento do recurso da defesa de Flávio contra a apreensão dos passaportes determinada por Alexandre de Moraes. A votação será entre 20 e 30/11, no plenário virtual, em que os ministros apenas depositam os votos, sem discussão. O processo é de relatoria de Moraes (UOL). A decisão de outubro cancelou os passaportes e proibiu a saída do país, no inquérito de lavagem de dinheiro e evasão de divisas envolvendo Willer Tomaz; Flávio descumpriu a ordem e foi para os EUA.",
+      "url": "https://cbn.globo.com/politica/noticia/2026/11/13/carmen-lucia-marca-julgamento-de-recurso-de-flavio-bolsonaro-contra-apreensao-de-passaporte.ghtml"
+    },
+    {
+      "data": "13/11/2026",
+      "fonte": "O Globo",
+      "novo": true,
+      "titulo": "Após defender \"tesouraço\", Flávio vota dos EUA contra o ajuste fiscal do governo Lula",
+      "texto": "Em 13/11, Flávio votou remotamente dos EUA contra o \"plano Moretti\", seguindo a liderança do PL. O texto passou por 45 a 31. Nas redes, disse que votou \"contra cortes na saúde e na educação\", sem detalhar o \"tesouraço\" que prometeu na campanha.",
+      "texto_completo": "Segundo O Globo (13/11, 9h11), Flávio votou remotamente, dos Estados Unidos, contra o plano de ajuste fiscal do governo Lula (o \"plano Moretti\"), alinhado à orientação do PL, apesar de ter feito do equilíbrio das contas o eixo da campanha. O projeto, que prevê efeito de R$ 45 a R$ 56 bilhões nas contas em 2027 (em grande parte por maior arrecadação de empresas), foi aprovado por 45 a 31. No X, Flávio escreveu: \"Votei contra cortes na saúde e na educação para dar a oportunidade ao atual de governo de cumprir com suas promessas de campanha.\" Sem apresentar provas nem detalhes, disse que seu \"tesouraço\" seria \"nos impostos, na burocracia e na corrupção\", e o do governo, \"na saúde e na educação.\" Rogério Marinho defendeu o voto contrário, afirmando que o projeto não representa corte de gastos. Alcolumbre já havia dito não haver impedimento ao voto remoto.",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/11/13/apos-defender-tesouraco-flavio-bolsonaro-vota-dos-eua-contra-ajuste-do-governo-lula.ghtml"
+    },
+    {
+      "data": "13/11/2026",
+      "fonte": "Reuters (UOL)",
+      "novo": true,
+      "titulo": "À Reuters, Flávio rejeita o rótulo de fugitivo e diz que disputa de novo a Presidência pelo PL",
+      "texto": "Em entrevista à Reuters, durante viagem a Washington para tratar da situação migratória, Flávio disse não estar \"nem aí\" para o rótulo de fugitivo e que planeja concorrer de novo pelo PL, numa eleição que, segundo ele, \"pode ser antecipada\". Ainda não encontrou Trump.",
+      "texto_completo": "Segundo a Reuters (13/11, 6h33, por Luciana Magalhães, publicada no UOL), em sua primeira viagem a Washington desde a derrota, Flávio rebateu quem o chama de fugitivo, inclusive Lula: \"Essa é uma forma pejorativa de tentar me agredir. Sinceramente, não estou nem aí, tenho a convicção de que eu precisava estar aqui.\" Uma pesquisa Quaest apontou que 62% desaprovam a saída do país. Ele se recusou a dizer com quem se reunia para resolver a situação imigratória. Afirmou que \"o Brasil vai quebrar\" e que, \"em havendo um novo cenário de disputa eleitoral, eu estou pronto para voltar\"; disse planejar concorrer de novo pelo PL, sem detalhar a situação na sigla. Admitiu que seus recursos pós-eleição têm poucas chances (\"Eu acho que não\") e acusou o sistema de Justiça de submissão ao governo, sem provas. Recusou-se a repetir que é \"presidente eleito\" e, ao ser perguntado se se considera o vencedor legítimo, disse apenas que \"para milhões de brasileiros, é isso que eu sou.\" Ainda não havia encontrado Trump e recusou-se a detalhar quem o ajudou na viagem.",
+      "url": "https://economia.uol.com.br/noticias/reuters/2026/11/13/flavio-bolsonaro-nao-se-abala-com-rotulo-de-fugitivo-e-mira-nova-candidatura-a-presidencia.htm"
+    },
+    {
       "data": "05/11/2026",
       "fonte": "Folha de S.Paulo; O Globo",
-      "novo": true,
+      "novo": false,
       "titulo": "Mendonça extingue no TSE a ação do desafio de quebra de sigilos entre Lula e Flávio",
       "texto": "André Mendonça extinguiu sem mérito (decisão de 04/11, publicada em 05/11) o processo do acordo de campanha para abrir sigilos bancário, fiscal e telefônico de Lula e Flávio. Seguiu o MPE: não cabe à Justiça Eleitoral definir o que cada candidato divulga. Nenhum dos dois chegou a publicar os dados.",
       "texto_completo": "Segundo a Folha (05/11, 16h35) e O Globo, o ministro André Mendonça (TSE) extinguiu sem resolução do mérito o processo em que Lula e Flávio haviam formalizado o desafio do debate da Band para abertura de sigilos bancário, fiscal e telefônico (e de familiares). Mendonça acompanhou o MPE e citou Celso de Mello: não cabe à Justiça Eleitoral definir o que cada candidato quer divulgar. Já em 22/10 ele havia dito que a divulgação espontânea era possível sem ordem do tribunal e que extratos pessoais não substituem investigações. As campanhas assinaram petições no TSE, mas até a eleição nenhum dos dois divulgou os dados por conta própria.",
@@ -36,7 +117,7 @@
     {
       "data": "06/11/2026",
       "fonte": "VEJA; UOL; The Guardian",
-      "novo": true,
+      "novo": false,
       "titulo": "Na CPAC em Mar-a-Lago, Flávio diz que \"não foi o fim\" e reitera fraude sem provas",
       "texto": "No jantar de gala da CPAC (05/11), Flávio subiu ao palco com Eduardo e Matt Schlapp, falou em \"grandes coisas\" por vir e disse que a derrota \"não foi o fim\" para o Brasil. Questionado como dizer \"eles roubaram a eleição\" em português, reiterou fraude sem apresentar provas. Trump não estava presente.",
       "texto_completo": "Segundo VEJA (06/11, 11h/12h23), UOL e The Guardian, Flávio fez sua primeira grande aparição pública nos EUA na noite de 05/11 no jantar de gala da CPAC em Mar-a-Lago, com Eduardo Bolsonaro e o ator Jim Caviezel. Ao lado de Matt Schlapp, afirmou que continuará lutando pelo Brasil a partir dos EUA, amparado pela maioria de direita no Congresso, e acusou o STF de opressão política. Disse: \"Sei que este não foi o fim para o Brasil e sei que não foi o fim para a América\" e que \"grandes coisas\" estão por vir. Questionado por Schlapp sobre como dizer \"eles roubaram a eleição\" em português, reiterou acusação de fraude na disputa brasileira sem apresentar provas. Trump não estava no evento. Em vídeo prévio da CPAC, Eduardo minimizou risco das midterms democratas aos vistos deles.",
@@ -45,7 +126,7 @@
     {
       "data": "06/11/2026",
       "fonte": "Folha de S.Paulo; UOL/RFI",
-      "novo": true,
+      "novo": false,
       "titulo": "Itália: cidadania de Flávio, Carlos e Eduardo foi reconhecida em 58 dias; oposição pedirá apuração",
       "texto": "Nesta sexta (06/11), no Parlamento italiano, o governo disse que Flávio, Carlos e Eduardo tiveram a cidadania reconhecida em 5/1/2023, 58 dias após apresentar documentos na Embaixada em Brasília. O governo diz que seguiu a lei da época; o deputado Angelo Bonelli fala em tramitação acelerada e anunciou denúncia na Justiça italiana. Flávio foi o 1º a obter o passaporte italiano (8/11/2023), usado na saída do Brasil.",
       "texto_completo": "Em 6/11/2026, no plenário da Câmara italiana, a subsecretária Matilde Siracusano informou que Flávio, Carlos e Eduardo Bolsonaro tiveram a cidadania italiana reconhecida em 5 de janeiro de 2023, 58 dias após a apresentação dos documentos na Embaixada da Itália em Brasília (convocação em 8/11/2022). Eduardo entrou na lista de espera em 2020; Carlos e Flávio em 2021; os três foram convocados juntos. O governo negou irregularidade. O deputado de oposição Angelo Bonelli (Aliança Verde e de Esquerda) afirmou ver procedimento acelerado frente à espera histórica de cerca de dez anos em consulados no Brasil e anunciou denúncia na Justiça italiana por possível tratamento preferencial e pressões políticas, citando a proximidade com Matteo Salvini. Flávio obteve o passaporte italiano em 8/11/2023; Eduardo e Carlos entre abril e junho de 2024. Fontes: Folha de S.Paulo e UOL/RFI.",
@@ -54,7 +135,7 @@
     {
       "data": "06/11/2026",
       "fonte": "X (@FlavioBolsonaro)",
-      "novo": true,
+      "novo": false,
       "titulo": "Flávio posta três vídeos no X: fala em \"eleição matematicamente impossível\" e ataca a Justiça",
       "texto": "Na noite de 05/11 e na manhã de 06/11 (horário de Brasília), Flávio publicou três vídeos: um convidando a \"fazer as contas\" sobre uma \"eleição matematicamente impossível\"; outro dizendo que a Justiça \"vive a serviço de um único homem e de sua vingança pessoal\"; e outro afirmando ter visto \"a dor da injustiça\" nos olhos do pai.",
       "texto_completo": "Posts de Flávio Bolsonaro no X (@FlavioBolsonaro) com vídeos:\n\n1) 05/11/2026, 21h20 (Brasília): \"UMA ELEIÇÃO MATEMATICAMENTE IMPOSSÍVEL! Vem fazer as contas comigo e me diz o que você acha nos comentários\" — https://x.com/FlavioBolsonaro/status/2118498848704205125\n\n2) 05/11/2026, 23h01 (Brasília): \"A Justiça brasileira vive a serviço de um único homem e de sua vingança pessoal. Isso não é Justiça! Isso não é democracia!\" — https://x.com/FlavioBolsonaro/status/2118524208305041708\n\n3) 06/11/2026, 9h17 (Brasília): \"Eu vi a dor da injustiça nos olhos do meu pai e não desejo isso para ninguém.\" — https://x.com/FlavioBolsonaro/status/2118679247393022083",
@@ -63,7 +144,7 @@
     {
       "data": "06/11/2026",
       "fonte": "Folha de S.Paulo (C-Level)",
-      "novo": true,
+      "novo": false,
       "titulo": "Empresa ligada a Willer Tomaz repassou R$ 17,7 mi à empresa de Virginia Fonseca",
       "texto": "Segundo a Folha (06/11), a AMP Pay, atribuída pela PF a Willer Tomaz (amigo de Flávio e alvo do mesmo inquérito de lavagem via apostas), transferiu R$ 17,7 milhões à Talismã Digital, de Virginia Fonseca, em cinco Pix entre março e setembro de 2024. O Santander comunicou o Coaf. A assessoria de Virginia diz que foram campanhas publicitárias; Willer não respondeu. Flávio também é investigado no esquema.",
       "texto_completo": "Reportagem da Folha (C-Level) de 6/11/2026: a AMP Pay Marketing e Negócios, empresa atribuída pela PF ao advogado Willer Tomaz, repassou R$ 17,7 milhões à Talismã Digital, da influenciadora Virginia Fonseca, em cinco remessas via Pix entre março e setembro de 2024 — ano em que Virginia fazia propaganda para a Blaze. O Santander considerou as operações atípicas e as comunicou ao Coaf. A assessoria de Virginia afirmou que os pagamentos foram para campanhas publicitárias contratadas e que ela não conhece Willer. Willer não respondeu. Willer e Flávio Bolsonaro são investigados no STF por suspeita de lavagem envolvendo empresas de Willer e casas de apostas. A PF aponta a AMP Pay no núcleo de primeira camada de pessoas jurídicas usadas por Willer; Guilherme Maciel, sócio cadastrado, nega relação com Willer.",
@@ -72,7 +153,7 @@
     {
       "data": "06/11/2026",
       "fonte": "O Dia Político",
-      "novo": true,
+      "novo": false,
       "titulo": "Governo dos EUA · Deputado democrata Robert Garcia pede a Rubio que Flávio seja enviado de volta ao Brasil",
       "texto": "Segundo O Dia Político (05/11), Robert Garcia (D-CA), principal democrata do Comitê de Supervisão da Câmara dos EUA, enviou carta a Marco Rubio em 02/11 pedindo que Flávio seja enviado ao Brasil, explicações sobre a base legal dos vistos, registros de comunicações entre Casa Branca, Departamento de Estado, DHS, Jason Miller e autoridades argentinas, e documentos sobre apoio da Rockbridge Network. Prazo para resposta: 13/11. É cobrança política de parlamentar, não ordem de deportação; não há decisão oficial mandando Flávio sair dos EUA. Sobre Magnitsky: OFAC (recent actions até 05/11) não traz Moraes, esposa ou Instituto Lex; sanção segue suspensa desde 12/12/2025 e relatos de nova sanção seguem sem confirmação oficial.",
       "texto_completo": "Segundo O Dia Político (05/11), Robert Garcia (D-CA), principal democrata do Comitê de Supervisão da Câmara dos EUA, enviou carta a Marco Rubio em 02/11 pedindo que Flávio seja enviado ao Brasil, explicações sobre a base legal dos vistos, registros de comunicações entre Casa Branca, Departamento de Estado, DHS, Jason Miller e autoridades argentinas, e documentos sobre apoio da Rockbridge Network. Prazo para resposta: 13/11. É cobrança política de parlamentar, não ordem de deportação; não há decisão oficial mandando Flávio sair dos EUA. Sobre Magnitsky: OFAC (recent actions até 05/11) não traz Moraes, esposa ou Instituto Lex; sanção segue suspensa desde 12/12/2025 e relatos de nova sanção seguem sem confirmação oficial.",
@@ -81,7 +162,7 @@
     {
       "data": "06/11/2026",
       "fonte": "O Globo",
-      "novo": true,
+      "novo": false,
       "titulo": "Flávio fica em Mar-a-Lago para reuniões reservadas com republicanos após discursar na CPAC",
       "texto": "Segundo O Globo (06/11, 3h30), Flávio discursou na quinta (05/11) no jantar de gala da CPAC em Mar-a-Lago e deve ficar na sexta para conversas reservadas com republicanos, incluindo um brunch com o senador Rick Scott. Aliados falam em possível viagem a Washington; não há confirmação de encontro com Marco Rubio ou outras autoridades.",
       "texto_completo": "Segundo O Globo (06/11, 3h30), Flávio discursou na quinta (05/11) no jantar de gala da CPAC em Mar-a-Lago e deve ficar na sexta para conversas reservadas com republicanos, incluindo um brunch com o senador Rick Scott. Aliados falam em possível viagem a Washington; não há confirmação de encontro com Marco Rubio ou outras autoridades.",
@@ -90,7 +171,7 @@
     {
       "data": "06/11/2026",
       "fonte": "UOL; Valor Econômico",
-      "novo": true,
+      "novo": false,
       "titulo": "Ao New York Times, Flávio diz que levará \"para o túmulo\" como saiu do Brasil e que disputaria nova eleição",
       "texto": "Em entrevista publicada em 05/11, Flávio negou ajuda de qualquer governo na saída do Brasil e disse que voltaria e disputaria a Presidência se houvesse novas eleições. A versão contrasta com NYT e WSJ, que citam Jason Miller na organização do voo. Rubio disse que não houve ação institucional dos EUA.",
       "texto_completo": "Em entrevista publicada em 05/11, Flávio negou ajuda de qualquer governo na saída do Brasil e disse que voltaria e disputaria a Presidência se houvesse novas eleições. A versão contrasta com NYT e WSJ, que citam Jason Miller na organização do voo. Rubio disse que não houve ação institucional dos EUA.",
@@ -99,7 +180,7 @@
     {
       "data": "06/11/2026",
       "fonte": "VEJA",
-      "novo": true,
+      "novo": false,
       "titulo": "Flávio nomeou dois novos assessores no Senado em 03/11 e votou remotamente",
       "texto": "Segundo a VEJA (06/11), no dia 3 ele nomeou um auxiliar parlamentar sênior (cerca de R$ 9 mil) e um pleno (cerca de R$ 8 mil), e votou por sistema remoto na sessão da PEC da Segurança Pública. O gabinete tem 21 assessores.",
       "texto_completo": "Segundo a VEJA (06/11), no dia 3 ele nomeou um auxiliar parlamentar sênior (cerca de R$ 9 mil) e um pleno (cerca de R$ 8 mil), e votou por sistema remoto na sessão da PEC da Segurança Pública. O gabinete tem 21 assessores.",
@@ -108,7 +189,7 @@
     {
       "data": "06/11/2026",
       "fonte": "UOL",
-      "novo": true,
+      "novo": false,
       "titulo": "Flávio encontra o ator Jim Caviezel (Dark Horse) em Mar-a-Lago",
       "texto": "Segundo o UOL (06/11), o encontro ocorreu em 05/11 durante a CPAC e foi divulgado por Eduardo Bolsonaro no X.",
       "texto_completo": "Segundo o UOL (06/11), o encontro ocorreu em 05/11 durante a CPAC e foi divulgado por Eduardo Bolsonaro no X.",
@@ -971,12 +1052,12 @@
     }
   ],
   "status_novos": [
+    "Pedido de prisão",
+    "Passaporte",
     "Mandato no Senado",
-    "Afastar Moraes",
-    "Coletiva em Miami",
     "Visto dos EUA",
-    "Argentina"
+    "Coletiva em Miami"
   ],
   "contra": "× Alexandre de Moraes",
-  "assunto": "Na CPAC em Mar-a-Lago, Flávio diz que \"não foi o fim\" e reitera fraude sem provas"
+  "assunto": "Flávio critica Moraes por barrar visitas a Bolsonaro e chama o Senado de \"última trincheira\""
 }
