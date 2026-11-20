@@ -1,16 +1,32 @@
 {
-  "novidade_id": "2026-11-06 12:30",
-  "atualizado_em": "06/11/2026 12:29",
+  "novidade_id": "2026-11-20 10:20",
+  "atualizado_em": "20/11/2026 10:20",
   "contra": "Diário Oficial do Município",
-  "assunto": "trocas no 1º escalão: secretários, subsecretários e presidência/vice-presidência de empresas e autarquias municipais",
+  "assunto": "trocas no 1º escalão: secretários, subsecretários, chefes de gabinete e presidência/vice-presidência de empresas e autarquias municipais",
   "resumo": "Lista única de quem entrou e quem saiu. Cada card é uma troca publicada no Diário Oficial do Município do Rio.",
   "status": {
     "Fonte": "D.O. Rio (doweb.rio.rj.gov.br)",
-    "Escopo": "Secretário, Subsecretário e cúpula de empresa/autarquia",
-    "Período varrido": "16/09 a 06/11/2026 (edições principais; mains 03/11 nº156, 04/11 nº157, 05/11 nº158, 06/11 nº159)"
+    "Escopo": "Secretário, Subsecretário, Chefe de Gabinete e cúpula de empresa/autarquia",
+    "Período varrido": "16/09 a 19/11/2026 (edições principais; última main: 19/11 nº168, id 15018)"
   },
-  "status_novos": [],
+  "status_novos": [
+    "Escopo"
+  ],
   "itens": [
+    {
+      "data": "13/11/2026",
+      "novo": true,
+      "tipo": "troca",
+      "pessoa_entrou": "Andréa Henrique de Almeida",
+      "pessoa_saiu": "Nathalie Maria Loureiro da Cruz",
+      "cargo": "Chefe de Gabinete (DAS-10.B)",
+      "orgao": "Secretaria Municipal de Meio Ambiente e Clima",
+      "titulo": "Entrou Andréa Henrique de Almeida no lugar de Nathalie Maria Loureiro da Cruz",
+      "texto": "Chefe de Gabinete da Secretaria Municipal de Meio Ambiente e Clima. Nomeação de Andréa Henrique de Almeida e exoneração de Nathalie Maria Loureiro da Cruz do mesmo cargo, publicadas no D.O. Rio nº 164.",
+      "fonte": "D.O. Rio nº 164 · 13/11/2026",
+      "url": "https://doweb.rio.rj.gov.br/portal/visualizacoes/html/15013/#e:15013",
+      "texto_completo": "No Diário Oficial do Município do Rio de 13/11/2026 (edição nº 164, id 15013), a Secretaria Municipal da Casa Civil publicou as Resoluções “P” nº 329 e 330:\n\n• Nomear Andréa Henrique de Almeida para o cargo de Chefe de Gabinete, símbolo DAS-10.B, da Secretaria Municipal de Meio Ambiente e Clima.\n\n• Exonerar Nathalie Maria Loureiro da Cruz do mesmo cargo de Chefe de Gabinete (DAS-10.B) da Secretaria Municipal de Meio Ambiente e Clima.\n\nLeitura: troca no mesmo posto. Visualização: https://doweb.rio.rj.gov.br/portal/visualizacoes/html/15013/#e:15013"
+    },
     {
       "data": "03/11/2026",
       "novo": true,
