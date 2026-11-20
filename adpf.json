@@ -1,6 +1,6 @@
 {
-  "novidade_id": "2026-11-17 17:50",
-  "atualizado_em": "17/11/2026 17:50",
+  "novidade_id": "2026-11-20 08:55",
+  "atualizado_em": "20/11/2026 08:55",
   "status": {
     "relator": "Min. Cristiano Zanin",
     "liminar": "Indeferida em 12/11/2026 (decisão monocrática de Zanin). Mérito ainda não julgado.",
@@ -75,13 +75,22 @@
   ],
   "andamentos": [
     {
+      "data": "19/11/2026",
+      "titulo": "Imprensa (G1, Conjur, Metrópoles): PSD interpõe agravo regimental contra a decisão de Zanin na ADPF 1362",
+      "texto": "Segundo G1 e Conjur, o PSD Nacional recorreu em 19/11 da decisão de Zanin que negou a liminar. Pede reconsideração ou levar o caso ao Plenário e, se não houver 2º turno antes, a suspensão da diplomação. Informação da imprensa; não encontrei o documento em fonte oficial.",
+      "texto_completo": "O g1 (19/11, 16h42) e a Conjur (19/11, 19h37) informaram que o PSD Nacional interpôs agravo regimental contra a decisão individual do ministro Cristiano Zanin, que em 12/11 negou a liminar na ADPF 1362. Segundo as reportagens, o partido pede que Zanin reconsidere e conceda a liminar; se ele mantiver o entendimento, que a questão seja submetida ao Plenário do STF.\n\nO PSD pede que o novo voto ocorra antes da diplomação ou, se isso for impossível, que a diplomação de Douglas Ruas seja suspensa até a definição do caso. Argumenta que a ADPF não é mero sucedâneo recursal, pois busca fixação de tese, cita a ADPF 33 e diz que não é parte no processo do TSE (onde recorrem a coligação de Paes e eleitores), logo não teria como recorrer ali.\n\nInformação baseada na imprensa; não encontrei a peça em fonte oficial nesta checagem (o portal do STF não foi acessível). Não há notícia de nova decisão de Zanin sobre o agravo nem de data de julgamento no Plenário.",
+      "fonte": "G1 / Conjur",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/11/19/psd-recorre-ao-stf-por-2o-turno-no-rj-e-pede-suspensao-da-diplomacao-ate-decisao.ghtml",
+      "novo": true
+    },
+    {
       "data": "17/11/2026",
       "titulo": "CNN Brasil: defesa de Paes cobra do TSE sessão para julgar embargos e cita decisão de Zanin na ADPF 1362",
       "texto": "Segundo a CNN Brasil, a defesa da coligação de Eduardo Paes pediu ao TSE nesta terça (17) que marque sessão para julgar os embargos de declaração pelo 2º turno no RJ, citando a decisão de Zanin na ADPF 1362. Informação baseada na imprensa; não encontrei documento oficial.",
       "texto_completo": "A CNN Brasil informou, em reportagem de 17/11 às 17h22, que a defesa da Coligação Juntos Para Mudar Coragem Para Reconstruir, de Eduardo Paes (PSD), cobrou nesta terça-feira (17) que o TSE marque uma sessão para analisar o recurso (embargos de declaração) pela realização do segundo turno no Rio.\n\nNa petição, a defesa cita a decisão do ministro Cristiano Zanin, relator da ADPF 1362 no STF, que registrou que o caso ainda não foi esgotado no TSE, onde os embargos aguardam julgamento, e que a ADPF não serve de atalho às vias recursais. A defesa pede celeridade e sustenta que votos dados a candidato que constava da urna, como Garotinho, não equivalem a votos nulos, e que os embargos devem ser acolhidos para suprir a omissão apontada.\n\nInformação baseada na imprensa; não encontrei a petição em fonte oficial nesta checagem. Não há notícia de nova decisão no STF nem de data de julgamento no TSE.",
       "fonte": "CNN Brasil",
       "url": "https://www.cnnbrasil.com.br/eleicoes/coligacao-de-paes-cobra-julgamento-no-tse-de-recurso-por-2o-turno-no-rj/",
-      "novo": true
+      "novo": false
     },
     {
       "data": "13/11/2026",
